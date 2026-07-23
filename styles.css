@@ -1,10 +1,10 @@
 :root {
-  --display-font: "Franklin Gothic Extra Condensed", "Arial Narrow", sans-serif;
+  --display-font: "Franklin Gothic Extra Condensed", "Futura Cyrillic Book", sans-serif;
 }
 
 @font-face {
   font-family: "Franklin Gothic Extra Condensed";
-  src: url("assets/fonts/franklin-gothic-extra-condensed.otf") format("opentype");
+  src: url("assets/fonts/franklin-gothic-extra-condensed.otf","assets/fonts/futura-pt/FuturaCyrillicBook.ttf") format("opentype","truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -32,7 +32,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: var(--display-font);
+  font-family: "Futura Cyrillic Book";
   font-size: 14px;
   line-height: 1.35;
 }
