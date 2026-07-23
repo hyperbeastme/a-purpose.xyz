@@ -1,4 +1,16 @@
 :root {
+  --display-font: "Franklin Gothic Extra Condensed", "Arial Narrow", sans-serif;
+}
+
+@font-face {
+  font-family: "Franklin Gothic Extra Condensed";
+  src: url("assets/fonts/franklin-gothic-extra-condensed.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
   --paper: #ffffff;
   --ink: #111111;
   --muted: #6c6c6c;
@@ -86,9 +98,11 @@ footer a:hover {
   margin: 0;
   max-width: 800px;
   font-size: clamp(45px, 7.5vw, 116px);
+  font-family: var(--display-font);
   font-weight: 400;
-  line-height: 0.93;
-  letter-spacing: -0.055em;
+  line-height: 0.86;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
 }
 
 .intro > p {
@@ -104,6 +118,10 @@ footer a:hover {
   row-gap: clamp(110px, 18vw, 280px);
 }
 
+.projects-six:has(.project:only-child) {
+  padding-bottom: 14vh;
+}
+
 .project {
   min-width: 0;
 }
@@ -117,7 +135,7 @@ footer a:hover {
 }
 
 .project-featured {
-  grid-column: 1 / 10;
+  grid-column: 1 / 8;
 }
 
 .project-featured figcaption,
@@ -255,9 +273,11 @@ footer {
 .project-intro h1 {
   margin: 0;
   font-size: clamp(58px, 10vw, 150px);
+  font-family: var(--display-font);
   font-weight: 400;
-  line-height: 0.9;
-  letter-spacing: -0.06em;
+  line-height: 0.86;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
 }
 
 .project-subtitle {
