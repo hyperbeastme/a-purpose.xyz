@@ -80,6 +80,24 @@ img {
   gap: clamp(18px, 2.5vw, 42px);
 }
 
+.home-header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+}
+
+.home-header .name {
+  justify-self: start;
+}
+
+.site-domain {
+  justify-self: center;
+  font-weight: 600;
+}
+
+.home-header nav {
+  justify-self: end;
+}
+
 .site-header nav a,
 .about-links a,
 .project-nav a,
@@ -518,3 +536,77 @@ footer {
     margin-top: 0;
   }
 
+  .project-featured figcaption,
+  .project-meta {
+    font-size: 12px;
+  }
+
+  .about {
+    display: block;
+  }
+
+  .about-copy {
+    margin-top: 55px;
+  }
+
+  .about-links {
+    flex-wrap: wrap;
+    margin-top: 45px;
+  }
+
+  .project-intro {
+    display: block;
+    padding-top: 14vh;
+  }
+
+  .project-number {
+    margin-bottom: 42px;
+  }
+
+  .concept,
+  .details {
+    display: block;
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+  }
+
+  .concept > p:last-child,
+  .detail-list {
+    margin-top: 45px;
+  }
+
+  .editorial-grid {
+    display: block;
+    margin-top: 14vh;
+    margin-bottom: 14vh;
+  }
+
+  .editorial-item {
+    width: 84%;
+    margin: 0 0 100px;
+  }
+
+  .item-b,
+  .item-d {
+    width: 76%;
+    margin-left: auto;
+  }
+
+  .editorial-note {
+    margin-bottom: 100px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .project img {
+    transition: none;
+  }
+
+  .feature-cover img {
+    transition: none;
+  }
+}
