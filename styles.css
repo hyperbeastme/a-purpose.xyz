@@ -1,10 +1,19 @@
 :root {
-  --display-font: "Franklin Gothic Extra Condensed", "Futura Cyrillic Book", sans-serif;
+  --display-font: "Franklin Gothic Extra Condensed", "Arial Narrow", sans-serif;
+  --body-font: "Futura Cyrillic Book", Futura, Arial, sans-serif;
 }
 
 @font-face {
   font-family: "Franklin Gothic Extra Condensed";
-  src: url("assets/fonts/franklin-gothic-extra-condensed.otf","assets/fonts/futura-pt/FuturaCyrillicBook.ttf") format("opentype","truetype");
+  src: url("assets/fonts/franklin-gothic-extra-condensed.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura Cyrillic Book";
+  src: url("assets/fonts/futura-pt/FuturaCyrillicBook.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -32,7 +41,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: "Futura Cyrillic Book";
+  font-family: var(--body-font);
   font-size: 14px;
   line-height: 1.35;
 }
@@ -49,7 +58,7 @@ a:focus-visible {
 
 img {
   display: block;
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 
@@ -509,77 +518,3 @@ footer {
     margin-top: 0;
   }
 
-  .project-featured figcaption,
-  .project-meta {
-    font-size: 12px;
-  }
-
-  .about {
-    display: block;
-  }
-
-  .about-copy {
-    margin-top: 55px;
-  }
-
-  .about-links {
-    flex-wrap: wrap;
-    margin-top: 45px;
-  }
-
-  .project-intro {
-    display: block;
-    padding-top: 14vh;
-  }
-
-  .project-number {
-    margin-bottom: 42px;
-  }
-
-  .concept,
-  .details {
-    display: block;
-    margin-top: 12vh;
-    margin-bottom: 12vh;
-  }
-
-  .concept > p:last-child,
-  .detail-list {
-    margin-top: 45px;
-  }
-
-  .editorial-grid {
-    display: block;
-    margin-top: 14vh;
-    margin-bottom: 14vh;
-  }
-
-  .editorial-item {
-    width: 84%;
-    margin: 0 0 100px;
-  }
-
-  .item-b,
-  .item-d {
-    width: 76%;
-    margin-left: auto;
-  }
-
-  .editorial-note {
-    margin-bottom: 100px;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-
-  .project img {
-    transition: none;
-  }
-
-  .feature-cover img {
-    transition: none;
-  }
-}
