@@ -60,7 +60,7 @@ body {
 
 .header-center {
     position:absolute;
-    align: center;
+    text-align: center;
     left:50%;
     transform:translateX(-50%);
 }
