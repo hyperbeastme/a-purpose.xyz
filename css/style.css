@@ -20,6 +20,9 @@ body {
 }
 
 
+.header {
+    border:1px solid red;
+}
 
 .header {
 
@@ -131,6 +134,9 @@ body {
 
 /* LANDING */
 
+.landing {
+    border:1px solid red;
+}
 
 .landing {
     
@@ -230,6 +236,9 @@ body {
 
 /* PROJECT SECTIONS */
 
+.preview-eternal-bonds {
+    border:1px solid red;
+}
 
 .preview-eternal-bonds {
 
@@ -246,7 +255,7 @@ body {
     position:absolute;
     left:80px;
     top:100px;
-    width:400px;
+    width:auto;
 }
 
 
@@ -255,7 +264,7 @@ body {
     position:absolute;
     left:500px;
     top:200px;
-    width:300px;
+    width:auto;
 }
 
 
@@ -263,7 +272,7 @@ body {
     position:absolute;
     right:80px;
     top:150px;
-    width:350px;
+    width:auto;
 }
 
 
@@ -271,7 +280,7 @@ body {
     position:absolute;
     left:80px;
     top:700px;
-    width:400px;
+    width:auto;
 
 }
 
@@ -279,7 +288,7 @@ body {
     position:absolute;
     left:80px;
     top:100px;
-    width:400px;
+    width:auto;
 }
 
 
@@ -288,7 +297,7 @@ body {
     position:absolute;
     left:500px;
     top:200px;
-    width:300px;
+    width:auto;
 }
 
 
@@ -296,7 +305,7 @@ body {
     position:absolute;
     right:80px;
     top:150px;
-    width:350px;
+    width:auto;
 }
 
 
@@ -304,14 +313,14 @@ body {
     position:absolute;
     left:80px;
     top:700px;
-    width:400px;
+    width:auto;
 }
 
 .eternal-bonds-09 {
     position:absolute;
     left:80px;
     top:100px;
-    width:400px;
+    width:auto;
 }
 
 
@@ -320,7 +329,7 @@ body {
     position:absolute;
     left:500px;
     top:200px;
-    width:300px;
+    width:auto;
 }
 
 
@@ -328,7 +337,7 @@ body {
     position:absolute;
     right:80px;
     top:150px;
-    width:350px;
+    width:auto;
 }
 
 
@@ -336,13 +345,13 @@ body {
     position:absolute;
     left:80px;
     top:700px;
-    width:400px;
+    width:auto;
 }
 
 .eternal-bonds-13 {
     position:absolute;
     left:80px;
-    bottom:80px;
+    bottom:auto;
 }
 
 .project-preview a {
@@ -360,6 +369,9 @@ body {
 
 /* ABOUT */
 
+.about {
+    border:1px solid red;
+}
 
 .about {
 
