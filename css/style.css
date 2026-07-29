@@ -133,15 +133,13 @@ body {
 
 
 .landing {
-
+    
     width:1440px;
     height:1024px;
 
-    margin:auto;
+    margin:0 auto;
 
     position:relative;
-
-    padding-top:80px;
 
 }
 
