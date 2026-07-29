@@ -45,6 +45,7 @@ body {
 
 .header-left {
     
+    font-weight: 100px;
     font-size:30px;
 
 }
@@ -80,13 +81,7 @@ body {
     align-items:center;
     gap:35px;
 
-}
-
-
-.header-right a {
-
-    text-decoration:none;
-    color:black;
+    font-weight: 100px;
 
 }
 
@@ -94,8 +89,8 @@ body {
 
 .header-right img {
 
-    width:22px;
-    height:22px;
+    width:26px;
+    height:26px;
 
 }
 
@@ -139,13 +134,13 @@ body {
 
     position:absolute;
 
-    right:20px;
+    right:0px;
     top:350px;
 
     margin:0;
 
     text-align: left;
-    font-size:67px;
+    font-size:56px;
 
     line-height:1.15;
 
