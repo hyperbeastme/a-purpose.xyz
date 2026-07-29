@@ -114,11 +114,11 @@ body {
     position:absolute;
 
     left:80px;
-    bottom:0px;
+    bottom:-20px;
 
     width:265px;
     height:435px;
-    max-width:375px;
+
 
 }
 
