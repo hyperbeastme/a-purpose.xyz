@@ -270,7 +270,9 @@ body {
 .eternal-bonds-04 {
     position:absolute;
     left:80px;
-    bottom:80px;
+    top:700px;
+    width:400px;
+
 }
 
 .eternal-bonds-05 {
@@ -301,7 +303,8 @@ body {
 .eternal-bonds-08 {
     position:absolute;
     left:80px;
-    bottom:80px;
+    top:700px;
+    width:400px;
 }
 
 .eternal-bonds-09 {
@@ -332,7 +335,8 @@ body {
 .eternal-bonds-12 {
     position:absolute;
     left:80px;
-    bottom:80px;
+    top:700px;
+    width:400px;
 }
 
 .eternal-bonds-13 {
