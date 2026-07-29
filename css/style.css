@@ -31,7 +31,6 @@ body {
 
     display:flex;
     align-items:center;
-    justify-content:space-between;
 
     padding:0 80px;
 
@@ -40,7 +39,30 @@ body {
     background:white;
 
 }
+.header-left {
+    display:flex;
+    align-items:center;
+}
 
+
+.header-center {
+    position:absolute;
+
+    left:50%;
+    transform:translateX(-50%);
+}
+
+
+.header-right {
+
+    margin-left:auto;
+
+    display:flex;
+    align-items:center;
+
+    gap:32px;
+
+}
 
 
 .header-left {
@@ -51,7 +73,7 @@ body {
 }
 .header-center {
     
-    font-size:50px;
+    font-size:45px;
     font-weight:500px;
     font-style: normal;
     
