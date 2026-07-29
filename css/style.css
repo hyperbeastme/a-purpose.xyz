@@ -120,9 +120,9 @@ body {
     position:absolute;
 
     left:80px;
-    bottom: -100px;
+    bottom: 80px;
 
-    width:265px;
+    width:215px;
     height:auto;
 
 
@@ -133,16 +133,19 @@ body {
 .landing-statement {
 
     position:absolute;
-
+    left:1150px;
     right:0px;
-    top:350px;
+    width: 315px;
+
+    top: 330px;
+
+    font-size: 67px;
+    line-height: 1.1;
 
     margin:0;
 
     text-align: left;
-    font-size:56px;
-
-    line-height:1.15;
+    font-size:48px;
 
     font-weight:400;
 
