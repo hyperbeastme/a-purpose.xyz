@@ -1,0 +1,276 @@
+* {
+    box-sizing:border-box;
+}
+
+
+html {
+    scroll-behavior:smooth;
+}
+
+
+body {
+
+    margin:0;
+    background:white;
+
+    font-family:"futura-pt", sans-serif;
+
+    overflow-x:hidden;
+
+}
+
+
+
+.header {
+
+    width:100%;
+    height:80px;
+
+    position:fixed;
+    top:0;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    padding:0 80px;
+
+    z-index:100;
+
+    background:white;
+
+}
+
+
+
+.header-left,
+.header-center,
+.header-right {
+
+    font-size:28px;
+
+}
+
+
+
+.header-center {
+
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+
+}
+
+
+
+.header-right {
+
+    display:flex;
+    align-items:center;
+    gap:35px;
+
+}
+
+
+.header-right a {
+
+    text-decoration:none;
+    color:black;
+
+}
+
+
+
+.header-right img {
+
+    width:22px;
+    height:22px;
+
+}
+
+
+
+
+/* LANDING */
+
+
+.landing {
+
+    width:1440px;
+    height:1024px;
+
+    margin:auto;
+
+    position:relative;
+
+    padding-top:80px;
+
+}
+
+
+
+.landing-image {
+
+    position:absolute;
+
+    left:80px;
+    bottom:80px;
+
+    max-width:375px;
+
+}
+
+
+
+.landing-statement {
+
+    position:absolute;
+
+    right:80px;
+    top:330px;
+
+    margin:0;
+
+    font-size:50px;
+
+    line-height:1.15;
+
+    font-weight:400;
+
+    letter-spacing:-0.5px;
+
+}
+
+
+
+
+/* SPACING */
+
+
+.space {
+
+    width:1440px;
+    margin:auto;
+
+}
+
+
+.space-160 {
+
+    height:160px;
+
+}
+
+
+.space-100 {
+
+    height:100px;
+
+}
+
+
+.space-300 {
+
+    height:300px;
+
+}
+
+
+.space-375 {
+
+    height:375px;
+
+}
+
+
+
+
+
+/* PROJECT SECTIONS */
+
+
+.project-preview {
+
+    width:1440px;
+
+    height:1024px;
+
+    margin:auto;
+
+    position:relative;
+
+}
+
+
+
+.project-preview a {
+
+    display:block;
+
+    width:100%;
+    height:100%;
+
+}
+
+
+
+
+
+/* ABOUT */
+
+
+.about {
+
+    width:1440px;
+    height:475px;
+
+    margin:auto;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:80px;
+
+}
+
+
+
+.about img {
+
+    width:250px;
+
+}
+
+
+
+.about-text {
+
+    width:500px;
+
+    font-size:32px;
+
+}
+
+
+
+
+
+/* FOOTER */
+
+
+footer {
+
+    width:1440px;
+
+    height:170px;
+
+    margin:auto;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
