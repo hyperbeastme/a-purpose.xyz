@@ -259,7 +259,8 @@ body {
     position:absolute;
     left:80px;
     top:100px;
-    width:auto;
+    width:165px;
+    height:auto;
 }
 
 
@@ -268,7 +269,8 @@ body {
     position:absolute;
     left:500px;
     top:200px;
-    width:auto;
+    width:90px;
+    height:auto;
 }
 
 
@@ -276,7 +278,8 @@ body {
     position:absolute;
     right:80px;
     top:150px;
-    width:auto;
+    width:155px;
+    height:auto;
 }
 
 
@@ -285,6 +288,7 @@ body {
     left:80px;
     top:700px;
     width:auto;
+    height:auto;
 
 }
 
@@ -292,7 +296,8 @@ body {
     position:absolute;
     left:80px;
     top:100px;
-    width:auto;
+    width:487.5px;
+    height:auto;
 }
 
 
@@ -301,7 +306,8 @@ body {
     position:absolute;
     left:500px;
     top:200px;
-    width:auto;
+    width:170px;
+    height:auto;
 }
 
 
@@ -309,7 +315,8 @@ body {
     position:absolute;
     right:80px;
     top:150px;
-    width:auto;
+    width:200px;
+    height:auto;
 }
 
 
@@ -317,14 +324,16 @@ body {
     position:absolute;
     left:80px;
     top:700px;
-    width:auto;
+    width:220px;
+    height:auto;
 }
 
 .eternal-bonds-09 {
     position:absolute;
     left:80px;
     top:100px;
-    width:auto;
+    width:255px;
+    height:auto;
 }
 
 
@@ -333,7 +342,8 @@ body {
     position:absolute;
     left:500px;
     top:200px;
-    width:auto;
+    width:425px;
+    height:auto;
 }
 
 
@@ -341,7 +351,8 @@ body {
     position:absolute;
     right:80px;
     top:150px;
-    width:auto;
+    width:190px;
+    height:auto;
 }
 
 
@@ -349,13 +360,16 @@ body {
     position:absolute;
     left:80px;
     top:700px;
-    width:auto;
+    width:205px;
+    height:auto;
 }
 
 .eternal-bonds-13 {
     position:absolute;
     left:80px;
     bottom:auto;
+    width:223px;
+    height:auto;
 }
 
 .project-preview a {
