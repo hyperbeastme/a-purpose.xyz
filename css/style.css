@@ -43,11 +43,19 @@ body {
 
 
 
-.header-left,
-.header-center,
+.header-left {
+    
+    font-size:30px;
+
+}
+.header-center {
+    
+    font-size:52px;
+
+}
 .header-right {
 
-    font-size:28px;
+    font-size:30px;
 
 }
 
