@@ -51,6 +51,9 @@ body {
 .header-center {
     
     font-size:52px;
+    font-weight:500px;
+    font-style: normal;
+    
 
 }
 .header-right {
@@ -136,11 +139,12 @@ body {
 
     position:absolute;
 
-    right:80px;
+    right:20px;
     top:350px;
 
     margin:0;
 
+    text-align: left;
     font-size:67px;
 
     line-height:1.15;
