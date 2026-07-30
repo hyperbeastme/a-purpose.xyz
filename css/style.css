@@ -471,10 +471,9 @@ body {
 
 
 
-.preview-catelier {
+.catelier {
     border:1px solid red;
 }
-
 
 .catelier-01 {
     position:absolute;
@@ -573,13 +572,6 @@ body {
     height:auto;
 }
 
-.catelier-13 {
-    position:absolute;
-    right:91.15px;
-    top:0px;
-    width:223px;
-    height:auto;
-}
 
 .catelier-title {
     position:absolute;
