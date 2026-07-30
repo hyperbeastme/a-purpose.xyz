@@ -467,6 +467,123 @@ body {
     height:auto;
 }
 
+
+.catelier-01 {
+    position:absolute;
+    left:430.75px;
+    top:524px;
+    width:165px;
+    height:auto;
+}
+
+.catelier-02 {
+    position:absolute;
+    left:293px;
+    top:602.25px;
+    width:90px;
+    height:auto;
+}
+
+.catelier-03 {
+    position:absolute;
+    left:109.75px;
+    top:557px;
+    width:155px;
+    height:auto;
+}
+
+.catelier-04 {
+    position:absolute;
+    left:86.65px;
+    top:230.15px;
+    width:189px;
+    height:auto;
+
+}
+
+.catelier-05 {
+    position:absolute;
+    left:143.5px;
+    top:108.5px;
+    width:487.5px;
+    height:auto;
+}
+
+.catelier-06 {
+    position:absolute;
+    left:236px;
+    top:284.25px;
+    width:170px;
+    height:auto;
+}
+
+.catelier-07 {
+    position:absolute;
+    left:458.25px;
+    top:269.80px;
+    width:200px;
+    height:auto;
+}
+
+.catelier-08 {
+    position:absolute;
+    right:451.60px;
+    top:0px;
+    width:220px;
+    height:auto;
+}
+
+.catelier-09 {
+    position:absolute;
+    right:413px;
+    top:208.70px;
+    width:255px;
+    height:auto;
+}
+
+.catelier-10 {
+    position:absolute;
+    right:245.50px;
+    top:294px;
+    width:425px;
+    height:auto;
+}
+
+.catelier-11 {
+    position:absolute;
+    right:80px;
+    top:612.95px;
+    width:190px;
+    height:auto;
+}
+
+.catelier-12 {
+    position:absolute;
+    right:91.15px;
+    top:237.95px;
+    width:205px;
+    height:auto;
+}
+
+.catelier-13 {
+    position:absolute;
+    right:91.15px;
+    top:0px;
+    width:223px;
+    height:auto;
+}
+
+.catelier-title {
+    position:absolute;
+    left:335.60px;
+    bottom:0px;
+    width:334px;
+    height:auto;
+}
+
+
+
+
 .project-preview + .about {
     margin-top:300px;
 }
