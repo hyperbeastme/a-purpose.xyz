@@ -408,6 +408,7 @@ body {
 
     position:relative;
 
+    overflow:hidden;
 }
 
 .reflections-of-displacement-01 {
@@ -496,6 +497,15 @@ body {
     left:80px;
     bottom:125px;
     width:440px;
+    height:auto;
+}
+
+.reflections-title {
+
+    position:absolute;
+    right:96px;
+    bottom:0px;
+    width:573.38px;
     height:auto;
 }
 
