@@ -582,20 +582,24 @@ body {
 /* FOOTER */
 
 
-.footer-center {
+.footer {
 
-    
+    width:100%;
+    max-width:1440px;
 
     width:1440px;
-
     height:170px;
 
     margin:auto;
 
     display:flex;
-
     align-items:center;
+    justify-content:space-between;
+}
 
-    justify-content:center;
 
+.footer-center {
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
 }
