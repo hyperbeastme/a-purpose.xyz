@@ -138,6 +138,7 @@ body {
     border:1px solid red;
 }
 
+
 .landing {
 
     width:1440px;
@@ -505,59 +506,28 @@ body {
 }
 
 
-.about {
-
+..about {
     width:1440px;
-
     height:475px;
-
     margin:auto;
-
     position:relative;
-
-    display:flex;
-    
-    align-items:center;
 }
 
 
 .about img {
-
     position:absolute;
-
     left:80px;
-
     top:80px;
-
     width:280px;
-
-}
-
-
-.space-90px {
-
-    width:90px;
-
 }
 
 
 .about-text {
     position:absolute;
-
     left:385px;
     top:100px;
     width:500px;
-
-
-    font-size:46px;
-    font-weight:100;
-    letter-spacing:-0.25px;
-
-    font-style: italic;
-    
-    font-family: "futura-pt-condensed", sans-serif;
 }
-
 .about-text{ 
 
     text-decoration-color:#006837;
@@ -570,7 +540,9 @@ body {
 
 
 .footer {
-    width: 1440px;
+
+    width:100%;
+    max-width:1440px;
     height: 170px;
 
     margin: auto;
