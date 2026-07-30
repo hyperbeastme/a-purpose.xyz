@@ -536,16 +536,16 @@ body {
 
 .about img {
 
+    position:absolute;
     left:272px;
     top:50px;
     width:250px;
 
 }
 
-
-
 .about-text {
 
+    position:absolute;
     top:147.6px;
     right:245.7px;
     width:500px;
@@ -553,6 +553,7 @@ body {
     font-size:57px;
     
 }
+
 .about-text{ 
 
     text-decoration-color:#006837;
