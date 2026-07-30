@@ -528,15 +528,12 @@ body {
 
     align-items:center;
 
-    gap:80px;
-
 }
 
 
 
 .about img {
 
-    position:absolute;
     left:272px;
     bottom:618.40px;
     width:280px;
@@ -546,7 +543,6 @@ body {
 
 .about-text {
 
-    position:absolute;
     bottom:614.75px;
     right:245.7px;
     width:500px;
