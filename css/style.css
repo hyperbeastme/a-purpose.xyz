@@ -141,12 +141,14 @@ body {
 
 /* LANDING */
 
-.landing {
-    border:1px solid red;
+
+.landing-image + .eternal-bonds {
+    margin-top:160px;
 }
 
-.landing + .project-preview {
-    margin-top:300px;
+
+.landing {
+    border:1px solid red;
 }
 
 .landing {
@@ -213,7 +215,7 @@ body {
 }
 
 
-.preview-eternal-bonds + .preview-reflections-of-displacement {
+.preview-eternal-bonds + .preview-reflections {
 
     margin-top:100px;
 
@@ -361,6 +363,13 @@ body {
 }
 
 
+
+.preview-reflections + .preview-catelier {
+
+    margin-top:100px;
+
+}
+
 .preview-reflections-of-displacement {
     border:1px solid red;
 }
@@ -468,12 +477,9 @@ body {
 }
 
 
+.preview-catelier + .about {
 
-
-
-.preview-reflections-of-displacement + .preview-catelier {
-
-    margin-top:100px;
+    margin-top:300px;
 
 }
 
