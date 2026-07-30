@@ -379,8 +379,17 @@ body {
 
 }
 
-.preview-reflections-of-displacement {
+.preview-reflections {
     border:1px solid red;
+}
+
+.preview-reflections {
+
+    width:1440px;
+    height:1024px;
+    margin:auto;
+    position:relative;
+
 }
 
 .reflections {
