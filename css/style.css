@@ -421,90 +421,90 @@ body {
 
 .reflections-of-displacement-01 {
     position:absolute;
-    left:430.75px;
-    top:524px;
-    width:165px;
+    left:469.25px;
+    top:418px;
+    width:200.75px;
     height:auto;
 }
 
 .reflections-of-displacement-02 {
     position:absolute;
-    left:293px;
-    top:602.25px;
-    width:90px;
+    left:446px;
+    top:100px;
+    width:199.81px;
     height:auto;
 }
 
 .reflections-of-displacement-03 {
     position:absolute;
-    left:109.75px;
-    top:557px;
-    width:155px;
+    right:87px;
+    top:110.75px;
+    width:281.87px;
     height:auto;
 }
 
 .reflections-of-displacement-04 {
     position:absolute;
-    left:86.65px;
-    top:230.15px;
-    width:189px;
+    right:521.87px;
+    bottom:361.30px;
+    width:132px;
     height:auto;
 
 }
 
 .reflections-of-displacement-05 {
     position:absolute;
-    left:143.5px;
-    top:108.5px;
-    width:487.5px;
+    right:514.80px;
+    bottom:275px;
+    width:155.17px;
     height:auto;
 }
 
 .reflections-of-displacement-06 {
     position:absolute;
-    left:236px;
-    top:284.25px;
-    width:170px;
+    right:87px;
+    top:257.60px;
+    width:85.5px;
     height:auto;
 }
 
 .reflections-of-displacement-07 {
     position:absolute;
-    left:458.25px;
-    top:269.80px;
-    width:200px;
+    left:363px;
+    top:100px;
+    width:210px;
     height:auto;
 }
 
 .reflections-of-displacement-08 {
     position:absolute;
-    right:451.60px;
-    top:0px;
+    right:460.75px;
+    top:100px;
     width:220px;
     height:auto;
 }
 
 .reflections-of-displacement-09 {
     position:absolute;
-    right:413px;
-    top:208.70px;
-    width:255px;
+    left:535.8px;
+    bottom:163.90px;
+    width:187.8px;
     height:auto;
 }
 
 .reflections-of-displacement-10 {
     position:absolute;
-    right:245.50px;
-    top:294px;
-    width:425px;
+    left:511.5px;
+    bottom:388.25px;
+    width:270px;
     height:auto;
 }
 
 .reflections-of-displacement-11 {
     position:absolute;
-    right:80px;
-    top:612.95px;
-    width:190px;
+    left:80px;
+    bottom:125px;
+    width:440px;
     height:auto;
 }
 
@@ -556,8 +556,8 @@ body {
     height:auto;
 
 
-    font-size:57px;
-    font-weight:200;
+    font-size:46px;
+    font-weight:100;
     letter-spacing:-0.25px;
 
     font-style: italic;
