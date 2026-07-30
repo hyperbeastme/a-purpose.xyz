@@ -548,20 +548,28 @@ body {
 
     position:absolute;
     left:272px;
-    top:50px;
-    width:250px;
+    bottom:618.40px;
+    width:280px;
+    height:auto;
 
 }
 
 .about-text {
 
     position:absolute;
-    top:147.6px;
+    bottom:614.75px;
     right:245.7px;
     width:500px;
+    height:auto;
+
 
     font-size:57px;
+    font-weight:200;
+    letter-spacing:-0.25px;
+
+    font-style: italic;
     
+    font-family: "futura-pt-condensed", sans-serif;
 }
 
 .about-text{ 
