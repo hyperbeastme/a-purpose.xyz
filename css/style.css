@@ -141,10 +141,8 @@ body {
 .landing {
     
     width:1440px;
-    height:944px;
-
-    margin:0 auto;
-
+    height:944px; /* 1024 - 80px header */
+    margin:auto;
     position:relative;
 
 }
