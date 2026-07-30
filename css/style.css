@@ -191,46 +191,11 @@ body {
 }
 
 
+.header + .project-preview {
 
-
-/* SPACING */
-
-
-.space {
-
-    width:1440px;
-    margin:auto;
+    margin-top:300px;
 
 }
-
-
-.space-160px {
-
-    height:160px;
-
-}
-
-
-.space-100px {
-
-    height:100px;
-
-}
-
-
-.space-300px {
-
-    height:300px;
-
-}
-
-
-.space-375px {
-
-    height:375px;
-
-}
-
 
 
 
