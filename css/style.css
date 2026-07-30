@@ -444,8 +444,8 @@ body {
 
 .reflections-of-displacement-10 {
     position:absolute;
-    left:511.5px;
-    top:471px;
+    left:511.55px;
+    bottom:387.96px;
     width:270px;
     height:auto;
 }
@@ -535,8 +535,8 @@ body {
     width:1440px;
     height:170px;
 
-    margin:auto;
-
+    margin-left:0px;
+    margin-right: 0px;
     display:flex;
 
     align-items:center;
