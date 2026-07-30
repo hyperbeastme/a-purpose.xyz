@@ -593,6 +593,9 @@ body {
     justify-content: space-between;
 
     position: relative;
+
+    opacity: 50%;
+    font-size: medium;
 }
 
 
