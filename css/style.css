@@ -518,6 +518,16 @@ body {
 }
 
 .about {
+    max-width:100%;
+    height:auto;
+}
+
+.about {
+
+    overflow:hidden;
+
+}
+.about {
 
     width:1440px;
     height:475px;
