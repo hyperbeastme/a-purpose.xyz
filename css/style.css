@@ -141,7 +141,7 @@ body {
 .landing {
 
     width:1440px;
-    height:1024;
+    height:1024px;
     margin:auto;
     position:relative;
 
@@ -237,6 +237,12 @@ body {
 .preview-eternal-bonds img {
     max-width:100%;
     height:auto;
+}
+
+.preview-eternal-bonds {
+    
+    overflow:hidden;
+
 }
 
 .preview-eternal-bonds {
