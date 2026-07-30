@@ -250,7 +250,7 @@ body {
 
 .project-preview + .project-preview {
 
-    margin-top:300px;
+    margin-top:150px;
 
 }
 
@@ -400,6 +400,9 @@ body {
     border:1px solid red;
 }
 
+.reflections {
+    margin-bottom:160px;
+}
 
 .reflections-of-displacement-01 {
     position:absolute;
@@ -468,7 +471,7 @@ body {
 
 .reflections-of-displacement-09 {
     position:absolute;
-    left:535.8px;
+    left:534px;
     bottom:163.90px;
     width:187.8px;
     height:auto;
