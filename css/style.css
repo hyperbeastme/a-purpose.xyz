@@ -502,6 +502,15 @@ body {
 }
 
 .preview-catelier {
+
+    width:1440px;
+    height:1024px;
+    margin:auto;
+    position:relative;
+
+}
+
+.preview-catelier {
     border:1px solid red;
 }
 
