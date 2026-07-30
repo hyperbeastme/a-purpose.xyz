@@ -228,7 +228,9 @@ body {
 }
 
 
-/* PROJECT SECTIONS */
+
+
+/* ETERNAL BONDS */
 
 .preview-eternal-bonds {
     border:1px solid red;
@@ -387,6 +389,124 @@ body {
 
 }
 
+
+/* REFLECTIONS OF DISPLACEMENT */
+
+.preview-reflections-of-displacement {
+    border:1px solid red;
+}
+
+.preview-reflections-of-displacement img {
+    max-width:100%;
+    height:auto;
+}
+
+.preview-reflections-of-displacement {
+
+    overflow:hidden;
+
+}
+
+.preview-reflections-of-displacement {
+
+    width:1440px;
+
+    height:1024px;
+
+    margin:auto;
+
+    position:relative;
+
+}
+
+.reflections-of-displacement-01 {
+    position:absolute;
+    left:430.75px;
+    top:524px;
+    width:165px;
+    height:auto;
+}
+
+.reflections-of-displacement-02 {
+    position:absolute;
+    left:293px;
+    top:602.25px;
+    width:90px;
+    height:auto;
+}
+
+.reflections-of-displacement-03 {
+    position:absolute;
+    left:109.75px;
+    top:557px;
+    width:155px;
+    height:auto;
+}
+
+.reflections-of-displacement-04 {
+    position:absolute;
+    left:86.65px;
+    top:230.15px;
+    width:189px;
+    height:auto;
+
+}
+
+.reflections-of-displacement-05 {
+    position:absolute;
+    left:143.5px;
+    top:108.5px;
+    width:487.5px;
+    height:auto;
+}
+
+.reflections-of-displacement-06 {
+    position:absolute;
+    left:236px;
+    top:284.25px;
+    width:170px;
+    height:auto;
+}
+
+.reflections-of-displacement-07 {
+    position:absolute;
+    left:458.25px;
+    top:269.80px;
+    width:200px;
+    height:auto;
+}
+
+.reflections-of-displacement-08 {
+    position:absolute;
+    right:451.60px;
+    top:0px;
+    width:220px;
+    height:auto;
+}
+
+.reflections-of-displacement-09 {
+    position:absolute;
+    right:413px;
+    top:208.70px;
+    width:255px;
+    height:auto;
+}
+
+.reflections-of-displacement-10 {
+    position:absolute;
+    right:245.50px;
+    top:294px;
+    width:425px;
+    height:auto;
+}
+
+.reflections-of-displacement-11 {
+    position:absolute;
+    right:80px;
+    top:612.95px;
+    width:190px;
+    height:auto;
+}
 
 
 
