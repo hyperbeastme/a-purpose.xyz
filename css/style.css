@@ -24,6 +24,12 @@ body {
     border:1px solid red;
 }
 
+.header + .landing {
+
+    margin-top:0px;
+
+}
+
 .header {
 
     
@@ -192,13 +198,6 @@ body {
 }
 
 
-.header + .project-preview {
-
-    margin-top:300px;
-
-}
-
-
 
 /* PROJECT PREVIEW */
 
@@ -214,9 +213,9 @@ body {
 }
 
 
-.project-preview + .project-preview {
+.preview-eternal-bonds + .preview-reflections-of-displacement {
 
-    margin-top:150px;
+    margin-top:100px;
 
 }
 
@@ -471,9 +470,21 @@ body {
 
 
 
-.catelier {
+
+.preview-reflections-of-displacement + .preview-catelier {
+
+    margin-top:100px;
+
+}
+
+.preview-catelier {
     border:1px solid red;
 }
+
+.catelier {
+    margin-bottom:160px;
+}
+
 
 .catelier-01 {
     position:absolute;
