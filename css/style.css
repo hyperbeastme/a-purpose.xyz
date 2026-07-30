@@ -518,19 +518,23 @@ body {
     border:1px solid red;
 }
 
+
 .about {
 
     width:1440px;
+
     height:475px;
 
-    margin: 80px;
+    margin:auto;
+
+    position:relative;
+
+    overflow:hidden;
 
     display:flex;
-
+    
     align-items:center;
-
 }
-
 
 
 .about img {
@@ -541,6 +545,7 @@ body {
     height:auto;
 
 }
+
 
 .space-90px {
 
