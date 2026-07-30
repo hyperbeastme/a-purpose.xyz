@@ -142,13 +142,11 @@ body {
 /* LANDING */
 
 
-.landing-image + .preview-eternal-bonds {
-    margin-top:160px;
-}
-
 
 .landing {
+
     border:1px solid red;
+
 }
 
 .landing {
@@ -170,7 +168,6 @@ body {
 
     width:215px;
     height:auto;
-
 
 }
 
@@ -201,6 +198,12 @@ body {
 }
 
 
+.landing + .project-preview {
+
+    margin-top:300px;
+
+}
+
 
 /* PROJECT PREVIEW */
 
@@ -215,12 +218,6 @@ body {
     position:relative;
 }
 
-
-.preview-eternal-bonds + .preview-reflections {
-
-    margin-top:100px;
-
-}
 
 .preview-eternal-bonds {
     border:1px solid red;
@@ -373,12 +370,12 @@ body {
 }
 
 
+.project-preview + .project-preview {
 
-.preview-reflections + .preview-catelier {
-
-    margin-top:100px;
+    margin-top:300px;
 
 }
+
 
 .preview-reflections {
     border:1px solid red;
@@ -496,11 +493,14 @@ body {
 }
 
 
-.preview-catelier + .about {
 
-    margin-top:300px;
+.preview-reflections + .preview-catelier {
+
+    margin-top:100px;
 
 }
+
+
 
 .preview-catelier {
 
