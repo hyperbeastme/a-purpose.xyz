@@ -515,8 +515,6 @@ body {
 
     position:relative;
 
-    overflow:hidden;
-
     display:flex;
     
     align-items:center;
@@ -545,7 +543,7 @@ body {
 
 .about-text {
     position:absolute;
-    
+
     left:385px;
     top:100px;
     width:500px;
