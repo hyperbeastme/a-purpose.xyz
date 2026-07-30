@@ -240,7 +240,7 @@ body {
 }
 
 .preview-eternal-bonds {
-    
+
     overflow:hidden;
 
 }
@@ -416,6 +416,8 @@ body {
 
 .about img {
 
+    left:272px;
+    top:50px;
     width:250px;
 
 }
@@ -424,12 +426,17 @@ body {
 
 .about-text {
 
+    top:147.6px;
+    right:245.7px;
     width:500px;
 
-    font-size:32px;
-
+    font-size:57px;
+    
 }
+.about-text{ 
 
+    text-decoration-color:#006837;
+}
 
 
 
