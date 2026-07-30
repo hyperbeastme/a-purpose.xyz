@@ -642,6 +642,13 @@ body {
     margin:0;
 }
 
+.about-text p {
+    margin:0;
+}
+
+.about-text p + p {
+    margin-top:24px;
+}
 
 /* FOOTER */
 
@@ -683,4 +690,12 @@ body {
     display:block;
     width:30px;
     height:30px;
+}
+
+.footer a,
+.footer a:visited,
+.footer a:hover,
+.footer a:active {
+    color:black;
+    text-decoration:none;
 }
