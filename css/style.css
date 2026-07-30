@@ -445,16 +445,16 @@ body {
 .reflections-of-displacement-06 {
     position:absolute;
     right:87px;
-    top:257.60px;
+    bottom:257.60px;
     width:85.5px;
     height:auto;
 }
 
 .reflections-of-displacement-07 {
     position:absolute;
-    left:363px;
+    right:363px;
     top:100px;
-    width:210px;
+    width:102px;
     height:auto;
 }
 
