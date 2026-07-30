@@ -200,7 +200,7 @@ body {
 
 .landing + .project-preview {
 
-    margin-top:300px;
+    margin-top:160px;
 
 }
 
@@ -355,7 +355,7 @@ body {
 
 .project-preview + .project-preview {
 
-    margin-top:300px;
+    margin-top:100px;
 
 }
 
@@ -633,6 +633,10 @@ body {
 }
 
 /* FOOTER */
+.about + .footer {
+    margin-top:375px;
+}
+
 
 .footer {
     width:1440px;
