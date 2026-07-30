@@ -156,7 +156,7 @@ body {
     position:absolute;
 
     left:80px;
-    bottom: 60px;
+    bottom: 30px;
 
     width:215px;
     height:auto;
@@ -465,6 +465,13 @@ body {
     bottom:0px;
     width:573.38px;
     height:auto;
+}
+
+
+
+
+.preview-catelier {
+    border:1px solid red;
 }
 
 
