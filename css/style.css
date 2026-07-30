@@ -583,23 +583,40 @@ body {
 
 
 .footer {
+    width: 1440px;
+    height: 170px;
 
-    width:100%;
-    max-width:1440px;
+    margin: auto;
 
-    width:1440px;
-    height:170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-    margin:auto;
+    position: relative;
+}
 
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
+
+.footer-left {
+    font-family: "futura-pt-condensed", sans-serif;
 }
 
 
 .footer-center {
-    position:absolute;
-    left:50%;
-    transform:translateX(-50%);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    gap: 20px;
+}
+
+
+.footer-center img {
+    width: 25px;
+    height: 25px;
+}
+
+
+.footer-right {
+    font-family: "futura-pt-condensed", sans-serif;
 }
