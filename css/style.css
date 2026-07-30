@@ -233,12 +233,14 @@ body {
 /* PROJECT PREVIEW */
 
 .project-preview {
-    
-    width:1440px;
-    height:1024px;
-    margin:auto;
-    position:relative;
 
+    width:1440px;
+
+    height:1024px;
+
+    margin:auto;
+
+    position:relative;
 }
 
 
@@ -258,17 +260,6 @@ body {
 }
 
 
-.preview-eternal-bonds {
-
-    width:1440px;
-
-    height:1024px;
-
-    margin:auto;
-
-    position:relative;
-
-}
 
 .eternal-bonds-01 {
     position:absolute;
@@ -403,14 +394,6 @@ body {
 
 .preview-reflections-of-displacement {
     border:1px solid red;
-}
-
-.preview-reflections-of-displacement {
-    width:1440px;
-    height:1024px;
-    margin:auto;
-    position:relative;
-    margin-bottom:300px;
 }
 
 
