@@ -149,9 +149,6 @@ body {
 }
 
 
-.eternal-bonds {
-    margin-top:160px;
-}
 
 /* PROJECT PREVIEW */
 
@@ -170,9 +167,13 @@ body {
     position:relative;
 
     border:1px solid red;
-
 }
 
+.project-preview.eternal-bonds {
+
+    margin-top:160px;
+    
+}
 
 .eternal-bonds-01 {
     position:absolute;
@@ -296,10 +297,12 @@ body {
 }
 
 
-.reflections {
-    margin-top:100px;
-}
 
+.project-preview.reflections {
+
+    margin-top:100px;
+
+}
 
 .reflections-of-displacement-01 {
     position:absolute;
@@ -401,13 +404,12 @@ body {
 
 
 
-.catelier {
+.project-preview.catelier {
 
     margin-top:100px;
-}
 
-.catelier {
     isolation:isolate;
+
 }
 
 .catelier-01 {
