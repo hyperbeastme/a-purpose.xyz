@@ -920,7 +920,7 @@ body {
 
 .eternal-moodboard-canvas {
     width:1280px;
-    height:864px;
+    height:675px;
     position:relative;
 }
 
@@ -946,25 +946,25 @@ body {
 }
 
 .mood-01 {
-    left:0;
-    top:0;
-    width:350px;
+    right:430px;
+    top:102.5px;
+    width:218.66px;
 }
 
 .mood-02 {
-    left:410px;
+    right:353px;
     top:130px;
-    width:280px;
+    width:271.14px;
 }
 
 .mood-03 {
-    right:310px;
-    top:0;
-    width:320px;
+    left:466.77px;
+    top:21.68;
+    width:349.86px;
 }
 
 .mood-04 {
-    left:189.30;
+    left:181.47;
     bottom:0;
     width:270px;
 }
@@ -976,7 +976,7 @@ body {
 }
 
 .mood-06 {
-    right:173.64;
+    right:181;
     top:0;
     width:218.66px;
 }
