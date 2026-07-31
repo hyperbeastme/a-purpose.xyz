@@ -594,8 +594,9 @@ body {
 }
 
 /* SEE MORE WORK */
-.end-of-preview{
-    
+.end-of-preview {
+
+
 }
 .end-of-preview-text {
 
@@ -956,7 +957,7 @@ body {
     left:181px;
     top:180px;
 
-    width:1077.0437px;
+    width:1280px;
     height:675px;
 }
 
@@ -965,6 +966,8 @@ body {
     display:block;
     max-width:none;
     height:auto;
+    align-items:center;
+    
 }
 
 .mood-01 {
