@@ -594,7 +594,6 @@ body {
 }
 
 /* SEE MORE WORK */
-/* SEE MORE WORK */
 
 .end-of-preview {
     width: 1440px;
@@ -1215,10 +1214,14 @@ body {
 
 
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:600px) {
 
     /* Make header occupy normal page space */
+    .body{
 
+        width: 100px;
+        overflow:hidden;
+    }
     .header {
         position:relative;
         top:auto;
