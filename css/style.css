@@ -4,7 +4,15 @@
 
 
 html {
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
+    scroll-snap-type: y proximity;
+}
+
+.landing,
+.project-preview,
+.about {
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
 }
 
 
@@ -892,7 +900,9 @@ body {
 
     top:148.53px;
 
-    width:487.5px;
+    height:650px;
+
+    width:auto;
 
     font-size:34.61px;
 
