@@ -627,7 +627,7 @@ body {
 .footer-email {
     color:#888;
     text-decoration:none;
-    font-size:38px;
+    font-size:25px;
     line-height:1;
 }
 
@@ -640,8 +640,8 @@ body {
 
 .footer-social img {
     display:block;
-    width:55px;
-    height:55px;
+    width:44px;
+    height:44px;
     text-decoration: #888;
 }
 
