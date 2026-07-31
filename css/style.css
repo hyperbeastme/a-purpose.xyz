@@ -877,6 +877,7 @@ body {
     letter-spacing:0;
 }
 
+
 .scaled-text {
     display:block;
     width:571.42px;
@@ -908,15 +909,25 @@ body {
 
 /* MOOD BOARD */
 
-.eternal-moodboard {
+.eternal-moodboard-section {
+    width:1440px;
+    height:1024px;
+    margin:0 auto;
+    padding:80px;
     position:relative;
-    width:1077;
-    height:675px;
-    margin-top:200px;
+    overflow:hidden;
 }
 
-.eternal-moodboard {
-    position: relative;
+.eternal-moodboard-canvas {
+    width:1280px;
+    height:864px;
+    position:relative;
+}
+
+.eternal-moodboard-canvas img {
+    position:absolute;
+    display:block;
+    height:auto;
 }
 
 .mood-01,
