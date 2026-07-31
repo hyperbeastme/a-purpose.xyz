@@ -613,7 +613,7 @@ body {
 
 .about-text {
     position:absolute;
-
+    border:1px solid red;
     left:695px;
     top:50%;
     transform:translateY(-50%);
