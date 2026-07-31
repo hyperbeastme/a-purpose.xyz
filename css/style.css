@@ -870,15 +870,12 @@ body {
 
 /* STATEMENT */
 
-
 .eternal-statement-copy {
     width:487.5px;
     height:650px;
 }
 
 .opening-statement {
-    width:571.42px;
-
     font-family:"futura-pt-condensed", sans-serif;
     font-weight:500;
     font-style:italic;
@@ -886,25 +883,22 @@ body {
     font-size:34.6931pt;
     line-height:41pt;
     letter-spacing:0;
+}
+
+.scaled-text {
+    display:block;
+    width:571.42px;
 
     transform:scaleX(0.85314);
     transform-origin:left top;
 }
 
-
 .opening-statement p {
     margin:0 0 41pt;
 }
 
-
 .opening-statement p:last-child {
     margin-bottom:0;
-}
-
-
-
-.eternal-statement-copy p {
-    margin:0 0 35px;
 }
 
 .eternal-statement-image {
