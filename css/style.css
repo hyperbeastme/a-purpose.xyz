@@ -1729,3 +1729,83 @@ body {
         text-align:center;
     }
 }
+
+/* IMAGE LIGHTBOX */
+
+.image-lightbox-trigger {
+    cursor:zoom-in;
+}
+
+body.lightbox-open {
+    overflow:hidden;
+}
+
+.image-lightbox[hidden] {
+    display:none;
+}
+
+.image-lightbox {
+    position:fixed;
+    inset:0;
+    z-index:10000;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:40px;
+
+    background:rgba(255, 255, 255, 0.96);
+    cursor:zoom-out;
+}
+
+.image-lightbox-image {
+    display:block;
+    width:auto;
+    height:auto;
+    max-width:calc(100vw - 80px);
+    max-height:calc(100vh - 80px);
+    object-fit:contain;
+    cursor:default;
+}
+
+.image-lightbox-close {
+    position:fixed;
+    top:20px;
+    right:28px;
+    z-index:10001;
+
+    padding:0;
+    border:0;
+    background:transparent;
+    color:black;
+
+    font-family:Arial, sans-serif;
+    font-size:48px;
+    font-weight:200;
+    line-height:1;
+
+    cursor:pointer;
+}
+
+.image-lightbox-close:focus-visible,
+.image-lightbox-trigger:focus-visible {
+    outline:2px solid black;
+    outline-offset:4px;
+}
+
+@media screen and (max-width:767px) {
+    .image-lightbox {
+        padding:20px;
+    }
+
+    .image-lightbox-image {
+        max-width:calc(100vw - 40px);
+        max-height:calc(100vh - 40px);
+    }
+
+    .image-lightbox-close {
+        top:12px;
+        right:16px;
+        font-size:42px;
+    }
+}
