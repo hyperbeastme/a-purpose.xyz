@@ -598,17 +598,18 @@ body {
 .end-of-preview {
     width: 1440px;
     height: 300px;
-    margin: 100px auto 0;
+    margin: 0 auto;
     position: relative;
 }
 
 .end-of-preview-text {
-    position: center;
+    position: absolute;
     left:642.5012px;
     top: 132.8622px;
     text-align: center;
 
-    margin: 80px;
+    transform: translateX(-50%);
+    margin: 0;
     font-family: "futura-pt-condensed", sans-serif;
     font-size: 36px;
     font-weight: 100;
@@ -616,6 +617,7 @@ body {
     line-height: 1.15;
     letter-spacing: -0.25px;
 }
+
 
 .end-of-preview-text a {
     color: black;
