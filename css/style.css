@@ -649,6 +649,7 @@ body {
     justify-content:space-between;
 
     font-family:"futura-pt-condensed", sans-serif;
+    text-decoration: #888;
 }
 
 .footer-main {
@@ -662,12 +663,12 @@ body {
     display:block;
     width:2.25px;
     height:50px;
-    background-color:black;
+    background-color:#888;
 }
 
 .footer-domain,
 .footer-email {
-    color:black;
+    color:#888;
     text-decoration:none;
     font-size:38px;
     line-height:1;
@@ -677,12 +678,14 @@ body {
     display:flex;
     align-items:center;
     justify-content:center;
+    text-decoration: #888;
 }
 
 .footer-social img {
     display:block;
     width:55px;
     height:55px;
+    text-decoration: #888;
 }
 
 .footer-copyright {
@@ -696,7 +699,7 @@ body {
 .footer a:visited,
 .footer a:hover,
 .footer a:active {
-    color:black;
+    color:#888;
     text-decoration:none;
 }
 
