@@ -593,6 +593,26 @@ body {
     height:auto;
 }
 
+/* SEE MORE WORK */
+
+.end-of-preview-text {
+
+      position:absolute;
+    left:695px;
+    bottom:43px;
+
+    width:549.3474px;
+    height:281.6594px;
+    margin:0;
+
+    font-size:36px;
+    font-weight:100;
+    line-height:1.15;
+    letter-spacing:-0.25px;
+
+    font-style:italic;
+    font-family:"futura-pt-condensed", sans-serif;
+}
 
 .about {
     margin-top:300px;
