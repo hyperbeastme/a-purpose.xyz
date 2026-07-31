@@ -24,9 +24,9 @@ body {
     border:1px solid red;
 }
 
-.header + .landing {
+.header{
 
-    margin-top:-80px;
+    margin-bottom:-80px;
 
 }
 
