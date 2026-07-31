@@ -1309,6 +1309,49 @@ body {
         height: 20px;
     }
 
+    .project-preview {
+        width:100%;
+        height:calc(100svh - 105px);
+        min-height:0;
+        margin:0;
+        padding:20px;
+
+        display:grid;
+        grid-template-columns:repeat(2, minmax(0, 1fr));
+        align-content:center;
+        gap:10px;
+
+        overflow:hidden;
+    }
+
+    .project-preview > a {
+        display:block;
+        min-width:0;
+    }
+
+    .project-preview img {
+        position:static !important;
+        display:block;
+        width:100% !important;
+        max-width:100%;
+        height:auto !important;
+        inset:auto !important;
+    }
+
+    /* Main image */
+    .project-preview > a:first-of-type {
+        grid-column:1 / -1;
+        width:65%;
+        justify-self:center;
+    }
+
+    /* Project title */
+    .project-preview a:has([class*="title"]) {
+        grid-column:1 / -1;
+        width:50%;
+        margin:8px auto 0;
+    }
+    
     /* LANDING */
 
     .landing {
