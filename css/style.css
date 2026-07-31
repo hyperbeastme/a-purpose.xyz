@@ -935,7 +935,8 @@ body {
 .mood-03,
 .mood-04,
 .mood-05,
-.mood-06 {
+.mood-06,
+.mood-07 {
     position: absolute;
     height: auto;
 }
@@ -976,6 +977,12 @@ body {
 }
 
 .mood-06 {
+    right:181;
+    top:0;
+    width:218.66px;
+}
+
+.mood-07 {
     right:181;
     top:0;
     width:218.66px;
