@@ -58,9 +58,9 @@ body {
 }
 
 .header-right {
-    margin-left:auto;
+    margin-right:80px;
 
-    display:flex;
+    display:contents;
     align-items:center;
     gap:35px;
 
