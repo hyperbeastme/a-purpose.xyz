@@ -850,6 +850,7 @@ body {
     margin:0 auto;
     position:relative;
     padding:80px;
+
 }
 
 .eternal-section h2 {
@@ -862,6 +863,7 @@ body {
 /* STATEMENT */
 
 .eternal-statement-copy {
+    margin-top:88;
     width:487.5px;
     height:744px;
 }
