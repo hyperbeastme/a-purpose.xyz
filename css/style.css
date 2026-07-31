@@ -172,7 +172,7 @@ body {
 .project-preview.eternal-bonds {
 
     margin-top:160px;
-    
+
 }
 
 .eternal-bonds-01 {
@@ -707,12 +707,22 @@ body {
 }
 
 .eternal-statement-copy {
+
     position:absolute;
+
     left:182.20px;
+
     top:148.53px;
+
     width:520px;
-    font-size:34px;
+
+    font-size:27px;
+
     line-height:1.2;
+
+    font-style: italic;
+
+    font-weight: 500;
     
 }
 
