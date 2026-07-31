@@ -877,11 +877,9 @@ body {
 
 .eternal-section {
     width:1440px;
-    max-height:1024px;
     margin:0 auto;
     position:relative;
     padding:80px;
-
 }
 
 .eternal-section h2 {
@@ -1017,22 +1015,15 @@ body {
     width:234.835px;
 }
 
-.eternal-moodboard-section + .eternal-sketch {
-    margin-top:135px;
-}
-
-
 /* SKETCHES */
 
 .eternal-sketch {
-
     width:1440px;
-    height:1024px;
+    height:710px;
     margin:0 auto;
     padding:80px;
-    position:center;
+    position:relative;
     overflow:hidden;
-
 }
 
 .eternal-sketch-layout img {
@@ -1061,6 +1052,15 @@ body {
 
 
 /* PROCESS */
+
+.eternal-process {
+    width:1440px;
+    height:2480px;
+    margin:0 auto;
+    padding:80px;
+    position:relative;
+    overflow:hidden;
+}
 
 .eternal-process-layout {
     display:grid;
@@ -1153,8 +1153,13 @@ body {
 
 /* EDITORIAL */
 
-.eternal-sketch +.eternal-editorial-layout{
-    margin-top: 135px;
+.eternal-editorial {
+    width:1440px;
+    height:1204px;
+    margin:0 auto;
+    padding:80px;
+    position:relative;
+    overflow:hidden;
 }
 
 .eternal-editorial-layout {
@@ -1183,7 +1188,12 @@ body {
 /* RUNWAY */
 
 .eternal-runway {
-    min-height:auto;
+    width:1440px;
+    height:2180px;
+    margin:0 auto;
+    padding:80px;
+    position:relative;
+    overflow:hidden;
 }
 
 .eternal-runway-layout {
