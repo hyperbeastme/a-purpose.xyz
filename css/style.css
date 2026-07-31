@@ -593,11 +593,11 @@ body {
 .about img {
     position:absolute;
 
-    left:272px;
-    bottom:78px;
+    left:272.4926px;
+    bottom:43px;
 
-    width:280px;
-    height:auto;
+    width:281.3235px;
+    height:375.3881px;
 }
 
 
@@ -605,7 +605,7 @@ body {
     position:absolute;
     border:1px solid red;
     left:695px;
-    top:147.60px;
+    bottom:43px;
 
     width:549.3474px;
     height:281.6594px;
