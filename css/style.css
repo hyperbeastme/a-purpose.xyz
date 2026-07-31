@@ -5,14 +5,14 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-snap-type: y proximity;
+    scroll-snap-type:proximity;
 }
 
 .landing,
 .project-preview,
 .about {
     scroll-snap-align: start;
-    scroll-snap-stop: normal;
+    scroll-snap-stop:always;
 }
 
 
@@ -878,43 +878,37 @@ body {
 
 /* STATEMENT */
 
-.eternal-statement-copy{
-    border:1px solid red;
-    width:487.5px;
-    height:auto;
-}
-
-.scaled-text {
-    display:inline-block;
-    transform:scaleX(0.8);
-    transform-origin:left center;
-}
 
 .eternal-statement-copy {
-
-
-
-    position:absolute;
-
-    left:182.20px;
-
-    top:148.53px;
-
+    width:487.5px;
     height:650px;
-
-    width:auto;
-
-    font-size:34.61px;
-
-    line-height:25.5px;
-
-    font-style: italic;
-
-    font-weight: 500;
-
-    
-    
 }
+
+.opening-statement {
+    width:571.42px;
+
+    font-family:"futura-pt-condensed", sans-serif;
+    font-weight:500;
+    font-style:italic;
+
+    font-size:34.6931pt;
+    line-height:41pt;
+    letter-spacing:0;
+
+    transform:scaleX(0.85314);
+    transform-origin:left top;
+}
+
+
+.opening-statement p {
+    margin:0 0 41pt;
+}
+
+
+.opening-statement p:last-child {
+    margin-bottom:0;
+}
+
 
 
 .eternal-statement-copy p {
