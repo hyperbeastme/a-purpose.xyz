@@ -21,7 +21,7 @@ body {
 
 
 .header {
-    width:100%;
+    width:1280px;
     height:80px;
 
     position:static;
@@ -915,40 +915,52 @@ body {
 
 /* MOOD BOARD */
 
-.eternal-moodboard-layout {
+.eternal-moodboard {
     position:relative;
     width:100%;
     height:800px;
     margin-top:60px;
 }
 
-.eternal-moodboard-layout img {
+.eternal-moodboard img {
     position:absolute;
     height:auto;
 }
 
-.mood-01 {
+.mood-board-01 {
     left:0;
     top:0;
     width:350px;
 }
 
-.mood-02 {
+.mood-board-02 {
     left:410px;
     top:130px;
     width:280px;
 }
 
-.mood-03 {
+.mood-board-03 {
     right:310px;
     top:0;
     width:320px;
 }
 
-.mood-04 {
-    right:0;
+.mood-board-04 {
+    left:189.30;
     bottom:0;
     width:270px;
+}
+
+.mood-board-05 {
+    left:189.31px;
+    top:38.23;
+    width:320px;
+}
+
+.mood-board-06 {
+    right:173.64;
+    top:0;
+    width:218.66px;
 }
 
 
