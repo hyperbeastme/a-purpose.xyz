@@ -594,12 +594,16 @@ body {
 }
 
 /* SEE MORE WORK */
-
+.end-of-preview{
+    
+}
 .end-of-preview-text {
 
-      position:absolute;
+    position:absolute;
     left:695px;
-    bottom:43px;
+    top:150px;
+
+
 
     width:549.3474px;
     height:281.6594px;
@@ -614,8 +618,9 @@ body {
     font-family:"futura-pt-condensed", sans-serif;
 }
 
+
 .about {
-    margin-top:300px;
+    margin-top:150px;
 }
 
 
