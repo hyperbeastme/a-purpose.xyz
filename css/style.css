@@ -594,8 +594,7 @@ body {
     position:absolute;
 
     left:272px;
-    top:50%;
-    transform:translateY(-50%);
+    bottom:78px;
 
     width:280px;
     height:auto;
@@ -606,10 +605,10 @@ body {
     position:absolute;
     border:1px solid red;
     left:695px;
-    top:50%;
-    transform:translateY(-50%);
+    top:147.60px;
 
-    width:585.83px;
+    width:549.3474px;
+    height:281.6594px;
     margin:0;
 
     font-size:46px;
