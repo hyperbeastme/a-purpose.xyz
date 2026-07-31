@@ -537,8 +537,9 @@ body {
     position:absolute;
     left:352.1px;
     bottom:205.3px;
-    width:317.9x;
+    width:317.9px;
     height:auto;
+    mix-blend-mode:multiply;
 }
 
 .catelier-11 {
@@ -555,6 +556,7 @@ body {
     bottom:200px;
     width:233.32px;
     height:auto;
+    
 }
 
 
