@@ -459,6 +459,9 @@ body {
 
 }
 
+.catelier {
+    isolation: isolate;
+}
 
 .catelier-01 {
     position:absolute;
@@ -466,6 +469,7 @@ body {
     top:100px;
     width:204px;
     height:auto;
+    mix-blend-mode: multiply;
 }
 
 .catelier-02 {
@@ -474,6 +478,7 @@ body {
     top:10.712px;
     width:195px;
     height:auto;
+    mix-blend-mode: multiply;
 }
 
 .catelier-03 {
@@ -482,6 +487,7 @@ body {
     top:354.3762px;
     width:262px;
     height:auto;
+    mix-blend-mode: multiply;
 }
 
 .catelier-04 {
@@ -490,6 +496,7 @@ body {
     bottom:205.3px;
     width:213.51px;
     height:auto;
+    mix-blend-mode: multiply;
 
 }
 
@@ -507,6 +514,7 @@ body {
     bottom:184.33px;
     width:81.6px;
     height:auto;
+    mix-blend-mode: multiply;
 }
 
 .catelier-07 {
@@ -523,6 +531,7 @@ body {
     top:8.875px;
     width:221px;
     height:auto;
+    mix-blend-mode: multiply;
 }
 
 .catelier-09 {
@@ -531,6 +540,7 @@ body {
     top:208.70px;
     width:255px;
     height:auto;
+    mix-blend-mode: multiply;
 }
 
 .catelier-10 {
@@ -539,7 +549,7 @@ body {
     bottom:205.3px;
     width:317.9px;
     height:auto;
-    mix-blend-mode:multiply;
+    blend-mode:multiply;
 }
 
 .catelier-11 {
@@ -548,14 +558,16 @@ body {
     top:0px;
     width:234.9px;
     height:auto;
+    mix-blend-mode: multiply;
 }
 
 .catelier-12 {
     position:absolute;
     right:104px;
-    bottom:200px;
+    bottom:108.5px;
     width:233.32px;
     height:auto;
+    mix-blend-mode: multiply;
     
 }
 
