@@ -601,6 +601,7 @@ body {
     height:auto;
 }
 
+
 .about-text {
     position:absolute;
     border:1px solid red;
@@ -618,6 +619,10 @@ body {
 
     font-style:italic;
     font-family:"futura-pt-condensed", sans-serif;
+}
+
+.location {
+    color:#006837;
 }
 
 .about-text p {
