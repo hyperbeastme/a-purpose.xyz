@@ -197,7 +197,7 @@ body {
     position:absolute;
 
     left:80px;
-    bottom:50px;
+    bottom:80px;
 
     width:215px;
     height:auto;
@@ -694,6 +694,7 @@ body {
 }
 
 .footer-main {
+
     display:flex;
     align-items:center;
     justify-content:center;
@@ -707,8 +708,16 @@ body {
     background-color:#888;
 }
 
-.footer-domain,
+.footer-name{
+
+    color:#888;
+    text-decoration:none;
+    font-size:25px;
+    line-height:1;
+}
+
 .contact.html {
+
     color:#888;
     text-decoration:none;
     font-size:25px;
