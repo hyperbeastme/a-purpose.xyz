@@ -988,6 +988,34 @@ body {
     width:234.835px;
 }
 
+/* SKETCHES */
+
+.eternal-sketch {
+    width:1440px;
+    height:1024px;
+    margin:0 auto;
+    padding:80px;
+    position:relative;
+    overflow:hidden;
+}
+
+
+.eternal-sketch-layout img {
+    position:absolute;
+    display:block;
+    height:auto;
+}
+
+.sketches-01 {
+    position: absolute;
+    height: auto;
+}
+
+.eternal-sketch img {
+    position:absolute;
+    height:auto;
+}
+
 
 /* EDITORIAL */
 
