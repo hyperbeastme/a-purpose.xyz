@@ -1059,3 +1059,119 @@ body {
     font-size:70px;
     line-height:1;
 }
+
+
+
+
+
+@media screen and (max-width:767px) {
+
+    body {
+        width:100%;
+        overflow-x:hidden;
+    }
+
+
+    /* HEADER */
+
+    .header {
+        width:100%;
+        height:auto;
+        min-height:105px;
+        padding:14px 20px;
+
+        grid-template-columns:1fr auto;
+        grid-template-areas:
+            "left center"
+            "right right";
+
+        row-gap:14px;
+    }
+
+    .header-left {
+        grid-area:left;
+        justify-self:start;
+
+        font-size:20px;
+    }
+
+    .header-center {
+        grid-area:center;
+        justify-self:end;
+
+        font-size:28px;
+    }
+
+    .header-right {
+        grid-area:right;
+        justify-self:stretch;
+        justify-content:flex-end;
+
+        gap:16px;
+        font-size:18px;
+    }
+
+    .header-right img {
+        width:20px;
+        height:20px;
+    }
+
+
+    /* SHARED ETERNAL BONDS SECTIONS */
+
+    .eternal-section {
+        width:100%;
+        min-height:0;
+        padding:60px 20px;
+    }
+
+
+    /* OPENING STATEMENT */
+
+    .eternal-statement {
+        display:flex;
+        flex-direction:column;
+        gap:45px;
+    }
+
+    .eternal-statement-copy {
+        width:100%;
+        height:auto;
+    }
+
+    .opening-statement {
+        width:100%;
+
+        font-size:26px;
+        line-height:1.25;
+        letter-spacing:0;
+    }
+
+    .scaled-text {
+        width:100%;
+        transform:none;
+    }
+
+    .opening-statement p {
+        margin:0 0 30px;
+    }
+
+    .opening-statement p:last-child {
+        margin-bottom:0;
+    }
+
+    .opening-statement span {
+        display:inline;
+        white-space:normal;
+    }
+
+    .eternal-statement-image {
+        position:static;
+
+        width:100%;
+        max-width:540px;
+        height:auto;
+
+        align-self:center;
+    }
+}
