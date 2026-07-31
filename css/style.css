@@ -606,35 +606,40 @@ body {
     height:auto;
 }
 
+/* END OF PROJECT PREVIEWS */
+
 /* SEE MORE WORK */
 
 .end-of-preview {
-    width: 1440px;
-    height: 300px;
-    margin: 0 auto;
-    position: relative;
+    width:100%;
+    max-width:1440px;
+    height:350px;
+    margin:0 auto;
+    padding:0;
+    position:relative;
 }
 
 .end-of-preview-text {
-    position: absolute;
-    left:642.5012px;
-    top: 132.8622px;
-    text-align: center;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
 
-    transform: translateX(-50%);
-    margin: 0;
-    font-family: "futura-pt-condensed", sans-serif;
-    font-size: 36px;
-    font-weight: 100;
-    font-style: italic;
-    line-height: 1.15;
-    letter-spacing: -0.25px;
+    margin:0;
+    text-align:center;
+    white-space:nowrap;
+
+    font-family:"futura-pt-condensed", sans-serif;
+    font-size:36px;
+    font-weight:100;
+    font-style:italic;
+    line-height:1.15;
+    letter-spacing:-0.25px;
 }
 
-
 .end-of-preview-text a {
-    color: black;
-    text-decoration: none;
+    color:black;
+    text-decoration:none;
 }
 
 
@@ -646,7 +651,7 @@ body {
     width:1440px;
     height:600px;
 
-    margin:300px auto 0;
+    margin-top:0;
     position:relative;
 }
 
@@ -1241,6 +1246,24 @@ body {
         max-width:100%;
     }
 
+    .end-of-preview {
+        width:100%;
+        max-width:100%;
+        height:180px;
+        margin:0;
+    }
+
+    .end-of-preview-text {
+        left:50%;
+        top:50%;
+        font-size:26px;
+    }
+
+    .about {
+        margin-top:0;
+    }
+
+
     img {
         max-width:100%;
         height:auto;
@@ -1353,6 +1376,7 @@ body {
         margin: 20px auto 0;
     }
 
+    
     /* ABOUT */
 
     .about {
