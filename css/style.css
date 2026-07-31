@@ -483,7 +483,7 @@ body {
 
 .catelier-03 {
     position:absolute;
-    left:85.55px;
+    left:0px;
     top:354.3762px;
     width:262px;
     height:auto;
@@ -515,6 +515,7 @@ body {
     width:81.6px;
     height:auto;
     mix-blend-mode: multiply;
+    z-index:1;
 }
 
 .catelier-07 {
@@ -523,6 +524,8 @@ body {
     bottom:315.61px;
     width:214.31px;
     height:auto;
+    z-index:0;
+
 }
 
 .catelier-08 {
@@ -538,7 +541,7 @@ body {
     position:absolute;
     right:413px;
     top:208.70px;
-    width:255px;
+    width:133.76px;
     height:auto;
     mix-blend-mode: multiply;
 }
