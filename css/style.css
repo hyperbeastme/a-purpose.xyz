@@ -930,21 +930,6 @@ body {
     height:auto;
 }
 
-.mood-01,
-.mood-02,
-.mood-03,
-.mood-04,
-.mood-05,
-.mood-06,
-.mood-07 {
-    position: absolute;
-    height: auto;
-}
-
-.eternal-moodboard img {
-    position:absolute;
-    height:auto;
-}
 
 .mood-01 {
     right:430px;
@@ -988,6 +973,10 @@ body {
     width:234.835px;
 }
 
+.eternal-moodboard-section + .eternal-sketch{
+    margin-top: 135px;
+}
+
 /* SKETCHES */
 
 .eternal-sketch {
@@ -1018,6 +1007,10 @@ body {
 
 
 /* EDITORIAL */
+
+..eternal-sketch +.eternal-editorial-layout{
+    margin-top: 135px;
+}
 
 .eternal-editorial-layout {
     display:grid;
