@@ -1063,8 +1063,58 @@ body {
 
 
 
-
 @media screen and (max-width:767px) {
+
+    /* Make header occupy normal page space */
+
+    .header {
+        position:relative;
+        top:auto;
+        left:auto;
+    }
+
+
+    /* HOMEPAGE LANDING */
+
+    .landing {
+        width:100%;
+        height:calc(100svh - 105px);
+        min-height:560px;
+        margin:0;
+
+        position:relative;
+        overflow:hidden;
+    }
+
+    .landing-image {
+        left:24px;
+        bottom:35px;
+
+        width:125px;
+        height:auto;
+    }
+
+    .landing-statement {
+        left:auto;
+        right:20px;
+        top:32%;
+
+        width:175px;
+        margin:0;
+
+        font-size:28px;
+        line-height:1.08;
+        letter-spacing:0;
+
+        text-align:left;
+    }
+
+
+    /* SPACE BEFORE FIRST PROJECT */
+
+    .project-preview.eternal-bonds {
+        margin-top:80px;
+    }
 
     body {
         width:100%;
