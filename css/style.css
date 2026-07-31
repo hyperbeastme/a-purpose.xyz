@@ -480,20 +480,17 @@ body {
 
 
 .project-preview.catelier {
-
     margin-top:100px;
-
     isolation:isolate;
-
 }
 
 .catelier-01 {
     position:absolute;
     left:375.70px;
-    top:0px;
+    top:0;
     width:204px;
     height:auto;
-    mix-blend-mode: multiply;
+    mix-blend-mode:multiply;
 }
 
 .catelier-02 {
@@ -502,7 +499,7 @@ body {
     top:10.712px;
     width:195px;
     height:auto;
-    mix-blend-mode: multiply;
+    mix-blend-mode:multiply;
 }
 
 .catelier-03 {
@@ -511,7 +508,7 @@ body {
     top:354.3762px;
     width:262px;
     height:auto;
-    mix-blend-mode: multiply;
+    mix-blend-mode:multiply;
 }
 
 .catelier-04 {
@@ -520,8 +517,7 @@ body {
     bottom:205.3px;
     width:213.51px;
     height:auto;
-    mix-blend-mode: multiply;
-
+    mix-blend-mode:multiply;
 }
 
 .catelier-05 {
@@ -538,7 +534,7 @@ body {
     bottom:184.33px;
     width:81.6px;
     height:auto;
-    mix-blend-mode: multiply;
+    mix-blend-mode:multiply;
     z-index:1;
 }
 
@@ -549,7 +545,6 @@ body {
     width:214.31px;
     height:auto;
     z-index:0;
-
 }
 
 .catelier-08 {
@@ -558,7 +553,7 @@ body {
     top:8.875px;
     width:221px;
     height:auto;
-    mix-blend-mode: multiply;
+    mix-blend-mode:multiply;
 }
 
 .catelier-09 {
@@ -567,7 +562,7 @@ body {
     top:91px;
     width:133.76px;
     height:auto;
-    mix-blend-mode: multiply;
+    mix-blend-mode:multiply;
 }
 
 .catelier-10 {
@@ -581,10 +576,10 @@ body {
 .catelier-11 {
     position:absolute;
     right:116.9px;
-    top:0px;
+    top:0;
     width:234.9px;
     height:auto;
-    mix-blend-mode: multiply;
+    mix-blend-mode:multiply;
 }
 
 .catelier-12 {
@@ -593,18 +588,17 @@ body {
     bottom:108.5px;
     width:233.32px;
     height:auto;
-    mix-blend-mode: multiply;
-    
+    mix-blend-mode:multiply;
 }
-
 
 .catelier-title {
     position:absolute;
     left:491.14px;
-    bottom:0px;
+    bottom:0;
     width:178.60px;
     height:auto;
 }
+
 
 /* END OF PROJECT PREVIEWS */
 
@@ -613,7 +607,7 @@ body {
 .end-of-preview {
     width:100%;
     max-width:1440px;
-    height:350px;
+    height:139.8538px;
     margin:0 auto;
     padding:0;
     position:relative;
@@ -622,8 +616,8 @@ body {
 .end-of-preview-text {
     position:absolute;
     left:50%;
-    top:50%;
-    transform:translate(-50%, -50%);
+    top:132.8622px;
+    transform:translateX(-50%);
 
     margin:0;
     text-align:center;
@@ -643,28 +637,23 @@ body {
 }
 
 
-
 /* ABOUT */
 
 .about {
-
     width:1440px;
     height:600px;
-
-    margin-top:0;
+    margin:0 auto;
     position:relative;
 }
 
 .about img {
     position:absolute;
-
     left:272.4926px;
     bottom:43px;
 
     width:281.3235px;
     height:375.3881px;
 }
-
 
 .about-text {
     position:absolute;
@@ -675,13 +664,12 @@ body {
     height:281.6594px;
     margin:0;
 
+    font-family:"futura-pt-condensed", sans-serif;
     font-size:36px;
     font-weight:100;
+    font-style:italic;
     line-height:1.15;
     letter-spacing:-0.25px;
-
-    font-style:italic;
-    font-family:"futura-pt-condensed", sans-serif;
 }
 
 .location {
@@ -692,13 +680,10 @@ body {
     margin:0;
 }
 
-.about-text p {
-    margin:0;
-}
-
 .about-text p + p {
     margin-top:24px;
 }
+
 
 /* FOOTER */
 
@@ -1055,6 +1040,7 @@ body {
 
 .sketches-01 {
     position: absolute;
+    width:950px;
     height: auto;
 }
 
