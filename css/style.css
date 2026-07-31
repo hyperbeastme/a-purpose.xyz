@@ -913,23 +913,34 @@ body {
     width:1440px;
     height:1024px;
     margin:0 auto;
-    padding:80px;
+    padding:0;
     position:relative;
     overflow:hidden;
 }
 
+.eternal-moodboard-section h2 {
+    position:absolute;
+    top:80px;
+    left:80px;
+    margin:0;
+    z-index:20;
+}
+
 .eternal-moodboard-canvas {
+    position:absolute;
+    left:181px;
+    top:180px;
+
     width:1077.0437px;
     height:675px;
-    position:relative;
 }
 
 .eternal-moodboard-canvas img {
     position:absolute;
     display:block;
+    max-width:none;
     height:auto;
 }
-
 
 .mood-01 {
     right:430px;
@@ -939,7 +950,7 @@ body {
 
 .mood-02 {
     right:353px;
-    bottom:1077.0437px;
+    top:345px;
     width:240.269px;
 }
 
