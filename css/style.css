@@ -661,7 +661,7 @@ body {
 
 .footer-left,
 .footer-right {
-    font-size: 32px;
+    font-size: 30px;
     font-family:"futura-pt-condensed", sans-serif;
 }
 
@@ -679,7 +679,7 @@ body {
 
 .footer-center img {
     display:block;
-    width:32.5px;
+    width:33px;
     height:auto;
 }
 
