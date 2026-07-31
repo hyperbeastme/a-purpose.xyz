@@ -1235,7 +1235,25 @@ body {
 
 
 /* PHONE LAYOUT */
+
 @media screen and (max-width:767px) {
+
+    /* GLOBAL */
+
+    html,
+    body {
+        width:100%;
+        max-width:100%;
+        margin:0;
+        overflow-x:hidden;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing:border-box;
+    }
+
     .header,
     .landing,
     .project-preview,
@@ -1246,79 +1264,90 @@ body {
         max-width:100%;
     }
 
-    .end-of-preview {
-        width:100%;
-        max-width:100%;
-        height:180px;
-        margin:0;
-    }
-
-    .end-of-preview-text {
-        left:50%;
-        top:50%;
-        font-size:26px;
-    }
-
-    .about {
-        margin-top:0;
-    }
-
-
     img {
         max-width:100%;
         height:auto;
     }
 
+
     /* HEADER */
 
     .header {
-        position: relative;
-        width: 100%;
-        height: auto;
-        min-height: 72px;
-        padding: 16px 20px;
+        position:relative;
+        min-height:72px;
+        padding:16px 20px;
 
-        display: grid;
-        grid-template-columns: 1fr auto;
-        align-items: start;
+        display:grid;
+        grid-template-columns:1fr auto;
+        align-items:start;
     }
 
     .header-left {
-        font-size: 18px;
+        font-size:18px;
     }
 
     .header-center {
-        position: static;
-        transform: none;
-        grid-column: 2;
-        grid-row: 1;
-        font-size: 24px;
-        text-align: right;
+        position:static;
+        grid-column:2;
+        grid-row:1;
+
+        transform:none;
+        font-size:24px;
+        text-align:right;
     }
 
     .header-right {
-        grid-column: 1 / -1;
-        margin: 14px 0 0;
-        gap: 16px;
-        justify-content: flex-end;
-        font-size: 16px;
+        grid-column:1 / -1;
+
+        margin:14px 0 0;
+        gap:16px;
+
+        justify-content:flex-end;
+        font-size:16px;
     }
 
     .header-right img {
-        width: 20px;
-        height: 20px;
+        width:20px;
+        height:20px;
     }
 
-    .project-preview {
-        width:100%;
-        height:calc(100svh - 105px);
-        min-height:0;
+
+    /* LANDING */
+
+    .landing {
+        height:calc(100svh - 72px);
+        min-height:600px;
         margin:0;
+    }
+
+    .landing-image {
+        left:24px;
+        bottom:40px;
+        width:120px;
+    }
+
+    .landing-statement {
+        left:auto;
+        right:24px;
+        top:28%;
+        width:170px;
+
+        font-size:27px;
+        line-height:1.05;
+    }
+
+
+    /* PROJECT PREVIEWS */
+
+    .project-preview {
+        height:auto;
+        min-height:0;
+        margin:45px 0 0;
         padding:20px;
 
         display:grid;
         grid-template-columns:repeat(2, minmax(0, 1fr));
-        align-content:center;
+        align-content:start;
         gap:10px;
 
         overflow:hidden;
@@ -1326,150 +1355,167 @@ body {
 
     .project-preview > a {
         display:block;
+        width:100%;
         min-width:0;
+        height:auto;
     }
+
+    /* Remove desktop positioning */
 
     .project-preview img {
         position:static !important;
+        inset:auto !important;
+
         display:block;
         width:100% !important;
         max-width:100%;
         height:auto !important;
-        inset:auto !important;
     }
 
-    /* Main image */
+    /* Make the first image the mobile hero */
+
     .project-preview > a:first-of-type {
         grid-column:1 / -1;
         width:65%;
         justify-self:center;
     }
 
-    /* Project title */
-    .project-preview a:has([class*="title"]) {
-        grid-column:1 / -1;
-        width:50%;
-        margin:8px auto 0;
-    }
-    
-    /* LANDING */
-
-    .landing {
-        width: 100%;
-        height: calc(100svh - 72px);
-        min-height: 600px;
-        margin: 0;
-    }
-
-    .landing-image {
-        left: 24px;
-        bottom: 40px;
-        width: 120px;
-    }
-
-    .landing-statement {
-        left: auto;
-        right: 24px;
-        top: 28%;
-        width: 170px;
-
-        font-size: 27px;
-        line-height: 1.05;
-    }
-
-    /* PROJECT PREVIEWS */
-
-    .project-preview {
-        width: 100%;
-        height: auto;
-        min-height: 100svh;
-        margin: 80px 0 0;
-        padding: 30px 20px 80px;
-
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        align-content: center;
-        gap: 12px;
-    }
-
-    .project-preview > a {
-        display: block;
-        width: auto;
-        height: auto;
-    }
-
-    /* Reset desktop absolute positioning */
-
-    .project-preview img {
-        position: static !important;
-        display: block;
-        width: 100% !important;
-        height: auto !important;
-        inset: auto !important;
-    }
-
-    /* Put each project title across both columns */
+    /* Project titles */
 
     .project-preview a:has(.eternal-title),
     .project-preview a:has(.eternal-title-01),
     .project-preview a:has(.reflections-title),
     .project-preview a:has(.catelier-title) {
-        grid-column: 1 / -1;
-        width: 65%;
-        margin: 20px auto 0;
+        grid-column:1 / -1;
+        width:55%;
+        margin:10px auto 0;
+        justify-self:center;
     }
 
-    
+
+    /* CATELIER */
+
+    .project-preview.catelier {
+        margin-top:45px;
+        margin-bottom:0;
+        padding-bottom:20px;
+        isolation:isolate;
+    }
+
+    /*
+    Hide some Catelier images on mobile so the preview
+    stays compact and the remaining images stay readable.
+    */
+
+    .catelier a:has(.catelier-02),
+    .catelier a:has(.catelier-04),
+    .catelier a:has(.catelier-06),
+    .catelier a:has(.catelier-08),
+    .catelier a:has(.catelier-09),
+    .catelier a:has(.catelier-11) {
+        display:none;
+    }
+
+
+    /* SEE MORE WORK */
+
+    .end-of-preview {
+        height:120px;
+        margin:0;
+        padding:0;
+        position:relative;
+    }
+
+    .end-of-preview-text {
+        position:absolute;
+        left:50%;
+        top:85px;
+
+        transform:translate(-50%, -50%);
+        margin:0;
+
+        font-size:26px;
+        text-align:center;
+        white-space:nowrap;
+    }
+
+
     /* ABOUT */
 
     .about {
-        width: 100%;
-        height: auto;
-        margin: 100px 0 0;
-        padding: 40px 24px;
+        height:auto;
+        margin:0;
+        padding:20px 24px 30px;
 
-        display: flex;
-        flex-direction: column;
-        gap: 32px;
+        display:flex;
+        flex-direction:column;
+        gap:32px;
     }
 
     .about img,
     .about-text {
-        position: static;
-        transform: none;
-        width: 100%;
-        height: auto;
+        position:static;
+        inset:auto;
+        transform:none;
+
+        width:100%;
+        height:auto;
     }
 
     .about-text {
-        font-size: 28px;
+        margin:0;
+        font-size:28px;
+        line-height:1.15;
     }
+
+    .about-text p {
+        margin:0;
+    }
+
+    .about-text p + p {
+        margin-top:20px;
+    }
+
 
     /* FOOTER */
 
     .footer {
-        width: 100%;
-        height: auto;
-        margin: 60px 0 0;
-        padding: 50px 20px 30px;
+        height:auto;
+        margin:0;
+        padding:24px 20px 20px;
     }
 
     .footer-main {
-        flex-wrap: wrap;
-        gap: 20px;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+        gap:12px;
     }
 
     .footer-divider {
-        height: 32px;
+        height:26px;
     }
 
     .footer-name,
     .footer-email {
-        font-size: 18px;
+        font-size:18px;
+    }
+
+    .footer-email {
+        width:100%;
+        margin-top:4px;
+        text-align:center;
+    }
+
+    .footer-main img {
+        width:38px;
+        height:38px;
     }
 
     .footer-copyright {
-        margin-top: 50px;
-        font-size: 22px;
+        margin-top:28px;
+        font-size:18px;
+        text-align:center;
     }
 }
