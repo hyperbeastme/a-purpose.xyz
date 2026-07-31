@@ -913,6 +913,20 @@ body {
     margin-top:200px;
 }
 
+.eternal-moodboard {
+    position: relative;
+}
+
+.mood-01,
+.mood-02,
+.mood-03,
+.mood-04,
+.mood-05,
+.mood-06 {
+    position: absolute;
+    height: auto;
+}
+
 .eternal-moodboard img {
     position:absolute;
     height:auto;
