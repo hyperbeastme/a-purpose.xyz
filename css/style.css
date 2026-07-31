@@ -885,7 +885,7 @@ body {
 .eternal-statement-copy{
     border:1px solid red;
     width:487.5px;
-    height:650px;
+    height:auto;
 }
 
 .scaled-text {
@@ -904,11 +904,11 @@ body {
 
     top:148.53px;
 
-    width:520px;
+    width:487.5px;
 
-    font-size:27px;
+    font-size:34.61px;
 
-    line-height:1.2;
+    line-height:25.5px;
 
     font-style: italic;
 
