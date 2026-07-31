@@ -1,43 +1,191 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>a-purpose.xyz</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-    <link rel="stylesheet" href="https://use.typekit.net/tzd0qdu.css">
+    <title>Contact | Darrius Parker</title>
+
+    <link
+        rel="stylesheet"
+        href="https://use.typekit.net/tzd0qdu.css"
+    >
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-
 <body>
 
-<header class="header">
+    <header class="header">
 
-    <div class="header-left">
-    <a href="/">
-        a-purpose.xyz
-    </a>
-</div>
+        <div class="header-left">
+            <a href="index.html">a-purpose.xyz</a>
+        </div>
 
-    <div class="header-center">
-        Contact
-    </div>
+        <div class="header-center">
+            Contact
+        </div>
 
-    <nav class="header-right">
-        <a href="index.html">home</a>
-        <a href="about.html">about</a>
-        <a href="#">contact</a>
+        <nav class="header-right">
 
-        <a href="https://www.linkedin.com/in/darrius-parker-9aa7012a0/">
-            <img src="assets/icons/linkedin.svg" alt="LinkedIn">
-        </a>
+            <a href="index.html#projects">projects</a>
+            <a href="index.html#about">about</a>
+            <a href="contact.html">contact</a>
 
-        <a href="https://www.instagram.com/djay1k">
-            <img src="assets/icons/instagram.svg" alt="Instagram">
-        </a>
-    </nav>
+            <a
+                href="https://www.linkedin.com/in/darrius-parker-9aa7012a0/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+            </a>
 
-</header>
+            <a
+                href="https://www.instagram.com/djay1k"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <img src="assets/icons/instagram.svg" alt="Instagram">
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main class="contact-page">
+
+        <section class="contact-intro">
+
+            <p>For collaborations, employment and all other inquiries:</p>
+
+            <a href="mailto:darriusjp26@gmail.com">
+                darriusjp26@gmail.com
+            </a>
+
+        </section>
+
+
+        <form
+            class="contact-form"
+            action="https://formspree.io/f/mwvgjqap"
+            method="contact me"
+        >
+
+            <div class="form-field">
+                <label for="contact-name">Name</label>
+
+                <input
+                    id="contact-name"
+                    type="text"
+                    name="name"
+                    required
+                >
+            </div>
+
+
+            <div class="form-field">
+                <label for="contact-email">Email</label>
+
+                <input
+                    id="contact-email"
+                    type="email"
+                    name="email"
+                    required
+                >
+            </div>
+
+
+            <div class="form-field">
+                <label for="contact-subject">Subject</label>
+
+                <input
+                    id="contact-subject"
+                    type="text"
+                    name="subject"
+                >
+            </div>
+
+
+            <div class="form-field">
+                <label for="contact-message">Message</label>
+
+                <textarea
+                    id="contact-message"
+                    name="message"
+                    rows="8"
+                    required
+                ></textarea>
+            </div>
+
+
+            <input
+                type="hidden"
+                name="_subject"
+                value="New portfolio inquiry"
+            >
+
+
+            <button type="submit">
+                Send message
+            </button>
+
+        </form>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="footer-main">
+
+            <a class="footer-domain" href="index.html">
+                a-purpose.xyz
+            </a>
+
+            <span class="footer-divider" aria-hidden="true"></span>
+
+            <a
+                class="footer-social"
+                href="https://www.linkedin.com/in/darrius-parker-9aa7012a0/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+            </a>
+
+            <span class="footer-divider" aria-hidden="true"></span>
+
+            <a
+                class="footer-social"
+                href="https://www.instagram.com/djay1k"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <img src="assets/icons/instagram.svg" alt="Instagram">
+            </a>
+
+            <span class="footer-divider" aria-hidden="true"></span>
+
+            <a
+                class="footer-email"
+                href="mailto:darriusjp26@gmail.com"
+            >
+                darriusjp26@gmail.com
+            </a>
+
+        </div>
+
+        <p class="footer-copyright">
+            &copy; 2026 Darrius Parker
+        </p>
+
+    </footer>
+
+</body>
+</html>
