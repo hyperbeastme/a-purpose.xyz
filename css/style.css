@@ -874,7 +874,15 @@ body {
     height:650px;
 }
 
+.scaled-text {
+    display:inline-block;
+    transform:scaleX(0.8);
+    transform-origin:left center;
+}
+
 .eternal-statement-copy {
+
+
 
     position:absolute;
 
