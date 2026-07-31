@@ -736,48 +736,13 @@ body {
 }
 
 
-/* OPENING */
-
-.eternal-opening {
-    height:1024px;
-}
-
-.eternal-opening-text {
-    position:absolute;
-    left:80px;
-    bottom:100px;
-    width:480px;
-}
-
-.eternal-opening h1 {
-    margin:0;
-    font-size:100px;
-    font-weight:500;
-    line-height:0.9;
-}
-
-.eternal-year {
-    margin:20px 0 50px;
-    font-size:28px;
-}
-
-.eternal-introduction {
-    margin:0;
-    font-size:40px;
-    line-height:1.15;
-    font-style:italic;
-}
-
-.eternal-opening-image {
-    position:absolute;
-    right:80px;
-    top:140px;
-    width:540px;
-    height:auto;
-}
-
-
 /* STATEMENT */
+
+.eternal-statement-copy{
+    border:1px solid red;
+    width:487.5px;
+    height:650px;
+}
 
 .eternal-statement-copy {
     position:absolute;
@@ -786,6 +751,7 @@ body {
     width:520px;
     font-size:34px;
     line-height:1.2;
+    
 }
 
 .eternal-statement-copy p {
