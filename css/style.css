@@ -880,8 +880,8 @@ body {
     font-weight:500;
     font-style:italic;
 
-    font-size:34.6931pt;
-    line-height:41pt;
+    font-size:34.6931px;
+    line-height:41px;
     letter-spacing:0;
 }
 
@@ -894,7 +894,7 @@ body {
 }
 
 .opening-statement p {
-    margin:0 0 41pt;
+    margin:0 0 41px;
 }
 
 .opening-statement p:last-child {
@@ -908,7 +908,6 @@ body {
     width:540px;
     height:auto;
 }
-
 
 /* MOOD BOARD */
 
