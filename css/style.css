@@ -1265,8 +1265,10 @@ body {
     /* SPACE BEFORE FIRST PROJECT */
 
     .project-preview.eternal-bonds {
-        margin-top:160px;
+        margin-top:80px;
     }
+
+}
 
     body {
         width:100%;
@@ -1376,4 +1378,3 @@ body {
 
         align-self:center;
     }
-}
