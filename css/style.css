@@ -443,11 +443,15 @@ body {
 }
 
 
+
 .catelier {
+
     margin-top:100px;
-    isolation:isolate;
 }
 
+.catelier {
+    isolation:isolate;
+}
 
 .catelier-01 {
     position:absolute;
