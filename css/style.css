@@ -607,9 +607,9 @@ body {
     position: center;
     left:642.5012px;
     top: 132.8622px;
-    align-items: center;
+    text-align: center;
 
-    margin: 0;
+    margin: 80px;
     font-family: "futura-pt-condensed", sans-serif;
     font-size: 36px;
     font-weight: 100;
