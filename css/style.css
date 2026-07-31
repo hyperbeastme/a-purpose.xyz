@@ -966,7 +966,7 @@ body {
     display:block;
     max-width:none;
     height:auto;
-    align-items:center;
+
 
 }
 
@@ -1090,21 +1090,79 @@ body {
 }
 
 .process-01 {
-    grid-column:1 / span 5;
+    right:181px;
+    top:0;
+    width:218.66px;
 }
 
 .process-02 {
-    grid-column:7 / span 4;
-    margin-top:100px;
+    right:181px;
+    top:0;
+    width:218.66px;
 }
 
 .process-03 {
-    grid-column:2 / span 3;
-    margin-top:40px;
+    right:181px;
+    top:0;
+    width:218.66px;
 }
 
 .process-04 {
-    grid-column:6 / span 6;
+    right:181px;
+    top:0;
+    width:218.66px;
+}
+
+.process-05 {
+    right:181px;
+    top:0;
+    width:218.66px;
+}
+
+.process-06 {
+    right:181px;
+    top:0;
+    width:218.66px;
+}
+
+.process-07 {
+    right:181px;
+    top:0;
+    width:218.66px;
+}
+
+.process-08 {
+    right:181px;
+    top:0;
+    width:218.66px;
+}
+.process-09 {
+    right:181px;
+    top:0;
+    width:218.66px;
+}
+
+.process-10 {
+   right:181px;
+    top:0;
+    width:218.66px;
+}
+
+.process-11 {
+   right:181px;
+    top:0;
+    width:218.66px;
+}
+
+.process-12 {
+    right:181px;
+    top:0;
+    width:218.66px;
+}
+.process-13 {
+    right:181px;
+    top:0;
+    width:218.66px;
 }
 
 
