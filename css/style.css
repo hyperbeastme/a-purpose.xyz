@@ -877,10 +877,9 @@ body {
 
 .opening-statement {
     font-family:"futura-pt-condensed", sans-serif;
+    font-size:34.6931px;
     font-weight:500;
     font-style:italic;
-
-    font-size:34.6931px;
     line-height:41px;
     letter-spacing:0;
 }
@@ -894,11 +893,16 @@ body {
 }
 
 .opening-statement p {
-    margin:0 0 41px;
+    margin:0 0 39px;
 }
 
 .opening-statement p:last-child {
     margin-bottom:0;
+}
+
+.opening-statement span {
+    display:block;
+    white-space:nowrap;
 }
 
 .eternal-statement-image {
