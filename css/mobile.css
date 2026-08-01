@@ -77,6 +77,20 @@
   .coming-soon {
     max-width:100%;
   }
+
+  .about-page-intro {
+    height:auto;
+    max-height:none;
+    overflow:visible;
+  }
+
+  .about-page-bio {
+    line-height:1.32;
+  }
+
+  .about-page-bio p + p {
+    margin-top:26px;
+  }
   .form-field input,
   .form-field textarea,
   .contact-form button {
