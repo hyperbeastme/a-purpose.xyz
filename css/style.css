@@ -732,7 +732,7 @@ body {
     display:block;
     width:44px;
     height:44px;
-    color-inherit:#888;
+    forced-color-adjust:#888;
     
 }
 
@@ -950,8 +950,9 @@ body {
     position:absolute;
     left:80px;
     top:150px;
-    width:1280px;
-    height:794px;
+    width:1440px;
+    height:1028px;
+    
 }
 
 .eternal-moodboard-canvas img {
@@ -959,48 +960,50 @@ body {
     display:block;
     max-width:none;
     height:auto;
+    margin-left:80px;
+    margin-right:80px;
 }
 
 .mood-01 {
-    right:365px;
-    top:115px;
-    width:240px;
+    right:375.5234px;
+    top:232.813px;
+    width:322.2392px;
 }
 
 .mood-02 {
-    right:275px;
-    bottom:40px;
-    width:265px;
+    right:283.9572px;
+    bottom:179.7586px;
+    width:285.5449px;
 }
 
 .mood-03 {
-    left:470px;
-    bottom:10px;
-    width:360px;
+    left:419.052px;
+    bottom:136.6706px;
+    width:415.7927px;
 }
 
 .mood-04 {
-    left:130px;
-    bottom:30px;
-    width:300px;
+    left:0;
+    bottom:110.902px;
+    width:311.8441px;
 }
 
 .mood-05 {
-    left:120px;
-    top:30px;
-    width:300px;
+    left:0;
+    top:155.5078px;
+    width:311.8441px;
 }
 
 .mood-06 {
-    right:70px;
-    top:10px;
-    width:250px;
+    right:0;
+    top:110.902px;
+    width:259.8701px;
 }
 
 .mood-07 {
-    left:505px;
-    top:50px;
-    width:240px;
+    left:427.4974px;
+    top:155.5076px;
+    width:279.0869px;
 }
 
 
