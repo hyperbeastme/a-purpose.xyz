@@ -1058,6 +1058,40 @@ body {
 }
 
 
+/* FILMSTRIP */
+
+.eternal-filmstrip {
+    width:1440px;
+    height:430px;
+    margin:0 auto;
+    padding:0 80px;
+    position:relative;
+    overflow:hidden;
+}
+
+.eternal-filmstrip h2 {
+    position:absolute;
+    left:80px;
+    top:80px;
+    z-index:2;
+}
+
+.eternal-filmstrip-layout {
+    position:absolute;
+    left:98.9165px;
+    top:150px;
+    width:1242.167px;
+    height:248.481px;
+}
+
+.eternal-filmstrip-layout img {
+    display:block;
+    width:100%;
+    height:100%;
+    object-fit:contain;
+}
+
+
 /* EDITORIAL */
 
 .eternal-editorial {
@@ -1090,6 +1124,14 @@ body {
     display:block;
     max-width:none;
     height:auto;
+}
+
+.editorial-disclaimer {
+    left:494.251px;
+    top:449.024px;
+    width:260.706px;
+    height:23.335px;
+    z-index:3;
 }
 
 .editorial-01 {
@@ -1286,24 +1328,83 @@ body {
 
 /* RUNWAY */
 
-.eternal-runway-layout {
+.eternal-runway {
+    width:1440px;
+    height:1174px;
+    margin:0 auto;
+    padding:0 80px;
+    position:relative;
+    overflow:hidden;
+}
+
+.eternal-runway h2 {
     position:absolute;
     left:80px;
-    top:166px;
-    width:1280px;
-    height:778px;
-    display:grid;
-    grid-template-columns:repeat(4, minmax(0, 1fr));
-    grid-template-rows:repeat(2, minmax(0, 1fr));
-    gap:18px;
+    top:80px;
+    z-index:2;
+}
+
+.eternal-runway-layout {
+    position:absolute;
+    left:79.5px;
+    top:150px;
+    width:1281px;
+    height:1024px;
 }
 
 .eternal-runway-layout img {
+    position:absolute;
     display:block;
-    width:100%;
-    height:100%;
-    object-fit:contain;
-    object-position:center;
+    max-width:none;
+    height:auto;
+}
+
+.runway-01 {
+    left:1px;
+    top:35.396px;
+    width:312.852px;
+}
+
+.runway-02 {
+    left:363.714px;
+    top:0;
+    width:282.906px;
+}
+
+.runway-03 {
+    left:1049.293px;
+    top:44.765px;
+    width:231.592px;
+}
+
+.runway-04 {
+    left:695.26px;
+    top:42.683px;
+    width:298.951px;
+}
+
+.runway-05 {
+    left:0;
+    top:596.204px;
+    width:250.88px;
+}
+
+.runway-06 {
+    left:303.318px;
+    top:540.278px;
+    width:233.625px;
+}
+
+.runway-07 {
+    left:589.903px;
+    top:561.98px;
+    width:309.12px;
+}
+
+.runway-08 {
+    left:950.192px;
+    top:526.922px;
+    width:330.525px;
 }
 
 
