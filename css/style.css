@@ -486,7 +486,7 @@ body {
   font-size:36px;
   font-weight:100;
   font-style:italic;
-  line-height:1.15;
+  line-height:1.28;
   letter-spacing:-0.25px;
 }
 
@@ -763,7 +763,7 @@ body {
   font-size:34px;
   font-weight:200;
   font-style:italic;
-  line-height:1.18;
+  line-height:1.32;
   letter-spacing:-0.2px;
 }
 
@@ -1834,7 +1834,7 @@ a.project-index-link::before {
   .about-text {
     margin:0;
     font-size:28px;
-    line-height:1.15;
+    line-height:1.3;
   }
   .about-text p + p {
     margin-top:20px;
@@ -1926,10 +1926,10 @@ a.project-index-link::before {
   }
   .about-page-bio {
     font-size:27px;
-    line-height:1.18;
+    line-height:1.32;
   }
   .about-page-bio p + p {
-    margin-top:28px;
+    margin-top:32px;
   }
   .about-page-details {
     margin-top:48px;
@@ -2053,10 +2053,10 @@ a.project-index-link::before {
   }
   .about-page-bio {
     font-size:clamp(16px, 2.6svh, 21px);
-    line-height:1.08;
+    line-height:1.32;
   }
   .about-page-bio p + p {
-    margin-top:10px;
+    margin-top:24px;
   }
   .about-page-details {
     margin-top:14px;
