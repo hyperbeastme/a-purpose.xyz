@@ -2447,3 +2447,72 @@ a.project-index-link::before {
 
     .catelier-next-project a { font-size:46px; }
 }
+
+
+/* COMING SOON PROJECTS */
+
+.coming-soon-page {
+    min-height:100svh;
+    display:flex;
+    flex-direction:column;
+}
+
+.coming-soon {
+    width:1440px;
+    max-width:100%;
+    min-height:calc(100svh - 80px);
+    margin:0 auto;
+    padding:80px;
+    display:flex;
+    flex:1;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.coming-soon h1 {
+    margin:0 0 26px;
+    font-size:clamp(52px, 7vw, 96px);
+    font-weight:300;
+    line-height:0.95;
+}
+
+.coming-soon p {
+    max-width:620px;
+    margin:0;
+    font-size:34px;
+    font-weight:200;
+    font-style:italic;
+    line-height:1.15;
+}
+
+.coming-soon-back {
+    display:inline-block;
+    margin-top:52px;
+    padding:14px 24px;
+    color:black;
+    font-size:24px;
+    text-decoration:none;
+}
+
+@media screen and (max-width:767px) {
+    .coming-soon {
+        min-height:calc(100svh - 72px);
+        padding:48px 24px;
+    }
+
+    .coming-soon h1 {
+        margin-bottom:22px;
+        font-size:clamp(46px, 15vw, 70px);
+    }
+
+    .coming-soon p {
+        font-size:27px;
+    }
+
+    .coming-soon-back {
+        margin-top:40px;
+        font-size:20px;
+    }
+}
