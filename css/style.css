@@ -2266,3 +2266,184 @@ body.lightbox-open {
         font-size:18px;
     }
 }
+
+
+/* PROJECTS INDEX */
+
+.projects-index {
+    width:1440px;
+    height:3072px;
+    margin:0 auto;
+    position:relative;
+    border-left:1px solid black;
+    border-right:1px solid black;
+}
+
+.project-index-link {
+    position:absolute;
+    color:black;
+    font-family:"futura-pt-condensed", sans-serif;
+    font-size:56px;
+    font-weight:500;
+    line-height:1;
+    text-decoration:none;
+    white-space:nowrap;
+}
+
+a.project-index-link::before {
+    content:"";
+    position:absolute;
+    inset:-18px -24px;
+}
+
+.project-index-eternal { left:285.022px; top:305.853px; }
+.project-index-reflections { left:790.454px; top:463.792px; }
+.project-index-catelier { left:393.85px; top:586.572px; }
+.project-index-digital { left:860.175px; top:695.924px; }
+.project-index-opposites { left:151.1px; top:822.121px; }
+.project-index-printmaking { left:308.906px; top:980.679px; }
+.project-index-free-cutting { left:957.259px; top:1154.265px; }
+.project-index-graphic { left:572.315px; top:1373.941px; }
+
+
+/* CATELIER PROJECT */
+
+.catelier-section {
+    width:1440px;
+    min-height:1024px;
+    margin:0 auto;
+    padding:80px;
+    position:relative;
+    overflow:hidden;
+}
+
+.catelier-section h2 {
+    position:absolute;
+    left:24px;
+    top:80px;
+    z-index:2;
+    margin:0;
+    font-size:44px;
+    font-weight:300;
+    line-height:1;
+}
+
+.catelier-statement {
+    display:grid;
+    grid-template-columns:minmax(0, 1fr) minmax(0, 1fr);
+    align-items:center;
+    gap:100px;
+}
+
+.catelier-statement-copy { max-width:520px; }
+
+.catelier-opening-statement {
+    margin:0;
+    font-size:35px;
+    font-weight:200;
+    font-style:italic;
+    line-height:1.18;
+}
+
+.catelier-statement-image {
+    display:block;
+    width:100%;
+    max-height:760px;
+    object-fit:contain;
+}
+
+.catelier-canvas {
+    min-height:864px;
+    padding-top:80px;
+    display:grid;
+    gap:18px;
+    align-items:center;
+}
+
+.catelier-canvas img {
+    display:block;
+    width:100%;
+    max-width:100%;
+    max-height:390px;
+    object-fit:contain;
+}
+
+.catelier-moodboard-canvas { grid-template-columns:repeat(4, minmax(0, 1fr)); }
+.catelier-sketch-canvas,
+.catelier-samples-canvas { grid-template-columns:repeat(3, minmax(0, 1fr)); }
+.catelier-process-canvas { grid-template-columns:repeat(4, minmax(0, 1fr)); }
+.catelier-museum-canvas { grid-template-columns:repeat(3, minmax(0, 1fr)); }
+
+.catelier-next-project {
+    width:1440px;
+    min-height:475px;
+    margin:0 auto;
+    padding:80px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-end;
+}
+
+.catelier-next-project p { margin:0 0 15px; font-size:22px; opacity:0.5; }
+.catelier-next-project a { color:black; font-size:70px; line-height:1; text-decoration:none; }
+
+@media screen and (max-width:767px) {
+    .projects-index {
+        width:100%;
+        height:auto;
+        min-height:calc(100svh - 72px);
+        padding:72px 24px;
+        border:0;
+        display:flex;
+        flex-direction:column;
+        gap:38px;
+    }
+
+    .project-index-link {
+        position:relative;
+        inset:auto;
+        width:max-content;
+        max-width:100%;
+        font-size:clamp(34px, 10vw, 52px);
+        white-space:normal;
+    }
+
+    .project-index-link:nth-child(even) { align-self:flex-end; text-align:right; }
+
+    .catelier-section {
+        width:100%;
+        min-height:0;
+        padding:64px 20px 28px;
+        overflow:visible;
+    }
+
+    .catelier-section h2 { left:20px; top:24px; font-size:30px; }
+
+    .catelier-statement {
+        padding-top:36px;
+        display:flex;
+        flex-direction:column-reverse;
+        gap:32px;
+    }
+
+    .catelier-opening-statement { font-size:27px; }
+    .catelier-statement-image { max-height:56svh; }
+
+    .catelier-canvas {
+        min-height:0;
+        padding-top:0;
+        grid-template-columns:repeat(2, minmax(0, 1fr));
+        gap:10px;
+    }
+
+    .catelier-canvas img { max-height:none; }
+
+    .catelier-next-project {
+        width:100%;
+        min-height:300px;
+        padding:48px 24px;
+    }
+
+    .catelier-next-project a { font-size:46px; }
+}
