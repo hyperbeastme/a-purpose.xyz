@@ -1031,18 +1031,17 @@ body {
 
 .eternal-process-layout {
     position:absolute;
+    inset:0;
     width:1440px;
     height:1024px;
 
 }
 
 .eternal-process-layout img {
-     position:absolute;
+    position:absolute;
     display:block;
-    max-width:100%;
     height:auto;
-    margin-left:80px;
-    margin-right:80px;
+    margin:0;
    
 }
 
