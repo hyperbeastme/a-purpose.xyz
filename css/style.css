@@ -743,7 +743,7 @@ body {
 }
 
 .about-page-eyebrow {
-  margin:0 0 18px;
+  margin:0 0 62px;
   color:#888;
   font-size:24px;
   font-weight:300;
@@ -752,7 +752,7 @@ body {
 }
 
 .about-page-copy h1 {
-  margin:0 0 62px;
+  margin:0 0 12px;
   font-size:76px;
   font-weight:300;
   line-height:0.95;
@@ -1916,11 +1916,11 @@ a.project-index-link::before {
     max-width:none;
   }
   .about-page-eyebrow {
-    margin-bottom:14px;
+    margin-bottom:42px;
     font-size:18px;
   }
   .about-page-copy h1 {
-    margin-bottom:42px;
+    margin-bottom:10px;
     font-size:50px;
     letter-spacing:-0.5px;
   }
@@ -2044,11 +2044,11 @@ a.project-index-link::before {
     min-height:0;
   }
   .about-page-eyebrow {
-    margin-bottom:6px;
+    margin-bottom:18px;
     font-size:14px;
   }
   .about-page-copy h1 {
-    margin-bottom:12px;
+    margin-bottom:6px;
     font-size:clamp(32px, 6svh, 44px);
   }
   .about-page-bio {
