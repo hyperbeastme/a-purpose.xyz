@@ -958,7 +958,7 @@ body {
 .eternal-moodboard-canvas img {
     position:absolute;
     display:block;
-    max-width:none;
+    max-width:100%;
     height:auto;
     margin-left:80px;
     margin-right:80px;
