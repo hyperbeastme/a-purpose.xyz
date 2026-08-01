@@ -2275,8 +2275,6 @@ body.lightbox-open {
     height:3072px;
     margin:0 auto;
     position:relative;
-    border-left:1px solid black;
-    border-right:1px solid black;
 }
 
 .project-index-link {
