@@ -867,7 +867,8 @@ body {
 /* ETERNAL BONDS PAGE */
 
 .eternal-bonds-page {
-    margin:0;
+    margin-left:80px;
+    margin-right:80px;
     background:white;
     color:black;
     font-family:"futura-pt-condensed", sans-serif;
