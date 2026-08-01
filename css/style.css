@@ -867,8 +867,6 @@ body {
 /* ETERNAL BONDS PAGE */
 
 .eternal-bonds-page {
-    margin-left:80px;
-    margin-right:80px;
     background:white;
     color:black;
     font-family:"futura-pt-condensed", sans-serif;
@@ -949,6 +947,7 @@ body {
 
 .eternal-moodboard-canvas {
     position:absolute;
+    inset:0;
     width:1440px;
     height:1024px;
 
@@ -958,10 +957,8 @@ body {
 .eternal-moodboard-canvas img {
     position:absolute;
     display:block;
-    max-width:100%;
     height:auto;
-    margin-left:80px;
-    margin-right:80px;
+    margin:0;
 }
 
 .mood-01 {
