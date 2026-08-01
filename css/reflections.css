@@ -280,7 +280,7 @@
         object-fit:contain;
     }
 
-    .reflections-mood-canvas {
+    .reflections-moodboard-canvas {
         grid-template-columns:repeat(3, minmax(0, 1fr));
         grid-template-rows:repeat(3, minmax(0, 1fr));
     }
