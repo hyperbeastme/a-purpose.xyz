@@ -692,6 +692,7 @@ body {
     height:450px;
     margin:125px auto 0;
     padding:45px 80px 35px;
+    position:relative;
 
     display:flex;
     flex-direction:column;
@@ -701,6 +702,15 @@ body {
 
     font-family:"futura-pt-condensed", sans-serif;
     text-decoration:#888;
+}
+
+.footer::before {
+    content:"";
+    position:absolute;
+    top:0;
+    left:80px;
+    right:80px;
+    border-top:1px solid rgba(0, 0, 0, 0.18);
 }
 
 
@@ -1753,6 +1763,11 @@ body {
         height:auto;
         margin:0;
         padding:24px 20px 20px;
+    }
+
+    .footer::before {
+        left:20px;
+        right:20px;
     }
 
     .footer-main {
