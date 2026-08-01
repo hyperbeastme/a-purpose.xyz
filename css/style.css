@@ -732,7 +732,8 @@ body {
     display:block;
     width:44px;
     height:44px;
-    text-decoration: #888;
+    color-inherit:#888;
+    
 }
 
 .footer-copyright {
