@@ -1053,11 +1053,82 @@ body {
     object-position:center;
 }
 
-.process-01,
-.process-02,
-.process-03 {
-    grid-column:span 2;
-    grid-row:span 2;
+.process-01{
+    left:416.992px;
+    top:499.5009px;
+    width:236.232px;
+}
+
+.process-02{
+    left:16.5814px;
+    top:23.379px;
+    width:115.3042px;
+}
+
+.process-03{
+    left:152.971px;
+    bottom:0;
+    width:209.799px;
+}
+
+.process-04{
+    right:366.0621px;
+    top:355.44px;
+    width:282.24px;
+}
+
+.process-05{
+    left:172.139px;
+    top:499.501px;
+    width:129.857px;
+}
+
+.process-06{
+    right:51.3881px;
+    bottom:314.416px;
+    width:265.608px;
+}
+
+.process-07{
+    left:416.992px;
+    top:50px;
+    width:285.266px;
+}
+
+.process-08{
+    left:172.139px;
+    top:499.501px;
+    width:481.086px;
+}
+
+.process-09{
+    left:114.076px;
+    top:0px;
+    width:253.44px;
+}
+
+.process-10{
+    right:104.6465px;
+    bottom:0;
+    width:212.3496px;
+}
+
+.process-11{
+    left:0;
+    top:0;
+    width:388px;
+}
+
+.process-12{
+    left:0px;
+    top:0px;
+    width:527.7421px;
+}
+
+.process-13{
+    left:437.17px;
+    bottom:50px;
+    width:216.055px;
 }
 
 
