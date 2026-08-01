@@ -1869,3 +1869,178 @@ body.lightbox-open {
         font-size:42px;
     }
 }
+
+
+/* ABOUT PAGE */
+
+.about-page-main {
+    width:1440px;
+    margin:0 auto;
+}
+
+.about-page-intro {
+    width:1440px;
+    min-height:944px;
+    margin:0 auto;
+    padding:120px 80px 100px;
+
+    display:grid;
+    grid-template-columns:500px 1fr;
+    gap:140px;
+    align-items:start;
+}
+
+.about-page-portrait {
+    width:440px;
+    margin:40px 0 0;
+}
+
+.about-page-portrait img {
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+.about-page-copy {
+    max-width:640px;
+}
+
+.about-page-eyebrow {
+    margin:0 0 18px;
+
+    color:#888;
+    font-size:24px;
+    font-weight:300;
+    line-height:1;
+    text-transform:lowercase;
+}
+
+.about-page-copy h1 {
+    margin:0 0 62px;
+
+    font-size:76px;
+    font-weight:300;
+    line-height:0.95;
+    letter-spacing:-1px;
+}
+
+.about-page-bio {
+    font-size:34px;
+    font-weight:200;
+    font-style:italic;
+    line-height:1.18;
+    letter-spacing:-0.2px;
+}
+
+.about-page-bio p {
+    margin:0;
+}
+
+.about-page-bio p + p {
+    margin-top:34px;
+}
+
+.about-page-details {
+    margin-top:64px;
+    padding-top:24px;
+    border-top:1px solid #aaa;
+
+    display:grid;
+    grid-template-columns:0.75fr 1.6fr 1.25fr;
+    gap:28px;
+}
+
+.about-page-details span {
+    display:block;
+    margin-bottom:8px;
+
+    color:#888;
+    font-size:18px;
+    font-weight:300;
+    line-height:1;
+}
+
+.about-page-details p {
+    margin:0;
+
+    font-size:20px;
+    font-weight:300;
+    line-height:1.2;
+}
+
+.about-page-details a,
+.about-page-details a:visited,
+.about-page-details a:hover,
+.about-page-details a:active {
+    color:black;
+    text-decoration:none;
+}
+
+.about-page .footer {
+    margin-top:0;
+}
+
+@media screen and (max-width:767px) {
+
+    .about-page-main,
+    .about-page-intro {
+        width:100%;
+        max-width:100%;
+    }
+
+    .about-page-intro {
+        min-height:0;
+        padding:48px 24px 72px;
+
+        display:flex;
+        flex-direction:column;
+        gap:52px;
+    }
+
+    .about-page-portrait {
+        width:100%;
+        margin:0;
+    }
+
+    .about-page-copy {
+        width:100%;
+        max-width:none;
+    }
+
+    .about-page-eyebrow {
+        margin-bottom:14px;
+        font-size:18px;
+    }
+
+    .about-page-copy h1 {
+        margin-bottom:42px;
+        font-size:50px;
+        letter-spacing:-0.5px;
+    }
+
+    .about-page-bio {
+        font-size:27px;
+        line-height:1.18;
+    }
+
+    .about-page-bio p + p {
+        margin-top:28px;
+    }
+
+    .about-page-details {
+        margin-top:48px;
+        padding-top:22px;
+
+        grid-template-columns:1fr;
+        gap:24px;
+    }
+
+    .about-page-details span {
+        margin-bottom:6px;
+        font-size:16px;
+    }
+
+    .about-page-details p {
+        font-size:20px;
+    }
+}
