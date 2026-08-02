@@ -2247,3 +2247,127 @@ a.project-index-link::before {
     right:auto;
   }
 }
+
+/* Reflections desktop layouts from Illustrator SVG artboards */
+
+@media screen and (min-width:1200px) {
+  .reflections-section {
+    width:1440px;
+    height:1024px;
+    min-height:1024px;
+    margin:0 auto;
+    padding:0;
+    position:relative;
+    overflow:hidden;
+  }
+
+  .reflections-section h2 {
+    position:absolute;
+    left:24px;
+    top:80px;
+    z-index:20;
+    margin:0;
+    font-size:44px;
+    font-weight:300;
+    line-height:1;
+  }
+
+  .reflections-statement-copy {
+    left:823.535px;
+    right:auto;
+    top:69.784px;
+    width:526.653px;
+  }
+
+  .reflections-statement-image {
+    left:140.237px;
+    right:auto;
+    top:385.544px;
+    width:572.5px;
+    height:375.102px;
+    max-height:none;
+    opacity:.75;
+  }
+
+  .reflections-canvas {
+    position:absolute;
+    padding:0;
+    display:block;
+  }
+
+  .reflections-canvas img {
+    position:absolute;
+    display:block;
+    max-width:none;
+    max-height:none;
+    height:auto;
+    margin:0;
+    object-fit:fill;
+  }
+
+  .reflections-moodboard-canvas {
+    left:112.844px;
+    top:80px;
+    width:1214.313px;
+    height:864px;
+  }
+
+  .reflections-mood-01 { left:884.877px; top:534.565px; width:329.376px; }
+  .reflections-mood-02 { left:884.877px; top:121.58px; width:309.636px; }
+  .reflections-mood-03 { left:598.844px; top:194.348px; width:266.208px; height:161.163px; }
+  .reflections-mood-04 {
+    left:48.282px;
+    top:337.719px;
+    width:216.648px;
+    height:288.252px;
+    transform:rotate(-90deg);
+    transform-origin:0 0;
+  }
+  .reflections-mood-05 { left:363.818px; top:386.093px; width:496.133px; }
+  .reflections-mood-06 { left:0; top:362.567px; width:338.424px; }
+  .reflections-mood-07 { left:602.753px; top:0; width:258.048px; }
+  .reflections-mood-08 { left:364.835px; top:101.912px; width:213.6px; }
+
+  .reflections-sketch-canvas {
+    left:119.136px;
+    top:13.538px;
+    width:1201.728px;
+    height:996.924px;
+  }
+
+  .reflections-sketch-01 { left:0; top:0; width:1196.728px; }
+  .reflections-sketch-02 { left:3.371px; top:498.967px; width:1196.728px; }
+
+  .reflections-process-canvas {
+    left:148.072px;
+    top:122.819px;
+    width:1143.857px;
+    height:778.363px;
+  }
+
+  .reflections-process-01 { left:7.488px; top:384.413px; width:222.264px; }
+  .reflections-process-02 { left:889.255px; top:5.065px; width:254.016px; }
+  .reflections-process-03 { left:700.259px; top:4.79px; width:154.224px; }
+  .reflections-process-04 { left:43.285px; top:230.998px; width:117.9px; }
+  .reflections-process-05 { left:397.463px; top:230.998px; width:65.88px; }
+  .reflections-process-06 { left:279.102px; top:372.182px; width:253.128px; }
+  .reflections-process-07 { left:742.882px; top:493.487px; width:394.224px; }
+  .reflections-process-08 {
+    left:707.086px;
+    top:457.048px;
+    width:322.56px;
+    transform:rotate(90deg);
+    transform-origin:0 0;
+  }
+  .reflections-process-09 { left:558.978px; top:349.012px; width:133.812px; }
+  .reflections-process-10 { left:0; top:0; width:315.842px; }
+  .reflections-process-11 { left:197.095px; top:153.848px; width:165.564px; }
+  .reflections-process-12 {
+    left:331.699px;
+    top:3.725px;
+    width:150px;
+    mix-blend-mode:multiply;
+  }
+  .reflections-process-13 { left:280.287px; top:529.147px; width:139.956px; }
+  .reflections-process-14 { left:499.384px; top:19.742px; width:165.564px; }
+}
