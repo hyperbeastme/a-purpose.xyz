@@ -1,0 +1,213 @@
+/* Reflections of Displacement opening board
+   Desktop coordinates are translated from the 1440 × 1024 Illustrator artboard. */
+
+.reflections-opening-statement {
+  margin:0;
+  font-family:"futura-pt-condensed", sans-serif;
+  font-style:italic;
+}
+
+.reflections-opening-statement p {
+  margin:0;
+}
+
+.reflections-opening-statement span {
+  display:block;
+  white-space:nowrap;
+}
+
+.reflections-opening-question {
+  font-size:29px;
+  font-weight:200;
+  line-height:1.28;
+}
+
+.reflections-opening-question--offset {
+  margin:24px 0 34px 220px !important;
+}
+
+.reflections-opening-body {
+  font-size:27px;
+  font-weight:500;
+  line-height:1.22;
+}
+
+.reflections-opening-closing {
+  margin-top:50px;
+  font-size:28px;
+  font-weight:200;
+  line-height:1.25;
+}
+
+.reflections-opening-closing p + p {
+  margin-top:23px;
+}
+
+.reflections-opening-closing p:nth-child(2) {
+  margin-left:260px;
+}
+
+@media screen and (min-width:1200px) {
+  .reflections-page .reflections-statement {
+    width:1440px;
+    height:944px;
+    min-height:944px;
+    margin:0 auto;
+    padding:0;
+    display:block;
+    position:relative;
+    overflow:hidden;
+  }
+
+  .reflections-page .reflections-statement-copy {
+    position:absolute;
+    left:823.535px;
+    right:auto;
+    top:69.784px;
+    width:526.653px;
+    height:auto;
+    margin:0;
+  }
+
+  .reflections-page .reflections-statement-image {
+    position:absolute;
+    left:140.299px;
+    right:auto;
+    top:242.425px;
+    display:block;
+    width:572.5px;
+    height:375.102px;
+    max-height:none;
+    margin:0;
+    object-fit:fill;
+    opacity:.75;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1199px) {
+  .reflections-page .reflections-statement {
+    min-height:calc(100svh - 80px);
+    padding:48px 40px;
+    display:grid;
+    grid-template-columns:minmax(0, .95fr) minmax(0, 1.05fr);
+    gap:44px;
+    align-items:center;
+  }
+
+  .reflections-page .reflections-statement-image {
+    grid-column:1;
+    grid-row:1;
+    position:static;
+    width:100%;
+    max-height:64svh;
+    object-fit:contain;
+    opacity:.75;
+  }
+
+  .reflections-page .reflections-statement-copy {
+    grid-column:2;
+    grid-row:1;
+    position:static;
+    width:100%;
+  }
+
+  .reflections-opening-statement span {
+    display:inline;
+    white-space:normal;
+  }
+
+  .reflections-opening-question {
+    font-size:clamp(18px, 2.5vw, 26px);
+  }
+
+  .reflections-opening-question--offset {
+    margin:18px 0 26px 20% !important;
+  }
+
+  .reflections-opening-body {
+    font-size:clamp(16px, 2.05vw, 22px);
+  }
+
+  .reflections-opening-closing {
+    margin-top:30px;
+    font-size:clamp(17px, 2.25vw, 24px);
+  }
+
+  .reflections-opening-closing p + p {
+    margin-top:14px;
+  }
+
+  .reflections-opening-closing p:nth-child(2) {
+    margin-left:24%;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .reflections-page .reflections-statement {
+    width:100%;
+    height:calc(100svh - 72px);
+    min-height:0;
+    max-height:calc(100svh - 72px);
+    padding:12px 16px 14px;
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:minmax(0, 27svh) minmax(0, 1fr);
+    gap:10px;
+    overflow:hidden;
+  }
+
+  .reflections-page .reflections-statement-image {
+    grid-column:1;
+    grid-row:1;
+    position:static;
+    width:100%;
+    height:100%;
+    max-height:none;
+    margin:0;
+    object-fit:contain;
+    opacity:.75;
+  }
+
+  .reflections-page .reflections-statement-copy {
+    grid-column:1;
+    grid-row:2;
+    position:static;
+    width:100%;
+    min-height:0;
+    margin:0;
+    overflow:hidden;
+  }
+
+  .reflections-opening-statement span {
+    display:inline;
+    white-space:normal;
+  }
+
+  .reflections-opening-question {
+    font-size:clamp(10.5px, 1.72svh, 13px);
+    line-height:1.12;
+  }
+
+  .reflections-opening-question--offset {
+    margin:clamp(5px, .8svh, 8px) 0 clamp(7px, 1svh, 10px) 24% !important;
+  }
+
+  .reflections-opening-body {
+    font-size:clamp(9.5px, 1.52svh, 11.5px);
+    line-height:1.12;
+  }
+
+  .reflections-opening-closing {
+    margin-top:clamp(7px, 1svh, 10px);
+    font-size:clamp(10px, 1.62svh, 12.5px);
+    line-height:1.12;
+  }
+
+  .reflections-opening-closing p + p {
+    margin-top:clamp(4px, .65svh, 7px);
+  }
+
+  .reflections-opening-closing p:nth-child(2) {
+    margin-left:24%;
+  }
+}
