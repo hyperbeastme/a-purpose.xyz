@@ -2183,3 +2183,53 @@ a.project-index-link::before {
     font-size:20px;
   }
 }
+
+/* Shared desktop project opening layout */
+
+@media screen and (min-width:1200px) {
+  .reflections-statement,
+  .catelier-statement {
+    width:1440px;
+    height:1024px;
+    min-height:1024px;
+    margin:0 auto;
+    padding:80px;
+    display:block;
+    position:relative;
+    overflow:hidden;
+  }
+
+  .reflections-statement-copy,
+  .catelier-statement-copy {
+    position:absolute;
+    left:80px;
+    top:140px;
+    width:487.5px;
+    max-width:none;
+    height:auto;
+    margin:0;
+  }
+
+  .reflections-opening-statement,
+  .catelier-opening-statement {
+    margin:0;
+    font-family:"futura-pt-condensed", sans-serif;
+    font-size:34.6931px;
+    font-weight:200;
+    font-style:italic;
+    line-height:41px;
+    letter-spacing:0;
+  }
+
+  .reflections-statement-image,
+  .catelier-statement-image {
+    position:absolute;
+    right:130.3px;
+    top:228.53px;
+    display:block;
+    width:540px;
+    max-height:760px;
+    height:auto;
+    object-fit:contain;
+  }
+}
