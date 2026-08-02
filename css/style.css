@@ -2233,3 +2233,17 @@ a.project-index-link::before {
     object-fit:contain;
   }
 }
+
+/* Reflections desktop opening: image left, statement right */
+
+@media screen and (min-width:1200px) {
+  .reflections-statement-copy {
+    left:auto;
+    right:80px;
+  }
+
+  .reflections-statement-image {
+    left:130.3px;
+    right:auto;
+  }
+}
