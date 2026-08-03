@@ -1,0 +1,89 @@
+/* Responsive framing for fixed-position portfolio boards.
+   Board coordinates remain defined by the desktop project CSS. */
+
+.responsive-board-frame {
+  position:relative;
+  width:100%;
+  margin-right:auto;
+  margin-left:auto;
+  overflow:hidden;
+}
+
+.responsive-board-frame > .responsive-board {
+  position:absolute !important;
+  top:0;
+  transform-origin:top left !important;
+  max-width:none !important;
+}
+
+.responsive-scale-active {
+  overflow-x:hidden;
+}
+
+.responsive-scale-active .header {
+  width:100%;
+  min-height:72px;
+  height:auto;
+  padding:12px clamp(18px, 5vw, 32px);
+  grid-template-columns:1fr auto;
+  row-gap:10px;
+}
+
+.responsive-scale-active .header-left {
+  justify-self:start;
+  font-size:clamp(18px, 5vw, 24px);
+}
+
+.responsive-scale-active .header-center {
+  position:static;
+  grid-column:2;
+  grid-row:1;
+  justify-self:end;
+  transform:none;
+  font-size:clamp(23px, 6vw, 32px);
+  text-align:right;
+  white-space:nowrap;
+}
+
+.responsive-scale-active .header-right {
+  grid-column:1 / -1;
+  grid-row:2;
+  justify-self:end;
+  gap:clamp(12px, 4vw, 22px);
+  font-size:clamp(16px, 4.4vw, 21px);
+}
+
+.responsive-scale-active .header-right img {
+  width:20px;
+  height:20px;
+}
+
+.responsive-scale-active .footer {
+  width:min(calc(100% - 40px), 1200px);
+  height:auto;
+  min-height:0;
+  margin:40px auto 0;
+  padding:26px 0 22px;
+  gap:24px;
+}
+
+.responsive-scale-active .footer::before {
+  left:0;
+  right:0;
+}
+
+.responsive-scale-active .footer-main {
+  width:100%;
+  flex-wrap:wrap;
+  gap:10px 14px;
+}
+
+.responsive-scale-active .footer-main .footer-email {
+  width:100%;
+  text-align:center;
+}
+
+.responsive-scale-active .footer-copyright {
+  margin:0;
+  font-size:16px;
+}
