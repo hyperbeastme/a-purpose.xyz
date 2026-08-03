@@ -83,15 +83,15 @@
 /* SKETCHES */
 
 .reflections-sketch-01 {
-    left:202.5px;
-    top:135px;
+    right:135.5px;
+    top:80px;
     width:1035px;
     mix-blend-mode:multiply;
 }
 
 .reflections-sketch-02 {
-    left:202.5px;
-    top:566px;
+    right:135.5px;
+    top:501.6px;
     width:1035px;
     mix-blend-mode:multiply;
 }
