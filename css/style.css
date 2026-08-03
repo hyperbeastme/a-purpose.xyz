@@ -1417,14 +1417,14 @@ a.project-index-link::before {
   .reflections-mood-08 { left:364.835px; top:101.912px; width:213.6px; }
 
   .reflections-sketch-canvas {
-    left:119.136px;
-    top:13.538px;
-    width:1201.728px;
-    height:996.924px;
+    left:0;
+    top:0;
+    width:1440px;
+    height:1024px;
   }
 
-  .reflections-sketch-01 { left:0; top:0; width:1196.728px; }
-  .reflections-sketch-02 { left:3.371px; top:498.967px; width:1196.728px; }
+  .reflections-sketch-01 { left:420px; top:80px; width:600px; }
+  .reflections-sketch-02 { left:420px; top:501.6px; width:600px; }
 
   .reflections-process-canvas {
     left:148.072px;
@@ -1496,12 +1496,12 @@ a.project-index-link::before {
   }
 
   .reflections-sketch-canvas {
-    left:50%;
-    top:150px;
-    width:1201.728px;
-    height:996.924px;
-    transform:translateX(-50%) scale(.84);
-    transform-origin:top center;
+    left:0;
+    top:0;
+    width:1440px;
+    height:1024px;
+    transform:none;
+    transform-origin:initial;
   }
 
   .reflections-catalog-canvas,
@@ -1573,8 +1573,8 @@ a.project-index-link::before {
     mix-blend-mode:multiply;
   }
 
-  .reflections-sketch-01 { left:3.371px; top:498.967px; width:1196.728px; height:497.28px; }
-  .reflections-sketch-02 { left:0; top:0; width:1196.728px; height:497.28px; }
+  .reflections-sketch-01 { left:420px; top:80px; width:600px; height:auto; }
+  .reflections-sketch-02 { left:420px; top:501.6px; width:600px; height:auto; }
 
   .reflections-process-01 { left:0; top:0; width:315.842px; height:196.394px; }
   .reflections-process-02 { left:43.285px; top:230.998px; width:117.9px; height:117.9px; }
