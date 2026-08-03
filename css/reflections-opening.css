@@ -47,7 +47,7 @@
   margin-left:260px;
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1024px) and (hover:hover) and (pointer:fine) {
   .reflections-page .reflections-statement {
     width:1440px;
     height:944px;
@@ -84,7 +84,7 @@
   }
 }
 
-@media screen and (min-width:768px) and (max-width:1199px) {
+@media screen and (min-width:768px) and (max-width:1199px) and (hover:none) and (pointer:coarse) {
   .reflections-page .reflections-statement {
     min-height:calc(100svh - 80px);
     padding:48px 40px;
