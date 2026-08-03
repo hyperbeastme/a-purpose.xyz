@@ -1504,7 +1504,6 @@ a.project-index-link::before {
     transform-origin:initial;
   }
 
-  .reflections-catalog-canvas,
   .reflections-editorial-canvas {
     left:80px;
     right:80px;
@@ -1517,18 +1516,11 @@ a.project-index-link::before {
     align-items:center;
     gap:18px;
     transform:none;
-  }
-
-  .reflections-catalog-canvas {
     grid-template-columns:repeat(4, minmax(0, 1fr));
-  }
-
-  .reflections-editorial-canvas {
     grid-template-columns:repeat(4, minmax(0, 1fr));
     grid-template-rows:repeat(3, minmax(0, 1fr));
   }
 
-  .reflections-catalog-canvas img,
   .reflections-editorial-canvas img {
     position:static;
     inset:auto;
