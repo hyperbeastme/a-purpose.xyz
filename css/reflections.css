@@ -82,18 +82,31 @@
 
 /* SKETCHES */
 
-.reflections-sketch-01 {
-    left:80px;
-    top:80px;
+.reflections-sketch-canvas {
+    left:0;
+    top:0;
+    width:1440px;
+    height:1024px;
+    transform:none;
+}
+
+.reflections-sketch-canvas .reflections-sketch-01,
+.reflections-sketch-canvas .reflections-sketch-02 {
     width:600px;
+    height:auto;
+    max-width:none;
+    transform:none;
     mix-blend-mode:multiply;
 }
 
-.reflections-sketch-02 {
-    left:80px;
-    top:501.6px;
-    width:600px;
-    mix-blend-mode:multiply;
+.reflections-sketch-canvas .reflections-sketch-01 {
+    left:420px;
+    top:160px;
+}
+
+.reflections-sketch-canvas .reflections-sketch-02 {
+    left:420px;
+    top:550px;
 }
 
 
