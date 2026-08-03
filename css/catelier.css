@@ -103,59 +103,6 @@
   text-decoration:none;
 }
 
-/* PHONE */
-
-@media screen and (max-width:767px) {
-  .catelier-section {
-    width:100%;
-    min-height:0;
-    padding:64px 20px 28px;
-    overflow:visible;
-  }
-
-  .catelier-section h2 {
-    left:20px;
-    top:24px;
-    font-size:30px;
-  }
-
-  .catelier-statement {
-    padding-top:36px;
-    display:flex;
-    flex-direction:column-reverse;
-    gap:32px;
-  }
-
-  .catelier-opening-statement {
-    font-size:27px;
-  }
-
-  .catelier-statement-image {
-    max-height:56svh;
-  }
-
-  .catelier-canvas {
-    min-height:0;
-    padding-top:0;
-    grid-template-columns:repeat(2, minmax(0, 1fr));
-    gap:10px;
-  }
-
-  .catelier-canvas img {
-    max-height:none;
-  }
-
-  .catelier-next-project {
-    width:100%;
-    min-height:300px;
-    padding:48px 24px;
-  }
-
-  .catelier-next-project a {
-    font-size:46px;
-  }
-}
-
 /* DESKTOP OPENING */
 
 @media screen and (min-width:1200px) {
@@ -201,47 +148,3 @@
     object-fit:contain;
   }
 }
-
-/* Shared iPhone viewport system: 360–428px, baseline 390 × 844px */
-@media screen and (max-width:767px) {
-  .catelier-section {
-    width:100%;
-    height:var(--mobile-screen-height, 100svh);
-    min-height:0;
-    max-height:var(--mobile-screen-height, 100svh);
-    padding:
-      var(--mobile-section-top, 48px)
-      var(--mobile-gutter, 20px)
-      var(--mobile-section-bottom, 16px);
-    overflow:hidden;
-  }
-
-  .catelier-canvas {
-    min-width:0;
-    min-height:0;
-    max-width:100%;
-    max-height:100%;
-  }
-
-  .catelier-next-project {
-    width:100%;
-    max-width:100%;
-    min-height:0;
-    max-height:var(--mobile-screen-height, 100svh);
-    padding-right:var(--mobile-gutter, 20px);
-    padding-left:var(--mobile-gutter, 20px);
-  }
-}
-
-@media screen and (max-width:767px) and (max-height:699px) {
-  .catelier-section {
-    padding-top:var(--mobile-section-top, 34px);
-    padding-bottom:var(--mobile-section-bottom, 12px);
-  }
-
-  .catelier-section h2 {
-    margin-bottom:10px;
-    font-size:clamp(22px, 6vw, 27px);
-  }
-}
-
