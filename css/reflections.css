@@ -83,14 +83,14 @@
 /* SKETCHES */
 
 .reflections-sketch-01 {
-    right:80px;
+    left:80px;
     top:80px;
     width:1035px;
     mix-blend-mode:multiply;
 }
 
 .reflections-sketch-02 {
-    right:80px;
+    left:80px;
     top:501.6px;
     width:1035px;
     mix-blend-mode:multiply;
