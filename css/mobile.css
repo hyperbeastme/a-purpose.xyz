@@ -1,6 +1,6 @@
 /* Tablet layout */
 
-@media screen and (min-width:768px) and (max-width:1199px) {
+@media screen and (min-width:768px) and (max-width:1199px) and (hover:none) and (pointer:coarse) {
   body,
   main {
     width:100%;
@@ -644,7 +644,7 @@
   flex:0 0 auto;
 }
 
-@media screen and (min-width:768px) and (max-width:1199px) {
+@media screen and (min-width:768px) and (max-width:1199px) and (hover:none) and (pointer:coarse) {
   .footer-main {
     flex-wrap:nowrap;
     gap:clamp(16px, 3vw, 28px);
@@ -707,7 +707,7 @@
   right:0;
 }
 
-@media screen and (min-width:768px) and (max-width:1199px) {
+@media screen and (min-width:768px) and (max-width:1199px) and (hover:none) and (pointer:coarse) {
   .footer {
     width:calc(100% - 80px);
     max-width:960px;
