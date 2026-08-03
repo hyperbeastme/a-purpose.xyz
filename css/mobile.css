@@ -779,3 +779,52 @@
     font-size:15px;
   }
 }
+
+/* Shared iPhone viewport system: 360–428px, baseline 390 × 844px */
+@media screen and (max-width:767px) {
+  :root {
+    --mobile-header-height:clamp(64px, 8.53svh, 72px);
+    --mobile-screen-height:100svh;
+    --mobile-content-height:calc(var(--mobile-screen-height) - var(--mobile-header-height));
+    --mobile-gutter:clamp(16px, 5.13vw, 22px);
+    --mobile-section-top:clamp(40px, 5.69svh, 48px);
+    --mobile-section-bottom:max(16px, env(safe-area-inset-bottom));
+  }
+
+  html,
+  body {
+    width:100%;
+    max-width:100%;
+    overflow-x:hidden;
+  }
+
+  .header {
+    min-height:var(--mobile-header-height);
+    padding:
+      max(12px, env(safe-area-inset-top))
+      var(--mobile-gutter)
+      12px;
+  }
+
+  .landing,
+  .contact-page,
+  .about-page-intro,
+  .projects-index,
+  .coming-soon {
+    min-height:var(--mobile-content-height);
+  }
+}
+
+@media screen and (max-width:767px) and (max-height:699px) {
+  :root {
+    --mobile-header-height:60px;
+    --mobile-section-top:34px;
+    --mobile-section-bottom:12px;
+  }
+
+  .header {
+    padding-top:8px;
+    padding-bottom:8px;
+  }
+}
+
