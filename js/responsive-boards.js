@@ -35,12 +35,10 @@
       for (const rule of rules) {
         if (!(rule instanceof CSSMediaRule)) continue;
 
-        const query = rule.conditionText.toLowerCase();
+        const query = rule.conditionText.toLowerCase().replace(/\s+/g, "");
         const phoneRule =
           query.includes("max-width:767px") ||
-          query.includes("max-width: 767px") ||
-          (query.includes("min-width:393px") && query.includes("max-width:440px")) ||
-          (query.includes("min-width: 393px") && query.includes("max-width: 440px"));
+          (query.includes("min-width:393px") && query.includes("max-width:440px"));
         const touchTabletRule =
           query.includes("min-width:768px") &&
           query.includes("max-width:1199px") &&
