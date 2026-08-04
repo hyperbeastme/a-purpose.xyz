@@ -78,9 +78,15 @@
 
 /* MOOD BOARD */
 
+.eternal-section:has(> .eternal-moodboard-canvas),
+.eternal-section:has(> .eternal-process-layout) {
+  height:1174px;
+}
+
 .eternal-moodboard-canvas {
   position:absolute;
   inset:0;
+  top:150px;
   width:1440px;
   height:1024px;
 }
@@ -161,6 +167,7 @@
 .eternal-process-layout {
   position:absolute;
   inset:0;
+  top:150px;
   width:1440px;
   height:1024px;
 }
