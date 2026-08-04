@@ -193,6 +193,11 @@
         overflow:visible;
     }
 
+    .reflections-section:has(> .reflections-canvas) {
+        height:auto;
+        min-height:0;
+    }
+
     .reflections-section h2 {
         position:static;
         margin:0 0 28px;
