@@ -1502,35 +1502,6 @@ a.project-index-link::before {
     transform-origin:initial;
   }
 
-  .reflections-editorial-canvas {
-    left:80px;
-    right:80px;
-    top:150px;
-    bottom:60px;
-    width:auto;
-    height:auto;
-    padding:0;
-    display:grid;
-    align-items:center;
-    gap:18px;
-    transform:none;
-    grid-template-columns:repeat(4, minmax(0, 1fr));
-    grid-template-columns:repeat(4, minmax(0, 1fr));
-    grid-template-rows:repeat(3, minmax(0, 1fr));
-  }
-
-  .reflections-editorial-canvas img {
-    position:static;
-    inset:auto;
-    display:block;
-    width:100%;
-    max-width:100%;
-    height:auto;
-    max-height:100%;
-    margin:0;
-    object-fit:contain;
-    transform:none;
-  }
 }
 
 /* Correct Reflections file-to-SVG artwork mapping */
