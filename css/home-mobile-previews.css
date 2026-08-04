@@ -1,109 +1,269 @@
-/* Compact homepage project previews for phones only */
+/* Fixed 390px homepage compositions for phones.
+   Every project is treated as one artboard and scales as a unit with viewport width. */
 
 @media screen and (max-width:767px) {
   .project-preview {
-    width:100%;
-    height:auto;
+    position:relative;
+    width:100vw;
+    height:216.4103vw;
     min-height:0;
-    margin:0;
-    padding:clamp(36px, 6svh, 56px) 16px;
-    display:grid;
-    grid-template-columns:repeat(4, minmax(0, 1fr));
-    grid-auto-flow:dense;
-    gap:8px;
-    align-content:center;
+    margin:0 auto !important;
+    padding:0;
+    display:block;
     overflow:hidden;
   }
 
-  .project-preview.eternal-bonds,
-  .project-preview.reflections,
-  .project-preview.catelier {
-    min-height:calc(100svh - 72px);
-    margin-top:0;
-  }
-
   .project-preview > a {
-    display:flex;
-    min-width:0;
-    align-items:center;
-    justify-content:center;
+    display:contents;
   }
 
   .project-preview img {
-    position:static !important;
-    inset:auto !important;
+    position:absolute !important;
     display:block;
-    width:100% !important;
-    max-width:100%;
+    max-width:none !important;
     height:auto !important;
-    max-height:clamp(92px, 15svh, 132px);
     margin:0;
     object-fit:contain;
     transform:none !important;
   }
 
-  /* Let selected images carry more visual weight without lengthening the section. */
-  .project-preview a:has(.eternal-bonds-05),
-  .project-preview a:has(.eternal-bonds-10),
-  .project-preview a:has(.reflections-of-displacement-03),
-  .project-preview a:has(.reflections-of-displacement-11),
-  .project-preview a:has(.catelier-03),
-  .project-preview a:has(.catelier-10) {
-    grid-column:span 2;
+  .eternal-bonds-01 {
+    left:29.9132vw;
+    top:100.4915vw;
+    width:11.4583vw !important;
   }
 
-  .project-preview a:has(.eternal-bonds-05) img,
-  .project-preview a:has(.eternal-bonds-10) img,
-  .project-preview a:has(.reflections-of-displacement-03) img,
-  .project-preview a:has(.reflections-of-displacement-11) img,
-  .project-preview a:has(.catelier-03) img,
-  .project-preview a:has(.catelier-10) img {
-    max-height:clamp(128px, 21svh, 180px);
+  .eternal-bonds-02 {
+    left:20.3472vw;
+    top:105.9255vw;
+    width:6.2500vw !important;
   }
 
-  .project-preview a:has(.eternal-title),
-  .project-preview a:has(.eternal-title-01),
-  .project-preview a:has(.reflections-title),
-  .project-preview a:has(.catelier-title) {
-    grid-column:1 / -1;
-    width:min(76%, 300px);
-    margin:6px auto 0;
+  .eternal-bonds-03 {
+    left:7.6215vw;
+    top:102.7831vw;
+    width:10.7639vw !important;
   }
 
-  .project-preview .eternal-title,
-  .project-preview .eternal-title-01,
-  .project-preview .reflections-title,
-  .project-preview .catelier-title {
-    max-height:72px;
+  .eternal-bonds-04 {
+    left:6.0174vw;
+    top:80.0852vw;
+    width:13.1250vw !important;
   }
 
-  .project-preview a:has(.eternal-title-01) {
-    width:min(58%, 220px);
-    margin-top:0;
+  .eternal-bonds-05 {
+    left:9.9653vw;
+    top:71.6373vw;
+    width:33.8542vw !important;
   }
 
-  /* Small phones get a slightly tighter composition. */
-  @media screen and (max-height:699px) {
-    .project-preview.eternal-bonds,
-    .project-preview.reflections,
-    .project-preview.catelier {
-      min-height:calc(100svh - 60px);
-      padding-top:24px;
-      padding-bottom:24px;
-      gap:6px;
-    }
+  .eternal-bonds-06 {
+    left:16.3889vw;
+    top:83.8421vw;
+    width:11.8056vw !important;
+  }
 
-    .project-preview img {
-      max-height:86px;
-    }
+  .eternal-bonds-07 {
+    left:31.8229vw;
+    top:82.8387vw;
+    width:13.8889vw !important;
+  }
 
-    .project-preview a:has(.eternal-bonds-05) img,
-    .project-preview a:has(.eternal-bonds-10) img,
-    .project-preview a:has(.reflections-of-displacement-03) img,
-    .project-preview a:has(.reflections-of-displacement-11) img,
-    .project-preview a:has(.catelier-03) img,
-    .project-preview a:has(.catelier-10) img {
-      max-height:122px;
-    }
+  .eternal-bonds-08 {
+    right:31.3611vw;
+    top:64.1026vw;
+    width:15.2778vw !important;
+  }
+
+  .eternal-bonds-09 {
+    right:28.6806vw;
+    top:78.5956vw;
+    width:17.7083vw !important;
+  }
+
+  .eternal-bonds-10 {
+    right:17.0486vw;
+    top:84.5192vw;
+    width:29.5139vw !important;
+  }
+
+  .eternal-bonds-11 {
+    right:5.5556vw;
+    top:106.6685vw;
+    width:13.1944vw !important;
+  }
+
+  .eternal-bonds-12 {
+    right:6.3299vw;
+    top:80.6269vw;
+    width:14.2361vw !important;
+  }
+
+  .eternal-bonds-13 {
+    right:6.3299vw;
+    top:64.1026vw;
+    width:15.4861vw !important;
+  }
+
+  .eternal-title {
+    left:23.3056vw;
+    bottom:81.1966vw;
+    width:23.1944vw !important;
+  }
+
+  .eternal-title-01 {
+    right:27.0139vw;
+    bottom:88.1410vw;
+    width:19.4444vw !important;
+  }
+
+  .reflections-of-displacement-01 {
+    left:32.5868vw;
+    top:86.1859vw;
+    width:13.9410vw !important;
+  }
+
+  .reflections-of-displacement-02 {
+    left:30.9722vw;
+    top:64.1026vw;
+    width:13.8757vw !important;
+  }
+
+  .reflections-of-displacement-03 {
+    right:6.0417vw;
+    top:71.7935vw;
+    width:19.5743vw !important;
+  }
+
+  .reflections-of-displacement-04 {
+    right:22.2153vw;
+    bottom:99.1827vw;
+    width:9.1667vw !important;
+  }
+
+  .reflections-of-displacement-05 {
+    right:35.7500vw;
+    bottom:100.2938vw;
+    width:10.7757vw !important;
+  }
+
+  .reflections-of-displacement-06 {
+    right:6.0417vw;
+    bottom:99.0855vw;
+    width:5.9375vw !important;
+  }
+
+  .reflections-of-displacement-07 {
+    right:25.2083vw;
+    top:71.0470vw;
+    width:7.0833vw !important;
+  }
+
+  .reflections-of-displacement-08 {
+    right:31.9965vw;
+    top:71.0470vw;
+    width:15.2778vw !important;
+  }
+
+  .reflections-of-displacement-09 {
+    left:37.0833vw;
+    bottom:92.5785vw;
+    width:13.0417vw !important;
+  }
+
+  .reflections-of-displacement-10 {
+    left:32.6389vw;
+    bottom:103.4188vw;
+    width:18.7500vw !important;
+  }
+
+  .reflections-of-displacement-11 {
+    left:5.5556vw;
+    bottom:89.8771vw;
+    width:30.5556vw !important;
+  }
+
+  .reflections-title {
+    right:6.6667vw;
+    bottom:81.1966vw;
+    width:39.8181vw !important;
+  }
+
+  .catelier-01 {
+    left:26.0903vw;
+    top:64.1026vw;
+    width:14.1667vw !important;
+  }
+
+  .catelier-02 {
+    left:13.1354vw;
+    top:64.8465vw;
+    width:13.5417vw !important;
+  }
+
+  .catelier-03 {
+    left:5.5556vw;
+    top:88.7120vw;
+    width:18.1944vw !important;
+  }
+
+  .catelier-04 {
+    left:6.9444vw;
+    bottom:95.4535vw;
+    width:14.8271vw !important;
+  }
+
+  .catelier-05 {
+    right:7.1528vw;
+    bottom:93.4535vw;
+    width:16.3424vw !important;
+  }
+
+  .catelier-06 {
+    right:26.3035vw;
+    bottom:93.9973vw;
+    width:5.6667vw !important;
+  }
+
+  .catelier-07 {
+    right:30.6701vw;
+    bottom:103.1139vw;
+    width:14.8826vw !important;
+  }
+
+  .catelier-08 {
+    right:31.1806vw;
+    top:64.7189vw;
+    width:15.3472vw !important;
+  }
+
+  .catelier-09 {
+    right:25.2083vw;
+    top:70.4220vw;
+    width:9.2889vw !important;
+  }
+
+  .catelier-10 {
+    left:24.4514vw;
+    bottom:95.4535vw;
+    width:22.0764vw !important;
+  }
+
+  .catelier-11 {
+    right:8.1181vw;
+    top:64.1026vw;
+    width:16.3125vw !important;
+  }
+
+  .catelier-12 {
+    right:7.2222vw;
+    bottom:88.7313vw;
+    width:16.2028vw !important;
+  }
+
+  .catelier-title {
+    left:34.1069vw;
+    bottom:81.1966vw;
+    width:12.4028vw !important;
   }
 }
