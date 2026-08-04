@@ -194,13 +194,15 @@
         gap:12px;
     }
 
+   
     .reflections-canvas img {
-        position:static !important;
-        inset:auto !important;
-        width:100% !important;
-        max-width:100%;
-        height:auto;
+        position: static;
+        inset: auto;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
     }
+    
 
     .reflections-statement {
         display:flex;
