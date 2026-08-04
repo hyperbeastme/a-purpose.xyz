@@ -573,6 +573,16 @@ body {
   border-top:1px solid rgba(0, 0, 0, 0.18);
 }
 
+.footer::after {
+  content:"photography by: kat zuis  -  katzuis.com";
+  align-self:flex-end;
+  color:#888;
+  font-size:20px;
+  font-weight:300;
+  line-height:1;
+  white-space:nowrap;
+}
+
 .footer-main {
   display:flex;
   align-items:center;
