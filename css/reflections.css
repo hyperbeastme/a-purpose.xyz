@@ -26,9 +26,14 @@
     line-height:1;
 }
 
+.reflections-section:has(> .reflections-canvas) {
+    height:1174px;
+}
+
 .reflections-canvas {
     position:absolute;
     inset:0;
+    top:150px;
     width:1440px;
     height:1024px;
 }
