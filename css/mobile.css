@@ -1,0 +1,900 @@
+/* =========================================================
+   MOBILE HOMEPAGE
+   Design artboard: 440px wide
+   Side margins: 34px
+   Content width: 372px
+   ========================================================= */
+
+
+/* =========================================================
+   VARIABLES
+   ========================================================= */
+
+:root {
+  --mobile-artboard-width: 440px;
+  --mobile-artboard-height: 956px;
+
+  --mobile-margin: 34px;
+  --mobile-content-width: 372px;
+
+  --header-height: 80px;
+
+  --black: #000;
+  --white: #fff;
+  --gray: #888;
+  --green: #006837;
+}
+
+
+/* =========================================================
+   RESET
+   ========================================================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+
+  overflow-x: hidden;
+
+  background: var(--white);
+  color: var(--black);
+
+  font-family: "futura-pt-condensed", sans-serif;
+}
+
+img {
+  display: block;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* =========================================================
+   MAIN
+   ========================================================= */
+
+main {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.header {
+  width: 100%;
+  height: var(--header-height);
+  margin: 0;
+  padding: 0 var(--mobile-margin);
+
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+
+  position: relative;
+
+  background: var(--white);
+  z-index: 1000;
+}
+
+.header-left {
+  justify-self: start;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.header-center {
+  justify-self: center;
+
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.header-right {
+  justify-self: end;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  gap: 10px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.header-right img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.header a,
+.header a:visited,
+.header a:hover,
+.header a:active {
+  color: var(--black);
+  text-decoration: none;
+}
+
+
+/* Hide navigation text temporarily if it does not fit.
+   Remove this block if your Illustrator header includes
+   the full Projects / About / Contact navigation. */
+
+.header-right > a:not(:has(img)) {
+  display: none;
+}
+
+
+/* =========================================================
+   SHARED MOBILE ARTBOARD
+   ========================================================= */
+
+.landing,
+.project-preview,
+.about,
+.end-of-preview {
+  width: 100%;
+  max-width: var(--mobile-artboard-width);
+  margin-right: auto;
+  margin-left: auto;
+
+  position: relative;
+}
+
+
+/* =========================================================
+   LANDING
+   Artboard: 440 × 956
+   ========================================================= */
+
+.landing {
+  height: var(--mobile-artboard-height);
+  overflow: hidden;
+}
+
+.landing-image {
+  position: absolute;
+
+  /*
+  Replace these values with the measurements
+  from your mobile Illustrator layout.
+  */
+
+  left: var(--mobile-margin);
+  bottom: 80px;
+
+  width: 110px;
+  height: auto;
+}
+
+.landing-statement {
+  position: absolute;
+
+  /*
+  Replace these values with the measurements
+  from your mobile Illustrator layout.
+  */
+
+  right: var(--mobile-margin);
+  top: 330px;
+
+  width: 190px;
+  margin: 0;
+
+  font-family: "futura-pt-condensed", sans-serif;
+  font-size: 29px;
+  font-weight: 200;
+  font-style: italic;
+  line-height: 1.05;
+  letter-spacing: -0.15px;
+  text-align: left;
+}
+
+
+/* =========================================================
+   PROJECT PREVIEW SHARED RULES
+   ========================================================= */
+
+.project-preview {
+  height: var(--mobile-artboard-height);
+  overflow: hidden;
+}
+
+.project-preview > a {
+  position: static;
+  display: block;
+}
+
+.project-preview img {
+  position: absolute;
+  display: block;
+
+  max-width: none;
+  height: auto;
+
+  margin: 0;
+}
+
+
+/* =========================================================
+   ETERNAL BONDS
+   Artboard: 440 × 956
+   ========================================================= */
+
+.project-preview.eternal-bonds {
+  margin-top: 0;
+}
+
+
+/*
+   Add the exact values from your SVG like this:
+
+.eternal-bonds-01 {
+  left: 34px;
+  top: 120px;
+  width: 80px;
+}
+
+   Continue with each image below.
+*/
+
+
+.eternal-bonds-01 {
+  left: 34px;
+  top: 390px;
+  width: 50px;
+}
+
+.eternal-bonds-02 {
+  left: 90px;
+  top: 460px;
+  width: 35px;
+}
+
+.eternal-bonds-03 {
+  left: 34px;
+  top: 500px;
+  width: 48px;
+}
+
+.eternal-bonds-04 {
+  left: 34px;
+  top: 210px;
+  width: 58px;
+}
+
+.eternal-bonds-05 {
+  left: 52px;
+  top: 115px;
+  width: 149px;
+}
+
+.eternal-bonds-06 {
+  left: 80px;
+  top: 265px;
+  width: 52px;
+}
+
+.eternal-bonds-07 {
+  left: 145px;
+  top: 250px;
+  width: 61px;
+}
+
+.eternal-bonds-08 {
+  right: 136px;
+  top: 70px;
+  width: 67px;
+}
+
+.eternal-bonds-09 {
+  right: 126px;
+  top: 245px;
+  width: 78px;
+}
+
+.eternal-bonds-10 {
+  right: 75px;
+  top: 330px;
+  width: 130px;
+}
+
+.eternal-bonds-11 {
+  right: 34px;
+  top: 520px;
+  width: 58px;
+}
+
+.eternal-bonds-12 {
+  right: 34px;
+  top: 240px;
+  width: 63px;
+}
+
+.eternal-bonds-13 {
+  right: 34px;
+  top: 70px;
+  width: 68px;
+}
+
+.eternal-title {
+  left: 34px;
+  bottom: 52px;
+  width: 175px;
+}
+
+.eternal-title-01 {
+  right: 34px;
+  bottom: 115px;
+  width: 145px;
+}
+
+
+/* =========================================================
+   REFLECTIONS OF DISPLACEMENT
+   Artboard: 440 × 956
+   ========================================================= */
+
+.project-preview.reflections {
+  margin-top: 0;
+}
+
+.reflections-of-displacement-01 {
+  left: 144px;
+  top: 315px;
+  width: 62px;
+}
+
+.reflections-of-displacement-02 {
+  left: 136px;
+  top: 80px;
+  width: 61px;
+}
+
+.reflections-of-displacement-03 {
+  right: 34px;
+  top: 150px;
+  width: 86px;
+}
+
+.reflections-of-displacement-04 {
+  right: 98px;
+  bottom: 220px;
+  width: 41px;
+}
+
+.reflections-of-displacement-05 {
+  right: 158px;
+  bottom: 235px;
+  width: 48px;
+}
+
+.reflections-of-displacement-06 {
+  right: 34px;
+  bottom: 220px;
+  width: 27px;
+}
+
+.reflections-of-displacement-07 {
+  right: 111px;
+  top: 140px;
+  width: 32px;
+}
+
+.reflections-of-displacement-08 {
+  right: 141px;
+  top: 140px;
+  width: 67px;
+}
+
+.reflections-of-displacement-09 {
+  left: 163px;
+  bottom: 150px;
+  width: 58px;
+}
+
+.reflections-of-displacement-10 {
+  left: 144px;
+  bottom: 270px;
+  width: 83px;
+}
+
+.reflections-of-displacement-11 {
+  left: 34px;
+  bottom: 120px;
+  width: 135px;
+}
+
+.reflections-title {
+  right: 34px;
+  bottom: 52px;
+  width: 240px;
+}
+
+
+/* =========================================================
+   CATELIER
+   Artboard: 440 × 956
+   ========================================================= */
+
+.project-preview.catelier {
+  margin-top: 0;
+  isolation: isolate;
+}
+
+.catelier-01 {
+  left: 115px;
+  top: 80px;
+  width: 63px;
+
+  mix-blend-mode: multiply;
+}
+
+.catelier-02 {
+  left: 58px;
+  top: 90px;
+  width: 60px;
+
+  mix-blend-mode: multiply;
+}
+
+.catelier-03 {
+  left: 34px;
+  top: 340px;
+  width: 80px;
+
+  mix-blend-mode: multiply;
+}
+
+.catelier-04 {
+  left: 34px;
+  bottom: 190px;
+  width: 66px;
+
+  mix-blend-mode: multiply;
+}
+
+.catelier-05 {
+  right: 34px;
+  bottom: 175px;
+  width: 72px;
+}
+
+.catelier-06 {
+  right: 116px;
+  bottom: 180px;
+  width: 25px;
+
+  mix-blend-mode: multiply;
+  z-index: 2;
+}
+
+.catelier-07 {
+  right: 135px;
+  bottom: 300px;
+  width: 66px;
+
+  z-index: 1;
+}
+
+.catelier-08 {
+  right: 137px;
+  top: 90px;
+  width: 68px;
+
+  mix-blend-mode: multiply;
+}
+
+.catelier-09 {
+  right: 111px;
+  top: 165px;
+  width: 41px;
+
+  mix-blend-mode: multiply;
+}
+
+.catelier-10 {
+  left: 108px;
+  bottom: 190px;
+  width: 97px;
+}
+
+.catelier-11 {
+  right: 34px;
+  top: 80px;
+  width: 72px;
+
+  mix-blend-mode: multiply;
+}
+
+.catelier-12 {
+  right: 34px;
+  bottom: 110px;
+  width: 72px;
+
+  mix-blend-mode: multiply;
+}
+
+.catelier-title {
+  left: 50%;
+  bottom: 52px;
+
+  width: 100px;
+
+  transform: translateX(-50%);
+}
+
+
+/* =========================================================
+   SEE MORE WORK
+   ========================================================= */
+
+.end-of-preview {
+  height: 170px;
+}
+
+.end-of-preview-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  margin: 0;
+
+  transform: translate(-50%, -50%);
+
+  font-family: "futura-pt-condensed", sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  font-style: italic;
+  line-height: 1;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.end-of-preview-text a {
+  position: relative;
+  display: inline-block;
+
+  color: var(--black);
+  text-decoration: none;
+}
+
+.end-of-preview-text a::before {
+  content: "";
+  position: absolute;
+  inset: -16px -24px;
+}
+
+
+/* =========================================================
+   ABOUT
+   Artboard: 440 × 956
+   ========================================================= */
+
+.about {
+  height: var(--mobile-artboard-height);
+  overflow: hidden;
+}
+
+.about > a {
+  position: static;
+  display: block;
+}
+
+.about img {
+  position: absolute;
+
+  left: var(--mobile-margin);
+  top: 160px;
+
+  width: 165px;
+  height: auto;
+}
+
+.about-text {
+  position: absolute;
+
+  left: var(--mobile-margin);
+  right: var(--mobile-margin);
+  bottom: 145px;
+
+  width: auto;
+  height: auto;
+
+  margin: 0;
+
+  font-family: "futura-pt-condensed", sans-serif;
+  font-size: 27px;
+  font-weight: 100;
+  font-style: italic;
+  line-height: 1.22;
+  letter-spacing: -0.15px;
+}
+
+.about-text p {
+  margin: 0;
+}
+
+.about-text p + p {
+  margin-top: 24px;
+}
+
+.location {
+  color: var(--green);
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.footer {
+  width: 100%;
+  max-width: var(--mobile-artboard-width);
+  min-height: 260px;
+
+  margin: 0 auto;
+  padding: 70px var(--mobile-margin) 36px;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+
+  gap: 42px;
+
+  background: var(--white);
+  color: var(--gray);
+
+  font-family: "futura-pt-condensed", sans-serif;
+}
+
+.footer::before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: var(--mobile-margin);
+  right: var(--mobile-margin);
+
+  border-top: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+.footer-main {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 14px;
+}
+
+.footer-divider {
+  display: block;
+
+  width: 1px;
+  height: 26px;
+
+  flex: 0 0 auto;
+
+  background: var(--gray);
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-social img {
+  width: 23px;
+  height: 23px;
+
+  filter: brightness(0) invert(58%);
+}
+
+.footer-main .footer-name,
+.footer-main .footer-email {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.footer-copyright {
+  margin: 0;
+
+  color: var(--gray);
+
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1;
+  text-align: center;
+}
+
+.footer a,
+.footer a:visited,
+.footer a:hover,
+.footer a:active {
+  color: var(--gray);
+  text-decoration: none;
+}
+
+
+/* =========================================================
+   PROJECT PHOTOGRAPHY CREDIT
+   ========================================================= */
+
+.project-photography-credit {
+  width: 100%;
+  max-width: var(--mobile-artboard-width);
+
+  margin: 0 auto;
+  padding: 24px var(--mobile-margin) 0;
+
+  color: var(--gray);
+
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: right;
+}
+
+.project-photography-credit a,
+.project-photography-credit a:visited,
+.project-photography-credit a:hover,
+.project-photography-credit a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* =========================================================
+   IMAGE LIGHTBOX
+   ========================================================= */
+
+.image-lightbox-trigger {
+  cursor: zoom-in;
+}
+
+body.lightbox-open {
+  overflow: hidden;
+}
+
+.image-lightbox[hidden] {
+  display: none;
+}
+
+.image-lightbox {
+  position: fixed;
+  inset: 0;
+
+  z-index: 10000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 24px;
+
+  background: rgba(255, 255, 255, 0.96);
+
+  cursor: zoom-out;
+}
+
+.image-lightbox-image {
+  display: block;
+
+  width: auto;
+  height: auto;
+
+  max-width: calc(100vw - 48px);
+  max-height: calc(100svh - 48px);
+
+  object-fit: contain;
+
+  cursor: default;
+}
+
+.image-lightbox-close {
+  position: fixed;
+  top: 14px;
+  right: 18px;
+
+  z-index: 10001;
+
+  padding: 0;
+
+  border: 0;
+
+  background: transparent;
+  color: var(--black);
+
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 1;
+
+  cursor: pointer;
+}
+
+.image-lightbox-close:focus-visible,
+.image-lightbox-trigger:focus-visible {
+  outline: 2px solid var(--black);
+  outline-offset: 4px;
+}
+
+
+/* =========================================================
+   SMALLER PHONES
+   Keeps the 440px composition inside the viewport.
+   Exact coordinates remain unchanged relative to the page.
+   ========================================================= */
+
+@media screen and (max-width: 439px) {
+  .header {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .header-left {
+    font-size: 16px;
+  }
+
+  .header-center {
+    font-size: 22px;
+  }
+
+  .header-right {
+    gap: 8px;
+  }
+
+  .footer {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .footer-main {
+    gap: 10px;
+  }
+
+  .footer-main .footer-name,
+  .footer-main .footer-email {
+    font-size: 14px;
+  }
+}
