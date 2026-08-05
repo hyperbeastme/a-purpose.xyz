@@ -106,7 +106,7 @@ main {
   grid-column: 1;
   justify-self: start;
 
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 400;
   line-height: 1;
   white-space: nowrap;
@@ -116,7 +116,7 @@ main {
   grid-column: 2;
   justify-self: center;
 
-  font-size: 31px;
+  font-size: 34px;
   font-weight: 500;
   line-height: 1;
   white-space: nowrap;
@@ -176,7 +176,7 @@ main {
 
   background: var(--white);
 
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 400;
   line-height: 1;
 
