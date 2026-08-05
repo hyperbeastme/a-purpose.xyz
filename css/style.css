@@ -981,5 +981,5 @@ a.project-index-link::before {
 
 .mobile-menu-button,
 .mobile-menu {
-  display: none;
+  display: none ! important;
 }
