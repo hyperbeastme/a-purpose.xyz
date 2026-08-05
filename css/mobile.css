@@ -177,35 +177,22 @@ main {
 
 .landing-image {
   position: absolute;
-
-  /*
-  Replace these values with the measurements
-  from your mobile Illustrator layout.
-  */
-
-  left: var(--mobile-margin);
-  bottom: 80px;
-
-  width: 110px;
+  left: 36px;
+  bottom: 83px;
+  width: 150px;
   height: auto;
 }
 
 .landing-statement {
   position: absolute;
-
-  /*
-  Replace these values with the measurements
-  from your mobile Illustrator layout.
-  */
-
   right: var(--mobile-margin);
-  top: 330px;
+  bottom: 480px;
 
-  width: 190px;
+  width: 174px;
   margin: 0;
 
   font-family: "futura-pt-condensed", sans-serif;
-  font-size: 29px;
+  font-size: 36px;
   font-weight: 200;
   font-style: italic;
   line-height: 1.05;
