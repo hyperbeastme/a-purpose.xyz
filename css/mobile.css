@@ -443,7 +443,7 @@ main {
 
 .eternal-bonds-08 {
   left: calc(42 / 440 * 100%);
-  bottom: calc(410 / 956 * 100%);
+  bottom: calc(712 / 956 * 100%);
   width: calc(100 / 440 * 100%);
 }
 
@@ -501,7 +501,7 @@ main {
 
 /* Eternal Bonds Title 01 */
 
-.eternal-title-01 {
+.eternal-text-01 {
   right: calc(91 / 440 * 100%);
   bottom: calc(203 / 956 * 100%);
   width: calc(131 / 440 * 100%);
