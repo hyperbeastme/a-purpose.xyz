@@ -1,10 +1,10 @@
 /* =========================================================
-   MOBILE HOMEPAGE
+   PART 1
+   VARIABLES, RESET, MAIN, HEADER AND MOBILE MENU
 
-   Illustrator artboard width: 440px
-   Illustrator artboard height: 956px
-   Side guides: 34px
-   Content width: 372px
+   Illustrator artboard: 440 × 956px
+   Side margins: 22px
+   Content width: 396px
    ========================================================= */
 
 
@@ -16,8 +16,11 @@
   --artboard-width: 440;
   --artboard-height: 956;
 
-  --mobile-margin: 22px;
-  --mobile-content-width: 396px;
+  /* 22 ÷ 440 = 5% */
+  --mobile-margin: 5%;
+
+  /* 396 ÷ 440 = 90% */
+  --mobile-content-width: 90%;
 
   --header-height: 80px;
 
@@ -38,19 +41,19 @@
   box-sizing: border-box;
 }
 
-html {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
-}
-
+html,
 body {
   width: 100%;
   max-width: 100%;
   margin: 0;
   padding: 0;
+}
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
   overflow-x: hidden;
 
   background: var(--white);
@@ -61,6 +64,13 @@ body {
 
 img {
   display: block;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
 }
 
 a,
@@ -79,6 +89,8 @@ a:active {
 main {
   width: 100%;
   margin: 0;
+
+  /* Prevents content from sitting beneath the fixed header */
   padding: var(--header-height) 0 0;
 }
 
@@ -89,7 +101,10 @@ main {
 
 .header {
   width: 100%;
+  max-width: 440px;
   height: var(--header-height);
+
+  margin: 0;
   padding: 0 var(--mobile-margin);
 
   display: grid;
@@ -98,42 +113,73 @@ main {
 
   position: fixed;
   top: 0;
-  left: 0;
+  left: 50%;
+
+  transform: translateX(-50%);
 
   background: var(--white);
+
   z-index: 1000;
 }
 
+
+/* =========================================================
+   HEADER LEFT
+   ========================================================= */
+
 .header-left {
   grid-column: 1;
+
   justify-self: start;
 
   font-size: 18px;
   font-weight: 400;
   line-height: 1;
+
   white-space: nowrap;
 }
 
+
+/* =========================================================
+   HEADER CENTER
+   ========================================================= */
+
 .header-center {
   grid-column: 2;
+
   justify-self: center;
 
   font-size: 31px;
   font-weight: 500;
   line-height: 1;
+
   white-space: nowrap;
 }
+
+
+/* =========================================================
+   DESKTOP NAVIGATION
+   Hidden in mobile.css
+   ========================================================= */
 
 .desktop-nav {
   display: none;
 }
 
+
+/* =========================================================
+   HAMBURGER BUTTON
+   ========================================================= */
+
 .mobile-menu-button {
   grid-column: 3;
+
   justify-self: end;
 
   width: 28px;
   height: 20px;
+
+  margin: 0;
   padding: 0;
 
   display: flex;
@@ -150,6 +196,8 @@ main {
   -webkit-appearance: none;
 
   cursor: pointer;
+
+  z-index: 1002;
 }
 
 .mobile-menu-button span {
@@ -159,12 +207,19 @@ main {
   height: 2px;
 
   background: var(--black);
-  border-radius: 0;
+
+  transform-origin: center;
 
   transition:
     transform 180ms ease,
     opacity 180ms ease;
 }
+
+
+/* =========================================================
+   HAMBURGER OPEN STATE
+   Changes the three lines into an X
+   ========================================================= */
 
 .header.menu-open .mobile-menu-button span:nth-child(1) {
   transform: translateY(9px) rotate(45deg);
@@ -178,17 +233,27 @@ main {
   transform: translateY(-9px) rotate(-45deg);
 }
 
+
+/* =========================================================
+   MOBILE DROPDOWN MENU
+   ========================================================= */
+
 .mobile-menu {
+  width: 100%;
+
+  padding:
+    28px
+    var(--mobile-margin)
+    34px;
+
   position: absolute;
   top: var(--header-height);
   left: 0;
 
-  width: 100%;
-  padding: 28px var(--mobile-margin) 34px;
-
   display: none;
   flex-direction: column;
   align-items: flex-end;
+
   gap: 18px;
 
   background: var(--white);
@@ -197,12 +262,22 @@ main {
   font-weight: 400;
   line-height: 1;
 
-  z-index: 999;
+  z-index: 1001;
 }
 
 .header.menu-open .mobile-menu {
   display: flex;
 }
+
+.mobile-menu a {
+  display: block;
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   HEADER LINKS
+   ========================================================= */
 
 .header a,
 .header a:visited,
@@ -214,64 +289,65 @@ main {
 
 
 /* =========================================================
-   SHARED 440 × 956 ARTBOARD
+   ACCESSIBILITY
+   ========================================================= */
 
-   The section width responds to the phone width.
-   aspect-ratio preserves the Illustrator proportions.
+.mobile-menu-button:focus-visible,
+.header a:focus-visible {
+  outline: 2px solid var(--black);
+  outline-offset: 4px;
+}
+
+/* =========================================================
+   PART 2
+   SHARED ARTBOARDS, LANDING AND ETERNAL BONDS
+
+   Illustrator artboard: 440 × 956px
+
+   Landing and existing Eternal Bonds values are preserved.
+   ========================================================= */
+
+
+/* =========================================================
+   SHARED 440 × 956 ARTBOARD
    ========================================================= */
 
 .landing,
 .project-preview,
 .about {
-  width: min(100%, 440px);
+  width: 100%;
+  max-width: 440px;
+
   aspect-ratio: 440 / 956;
 
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
 
   position: relative;
   overflow: hidden;
 }
 
+
+/* Images use the section as their positioning canvas */
+
 .landing img,
 .project-preview img,
 .about img {
   position: absolute;
+  display: block;
+
   height: auto;
+
+  margin: 0;
 }
 
 
 /* =========================================================
-   CONVERTING ILLUSTRATOR VALUES
-
-   Use:
-
-   left: calc(ILLUSTRATOR-X / 440 * 100%);
-   top: calc(ILLUSTRATOR-Y / 956 * 100%);
-   width: calc(ILLUSTRATOR-WIDTH / 440 * 100%);
-
-   Example:
-
-   Illustrator:
-   X = 36
-   Y = 210
-   Width = 150
-
-   CSS:
-   left: calc(36 / 440 * 100%);
-   top: calc(210 / 956 * 100%);
-   width: calc(150 / 440 * 100%);
-   ========================================================= */
-
-
-/* =========================================================
    LANDING
+   Existing values preserved
    ========================================================= */
 
 .landing-image {
-  /*
-  Replace these three numbers with the exact Illustrator values.
-  */
-
   left: calc(37 / 440 * 100%);
   bottom: calc(82 / 956 * 100%);
   width: calc(98 / 440 * 100%);
@@ -280,19 +356,17 @@ main {
 .landing-statement {
   position: absolute;
 
-  /*
-  Replace X, Y and width with the exact Illustrator measurements.
-  */
-
   right: var(--mobile-margin);
   bottom: calc(480 / 956 * 100%);
   width: calc(174 / 440 * 100%);
 
   margin: 0;
 
+  font-family: "futura-pt-condensed", sans-serif;
   font-size: clamp(22px, 6.6vw, 29px);
   font-weight: 200;
   font-style: italic;
+
   line-height: 1.05;
   letter-spacing: -0.15px;
   text-align: left;
@@ -313,15 +387,19 @@ main {
 
 .project-preview img {
   max-width: none;
-  margin: 0;
 }
-
 
 /* =========================================================
    ETERNAL BONDS
-
-   Enter exact Illustrator values for every image.
+   Existing values preserved
    ========================================================= */
+
+.project-preview.eternal-bonds {
+  margin-top: 0;
+}
+
+
+/* Eternal Bonds 01 */
 
 .eternal-bonds-01 {
   left: calc(0 / 440 * 100%);
@@ -329,11 +407,17 @@ main {
   width: calc(100 / 440 * 100%);
 }
 
+
+/* Eternal Bonds 02 */
+
 .eternal-bonds-02 {
   right: calc(18.5 / 440 * 100%);
   bottom: calc(246 / 956 * 100%);
   width: calc(68.75 / 440 * 100%);
 }
+
+
+/* Eternal Bonds 03 */
 
 .eternal-bonds-03 {
   left: var(--mobile-margin);
@@ -341,11 +425,17 @@ main {
   width: calc(67 / 440 * 100%);
 }
 
+
+/* Eternal Bonds 04 */
+
 .eternal-bonds-04 {
   left: calc(144 / 440 * 100%);
   bottom: calc(621 / 956 * 100%);
   width: calc(88 / 440 * 100%);
 }
+
+
+/* Eternal Bonds 05 */
 
 .eternal-bonds-05 {
   left: var(--mobile-margin);
@@ -353,11 +443,17 @@ main {
   width: calc(222 / 440 * 100%);
 }
 
+
+/* Eternal Bonds 06 */
+
 .eternal-bonds-06 {
   left: calc(105 / 440 * 100%);
   bottom: calc(434 / 956 * 100%);
   width: calc(81 / 440 * 100%);
 }
+
+
+/* Eternal Bonds 07 */
 
 .eternal-bonds-07 {
   left: calc(198 / 440 * 100%);
@@ -365,160 +461,606 @@ main {
   width: calc(94 / 440 * 100%);
 }
 
-.eternal-bonds-08 {
-  left: calc(0 / 440 * 100%);
-  bottom: calc(0 / 956 * 100%);
-  width: calc(0 / 440 * 100%);
-}
 
-.eternal-bonds-09 {
-  left: calc(0 / 440 * 100%);
-  top: calc(0 / 956 * 100%);
-  width: calc(0 / 440 * 100%);
-}
+/* =========================================================
+   ETERNAL BONDS
+   Remaining elements
 
-.eternal-bonds-10 {
-  left: calc(0 / 440 * 100%);
-  top: calc(0 / 956 * 100%);
-  width: calc(0 / 440 * 100%);
-}
+   These remain hidden until their exact SVG coordinates
+   are entered. This prevents zero-width elements or unfinished
+   assets from affecting the composition.
+   ========================================================= */
 
-.eternal-bonds-11 {
-  left: calc(0 / 440 * 100%);
-  top: calc(0 / 956 * 100%);
-  width: calc(0 / 440 * 100%);
-}
-
-.eternal-bonds-12 {
-  left: calc(0 / 440 * 100%);
-  top: calc(0 / 956 * 100%);
-  width: calc(0 / 440 * 100%);
-}
-
-.eternal-bonds-13 {
-  left: calc(0 / 440 * 100%);
-  top: calc(0 / 956 * 100%);
-  width: calc(0 / 440 * 100%);
-}
-
-.eternal-title {
-  left: calc(0 / 440 * 100%);
-  top: calc(0 / 956 * 100%);
-  width: calc(0 / 440 * 100%);
-}
-
+.eternal-bonds-08,
+.eternal-bonds-09,
+.eternal-bonds-10,
+.eternal-bonds-11,
+.eternal-bonds-12,
+.eternal-bonds-13,
+.eternal-title,
 .eternal-title-01 {
-  left: calc(0 / 440 * 100%);
-  top: calc(0 / 956 * 100%);
-  width: calc(0 / 440 * 100%);
+  display: none;
 }
 
 
 /* =========================================================
+   CLICKABLE IMAGE LAYERS
+
+   The anchor fills the same positioned area as its image,
+   keeping each project image clickable.
+   ========================================================= */
+
+.project-preview > a:has(img) {
+  position: static;
+}
+
+
+/* =========================================================
+   FOCUS STYLES
+   ========================================================= */
+
+.project-preview a:focus-visible img,
+.landing a:focus-visible img {
+  outline: 2px solid var(--black);
+  outline-offset: 4px;
+}
+
+/* =========================================================
+   PART 3
    REFLECTIONS OF DISPLACEMENT
-   ========================================================= */
 
-.reflections-of-displacement-01,
-.reflections-of-displacement-02,
-.reflections-of-displacement-03,
-.reflections-of-displacement-04,
-.reflections-of-displacement-05,
-.reflections-of-displacement-06,
-.reflections-of-displacement-07,
-.reflections-of-displacement-08,
-.reflections-of-displacement-09,
-.reflections-of-displacement-10,
-.reflections-of-displacement-11,
-.reflections-title {
-  left: calc(0 / 440 * 100%);
-  top: calc(0 / 956 * 100%);
-  width: calc(0 / 440 * 100%);
-}
+   Coordinates taken from:
+   mobile-home-reflections.svg
+   Artboard: 440 × 956px
+   ========================================================= */
 
 
 /* =========================================================
-   CATELIER
+   REFLECTIONS SECTION
    ========================================================= */
 
-.project-preview.catelier {
+.project-preview.reflections {
+  margin-top: 0;
   isolation: isolate;
 }
 
-.catelier-01,
-.catelier-02,
-.catelier-03,
-.catelier-04,
-.catelier-05,
-.catelier-06,
-.catelier-07,
-.catelier-08,
-.catelier-09,
-.catelier-10,
-.catelier-11,
-.catelier-12,
-.catelier-title {
-  left: calc(0 / 440 * 100%);
-  top: calc(0 / 956 * 100%);
-  width: calc(0 / 440 * 100%);
+
+/* =========================================================
+   REFLECTIONS 01
+   Left standing figure
+   ========================================================= */
+
+.reflections-of-displacement-01 {
+  left: calc(47.61 / 440 * 100%);
+  top: calc(285.011 / 956 * 100%);
+  width: calc(83.076 / 440 * 100%);
 }
 
-.catelier-01,
-.catelier-02,
-.catelier-03,
-.catelier-04,
-.catelier-06,
-.catelier-08,
-.catelier-09,
-.catelier-11,
-.catelier-12 {
-  mix-blend-mode: multiply;
+
+/* =========================================================
+   REFLECTIONS 02
+   Upper-center trouser image
+   ========================================================= */
+
+.reflections-of-displacement-02 {
+  left: calc(219.347 / 440 * 100%);
+  top: calc(139 / 956 * 100%);
+  width: calc(92.846 / 440 * 100%);
 }
+
+
+/* =========================================================
+   REFLECTIONS 03
+   Large patterned trouser image on right
+   ========================================================= */
+
+.reflections-of-displacement-03 {
+  left: calc(288.343 / 440 * 100%);
+  top: calc(266.087 / 956 * 100%);
+  width: calc(110.277 / 440 * 100%);
+}
+
+
+/* =========================================================
+   REFLECTIONS 04
+   Lower-center detail image
+   ========================================================= */
+
+.reflections-of-displacement-04 {
+  left: calc(190.814 / 440 * 100%);
+  top: calc(609.756 / 956 * 100%);
+  width: calc(80.496 / 440 * 100%);
+}
+
+
+/* =========================================================
+   REFLECTIONS 05
+   Central development drawing
+   ========================================================= */
+
+.reflections-of-displacement-05 {
+  left: calc(141.465 / 440 * 100%);
+  top: calc(388.31 / 956 * 100%);
+  width: calc(179.265 / 440 * 100%);
+}
+
+
+/* =========================================================
+   REFLECTIONS 06
+   Upper-right standing figure
+   ========================================================= */
+
+.reflections-of-displacement-06 {
+  left: calc(342.047 / 440 * 100%);
+  top: calc(139.023 / 956 * 100%);
+  width: calc(63.779 / 440 * 100%);
+}
+
+
+/* =========================================================
+   REFLECTIONS 07
+   Upper-left illustrated garment
+   ========================================================= */
+
+.reflections-of-displacement-07 {
+  left: calc(34 / 440 * 100%);
+  top: calc(139 / 956 * 100%);
+  width: calc(87.256 / 440 * 100%);
+}
+
+
+/* =========================================================
+   REFLECTIONS 08
+   Rotated garment image
+   ========================================================= */
+
+.reflections-of-displacement-08 {
+  left: calc(78.819 / 440 * 100%);
+  top: calc(109.701 / 956 * 100%);
+  width: calc(196.183 / 440 * 100%);
+}
+
+
+/* =========================================================
+   REFLECTIONS 09
+   Central screen/process image
+   ========================================================= */
+
+.reflections-of-displacement-09 {
+  left: calc(145.711 / 440 * 100%);
+  top: calc(304.265 / 956 * 100%);
+  width: calc(136.94 / 440 * 100%);
+}
+
+
+/* =========================================================
+   REFLECTIONS 10
+   Lower-right standing figure
+   ========================================================= */
+
+.reflections-of-displacement-10 {
+  left: calc(300.594 / 440 * 100%);
+  top: calc(538.602 / 956 * 100%);
+  width: calc(99.992 / 440 * 100%);
+}
+
+
+/* =========================================================
+   REFLECTIONS 11
+   Large lower-left material/detail image
+   ========================================================= */
+
+.reflections-of-displacement-11 {
+  left: calc(34 / 440 * 100%);
+  top: calc(450.43 / 956 * 100%);
+  width: calc(156.135 / 440 * 100%);
+}
+
+
+/* =========================================================
+   REFLECTIONS TITLE
+   ========================================================= */
+
+.reflections-title {
+  left: calc(2.88 / 440 * 100%);
+  top: calc(762.562 / 956 * 100%);
+  width: calc(433.92 / 440 * 100%);
+}
+
+
+/* =========================================================
+   STACKING ORDER
+   ========================================================= */
+
+.reflections-of-displacement-07 {
+  z-index: 1;
+}
+
+.reflections-of-displacement-08 {
+  z-index: 2;
+}
+
+.reflections-of-displacement-02,
+.reflections-of-displacement-06 {
+  z-index: 3;
+}
+
+.reflections-of-displacement-01,
+.reflections-of-displacement-03,
+.reflections-of-displacement-09 {
+  z-index: 4;
+}
+
+.reflections-of-displacement-05,
+.reflections-of-displacement-11 {
+  z-index: 5;
+}
+
+.reflections-of-displacement-04,
+.reflections-of-displacement-10 {
+  z-index: 6;
+}
+
+.reflections-title {
+  z-index: 7;
+}
+
+/* =========================================================
+   PART 4
+   CATELIER
+
+   Coordinates taken from:
+   mobile-home-catelier.svg
+
+   Illustrator artboard: 440 × 956px
+   ========================================================= */
+
+
+/* =========================================================
+   CATELIER SECTION
+   ========================================================= */
+
+.project-preview.catelier {
+  margin-top: 0;
+  isolation: isolate;
+}
+
+
+/* =========================================================
+   CATELIER 01
+   ========================================================= */
+
+.catelier-01 {
+  left: calc(187.231 / 440 * 100%);
+  top: calc(392.57 / 956 * 100%);
+  width: calc(95.256 / 440 * 100%);
+
+  mix-blend-mode: multiply;
+  z-index: 4;
+}
+
+
+/* =========================================================
+   CATELIER 02
+   ========================================================= */
+
+.catelier-02 {
+  left: calc(163.048 / 440 * 100%);
+  top: calc(213.291 / 956 * 100%);
+  width: calc(158.76 / 440 * 100%);
+
+  mix-blend-mode: multiply;
+  z-index: 3;
+}
+
+
+/* =========================================================
+   CATELIER 03
+   ========================================================= */
+
+.catelier-03 {
+  left: calc(11.422 / 440 * 100%);
+  top: calc(98.217 / 956 * 100%);
+  width: calc(147.42 / 440 * 100%);
+
+  mix-blend-mode: multiply;
+  z-index: 3;
+}
+
+
+/* =========================================================
+   CATELIER 04
+   ========================================================= */
+
+.catelier-04 {
+  left: calc(6.097 / 440 * 100%);
+  top: calc(366.707 / 956 * 100%);
+  width: calc(222.264 / 440 * 100%);
+
+  mix-blend-mode: multiply;
+  z-index: 2;
+}
+
+
+/* =========================================================
+   CATELIER 05
+   ========================================================= */
+
+.catelier-05 {
+  left: calc(142.193 / 440 * 100%);
+  top: calc(575.943 / 956 * 100%);
+  width: calc(116.8 / 440 * 100%);
+
+  z-index: 5;
+}
+
+
+/* =========================================================
+   CATELIER 06
+   ========================================================= */
+
+.catelier-06 {
+  left: calc(269.758 / 440 * 100%);
+  top: calc(139 / 956 * 100%);
+  width: calc(137.632 / 440 * 100%);
+
+  mix-blend-mode: multiply;
+  z-index: 4;
+}
+
+
+/* =========================================================
+   CATELIER 07
+   Slight counterclockwise rotation from Illustrator
+   ========================================================= */
+
+.catelier-07 {
+  left: calc(301.824 / 440 * 100%);
+  top: calc(408.118 / 956 * 100%);
+  width: calc(96 / 440 * 100%);
+
+  transform: rotate(-3.483deg);
+  transform-origin: top left;
+
+  z-index: 5;
+}
+
+
+/* =========================================================
+   CATELIER 08
+   Rotated image from Illustrator
+   ========================================================= */
+
+.catelier-08 {
+  left: calc(177.207 / 440 * 100%);
+  top: calc(88.088 / 956 * 100%);
+  width: calc(145.684 / 440 * 100%);
+
+  transform: rotate(33.002deg);
+  transform-origin: top left;
+
+  mix-blend-mode: multiply;
+  z-index: 2;
+}
+
+
+/* =========================================================
+   CATELIER 09
+   ========================================================= */
+
+.catelier-09 {
+  left: calc(20.902 / 440 * 100%);
+  top: calc(307.07 / 956 * 100%);
+  width: calc(292 / 440 * 100%);
+
+  mix-blend-mode: multiply;
+  z-index: 1;
+}
+
+
+/* =========================================================
+   CATELIER 10
+   Horizontally flipped in Illustrator
+   ========================================================= */
+
+.catelier-10 {
+  left: calc(-114.845 / 440 * 100%);
+  top: calc(202.266 / 956 * 100%);
+  width: calc(296 / 440 * 100%);
+
+  transform: scaleX(-1);
+  transform-origin: center;
+
+  z-index: 1;
+}
+
+
+/* =========================================================
+   CATELIER 11
+   Large rotated image clipped by the artboard
+   ========================================================= */
+
+.catelier-11 {
+  left: calc(95.489 / 440 * 100%);
+  top: calc(186.814 / 956 * 100%);
+  width: calc(562.237 / 440 * 100%);
+
+  transform: rotate(180deg);
+  transform-origin: center;
+
+  mix-blend-mode: multiply;
+  z-index: 0;
+}
+
+
+/* =========================================================
+   CATELIER 12
+   ========================================================= */
+
+.catelier-12 {
+  left: calc(286.685 / 440 * 100%);
+  top: calc(575.943 / 956 * 100%);
+  width: calc(118.793 / 440 * 100%);
+
+  mix-blend-mode: multiply;
+  z-index: 6;
+}
+
+
+/* =========================================================
+   CATELIER TITLE
+   ========================================================= */
+
+.catelier-title {
+  left: calc(297.532 / 440 * 100%);
+  top: calc(827.411 / 956 * 100%);
+  width: calc(96.893 / 440 * 100%);
+
+  z-index: 10;
+}
+
+
+/* =========================================================
+   CATELIER LINK FOCUS
+   ========================================================= */
+
+.project-preview.catelier a:focus-visible img {
+  outline: 2px solid var(--black);
+  outline-offset: 4px;
+}
+
+/* =========================================================
+   PART 5
+   SEE MORE WORK, ABOUT AND FOOTER
+
+   Coordinates taken from:
+   mobile-home-about-footer.svg
+
+   Illustrator artboard: 440 × 956px
+   ========================================================= */
 
 
 /* =========================================================
    SEE MORE WORK
+
+   SVG position:
+   X: 172.273
+   Y: 148
+   W: 95.504
    ========================================================= */
 
 .end-of-preview {
-  width: min(100%, 440px);
-  height: 170px;
+  width: 100%;
+  max-width: 440px;
+  height: 200px;
 
   margin: 0 auto;
 
   position: relative;
+  overflow: hidden;
 }
 
 .end-of-preview-text {
   position: absolute;
-  left: 50%;
-  top: 50%;
 
+  left: 50%;
+  top: calc(148 / 200 * 100%);
+
+  width: calc(95.504 / 440 * 100%);
   margin: 0;
 
   transform: translate(-50%, -50%);
 
-  font-size: 25px;
-  font-weight: 100;
+  font-family: "futura-pt-condensed", sans-serif;
+  font-size: clamp(16px, 4.1vw, 18px);
+  font-weight: 200;
   font-style: italic;
   line-height: 1;
-  white-space: nowrap;
+
   text-align: center;
+  white-space: nowrap;
 }
 
 .end-of-preview-text a {
   position: relative;
   display: inline-block;
+
+  color: var(--black);
+  text-decoration: none;
 }
 
 .end-of-preview-text a::before {
   content: "";
+
   position: absolute;
-  inset: -16px -24px;
+  inset: -14px -22px;
 }
 
 
 /* =========================================================
-   ABOUT
+   ABOUT SECTION
+
+   This section represents SVG coordinates Y = 200 through 847.
+
+   Original section height:
+   847 - 200 = 647px
+   ========================================================= */
+
+.about {
+  width: 100%;
+  max-width: 440px;
+  height: auto;
+  aspect-ratio: 440 / 647;
+
+  margin: 0 auto;
+
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   ABOUT HEADING
+
+   Original SVG:
+   X: 41.457
+   Y: 243.982
+
+   Relative Y inside .about:
+   243.982 - 200 = 43.982
+   ========================================================= */
+
+.about::before {
+  content: "about";
+
+  position: absolute;
+
+  left: calc(41.457 / 440 * 100%);
+  top: calc(43.982 / 647 * 100%);
+
+  font-family: "futura-pt-condensed", sans-serif;
+  font-size: clamp(16px, 4.1vw, 18px);
+  font-weight: 200;
+  font-style: italic;
+  line-height: 1;
+
+  color: var(--black);
+
+  z-index: 3;
+}
+
+
+/* =========================================================
+   ABOUT PORTRAIT
+
+   Original SVG:
+   X: 122.533
+   Y: 281.973
+   W: 194.933
+   H: 260.112
+
+   Relative Y:
+   281.973 - 200 = 81.973
    ========================================================= */
 
 .about > a {
@@ -526,41 +1068,66 @@ main {
 }
 
 .about img {
-  /*
-  Enter portrait X, Y and width from Illustrator.
-  */
+  position: absolute;
 
-  left: calc(0 / 440 * 100%);
-  top: calc(0 / 956 * 100%);
-  width: calc(0 / 440 * 100%);
+  left: calc(122.533 / 440 * 100%);
+  top: calc(81.973 / 647 * 100%);
+
+  width: calc(194.933 / 440 * 100%);
+  height: auto;
+
+  margin: 0;
+
+  z-index: 2;
 }
+
+
+/* =========================================================
+   ABOUT TEXT
+
+   Original SVG:
+   X: 107.822
+   Y: 557.993
+   W: 224.357
+   H: approximately 109.296
+
+   Relative Y:
+   557.993 - 200 = 357.993
+   ========================================================= */
 
 .about-text {
   position: absolute;
 
-  /*
-  Enter text-frame X, Y and width from Illustrator.
-  */
+  left: calc(107.822 / 440 * 100%);
+  top: calc(357.993 / 647 * 100%);
 
-  left: calc(0 / 440 * 100%);
-  top: calc(0 / 956 * 100%);
-  width: calc(0 / 440 * 100%);
+  width: calc(224.357 / 440 * 100%);
+  height: auto;
 
   margin: 0;
 
-  font-size: clamp(22px, 6.1vw, 27px);
-  font-weight: 100;
+  font-family: "futura-pt-condensed", sans-serif;
+  font-size: clamp(13px, 3.2vw, 14px);
+  font-weight: 200;
   font-style: italic;
-  line-height: 1.22;
-  letter-spacing: -0.15px;
+  line-height: 1.38;
+  letter-spacing: 0;
+
+  color: var(--black);
+
+  z-index: 3;
 }
 
 .about-text p {
   margin: 0;
 }
 
+.about-text br + br {
+  display: none;
+}
+
 .about-text p + p {
-  margin-top: 24px;
+  margin-top: calc(24 / 647 * 100%);
 }
 
 .location {
@@ -569,99 +1136,297 @@ main {
 
 
 /* =========================================================
+   BACK TO TOP
+
+   Original SVG:
+   X: 197.995
+   Y: 814.707
+   W: 54.67
+
+   Relative Y:
+   814.707 - 200 = 614.707
+
+   This is visual text because the current HTML does not
+   contain a back-to-top link.
+   ========================================================= */
+
+.about::after {
+  content: "back to the top";
+
+  position: absolute;
+
+  left: 50%;
+  top: calc(614.707 / 647 * 100%);
+
+  transform: translateX(-50%);
+
+  font-family: "futura-pt-condensed", sans-serif;
+  font-size: clamp(10px, 2.7vw, 12px);
+  font-weight: 300;
+  line-height: 1;
+
+  color: var(--black);
+  white-space: nowrap;
+
+  z-index: 3;
+}
+
+
+/* =========================================================
    FOOTER
+
+   Original SVG footer begins at Y: 846.967
+   Remaining height:
+   956 - 846.967 = 109.033px
    ========================================================= */
 
 .footer {
-  width: min(100%, 440px);
-  min-height: 260px;
+  width: 100%;
+  max-width: 440px;
+  height: 109px;
+  min-height: 109px;
 
   margin: 0 auto;
-  padding: 70px var(--mobile-margin) 36px;
+  padding: 0;
 
   position: relative;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-
-  gap: 42px;
+  display: block;
 
   background: var(--white);
   color: var(--gray);
+
+  font-family: "futura-pt-condensed", sans-serif;
 }
+
+
+/* Footer dividing line */
 
 .footer::before {
   content: "";
 
   position: absolute;
+
   top: 0;
-  left: var(--mobile-margin);
-  right: var(--mobile-margin);
+  left: 0;
+  right: 0;
 
   border-top: 1px solid rgba(0, 0, 0, 0.18);
 }
 
+
+/* =========================================================
+   FOOTER MAIN ROW
+
+   Original SVG row begins around Y: 905.969
+   Relative footer Y:
+   905.969 - 846.967 = 59.002px
+   ========================================================= */
+
 .footer-main {
   width: 100%;
+  height: 24px;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 0;
+  padding: 0;
 
-  gap: 14px;
+  position: absolute;
+  top: 58px;
+  left: 0;
+
+  display: block;
 }
 
-.footer-divider {
-  display: block;
+
+/* Darrius Parker / a-purpose.xyz link */
+
+.footer-main .footer-name {
+  position: absolute;
+
+  left: calc(127.186 / 440 * 100%);
+  top: 8px;
+
+  margin: 0;
+
+  font-size: clamp(8px, 2.25vw, 10px);
+  font-weight: 300;
+  line-height: 1;
+
+  color: var(--gray);
+  white-space: nowrap;
+}
+
+
+/* First divider */
+
+.footer-main .footer-divider:nth-of-type(1) {
+  position: absolute;
+
+  left: calc(186.925 / 440 * 100%);
+  top: 0;
 
   width: 1px;
-  height: 26px;
-
-  flex: 0 0 auto;
+  height: 23px;
 
   background: var(--gray);
 }
 
+
+/* LinkedIn */
+
+.footer-main .footer-social:nth-of-type(2) {
+  position: absolute;
+
+  left: calc(199.314 / 440 * 100%);
+  top: 2px;
+
+  width: calc(14.812 / 440 * 100%);
+  height: auto;
+}
+
+
+/* Second divider */
+
+.footer-main .footer-divider:nth-of-type(2) {
+  position: absolute;
+
+  left: calc(224.515 / 440 * 100%);
+  top: 0;
+
+  width: 1px;
+  height: 23px;
+
+  background: var(--gray);
+}
+
+
+/* Instagram */
+
+.footer-main .footer-social:nth-of-type(3) {
+  position: absolute;
+
+  left: calc(236.904 / 440 * 100%);
+  top: 2px;
+
+  width: calc(14.811 / 440 * 100%);
+  height: auto;
+}
+
+
+/* Third divider */
+
+.footer-main .footer-divider:nth-of-type(3) {
+  position: absolute;
+
+  left: calc(262.104 / 440 * 100%);
+  top: 0;
+
+  width: 1px;
+  height: 23px;
+
+  background: var(--gray);
+}
+
+
+/* Contact email */
+
+.footer-main .footer-email {
+  position: absolute;
+
+  left: calc(276.368 / 440 * 100%);
+  top: 7px;
+
+  margin: 0;
+
+  font-size: clamp(8px, 2.25vw, 10px);
+  font-weight: 300;
+  line-height: 1;
+
+  color: var(--gray);
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   FOOTER SOCIAL ICONS
+   ========================================================= */
+
 .footer-social {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
 }
 
 .footer-social img {
-  width: 23px;
-  height: 23px;
+  display: block;
+
+  width: 100%;
+  height: auto;
 
   filter: brightness(0) invert(58%);
 }
 
-.footer-main .footer-name,
-.footer-main .footer-email {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1;
-  white-space: nowrap;
-}
+
+/* =========================================================
+   COPYRIGHT
+
+   Original SVG:
+   X: 176.93
+   Y: 940.727
+   W: 86.14
+
+   Relative footer Y:
+   940.727 - 846.967 = 93.76px
+   ========================================================= */
 
 .footer-copyright {
+  position: absolute;
+
+  left: 50%;
+  bottom: 4px;
+
+  width: calc(120 / 440 * 100%);
   margin: 0;
+
+  transform: translateX(-50%);
 
   color: var(--gray);
 
-  font-size: 20px;
+  font-size: clamp(8px, 2.25vw, 10px);
   font-weight: 300;
   line-height: 1;
+
   text-align: center;
+  white-space: nowrap;
 }
+
+
+/* =========================================================
+   FOOTER LINKS
+   ========================================================= */
 
 .footer a,
 .footer a:visited,
 .footer a:hover,
 .footer a:active {
   color: var(--gray);
+  text-decoration: none;
 }
+
+
+/* =========================================================
+   FOCUS STYLES
+   ========================================================= */
+
+.end-of-preview a:focus-visible,
+.about a:focus-visible,
+.footer a:focus-visible {
+  outline: 2px solid var(--black);
+  outline-offset: 4px;
+}
+
+/* =========================================================
+   PART 6
+   IMAGE LIGHTBOX + UTILITIES + MOBILE FINISHING
+   ========================================================= */
 
 
 /* =========================================================
@@ -684,20 +1449,22 @@ body.lightbox-open {
   position: fixed;
   inset: 0;
 
-  z-index: 10000;
-
   display: flex;
   align-items: center;
   justify-content: center;
 
   padding: 24px;
 
-  background: rgba(255, 255, 255, 0.96);
+  background: rgba(255,255,255,0.96);
 
   cursor: zoom-out;
+
+  z-index: 10000;
 }
 
 .image-lightbox-image {
+  display: block;
+
   width: auto;
   height: auto;
 
@@ -711,21 +1478,194 @@ body.lightbox-open {
 
 .image-lightbox-close {
   position: fixed;
-  top: 14px;
+  top: 18px;
   right: 18px;
 
-  z-index: 10001;
-
+  margin: 0;
   padding: 0;
-  border: 0;
 
+  border: 0;
   background: transparent;
+
   color: var(--black);
 
   font-family: Arial, sans-serif;
-  font-size: 40px;
+  font-size: 42px;
   font-weight: 200;
   line-height: 1;
 
   cursor: pointer;
+
+  z-index: 10001;
+}
+
+
+/* =========================================================
+   FOCUS STATES
+   ========================================================= */
+
+.image-lightbox-trigger:focus-visible,
+.image-lightbox-close:focus-visible {
+  outline: 2px solid var(--black);
+  outline-offset: 4px;
+}
+
+
+/* =========================================================
+   IMAGE DEFAULTS
+   ========================================================= */
+
+.project-preview img,
+.about img,
+.landing img {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+/* =========================================================
+   MOBILE MENU ANIMATION
+   ========================================================= */
+
+.mobile-menu {
+  opacity: 0;
+  visibility: hidden;
+
+  transform: translateY(-12px);
+
+  transition:
+    opacity .22s ease,
+    transform .22s ease,
+    visibility .22s ease;
+}
+
+.header.menu-open .mobile-menu {
+  display: flex;
+
+  opacity: 1;
+  visibility: visible;
+
+  transform: translateY(0);
+}
+
+
+/* =========================================================
+   PAGE SPACING
+   ========================================================= */
+
+.project-preview + .project-preview {
+  margin-top: 0;
+}
+
+.about {
+  margin-top: 0;
+}
+
+.footer {
+  margin-top: 0;
+}
+
+
+/* =========================================================
+   SVG IMAGES
+   ========================================================= */
+
+img[src$=".svg"] {
+  width: auto;
+  height: auto;
+}
+
+
+/* =========================================================
+   PNG/JPG IMAGES
+   ========================================================= */
+
+img[src$=".png"],
+img[src$=".jpg"],
+img[src$=".jpeg"],
+img[src$=".webp"] {
+  image-rendering: auto;
+}
+
+
+/* =========================================================
+   TAP HIGHLIGHT
+   ========================================================= */
+
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+/* =========================================================
+   SAFE AREA
+   ========================================================= */
+
+@supports (padding: max(0px)) {
+
+  .header {
+    padding-left:
+      max(
+        var(--mobile-margin),
+        env(safe-area-inset-left)
+      );
+
+    padding-right:
+      max(
+        var(--mobile-margin),
+        env(safe-area-inset-right)
+      );
+  }
+
+  .mobile-menu {
+    padding-left:
+      max(
+        var(--mobile-margin),
+        env(safe-area-inset-left)
+      );
+
+    padding-right:
+      max(
+        var(--mobile-margin),
+        env(safe-area-inset-right)
+      );
+  }
+}
+
+
+/* =========================================================
+   MOBILE TYPOGRAPHY
+   ========================================================= */
+
+body {
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+/* =========================================================
+   FINAL UTILITIES
+   ========================================================= */
+
+.hidden {
+  display: none !important;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+
+  margin: -1px;
+  padding: 0;
+
+  overflow: hidden;
+
+  clip: rect(0 0 0 0);
+
+  white-space: nowrap;
+
+  border: 0;
 }
