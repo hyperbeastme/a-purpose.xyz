@@ -348,9 +348,9 @@ main {
    ========================================================= */
 
 .landing-image {
-  left: calc(37 / 440 * 100%);
-  bottom: calc(82 / 956 * 100%);
-  width: calc(98 / 440 * 100%);
+  left: var(--mobile-margin);
+  bottom: calc(82.73 / 956 * 100%);
+  width: calc(100 / 440 * 100%);
 }
 
 .landing-statement {
@@ -359,8 +359,6 @@ main {
   right: var(--mobile-margin);
   bottom: calc(480 / 956 * 100%);
   width: calc(174 / 440 * 100%);
-
-  margin: 0;
 
   font-family: "futura-pt-condensed", sans-serif;
   font-size: clamp(22px, 6.6vw, 29px);
@@ -373,30 +371,10 @@ main {
 }
 
 
+
 /* =========================================================
    PROJECT PREVIEW SHARED RULES
    ========================================================= */
-
-.project-preview {
-  margin-top: 0;
-}
-
-.project-preview > a {
-  display: block;
-}
-
-.project-preview img {
-  max-width: none;
-}
-
-/* =========================================================
-   ETERNAL BONDS
-   Existing values preserved
-   ========================================================= */
-
-.project-preview.eternal-bonds {
-  margin-top: 0;
-}
 
 
 /* Eternal Bonds 01 */
@@ -461,27 +439,73 @@ main {
   width: calc(94 / 440 * 100%);
 }
 
+/* Eternal Bonds 08 */
 
-/* =========================================================
-   ETERNAL BONDS
-   Remaining elements
-
-   These remain hidden until their exact SVG coordinates
-   are entered. This prevents zero-width elements or unfinished
-   assets from affecting the composition.
-   ========================================================= */
-
-.eternal-bonds-08,
-.eternal-bonds-09,
-.eternal-bonds-10,
-.eternal-bonds-11,
-.eternal-bonds-12,
-.eternal-bonds-13,
-.eternal-title,
-.eternal-title-01 {
-  display: none;
+.eternal-bonds-08 {
+  left: calc(42 / 440 * 100%);
+  bottom: calc(396 / 956 * 100%);
+  width: calc(222 / 440 * 100%);
 }
 
+/* Eternal Bonds 09 */
+
+.eternal-bonds-09 {
+  left: calc(192 / 440 * 100%);
+  bottom: calc(434 / 956 * 100%);
+  width: calc(81 / 440 * 100%);
+}
+
+/* Eternal Bonds 10 */
+
+.eternal-bonds-10 {
+  left: calc(198 / 440 * 100%);
+  bottom: calc(471 / 956 * 100%);
+  width: calc(94 / 440 * 100%);
+}
+
+/* Eternal Bonds 11 */
+
+.eternal-bonds-11 {
+  left: var(--mobile-margin);
+  bottom: calc(313.5 / 956 * 100%);
+  width: calc(67 / 440 * 100%);
+}
+
+
+/* Eternal Bonds 12 */
+
+.eternal-bonds-12 {
+  left: calc(144 / 440 * 100%);
+  bottom: calc(621 / 956 * 100%);
+  width: calc(88 / 440 * 100%);
+}
+
+
+/* Eternal Bonds 13 */
+
+.eternal-bonds-13 {
+  left: var(--mobile-margin);
+  bottom: calc(396 / 956 * 100%);
+  width: calc(222 / 440 * 100%);
+}
+
+
+/* Eternal Bonds Title */
+
+.eternal-title {
+  left: calc(105 / 440 * 100%);
+  bottom: calc(434 / 956 * 100%);
+  width: calc(81 / 440 * 100%);
+}
+
+
+/* Eternal Bonds Title 01 */
+
+.eternal-title-01 {
+  left: calc(198 / 440 * 100%);
+  bottom: calc(471 / 956 * 100%);
+  width: calc(94 / 440 * 100%);
+}
 
 /* =========================================================
    CLICKABLE IMAGE LAYERS
