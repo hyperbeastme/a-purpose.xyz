@@ -26,31 +26,6 @@
 
 <body>
 
-<script>
-  const header = document.querySelector(".header");
-  const menuButton = document.querySelector(".mobile-menu-button");
-  const mobileMenu = document.querySelector(".mobile-menu");
-
-  if (header && menuButton && mobileMenu) {
-    menuButton.addEventListener("click", () => {
-      const isOpen = header.classList.toggle("menu-open");
-
-      menuButton.setAttribute("aria-expanded", String(isOpen));
-      menuButton.setAttribute(
-        "aria-label",
-        isOpen ? "Close menu" : "Open menu"
-      );
-    });
-
-    mobileMenu.querySelectorAll("a").forEach((link) => {
-      link.addEventListener("click", () => {
-        header.classList.remove("menu-open");
-        menuButton.setAttribute("aria-expanded", "false");
-        menuButton.setAttribute("aria-label", "Open menu");
-      });
-    });
-  }
-</script>
 
 <main>
 
@@ -440,6 +415,33 @@
     </p>
 
 </footer>
+
+
+<script>
+  const header = document.querySelector(".header");
+  const menuButton = document.querySelector(".mobile-menu-button");
+  const mobileMenu = document.querySelector(".mobile-menu");
+
+  if (header && menuButton && mobileMenu) {
+    menuButton.addEventListener("click", () => {
+      const isOpen = header.classList.toggle("menu-open");
+
+      menuButton.setAttribute("aria-expanded", String(isOpen));
+      menuButton.setAttribute(
+        "aria-label",
+        isOpen ? "Close menu" : "Open menu"
+      );
+    });
+
+    mobileMenu.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        header.classList.remove("menu-open");
+        menuButton.setAttribute("aria-expanded", "false");
+        menuButton.setAttribute("aria-label", "Open menu");
+      });
+    });
+  }
+</script>
 
 </body>
 </html>
