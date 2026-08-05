@@ -177,8 +177,8 @@ main {
 
 .landing-image {
   position: absolute;
-  left: 36px;
-  bottom: 83px;
+  left: 34px;
+  bottom: 0px;
   width: 150px;
   height: auto;
 }
@@ -192,7 +192,7 @@ main {
   margin: 0;
 
   font-family: "futura-pt-condensed", sans-serif;
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 200;
   font-style: italic;
   line-height: 1.05;
