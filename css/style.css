@@ -78,14 +78,6 @@ body {
   text-decoration:none;
 }
 
-.mobile-menu-button {
-    display: none;
-}
-
-.mobile-menu {
-    display: none;
-}
-
 /* LANDING */
 
 .landing {
@@ -987,3 +979,7 @@ a.project-index-link::before {
   text-decoration:none;
 }
 
+.mobile-menu-button,
+.mobile-menu {
+  display: none;
+}

@@ -26,6 +26,32 @@
 
 <body>
 
+<script>
+  const header = document.querySelector(".header");
+  const menuButton = document.querySelector(".mobile-menu-button");
+  const mobileMenu = document.querySelector(".mobile-menu");
+
+  if (header && menuButton && mobileMenu) {
+    menuButton.addEventListener("click", () => {
+      const isOpen = header.classList.toggle("menu-open");
+
+      menuButton.setAttribute("aria-expanded", String(isOpen));
+      menuButton.setAttribute(
+        "aria-label",
+        isOpen ? "Close menu" : "Open menu"
+      );
+    });
+
+    mobileMenu.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        header.classList.remove("menu-open");
+        menuButton.setAttribute("aria-expanded", "false");
+        menuButton.setAttribute("aria-label", "Open menu");
+      });
+    });
+  }
+</script>
+
 <main>
 
 <header class="header">
@@ -38,7 +64,6 @@
         Darrius Parker
     </div>
 
-    <!-- Desktop navigation -->
     <nav class="header-right desktop-nav">
         <a href="projects.html">projects</a>
         <a href="about.html">about</a>
@@ -53,15 +78,32 @@
         </a>
     </nav>
 
+    <button
+        class="mobile-menu-button"
+        type="button"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+    >
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
 
-    <!-- Mobile hamburger -->
-    <div>
-        <button class="mobile-menu-button" aria-label="Open menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>  
-    </div> 
+    <nav class="mobile-menu" id="mobile-menu">
+        <a href="projects.html">projects</a>
+        <a href="about.html">about</a>
+        <a href="contact.html">contact</a>
+
+        <a href="https://www.linkedin.com/in/darrius-parker-9aa7012a0/">
+            linkedin
+        </a>
+
+        <a href="https://www.instagram.com/djay1k">
+            instagram
+        </a>
+    </nav>
+
 </header>
 
 <section class="landing">
