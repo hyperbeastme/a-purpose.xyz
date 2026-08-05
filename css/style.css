@@ -78,6 +78,14 @@ body {
   text-decoration:none;
 }
 
+.mobile-menu-button {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
 /* LANDING */
 
 .landing {
