@@ -378,9 +378,9 @@ main {
 }
 
 .eternal-title {
-  left: 34px;
-  bottom: 52px;
-  width: 175px;
+  right: var(--mobile-margin);
+  bottom: 0px;
+  width: 212px;
 }
 
 .eternal-title-01 {
