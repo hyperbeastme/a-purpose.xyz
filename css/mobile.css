@@ -443,16 +443,16 @@ main {
 
 .eternal-bonds-08 {
   left: calc(42 / 440 * 100%);
-  bottom: calc(396 / 956 * 100%);
-  width: calc(222 / 440 * 100%);
+  bottom: calc(410 / 956 * 100%);
+  width: calc(100 / 440 * 100%);
 }
 
 /* Eternal Bonds 09 */
 
 .eternal-bonds-09 {
   left: calc(192 / 440 * 100%);
-  bottom: calc(434 / 956 * 100%);
-  width: calc(81 / 440 * 100%);
+  bottom: calc(595 / 956 * 100%);
+  width: calc(113 / 440 * 100%);
 }
 
 /* Eternal Bonds 10 */
