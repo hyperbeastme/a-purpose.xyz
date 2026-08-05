@@ -177,7 +177,7 @@ main {
 
 .landing-image {
   position: absolute;
-  left: 34px;
+  left: 2px;
   bottom: 0px;
   width: 150px;
   height: auto;
@@ -185,7 +185,7 @@ main {
 
 .landing-statement {
   position: absolute;
-  right: var(--mobile-margin);
+  right: 2px;
   bottom: 480px;
 
   width: 174px;
