@@ -380,7 +380,7 @@ main {
 /* Eternal Bonds 01 */
 
 .eternal-bonds-01 {
-  left: calc(0 / 440 * 100%);
+  left: calc(34 / 440 * 100%);
   bottom: calc(496 / 956 * 100%);
   width: calc(100 / 440 * 100%);
 }
@@ -398,7 +398,7 @@ main {
 /* Eternal Bonds 03 */
 
 .eternal-bonds-03 {
-  left: var(--mobile-margin);
+  left: calc(34 / 440 * 100%);
   bottom: calc(313.5 / 956 * 100%);
   width: calc(67 / 440 * 100%);
 }
@@ -416,7 +416,7 @@ main {
 /* Eternal Bonds 05 */
 
 .eternal-bonds-05 {
-  left: var(--mobile-margin);
+  right: calc(34 / 440 * 100%);
   bottom: calc(396 / 956 * 100%);
   width: calc(222 / 440 * 100%);
 }
@@ -458,53 +458,53 @@ main {
 /* Eternal Bonds 10 */
 
 .eternal-bonds-10 {
-  left: calc(198 / 440 * 100%);
-  bottom: calc(471 / 956 * 100%);
-  width: calc(94 / 440 * 100%);
+  left: calc(34 / 440 * 100%);
+  bottom: calc(186 / 956 * 100%);
+  width: calc(184 / 440 * 100%);
 }
 
 /* Eternal Bonds 11 */
 
 .eternal-bonds-11 {
-  left: var(--mobile-margin);
-  bottom: calc(313.5 / 956 * 100%);
-  width: calc(67 / 440 * 100%);
+  right: calc(139 / 440 * 100%);
+  bottom: calc(276 / 956 * 100%);
+  width: calc(72 / 440 * 100%);
 }
 
 
 /* Eternal Bonds 12 */
 
 .eternal-bonds-12 {
-  left: calc(144 / 440 * 100%);
-  bottom: calc(621 / 956 * 100%);
-  width: calc(88 / 440 * 100%);
+  right: calc(34 / 440 * 100%);
+  bottom: calc(474 / 956 * 100%);
+  width: calc(106 / 440 * 100%);
 }
 
 
 /* Eternal Bonds 13 */
 
 .eternal-bonds-13 {
-  left: var(--mobile-margin);
-  bottom: calc(396 / 956 * 100%);
-  width: calc(222 / 440 * 100%);
+  right: calc(34 / 440 * 100%);
+  bottom: calc(681.5 / 956 * 100%);
+  width: calc(189 / 440 * 100%);
 }
 
 
 /* Eternal Bonds Title */
 
 .eternal-title {
-  left: calc(105 / 440 * 100%);
-  bottom: calc(434 / 956 * 100%);
-  width: calc(81 / 440 * 100%);
+  right: calc(37.15 / 440 * 100%);
+  bottom: calc(141 / 956 * 100%);
+  width: calc(212 / 440 * 100%);
 }
 
 
 /* Eternal Bonds Title 01 */
 
 .eternal-title-01 {
-  left: calc(198 / 440 * 100%);
-  bottom: calc(471 / 956 * 100%);
-  width: calc(94 / 440 * 100%);
+  right: calc(91 / 440 * 100%);
+  bottom: calc(203 / 956 * 100%);
+  width: calc(131 / 440 * 100%);
 }
 
 /* =========================================================
