@@ -104,15 +104,15 @@ main {
 .header-left {
   justify-self: start;
 
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 1;
   white-space: nowrap;
 }
 
 .header-center {
-  justify-self: center;
-
+  justify-self:end;
+  right:var(--mobile-margin);
   font-size: 24px;
   font-weight: 500;
   line-height: 1;
