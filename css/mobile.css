@@ -148,15 +148,6 @@ main {
 }
 
 
-/* Hide navigation text temporarily if it does not fit.
-   Remove this block if your Illustrator header includes
-   the full Projects / About / Contact navigation. */
-
-.header-right > a:not(:has(img)) {
-  display: none;
-}
-
-
 /* =========================================================
    SHARED MOBILE ARTBOARD
    ========================================================= */
