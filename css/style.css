@@ -22,6 +22,13 @@ body {
   font-family:"futura-pt-condensed", sans-serif;
 }
 /* HEADER */
+.desktop-nav {
+    display: flex;
+}
+
+.mobile-menu-button {
+    display: none;
+}
 
 .header {
   width:100%;
