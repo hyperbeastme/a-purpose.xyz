@@ -349,7 +349,7 @@ main {
 
 .landing-image {
   left: var(--mobile-margin);
-  bottom: calc(82.73 / 956 * 100%);
+  bottom: calc(165 / 956 * 100%);
   width: calc(100 / 440 * 100%);
 }
 
@@ -357,7 +357,7 @@ main {
   position: absolute;
 
   right: var(--mobile-margin);
-  bottom: calc(480 / 956 * 100%);
+  bottom: calc(550 / 956 * 100%);
   width: calc(174 / 440 * 100%);
 
   font-family: "futura-pt-condensed", sans-serif;
