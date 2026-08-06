@@ -16,11 +16,8 @@
   --artboard-width: 440;
   --artboard-height: 956;
 
-  /* 22 ÷ 440 = 5% */
-  --mobile-margin: 5%;
-
-  /* 418 ÷ 440 = 95% */
-  --mobile-content-width: 95%;
+  --mobile-margin: 2.5%;
+  --mobile-content-width: calc(100% - (var(--mobile-margin) * 2));
 
   --header-height: 80px;
 
