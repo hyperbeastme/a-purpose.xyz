@@ -555,9 +555,9 @@ main {
    ========================================================= */
 
 .reflections-of-displacement-01 {
-  left: calc(47.61 / 440 * 100%);
-  top: calc(285.011 / 956 * 100%);
-  width: calc(83.076 / 440 * 100%);
+  left: calc(145 / 440 * 100%);
+  bottom: calc(547 / 956 * 100%);
+  width: calc(136 / 440 * 100%);
 }
 
 
@@ -567,9 +567,9 @@ main {
    ========================================================= */
 
 .reflections-of-displacement-02 {
-  left: calc(219.347 / 440 * 100%);
-  top: calc(139 / 956 * 100%);
-  width: calc(92.846 / 440 * 100%);
+  left: var(--mobile-margin);
+  bottom: calc(675 / 956 * 100%);
+  width: calc(87 / 440 * 100%);
 }
 
 
@@ -579,9 +579,9 @@ main {
    ========================================================= */
 
 .reflections-of-displacement-03 {
-  left: calc(288.343 / 440 * 100%);
+  right: var(--mobile-margin);
   top: calc(266.087 / 956 * 100%);
-  width: calc(110.277 / 440 * 100%);
+  width: calc(100 / 440 * 100%);
 }
 
 
@@ -591,9 +591,9 @@ main {
    ========================================================= */
 
 .reflections-of-displacement-04 {
-  left: calc(190.814 / 440 * 100%);
-  top: calc(609.756 / 956 * 100%);
-  width: calc(80.496 / 440 * 100%);
+  right: var(--mobile-margin);
+  bottom: calc(424 / 956 * 100%);
+  width: calc(110.277 / 440 * 100%);
 }
 
 
@@ -603,8 +603,8 @@ main {
    ========================================================= */
 
 .reflections-of-displacement-05 {
-  left: calc(141.465 / 440 * 100%);
-  top: calc(388.31 / 956 * 100%);
+  right: calc(141.465 / 440 * 100%);
+  bottom: calc(388.31 / 956 * 100%);
   width: calc(179.265 / 440 * 100%);
 }
 
@@ -615,9 +615,9 @@ main {
    ========================================================= */
 
 .reflections-of-displacement-06 {
-  left: calc(342.047 / 440 * 100%);
-  top: calc(139.023 / 956 * 100%);
-  width: calc(63.779 / 440 * 100%);
+  right: calc(127 / 440 * 100%);
+  bottom: calc(651 / 956 * 100%);
+  width: calc(92 / 440 * 100%);
 }
 
 
@@ -627,9 +627,9 @@ main {
    ========================================================= */
 
 .reflections-of-displacement-07 {
-  left: calc(34 / 440 * 100%);
-  top: calc(139 / 956 * 100%);
-  width: calc(87.256 / 440 * 100%);
+  right: var(--mobile-margin);
+  bottom: calc(703 / 956 * 100%);
+  width: calc(63 / 440 * 100%);
 }
 
 
@@ -639,9 +639,9 @@ main {
    ========================================================= */
 
 .reflections-of-displacement-08 {
-  left: calc(78.819 / 440 * 100%);
-  top: calc(109.701 / 956 * 100%);
-  width: calc(196.183 / 440 * 100%);
+  left: calc(47 / 440 * 100%);
+  bottom: calc(508 / 956 * 100%);
+  width: calc(83 / 440 * 100%);
 }
 
 
@@ -651,9 +651,9 @@ main {
    ========================================================= */
 
 .reflections-of-displacement-09 {
-  left: calc(145.711 / 440 * 100%);
-  top: calc(304.265 / 956 * 100%);
-  width: calc(136.94 / 440 * 100%);
+  left: calc(167 / 440 * 100%);
+  bottom: calc(354 / 956 * 100%);
+  width: calc(128 / 440 * 100%);
 }
 
 
@@ -663,9 +663,9 @@ main {
    ========================================================= */
 
 .reflections-of-displacement-10 {
-  left: calc(300.594 / 440 * 100%);
-  top: calc(538.602 / 956 * 100%);
-  width: calc(99.992 / 440 * 100%);
+  left: calc(132 / 440 * 100%);
+  bottom: calc(667 / 956 * 100%);
+  width: calc(82 / 440 * 100%);
 }
 
 
@@ -675,8 +675,8 @@ main {
    ========================================================= */
 
 .reflections-of-displacement-11 {
-  left: calc(34 / 440 * 100%);
-  top: calc(450.43 / 956 * 100%);
+  left: var(--mobile-margin);
+  bottom: calc(186 / 956 * 100%);
   width: calc(156.135 / 440 * 100%);
 }
 
@@ -686,8 +686,8 @@ main {
    ========================================================= */
 
 .reflections-title {
-  left: calc(2.88 / 440 * 100%);
-  top: calc(762.562 / 956 * 100%);
+  left: var(--mobile-margin);
+  bottom: calc(93 / 956 * 100%);
   width: calc(433.92 / 440 * 100%);
 }
 
