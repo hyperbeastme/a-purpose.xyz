@@ -589,7 +589,7 @@ main {
 .reflections-of-displacement-03 {
   right: var(--mobile-margin);
   bottom: calc(193.2841 / 956 * 100%);
-  width: calc(100 / 440 * 100%);
+  width: calc(99.993 / 440 * 100%);
 }
 
 
@@ -694,15 +694,15 @@ main {
    ========================================================= */
 
 .reflections-title {
-  left: var(--mobile-margin);
-  bottom: calc(93 / 956 * 100%);
-  width: calc(433.92 / 440 * 100%);
+  left: calc(39.042 / 956 * 100%);
+  bottom: calc(93.448 / 956 * 100%);
+  width: calc(361.4114 / 440 * 100%);
 }
 
 .reflections-disclaimer {
   right: var(--mobile-margin);
-  bottom: calc(166 / 956 * 100%);
-  width: calc(150 / 440 * 100%);
+  bottom: calc(166.9029 / 956 * 100%);
+  width: calc(150.097 / 440 * 100%);
 }
 
 
