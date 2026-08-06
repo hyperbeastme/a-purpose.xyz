@@ -691,6 +691,12 @@ main {
   width: calc(433.92 / 440 * 100%);
 }
 
+.reflections-disclaimer {
+  left: var(--mobile-margin);
+  bottom: calc(93 / 956 * 100%);
+  width: calc(433.92 / 440 * 100%);
+}
+
 
 /* =========================================================
    STACKING ORDER
