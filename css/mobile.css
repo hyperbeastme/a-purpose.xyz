@@ -494,7 +494,7 @@ main {
 
 .eternal-title {
   right: var(--mobile-margin);
-  bottom: calc(141 / 956 * 100%);
+  bottom: calc(100 / 956 * 100%);
   min-width: calc(212 / 440 * 100%);
 }
 
@@ -503,7 +503,7 @@ main {
 
 .eternal-text-01 {
   right: calc(91 / 440 * 100%);
-  bottom: calc(203 / 956 * 100%);
+  bottom: calc(187 / 956 * 100%);
   min-width: calc(131 / 440 * 100%);
 }
 
