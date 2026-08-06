@@ -4,7 +4,7 @@
 
    Illustrator artboard: 440 × 956px
    Side margins: 22px
-   Content width: 396px
+   Content width: 420px
    ========================================================= */
 
 
@@ -19,8 +19,8 @@
   /* 10 ÷ 440 = 2.27% */
   --mobile-margin: 2.27%;
 
-  /* 396 ÷ 440 = 90% */
-  --mobile-content-width: 90%;
+  /* 420 ÷ 440 = 95.45% */
+  --mobile-content-width: 95.45%;
 
   --header-height: 80px;
 
@@ -380,7 +380,7 @@ main {
 /* Eternal Bonds 01 */
 
 .eternal-bonds-01 {
-  left: calc(34 / 440 * 100%);
+  left: var(--mobile-margin);
   bottom: calc(496 / 956 * 100%);
   width: calc(100 / 440 * 100%);
 }
@@ -389,7 +389,7 @@ main {
 /* Eternal Bonds 02 */
 
 .eternal-bonds-02 {
-  right: calc(18.5 / 440 * 100%);
+  right: var(--mobile-margin);
   bottom: calc(246 / 956 * 100%);
   width: calc(68.75 / 440 * 100%);
 }
@@ -398,7 +398,7 @@ main {
 /* Eternal Bonds 03 */
 
 .eternal-bonds-03 {
-  left: calc(34 / 440 * 100%);
+  left: var(--mobile-margin);
   bottom: calc(313.5 / 956 * 100%);
   width: calc(67 / 440 * 100%);
 }
@@ -416,7 +416,7 @@ main {
 /* Eternal Bonds 05 */
 
 .eternal-bonds-05 {
-  right: calc(34 / 440 * 100%);
+  right: var(--mobile-margin);
   bottom: calc(396 / 956 * 100%);
   width: calc(222 / 440 * 100%);
 }
@@ -458,7 +458,7 @@ main {
 /* Eternal Bonds 10 */
 
 .eternal-bonds-10 {
-  left: calc(34 / 440 * 100%);
+  left: var(--mobile-margin);
   bottom: calc(186 / 956 * 100%);
   width: calc(184 / 440 * 100%);
 }
@@ -475,7 +475,7 @@ main {
 /* Eternal Bonds 12 */
 
 .eternal-bonds-12 {
-  right: calc(34 / 440 * 100%);
+  right: var(--mobile-margin);
   bottom: calc(474 / 956 * 100%);
   width: calc(106 / 440 * 100%);
 }
@@ -484,7 +484,7 @@ main {
 /* Eternal Bonds 13 */
 
 .eternal-bonds-13 {
-  right: calc(34 / 440 * 100%);
+  right: var(--mobile-margin);
   bottom: calc(681.5 / 956 * 100%);
   width: calc(189 / 440 * 100%);
 }
@@ -493,7 +493,7 @@ main {
 /* Eternal Bonds Title */
 
 .eternal-title {
-  right: calc(37.15 / 440 * 100%);
+  right: var(--mobile-margin);
   bottom: calc(141 / 956 * 100%);
   width: calc(212 / 440 * 100%);
 }
