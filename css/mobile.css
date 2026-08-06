@@ -580,7 +580,7 @@ main {
 
 .reflections-of-displacement-03 {
   right: var(--mobile-margin);
-  top: calc(266.087 / 956 * 100%);
+  bottom: calc(266.087 / 956 * 100%);
   width: calc(100 / 440 * 100%);
 }
 
