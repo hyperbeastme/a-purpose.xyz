@@ -16,11 +16,11 @@
   --artboard-width: 440;
   --artboard-height: 956;
 
-  /* 10 ÷ 440 = 2.27% */
-  --mobile-margin: 2.27%;
+  /* 22 ÷ 440 = 5% */
+  --mobile-margin: 5%;
 
-  /* 420 ÷ 440 = 95.45% */
-  --mobile-content-width: 95.45%;
+  /* 418 ÷ 440 = 95% */
+  --mobile-content-width: 95%;
 
   --header-height: 80px;
 
