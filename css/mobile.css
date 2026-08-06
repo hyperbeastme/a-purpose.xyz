@@ -701,7 +701,7 @@ main {
 
 .reflections-disclaimer {
   right: var(--mobile-margin);
-  bottom: calc(166.9029 / 956 * 100%);
+  bottom: calc(166 / 956 * 100%);
   width: calc(150 / 440 * 100%);
 }
 
