@@ -527,11 +527,6 @@ main {
    REFLECTIONS SECTION
    ========================================================= */
 
-.project-preview.reflections {
-  margin-top: 0;
-  isolation: isolate;
-}
-
 
 /* =========================================================
    REFLECTIONS 01
@@ -708,28 +703,6 @@ main {
   right: var(--mobile-margin);
   bottom: calc(166.9029 / 956 * 100%);
   width: calc(150.097 / 440 * 100%);
-}
-
-
-/* =========================================================
-   CLICKABLE IMAGE LAYERS
-
-   The anchor fills the same positioned area as its image,
-   keeping each project image clickable.
-   ========================================================= */
-
-.project-preview > a:has(img) {
-  position: static;
-}
-
-
-/* =========================================================
-   FOCUS STYLES
-   ========================================================= */
-
-.project-preview-reflections a:focus-visible img {
-  outline: 2px solid var(--black);
-  outline-offset: 4px;
 }
 
 /* =========================================================
@@ -958,16 +931,6 @@ main {
   bottom: calc(196.9364 / 956 * 100%);
   width: calc(117.6563 / 440 * 100%);
 
-}
-
-
-/* =========================================================
-   CATELIER LINK FOCUS
-   ========================================================= */
-
-.project-preview.catelier a:focus-visible img {
-  outline: 2px solid var(--black);
-  outline-offset: 4px;
 }
 
 /* =========================================================
