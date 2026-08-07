@@ -719,9 +719,9 @@ main {
    ========================================================= */
 
 .reflections-title {
-  left: calc(39.042 / 956 * 100%);
-  bottom: calc(80 / 956 * 100%);
-  width: calc(361.4114 / 440 * 100%);
+  left: calc(3 / 956 * 100%);
+  bottom: calc(63 / 956 * 100%);
+  width: calc(433.8 / 440 * 100%);
 }
 
 .reflections-disclaimer {
