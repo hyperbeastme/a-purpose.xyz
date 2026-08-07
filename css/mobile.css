@@ -543,7 +543,6 @@ main {
    Artboard: 440 × 956px
    ========================================================= */
 
-
 /* =========================================================
    REFLECTIONS SECTION
    ========================================================= */
@@ -556,135 +555,164 @@ main {
 
 /* =========================================================
    REFLECTIONS 01
-   Left standing figure
-   ========================================================= */
+========================================================= */
 
 .reflections-of-displacement-01 {
-  left: calc(145 / 440 * 100%);
-  bottom: calc(547 / 956 * 100%);
-  width: calc(136 / 440 * 100%);
+  left: calc(34.481 / 440 * 100%);
+  bottom: calc(675.531 / 956 * 100%);
+  width: calc(87.26 / 440 * 100%);
 }
 
 
 /* =========================================================
    REFLECTIONS 02
-   Upper-center trouser image
-   ========================================================= */
+========================================================= */
 
 .reflections-of-displacement-02 {
-  left: var(--mobile-margin);
+  left: calc(128.936 / 440 * 100%);
   bottom: calc(675 / 956 * 100%);
-  width: calc(87 / 440 * 100%);
+  width: calc(80.722 / 440 * 100%);
 }
 
 
 /* =========================================================
    REFLECTIONS 03
-   Large patterned trouser image on right
-   ========================================================= */
+========================================================= */
 
 .reflections-of-displacement-03 {
-  right: var(--mobile-margin);
-  bottom: calc(193.2841 / 956 * 100%);
-  width: calc(99.993 / 440 * 100%);
+  right: calc(220 / 440 * 100%);
+  bottom: calc(645.2003 / 956 * 100%);
+  width: calc(104.3719 / 440 * 100%);
 }
 
 
 /* =========================================================
-   REFLECTIONS 04
-   Lower-center detail image
-   ========================================================= */
+   REFLECTIONS 04  ========================================================= */
 
 .reflections-of-displacement-04 {
   right: var(--mobile-margin);
-  bottom: calc(424 / 956 * 100%);
-  width: calc(110.277 / 440 * 100%);
+  bottom: calc(689.913 / 956 * 100%);
+  width: calc(56.702 / 440 * 100%);
 }
 
 
 /* =========================================================
-   REFLECTIONS 05
-   Central development drawing
-   ========================================================= */
+   REFLECTIONS 05  ========================================================= */
 
 .reflections-of-displacement-05 {
-  right: calc(169 / 440 * 100%);
-  bottom: calc(232 / 956 * 100%);
-  width: calc(80 / 440 * 100%);
+  left: var(--mobile-margin);
+  bottom: calc(509.9343 / 956 * 100%);
+  width: calc(83.077  / 440 * 100%);
 }
 
 
 /* =========================================================
-   REFLECTIONS 06
-   Upper-right standing figure
-   ========================================================= */
+   REFLECTIONS 06 ========================================================= */
 
 .reflections-of-displacement-06 {
-  right: calc(127 / 440 * 100%);
-  bottom: calc(651 / 956 * 100%);
-  width: calc(92 / 440 * 100%);
+  left: calc(85.8412 / 440 * 100%);
+  bottom: calc(608.2359 / 956 * 100%);
+  width: calc(85.8412 / 440 * 100%);
 }
 
 
 /* =========================================================
-   REFLECTIONS 07
-   Upper-left illustrated garment
-   ========================================================= */
+   REFLECTIONS 07   ========================================================= */
 
 .reflections-of-displacement-07 {
-  right: var(--mobile-margin);
-  bottom: calc(703 / 956 * 100%);
-  width: calc(63 / 440 * 100%);
+  left: calc(96.8821 / 440 * 100%);
+  bottom: calc(515.7185 / 956 * 100%);
+  width: calc(95 / 440 * 100%);
 }
 
 
 /* =========================================================
    REFLECTIONS 08
-   Rotated garment image
-   ========================================================= */
+========================================================= */
 
 .reflections-of-displacement-08 {
-  left: calc(47 / 440 * 100%);
-  bottom: calc(508 / 956 * 100%);
-  width: calc(83 / 440 * 100%);
+  left: calc(204.5527 / 440 * 100%);
+  bottom: calc(541.1038 / 956 * 100%);
+  width: calc(104.5166 / 440 * 100%);
 }
 
 
 /* =========================================================
    REFLECTIONS 09
-   Central screen/process image
-   ========================================================= */
+========================================================= */
 
 .reflections-of-displacement-09 {
-  left: calc(167 / 440 * 100%);
-  bottom: calc(354 / 956 * 100%);
-  width: calc(100 / 440 * 100%);
+  left: calc(251.0111 / 440 * 100%);
+  bottom: calc(472.3861 / 956 * 100%);
+  width: calc(37.3319 / 440 * 100%);
 }
 
 
 /* =========================================================
    REFLECTIONS 10
-   Lower-right standing figure
-   ========================================================= */
+========================================================= */
 
 .reflections-of-displacement-10 {
-  left: calc(132 / 440 * 100%);
-  bottom: calc(667 / 956 * 100%);
-  width: calc(82 / 440 * 100%);
+  right: calc(42.037 / 440 * 100%);
+  bottom: calc(427.7084 / 956 * 100%);
+  width: calc(110.277 / 440 * 100%);
 }
 
 
 /* =========================================================
    REFLECTIONS 11
-   Large lower-left material/detail image
-   ========================================================= */
+========================================================= */
 
 .reflections-of-displacement-11 {
+  left: calc(168.292 / 440 * 100%);
+  bottom: calc(373.6298 / 956 * 100%);
+  width: calc(101.3239 / 440 * 100%);
+}
+
+/*
+=========================================================
+   REFLECTIONS 12
+========================================================= */
+
+
+.reflections-of-displacement-12 {
+  right: var(--mobile-margin);
+  bottom: calc(318.1391 / 956 * 100%);
+  width: calc(194.0673 / 440 * 100%);
+}
+
+
+/* =========================================================
+   REFLECTIONS 13
+========================================================= */
+
+.reflections-of-displacement-13 {
   left: var(--mobile-margin);
-  bottom: calc(186 / 956 * 100%);
+  bottom: calc(186.939 / 956 * 100%);
   width: calc(156.135 / 440 * 100%);
 }
 
+
+/* =========================================================
+   REFLECTIONS 14
+========================================================= */
+
+.reflections-of-displacement-14 {
+  right: calc(42.037 / 440 * 100%);
+  bottom: calc(427.7084 / 956 * 100%);
+  width: calc(112.9796 / 440 * 100%);
+}
+
+
+/* =========================================================
+   REFLECTIONS 15
+========================================================= */
+
+.reflections-of-displacement-15 {
+  right: var(--mobile-margin);
+  bottom: calc(209.7994 / 956 * 100%);
+  width: calc(89.0227 / 440 * 100%);
+}
 
 /* =========================================================
    REFLECTIONS TITLE
@@ -703,42 +731,6 @@ main {
 }
 
 
-/* =========================================================
-   STACKING ORDER
-   ========================================================= */
-
-.reflections-of-displacement-07 {
-  z-index: 1;
-}
-
-.reflections-of-displacement-08 {
-  z-index: 2;
-}
-
-.reflections-of-displacement-02,
-.reflections-of-displacement-06 {
-  z-index: 3;
-}
-
-.reflections-of-displacement-01,
-.reflections-of-displacement-03,
-.reflections-of-displacement-09 {
-  z-index: 4;
-}
-
-.reflections-of-displacement-05,
-.reflections-of-displacement-11 {
-  z-index: 5;
-}
-
-.reflections-of-displacement-04,
-.reflections-of-displacement-10 {
-  z-index: 6;
-}
-
-.reflections-title {
-  z-index: 7;
-}
 
 /* =========================================================
    PART 4
