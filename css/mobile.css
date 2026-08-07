@@ -763,7 +763,7 @@ main {
   width: calc(112.8356 / 440 * 100%);
 
   mix-blend-mode: multiply;
-  z-index: 4;
+ 
 }
 
 
@@ -777,7 +777,6 @@ main {
   width: calc(110.9755 / 440 * 100%);
 
   mix-blend-mode: multiply;
-  z-index: 3;
 }
 
 
@@ -791,7 +790,7 @@ main {
   width: calc(99.7495 / 440 * 100%);
 
   mix-blend-mode: multiply;
-  z-index: 3;
+
 }
 
 
@@ -805,7 +804,7 @@ main {
   width: calc(118.9928 / 440 * 100%);
 
   mix-blend-mode: multiply;
-  z-index: 2;
+
 }
 
 
@@ -818,7 +817,7 @@ main {
   top: calc(570.1084 / 956 * 100%);
   width: calc(116.1864 / 440 * 100%);
 
-  z-index: 5;
+
 }
 
 
@@ -832,7 +831,6 @@ main {
   width: calc(133.6198 / 440 * 100%);
 
   mix-blend-mode: multiply;
-  z-index: 4;
 }
 
 
@@ -846,10 +844,6 @@ main {
   top: calc(408.118 / 956 * 100%);
   width: calc(35.1199 / 440 * 100%);
 
-  transform: rotate(-3.483deg);
-  transform-origin: top left;
-
-  z-index: 5;
 }
 
 
@@ -867,7 +861,6 @@ main {
   transform-origin: top left;
 
   mix-blend-mode: multiply;
-  z-index: 2;
 }
 
 
@@ -881,7 +874,6 @@ main {
   width: calc(292 / 440 * 100%);
 
   mix-blend-mode: multiply;
-  z-index: 1;
 }
 
 
@@ -894,11 +886,6 @@ main {
   left: calc(0 / 440 * 100%);
   bottom: calc(475.524 / 956 * 100%);
   width: calc(127.5062 / 440 * 100%);
-
-  transform: scaleX(-1);
-  transform-origin: center;
-
-  z-index: 1;
 }
 
 
@@ -916,7 +903,6 @@ main {
   transform-origin: center;
 
   mix-blend-mode: multiply;
-  z-index: 0;
 }
 
 
@@ -930,7 +916,6 @@ main {
   width: calc(193.4997 / 440 * 100%);
 
   mix-blend-mode: multiply;
-  z-index: 6;
 }
 
 /* =========================================================
@@ -943,11 +928,7 @@ main {
   top: calc(547.2977 / 956 * 100%);
   width: calc(168.187 / 440 * 100%);
 
-  transform: rotate(180deg);
-  transform-origin: center;
-
   mix-blend-mode: multiply;
-  z-index: 0;
 }
 
 
@@ -961,7 +942,6 @@ main {
   width: calc(118.9453 / 440 * 100%);
 
   mix-blend-mode: multiply;
-  z-index: 6;
 }
 
 /* =========================================================
@@ -973,7 +953,6 @@ main {
   top: calc(827.411 / 956 * 100%);
   width: calc(96.893 / 440 * 100%);
 
-  z-index: 10;
 }
 
 /* =========================================================
@@ -985,7 +964,6 @@ main {
   bottom: calc(196.9364 / 956 * 100%);
   width: calc(117.6563 / 440 * 100%);
 
-  z-index: 10;
 }
 
 
