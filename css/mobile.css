@@ -512,27 +512,7 @@ main {
   min-width: calc(102.852 / 440 * 100%);
 }
 
-/* =========================================================
-   CLICKABLE IMAGE LAYERS
 
-   The anchor fills the same positioned area as its image,
-   keeping each project image clickable.
-   ========================================================= */
-
-.project-preview > a:has(img) {
-  position: static;
-}
-
-
-/* =========================================================
-   FOCUS STYLES
-   ========================================================= */
-
-.project-preview a:focus-visible img,
-.landing a:focus-visible img {
-  outline: 2px solid var(--black);
-  outline-offset: 4px;
-}
 
 /* =========================================================
    PART 3
@@ -540,7 +520,7 @@ main {
 
    Coordinates taken from:
    mobile-home-reflections.svg
-   Artboard: 440 × 956px
+   Artboard: 440 * 956px
    ========================================================= */
 
 /* =========================================================
@@ -731,6 +711,26 @@ main {
 }
 
 
+/* =========================================================
+   CLICKABLE IMAGE LAYERS
+
+   The anchor fills the same positioned area as its image,
+   keeping each project image clickable.
+   ========================================================= */
+
+.project-preview > a:has(img) {
+  position: static;
+}
+
+
+/* =========================================================
+   FOCUS STYLES
+   ========================================================= */
+
+.project-preview-reflections a:focus-visible img {
+  outline: 2px solid var(--black);
+  outline-offset: 4px;
+}
 
 /* =========================================================
    PART 4
@@ -739,7 +739,7 @@ main {
    Coordinates taken from:
    mobile-home-catelier.svg
 
-   Illustrator artboard: 440 × 956px
+   Illustrator artboard: 440 * 956px
    ========================================================= */
 
 
@@ -857,9 +857,6 @@ main {
   bottom: calc(428.6781 / 956 * 100%);
   width: calc(145.684 / 440 * 100%);
 
-  transform: rotate(33.002deg);
-  transform-origin: top left;
-
   mix-blend-mode: multiply;
 }
 
@@ -869,7 +866,7 @@ main {
    ========================================================= */
 
 .catelier-09 {
-  left: calc(0 / 440 * 100%);
+  right: calc(11 / 440 * 100%);
   bottom: calc(560.6602 / 956 * 100%);
   width: calc(292 / 440 * 100%);
 
@@ -898,9 +895,6 @@ main {
   left: calc(11 / 440 * 100%);
   top: calc(480.476 / 956 * 100%);
   width: calc(168.187 / 440 * 100%);
-
-  transform: rotate(180deg);
-  transform-origin: center;
 
   mix-blend-mode: multiply;
 }
