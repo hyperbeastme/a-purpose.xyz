@@ -840,8 +840,8 @@ main {
 
 .catelier-09 {
   right: calc(11 / 440 * 100%);
-  bottom: calc(560.6602 / 956 * 100%);
-  width: calc(292 / 440 * 100%);
+  top: calc(560.6602 / 956 * 100%);
+  width: calc(66.0525 / 440 * 100%);
 
   mix-blend-mode: multiply;
 }
