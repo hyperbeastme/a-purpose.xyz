@@ -1019,7 +1019,8 @@ main {
   aspect-ratio: 440 / 708;
 
   margin: 0 auto;
-
+  margin-top:150px;
+  
   position: relative;
   overflow: hidden;
 }
