@@ -1020,7 +1020,7 @@ main {
 
   margin: 0 auto;
   margin-top:150px;
-  
+
   position: relative;
   overflow: hidden;
 }
@@ -1573,8 +1573,12 @@ body.lightbox-open {
   margin-top: calc(-150 / 440 * 100vw);
 }
 
-.about {
-  margin-top: 25;
+.catelier + .end-of-preview {
+  margin-top: calc(-150 / 440 * 100vw);
+}
+
+.end-of-preview + .about {
+  margin-top: calc(-50 / 440 * 100vw);
 }
 
 .footer {
