@@ -354,7 +354,7 @@ main {
   position: absolute;
 
   right: var(--mobile-margin);
-  bottom: calc(550 / 956 * 100%);
+  bottom: calc(600 / 956 * 100%);
   width: calc(174 / 440 * 100%);
 
   font-family: "futura-pt-condensed", sans-serif;
