@@ -893,7 +893,7 @@ main {
 .catelier-13 {
   right: calc(27.6244 / 440 * 100%);
   top: calc(547.2977 / 956 * 100%);
-  width: calc(168.187 / 440 * 100%);
+  width: calc(66.0525 / 440 * 100%);
 
   mix-blend-mode: multiply;
 }
@@ -905,7 +905,7 @@ main {
 
 .catelier-14 {
   right: calc(113.1864 / 440 * 100%);
-  top: calc(583.8429 / 956 * 100%);
+  bottom: calc(262.9261 / 956 * 100%);
   width: calc(118.9453 / 440 * 100%);
 
   mix-blend-mode: multiply;
