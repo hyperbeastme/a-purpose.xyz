@@ -996,7 +996,7 @@ main {
 }
 
 .end-of-preview-text a::before {
-  content: "";
+  content: "about";
 
   position: absolute;
   inset: -14px -22px;
@@ -1016,7 +1016,7 @@ main {
   width: 100%;
   max-width: 440px;
   height: auto;
-  aspect-ratio: 440 / 647;
+  aspect-ratio: 440 / 956;
 
   margin: 0 auto;
 
@@ -1042,7 +1042,7 @@ main {
   position: absolute;
 
   left: calc(50.348 / 440 * 100%);
-  bottom: calc(696.0232 / 647 * 100%);
+  bottom: calc(696.0232 / 956 * 100%);
 
   font-family: "futura-pt-condensed", sans-serif;
   font-size: clamp(16px, 4.1vw, 18px);
@@ -1105,7 +1105,7 @@ main {
   position: absolute;
 
   left: calc(107.822 / 440 * 100%);
-  top: calc(357.993 / 647 * 100%);
+  top: calc(357.993 / 956 * 100%);
 
   width: calc(224.357 / 440 * 100%);
   height: auto;
@@ -1560,19 +1560,19 @@ body.lightbox-open {
    ========================================================= */
 
 .landing + .eternal-bonds {
-  margin-top: calc(-180 / 440 * 100vw);
+  margin-top: calc(-150 / 440 * 100vw);
 }
 
 .eternal-bonds + .reflections {
-  margin-top: calc(-180 / 440 * 100vw);
+  margin-top: calc(-150 / 440 * 100vw);
 }
 
 .reflections + .catelier {
-  margin-top: calc(-180 / 440 * 100vw);
+  margin-top: calc(-150 / 440 * 100vw);
 }
 
 .about {
-  margin-top: 0;
+  margin-top: 25;
 }
 
 .footer {
