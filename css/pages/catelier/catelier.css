@@ -80,85 +80,108 @@ body {
   text-decoration:none;
 }
 
-/* PROJECTS INDEX */
+/* CATELIER PROJECT */
 
-.projects-index {
+.catelier-section {
   width:1440px;
-  height:3072px;
+  min-height:1024px;
   margin:0 auto;
+  padding:80px;
   position:relative;
+  overflow:hidden;
 }
 
-.project-index-link {
+.catelier-section h2 {
   position:absolute;
-  color:black;
-  font-family:"futura-pt-condensed", sans-serif;
-  font-size:56px;
-  font-weight:500;
+  left:24px;
+  top:80px;
+  z-index:2;
+  margin:0;
+  font-size:44px;
+  font-weight:300;
   line-height:1;
-  text-decoration:none;
-  white-space:nowrap;
 }
 
-a.project-index-link::before {
-  content:"";
-  position:absolute;
-  inset:-18px -24px;
+.catelier-statement {
+  display:grid;
+  grid-template-columns:minmax(0, 1fr) minmax(0, 1fr);
+  align-items:center;
+  gap:100px;
 }
 
-.project-index-eternal { left:285.022px; top:305.853px; }
-.project-index-reflections { left:790.454px; top:463.792px; }
-.project-index-catelier { left:393.85px; top:586.572px; }
-.project-index-digital { left:860.175px; top:695.924px; }
-.project-index-opposites { left:151.1px; top:822.121px; }
-.project-index-printmaking { left:308.906px; top:980.679px; }
-.project-index-free-cutting { left:957.259px; top:1154.265px; }
-.project-index-graphic { left:572.315px; top:1373.941px; }
-
-/* COMING SOON PROJECTS */
-
-.coming-soon-page {
-  min-height:100svh;
-  display:flex;
-  flex-direction:column;
+.catelier-statement-copy {
+  max-width:520px;
 }
 
-.coming-soon {
-  width:1440px;
+.catelier-opening-statement {
+  margin:0;
+  font-size:35px;
+  font-weight:200;
+  font-style:italic;
+  line-height:1.18;
+}
+
+.catelier-statement-image {
+  display:block;
+  width:100%;
+  max-height:760px;
+  object-fit:contain;
+}
+
+.catelier-canvas {
+  min-height:864px;
+  padding-top:80px;
+  display:grid;
+  gap:18px;
+  align-items:center;
+}
+
+.catelier-canvas img {
+  display:block;
+  width:100%;
   max-width:100%;
-  min-height:calc(100svh - 80px);
+  max-height:390px;
+  object-fit:contain;
+}
+
+.catelier-moodboard-canvas {
+  grid-template-columns:repeat(4, minmax(0, 1fr));
+}
+
+.catelier-sketch-canvas,
+.catelier-samples-canvas {
+  grid-template-columns:repeat(3, minmax(0, 1fr));
+}
+
+.catelier-process-canvas {
+  grid-template-columns:repeat(4, minmax(0, 1fr));
+}
+
+.catelier-museum-canvas {
+  grid-template-columns:repeat(3, minmax(0, 1fr));
+}
+
+.catelier-next-project {
+  width:1440px;
+  min-height:475px;
   margin:0 auto;
   padding:80px;
   display:flex;
-  flex:1;
   flex-direction:column;
-  align-items:center;
   justify-content:center;
-  text-align:center;
+  align-items:flex-end;
 }
 
-.coming-soon h1 {
-  margin:0 0 26px;
-  font-size:clamp(52px, 7vw, 96px);
-  font-weight:300;
-  line-height:0.95;
+.catelier-next-project p {
+  margin:0 0 15px;
+  font-size:22px;
+  opacity:0.5;
 }
 
-.coming-soon p {
-  max-width:620px;
-  margin:0;
-  font-size:34px;
-  font-weight:200;
-  font-style:italic;
-  line-height:1.15;
-}
-
-.coming-soon-back {
-  display:inline-block;
-  margin-top:52px;
-  padding:14px 24px;
+.catelier-next-project a {
   color:black;
-  font-size:24px;
+  font-size:70px;
+  line-height:1;
   text-decoration:none;
 }
 
@@ -262,3 +285,5 @@ a.project-index-link::before {
   color: #888;
   text-decoration: none;
 }
+
+
