@@ -970,7 +970,7 @@ main {
   position: absolute;
 
   left: 50%;
-  top: calc(75 / 200 * 100%);
+  top: calc(50 / 100 * 100%);
 
   width: calc(100 / 440 * 100%);
   margin: 0;
