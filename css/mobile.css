@@ -1611,6 +1611,10 @@ body.lightbox-open {
   margin-top: calc(50 / 440 * 100vw);
 }
 
+.about + .back-to-top {
+  margin-top: calc(0 / 440 * 100vw);
+}
+
 .footer {
   margin-top: 0;
 }
