@@ -1016,7 +1016,7 @@ main {
   width: 100%;
   max-width: 440px;
   height: auto;
-  aspect-ratio: 440 / 956;
+  aspect-ratio: 440 / 708;
 
   margin: 0 auto;
 
@@ -1041,8 +1041,9 @@ main {
 
   position: absolute;
 
-  left: calc(50.348 / 440 * 100%);
-  bottom: calc(696.0232 / 956 * 100%);
+  left: calc(55 / 440 * 100%);
+  bottom: calc(587.4902 / 956 * 100%);
+  width: calc(55 / 440 * 100%);
 
   font-family: "futura-pt-condensed", sans-serif;
   font-size: clamp(16px, 4.1vw, 18px);
@@ -1133,7 +1134,7 @@ main {
 }
 
 .about-text p + p {
-  margin-top: calc(24 / 647 * 100%);
+  margin-top: calc(24 / 708 * 100%);
 }
 
 .location {
@@ -1162,7 +1163,7 @@ main {
   position: absolute;
 
   left: 50%;
-  bottom: calc(128.864 / 647 * 100%);
+  bottom: calc(12.7627 / 708 * 100%);
 
   transform: translateX(-50%);
 
@@ -1189,8 +1190,8 @@ main {
 .footer {
   width: 100%;
   max-width: 440px;
-  height: 109px;
-  min-height: 109px;
+  height: 108.5px;
+  min-height: 108.5px;
 
   margin: 0 auto;
   padding: 0;
