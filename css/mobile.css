@@ -1574,11 +1574,11 @@ body.lightbox-open {
 }
 
 .catelier + .end-of-preview {
-  margin-top: calc(-150 / 440 * 100vw);
+  margin-top: calc(75 / 440 * 100vw);
 }
 
 .end-of-preview + .about {
-  margin-top: calc(100 / 440 * 100vw);
+  margin-top: calc(50 / 440 * 100vw);
 }
 
 .footer {
