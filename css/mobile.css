@@ -995,13 +995,6 @@ main {
   text-decoration: none;
 }
 
-.end-of-preview-text a::before {
-  content: "about";
-
-  position: absolute;
-  inset: -14px -22px;
-}
-
 
 /* =========================================================
    ABOUT SECTION
@@ -1042,8 +1035,8 @@ main {
 
   position: absolute;
 
-  left: calc(55 / 440 * 100%);
-  bottom: calc(500 / 525 * 100%);
+  left: calc(23.3264 / 440 * 100%);
+  bottom: calc(480.5262 / 525 * 100%);
   width: calc(55 / 440 * 100%);
 
   font-family: "futura-pt-condensed", sans-serif;
@@ -1079,7 +1072,7 @@ main {
   position: absolute;
 
   left: 50%;
-  bottom: 50%;
+  bottom: calc(195.0461 / 525 * 100%);
 
   width: calc(194.933 / 440 * 100%);
   height: auto;
@@ -1108,7 +1101,7 @@ main {
   position: absolute;
 
   left: 50%;
-  bottom: 50%;
+  bottom: calc(69.842 / 525 * 100%);
 
   width: calc(224.357 / 440 * 100%);
   height: auto;
@@ -1155,9 +1148,6 @@ main {
 
    Relative Y:
    814.707 - 200 = 614.707
-
-   This is visual text because the current HTML does not
-   contain a back-to-top link.
    ========================================================= */
 
 .back-to-top {
