@@ -958,7 +958,7 @@ main {
 .end-of-preview {
   width: 100%;
   max-width: 440px;
-  height: 50px;
+  height: 20px;
 
   margin: 0 auto;
 
@@ -970,16 +970,16 @@ main {
   position: absolute;
 
   left: 50%;
-  top: calc(148 / 200 * 100%);
+  top: calc(75 / 200 * 100%);
 
-  width: calc(95.504 / 440 * 100%);
+  width: calc(100 / 440 * 100%);
   margin: 0;
 
   transform: translate(-50%, -50%);
 
   font-family: "futura-pt-condensed", sans-serif;
   font-size: clamp(16px, 4.1vw, 18px);
-  font-weight: 200;
+  font-weight: 300;
   font-style: italic;
   line-height: 1;
 
@@ -1041,12 +1041,12 @@ main {
 
   position: absolute;
 
-  left: calc(41.457 / 440 * 100%);
-  top: calc(43.982 / 647 * 100%);
+  left: calc(50.348 / 440 * 100%);
+  bottom: calc(696.0232 / 647 * 100%);
 
   font-family: "futura-pt-condensed", sans-serif;
   font-size: clamp(16px, 4.1vw, 18px);
-  font-weight: 200;
+  font-weight: 300;
   font-style: italic;
   line-height: 1;
 
@@ -1076,8 +1076,8 @@ main {
 .about img {
   position: absolute;
 
-  left: calc(122.533 / 440 * 100%);
-  top: calc(81.973 / 647 * 100%);
+  left: calc(122.6614 / 440 * 100%);
+  bottom: calc(413.915 / 647 * 100%);
 
   width: calc(194.933 / 440 * 100%);
   height: auto;
@@ -1162,7 +1162,7 @@ main {
   position: absolute;
 
   left: 50%;
-  top: calc(614.707 / 647 * 100%);
+  bottom: calc(128.864 / 647 * 100%);
 
   transform: translateX(-50%);
 
