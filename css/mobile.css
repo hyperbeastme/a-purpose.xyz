@@ -1087,6 +1087,7 @@ main {
   margin: 0;
 
   z-index: 2;
+   transform: translateX(-50%);
 }
 
 
@@ -1124,6 +1125,7 @@ main {
   color: var(--black);
 
   z-index: 3;
+  transform: translateX(-50%);
 }
 
 .about-text p {
