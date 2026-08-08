@@ -1078,7 +1078,7 @@ main {
 .about img {
   position: absolute;
 
-  left: calc(122.6614 / 440 * 100%);
+  left: 50%;
   bottom: calc(413.915 / 647 * 100%);
 
   width: calc(194.933 / 440 * 100%);
@@ -1106,8 +1106,8 @@ main {
 .about-text {
   position: absolute;
 
-  left: calc(107.822 / 440 * 100%);
-  top: calc(357.993 / 956 * 100%);
+  left: 50%;
+  bottom: calc(357.993 / 956 * 100%);
 
   width: calc(224.357 / 440 * 100%);
   height: auto;
