@@ -1559,8 +1559,12 @@ body.lightbox-open {
    PAGE SPACING
    ========================================================= */
 
-.project-preview + .project-preview {
-  margin-top: 0;
+.eternal-bonds + .reflections {
+  margin-top: calc(-180 / 440 * 100vw);
+}
+
+.reflections + .catelier {
+  margin-top: calc(-250 / 440 * 100vw);
 }
 
 .about {
