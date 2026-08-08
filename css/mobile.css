@@ -1583,7 +1583,7 @@ body.lightbox-open {
 }
 
 .catelier + .end-of-preview {
-  margin-top: calc(10 / 440 * 100vw);
+  margin-top: calc(0 / 440 * 100vw);
 }
 
 .end-of-preview + .about {
