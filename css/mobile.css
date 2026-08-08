@@ -1154,7 +1154,7 @@ main {
   position: absolute;
 
   left: 50%;
-  bottom: calc(20 / 525 * 100%);;
+  bottom: calc(0 / 525 * 100%);;
 
   width: calc(100 / 440 * 100%);
   margin: 0;
