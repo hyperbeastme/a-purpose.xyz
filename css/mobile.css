@@ -1201,7 +1201,7 @@ main {
 }
 
 .back-to-top-text a::before {
-  content: "about";
+  content: "";
 
   position: absolute;
   inset: -14px -22px;
