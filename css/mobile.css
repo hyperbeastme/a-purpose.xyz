@@ -1150,22 +1150,11 @@ main {
    814.707 - 200 = 614.707
    ========================================================= */
 
-.back-to-top {
-  width: 100%;
-  max-width: 440px;
-  height: 50px;
-
-  margin: 0 auto;
-
-  position: relative;
-  overflow: hidden;
-}
-
 .back-to-top-text {
   position: absolute;
 
   left: 50%;
-  top: 50%;
+  bottom: calc(20 / 525 * 100%);;
 
   width: calc(100 / 440 * 100%);
   margin: 0;
@@ -1599,10 +1588,6 @@ body.lightbox-open {
 
 .end-of-preview + .about {
   margin-top: calc(50 / 440 * 100vw);
-}
-
-.about + .back-to-top {
-  margin-top: calc(0 / 440 * 100vw);
 }
 
 .footer {
