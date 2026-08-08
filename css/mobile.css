@@ -1036,7 +1036,7 @@ main {
   position: absolute;
 
   left: calc(23.3264 / 440 * 100%);
-  bottom: calc(480.5262 / 625 * 100%);
+  bottom: calc(580.5262 / 625 * 100%);
   width: calc(55 / 440 * 100%);
 
   font-family: "futura-pt-condensed", sans-serif;
@@ -1072,7 +1072,7 @@ main {
   position: absolute;
 
   left: 50%;
-  bottom: calc(195.0461 / 625 * 100%);
+  bottom: calc(295.0461 / 625 * 100%);
 
   width: calc(194.933 / 440 * 100%);
   height: auto;
@@ -1101,7 +1101,7 @@ main {
   position: absolute;
 
   left: 50%;
-  bottom: calc(69.842 / 625 * 100%);
+  bottom: calc(169.842 / 625 * 100%);
 
   width: calc(224.357 / 440 * 100%);
   height: auto;
@@ -1154,7 +1154,7 @@ main {
   position: absolute;
 
   left: 50%;
-  bottom: calc(0 / 625 * 100%);;
+  bottom: calc(20 / 625 * 100%);;
 
   width: calc(100 / 440 * 100%);
   margin: 0;
