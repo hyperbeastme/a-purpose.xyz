@@ -1009,7 +1009,7 @@ main {
   width: 100%;
   max-width: 440px;
   height: auto;
-  aspect-ratio: 440 / 525;
+  aspect-ratio: 440 / 625;
 
   margin: 0 auto;
   margin-top:150px;
@@ -1036,7 +1036,7 @@ main {
   position: absolute;
 
   left: calc(23.3264 / 440 * 100%);
-  bottom: calc(480.5262 / 525 * 100%);
+  bottom: calc(480.5262 / 625 * 100%);
   width: calc(55 / 440 * 100%);
 
   font-family: "futura-pt-condensed", sans-serif;
@@ -1072,7 +1072,7 @@ main {
   position: absolute;
 
   left: 50%;
-  bottom: calc(195.0461 / 525 * 100%);
+  bottom: calc(195.0461 / 625 * 100%);
 
   width: calc(194.933 / 440 * 100%);
   height: auto;
@@ -1101,7 +1101,7 @@ main {
   position: absolute;
 
   left: 50%;
-  bottom: calc(69.842 / 525 * 100%);
+  bottom: calc(69.842 / 625 * 100%);
 
   width: calc(224.357 / 440 * 100%);
   height: auto;
@@ -1130,7 +1130,7 @@ main {
 }
 
 .about-text p + p {
-  margin-top: calc(24 / 525 * 100%);
+  margin-top: calc(24 / 625 * 100%);
 }
 
 .location {
@@ -1154,7 +1154,7 @@ main {
   position: absolute;
 
   left: 50%;
-  bottom: calc(0 / 525 * 100%);;
+  bottom: calc(0 / 625 * 100%);;
 
   width: calc(100 / 440 * 100%);
   margin: 0;
