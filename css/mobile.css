@@ -1574,7 +1574,7 @@ body.lightbox-open {
 }
 
 .catelier + .end-of-preview {
-  margin-top: calc(75 / 440 * 100vw);
+  margin-top: calc(25 / 440 * 100vw);
 }
 
 .end-of-preview + .about {
