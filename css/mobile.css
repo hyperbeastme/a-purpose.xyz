@@ -1087,7 +1087,7 @@ main {
   margin: 0;
 
   z-index: 2;
-   transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 
@@ -1160,26 +1160,54 @@ main {
    contain a back-to-top link.
    ========================================================= */
 
-.about::after {
-  content: "back to the top";
+.back-to-top {
+  width: 100%;
+  max-width: 440px;
+  height: 50px;
 
+  margin: 0 auto;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.back-to-top-text {
   position: absolute;
 
   left: 50%;
-  bottom: calc(12.7627 / 708 * 100%);
+  top: calc(75 / 200 * 100%);
 
-  transform: translateX(-50%);
+  width: calc(100 / 440 * 100%);
+  margin: 0;
+
+  transform: translate(-50%, -50%);
 
   font-family: "futura-pt-condensed", sans-serif;
-  font-size: clamp(10px, 2.7vw, 12px);
+  font-size: clamp(16px, 4.1vw, 18px);
   font-weight: 300;
+  font-style: italic;
   line-height: 1;
 
-  color: var(--black);
+  text-align: center;
   white-space: nowrap;
-
-  z-index: 3;
 }
+
+.back-to-top-text a {
+  position: relative;
+  display: inline-block;
+
+  color: var(--black);
+  text-decoration: none;
+}
+
+.back-to-top-text a::before {
+  content: "about";
+
+  position: absolute;
+  inset: -14px -22px;
+}
+
+
 
 
 /* =========================================================
@@ -1576,7 +1604,7 @@ body.lightbox-open {
 }
 
 .catelier + .end-of-preview {
-  margin-top: calc(25 / 440 * 100vw);
+  margin-top: calc(10 / 440 * 100vw);
 }
 
 .end-of-preview + .about {
