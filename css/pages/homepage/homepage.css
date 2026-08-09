@@ -331,9 +331,10 @@ body {
 .reflections-of-displacement-06 {
   position:absolute;
   right:87px;
-  bottom:257.60px;
+  top:257.60px;
   width:181.658px;
   height:auto;
+  mix-blend-mode: multiply;
 }
 
 .reflections-of-displacement-07 {
@@ -342,6 +343,7 @@ body {
   bottom:450.6862px;
   width:196.2956px;
   height:auto;
+  mix-blend-mode: multiply;
 }
 
 .reflections-of-displacement-08 {
