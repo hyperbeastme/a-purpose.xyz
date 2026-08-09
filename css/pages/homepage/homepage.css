@@ -355,7 +355,7 @@ body {
 .reflections-of-displacement-09 {
   position:absolute;
   left:262.0784px;
-  top:140px;
+  top:0px;
   width:262.7227px;
   height:auto;
 }
@@ -371,7 +371,7 @@ body {
 .reflections-of-displacement-11 {
   position:absolute;
   left:472.1699px;
-  bottom:270.0173px;
+  top:270.0173px;
   width:193.2235px;
   height:auto;
 }
@@ -418,7 +418,7 @@ body {
 
 .reflections-of-displacement-17 {
   position:absolute;
-  left:40px;
+  right:438.909px;
   top:0px;
   width:234.1698px;
   height:auto;
