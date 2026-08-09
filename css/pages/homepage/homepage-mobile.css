@@ -507,7 +507,7 @@ main {
 
 .eternal-title {
   left: var(--mobile-margin);
-  bottom: calc(60.0422 / 956 * 100%);
+  bottom: calc(77.571 / 956 * 100%);
   min-width: calc(212 / 440 * 100%);
 }
 
