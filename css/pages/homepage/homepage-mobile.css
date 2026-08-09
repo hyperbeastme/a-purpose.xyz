@@ -507,7 +507,7 @@ main {
 
 .eternal-title {
   left: var(--mobile-margin);
-  bottom: calc(100 / 956 * 100%);
+  bottom: calc(60.0422 / 956 * 100%);
   min-width: calc(212 / 440 * 100%);
 }
 
@@ -523,7 +523,7 @@ main {
 /* Eternal Bonds Disclaimer */
 
 .eternal-disclaimer {
-  right: calc(140.0286 / 440 * 100%);
+  left: calc(140.0286 / 440 * 100%);
   bottom: calc(101.3164 / 956 * 100%);
   min-width: calc(68.6689 / 440 * 100%);
 }
