@@ -1,12 +1,22 @@
 /* ABOUT PAGE */
 
+.about-page {
+  margin:0;
+  overflow-x:hidden;
+  background:#fff;
+  color:#000;
+  font-family:"futura-pt-condensed", sans-serif;
+}
+
 .about-page-main {
-  width:1440px;
+  width:100%;
+  max-width:1440px;
   margin:0 auto;
 }
 
 .about-page-intro {
-  width:1440px;
+  width:100%;
+  max-width:1440px;
   min-height:944px;
   margin:0 auto;
   padding:120px 80px 100px;
