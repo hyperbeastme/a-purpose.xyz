@@ -133,106 +133,137 @@ body {
 
 .eternal-bonds-01 {
   position:absolute;
-  left:430.75px;
-  top:524px;
-  width:165px;
-  height:auto;
+  left:1208.995px;
+  top:12.788px;
+  width:170.068px;
+  height:273.622px;
+  object-fit:contain;
 }
 
 .eternal-bonds-02 {
   position:absolute;
-  left:293px;
-  top:602.25px;
-  width:90px;
-  height:auto;
+  left:767.654px;
+  top:372.423px;
+  width:254.405px;
+  height:390.595px;
+  object-fit:contain;
 }
 
 .eternal-bonds-03 {
   position:absolute;
-  left:109.75px;
-  top:557px;
-  width:155px;
-  height:auto;
+  left:45.438px;
+  top:152.201px;
+  width:198.951px;
+  height:314.341px;
+  object-fit:contain;
 }
 
 .eternal-bonds-04 {
   position:absolute;
-  left:86.65px;
-  top:230.15px;
-  width:189px;
-  height:auto;
+  left:1021.499px;
+  top:11.25px;
+  width:152.806px;
+  height:264.752px;
+  object-fit:contain;
 }
 
 .eternal-bonds-05 {
   position:absolute;
-  left:143.5px;
-  top:108.5px;
-  width:487.5px;
-  height:auto;
+  left:436.518px;
+  top:652.408px;
+  width:180.621px;
+  height:208.642px;
+  object-fit:contain;
 }
 
 .eternal-bonds-06 {
   position:absolute;
-  left:236px;
-  top:284.25px;
-  width:170px;
-  height:auto;
+  left:41.001px;
+  top:0;
+  width:628.556px;
+  height:206.832px;
+  object-fit:contain;
 }
 
 .eternal-bonds-07 {
   position:absolute;
-  left:458.25px;
-  top:269.80px;
-  width:200px;
-  height:auto;
+  left:1208.395px;
+  top:530.874px;
+  width:180.506px;
+  height:316.144px;
+  object-fit:contain;
 }
 
 .eternal-bonds-08 {
   position:absolute;
-  right:451.60px;
-  top:0px;
-  width:220px;
-  height:auto;
+  left:570.304px;
+  top:409.659px;
+  width:102.66px;
+  height:241.599px;
+  object-fit:contain;
 }
 
 .eternal-bonds-09 {
   position:absolute;
-  right:413px;
-  top:208.70px;
-  width:255px;
-  height:auto;
+  left:1264.399px;
+  top:322.554px;
+  width:136.605px;
+  height:227.464px;
+  object-fit:contain;
 }
 
 .eternal-bonds-10 {
   position:absolute;
-  right:245.50px;
-  top:294px;
-  width:425px;
-  height:auto;
+  left:1076.441px;
+  top:258.455px;
+  width:196.365px;
+  height:299.364px;
+  object-fit:contain;
 }
 
 .eternal-bonds-11 {
   position:absolute;
-  right:80px;
-  top:612.95px;
-  width:190px;
-  height:auto;
+  left:1008.186px;
+  top:624.376px;
+  width:183.905px;
+  height:225.154px;
+  object-fit:contain;
 }
 
 .eternal-bonds-12 {
   position:absolute;
-  right:91.15px;
-  top:237.95px;
-  width:205px;
-  height:auto;
+  left:361.143px;
+  top:200.125px;
+  width:306.515px;
+  height:192.233px;
+  object-fit:contain;
 }
 
 .eternal-bonds-13 {
   position:absolute;
-  right:91.15px;
-  top:0px;
-  width:223px;
-  height:auto;
+  left:767.721px;
+  top:209.068px;
+  width:256.904px;
+  height:151.55px;
+  object-fit:contain;
+}
+
+.eternal-bonds-14 {
+  position:absolute;
+  left:755.436px;
+  top:0.375px;
+  width:232.101px;
+  height:221.34px;
+  object-fit:contain;
+}
+
+.eternal-bonds-15 {
+  position:absolute;
+  left:41.001px;
+  top:313.414px;
+  width:427.85px;
+  height:554.414px;
+  object-fit:contain;
 }
 
 .eternal-title {
@@ -241,6 +272,7 @@ body {
   top:898.754px;
   width:334.396px;
   height:124.871px;
+  object-fit:contain;
 }
 
 .eternal-text-01 {
@@ -248,11 +280,17 @@ body {
   left:766.656px;
   top:849.257px;
   width:280.96px;
-  height:76.29px;
+  height:75.24px;
+  object-fit:contain;
 }
 
 .eternal-disclaimer {
-  display:none;
+  position:absolute;
+  left:552.859px;
+  top:973.28px;
+  width:114.276px;
+  height:9.686px;
+  object-fit:contain;
 }
 
 .eternal-title-01 {
