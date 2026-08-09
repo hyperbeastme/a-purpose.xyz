@@ -523,7 +523,7 @@ main {
 /* Eternal Bonds Disclaimer */
 
 .eternal-disclaimer {
-  left: calc(140.0286 / 440 * 100%);
+  right: calc(231.5878 / 440 * 100%);
   bottom: calc(101.3164 / 956 * 100%);
   min-width: calc(68.6689 / 440 * 100%);
 }
