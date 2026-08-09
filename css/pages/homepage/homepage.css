@@ -99,8 +99,8 @@ body {
 
 .landing-statement {
   position:absolute;
-  left:1160px;
-  right:0px;
+  left:auto;
+  right:0;
   width: 315px;
   top: 330px;
   line-height: 1.1;
