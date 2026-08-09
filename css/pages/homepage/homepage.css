@@ -92,7 +92,7 @@ body {
 
 .landing-image {
   position:absolute;
-  left:calc(80 / 1440 * 100%);
+  left:calc(40 / 1440 * 100%);
   bottom:calc(0 / 944 * 100%);
   width:calc(175 / 1440 * 100%);
   height:auto;
@@ -100,8 +100,8 @@ body {
 
 .landing-statement {
   position:absolute;
-  left:calc(1160 / 1440 * 100%);
-  right:calc(0 / 1440 * 100%);
+  left:calc(1120 / 1440 * 100%);
+  right:calc(-40 / 1440 * 100%);
   width:calc(315 / 1440 * 100%);
   top:calc(330 / 944 * 100%);
   line-height: 1.1;
@@ -135,7 +135,7 @@ body {
 
 .eternal-bonds-01 {
   position:absolute;
-  right:calc(60.9476 / 1440 * 100%);
+  right:calc(20.9476 / 1440 * 100%);
   bottom:calc(737.5809 / 1024 * 100%);
   width:calc(170.082 / 1440 * 100%);
   height:auto;
@@ -143,7 +143,7 @@ body {
 
 .eternal-bonds-02 {
   position:absolute;
-  right:calc(417.9447 / 1440 * 100%);
+  right:calc(377.9447 / 1440 * 100%);
   bottom:calc(260.9822 / 1024 * 100%);
   width:calc(254.4011 / 1440 * 100%);
   height:auto;
@@ -151,7 +151,7 @@ body {
 
 .eternal-bonds-03 {
   position:absolute;
-  left:calc(40 / 1440 * 100%);
+  left:calc(0 / 1440 * 100%);
   top:calc(151.6296 / 1024 * 100%);
   width:calc(198.9446 / 1440 * 100%);
   height:auto;
@@ -159,7 +159,7 @@ body {
 
 .eternal-bonds-04 {
   position:absolute;
-  right:calc(257.3808 / 1440 * 100%);
+  right:calc(217.38080000000002 / 1440 * 100%);
   top:calc(0 / 1024 * 100%);
   width:calc(161.1151 / 1440 * 100%);
   height:auto;
@@ -167,7 +167,7 @@ body {
 
 .eternal-bonds-05 {
   position:absolute;
-  left:calc(436.3331 / 1440 * 100%);
+  left:calc(396.3331 / 1440 * 100%);
   bottom:calc(162.947 / 1024 * 100%);
   width:calc(180.6204 / 1440 * 100%);
   height:auto;
@@ -175,7 +175,7 @@ body {
 
 .eternal-bonds-06 {
   position:absolute;
-  left:calc(40 / 1440 * 100%);
+  left:calc(0 / 1440 * 100%);
   top:calc(0 / 1024 * 100%);
   width:calc(626.4721 / 1440 * 100%);
   height:auto;
@@ -183,7 +183,7 @@ body {
 
 .eternal-bonds-07 {
   position:absolute;
-  right:calc(51.0965 / 1440 * 100%);
+  right:calc(11.096499999999999 / 1440 * 100%);
   bottom:calc(176.6029 / 1024 * 100%);
   width:calc(180.5076 / 1440 * 100%);
   height:auto;
@@ -191,7 +191,7 @@ body {
 
 .eternal-bonds-08 {
   position:absolute;
-  left:calc(564.4118 / 1440 * 100%);
+  left:calc(524.4118 / 1440 * 100%);
   bottom:calc(373.2886 / 1024 * 100%);
   width:calc(102.2451 / 1440 * 100%);
   height:auto;
@@ -199,7 +199,7 @@ body {
 
 .eternal-bonds-09 {
   position:absolute;
-  right:calc(40 / 1440 * 100%);
+  right:calc(0 / 1440 * 100%);
   bottom:calc(473.6047 / 1024 * 100%);
   width:calc(136.5998 / 1440 * 100%);
   height:auto;
@@ -207,7 +207,7 @@ body {
 
 .eternal-bonds-10 {
   position:absolute;
-  right:calc(177.7484 / 1440 * 100%);
+  right:calc(137.7484 / 1440 * 100%);
   top:calc(262.3033 / 1024 * 100%);
   width:calc(196.4248 / 1440 * 100%);
   height:auto;
@@ -216,7 +216,7 @@ body {
 
 .eternal-bonds-11 {
   position:absolute;
-  right:calc(247.9087 / 1440 * 100%);
+  right:calc(207.9087 / 1440 * 100%);
   bottom:calc(174.4713 / 1024 * 100%);
   width:calc(183.9041 / 1440 * 100%);
   height:auto;
@@ -225,7 +225,7 @@ body {
 
 .eternal-bonds-12 {
   position:absolute;
-  left:calc(361.144 / 1440 * 100%);
+  left:calc(321.144 / 1440 * 100%);
   top:calc(200.125 / 1024 * 100%);
   width:calc(306.515 / 1440 * 100%);
   height:auto;
@@ -234,7 +234,7 @@ body {
 
 .eternal-bonds-13 {
   position:absolute;
-  left:calc(767.721 / 1440 * 100%);
+  left:calc(727.721 / 1440 * 100%);
   top:calc(209.068 / 1024 * 100%);
   width:calc(256.904 / 1440 * 100%);
   height:auto;
@@ -243,7 +243,7 @@ body {
 
 .eternal-bonds-14 {
   position:absolute;
-  left:calc(755.436 / 1440 * 100%);
+  left:calc(715.436 / 1440 * 100%);
   top:calc(0.375 / 1024 * 100%);
   width:calc(232.101 / 1440 * 100%);
   height:auto;
@@ -252,7 +252,7 @@ body {
 
 .eternal-bonds-15 {
   position:absolute;
-  left:calc(40 / 1440 * 100%);
+  left:calc(0 / 1440 * 100%);
   top:calc(313.414 / 1024 * 100%);
   width:calc(427.85 / 1440 * 100%);
   height:auto;
@@ -261,7 +261,7 @@ body {
 
 .eternal-title {
   position:absolute;
-  left:calc(332.262 / 1440 * 100%);
+  left:calc(292.262 / 1440 * 100%);
   bottom:calc(0 / 1024 * 100%);
   width:calc(334.396 / 1440 * 100%);
   height:auto;
@@ -270,7 +270,7 @@ body {
 
 .eternal-text {
   position:absolute;
-  left:calc(766.656 / 1440 * 100%);
+  left:calc(726.656 / 1440 * 100%);
   top:calc(849.257 / 1024 * 100%);
   width:calc(280.96 / 1440 * 100%);
   height:auto;
@@ -279,7 +279,7 @@ body {
 
 .eternal-disclaimer {
   position:absolute;
-  left:calc(552.859 / 1440 * 100%);
+  left:calc(512.859 / 1440 * 100%);
   top:calc(973.28 / 1024 * 100%);
   width:calc(114.276 / 1440 * 100%);
   height:auto;
@@ -292,7 +292,7 @@ body {
 
 .reflections-of-displacement-01 {
   position:absolute;
-  left:calc(547.3048 / 1440 * 100%);
+  left:calc(507.3048 / 1440 * 100%);
   top:calc(0 / 1024 * 100%);
   width:calc(98.9656 / 1440 * 100%);
   height:auto;
@@ -300,7 +300,7 @@ body {
 
 .reflections-of-displacement-02 {
   position:absolute;
-  left:calc(419.8463 / 1440 * 100%);
+  left:calc(379.8463 / 1440 * 100%);
   bottom:calc(347.7408 / 1024 * 100%);
   width:calc(117.4356 / 1440 * 100%);
   height:auto;
@@ -308,7 +308,7 @@ body {
 
 .reflections-of-displacement-03 {
   position:absolute;
-  right:calc(243.1449 / 1440 * 100%);
+  right:calc(203.1449 / 1440 * 100%);
   top:calc(0 / 1024 * 100%);
   width:calc(162.4789 / 1440 * 100%);
   height:auto;
@@ -316,7 +316,7 @@ body {
 
 .reflections-of-displacement-04 {
   position:absolute;
-  right:calc(92.5042 / 1440 * 100%);
+  right:calc(52.5042 / 1440 * 100%);
   bottom:calc(183.7661 / 1024 * 100%);
   width:calc(121.3043 / 1440 * 100%);
   height:auto;
@@ -324,7 +324,7 @@ body {
 
 .reflections-of-displacement-05 {
   position:absolute;
-  right:calc(52.1851 / 1440 * 100%);
+  right:calc(12.185099999999998 / 1440 * 100%);
   bottom:calc(501.4883 / 1024 * 100%);
   width:calc(105.6815 / 1440 * 100%);
   height:auto;
@@ -332,7 +332,7 @@ body {
 
 .reflections-of-displacement-06 {
   position:absolute;
-  right:calc(169.3325 / 1440 * 100%);
+  right:calc(129.3325 / 1440 * 100%);
   top:calc(246.7333 / 1024 * 100%);
   width:calc(181.658 / 1440 * 100%);
   height:auto;
@@ -341,7 +341,7 @@ body {
 
 .reflections-of-displacement-07 {
   position:absolute;
-  right:calc(284.0129 / 1440 * 100%);
+  right:calc(244.0129 / 1440 * 100%);
   bottom:calc(450.6862 / 1024 * 100%);
   width:calc(196.2956 / 1440 * 100%);
   height:auto;
@@ -350,7 +350,7 @@ body {
 
 .reflections-of-displacement-08 {
   position:absolute;
-  left:calc(325.0873 / 1440 * 100%);
+  left:calc(285.0873 / 1440 * 100%);
   bottom:calc(541.1038 / 1024 * 100%);
   width:calc(134.2812 / 1440 * 100%);
   height:auto;
@@ -358,7 +358,7 @@ body {
 
 .reflections-of-displacement-09 {
   position:absolute;
-  left:calc(262.0784 / 1440 * 100%);
+  left:calc(222.0784 / 1440 * 100%);
   top:calc(0 / 1024 * 100%);
   width:calc(262.7227 / 1440 * 100%);
   height:auto;
@@ -366,7 +366,7 @@ body {
 
 .reflections-of-displacement-10 {
   position:absolute;
-  left:calc(570.3785 / 1440 * 100%);
+  left:calc(530.3785 / 1440 * 100%);
   bottom:calc(375.0501 / 1024 * 100%);
   width:calc(82.3388 / 1440 * 100%);
   height:auto;
@@ -374,7 +374,7 @@ body {
 
 .reflections-of-displacement-11 {
   position:absolute;
-  left:calc(472.1699 / 1440 * 100%);
+  left:calc(432.1699 / 1440 * 100%);
   top:calc(270.0173 / 1024 * 100%);
   width:calc(193.2235 / 1440 * 100%);
   height:auto;
@@ -382,7 +382,7 @@ body {
 
 .reflections-of-displacement-12 {
   position:absolute;
-  right:calc(378.0155 / 1440 * 100%);
+  right:calc(338.0155 / 1440 * 100%);
   top:calc(158.7819 / 1024 * 100%);
   width:calc(233.1982 / 1440 * 100%);
   height:auto;
@@ -390,7 +390,7 @@ body {
 
 .reflections-of-displacement-13 {
   position:absolute;
-  right:calc(425.2475 / 1440 * 100%);
+  right:calc(385.2475 / 1440 * 100%);
   bottom:calc(222.6705 / 1024 * 100%);
   width:calc(235.283 / 1440 * 100%);
   height:auto;
@@ -398,7 +398,7 @@ body {
 
 .reflections-of-displacement-14 {
   position:absolute;
-  right:calc(40 / 1440 * 100%);
+  right:calc(0 / 1440 * 100%);
   top:calc(31.9213 / 1024 * 100%);
   width:calc(153.2819 / 1440 * 100%);
   height:auto;
@@ -406,7 +406,7 @@ body {
 
 .reflections-of-displacement-15 {
   position:absolute;
-  left:calc(40 / 1440 * 100%);
+  left:calc(0 / 1440 * 100%);
   bottom:calc(150.4985 / 1024 * 100%);
   width:calc(335.5135 / 1440 * 100%);
   height:auto;
@@ -414,7 +414,7 @@ body {
 
 .reflections-of-displacement-16 {
   position:absolute;
-  left:calc(40 / 1440 * 100%);
+  left:calc(0 / 1440 * 100%);
   top:calc(38.7987 / 1024 * 100%);
   width:calc(253.2725 / 1440 * 100%);
   height:auto;
@@ -422,7 +422,7 @@ body {
 
 .reflections-of-displacement-17 {
   position:absolute;
-  right:calc(438.909 / 1440 * 100%);
+  right:calc(398.909 / 1440 * 100%);
   top:calc(0 / 1024 * 100%);
   width:calc(234.1698 / 1440 * 100%);
   height:auto;
@@ -430,7 +430,7 @@ body {
 
 .reflections-of-displacement-18 {
   position:absolute;
-  left:calc(452.0384 / 1440 * 100%);
+  left:calc(412.0384 / 1440 * 100%);
   bottom:calc(145.3349 / 1024 * 100%);
   width:calc(121.6395 / 1440 * 100%);
   height:auto;
@@ -438,7 +438,7 @@ body {
 
 .reflections-of-displacement-19 {
   position:absolute;
-  right:calc(268.9453 / 1440 * 100%);
+  right:calc(228.94529999999997 / 1440 * 100%);
   bottom:calc(166.6811 / 1024 * 100%);
   width:calc(122.1217 / 1440 * 100%);
   height:auto;
@@ -446,7 +446,7 @@ body {
 
 .reflections-title {
   position:absolute;
-  right:calc(68.332 / 1440 * 100%);
+  right:calc(28.331999999999994 / 1440 * 100%);
   bottom:calc(0 / 1024 * 100%);
   width:calc(575.3876 / 1440 * 100%);
   height:auto;
@@ -454,7 +454,7 @@ body {
 
 .reflections-disclaimer {
   position:absolute;
-  right:calc(91.9637 / 1440 * 100%);
+  right:calc(51.9637 / 1440 * 100%);
   bottom:calc(41.2526 / 1024 * 100%);
   width:calc(196.1582 / 1440 * 100%);
   height:auto;
@@ -467,7 +467,7 @@ body {
 
 .catelier-01 {
   position:absolute;
-  left:calc(375.70 / 1440 * 100%);
+  left:calc(335.7 / 1440 * 100%);
   top:calc(0 / 1024 * 100%);
   width:calc(204 / 1440 * 100%);
   height:auto;
@@ -476,7 +476,7 @@ body {
 
 .catelier-02 {
   position:absolute;
-  left:calc(189.15 / 1440 * 100%);
+  left:calc(149.15 / 1440 * 100%);
   top:calc(10.712 / 1024 * 100%);
   width:calc(195 / 1440 * 100%);
   height:auto;
@@ -485,7 +485,7 @@ body {
 
 .catelier-03 {
   position:absolute;
-  left:calc(80 / 1440 * 100%);
+  left:calc(40 / 1440 * 100%);
   top:calc(354.3762 / 1024 * 100%);
   width:calc(262 / 1440 * 100%);
   height:auto;
@@ -494,7 +494,7 @@ body {
 
 .catelier-04 {
   position:absolute;
-  left:calc(100 / 1440 * 100%);
+  left:calc(60 / 1440 * 100%);
   bottom:calc(205.3 / 1024 * 100%);
   width:calc(213.51 / 1440 * 100%);
   height:auto;
@@ -503,7 +503,7 @@ body {
 
 .catelier-05 {
   position:absolute;
-  right:calc(103 / 1440 * 100%);
+  right:calc(63 / 1440 * 100%);
   bottom:calc(176.5 / 1024 * 100%);
   width:calc(235.33 / 1440 * 100%);
   height:auto;
@@ -511,7 +511,7 @@ body {
 
 .catelier-06 {
   position:absolute;
-  right:calc(378.77 / 1440 * 100%);
+  right:calc(338.77 / 1440 * 100%);
   bottom:calc(184.33 / 1024 * 100%);
   width:calc(81.6 / 1440 * 100%);
   height:auto;
@@ -521,7 +521,7 @@ body {
 
 .catelier-07 {
   position:absolute;
-  right:calc(441.65 / 1440 * 100%);
+  right:calc(401.65 / 1440 * 100%);
   bottom:calc(315.61 / 1024 * 100%);
   width:calc(214.31 / 1440 * 100%);
   height:auto;
@@ -530,7 +530,7 @@ body {
 
 .catelier-08 {
   position:absolute;
-  right:calc(449 / 1440 * 100%);
+  right:calc(409 / 1440 * 100%);
   top:calc(8.875 / 1024 * 100%);
   width:calc(221 / 1440 * 100%);
   height:auto;
@@ -539,7 +539,7 @@ body {
 
 .catelier-09 {
   position:absolute;
-  right:calc(363 / 1440 * 100%);
+  right:calc(323 / 1440 * 100%);
   top:calc(91 / 1024 * 100%);
   width:calc(133.76 / 1440 * 100%);
   height:auto;
@@ -548,7 +548,7 @@ body {
 
 .catelier-10 {
   position:absolute;
-  left:calc(352.1 / 1440 * 100%);
+  left:calc(312.1 / 1440 * 100%);
   bottom:calc(205.3 / 1024 * 100%);
   width:calc(317.9 / 1440 * 100%);
   height:auto;
@@ -556,7 +556,7 @@ body {
 
 .catelier-11 {
   position:absolute;
-  right:calc(116.9 / 1440 * 100%);
+  right:calc(76.9 / 1440 * 100%);
   top:calc(0 / 1024 * 100%);
   width:calc(234.9 / 1440 * 100%);
   height:auto;
@@ -565,7 +565,7 @@ body {
 
 .catelier-12 {
   position:absolute;
-  right:calc(104 / 1440 * 100%);
+  right:calc(64 / 1440 * 100%);
   bottom:calc(108.5 / 1024 * 100%);
   width:calc(233.32 / 1440 * 100%);
   height:auto;
@@ -574,7 +574,7 @@ body {
 
 .catelier-title {
   position:absolute;
-  left:calc(491.14 / 1440 * 100%);
+  left:calc(451.14 / 1440 * 100%);
   bottom:calc(0 / 1024 * 100%);
   width:calc(178.60 / 1440 * 100%);
   height:auto;
