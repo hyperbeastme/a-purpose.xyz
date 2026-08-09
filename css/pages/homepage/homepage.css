@@ -237,10 +237,22 @@ body {
 
 .eternal-title {
   position:absolute;
-  left:335.60px;
-  bottom:0px;
-  width:334px;
-  height:auto;
+  left:332.262px;
+  top:898.754px;
+  width:334.396px;
+  height:124.871px;
+}
+
+.eternal-text-01 {
+  position:absolute;
+  left:766.656px;
+  top:849.257px;
+  width:280.96px;
+  height:76.29px;
+}
+
+.eternal-disclaimer {
+  display:none;
 }
 
 .eternal-title-01 {
