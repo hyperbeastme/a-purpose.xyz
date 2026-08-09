@@ -804,3 +804,12 @@ body.lightbox-open {
 .mobile-menu {
   display: none !important;
 }
+
+/* Scale the 1440px desktop composition to fit narrower landscape screens. */
+@media screen and (min-width:768px) and (max-width:1439px) and (orientation:landscape) {
+  body {
+    width:1440px;
+    max-width:none;
+    zoom:calc(100vw / 1440px);
+  }
+}
