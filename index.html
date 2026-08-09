@@ -478,18 +478,6 @@
 
 
 <script>
-  const applyHomepageScale = () => {
-    const isDesktopLandscape = window.innerWidth >= 768 && window.matchMedia("(orientation: landscape)").matches;
-    const scale = isDesktopLandscape && window.innerWidth < 1440 ? window.innerWidth / 1440 : 1;
-
-    document.body.style.width = scale < 1 ? "1440px" : "";
-    document.body.style.maxWidth = scale < 1 ? "none" : "";
-    document.body.style.zoom = String(scale);
-  };
-
-  applyHomepageScale();
-  window.addEventListener("resize", applyHomepageScale);
-
   const header = document.querySelector(".header");
   const menuButton = document.querySelector(".mobile-menu-button");
   const mobileMenu = document.querySelector(".mobile-menu");
