@@ -260,13 +260,13 @@ body {
 .eternal-title {
   position:absolute;
   left:332.262px;
-  top:898.754px;
+  bottom: 0px;
   width:334.396px;
   height:auto;
   object-fit:contain;
 }
 
-.eternal-text-01 {
+.eternal-text {
   position:absolute;
   left:766.656px;
   top:849.257px;
@@ -282,14 +282,6 @@ body {
   width:114.276px;
   height:auto;
   object-fit:contain;
-}
-
-.eternal-title-01 {
-  position:absolute;
-  right:389px;
-  bottom:100px;
-  width:280px;
-  height:auto;
 }
 
 .project-preview.reflections {
