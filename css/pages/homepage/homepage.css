@@ -124,6 +124,7 @@ body {
   height:1024px;
   margin:0 auto;
   position:relative;
+  overflow:hidden;
 }
 
 .project-preview.eternal-bonds {
