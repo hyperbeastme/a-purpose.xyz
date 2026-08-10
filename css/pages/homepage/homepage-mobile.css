@@ -14,7 +14,7 @@
 
 :root {
   --artboard-width: 440;
-  --artboard-height: 956;
+  --artboard-height: 732;
 
   --mobile-margin: 2.5%;
   --mobile-content-width: calc(100% - (var(--mobile-margin) * 2));
@@ -346,7 +346,7 @@ main {
 
 .landing-image {
   left: var(--mobile-margin);
-  bottom: calc(200 / 735.257 * 100%);
+  bottom: calc(0 / 732 * 100%);
   width: calc(100 / 440 * 100%);
 }
 
@@ -354,7 +354,7 @@ main {
   position: absolute;
 
   right: var(--mobile-margin);
-  bottom: calc(500 / 735.257 * 100%);
+  bottom: calc(500 / 732 * 100%);
   width: calc(174 / 440 * 100%);
 
   font-family: "futura-pt-condensed", sans-serif;
@@ -393,7 +393,7 @@ main {
 /* Eternal Bonds 03 */
 
 .eternal-bonds-03 {
-  right: calc(x / 440 * 100%);
+  left: calc(183.2237 / 440 * 100%);
   top: calc(8.175 / 732 * 100%);
   width: calc(75.8709 / 440 * 100%);
 }
