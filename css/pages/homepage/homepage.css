@@ -121,7 +121,7 @@ body {
 }
 
 .project-preview {
-  width:calc(100% - 80px);
+  width:100%;
   max-width:1680px;
   aspect-ratio:1600 / 880;
   margin-inline: auto;
