@@ -506,8 +506,8 @@ main {
 
 .eternal-text {
   right: calc(61.35 / 440 * 100%);
-  top: calc(208.0112 / 732 * 100%);
-  width: calc(208.0112 / 440 * 100%);
+  bottom: calc(370.1237 / 732 * 100%);
+  width: calc(211 / 440 * 100%);
 }
 
 /* Eternal Bonds Disclaimer */
