@@ -505,16 +505,14 @@ main {
   right: calc(11 / 440 * 100%);
   bottom: calc(0 / 732 * 100%);
   width: calc(258.7577 / 440 * 100%);
-  height: calc(96.6261 / 732 * 100%);
 }
 
 /* Eternal Bonds Text */
 
 .eternal-text {
-  right: calc(72.35 / 440 * 100%);
+  left: calc(58.3611 px / 440 * 100%);
   bottom: calc(370.1237 / 732 * 100%);
   width: calc(211 / 440 * 100%);
-  height: calc(56.4824 / 732 * 100%);
 }
 
 /* Eternal Bonds Disclaimer */
@@ -523,7 +521,6 @@ main {
   right: calc(11 / 440 * 100%);
   bottom: calc(30.8836 / 732 * 100%);
   width: calc(90.0078 / 440 * 100%);
-  height: calc(8.7705 / 732 * 100%);
 }
 
 
