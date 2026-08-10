@@ -328,7 +328,7 @@ body {
 
 .reflections-of-displacement-06 {
   right: calc(424.7889 / 1600 * 100%);
-  top: calc(155.421 / 880 * 100%);
+  bottom: calc(365.3575 / 880 * 100%);
   width: calc(202.2318 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
