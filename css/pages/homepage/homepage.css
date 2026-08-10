@@ -122,9 +122,9 @@ body {
 
 .project-preview {
   width:calc(100% - 80px);
-  max-width:1440px;
-  aspect-ratio:1440 / 1024;
-  margin:0 auto;
+  max-width:1680px;
+  aspect-ratio:1600 / 880;
+  margin-inline: auto;
   position:relative;
   overflow:hidden;
 }
