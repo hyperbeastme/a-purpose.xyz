@@ -402,7 +402,7 @@ main {
 
 .eternal-bonds-04 {
   right: calc(100.7768 / 440 * 100%);
-  top: calc(15.557 px / 732 * 100%);
+  top: calc(15.557 / 732 * 100%);
   width: calc(87.8166 / 440 * 100%);
 }
 
@@ -418,7 +418,7 @@ main {
 
 .eternal-bonds-06 {
   left: var(--mobile-margin);
-  top: calc(146.9644a / 732 * 100%);
+  top: calc(146.9644 / 732 * 100%);
   width: calc(332.6555 / 440 * 100%);
 }
 
