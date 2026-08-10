@@ -129,7 +129,9 @@ body {
   overflow:hidden;
 }
 
-
+.project-preview.eternal-bonds {
+  margin-top:160px;
+}
 
 .project-preview.reflections img {
   position: absolute;
