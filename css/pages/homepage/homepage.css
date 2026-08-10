@@ -291,35 +291,27 @@ body {
 }
 
 .reflections-of-displacement-01 {
-  position:absolute;
-  left:calc(507.3048 / 1440 * 100%);
-  top:calc(0 / 1024 * 100%);
-  width:calc(98.9656 / 1440 * 100%);
-  height:auto;
+  right: calc(57.4757 / 1600 * 100%);
+  top: calc(277.3305 / 880 * 100%);
+  width: calc(104.3973 / 1600 * 100%);
 }
 
 .reflections-of-displacement-02 {
-  position:absolute;
-  left:calc(379.8463 / 1440 * 100%);
-  bottom:calc(347.7408 / 1024 * 100%);
-  width:calc(117.4356 / 1440 * 100%);
-  height:auto;
+  left: calc(509.4938 / 1600 * 100%);
+  top: calc(134.9768 / 880 * 100%);
+  width: calc(95.0617 / 1600 * 100%);
 }
 
 .reflections-of-displacement-03 {
-  position:absolute;
-  right:calc(203.1449 / 1440 * 100%);
-  top:calc(0 / 1024 * 100%);
-  width:calc(162.4789 / 1440 * 100%);
-  height:auto;
+  left: calc(509.4938 / 1600 * 100%);
+  top: calc(134.9768 / 880 * 100%);
+  width: calc(95.0617 / 1600 * 100%);
 }
 
 .reflections-of-displacement-04 {
-  position:absolute;
-  right:calc(52.5042 / 1440 * 100%);
-  bottom:calc(183.7661 / 1024 * 100%);
-  width:calc(121.3043 / 1440 * 100%);
-  height:auto;
+  left: calc(509.4938 / 1600 * 100%);
+  top: calc(134.9768 / 880 * 100%);
+  width: calc(95.0617 / 1600 * 100%);
 }
 
 .reflections-of-displacement-05 {
