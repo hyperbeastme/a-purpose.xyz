@@ -1609,7 +1609,6 @@ body.lightbox-open {
    ========================================================= */
 
 img[src$=".svg"] {
-  width: auto;
   height: auto;
 }
 
