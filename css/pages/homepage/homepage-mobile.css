@@ -510,7 +510,7 @@ main {
 /* Eternal Bonds Text */
 
 .eternal-text {
-  left: calc(58.3611 px / 440 * 100%);
+  left: calc(69.3611 px / 440 * 100%);
   bottom: calc(370.1237 / 732 * 100%);
   width: calc(211 / 440 * 100%);
 }
@@ -969,7 +969,7 @@ main {
 .end-of-preview {
   width: 100%;
   max-width: 440px;
-  height: 20px;
+  height: 19.0039px;
 
   margin: 0 auto;
 
@@ -981,7 +981,6 @@ main {
   position: absolute;
 
   left: 50%;
-  top: calc(50 / 100 * 100%);
 
   width: calc(100 / 440 * 100%);
   margin: 0;
