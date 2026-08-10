@@ -316,11 +316,7 @@ body {
 
 .reflections-of-displacement-05 {
   position:absolute;
-<<<<<<< HEAD
-  right:calc(12.1851 / 1440 * 100%);
-=======
   right:calc(12.1850 / 1440 * 100%);
->>>>>>> f40b4964d013566e6863361ff50d91bbd1890fb6
   bottom:calc(501.4883 / 1024 * 100%);
   width:calc(105.6815 / 1440 * 100%);
   height:auto;
