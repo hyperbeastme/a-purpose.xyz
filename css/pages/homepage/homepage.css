@@ -262,7 +262,7 @@ body {
 
 .eternal-disclaimer {
   right: calc(853.3431 / 1600 * 100%);
-  top: calc(41.8869 / 880 * 100%);
+  bottom: calc(41.8869 / 880 * 100%);
   width: calc(121.7236 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
