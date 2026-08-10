@@ -140,21 +140,21 @@ body {
 }
 
 .eternal-bonds-01 {
-  right: calc(0 / 1600 * 100%);
+  right: calc(40 / 1600 * 100%);
   top: calc(0 / 880 * 100%);
   width: calc(224.5735 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .eternal-bonds-02 {
-  right: calc(0 / 1600 * 100%);
+  right: calc(40 / 1600 * 100%);
   bottom: calc(0 / 880 * 100%);
   width: calc(222.1196 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .eternal-bonds-03 {
-  left: calc(0 / 1600 * 100%);
+  left: calc(40 / 1600 * 100%);
   top: calc(179.4737 / 880 * 100%);
   width: calc(169.3411 / 1600 * 100%);
   mix-blend-mode: multiply;
@@ -175,7 +175,7 @@ body {
 }
 
 .eternal-bonds-06 {
-  left: calc(0 / 1600 * 100%);
+  left: calc(40 / 1600 * 100%);
   top: calc(0 / 880 * 100%);
   width: calc(746.6569 / 1600 * 100%);
   mix-blend-mode: multiply;
@@ -217,7 +217,7 @@ body {
 }
 
 .eternal-bonds-12 {
-  right: calc(0 / 1600 * 100%);
+  right: calc(40 / 1600 * 100%);
   bottom: calc(359.4123 / 880 * 100%);
   width: calc(256.9908 / 1600 * 100%);
   mix-blend-mode: multiply;
@@ -238,7 +238,7 @@ body {
 }
 
 .eternal-bonds-15 {
-  left: calc(0 / 1600 * 100%);
+  left: calc(40 / 1600 * 100%);
   bottom: calc(130.6743 / 880 * 100%);
   width: calc(378.6791 / 1600 * 100%);
   mix-blend-mode: multiply;
