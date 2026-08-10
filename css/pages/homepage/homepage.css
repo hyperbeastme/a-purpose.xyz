@@ -133,7 +133,9 @@ body {
   margin-top:160px;
 }
 
-.project-preview.reflections img {
+.project-preview.eternal-bonds img,
+.project-preview.reflections img,
+.project-preview.catelier img {
   position: absolute;
   display: block;
   height: auto;
