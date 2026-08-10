@@ -385,7 +385,7 @@ main {
 /* Eternal Bonds 02 */
 
 .eternal-bonds-02 {
-  right: var(--mobile-margin);
+  right: calc(11 / 440 * 100%);
   bottom: calc(372.2909 / 732 * 100%);
   width: calc(81.4025 / 440 * 100%);
 }
@@ -393,7 +393,7 @@ main {
 /* Eternal Bonds 03 */
 
 .eternal-bonds-03 {
-  left: calc(183.2237 / 440 * 100%);
+  left: calc(194.2237 / 440 * 100%);
   top: calc(8.175 / 732 * 100%);
   width: calc(75.8709 / 440 * 100%);
 }
@@ -401,7 +401,7 @@ main {
 /* Eternal Bonds 04 */
 
 .eternal-bonds-04 {
-  right: calc(100.7768 / 440 * 100%);
+  right: calc(111.7768 / 440 * 100%);
   top: calc(15.557 / 732 * 100%);
   width: calc(87.8166 / 440 * 100%);
 }
@@ -409,7 +409,7 @@ main {
 /* Eternal Bonds 05 */
 
 .eternal-bonds-05 {
-  left: calc(44.7053 / 440 * 100%);
+  left: calc(55.7053 / 440 * 100%);
   top: calc(223.6756 / 732 * 100%);
   width: calc(69.72 / 440 * 100%);
 }
@@ -417,7 +417,7 @@ main {
 /* Eternal Bonds 06 */
 
 .eternal-bonds-06 {
-  left: var(--mobile-margin);
+  left: calc(11 / 440 * 100%);
   top: calc(146.9644 / 732 * 100%);
   width: calc(332.6555 / 440 * 100%);
 }
@@ -425,7 +425,7 @@ main {
 /* Eternal Bonds 07 */
 
 .eternal-bonds-07 {
-  left: var(--mobile-margin);
+  left: calc(11 / 440 * 100%);
   top: calc(0 / 732 * 100%);
   width: calc(72.638 / 440 * 100%);
 }
@@ -433,7 +433,7 @@ main {
 /* Eternal Bonds 08 */
 
 .eternal-bonds-08 {
-  left: var(--mobile-margin);
+  left: calc(11 / 440 * 100%);
   bottom: calc(245.1773 / 732 * 100%);
   width: calc(58.8796 / 440 * 100%);
 }
@@ -441,7 +441,7 @@ main {
 /* Eternal Bonds 09 */
 
 .eternal-bonds-09 {
-  left: calc(186.0242 / 440 * 100%);
+  left: calc(197.0242 / 440 * 100%);
   bottom: calc(113.4196 / 732 * 100%);
   width: calc(90.2208 / 440 * 100%);
 }
@@ -449,7 +449,7 @@ main {
 /* Eternal Bonds 10 */
 
 .eternal-bonds-10 {
-  right: var(--mobile-margin);
+  right: calc(11 / 440 * 100%);
   bottom: calc(120.8013 / 732 * 100%);
   width: calc(111.3159 / 440 * 100%);
 }
@@ -457,7 +457,7 @@ main {
 /* Eternal Bonds 11 */
 
 .eternal-bonds-11 {
-  right: var(--mobile-margin);
+  right: calc(11 / 440 * 100%);
   bottom: calc(497.1514 / 732 * 100%);
   width: calc(62.9145 / 440 * 100%);
 }
@@ -465,7 +465,7 @@ main {
 /* Eternal Bonds 12 */
 
 .eternal-bonds-12 {
-  right: calc(82.8339 / 440 * 100%);
+  right: calc(93.8339 / 440 * 100%);
   top: calc(229.1142 / 732 * 100%);
   width: calc(122.2382 / 440 * 100%);
 }
@@ -473,7 +473,7 @@ main {
 /* Eternal Bonds 13 */
 
 .eternal-bonds-13 {
-  right: calc(55.9484 / 440 * 100%);
+  right: calc(66.9484 / 440 * 100%);
   bottom: calc(272.9699 / 732 * 100%);
   width: calc(168.7489 / 440 * 100%);
 }
@@ -481,7 +481,7 @@ main {
 /* Eternal Bonds 14 */
 
 .eternal-bonds-14 {
-  left: calc(65.7444 / 440 * 100%);
+  left: calc(76.7444 / 440 * 100%);
   top: calc(0 / 732 * 100%);
   width: calc(111.8014 / 440 * 100%);
 }
@@ -489,7 +489,7 @@ main {
 /* Eternal Bonds 15 */
 
 .eternal-bonds-15 {
-  left: var(--mobile-margin);
+  left: calc(11 / 440 * 100%);
   bottom: calc(117.9667 / 732 * 100%);
   width: calc(192.3096 / 440 * 100%);
 }
@@ -497,7 +497,7 @@ main {
 /* Eternal Bonds Title */
 
 .eternal-title {
-  right: var(--mobile-margin);
+  right: vcalc(11 / 440 * 100%);
   bottom: calc(0 / 732 * 100%);
   width: calc(258.7577 / 440 * 100%);
 }
@@ -505,7 +505,7 @@ main {
 /* Eternal Bonds Text */
 
 .eternal-text {
-  right: calc(61.35 / 440 * 100%);
+  right: calc(72.35 / 440 * 100%);
   bottom: calc(370.1237 / 732 * 100%);
   width: calc(211 / 440 * 100%);
 }
@@ -513,7 +513,7 @@ main {
 /* Eternal Bonds Disclaimer */
 
 .eternal-disclaimer {
-  right: var(--mobile-margin);
+  right: calc(11 / 440 * 100%);
   bottom: calc(30.8836 / 732 * 100%);
   width: calc(90.0078 / 440 * 100%);
 }
