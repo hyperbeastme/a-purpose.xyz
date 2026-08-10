@@ -133,6 +133,12 @@ body {
   margin-top:160px;
 }
 
+.project-preview.reflections img {
+  position: absolute;
+  display: block;
+  height: auto;
+}
+
 .eternal-bonds-01 {
   position:absolute;
   right:calc(20.9476 / 1440 * 100%);
@@ -315,7 +321,7 @@ body {
 }
 
 .reflections-of-displacement-05 {
-  right: var(--mobile-margin);
+  right: calc(40 / 1600 * 100%);
   bottom: calc(159.8526 / 880 * 100%);
   width: calc(116.7583 / 1600 * 100%);
 }
@@ -371,13 +377,13 @@ body {
 }
 
 .reflections-of-displacement-14 {
-  right: var(--mobile-margin);
+  right: calc(40 / 1600 * 100%);
   top: calc(0 / 880 * 100%);
   width: calc(140.9455 / 1600 * 100%);
 }
 
 .reflections-of-displacement-15 {
-  left: var(--mobile-margin);
+  left: calc(40 / 1600 * 100%);
   top: calc(0 / 880 * 100%);
   width: calc(357.2637 / 1600 * 100%);
 }
