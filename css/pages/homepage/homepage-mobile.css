@@ -510,7 +510,7 @@ main {
 /* Eternal Bonds Text */
 
 .eternal-text {
-  left: calc(69.3611 px / 440 * 100%);
+  left: calc(69.3611 / 440 * 100%);
   bottom: calc(370.1237 / 732 * 100%);
   width: calc(211 / 440 * 100%);
 }
