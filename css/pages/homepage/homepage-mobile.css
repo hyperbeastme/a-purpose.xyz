@@ -19,7 +19,7 @@
   --mobile-margin: 2.5%;
   --mobile-content-width: calc(100% - (var(--mobile-margin) * 2));
 
-  --header-height: 80px;
+  --header-height: 64px;
 
   --black: #000;
   --white: #fff;
@@ -88,7 +88,7 @@ main {
   margin: 0;
 
   /* Prevents content from sitting beneath the fixed header */
-  padding: var(--header-height) 0 0;
+  padding: var(--header-height);
 }
 
 
@@ -315,7 +315,7 @@ main {
   width: 100%;
   max-width: 440px;
 
-  aspect-ratio: 440 / 956;
+  aspect-ratio: 440 / 732;
 
   margin-right: auto;
   margin-left: auto;
@@ -377,155 +377,145 @@ main {
 /* Eternal Bonds 01 */
 
 .eternal-bonds-01 {
-  left: calc(114.7086 / 440 * 100%);
-  top: calc(241.1859 / 956 * 100%);
-  width: calc(100.1057 / 440 * 100%);
+  right: calc(11 / 440 * 100%);
+  top: calc(0 / 732 * 100%);
+  width: calc(99.5793 / 440 * 100%);
 }
-
 
 /* Eternal Bonds 02 */
 
 .eternal-bonds-02 {
   right: var(--mobile-margin);
-  top: calc(263.8422 / 956 * 100%);
-  width: calc(116.6213 / 440 * 100%);
+  bottom: calc(372.2909 / 732 * 100%);
+  width: calc(81.4025 / 440 * 100%);
 }
-
 
 /* Eternal Bonds 03 */
 
 .eternal-bonds-03 {
-  left: var(--mobile-margin);
-  bottom: calc(587.9469 / 956 * 100%);
-  width: calc(102.2297 / 440 * 100%);
+  right: calc(x / 440 * 100%);
+  top: calc(8.175 / 732 * 100%);
+  width: calc(75.8709 / 440 * 100%);
 }
-
 
 /* Eternal Bonds 04 */
 
 .eternal-bonds-04 {
-  left: calc(182.9235 / 440 * 100%);
-  bottom: calc(430.3581 / 956 * 100%);
-  width: calc(71.5029 / 440 * 100%);
+  right: calc(100.7768 / 440 * 100%);
+  top: calc(15.557 px / 732 * 100%);
+  width: calc(87.8166 / 440 * 100%);
 }
-
 
 /* Eternal Bonds 05 */
 
 .eternal-bonds-05 {
-  right: calc(22.9435 / 440 * 100%);
-  bottom: calc(305.6277 / 956 * 100%);
-  width: calc(82.7991 / 440 * 100%);
+  left: calc(44.7053 / 440 * 100%);
+  top: calc(223.6756 / 732 * 100%);
+  width: calc(69.72 / 440 * 100%);
 }
-
 
 /* Eternal Bonds 06 */
 
 .eternal-bonds-06 {
   left: var(--mobile-margin);
-  top: calc(140 / 956 * 100%);
-  width: calc(287.1842 / 440 * 100%);
+  top: calc(146.9644a / 732 * 100%);
+  width: calc(332.6555 / 440 * 100%);
 }
-
 
 /* Eternal Bonds 07 */
 
 .eternal-bonds-07 {
-  right: calc(116.0062 / 440 * 100%);
-  bottom: calc(237.4878 / 956 * 100%);
-  width: calc(117.5831 / 440 * 100%);
+  left: var(--mobile-margin);
+  top: calc(0 / 732 * 100%);
+  width: calc(72.638 / 440 * 100%);
 }
 
 /* Eternal Bonds 08 */
 
 .eternal-bonds-08 {
   left: var(--mobile-margin);
-  bottom: calc(434.0107 / 956 * 100%);
-  width: calc(65.0014 / 440 * 100%);
+  bottom: calc(245.1773 / 732 * 100%);
+  width: calc(58.8796 / 440 * 100%);
 }
 
 /* Eternal Bonds 09 */
 
 .eternal-bonds-09 {
-  right: calc(138.4494 / 440 * 100%);
-  bottom: calc(538.813 / 956 * 100%);
-  width: calc(62.6194 / 440 * 100%);
+  left: calc(186.0242 / 440 * 100%);
+  bottom: calc(113.4196 / 732 * 100%);
+  width: calc(90.2208 / 440 * 100%);
 }
 
 /* Eternal Bonds 10 */
 
 .eternal-bonds-10 {
-  left: calc(136.0222 / 440 * 100%);
-  bottom: calc(168.3193 / 956 * 100%);
-  width: calc(84.986 / 440 * 100%);
+  right: var(--mobile-margin);
+  bottom: calc(120.8013 / 732 * 100%);
+  width: calc(111.3159 / 440 * 100%);
 }
 
 /* Eternal Bonds 11 */
 
 .eternal-bonds-11 {
-  left: calc(21.5571 / 440 * 100%);
-  bottom: calc(178.7814 / 956 * 100%);
-  width: calc(84.3044 / 440 * 100%);
+  right: var(--mobile-margin);
+  bottom: calc(497.1514 / 732 * 100%);
+  width: calc(62.9145 / 440 * 100%);
 }
-
 
 /* Eternal Bonds 12 */
 
 .eternal-bonds-12 {
-  right: calc(100.4131 / 440 * 100%);
-  top: calc(212.1885 / 956 * 100%);
-  width: calc(140.5105 / 440 * 100%);
+  right: calc(82.8339 / 440 * 100%);
+  top: calc(229.1142 / 732 * 100%);
+  width: calc(122.2382 / 440 * 100%);
 }
-
 
 /* Eternal Bonds 13 */
 
 .eternal-bonds-13 {
-  right: calc(22.6732 / 440 * 100%);
-  bottom: calc(426.015 / 956 * 100%);
-  width: calc(117.7701 / 440 * 100%);
+  right: calc(55.9484 / 440 * 100%);
+  bottom: calc(272.9699 / 732 * 100%);
+  width: calc(168.7489 / 440 * 100%);
 }
 
 /* Eternal Bonds 14 */
 
 .eternal-bonds-14 {
-  right: var(--mobile-margin);
-  top: calc(140 / 956 * 100%);
-  width: calc(100.9198 / 440 * 100%);
+  left: calc(65.7444 / 440 * 100%);
+  top: calc(0 / 732 * 100%);
+  width: calc(111.8014 / 440 * 100%);
 }
-
 
 /* Eternal Bonds 15 */
 
 .eternal-bonds-15 {
   left: var(--mobile-margin);
-  bottom: calc(296.1553 / 956 * 100%);
-  width: calc(196.273 / 440 * 100%);
+  bottom: calc(117.9667 / 732 * 100%);
+  width: calc(192.3096 / 440 * 100%);
 }
 
 /* Eternal Bonds Title */
 
 .eternal-title {
-  left: var(--mobile-margin);
-  bottom: calc(77.571 / 956 * 100%);
-  min-width: calc(212 / 440 * 100%);
+  right: var(--mobile-margin);
+  bottom: calc(0 / 732 * 100%);
+  width: calc(258.7577 / 440 * 100%);
 }
 
-
-/* Eternal Bonds Title */
+/* Eternal Bonds Text */
 
 .eternal-text {
-  right: var(--mobile-margin);
-  bottom: calc(189.012 / 956 * 100%);
-  min-width: calc(161.5289 / 440 * 100%);
+  right: calc(61.35 / 440 * 100%);
+  top: calc(208.0112 / 732 * 100%);
+  width: calc(208.0112 / 440 * 100%);
 }
 
 /* Eternal Bonds Disclaimer */
 
 .eternal-disclaimer {
-  right: calc(231.5878 / 440 * 100%);
-  bottom: calc(101.3164 / 956 * 100%);
-  min-width: calc(68.6689 / 440 * 100%);
+  right: var(--mobile-margin);
+  top: calc(30.8836 / 732 * 100%);
+  width: calc(90.0078 / 440 * 100%);
 }
 
 
