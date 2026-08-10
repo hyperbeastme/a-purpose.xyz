@@ -382,7 +382,7 @@ main {
 /* Eternal Bonds 01 */
 
 .eternal-bonds-01 {
-  right: calc(11 / 440 * 100%);
+  right: var(--mobile-margin);
   top: calc(0 / 732 * 100%);
   width: calc(99.5793 / 440 * 100%);
 }
@@ -390,7 +390,7 @@ main {
 /* Eternal Bonds 02 */
 
 .eternal-bonds-02 {
-  right: calc(11 / 440 * 100%);
+  right: var(--mobile-margin);
   bottom: calc(372.2909 / 732 * 100%);
   width: calc(81.4025 / 440 * 100%);
 }
@@ -422,7 +422,7 @@ main {
 /* Eternal Bonds 06 */
 
 .eternal-bonds-06 {
-  left: calc(11 / 440 * 100%);
+  left: var(--mobile-margin);
   top: calc(146.9644 / 732 * 100%);
   width: calc(332.6555 / 440 * 100%);
 }
@@ -430,7 +430,7 @@ main {
 /* Eternal Bonds 07 */
 
 .eternal-bonds-07 {
-  left: calc(11 / 440 * 100%);
+  left: var(--mobile-margin);
   top: calc(0 / 732 * 100%);
   width: calc(72.638 / 440 * 100%);
 }
@@ -438,7 +438,7 @@ main {
 /* Eternal Bonds 08 */
 
 .eternal-bonds-08 {
-  left: calc(11 / 440 * 100%);
+  left: var(--mobile-margin);
   bottom: calc(245.1773 / 732 * 100%);
   width: calc(58.8796 / 440 * 100%);
 }
@@ -454,7 +454,7 @@ main {
 /* Eternal Bonds 10 */
 
 .eternal-bonds-10 {
-  right: calc(11 / 440 * 100%);
+  right: var(--mobile-margin);
   bottom: calc(120.8013 / 732 * 100%);
   width: calc(111.3159 / 440 * 100%);
 }
@@ -462,7 +462,7 @@ main {
 /* Eternal Bonds 11 */
 
 .eternal-bonds-11 {
-  right: calc(11 / 440 * 100%);
+  right: var(--mobile-margin);
   bottom: calc(497.1514 / 732 * 100%);
   width: calc(62.9145 / 440 * 100%);
 }
@@ -494,7 +494,7 @@ main {
 /* Eternal Bonds 15 */
 
 .eternal-bonds-15 {
-  left: calc(11 / 440 * 100%);
+  left: var(--mobile-margin);
   bottom: calc(117.9667 / 732 * 100%);
   width: calc(192.3096 / 440 * 100%);
 }
@@ -502,7 +502,7 @@ main {
 /* Eternal Bonds Title */
 
 .eternal-title {
-  right: calc(11 / 440 * 100%);
+  right: var(--mobile-margin);
   bottom: calc(0 / 732 * 100%);
   width: calc(258.7577 / 440 * 100%);
 }
@@ -518,7 +518,7 @@ main {
 /* Eternal Bonds Disclaimer */
 
 .eternal-disclaimer {
-  right: calc(11 / 440 * 100%);
+  right: var(--mobile-margin);
   bottom: calc(30.8836 / 732 * 100%);
   width: calc(90.0078 / 440 * 100%);
 }
