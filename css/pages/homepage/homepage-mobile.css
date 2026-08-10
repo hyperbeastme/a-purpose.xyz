@@ -514,7 +514,7 @@ main {
 
 .eternal-disclaimer {
   right: var(--mobile-margin);
-  top: calc(30.8836 / 732 * 100%);
+  bottom: calc(30.8836 / 732 * 100%);
   width: calc(90.0078 / 440 * 100%);
 }
 
