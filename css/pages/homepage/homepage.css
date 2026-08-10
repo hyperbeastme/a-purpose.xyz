@@ -303,153 +303,119 @@ body {
 }
 
 .reflections-of-displacement-03 {
-  left: calc(509.4938 / 1600 * 100%);
-  top: calc(134.9768 / 880 * 100%);
-  width: calc(95.0617 / 1600 * 100%);
+  right: calc(630.7975 / 1600 * 100%);
+  bottom: calc(399.1667 / 880 * 100%);
+  width: calc(162.4789 / 1600 * 100%);
 }
 
 .reflections-of-displacement-04 {
-  left: calc(509.4938 / 1600 * 100%);
-  top: calc(134.9768 / 880 * 100%);
-  width: calc(95.0617 / 1600 * 100%);
+  right: calc(169.5944 / 1600 * 100%);
+  top: calc(151.7661 / 880 * 100%);
+  width: calc(208.3065 / 1600 * 100%);
 }
 
 .reflections-of-displacement-05 {
-  position:absolute;
-  right:calc(12.1850 / 1440 * 100%);
-  bottom:calc(501.4883 / 1024 * 100%);
-  width:calc(105.6815 / 1440 * 100%);
-  height:auto;
+  right: var(--mobile-margin);
+  bottom: calc(159.8526 / 880 * 100%);
+  width: calc(116.7583 / 1600 * 100%);
 }
 
 .reflections-of-displacement-06 {
-  position:absolute;
-  right:calc(129.3325 / 1440 * 100%);
-  top:calc(246.7333 / 1024 * 100%);
-  width:calc(181.658 / 1440 * 100%);
-  height:auto;
+  right: calc(424.7889 / 1600 * 100%);
+  top: calc(155.421 / 880 * 100%);
+  width: calc(202.2318 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .reflections-of-displacement-07 {
-  position:absolute;
-  right:calc(244.0129 / 1440 * 100%);
-  bottom:calc(450.6862 / 1024 * 100%);
-  width:calc(196.2956 / 1440 * 100%);
-  height:auto;
+  right: calc(296.3611 / 1600 * 100%);
+  top: calc(102.4871 / 880 * 100%);
+  width: calc(175.7099 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .reflections-of-displacement-08 {
-  position:absolute;
-  left:calc(285.0873 / 1440 * 100%);
-  bottom:calc(541.1038 / 1024 * 100%);
-  width:calc(134.2812 / 1440 * 100%);
-  height:auto;
+  left: calc(561.2512 / 1600 * 100%);
+  top: calc(0 / 880 * 100%);
+  width: calc(225.4057 / 1600 * 100%);
 }
 
 .reflections-of-displacement-09 {
-  position:absolute;
-  left:calc(222.0784 / 1440 * 100%);
-  top:calc(0 / 1024 * 100%);
-  width:calc(262.7227 / 1440 * 100%);
-  height:auto;
+  right: calc(525.8237 / 1600 * 100%);
+  bottom: calc(171.734 / 880 * 100%);
+  width: calc(262.7227 / 1600 * 100%);
 }
 
 .reflections-of-displacement-10 {
-  position:absolute;
-  left:calc(530.3785 / 1440 * 100%);
-  bottom:calc(375.0501 / 1024 * 100%);
-  width:calc(82.3388 / 1440 * 100%);
-  height:auto;
+  left: calc(693.2588 / 1600 * 100%);
+  bottom: calc(156.34 / 880 * 100%);
+  width: calc(82.3388 / 1600 * 100%);
 }
 
 .reflections-of-displacement-11 {
-  position:absolute;
-  left:calc(432.1699 / 1440 * 100%);
-  top:calc(270.0173 / 1024 * 100%);
-  width:calc(193.2235 / 1440 * 100%);
-  height:auto;
+  right: calc(218.8182 / 1600 * 100%);
+  top: calc(24.2502 / 880 * 100%);
+  width: calc(189.9518 / 1600 * 100%);
 }
 
 .reflections-of-displacement-12 {
-  position:absolute;
-  right:calc(338.0155 / 1440 * 100%);
-  top:calc(158.7819 / 1024 * 100%);
-  width:calc(233.1982 / 1440 * 100%);
-  height:auto;
+  left: calc(268.8458 / 1600 * 100%);
+  top: calc(158.7829 / 880 * 100%);
+  width: calc(224.5986 / 1600 * 100%);
 }
 
 .reflections-of-displacement-13 {
-  position:absolute;
-  right:calc(385.2475 / 1440 * 100%);
-  bottom:calc(222.6705 / 1024 * 100%);
-  width:calc(235.283 / 1440 * 100%);
-  height:auto;
+  right: calc(426.4844 / 1600 * 100%);
+  top: calc(0 / 880 * 100%);
+  width: calc(367.0102 / 1600 * 100%);
 }
 
 .reflections-of-displacement-14 {
-  position:absolute;
-  right:calc(0 / 1440 * 100%);
-  top:calc(31.9213 / 1024 * 100%);
-  width:calc(153.2819 / 1440 * 100%);
-  height:auto;
+  right: var(--mobile-margin);
+  top: calc(0 / 880 * 100%);
+  width: calc(140.9455 / 1600 * 100%);
 }
 
 .reflections-of-displacement-15 {
-  position:absolute;
-  left:calc(0 / 1440 * 100%);
-  bottom:calc(150.4985 / 1024 * 100%);
-  width:calc(335.5135 / 1440 * 100%);
-  height:auto;
+  left: var(--mobile-margin);
+  top: calc(0 / 880 * 100%);
+  width: calc(357.2637 / 1600 * 100%);
 }
 
 .reflections-of-displacement-16 {
-  position:absolute;
-  left:calc(0 / 1440 * 100%);
-  top:calc(38.7987 / 1024 * 100%);
-  width:calc(253.2725 / 1440 * 100%);
-  height:auto;
+  left: calc(413.6373 / 1600 * 100%);
+  bottom: calc(150.8706 / 880 * 100%);
+  width: calc(253.2725 / 1600 * 100%);
 }
 
 .reflections-of-displacement-17 {
-  position:absolute;
-  right:calc(398.909 / 1440 * 100%);
-  top:calc(0 / 1024 * 100%);
-  width:calc(234.1698 / 1440 * 100%);
-  height:auto;
+  left: calc(381.1451  / 1600 * 100%);
+  bottom: calc(286.4646 / 880 * 100%);
+  width: calc(329.5383 / 1600 * 100%);
 }
 
 .reflections-of-displacement-18 {
-  position:absolute;
-  left:calc(412.0384 / 1440 * 100%);
-  bottom:calc(145.3349 / 1024 * 100%);
-  width:calc(121.6395 / 1440 * 100%);
-  height:auto;
+  left: calc(406.8519 / 1600 * 100%);
+  top: calc(0 / 880 * 100%);
+  width: calc(121.4352 / 1600 * 100%);
 }
 
 .reflections-of-displacement-19 {
-  position:absolute;
-  right:calc(228.94529999999997 / 1440 * 100%);
-  bottom:calc(166.6811 / 1024 * 100%);
-  width:calc(122.1217 / 1440 * 100%);
-  height:auto;
+  right: calc(388.9453 / 1600 * 100%);
+  bottom: calc(138.5041 / 880 * 100%);
+  width: calc(122.1217 / 1600 * 100%);
 }
 
 .reflections-title {
-  position:absolute;
-  right:calc(28.331999999999994 / 1440 * 100%);
-  bottom:calc(0 / 1024 * 100%);
-  width:calc(575.3876 / 1440 * 100%);
-  height:auto;
+  right: calc(162.0306 / 1600 * 100%);
+  bottom: calc(0 / 880 * 100%);
+  width: calc(509.2819 / 1600 * 100%);
 }
 
 .reflections-disclaimer {
-  position:absolute;
-  right:calc(51.9637 / 1440 * 100%);
-  bottom:calc(41.2526 / 1024 * 100%);
-  width:calc(196.1582 / 1440 * 100%);
-  height:auto;
+  right: calc(182.9473 / 1600 * 100%);
+  bottom: calc(36.3027  / 880 * 100%);
+  width: calc(172.9942 / 1600 * 100%);
 }
 
 .project-preview.catelier {
