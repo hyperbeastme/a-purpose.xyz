@@ -1011,7 +1011,8 @@ main {
 .catelier-title {
   right: calc(11 / 440 * 100%);
   bottom: calc(0 / 732 * 100%);
-  width: calc(181.0078 / 440 * 100%);
+  height: calc(73.7183 / 440 * 100%);
+  width:auto
 }
 
 /* =========================================================
@@ -1021,8 +1022,7 @@ main {
 .catelier-text {
   right: calc(136.8696 / 440 * 100%);
   top: calc(205.7772 / 732 * 100%);
-  height: calc(73.7183 / 440 * 100%);
-  width:auto
+  width: calc(203.2073 / 440 * 100%);
 
 }
 
