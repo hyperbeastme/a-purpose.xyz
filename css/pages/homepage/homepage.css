@@ -406,119 +406,123 @@ body {
   isolation:isolate;
 }
 
-.catelier-01 {
+.project-preview.catelier img{
   position:absolute;
-  left:calc(335.7 / 1440 * 100%);
-  top:calc(0 / 1024 * 100%);
-  width:calc(204 / 1440 * 100%);
-  height:auto;
   mix-blend-mode:multiply;
+  height:auto;
+}
+
+.catelier-01 {
+  left: calc(878.56 / 1600 * 100%);
+  top: calc(237.2995 / 880 * 100%);
+  width: calc(192.7583 / 1600 * 100%);
+  
 }
 
 .catelier-02 {
-  position:absolute;
-  left:calc(149.15 / 1440 * 100%);
-  top:calc(10.712 / 1024 * 100%);
-  width:calc(195 / 1440 * 100%);
-  height:auto;
-  mix-blend-mode:multiply;
+  left: calc(-4.7926 / 1600 * 100%);
+  top: calc(137.8397 / 880 * 100%);
+  width: calc(276.4334 / 1600 * 100%);
 }
 
 .catelier-03 {
-  position:absolute;
-  left:calc(40 / 1440 * 100%);
-  top:calc(354.3762 / 1024 * 100%);
-  width:calc(262 / 1440 * 100%);
-  height:auto;
-  mix-blend-mode:multiply;
+  left: calc(240.0669 / 1600 * 100%);
+  top: calc(510.7017 / 880 * 100%);
+  width: calc(300.6265 / 1600 * 100%);
 }
 
 .catelier-04 {
-  position:absolute;
-  left:calc(60 / 1440 * 100%);
-  bottom:calc(205.3 / 1024 * 100%);
-  width:calc(213.51 / 1440 * 100%);
-  height:auto;
-  mix-blend-mode:multiply;
+  left: calc(850 / 1600 * 100%);
+  top: calc(0 / 880 * 100%);
+  width: calc(206.1738 / 1600 * 100%);
 }
 
 .catelier-05 {
-  position:absolute;
-  right:calc(63 / 1440 * 100%);
-  bottom:calc(176.5 / 1024 * 100%);
-  width:calc(235.33 / 1440 * 100%);
-  height:auto;
+  left: calc(288 / 1600 * 100%);
+  top: calc(0 / 880 * 100%);
+  width: calc(288 / 1600 * 100%);
 }
 
 .catelier-06 {
-  position:absolute;
-  right:calc(338.77 / 1440 * 100%);
-  bottom:calc(184.33 / 1024 * 100%);
-  width:calc(81.6 / 1440 * 100%);
-  height:auto;
-  mix-blend-mode:multiply;
+  left: calc(540.1305 / 1600 * 100%);
+  top: calc(165.8374 / 880 * 100%);
+  width: calc(238.7541 / 1600 * 100%);
   z-index:1;
 }
 
 .catelier-07 {
-  position:absolute;
-  right:calc(401.65 / 1440 * 100%);
-  bottom:calc(315.61 / 1024 * 100%);
-  width:calc(214.31 / 1440 * 100%);
-  height:auto;
+  left: calc(1089.6157 / 1600 * 100%);
+  top: calc(457.9709  / 880 * 100%);
+  width: calc(94.2156 / 1600 * 100%);
   z-index:0;
 }
 
 .catelier-08 {
-  position:absolute;
-  right:calc(409 / 1440 * 100%);
-  top:calc(8.875 / 1024 * 100%);
-  width:calc(221 / 1440 * 100%);
-  height:auto;
-  mix-blend-mode:multiply;
+  left: calc(323.1155 / 1600 * 100%);
+  top: calc(-25.3011 / 880 * 100%);
+  width: calc(137.4 / 1600 * 100%);
+  transform: rotate(27.5deg)
 }
 
 .catelier-09 {
-  position:absolute;
-  right:calc(323 / 1440 * 100%);
-  top:calc(91 / 1024 * 100%);
-  width:calc(133.76 / 1440 * 100%);
-  height:auto;
-  mix-blend-mode:multiply;
+  left: calc(999.6491 / 1600 * 100%);
+  top: calc(40.4522 / 880 * 100%);
+  width: calc(317.9863 / 1600 * 100%);
 }
 
 .catelier-10 {
-  position:absolute;
-  left:calc(312.1 / 1440 * 100%);
-  bottom:calc(205.3 / 1024 * 100%);
-  width:calc(317.9 / 1440 * 100%);
-  height:auto;
+  right: calc(11 / 1600 * 100%);
+  top: calc(0 / 880 * 100%);
+  width: calc(296.0063  / 1600 * 100%);
 }
 
 .catelier-11 {
-  position:absolute;
-  right:calc(76.9 / 1440 * 100%);
-  top:calc(0 / 1024 * 100%);
-  width:calc(234.9 / 1440 * 100%);
-  height:auto;
-  mix-blend-mode:multiply;
+  right: calc(11 / 1600 * 100%);
+  bottom: calc(0 / 880 * 100%);
+  width: calc(386.3025 / 1600 * 100%);
 }
 
 .catelier-12 {
-  position:absolute;
-  right:calc(64 / 1440 * 100%);
-  bottom:calc(108.5 / 1024 * 100%);
-  width:calc(233.32 / 1440 * 100%);
-  height:auto;
-  mix-blend-mode:multiply;
+  right: calc(11 / 1600 * 100%);
+  top: calc(598.2692 / 880 * 100%);
+  width: calc(331.9116 / 1600 * 100%);
+}
+
+.catelier-13 {
+  left: calc(218.1732 / 1600 * 100%);
+  top: calc(173.2721 / 880 * 100%);
+  width: calc(114.1098 / 1600 * 100%);
+}
+
+.catelier-14 {
+  left: calc(325.3984 / 1600 * 100%);
+  top: calc(271.5216 / 880 * 100%);
+  width: calc(246.5636 / 1600 * 100%);
+}
+
+.catelier-15 {
+  left: calc(850 / 1600 * 100%);
+  bottom: calc(0 / 880 * 100%);
+  width: calc(232.0597 / 1600 * 100%);
+}
+
+.catelier-16 {
+  left: calc(541.8534 / 1600 * 100%);
+  top: calc(482.3092 / 880 * 100%);
+  width: calc(175.941 / 1600 * 100%);
 }
 
 .catelier-title {
-  position:absolute;
-  left:calc(451.14 / 1440 * 100%);
-  bottom:calc(0 / 1024 * 100%);
-  width:calc(178.60 / 1440 * 100%);
-  height:auto;
+  left: calc(564.4813 / 1600 * 100%);
+  bottom: calc(0 / 880 * 100%);
+  width: calc(185.5187 / 1600 * 100%);
+}
+
+.catelier-text {
+  left: calc(11 / 440 * 100%);
+  top: calc(0 / 732 * 100%);
+  width: calc(350.206 / 440 * 100%);
+
 }
 
 /* END OF PROJECT PREVIEWS */
