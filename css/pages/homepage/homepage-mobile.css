@@ -2061,9 +2061,10 @@ body {
   }
 
   .catelier-02 {
-    left: calc(0 / 832 * 100%);
+    left: calc(11 / 832 * 100%);
     top: calc(88.6655 / 376 * 100%);
     width: calc(186.3644 / 832 * 100%);
+    transform: rotate(-90deg)
   }
 
   .catelier-03 {
@@ -2086,7 +2087,7 @@ body {
 
   .catelier-06 {
     left: calc(555.693 / 832 * 100%);
-    bottom: calc(0 / 376 * 100%);
+    top: calc(198.9389 / 376 * 100%);
     width: calc(124.4334 / 832 * 100%);
   }
 
@@ -2128,25 +2129,25 @@ body {
   }
 
   .catelier-13 {
-    left: calc(175.1099 / 832 * 100%);
+    left: calc(186.1099 / 832 * 100%);
     top: calc(81.5151 / 376 * 100%);
     width: calc(48.4647 / 832 * 100%);
   }
 
   .catelier-14 {
-    left: calc(210.8876 / 832 * 100%);
+    left: calc(221.8876 / 832 * 100%);
     top: calc(141.7288 / 376 * 100%);
     width: calc(99.2552 / 832 * 100%);
   }
 
   .catelier-15 {
-    left: calc(428.8339 / 832 * 100%);
+    left: calc(439.8339 / 832 * 100%);
     top: calc(202.0082 / 376 * 100%);
     width: calc(98.5603 / 832 * 100%);
   }
 
   .catelier-16 {
-    left: calc(295.6902 / 832 * 100%);
+    left: calc(306.6902 / 832 * 100%);
     top: calc(52.2469 / 376 * 100%);
     width: calc(107.8098 / 832 * 100%);
   }
