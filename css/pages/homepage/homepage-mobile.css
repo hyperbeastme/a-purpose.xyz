@@ -2163,4 +2163,23 @@ body {
     top: calc(0 / 376 * 100%);
     width: calc(226.0868 / 832 * 100%);
   }
+
+  .landing,
+  .project-preview,
+  .about {
+    width: 100%;
+    max-width: 832px;
+
+    aspect-ratio: 832 / 376;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    position: relative;
+    overflow: hidden;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+
+  }
+
 }
