@@ -598,6 +598,7 @@ main {
   left: calc(306.6987 / 440 * 100%);
   top: calc(55.3522 / 732 * 100%);
   width: calc(125.8013 / 440 * 100%);
+  mix-blend-mode: multiply;
 }
 
 
@@ -609,6 +610,7 @@ main {
   left: calc(95.8445  / 440 * 100%);
   bottom: calc(100.4795 / 732 * 100%);
   width: calc(114.368 / 440 * 100%);
+  mix-blend-mode: multiply;
 }
 
 
@@ -699,7 +701,8 @@ main {
 .reflections-of-displacement-15 {
   left: var(--mobile-margin);
   top: calc(0 / 732 * 100%);
-  width: calc(89.0227 / 440 * 100%);
+  width: calc(122.621 / 440 * 100%);
+  mix-blend-mode: multiply;
 }
 
 /*
