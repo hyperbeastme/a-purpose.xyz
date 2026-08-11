@@ -184,35 +184,35 @@ body {
 }
 
 .eternal-bonds-07 {
-  right: calc(236.2886 / 1600 * 100%);
+  right: calc(246.507 / 1600 * 100%);
   bottom: calc(120.2162 / 880 * 100%);
   width: calc(244.3223 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .eternal-bonds-08 {
-  right: calc(641.6824 / 1600 * 100%);
+  left: calc(652.6824 / 1600 * 100%);
   bottom: calc(147.1394 / 880 * 100%);
   width: calc(92.3987 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .eternal-bonds-09 {
-  left: calc(569.0021 / 1600 * 100%);
+  left: calc(580.0021 / 1600 * 100%);
   top: calc(218.6267 / 880 * 100%);
   width: calc(177.6548 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .eternal-bonds-10 {
-  left: calc(360.8841 / 1600 * 100%);
+  left: calc(371.8841 / 1600 * 100%);
   bottom: calc(316.8618 / 880 * 100%);
   width: calc(219.1934 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .eternal-bonds-11 {
-  right: calc(498.9838 / 1600 * 100%);
+  right: calc(509.9838 / 1600 * 100%);
   bottom: calc(119.8015 / 880 * 100%);
   width: calc(254.3593 / 1600 * 100%);
   mix-blend-mode: multiply;
@@ -226,14 +226,14 @@ body {
 }
 
 .eternal-bonds-13 {
-  right: calc(421.0575 / 1600 * 100%);
+  right: calc(432.0575 / 1600 * 100%);
   top: calc(214.7196 / 880 * 100%);
   width: calc(332.2856 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .eternal-bonds-14 {
-  right: calc(533.1937 / 1600 * 100%);
+  right: calc(544.1937 / 1600 * 100%);
   top: calc(0 / 880 * 100%);
   width: calc(220.1494 / 1600 * 100%);
   mix-blend-mode: multiply;
@@ -247,21 +247,21 @@ body {
 }
 
 .eternal-title {
-  right: calc(853.3431 / 1600 * 100%);
+  left: calc(407.2188 / 1600 * 100%);
   bottom: calc(0 / 880 * 100%);
-  width: calc(175.7099 / 1600 * 100%);
+  width: calc(350.3584 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .eternal-text {
-  left: calc(343.7457 / 1600 * 100%);
-  bottom: calc(102.4871 / 880 * 100%);
+  right: calc(343.7457 / 1600 * 100%);
+  bottom: calc(0 / 880 * 100%);
   width: calc(409.5974 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .eternal-disclaimer {
-  right: calc(853.3431 / 1600 * 100%);
+  right: calc(407.2188 / 1600 * 100%);
   bottom: calc(41.8869 / 880 * 100%);
   width: calc(121.7236 / 1600 * 100%);
   mix-blend-mode: multiply;
