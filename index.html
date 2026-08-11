@@ -9,17 +9,31 @@
 
     <link rel="stylesheet" href="https://use.typekit.net/tzd0qdu.css">
 
+    <!-- Phone portrait and landscape -->
     <link
-        rel="stylesheet"
-        href="/css/pages/homepage/homepage.css"
-        media="screen and (min-width:768px) and (orientation:landscape)"
+    rel="stylesheet"
+    href="/css/pages/homepage/homepage-mobile.css"
+    media="
+        screen and (max-width: 767px),
+        screen and (orientation: landscape) and (max-height: 500px)
+    "
     >
 
+    <!-- Tablet portrait and landscape -->
     <link
-        rel="stylesheet"
-        href="/css/pages/homepage/homepage-mobile.css"
-        media="screen and (max-width:767px),
-                screen and (orientation:portrait)"
+    rel="stylesheet"
+    href="/css/pages/homepage/homepage-tablet.css"
+    media="
+        screen and (min-width: 768px) and (max-width: 1199px)
+        and (min-height: 501px)
+    "
+    >
+
+    <!-- Desktop -->
+    <link
+    rel="stylesheet"
+    href="/css/pages/homepage/homepage.css"
+    media="screen and (min-width: 1200px)"
     >
     <script src="/js/image-lightbox.js" defer></script>
 </head>
