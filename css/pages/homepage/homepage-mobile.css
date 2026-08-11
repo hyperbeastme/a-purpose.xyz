@@ -567,7 +567,7 @@ main {
 .reflections-of-displacement-03 {
   left: calc(168.0177 / 440 * 100%);
   top: calc(333.0521 / 732 * 100%);
-  width: calc(134.9259 / 440 * 100%);
+  width: calc(85.7012 / 440 * 100%);
 }
 
 /* =========================================================
@@ -576,8 +576,8 @@ main {
 
 .reflections-of-displacement-04 {
   left: var(--mobile-margin);
-  bottom: calc(689.913 / 732 * 100%);
-  width: calc(208.3065 / 440 * 100%);
+  top: calc(311.3025 / 732 * 100%);
+  width: calc(122.9724 / 440 * 100%);
 }
 
 /* =========================================================
@@ -586,8 +586,8 @@ main {
 
 .reflections-of-displacement-05 {
   left: var(--mobile-margin);
-  bottom: calc(509.935 / 732 * 100%);
-  width: calc(83.077  / 440 * 100%);
+  top: calc(253.4033 / 732 * 100%);
+  width: calc(45.5915  / 440 * 100%);
 }
 
 /* =========================================================
@@ -617,9 +617,9 @@ main {
   ========================================================= */
 
 .reflections-of-displacement-08 {
-  left: calc(204.5527 / 440 * 100%);
-  bottom: calc(541.1038 /732 * 100%);
-  width: calc(104.5166 / 440 * 100%);
+  left: calc(248.8636 / 440 * 100%);
+  top: calc(383.0884 /732 * 100%);
+  width: calc(63.1191 / 440 * 100%);
 }
 
 
@@ -628,9 +628,9 @@ main {
   ========================================================= */
 
 .reflections-of-displacement-09 {
-  right: calc(138.6126 / 440 * 100%);
-  bottom: calc(447.34 / 732 * 100%);
-  width: calc(50.3764  / 440 * 100%);
+  right: calc(104.5643 / 440 * 100%);
+  bottom: calc(0 / 732 * 100%);
+  width: calc(161.6844 / 440 * 100%);
 }
 
 
@@ -639,9 +639,9 @@ main {
   ========================================================= */
 
 .reflections-of-displacement-10 {
-  right: calc(30.0894 / 440 * 100%);
-  bottom: calc(397.7626 / 732 * 100%);
-  width: calc(121.5676 / 440 * 100%);
+  left: calc(249.6374 / 440 * 100%);
+  top: calc(196.3385 / 732 * 100%);
+  width: calc(61.2518 / 440 * 100%);
 }
 
 
@@ -662,9 +662,9 @@ main {
 
 
 .reflections-of-displacement-12 {
-  right: var(--mobile-margin);
-  bottom: calc(279.0306 / 732 * 100%);
-  width: calc(288 / 440 * 100%);
+  right: calc(39.2073 / 440 * 100%);
+  bottom: calc(250.489 / 732 * 100%);
+  width: calc(136.9925 / 440 * 100%);
 }
 
 
@@ -722,7 +722,7 @@ main {
 .reflections-of-displacement-17 {
   right: var(--mobile-margin);
   top: calc(472.5059 / 732 * 100%);
-  width: calc(288 / 440 * 100%);
+  width: calc(212.1853 / 440 * 100%);
 }
 
 
@@ -757,7 +757,7 @@ main {
 .reflections-title {
   right: var(--mobile-margin);
   bottom: calc(0 / 732 * 100%);
-  width: calc(310.6333 / 440 * 100%);
+  width: calc(3310.6333 / 440 * 100%);
 }
 
 .reflections-disclaimer {
