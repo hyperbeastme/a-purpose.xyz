@@ -2081,12 +2081,12 @@ body {
 
   .catelier-05 {
     left: calc(594.9732 / 832 * 100%);
-    top: calc(0 / 376 * 100%);
+    bottom: calc(0 / 376 * 100%);
     width: calc(169.2613 / 832 * 100%);
   }
 
   .catelier-06 {
-    left: calc(555.693 / 832 * 100%);
+    right: calc(151.8736 / 832 * 100%);
     top: calc(198.9389 / 376 * 100%);
     width: calc(124.4334 / 832 * 100%);
   }
