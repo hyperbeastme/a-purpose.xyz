@@ -2117,8 +2117,8 @@ body {
   }
 
   .catelier-11 {
-    left: calc(667.9297 / 832 * 100%);
-    bottom: calc(0 / 376 * 100%);
+    right: calc(11 / 832 * 100%);
+    top: calc(84.6056 / 376 * 100%);
     width: calc(164.0703 / 832 * 100%);
   }
 
