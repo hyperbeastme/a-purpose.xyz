@@ -750,6 +750,7 @@ main {
   left: calc(287.2078 / 440 * 100%);
   top: calc(82.7284 / 732 * 100%);
   width: calc(46.354 / 440 * 100%);
+  mix-blend-mode: multiply;
 }
 
 /* 

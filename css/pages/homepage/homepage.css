@@ -361,6 +361,7 @@ body {
   left: calc(40 / 1600 * 100%);
   top: calc(0 / 880 * 100%);
   width: calc(357.2637 / 1600 * 100%);
+  mix-blend-mode: multiply;
 }
 
 .reflections-of-displacement-16 {
@@ -385,6 +386,7 @@ body {
   right: calc(388.9453 / 1600 * 100%);
   bottom: calc(138.5041 / 880 * 100%);
   width: calc(122.1217 / 1600 * 100%);
+  mix-blend-mode: multiply;
 }
 
 .reflections-title {
