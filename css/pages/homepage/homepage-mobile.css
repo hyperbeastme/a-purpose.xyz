@@ -698,7 +698,7 @@ main {
 
 .reflections-of-displacement-15 {
   left: var(--mobile-margin);
-  bottom: calc(209.7994 / 732 * 100%);
+  top: calc(0 / 732 * 100%);
   width: calc(89.0227 / 440 * 100%);
 }
 
