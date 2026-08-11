@@ -414,7 +414,7 @@ main {
 /* Eternal Bonds 05 */
 
 .eternal-bonds-05 {
-  left: calc(17.3959 / 440 * 100%);
+  left: calc(28.3959 / 440 * 100%);
   top: calc(223.6756 / 732 * 100%);
   width: calc(87.0213 / 440 * 100%);
 }
@@ -470,7 +470,7 @@ main {
 /* Eternal Bonds 12 */
 
 .eternal-bonds-12 {
-  right: calc(84.3977 / 440 * 100%);
+  left: calc(203.1779 / 440 * 100%);
   top: calc(247.1475 / 732 * 100%);
   width: calc(130.4244 / 440 * 100%);
 }
