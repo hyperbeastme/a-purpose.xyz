@@ -759,13 +759,13 @@ main {
   ========================================================= */
 
 .reflections-title {
-  right: var(--mobile-margin);
+  right: calc(11 / 440 * 100%);
   bottom: calc(0 / 732 * 100%);
   width: calc(310.6333 / 440 * 100%);
 }
 
 .reflections-disclaimer {
-  right: var(--mobile-margin);
+  right: calc(11 / 440 * 100%);
   bottom: calc(27.0371 / 732 * 100%);
   width: calc(181.0078 / 440 * 100%);
 }
