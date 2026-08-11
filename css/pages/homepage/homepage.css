@@ -438,7 +438,7 @@ body {
 }
 
 .catelier-05 {
-  left: calc(288 / 1600 * 100%);
+  left: calc(432.7576 / 1600 * 100%);
   top: calc(0 / 880 * 100%);
   width: calc(288 / 1600 * 100%);
 }
@@ -458,7 +458,7 @@ body {
 }
 
 .catelier-08 {
-  left: calc(323.1155 / 1600 * 100%);
+  left: calc(415.8556 / 1600 * 100%);
   top: calc(-25.3011 / 880 * 100%);
   width: calc(137.4 / 1600 * 100%);
   transform: rotate(27.5deg)
