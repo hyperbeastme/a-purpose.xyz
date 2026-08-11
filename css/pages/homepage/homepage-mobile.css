@@ -804,7 +804,7 @@ main {
 
 .catelier-01 {
   left: calc(44.0318 / 440 * 100%);
-  bottom: calc(169.7514 / 732 * 100%);
+  top: calc(169.7514 / 732 * 100%);
   width: calc(97.6492 / 440 * 100%);
 
  
