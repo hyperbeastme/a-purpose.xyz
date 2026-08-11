@@ -791,8 +791,12 @@ main {
 .project-preview.catelier {
   margin-top: 0;
   isolation: isolate;
+  mix-blend-mode: multiply;
 }
 
+.project-preview.catelier img{
+  mix-blend-mode: multiply;
+}
 
 /* =========================================================
    CATELIER 01
@@ -803,7 +807,6 @@ main {
   bottom: calc(169.7514 / 732 * 100%);
   width: calc(97.6492 / 440 * 100%);
 
-  mix-blend-mode: multiply;
  
 }
 
@@ -817,7 +820,6 @@ main {
   top: calc(0 / 732 * 100%);
   width: calc(110.8072 / 440 * 100%);
 
-  mix-blend-mode: multiply;
 }
 
 
@@ -830,7 +832,6 @@ main {
   top: calc(348.3111 / 732 * 100%);
   width: calc(120.5049 / 440 * 100%);
 
-  mix-blend-mode: multiply;
 
 }
 
@@ -844,7 +845,6 @@ main {
   top: calc(97.1946 / 732 * 100%);
   width: calc(97.631 / 440 * 100%);
 
-  mix-blend-mode: multiply;
 
 }
 
@@ -871,7 +871,6 @@ main {
   bottom: calc(27.0371 / 732 * 100%);
   width: calc(124.7399 / 440 * 100%);
 
-  mix-blend-mode: multiply;
 }
 
 
@@ -897,8 +896,7 @@ main {
   left: calc(82.9472 / 440 * 100%);
   top: calc(-21.2801 / 732 * 100%);
   width: calc(168.6174 / 440 * 100%);
-
-  mix-blend-mode: multiply;
+  transform: rotate(334.289deg)
 }
 
 
@@ -911,7 +909,6 @@ main {
   top: calc(209.4014 / 732 * 100%);
   width: calc(119.1431 / 440 * 100%);
 
-  mix-blend-mode: multiply;
 }
 
 
@@ -925,7 +922,6 @@ main {
   top: calc(181.1628 / 732 * 100%);
   width: calc(77.6336 / 440 * 100%);
 
-  mix-blend-mode: multiply;
 }
 
 
@@ -939,7 +935,6 @@ main {
   top: calc(329.4789 / 732 * 100%);
   width: calc(178.0189 / 440 * 100%);
 
-  mix-blend-mode: multiply;
 }
 
 
@@ -951,8 +946,6 @@ main {
   right: calc(11 / 440 * 100%);
   top: calc(560.2495 / 732 * 100%);
   width: calc(223.3037 / 440 * 100%);
-
-  mix-blend-mode: multiply;
 }
 
 /* =========================================================
@@ -965,7 +958,7 @@ main {
   top: calc(332.1954 / 732 * 100%);
   width: calc(78.19 / 440 * 100%);
 
-  mix-blend-mode: multiply;
+
 }
 
 
@@ -978,7 +971,7 @@ main {
   top: calc(127.3697 / 732 * 100%);
   width: calc(85.2564 / 440 * 100%);
 
-  mix-blend-mode: multiply;
+
 }
 
 
@@ -992,7 +985,6 @@ main {
   top: calc(279.5858 / 732 * 100%);
   width: calc(83.3551 / 440 * 100%);
 
-  mix-blend-mode: multiply;
 }
 
 
@@ -1005,7 +997,6 @@ main {
   top: calc(394.3834 / 732 * 100%);
   width: calc(124.4048 / 440 * 100%);
 
-  mix-blend-mode: multiply;
 }
 
 /* =========================================================
