@@ -1776,3 +1776,453 @@ body {
 
   border: 0;
 }
+
+/*
+  Paste this entire block at the bottom of:
+  css/pages/homepage/homepage-mobile.css
+
+  Phone landscape viewport: 832 x 440
+  Fixed header: 64px
+  Artwork frame: 832 x 376
+
+  Fill each 0 with the matching Illustrator measurement.
+*/
+
+/* PHONE LANDSCAPE: 832 x 376 */
+
+@media (orientation: landscape) and (max-height: 500px) {
+  :root {
+    --artboard-width: 832;
+    --artboard-height: 376;
+  }
+
+  .header {
+    max-width: 832px;
+  }
+
+  .landing,
+  .project-preview {
+    max-width: 832px;
+    aspect-ratio: 832 / 376;
+  }
+
+  .landing-image {
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .landing-statement {
+    position: absolute;
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+    margin: 0;
+  }
+
+  .eternal-bonds-01 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .eternal-bonds-02 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .eternal-bonds-03 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .eternal-bonds-04 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .eternal-bonds-05 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .eternal-bonds-06 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .eternal-bonds-07 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .eternal-bonds-08 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .eternal-bonds-09 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .eternal-bonds-10 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .eternal-bonds-11 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .eternal-bonds-12 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .eternal-bonds-13 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .eternal-bonds-14 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .eternal-bonds-15 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .eternal-title {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .eternal-text {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .eternal-disclaimer {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .reflections-of-displacement-01 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .reflections-of-displacement-02 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .reflections-of-displacement-03 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .reflections-of-displacement-04 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .reflections-of-displacement-05 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .reflections-of-displacement-06 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .reflections-of-displacement-07 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .reflections-of-displacement-08 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .reflections-of-displacement-09 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .reflections-of-displacement-10 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .reflections-of-displacement-11 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .reflections-of-displacement-12 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .reflections-of-displacement-13 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .reflections-of-displacement-14 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .reflections-of-displacement-15 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .reflections-of-displacement-16 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .reflections-of-displacement-17 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .reflections-of-displacement-18 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .reflections-of-displacement-19 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .reflections-title {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .reflections-disclaimer {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .reflections-year {
+    /* This class exists in the current homepage HTML but was missing from the supplied mobile CSS. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .catelier-01 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .catelier-02 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .catelier-03 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .catelier-04 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .catelier-05 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .catelier-06 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .catelier-07 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .catelier-08 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .catelier-09 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .catelier-10 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .catelier-11 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .catelier-12 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .catelier-13 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .catelier-14 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .catelier-15 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .catelier-16 {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .catelier-title {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+
+  .catelier-text {
+    /* Replace left/top with right/bottom when your Illustrator measurement uses those edges. */
+    left: calc(0 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(0 / 832 * 100%);
+  }
+}
