@@ -565,9 +565,9 @@ main {
   ========================================================= */
 
 .reflections-of-displacement-03 {
-  right: calc(631.1831 / 440 * 100%);
-  bottom: calc(399.1667 / 732 * 100%);
-  width: calc(162.4789 / 440 * 100%);
+  left: calc(168.0177 / 440 * 100%);
+  top: calc(333.0521 / 732 * 100%);
+  width: calc(134.9259 / 440 * 100%);
 }
 
 /* =========================================================
@@ -686,7 +686,7 @@ main {
 
 .reflections-of-displacement-14 {
   right: var(--mobile-margin);
-  bottom: calc(230.9555 / 732 * 100%);
+  top: calc(282.6628 / 732 * 100%);
   width: calc(100.0095 / 440 * 100%);
 }
 
@@ -721,7 +721,7 @@ main {
 
 .reflections-of-displacement-17 {
   right: var(--mobile-margin);
-  bottom: calc(279.0306 / 732 * 100%);
+  top: calc(472.5059 / 732 * 100%);
   width: calc(288 / 440 * 100%);
 }
 
@@ -732,7 +732,7 @@ main {
   ========================================================= */
 
 .reflections-of-displacement-18 {
-  right: calc(120.0919 / 440 * 100%);
+  left: calc(120.0919 / 440 * 100%);
   top: calc(370.6785 / 732 * 100%);
   width: calc(50.8979 / 440 * 100%);
 }
