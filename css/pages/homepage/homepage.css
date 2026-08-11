@@ -483,7 +483,7 @@ body {
 }
 
 .catelier-12 {
-  right: calc(11 / 1600 * 100%);
+  left: calc(11 / 1600 * 100%);
   top: calc(598.2692 / 880 * 100%);
   width: calc(331.9116 / 1600 * 100%);
 }
@@ -519,9 +519,9 @@ body {
 }
 
 .catelier-text {
-  left: calc(11 / 440 * 100%);
-  top: calc(0 / 732 * 100%);
-  width: calc(350.206 / 440 * 100%);
+  left: calc(11 / 1600 * 100%);
+  top: calc(0 / 880 * 100%);
+  width: calc(350.206 / 1600 * 100%);
 
 }
 
