@@ -958,7 +958,6 @@ main {
   top: calc(332.1954 / 732 * 100%);
   width: calc(78.19 / 440 * 100%);
 
-
 }
 
 
@@ -970,7 +969,6 @@ main {
   left: calc(159.373 / 440 * 100%);
   top: calc(127.3697 / 732 * 100%);
   width: calc(85.2564 / 440 * 100%);
-
 
 }
 
@@ -1005,7 +1003,7 @@ main {
 
 .catelier-title {
   right: calc(11 / 440 * 100%);
-  bottom: calc(27.0371 / 732 * 100%);
+  bottom: calc(0 / 732 * 100%);
   width: calc(181.0078 / 440 * 100%);
 }
 
