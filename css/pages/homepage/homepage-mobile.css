@@ -757,7 +757,7 @@ main {
 .reflections-title {
   right: var(--mobile-margin);
   bottom: calc(0 / 732 * 100%);
-  width: calc(3310.6333 / 440 * 100%);
+  width: calc(310.6333 / 440 * 100%);
 }
 
 .reflections-disclaimer {
