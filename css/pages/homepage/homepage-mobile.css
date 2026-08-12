@@ -1960,9 +1960,9 @@ body {
 */
 
   .reflections-of-displacement-01 {
-    left: calc(0 / 832 * 100%);
-    top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    left: calc(180.0437 / 832 * 100%);
+    top: calc(134.626 / 376 * 100%);
+    width: calc(75.9786 / 832 * 100%);
     position: absolute;
   }
 
@@ -2002,7 +2002,7 @@ body {
   }
 
   .reflections-of-displacement-07 {
-    left: calc(124.356 / 832 * 100%);
+    left: calc(190.5974 / 832 * 100%);
     top: calc(94.1597 / 376 * 100%);
     width: calc(124.356 / 832 * 100%);
     position: absolute;
@@ -2023,8 +2023,8 @@ body {
   }
 
   .reflections-of-displacement-10 {
-    right: calc(11 / 832 * 100%);
-    bottom: calc(0 / 376 * 100%);
+    left: calc(781.56 / 832 * 100%);
+    top: calc(196 / 376 * 100%);
     width: calc(61.44 / 832 * 100%);
     position: absolute;
   }
