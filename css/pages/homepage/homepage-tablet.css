@@ -630,21 +630,21 @@ body.lightbox-open {
   }
 
   .catelier-03 {
-    left: calc(483.1991 / 834 * 100%);
+    left: calc(494.1991 / 834 * 100%);
     top: calc(336.0093 / 998 * 100%);
     width: calc(227.9481 / 834 * 100%);
     mix-blend-mode: multiply;
   }
 
   .catelier-04 {
-    left: calc(222.3353 / 834 * 100%);
+    left: calc(233.3353 / 834 * 100%);
     top: calc(215.488 / 998 * 100%);
     width: calc(184.6796 / 834 * 100%);
     mix-blend-mode: multiply;
   }
 
   .catelier-05 {
-    left: calc(166.9317 / 834 * 100%);
+    left: calc(177.9317 / 834 * 100%);
     top: calc(0 / 998 * 100%);
     width: calc(307.0739 / 834 * 100%);
   }
@@ -664,8 +664,8 @@ body.lightbox-open {
   }
 
   .catelier-08 {
-    left: calc(556.3934 / 834 * 100%);
-    top: calc(-25.2006 / 998 * 100%);
+    left: calc(507.9112 / 834 * 100%);
+    top: calc(-25.2 / 998 * 100%);
     width: calc(112.1212 / 834 * 100%);
     mix-blend-mode: multiply;
     transform: rotate(27.5deg)
@@ -713,13 +713,13 @@ body.lightbox-open {
   }
 
   .catelier-15 {
-    left: calc(265.0352 / 834 * 100%);
+    left: calc(276.0352 / 834 * 100%);
     top: calc(622.5175 / 998 * 100%);
     width: calc(127.0385 / 834 * 100%);
   }
 
   .catelier-16 {
-    left: calc(366.0861 / 834 * 100%);
+    left: calc(377.0861 / 834 * 100%);
     top: calc(462.8158 / 998 * 100%);
     width: calc(172.0839 / 834 * 100%);
     mix-blend-mode: multiply;
@@ -733,7 +733,7 @@ body.lightbox-open {
   }
 
   .catelier-text {
-    left: calc(387.9823 / 834 * 100%);
+    left: calc(398.9823 / 834 * 100%);
     top: calc(219.5027 / 998 * 100%);
     width: calc(328.5636 / 834 * 100%);
     mix-blend-mode: multiply;
