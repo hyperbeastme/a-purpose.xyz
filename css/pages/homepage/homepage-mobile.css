@@ -1811,7 +1811,7 @@ body {
 
   .landing-image {
     left: calc(70.1646 / 832 * 100%);
-    top: calc(188 / 376 * 100%);
+    bottom: calc(0 / 376 * 100%);
     width: calc(114.7052 / 832 * 100%);
     position: absolute;
   }
