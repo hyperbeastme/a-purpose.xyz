@@ -358,7 +358,7 @@ aspect-ratio: 440 / 732;
 
 .landing-image {
   left: var(--mobile-margin);
-  top: calc(0 / 732 * 100%);
+  bottom: calc(0 / 732 * 100%);
   width: calc(125 / 440 * 100%);
 }
 
