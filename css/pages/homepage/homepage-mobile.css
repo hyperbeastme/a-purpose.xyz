@@ -2023,7 +2023,7 @@ body {
   }
 
   .reflections-of-displacement-10 {
-    left: calc(781.56 / 832 * 100%);
+    right: calc(11 / 832 * 100%);
     top: calc(196 / 376 * 100%);
     width: calc(61.44 / 832 * 100%);
     position: absolute;
