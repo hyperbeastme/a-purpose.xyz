@@ -260,9 +260,9 @@ body {
 }
 
 .eternal-disclaimer {
-  right: calc(407.2188 / 1600 * 100%);
-  bottom: calc(41.8869 / 880 * 100%);
-  width: calc(121.7236 / 1600 * 100%);
+  left: calc(594.7017 / 1600 * 100%);
+  bottom: calc(39.7706 / 880 * 100%);
+  width: calc(151.9551 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
