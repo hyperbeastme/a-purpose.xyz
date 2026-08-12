@@ -84,26 +84,25 @@ body {
 
 .landing {
   width:calc(100% - 80px);
-  max-width:1440px;
-  aspect-ratio:1440 / 944;
+  max-width:1600px;
+  aspect-ratio:1600 / 880;
   margin:0 auto;
   position:relative;
 }
 
 .landing-image {
   position:absolute;
-  left:calc(40 / 1440 * 100%);
-  bottom:calc(0 / 944 * 100%);
-  width:calc(175 / 1440 * 100%);
+  left:calc(40 / 1600 * 100%);
+  bottom:calc(0 / 880 * 100%);
+  width:calc(175 / 1600 * 100%);
   height:auto;
 }
 
 .landing-statement {
   position:absolute;
-  left:calc(1120 / 1440 * 100%);
-  right:calc(-40 / 1440 * 100%);
-  width:calc(315 / 1440 * 100%);
-  top:calc(330 / 944 * 100%);
+  left:calc(1285 / 1600 * 100%);
+  width:calc(315 / 1600 * 100%);
+  top:calc(232.7793 / 880 * 100%);
   line-height: 1.1;
   margin:0;
   text-align: left;
