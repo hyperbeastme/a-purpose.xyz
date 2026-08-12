@@ -795,10 +795,8 @@ aspect-ratio: 440 / 732;
 
 .catelier-01 {
   left: calc(44.0318 / 440 * 100%);
-  top: calc(169.7514 / 732 * 100%);
+  top: calc(197.4102 / 836 * 100%);
   width: calc(97.6492 / 440 * 100%);
-
- 
 }
 
 
@@ -808,7 +806,7 @@ aspect-ratio: 440 / 732;
 
 .catelier-02 {
   left: calc(11 / 440 * 100%);
-  top: calc(0 / 732 * 100%);
+  top: calc(0 / 836 * 100%);
   width: calc(110.8072 / 440 * 100%);
 
 }
@@ -820,7 +818,7 @@ aspect-ratio: 440 / 732;
 
 .catelier-03 {
   left: calc(176.8288 / 440 * 100%);
-  top: calc(348.3111 / 732 * 100%);
+  top: calc(348.3111 / 836 * 100%);
   width: calc(120.5049 / 440 * 100%);
 
 
@@ -833,7 +831,7 @@ aspect-ratio: 440 / 732;
 
 .catelier-04 {
   left: calc(246.2638 / 440 * 100%);
-  top: calc(97.1946 / 732 * 100%);
+  top: calc(97.1946 / 836 * 100%);
   width: calc(97.631 / 440 * 100%);
 
 
@@ -846,7 +844,7 @@ aspect-ratio: 440 / 732;
 
 .catelier-05 {
   left: calc(187.9418 / 440 * 100%);
-  top: calc(0 / 732 * 100%);
+  top: calc(0 / 836 * 100%);
   width: calc(161.8801 / 440 * 100%);
 
 
@@ -859,7 +857,7 @@ aspect-ratio: 440 / 732;
 
 .catelier-06 {
   left: calc(313.3875 / 440 * 100%);
-  top: calc(0 / 732 * 100%);
+  top: calc(0 / 836 * 100%);
   width: calc(124.7399 / 440 * 100%);
 
 }
@@ -872,7 +870,7 @@ aspect-ratio: 440 / 732;
 
 .catelier-07 {
   left: calc(11 / 440 * 100%);
-  top: calc(220.0748 / 732 * 100%);
+  top: calc(220.0748 / 836 * 100%);
   width: calc(37.766 / 440 * 100%);
 
 }
@@ -885,7 +883,7 @@ aspect-ratio: 440 / 732;
 
 .catelier-08 {
   left: calc(118 / 440 * 100%);
-  top: calc(-21.2801 / 732 * 100%);
+  top: calc(-21.2801 / 836 * 100%);
   width: calc(85.8852 / 440 * 100%);
   transform: rotate(27.5deg)
 }
@@ -897,7 +895,7 @@ aspect-ratio: 440 / 732;
 
 .catelier-09 {
   left: calc(321.1212 / 440 * 100%);
-  top: calc(209.4014 / 732 * 100%);
+  top: calc(209.4014 / 836 * 100%);
   width: calc(119.1431 / 440 * 100%);
 
 }
@@ -910,7 +908,7 @@ aspect-ratio: 440 / 732;
 
 .catelier-10 {
   left: calc(309.4375 / 440 * 100%);
-  top: calc(181.1628 / 732 * 100%);
+  top: calc(181.1628 / 836 * 100%);
   width: calc(77.6336 / 440 * 100%);
 
 }
@@ -923,7 +921,7 @@ aspect-ratio: 440 / 732;
 
 .catelier-11 {
   left: calc(11 / 440 * 100%);
-  top: calc(329.4789 / 732 * 100%);
+  top: calc(329.4789 / 836 * 100%);
   width: calc(178.0189 / 440 * 100%);
 
 }
@@ -935,7 +933,7 @@ aspect-ratio: 440 / 732;
 
 .catelier-12 {
   right: calc(11 / 440 * 100%);
-  top: calc(560.2495 / 732 * 100%);
+  top: calc(560.2495 / 836 * 100%);
   width: calc(223.3037 / 440 * 100%);
 }
 
@@ -1010,17 +1008,6 @@ aspect-ratio: 440 / 732;
 }
 
 /* =========================================================
-   PART 5
-   SEE MORE WORK, ABOUT AND FOOTER
-
-   Coordinates taken from:
-   mobile-home-about-footer.svg
-
-   Illustrator artboard: 440 × 956px
-   ========================================================= */
-
-
-/* =========================================================
    SEE MORE WORK
 
    SVG position:
@@ -1030,42 +1017,13 @@ aspect-ratio: 440 / 732;
    ========================================================= */
 
 .end-of-preview {
-  width: 100%;
+  width: calc(103.0957 / 440 * 100%);
   max-width: 440px;
-  height: 19.0039px;
 
   margin: 0 auto;
 
   position: relative;
   overflow: hidden;
-}
-
-.end-of-preview-text {
-  position: absolute;
-
-  left: 50%;
-
-  width: calc(100 / 440 * 100%);
-  margin: 0;
-
-  transform: translate(-50%, -50%);
-
-  font-family: "futura-pt-condensed", sans-serif;
-  font-size: clamp(16px, 4.1vw, 18px);
-  font-weight: 300;
-  font-style: italic;
-  line-height: 1;
-
-  text-align: center;
-  white-space: nowrap;
-}
-
-.end-of-preview-text a {
-  position: relative;
-  display: inline-block;
-
-  color: var(--black);
-  text-decoration: none;
 }
 
 
