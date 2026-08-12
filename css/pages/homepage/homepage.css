@@ -395,9 +395,9 @@ body {
 }
 
 .reflections-disclaimer {
-  right: calc(182.9473 / 1600 * 100%);
+  left: calc(182.9473 / 1600 * 100%);
   bottom: calc(36.3027  / 880 * 100%);
-  width: calc(172.9942 / 1600 * 100%);
+  width: calc(199.8282 / 1600 * 100%);
 }
 
 .project-preview.catelier {
