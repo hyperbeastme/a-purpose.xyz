@@ -795,7 +795,7 @@ aspect-ratio: 440 / 732;
 
 .catelier-01 {
   left: calc(44.0318 / 440 * 100%);
-  top: calc(197.4102 / 836 * 100%);
+  top: calc(169.7997 / 836 * 100%);
   width: calc(97.6492 / 440 * 100%);
 }
 
@@ -944,7 +944,7 @@ aspect-ratio: 440 / 732;
 
 .catelier-13 {
   right: calc(11 / 440 * 100%);
-  top: calc(332.1954 / 732 * 100%);
+  top: calc(332.1954 / 836 * 100%);
   width: calc(78.19 / 440 * 100%);
 
 }
@@ -956,7 +956,7 @@ aspect-ratio: 440 / 732;
 
 .catelier-14 {
   left: calc(159.373 / 440 * 100%);
-  top: calc(127.3697 / 732 * 100%);
+  top: calc(127.3697 / 836 * 100%);
   width: calc(85.2564 / 440 * 100%);
 
 }
@@ -969,7 +969,7 @@ aspect-ratio: 440 / 732;
 
 .catelier-15 {
   left: calc(293.2692 / 440 * 100%);
-  top: calc(279.5858 / 732 * 100%);
+  top: calc(279.5858 / 836 * 100%);
   width: calc(83.3551 / 440 * 100%);
 
 }
@@ -981,7 +981,7 @@ aspect-ratio: 440 / 732;
 
 .catelier-16 {
   left: calc(215.8935 / 440 * 100%);
-  top: calc(394.3834 / 732 * 100%);
+  top: calc(394.3834 / 836 * 100%);
   width: calc(124.4048 / 440 * 100%);
 
 }
@@ -992,7 +992,7 @@ aspect-ratio: 440 / 732;
 
 .catelier-title {
   right: calc(11 / 440 * 100%);
-  bottom: calc(0 / 732 * 100%);
+  top: calc(658.33 / 836 * 100%);
   width: calc(104.6581 / 440 * 100%);
 }
 
@@ -1002,7 +1002,7 @@ aspect-ratio: 440 / 732;
 
 .catelier-text {
   left: calc(136.8696 / 440 * 100%);
-  top: calc(205.7772 / 732 * 100%);
+  top: calc(205.7772 / 836 * 100%);
   width: calc(203.2073 / 440 * 100%);
 
 }
@@ -1017,13 +1017,9 @@ aspect-ratio: 440 / 732;
    ========================================================= */
 
 .end-of-preview {
+  left: calc(157.6132 / 440 * 100%);
+  bottom: calc(0 / 836 * 100%);
   width: calc(103.0957 / 440 * 100%);
-  max-width: 440px;
-
-  margin: 0 auto;
-
-  position: relative;
-  overflow: hidden;
 }
 
 
