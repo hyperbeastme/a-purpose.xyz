@@ -1598,27 +1598,23 @@ body.lightbox-open {
    ========================================================= */
 
 .landing + .eternal-bonds {
-  margin-top: calc(84 / 440 * 100vw);
+  margin-top: calc(84 / 796 * 100vh);
 }
 
 .eternal-bonds + .reflections {
-  margin-top: calc(84 / 440 * 100vw);
+  margin-top: calc(84 / 796 * 100vh);
 }
 
 .reflections + .catelier {
-  margin-top: calc(84 / 440 * 100vw);
+  margin-top: calc(84 / 796 * 100vh);
 }
 
-.catelier + .end-of-preview {
-  margin-top: calc(0 / 440 * 100vw);
+.caterlier + .about {
+  margin-top: calc(84 / 796 * 100vh);
 }
 
-.end-of-preview + .about {
-  margin-top: calc(84 / 440 * 100vw);
-}
-
-.footer {
-  margin-top: 0;
+.about + .footer {
+  margin-top: calc(20 / 796 * 100vh);
 }
 
 /* =========================================================
