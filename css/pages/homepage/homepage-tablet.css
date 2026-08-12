@@ -616,7 +616,7 @@ body.lightbox-open {
   */
 
   .catelier-01 {
-    left: calc(627.2859 / 834 * 100%);
+    left: calc(638.2859 / 834 * 100%);
     top: calc(0 / 998 * 100%);
     width: calc(184.7141 / 834 * 100%);
     mix-blend-mode: multiply;
@@ -650,7 +650,7 @@ body.lightbox-open {
   }
 
   .catelier-06 {
-    left: calc(506.3673 / 834 * 100%);
+    left: calc(517.3673 / 834 * 100%);
     top: calc(424.1198 / 998 * 100%);
     width: calc(188.8621 / 834 * 100%);
     mix-blend-mode: multiply;
@@ -693,14 +693,14 @@ body.lightbox-open {
   }
 
   .catelier-12 {
-    left: calc(389.5968 / 834 * 100%);
+    left: calc(200.5968 / 834 * 100%);
     top: calc(697.016 / 998 * 100%);
     width: calc(422.4032 / 834 * 100%);
     mix-blend-mode: multiply;
   }
 
   .catelier-13 {
-    left: calc(664.0951 / 834 * 100%);
+    left: calc(675.0951 / 834 * 100%);
     top: calc(217.3208 / 998 * 100%);
     width: calc(147.9049 / 834 * 100%);
     mix-blend-mode: multiply;
