@@ -735,3 +735,28 @@ body.lightbox-open {
 .mobile-menu {
   display: none !important;
 }
+
+/* 
+   =========================================================
+   PAGE SPACING
+   ========================================================= */
+
+.landing + .eternal-bonds {
+  margin-top: calc(84 / 880 * 100vh);
+}
+
+.eternal-bonds + .reflections {
+  margin-top: calc(84 / 880 * 100vh);
+}
+
+.reflections + .catelier {
+  margin-top: calc(84 / 880 * 100vh);
+}
+
+.caterlier + .about {
+  margin-top: calc(84 / 880 * 100vh);
+}
+
+.about + .footer {
+  margin-top: calc(20 / 796 * 100vh);
+}
