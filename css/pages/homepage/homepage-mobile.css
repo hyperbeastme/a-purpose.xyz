@@ -357,14 +357,14 @@ aspect-ratio: 440 / 732;
 }
 
 .landing-image {
-  left: var(--mobile-margin);
+  left: calc(11 / 440 * 100%);
   bottom: calc(0 / 732 * 100%);
   width: calc(125 / 440 * 100%);
 }
 
 .landing-statement {
   position: absolute;
-  left: calc(305.519 / 440 * 100%);
+  right: calc(11 / 440 * 100%);
   width: calc(134.481 / 440 * 100%);
   top: calc(196.70 / 732 * 100%);
 }
