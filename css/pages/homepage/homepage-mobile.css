@@ -47,8 +47,20 @@ body {
 
 html {
   scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: y proximity;
   scroll-padding-top: var(--header-height);
+}
+
+.project-preview.catelier {
+  /* Snap Catelier’s beginning below the fixed header */
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+
+  /* Preserve your canvas width but allow vertical expansion */
+  position: relative;
+  width: 100%;
+  min-height: 836px;
+  height: auto;
 }
 
 html.is-zoomed {
