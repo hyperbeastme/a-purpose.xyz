@@ -93,16 +93,16 @@ body {
 .landing-image {
   position:absolute;
   left:calc(40 / 1600 * 100%);
-  bottom:calc(30 / 880 * 100%);
+  bottom:calc(20 / 880 * 100%);
   width:calc(175 / 1600 * 100%);
   height:auto;
 }
 
 .landing-statement {
   position:absolute;
-  left:calc(1285.1505 / 1600 * 100%);
-  width:calc(314.8495 / 1600 * 100%);
-  top:calc(236.5131 / 880 * 100%);
+  left: calc(1285.1505 / 1600 * 100%);
+  top: calc(236.5131 / 880 * 100%);
+  width: calc(314.8495 / 1600 * 100%);
 }
 
 /* PROJECT PREVIEW */

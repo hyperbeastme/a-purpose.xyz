@@ -357,10 +357,10 @@ body.lightbox-open {
 
   .landing-statement {
     position: absolute;
-    left: calc(0 / 834 * 100%);
-    top: calc(0 / 998 * 100%);
-    width: calc(0 / 834 * 100%);
-    margin: 0;
+    left: calc(943.734 / 834 * 100%);
+    top: calc(171.472 / 998 * 100%);
+    width: calc(228.266 / 834 * 100%);
+    height: auto;
   }
 
    .project-section {
