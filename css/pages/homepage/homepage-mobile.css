@@ -1821,6 +1821,12 @@ body {
     margin: 0;
   }
 
+/*
+  ================================
+  Eternal Bonds
+  ================================
+*/
+
   .eternal-bonds-01 {
     left: calc(0 / 832 * 100%);
     top: calc(0 / 376 * 100%);
@@ -1947,6 +1953,12 @@ body {
     position: absolute;
   }
 
+/*
+  ================================
+  Reflections
+  ================================
+*/
+
   .reflections-of-displacement-01 {
     left: calc(0 / 832 * 100%);
     top: calc(0 / 376 * 100%);
@@ -1955,144 +1967,150 @@ body {
   }
 
   .reflections-of-displacement-02 {
-    left: calc(0 / 832 * 100%);
-    top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    left: calc(605.6052 / 832 * 100%);
+    top: calc(112.3754 / 376 * 100%);
+    width: calc(57.9823 / 832 * 100%);
     position: absolute;
   }
 
   .reflections-of-displacement-03 {
-    left: calc(0 / 832 * 100%);
-    top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    right: calc(189.2541 / 832 * 100%);
+    bottom: calc(0 / 376 * 100%);
+    width: calc(85.7012 / 832 * 100%);
     position: absolute;
   }
 
   .reflections-of-displacement-04 {
-    left: calc(0 / 832 * 100%);
-    top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    left: calc(327.8712 / 832 * 100%);
+    top: calc(77.4704 / 376 * 100%);
+    width: calc(86.6288 / 832 * 100%);
     position: absolute;
   }
 
   .reflections-of-displacement-05 {
-    left: calc(0 / 832 * 100%);
+    left: calc(11 / 832 * 100%);
     top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    width: calc(37.4861 / 832 * 100%);
     position: absolute;
   }
 
   .reflections-of-displacement-06 {
-    left: calc(0 / 832 * 100%);
+    left: calc(524.8563 / 832 * 100%);
     top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    width: calc(102.7515 / 832 * 100%);
     position: absolute;
   }
 
   .reflections-of-displacement-07 {
-    left: calc(0 / 832 * 100%);
-    top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    left: calc(124.356 / 832 * 100%);
+    top: calc(94.1597 / 376 * 100%);
+    width: calc(124.356 / 832 * 100%);
     position: absolute;
   }
 
   .reflections-of-displacement-08 {
-    left: calc(0 / 832 * 100%);
-    top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    left: calc(428.5 / 832 * 100%);
+    top: calc(256.608 / 376 * 100%);
+    width: calc(79.8936 / 832 * 100%);
     position: absolute;
   }
 
   .reflections-of-displacement-09 {
-    left: calc(0 / 832 * 100%);
-    top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    left: calc(20.1475  / 832 * 100%);
+    top: calc(170.9121 / 376 * 100%);
+    width: calc(143.5025 / 832 * 100%);
     position: absolute;
   }
 
   .reflections-of-displacement-10 {
-    left: calc(0 / 832 * 100%);
-    top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    right: calc(11 / 832 * 100%);
+    bottom: calc(0 / 376 * 100%);
+    width: calc(61.44 / 832 * 100%);
     position: absolute;
   }
 
   .reflections-of-displacement-11 {
-    left: calc(0 / 832 * 100%);
-    top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    left: calc(607.3555 / 832 * 100%);
+    top: calc(73.6472 / 376 * 100%);
+    width: calc(69.84 / 832 * 100%);
     position: absolute;
   }
 
   .reflections-of-displacement-12 {
-    left: calc(0 / 832 * 100%);
-    top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    left: calc(11 / 832 * 100%);
+    top: calc(108.4363 / 376 * 100%);
+    width: calc(96.6375 / 832 * 100%);
     position: absolute;
   }
 
   .reflections-of-displacement-13 {
-    left: calc(0 / 832 * 100%);
+    left: calc(625.185 / 832 * 100%);
     top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    width: calc(121.7279 / 832 * 100%);
     position: absolute;
   }
 
   .reflections-of-displacement-14 {
-    left: calc(0 / 832 * 100%);
+    right: calc(11 / 832 * 100%);
     top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    width: calc(100.32 / 832 * 100%);
     position: absolute;
   }
 
   .reflections-of-displacement-15 {
-    left: calc(0 / 832 * 100%);
+    left: calc(438.4751 / 832 * 100%);
     top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    width: calc(122.621 / 832 * 100%);
     position: absolute;
   }
 
   .reflections-of-displacement-16 {
-    left: calc(0 / 832 * 100%);
+    left: calc(232.8621 / 832 * 100%);
     top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    width: calc(170.3831 / 832 * 100%);
     position: absolute;
   }
 
   .reflections-of-displacement-17 {
-    left: calc(0 / 832 * 100%);
+    left: calc(49.7946 / 832 * 100%);
     top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    width: calc(170.0319 / 832 * 100%);
     position: absolute;
   }
 
   .reflections-of-displacement-18 {
-    left: calc(0 / 832 * 100%);
-    top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    left: calc(658.9137 / 832 * 100%);
+    bottom: calc(0 / 376 * 100%);
+    width: calc(68.5264 / 832 * 100%);
     position: absolute;
   }
 
   .reflections-of-displacement-19 {
-    left: calc(0 / 832 * 100%);
-    top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    left: calc(659.6971 / 832 * 100%);
+    top: calc(62.4802 / 376 * 100%);
+    width: calc(80.426 / 832 * 100%);
     position: absolute;
   }
 
   .reflections-title {
-    left: calc(0 / 832 * 100%);
-    top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    right: calc(428.5 / 832 * 100%);
+    bottom: calc(0 / 376 * 100%);
+    width: calc(310.6333 / 832 * 100%);
     position: absolute;
   }
 
   .reflections-disclaimer {
-    left: calc(0 / 832 * 100%);
-    top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    right: calc(428.5 / 832 * 100%);
+    bottom: calc(21.0419 / 376 * 100%);
+    width: calc(118.1791 / 832 * 100%);
     position: absolute;
   }
+
+/*
+  ================================
+  Catelier
+  ================================
+*/
 
   .catelier-01 {
     left: calc(437.9349 / 832 * 100%);
