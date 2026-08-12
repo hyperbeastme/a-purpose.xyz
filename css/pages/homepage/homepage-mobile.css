@@ -1835,51 +1835,52 @@ body {
   }
 
   .eternal-bonds-02 {
-    left: calc(741.9004 / 832 * 100%);
-    top: calc(220.7768 / 376 * 100%);
+    left: calc(694.6927 / 832 * 100%);
+    top: calc(228.3639 / 376 * 100%);
     width: calc(101.0996 / 832 * 100%);
+    transform: rotate(-90deg);
     position: absolute;
   }
 
   .eternal-bonds-03 {
-    left: calc(11 / 832 * 100%);
-    top: calc(77.8679 / 376 * 100%);
-    width: calc(71.4242 / 832 * 100%);
+    left: calc(633.7414 / 832 * 100%);
+    top: calc(186.9019 / 376 * 100%);
+    width: calc(60.1969 / 832 * 100%);
     position: absolute;
   }
 
   .eternal-bonds-04 {
-    left: calc(653.3827 / 832 * 100%);
+    left: calc(232.5105 / 832 * 100%);
     top: calc(0 / 376 * 100%);
-    width: calc(76.138 / 832 * 100%);
+    width: calc(89.5995 / 832 * 100%);
     position: absolute;
   }
 
   .eternal-bonds-05 {
-    left: calc(238.1106 / 832 * 100%);
-    top: calc(222.8808 / 376 * 100%);
+    left: calc(224.6895 / 832 * 100%);
+    top: calc(232.1889 / 376 * 100%);
     width: calc(64.4824 / 832 * 100%);
     position: absolute;
   }
 
   .eternal-bonds-06 {
-    left: calc(0 / 832 * 100%);
-    top: calc(0 / 376 * 100%);
-    width: calc(305.2073 / 832 * 100%);
+    left: calc(439.5 / 832 * 100%);
+    top: calc(120.7512 / 376 * 100%);
+    width: calc(294.0795 / 832 * 100%);
     position: absolute;
   }
 
   .eternal-bonds-07 {
-    left: calc(599.104 / 832 * 100%);
-    top: calc(133.1454 / 376 * 100%);
-    width: calc(111.8433 / 832 * 100%);
+    left: calc(291.7782 / 832 * 100%);
+    top: calc(146.812 / 376 * 100%);
+    width: calc(83.1746 / 832 * 100%);
     position: absolute;
   }
 
   .eternal-bonds-08 {
-    left: calc(311.0105 / 832 * 100%);
-    top: calc(137.75 / 376 * 100%);
-    width: calc(65.7697 / 832 * 100%);
+    left: calc(11 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(62.2597 / 832 * 100%);
     position: absolute;
   }
 
@@ -1891,30 +1892,30 @@ body {
   }
 
   .eternal-bonds-10 {
-    left: calc(176.3848 / 832 * 100%);
-    top: calc(63.7731 / 376 * 100%);
-    width: calc(103.4746 / 832 * 100%);
+    left: calc(656.3397 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(86.8122 / 832 * 100%);
     position: absolute;
   }
 
   .eternal-bonds-11 {
-    left: calc(428.5 / 832 * 100%);
-    top: calc(121.8051 / 376 * 100%);
-    width: calc(154.076 / 832 * 100%);
+    left: calc(566.2765 / 832 * 100%);
+    top: calc(6.8456 / 376 * 100%);
+    width: calc(89.1573 / 832 * 100%);
     position: absolute;
   }
 
   .eternal-bonds-12 {
-    left: calc(724.0167 / 832 * 100%);
+    left: calc(736.0167 / 832 * 100%);
     top: calc(157.4858 / 376 * 100%);
     width: calc(107.9833 / 832 * 100%);
     position: absolute;
   }
 
   .eternal-bonds-13 {
-    left: calc(509.7519 / 832 * 100%);
-    top: calc(17.3361 / 376 * 100%);
-    width: calc(166.4612 / 832 * 100%);
+    left: calc(447.4002 / 832 * 100%);
+    top: calc(217.0459 / 376 * 100%);
+    width: calc(157.4012 / 832 * 100%);
     position: absolute;
   }
 
@@ -1927,8 +1928,8 @@ body {
 
   .eternal-bonds-15 {
     left: calc(11 / 832 * 100%);
-    top: calc(98.1267 / 376 * 100%);
-    width: calc(157.5497 / 832 * 100%);
+    top: calc(0 / 376 * 100%);
+    width: calc(233.6206 / 832 * 100%);
     position: absolute;
   }
 
