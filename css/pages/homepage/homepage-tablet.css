@@ -1083,7 +1083,7 @@ body.lightbox-open {
   }
 
   .catelier-10 {
-    left: calc(371.4668 / 1194 * 100%);
+    left: calc(360.4668 / 1194 * 100%);
     top: calc(354.1383 / 638 * 100%);
     width: calc(182.8899 / 1194 * 100%);
     mix-blend-mode: multiply;
