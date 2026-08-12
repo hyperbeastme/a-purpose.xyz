@@ -93,7 +93,7 @@ body {
 .landing-image {
   position:absolute;
   left:calc(40 / 1600 * 100%);
-  top:calc(552.2031 / 880 * 100%);
+  bottom:calc(45 / 880 * 100%);
   width:calc(175 / 1600 * 100%);
   height:auto;
 }
