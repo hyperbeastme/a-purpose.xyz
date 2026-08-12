@@ -357,6 +357,7 @@ aspect-ratio: 440 / 732;
 }
 
 .landing-image {
+  position: absolute;
   left: calc(11 / 440 * 100%);
   bottom: calc(0 / 732 * 100%);
   width: calc(125 / 440 * 100%);
