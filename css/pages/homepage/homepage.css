@@ -389,13 +389,13 @@ body {
 }
 
 .reflections-title {
-  right: calc(162.0306 / 1600 * 100%);
+  left: calc(1517.9694 / 1600 * 100%);
   bottom: calc(0 / 880 * 100%);
   width: calc(509.2819 / 1600 * 100%);
 }
 
 .reflections-disclaimer {
-  left: calc(1297.2246 / 1600 * 100%);
+  left: calc(1517.9694 / 1600 * 100%);
   bottom: calc(36.3027  / 880 * 100%);
   width: calc(199.8282 / 1600 * 100%);
 }
