@@ -1933,23 +1933,23 @@ body {
   }
 
   .eternal-title {
-    left: calc(0 / 832 * 100%);
-    top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    right: calc(428.5 / 832 * 100%);
+    bottom: calc(0 / 376 * 100%);
+    width: calc(197.4122 / 832 * 100%);
     position: absolute;
   }
 
   .eternal-text {
-    left: calc(0 / 832 * 100%);
-    top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    left: calc(428.5 / 832 * 100%);
+    bottom: calc(0 / 376 * 100%);
+    width: calc(235.1645 / 832 * 100%);
     position: absolute;
   }
 
   .eternal-disclaimer {
-    left: calc(0 / 832 * 100%);
-    top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    right: calc(439.5 / 832 * 100%);
+    bottom: calc(24.0452 / 376 * 100%);
+    width: calc(68.6689 / 832 * 100%);
     position: absolute;
   }
 
