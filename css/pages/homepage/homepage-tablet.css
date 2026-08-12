@@ -363,6 +363,21 @@ body.lightbox-open {
     margin: 0;
   }
 
+   .project-section {
+    min-height: calc(100dvh - 64px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-preview {
+    position: relative;
+    width: 100%;
+    max-width: 834px;
+    aspect-ratio: 834 / 998;
+    flex: 0 0 auto;
+  }
+
   /*
     ================================
     Eternal Bonds
