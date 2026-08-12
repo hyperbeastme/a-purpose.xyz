@@ -595,14 +595,13 @@ aspect-ratio: 440 / 732;
   mix-blend-mode: multiply;
 }
 
-
 /* =========================================================
    REFLECTIONS 07   
    ========================================================= */
 
 .reflections-of-displacement-07 {
   left: calc(95.8445  / 440 * 100%);
-  bottom: calc( / 796 * 100%);
+  bottom: calc(140 / 796 * 100%);
   width: calc(79.7047 / 440 * 100%);
   mix-blend-mode: multiply;
 }
