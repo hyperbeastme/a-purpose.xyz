@@ -100,17 +100,9 @@ body {
 
 .landing-statement {
   position:absolute;
-  left:calc(1285 / 1600 * 100%);
-  width:calc(315 / 1600 * 100%);
-  top:calc(232.7793 / 880 * 100%);
-  line-height: 1.1;
-  margin:0;
-  text-align: left;
-  font-size:48px;
-  font-weight:200;
-  letter-spacing:-0.25px;
-  font-style: italic;
-  font-family: "futura-pt-condensed", sans-serif;
+  left:calc(1285.1505 / 1600 * 100%);
+  width:calc(314.8495 / 1600 * 100%);
+  top:calc(236.5131 / 880 * 100%);
 }
 
 /* PROJECT PREVIEW */
