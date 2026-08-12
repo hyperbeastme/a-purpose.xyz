@@ -2095,13 +2095,13 @@ body {
   .reflections-title {
     right: calc(428.5 / 832 * 100%);
     bottom: calc(0 / 376 * 100%);
-    width: calc(310.6333 / 832 * 100%);
+    width: calc(235.8261 / 832 * 100%);
     position: absolute;
   }
 
   .reflections-disclaimer {
     right: calc(428.5 / 832 * 100%);
-    bottom: calc(21.0419 / 376 * 100%);
+    bottom: calc(23.0368 / 376 * 100%);
     width: calc(118.1791 / 832 * 100%);
     position: absolute;
   }
