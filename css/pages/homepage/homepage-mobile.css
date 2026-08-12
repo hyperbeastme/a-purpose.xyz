@@ -315,8 +315,8 @@ main {
    ========================================================= */
 
 .landing,
-.project-preview,
-.about {
+.project-preview {
+  
   width: 100%;
   max-width: 440px;
 
@@ -352,9 +352,13 @@ main {
    Existing values preserved
    ========================================================= */
 
+.landing{
+aspect-ratio: 440 / 732;
+}
+
 .landing-image {
   left: var(--mobile-margin);
-  bottom: calc(0 / 796 * 100%);
+  top: calc(0 / 732 * 100%);
   width: calc(125 / 440 * 100%);
 }
 
@@ -362,7 +366,7 @@ main {
   position: absolute;
   left: calc(305.519 / 440 * 100%);
   width: calc(134.481 / 440 * 100%);
-  top: calc(196.70 / 796 * 100%);
+  top: calc(196.70 / 732 * 100%);
 }
 /* =========================================================
    PROJECT PREVIEW SHARED RULES
