@@ -14,7 +14,7 @@
 
 :root {
   --artboard-width: 440;
-  --artboard-height: 732;
+  --artboard-height: 796;
 
   --mobile-margin: 2.5%;
   --mobile-content-width: calc(100% - (var(--mobile-margin) * 2));
@@ -320,7 +320,7 @@ main {
   width: 100%;
   max-width: 440px;
 
-  aspect-ratio: 440 / 732;
+  aspect-ratio: 440 / 796;
 
   margin-right: auto;
   margin-left: auto;
@@ -354,7 +354,7 @@ main {
 
 .landing-image {
   left: var(--mobile-margin);
-  bottom: calc(0 / 732 * 100%);
+  bottom: calc(0 / 796 * 100%);
   width: calc(125 / 440 * 100%);
 }
 
@@ -362,7 +362,7 @@ main {
   position: absolute;
   left: calc(305.519 / 440 * 100%);
   width: calc(134.481 / 440 * 100%);
-  top: calc(196.70 / 732 * 100%);
+  top: calc(196.70 / 796 * 100%);
 }
 /* =========================================================
    PROJECT PREVIEW SHARED RULES
@@ -373,7 +373,7 @@ main {
 
 .eternal-bonds-01 {
   right: var(--mobile-margin);
-  top: calc(0 / 732 * 100%);
+  top: calc(0 / 796 * 100%);
   width: calc(99.5793 / 440 * 100%);
 }
 
@@ -381,7 +381,7 @@ main {
 
 .eternal-bonds-02 {
   right: var(--mobile-margin);
-  bottom: calc(372.2909 / 732 * 100%);
+  bottom: calc(372.2909 / 796 * 100%);
   width: calc(81.4025 / 440 * 100%);
 }
 
@@ -389,7 +389,7 @@ main {
 
 .eternal-bonds-03 {
   left: calc(194.2237 / 440 * 100%);
-  top: calc(8.175 / 732 * 100%);
+  top: calc(8.175 / 796 * 100%);
   width: calc(75.8709 / 440 * 100%);
 }
 
@@ -397,7 +397,7 @@ main {
 
 .eternal-bonds-04 {
   right: calc(111.7768 / 440 * 100%);
-  top: calc(15.557 / 732 * 100%);
+  top: calc(15.557 / 796 * 100%);
   width: calc(87.8166 / 440 * 100%);
 }
 
@@ -405,7 +405,7 @@ main {
 
 .eternal-bonds-05 {
   left: calc(28.3959 / 440 * 100%);
-  top: calc(223.6756 / 732 * 100%);
+  top: calc(223.6756 / 796 * 100%);
   width: calc(87.0213 / 440 * 100%);
 }
 
@@ -413,7 +413,7 @@ main {
 
 .eternal-bonds-06 {
   left: var(--mobile-margin);
-  top: calc(146.9644 / 732 * 100%);
+  top: calc(146.9644 / 796 * 100%);
   width: calc(332.6555 / 440 * 100%);
 }
 
@@ -421,7 +421,7 @@ main {
 
 .eternal-bonds-07 {
   left: var(--mobile-margin);
-  top: calc(0 / 732 * 100%);
+  top: calc(0 / 796 * 100%);
   width: calc(97.6892 / 440 * 100%);
 }
 
@@ -429,7 +429,7 @@ main {
 
 .eternal-bonds-08 {
   left: var(--mobile-margin);
-  bottom: calc(245.1773 / 732 * 100%);
+  bottom: calc(245.1773 / 796 * 100%);
   width: calc(67.5532 / 440 * 100%);
 }
 
@@ -437,7 +437,7 @@ main {
 
 .eternal-bonds-09 {
   left: calc(197.0242 / 440 * 100%);
-  bottom: calc(113.4196 / 732 * 100%);
+  bottom: calc(113.4196 / 796 * 100%);
   width: calc(90.2208 / 440 * 100%);
 }
 
@@ -445,7 +445,7 @@ main {
 
 .eternal-bonds-10 {
   right: var(--mobile-margin);
-  bottom: calc(120.8013 / 732 * 100%);
+  bottom: calc(120.8013 / 796 * 100%);
   width: calc(111.3159 / 440 * 100%);
 }
 
@@ -453,7 +453,7 @@ main {
 
 .eternal-bonds-11 {
   right: var(--mobile-margin);
-  bottom: calc(497.1514 / 732 * 100%);
+  bottom: calc(497.1514 / 796 * 100%);
   width: calc(62.9145 / 440 * 100%);
 }
 
@@ -461,7 +461,7 @@ main {
 
 .eternal-bonds-12 {
   left: calc(203.1779 / 440 * 100%);
-  top: calc(247.1475 / 732 * 100%);
+  top: calc(247.1475 / 796 * 100%);
   width: calc(130.4244 / 440 * 100%);
 }
 
@@ -469,7 +469,7 @@ main {
 
 .eternal-bonds-13 {
   right: calc(66.9484 / 440 * 100%);
-  bottom: calc(272.9699 / 732 * 100%);
+  bottom: calc(272.9699 / 796 * 100%);
   width: calc(168.7489 / 440 * 100%);
 }
 
@@ -477,7 +477,7 @@ main {
 
 .eternal-bonds-14 {
   left: calc(101.5804 / 440 * 100%);
-  top: calc(12.372 / 732 * 100%);
+  top: calc(12.372 / 796 * 100%);
   width: calc(87.0284 / 440 * 100%);
 }
 
@@ -485,7 +485,7 @@ main {
 
 .eternal-bonds-15 {
   left: var(--mobile-margin);
-  bottom: calc(117.9667 / 732 * 100%);
+  bottom: calc(117.9667 / 796 * 100%);
   width: calc(192.3096 / 440 * 100%);
 }
 
@@ -493,7 +493,7 @@ main {
 
 .eternal-title {
   right: var(--mobile-margin);
-  bottom: calc(0 / 732 * 100%);
+  bottom: calc(0 / 796 * 100%);
   width: calc(258.7577 / 440 * 100%);
 }
 
@@ -501,7 +501,7 @@ main {
 
 .eternal-text {
   left: calc(69.3611 / 440 * 100%);
-  bottom: calc(370.1237 / 732 * 100%);
+  bottom: calc(370.1237 / 796 * 100%);
   width: calc(211 / 440 * 100%);
 }
 
@@ -509,7 +509,7 @@ main {
 
 .eternal-disclaimer {
   right: var(--mobile-margin);
-  bottom: calc(30.8836 / 732 * 100%);
+  bottom: calc(30.8836 / 796 * 100%);
   width: calc(90.0078 / 440 * 100%);
 }
 
@@ -535,7 +535,7 @@ main {
 
 .reflections-of-displacement-01 {
   left: calc(165.7577 / 440 * 100%);
-  bottom: calc(101.8089 / 732 * 100%);
+  bottom: calc(101.8089 / 796 * 100%);
   width: calc(63.6765 / 440 * 100%);
 }
 
@@ -545,7 +545,7 @@ main {
 
 .reflections-of-displacement-02 {
   left: calc(199.6314 / 440 * 100%);
-  top: calc(202.0031 / 732 * 100%);
+  top: calc(202.0031 / 796 * 100%);
   width: calc(57.9823  / 440 * 100%);
 }
 
@@ -555,7 +555,7 @@ main {
 
 .reflections-of-displacement-03 {
   left: calc(179.0177 / 440 * 100%);
-  top: calc(333.0521 / 732 * 100%);
+  top: calc(333.0521 / 796 * 100%);
   width: calc(85.7012 / 440 * 100%);
 }
 
@@ -565,7 +565,7 @@ main {
 
 .reflections-of-displacement-04 {
   left: var(--mobile-margin);
-  top: calc(311.3025 / 732 * 100%);
+  top: calc(311.3025 / 796 * 100%);
   width: calc(122.9724 / 440 * 100%);
 }
 
@@ -575,7 +575,7 @@ main {
 
 .reflections-of-displacement-05 {
   left: var(--mobile-margin);
-  top: calc(253.4033 / 732 * 100%);
+  top: calc(253.4033 / 796 * 100%);
   width: calc(45.5915  / 440 * 100%);
 }
 
@@ -585,7 +585,7 @@ main {
 
 .reflections-of-displacement-06 {
   left: calc(306.6987 / 440 * 100%);
-  top: calc(55.3522 / 732 * 100%);
+  top: calc(55.3522 / 796 * 100%);
   width: calc(125.8013 / 440 * 100%);
   mix-blend-mode: multiply;
 }
@@ -597,7 +597,7 @@ main {
 
 .reflections-of-displacement-07 {
   left: calc(95.8445  / 440 * 100%);
-  bottom: calc(100.4795 / 732 * 100%);
+  bottom: calc(100.4795 / 796 * 100%);
   width: calc(79.7047 / 440 * 100%);
   mix-blend-mode: multiply;
 }
@@ -609,7 +609,7 @@ main {
 
 .reflections-of-displacement-08 {
   left: calc(259.8636 / 440 * 100%);
-  top: calc(383.0884 /732 * 100%);
+  top: calc(383.0884  796 * 100%);
   width: calc(63.1191 / 440 * 100%);
 }
 
@@ -620,7 +620,7 @@ main {
 
 .reflections-of-displacement-09 {
   left: calc(115.5643 / 440 * 100%);
-  top: calc(0 / 732 * 100%);
+  top: calc(0 / 796 * 100%);
   width: calc(161.6844 / 440 * 100%);
 }
 
@@ -631,7 +631,7 @@ main {
 
 .reflections-of-displacement-10 {
   left: calc(260.6374 / 440 * 100%);
-  top: calc(196.3385 / 732 * 100%);
+  top: calc(196.3385 / 796 * 100%);
   width: calc(61.2518 / 440 * 100%);
 }
 
@@ -642,7 +642,7 @@ main {
 
 .reflections-of-displacement-11 {
   left: calc(135.418 / 440 * 100%);
-  top: calc(206.3559 / 732 * 100%);
+  top: calc(206.3559 / 796 * 100%);
   width: calc(69.5474 / 440 * 100%);
 }
 
@@ -654,7 +654,7 @@ main {
 
 .reflections-of-displacement-12 {
   left: calc(50.2073 / 440 * 100%);
-  top: calc(250.489 / 732 * 100%);
+  top: calc(250.489 / 796 * 100%);
   width: calc(136.9925 / 440 * 100%);
 }
 
@@ -665,7 +665,7 @@ main {
 
 .reflections-of-displacement-13 {
   right: var(--mobile-margin);
-  top: calc(0 / 732 * 100%);
+  top: calc(0 / 796 * 100%);
   width: calc(140.5462 / 440 * 100%);
 }
 
@@ -677,7 +677,7 @@ main {
 
 .reflections-of-displacement-14 {
   right: var(--mobile-margin);
-  top: calc(282.6628 / 732 * 100%);
+  top: calc(282.6628 / 796 * 100%);
   width: calc(100.0095 / 440 * 100%);
 }
 
@@ -689,7 +689,7 @@ main {
 
 .reflections-of-displacement-15 {
   left: var(--mobile-margin);
-  top: calc(0 / 732 * 100%);
+  top: calc(0 / 796 * 100%);
   width: calc(122.621 / 440 * 100%);
   mix-blend-mode: multiply;
 }
@@ -701,7 +701,7 @@ main {
 
 .reflections-of-displacement-16 {
   left: calc(135.7766 / 440 * 100%);
-  top: calc(122.1848 / 732 * 100%);
+  top: calc(122.1848 / 796 * 100%);
   width: calc(151.9695 / 440 * 100%);
 }
 
@@ -713,7 +713,7 @@ main {
 
 .reflections-of-displacement-17 {
   right: var(--mobile-margin);
-  top: calc(472.5059 / 732 * 100%);
+  top: calc(472.5059 / 796 * 100%);
   width: calc(212.1853 / 440 * 100%);
 }
 
@@ -725,7 +725,7 @@ main {
 
 .reflections-of-displacement-18 {
   left: calc(131.0919 / 440 * 100%);
-  top: calc(370.6785 / 732 * 100%);
+  top: calc(370.6785 / 796 * 100%);
   width: calc(50.8979 / 440 * 100%);
 }
 
@@ -737,7 +737,7 @@ main {
 
 .reflections-of-displacement-19 {
   left: calc(287.2078 / 440 * 100%);
-  top: calc(82.7284 / 732 * 100%);
+  top: calc(82.7284 / 796 * 100%);
   width: calc(46.354 / 440 * 100%);
   mix-blend-mode: multiply;
 }
@@ -749,13 +749,13 @@ main {
 
 .reflections-title {
   right: calc(11 / 440 * 100%);
-  bottom: calc(0 / 732 * 100%);
+  bottom: calc(0 / 796 * 100%);
   width: calc(310.6333 / 440 * 100%);
 }
 
 .reflections-disclaimer {
   right: calc(11 / 440 * 100%);
-  bottom: calc(27.0371 / 732 * 100%);
+  bottom: calc(27.0371 / 796 * 100%);
   width: calc(181.0078 / 440 * 100%);
 }
 
@@ -790,7 +790,7 @@ main {
 
 .catelier-01 {
   left: calc(44.0318 / 440 * 100%);
-  top: calc(169.7514 / 732 * 100%);
+  top: calc(169.7514 / 796 * 100%);
   width: calc(97.6492 / 440 * 100%);
 
  
@@ -803,7 +803,7 @@ main {
 
 .catelier-02 {
   left: calc(11 / 440 * 100%);
-  top: calc(0 / 732 * 100%);
+  top: calc(0 / 796 * 100%);
   width: calc(110.8072 / 440 * 100%);
 
 }
@@ -815,7 +815,7 @@ main {
 
 .catelier-03 {
   left: calc(176.8288 / 440 * 100%);
-  top: calc(348.3111 / 732 * 100%);
+  top: calc(348.3111 / 796 * 100%);
   width: calc(120.5049 / 440 * 100%);
 
 
@@ -828,7 +828,7 @@ main {
 
 .catelier-04 {
   left: calc(246.2638 / 440 * 100%);
-  top: calc(97.1946 / 732 * 100%);
+  top: calc(97.1946 / 796 * 100%);
   width: calc(97.631 / 440 * 100%);
 
 
@@ -841,7 +841,7 @@ main {
 
 .catelier-05 {
   left: calc(187.9418 / 440 * 100%);
-  top: calc(0 / 732 * 100%);
+  top: calc(0 / 796 * 100%);
   width: calc(161.8801 / 440 * 100%);
 
 
@@ -854,7 +854,7 @@ main {
 
 .catelier-06 {
   left: calc(313.3875 / 440 * 100%);
-  top: calc(0 / 732 * 100%);
+  top: calc(0 / 796 * 100%);
   width: calc(124.7399 / 440 * 100%);
 
 }
@@ -867,7 +867,7 @@ main {
 
 .catelier-07 {
   left: calc(11 / 440 * 100%);
-  top: calc(220.0748 / 732 * 100%);
+  top: calc(220.0748 / 796 * 100%);
   width: calc(37.766 / 440 * 100%);
 
 }
@@ -880,7 +880,7 @@ main {
 
 .catelier-08 {
   left: calc(118 / 440 * 100%);
-  top: calc(-21.2801 / 732 * 100%);
+  top: calc(-21.2801 / 796 * 100%);
   width: calc(85.8852 / 440 * 100%);
   transform: rotate(27.5deg)
 }
@@ -892,7 +892,7 @@ main {
 
 .catelier-09 {
   left: calc(321.1212 / 440 * 100%);
-  top: calc(209.4014 / 732 * 100%);
+  top: calc(209.4014 / 796 * 100%);
   width: calc(119.1431 / 440 * 100%);
 
 }
@@ -905,7 +905,7 @@ main {
 
 .catelier-10 {
   left: calc(309.4375 / 440 * 100%);
-  top: calc(181.1628 / 732 * 100%);
+  top: calc(181.1628 / 796 * 100%);
   width: calc(77.6336 / 440 * 100%);
 
 }
@@ -918,7 +918,7 @@ main {
 
 .catelier-11 {
   left: calc(11 / 440 * 100%);
-  top: calc(329.4789 / 732 * 100%);
+  top: calc(329.4789 / 796 * 100%);
   width: calc(178.0189 / 440 * 100%);
 
 }
@@ -930,7 +930,7 @@ main {
 
 .catelier-12 {
   right: calc(11 / 440 * 100%);
-  top: calc(560.2495 / 732 * 100%);
+  top: calc(560.2495 / 796 * 100%);
   width: calc(223.3037 / 440 * 100%);
 }
 
@@ -941,7 +941,7 @@ main {
 
 .catelier-13 {
   right: calc(11 / 440 * 100%);
-  top: calc(332.1954 / 732 * 100%);
+  top: calc(332.1954 / 796 * 100%);
   width: calc(78.19 / 440 * 100%);
 
 }
@@ -953,7 +953,7 @@ main {
 
 .catelier-14 {
   left: calc(159.373 / 440 * 100%);
-  top: calc(127.3697 / 732 * 100%);
+  top: calc(127.3697 / 796 * 100%);
   width: calc(85.2564 / 440 * 100%);
 
 }
@@ -966,7 +966,7 @@ main {
 
 .catelier-15 {
   left: calc(293.2692 / 440 * 100%);
-  top: calc(279.5858 / 732 * 100%);
+  top: calc(279.5858 / 796 * 100%);
   width: calc(83.3551 / 440 * 100%);
 
 }
@@ -978,7 +978,7 @@ main {
 
 .catelier-16 {
   left: calc(215.8935 / 440 * 100%);
-  top: calc(394.3834 / 732 * 100%);
+  top: calc(394.3834 / 796 * 100%);
   width: calc(124.4048 / 440 * 100%);
 
 }
@@ -989,7 +989,7 @@ main {
 
 .catelier-title {
   right: calc(11 / 440 * 100%);
-  bottom: calc(0 / 732 * 100%);
+  bottom: calc(0 / 796 * 100%);
   width: calc(104.6581 / 440 * 100%);
 }
 
@@ -999,7 +999,7 @@ main {
 
 .catelier-text {
   left: calc(136.8696 / 440 * 100%);
-  top: calc(205.7772 / 732 * 100%);
+  top: calc(205.7772 / 796 * 100%);
   width: calc(203.2073 / 440 * 100%);
 
 }
@@ -1815,7 +1815,7 @@ body {
 */
 
   .eternal-bonds-01 {
-    left: calc(732.4207 / 832 * 100%);
+    left: calc 796.4207 / 832 * 100%);
     top: calc(0 / 376 * 100%);
     width: calc(99.5793 / 832 * 100%);
     position: absolute;
@@ -2130,7 +2130,7 @@ body {
   }
 
   .catelier-05 {
-    left: calc(594.9732 / 832 * 100%);
+    left: calc(594. 796 / 832 * 100%);
     bottom: calc(0 / 376 * 100%);
     width: calc(169.2613 / 832 * 100%);
     position: absolute;
