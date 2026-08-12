@@ -362,9 +362,12 @@ main {
   position: absolute;
 
   right: var(--mobile-margin);
-  bottom: calc(500 / 732 * 100%);
+  top: calc(244.2402 / 732 * 100%);
   width: calc(174 / 440 * 100%);
+  height: calc(96.4272 / 732 * 100%)
+}
 
+.landing-statement{
   font-family: "futura-pt-condensed", sans-serif;
   font-size: clamp(20px, 6.6vw, 29px);
   font-weight: 200;
@@ -1807,17 +1810,17 @@ body {
   }
 
   .landing-image {
-    left: calc(0 / 832 * 100%);
-    top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    left: calc(70.1646 / 832 * 100%);
+    top: calc(188 / 376 * 100%);
+    width: calc(114.7052 / 832 * 100%);
     position: absolute;
   }
 
   .landing-statement {
     position: absolute;
-    left: calc(0 / 832 * 100%);
-    top: calc(0 / 376 * 100%);
-    width: calc(0 / 832 * 100%);
+    left: calc(657.9173 / 832 * 100%);
+    top: calc(80.2495 / 376 * 100%);
+    width: calc(174.083 / 832 * 100%);
     margin: 0;
   }
 
