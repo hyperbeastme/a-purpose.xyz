@@ -632,55 +632,55 @@ body.lightbox-open {
 
   .catelier-01 {
     left: calc(638.2859 / 834 * 100%);
-    top: calc(0 / 998 * 100%);
+    top: calc(0 / 1141 * 100%);
     width: calc(184.7141 / 834 * 100%);
     mix-blend-mode: multiply;
   }
 
   .catelier-02 {
     left: calc(68.8251 / 834 * 100%);
-    top: calc(144.0244 / 998 * 100%);
+    top: calc(144.0244 / 1141 * 100%);
     width: calc(159.0003 / 834 * 100%);
     mix-blend-mode: multiply;
   }
 
   .catelier-03 {
     left: calc(494.1991 / 834 * 100%);
-    top: calc(336.0093 / 998 * 100%);
+    top: calc(336.0093 / 1141 * 100%);
     width: calc(227.9481 / 834 * 100%);
     mix-blend-mode: multiply;
   }
 
   .catelier-04 {
     left: calc(233.3353 / 834 * 100%);
-    top: calc(215.488 / 998 * 100%);
+    top: calc(215.488 / 1141 * 100%);
     width: calc(184.6796 / 834 * 100%);
     mix-blend-mode: multiply;
   }
 
   .catelier-05 {
     left: calc(177.9317 / 834 * 100%);
-    top: calc(0 / 998 * 100%);
+    top: calc(0 / 1141 * 100%);
     width: calc(307.0739 / 834 * 100%);
   }
 
   .catelier-06 {
     left: calc(517.3673 / 834 * 100%);
-    top: calc(424.1198 / 998 * 100%);
+    top: calc(424.1198 / 1141 * 100%);
     width: calc(188.8621 / 834 * 100%);
     mix-blend-mode: multiply;
   }
 
   .catelier-07 {
     left: calc(11 / 834 * 100%);
-    top: calc(163.5584 / 998 * 100%);
+    top: calc(163.5584 / 1141 * 100%);
     width: calc(71.4385 / 834 * 100%);
     mix-blend-mode: multiply;
   }
 
   .catelier-08 {
     left: calc(507.9112 / 834 * 100%);
-    top: calc(-25.2 / 998 * 100%);
+    top: calc(-25.2 / 1141 * 100%);
     width: calc(112.1212 / 834 * 100%);
     mix-blend-mode: multiply;
     transform: rotate(27.5deg)
@@ -688,70 +688,83 @@ body.lightbox-open {
 
   .catelier-09 {
     left: calc(187.93 / 834 * 100%);
-    top: calc(390.5884 / 998 * 100%);
+    top: calc(390.5884 / 1141 * 100%);
     width: calc(225.3721 / 834 * 100%);
     mix-blend-mode: multiply;
   }
 
   .catelier-10 {
     left: calc(398.9441 / 834 * 100%);
-    top: calc(379.5989 / 998 * 100%);
+    top: calc(379.5989 / 1141 * 100%);
     width: calc(146.8524 / 834 * 100%);
     mix-blend-mode: multiply;
   }
 
   .catelier-11 {
     left: calc(11 / 834 * 100%);
-    top: calc(390.7485 / 998 * 100%);
+    top: calc(390.7485 / 1141 * 100%);
     width: calc(261.7594 / 834 * 100%);
     mix-blend-mode: multiply;
   }
 
   .catelier-12 {
     left: calc(400.5968 / 834 * 100%);
-    top: calc(697.016 / 998 * 100%);
+    top: calc(697.016 / 1141 * 100%);
     width: calc(422.4032 / 834 * 100%);
     mix-blend-mode: multiply;
   }
 
   .catelier-13 {
     left: calc(675.0951 / 834 * 100%);
-    top: calc(217.3208 / 998 * 100%);
+    top: calc(217.3208 / 1141 * 100%);
     width: calc(147.9049 / 834 * 100%);
     mix-blend-mode: multiply;
   }
 
   .catelier-14 {
     left: calc(11 / 834 * 100%);
-    top: calc(0 / 998 * 100%);
+    top: calc(0 / 1141 * 100%);
     width: calc(161.2717 / 834 * 100%);
   }
 
   .catelier-15 {
     left: calc(276.0352 / 834 * 100%);
-    top: calc(622.5175 / 998 * 100%);
+    top: calc(622.5175 / 1141 * 100%);
     width: calc(127.0385 / 834 * 100%);
   }
 
   .catelier-16 {
     left: calc(377.0861 / 834 * 100%);
-    top: calc(462.8158 / 998 * 100%);
+    top: calc(462.8158 / 1141 * 100%);
     width: calc(172.0839 / 834 * 100%);
     mix-blend-mode: multiply;
   }
 
   .catelier-title {
     left: calc(614.0278  / 834 * 100%);
-    top: calc(858.5539 / 998 * 100%);
+    top: calc(858.5539 / 1141 * 100%);
     width: calc(197.9722 / 834 * 100%);
     mix-blend-mode: multiply;
   }
 
   .catelier-text {
     left: calc(398.9823 / 834 * 100%);
-    top: calc(219.5027 / 998 * 100%);
+    top: calc(219.5027 / 1141 * 100%);
     width: calc(328.5636 / 834 * 100%);
     mix-blend-mode: multiply;
+  }
+   
+  
+  /* 
+  =========================================================
+  SEE MORE WORK
+  ========================================================= 
+  */
+
+  .end-of-preview {
+    left: calc(315.5749 / 834 * 100%);
+    top: calc(1102.9426 / 1141 * 100%);
+    width: calc(180.8503 / 834 * 100%);
   }
 }
 
@@ -1144,20 +1157,5 @@ body.lightbox-open {
     width: calc(328.5636 / 1194 * 100%);
     mix-blend-mode: multiply;
   }
-
-  /* =========================================================
-   SEE MORE WORK
-
-   SVG position:
-   X: 172.273
-   Y: 148
-   W: 95.504
-   ========================================================= */
-
-.end-of-preview {
-  left: calc(157.6132 / 440 * 100%);
-  bottom: calc(0 / 836 * 100%);
-  width: calc(103.0957 / 440 * 100%);
-}
 
 }
