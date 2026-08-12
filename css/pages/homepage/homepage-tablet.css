@@ -1012,111 +1012,136 @@ body.lightbox-open {
     width: calc(0 / 1194 * 100%);
   }
 
+  /*
+    ================================
+    Catelier
+    ================================
+  */
+  
   .catelier-01 {
-    left: calc(0 / 1194 * 100%);
+    left: calc(987.2859 / 1194 * 100%);
     top: calc(0 / 638 * 100%);
-    width: calc(0 / 1194 * 100%);
+    width: calc(184.7141 / 1194 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .catelier-02 {
-    left: calc(0 / 1194 * 100%);
+    left: calc(792.0691 / 1194 * 100%);
     top: calc(0 / 638 * 100%);
-    width: calc(0 / 1194 * 100%);
+    width: calc(200.0657 / 1194 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .catelier-03 {
-    left: calc(0 / 1194 * 100%);
+    left: calc(323.6637 / 1194 * 100%);
     top: calc(0 / 638 * 100%);
-    width: calc(0 / 1194 * 100%);
+    width: calc(227.9481 / 1194 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .catelier-04 {
-    left: calc(0 / 1194 * 100%);
-    top: calc(0 / 638 * 100%);
-    width: calc(0 / 1194 * 100%);
+    left: calc(611.6667 / 1194 * 100%);
+    top: calc(222.9667 / 638 * 100%);
+    width: calc(200.7473 / 1194 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .catelier-05 {
-    left: calc(0 / 1194 * 100%);
-    top: calc(0 / 638 * 100%);
-    width: calc(0 / 1194 * 100%);
+    left: calc(864.9261 / 1194 * 100%);
+    top: calc(408.1694 / 638 * 100%);
+    width: calc(307.0739 / 1194 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .catelier-06 {
-    left: calc(0 / 1194 * 100%);
-    top: calc(0 / 638 * 100%);
-    width: calc(0 / 1194 * 100%);
+    left: calc(-20.4534 / 1194 * 100%);
+    top: calc(129.606 / 638 * 100%);
+    width: calc(166.9069 / 1194 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .catelier-07 {
-    left: calc(0 / 1194 * 100%);
-    top: calc(0 / 638 * 100%);
-    width: calc(0 / 1194 * 100%);
+    left: calc(273.4512 / 1194 * 100%);
+    top: calc(246.1639 / 638 * 100%);
+    width: calc(48.0418 / 1194 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .catelier-08 {
-    left: calc(0 / 1194 * 100%);
-    top: calc(0 / 638 * 100%);
-    width: calc(0 / 1194 * 100%);
+    left: calc(793.2179 / 1194 * 100%);
+    top: calc(285.6476 / 638 * 100%);
+    width: calc(157.991 / 1194 * 100%);
+    mix-blend-mode: multiply;
+    transform: rotate(27.5deg);
   }
 
   .catelier-09 {
-    left: calc(0 / 1194 * 100%);
-    top: calc(0 / 638 * 100%);
-    width: calc(0 / 1194 * 100%);
+    left: calc(187.7902 / 1194 * 100%);
+    top: calc(50.9091 / 638 * 100%);
+    width: calc(202.635 / 1194 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .catelier-10 {
-    left: calc(0 / 1194 * 100%);
-    top: calc(0 / 638 * 100%);
-    width: calc(0 / 1194 * 100%);
+    left: calc(611 / 1194 * 100%);
+    top: calc(448.7216 / 638 * 100%);
+    width: calc(137.6119 / 1194 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .catelier-11 {
-    left: calc(0 / 1194 * 100%);
-    top: calc(0 / 638 * 100%);
-    width: calc(0 / 1194 * 100%);
+    left: calc(363.8329 / 1194 * 100%);
+    top: calc(103.2661 / 638 * 100%);
+    width: calc(130.8797 / 1194 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .catelier-12 {
     left: calc(0 / 1194 * 100%);
     top: calc(0 / 638 * 100%);
-    width: calc(0 / 1194 * 100%);
+    width: calc(313.7141 / 1194 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .catelier-13 {
-    left: calc(0 / 1194 * 100%);
-    top: calc(0 / 638 * 100%);
-    width: calc(0 / 1194 * 100%);
+    left: calc(725.0884 / 1194 * 100%);
+    top: calc(316.4294 / 638 * 100%);
+    width: calc(87.3255 / 1194 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .catelier-14 {
-    left: calc(0 / 1194 * 100%);
-    top: calc(0 / 638 * 100%);
-    width: calc(0 / 1194 * 100%);
+    left: calc(985.5212 / 1194 * 100%);
+    top: calc(233.2799 / 638 * 100%);
+    width: calc(186.4788 / 1194 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .catelier-15 {
-    left: calc(0 / 1194 * 100%);
-    top: calc(0 / 638 * 100%);
-    width: calc(0 / 1194 * 100%);
+    left: calc(119.4269 / 1194 * 100%);
+    top: calc(120.0345 / 638 * 100%);
+    width: calc(127.0385 / 1194 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .catelier-16 {
-    left: calc(0 / 1194 * 100%);
+    left: calc(611 / 1194 * 100%);
     top: calc(0 / 638 * 100%);
-    width: calc(0 / 1194 * 100%);
+    width: calc(172.0839 / 1194 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .catelier-title {
-    left: calc(0 / 1194 * 100%);
-    top: calc(0 / 638 * 100%);
-    width: calc(0 / 1194 * 100%);
+    left: calc(363.0278 / 1194 * 100%);
+    top: calc(498.5539 / 638 * 100%);
+    width: calc(197.9722 / 1194 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .catelier-text {
     left: calc(0 / 1194 * 100%);
-    top: calc(0 / 638 * 100%);
-    width: calc(0 / 1194 * 100%);
+    top: calc(369.1623 / 638 * 100%);
+    width: calc(328.5636 / 1194 * 100%);
+    mix-blend-mode: multiply;
   }
 }
