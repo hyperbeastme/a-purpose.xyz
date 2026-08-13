@@ -461,6 +461,10 @@ body {
 
   scroll-snap-align: start;
   scroll-snap-stop: always;
+<<<<<<< HEAD
+  scroll-margin-top: calc(80 / 880 * 100vh);
+=======
+>>>>>>> 33004bb9050362d565956e3a6118ea2946f6b6a8
 }
 
 .catelier-scroll-window {
@@ -630,7 +634,7 @@ body {
 
 .end-of-preview {
   left: calc(709.5748 / 1600 * 100%);
-  top: calc(924.844 / 1050 * 100%);
+  bottom: calc(20 / 1050 * 100%);
   width: calc(180.8503 / 1600 * 100%);
 }
 
@@ -852,19 +856,19 @@ body.lightbox-open {
    ========================================================= */
 
 .landing + .eternal-bonds {
-  margin-top: calc(30 / 796 * 100vh);
+  margin-top: calc(30 / 850 * 100vh);
 }
 
 .eternal-bonds + .reflections {
-  margin-top: calc(75 / 796 * 100vh);
+  margin-top: calc(75 / 930 * 100vh);
 }
 
 .reflections + .catelier-scroll-section {
-  margin-top: calc(30 / 796 * 100vH);
+  margin-top: calc(30 / 930 * 100vH);
 }
 
 .catelier-scroll-section + .about {
-  margin-top: calc(30 / 796 * 100vh);
+  margin-top: calc(30 / 1050 * 100vh);
 }
 
 .about + .footer {
