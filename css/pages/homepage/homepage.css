@@ -507,7 +507,7 @@ body {
 }
 
 .catelier-02 {
-  left: calc(24.2074 / 1600 * 100%);
+  left: calc(-15.7926 / 1600 * 100%);
   top: calc(137.8397 / 1050 * 100%);
   width: calc(276.4334 / 1600 * 100%);
   mix-blend-mode: multiply;
@@ -543,7 +543,7 @@ body {
 }
 
 .catelier-07 {
-  left: calc(1129.6157 / 1600 * 100%);
+  left: calc(1089.6157 / 1600 * 100%);
   top: calc(457.9709  / 1050 * 100%);
   width: calc(94.2156 / 1600 * 100%);
   mix-blend-mode: multiply;
@@ -551,7 +551,7 @@ body {
 }
 
 .catelier-08 {
-  left: calc(415 / 1600 * 100%);
+  left: calc(344 / 1600 * 100%);
   top: calc(-25.3011 / 1050 * 100%);
   width: calc(137.4 / 1600 * 100%);
   mix-blend-mode: multiply;
