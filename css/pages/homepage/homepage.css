@@ -120,9 +120,6 @@ body {
   overflow:hidden;
 }
 
-.project-preview.eternal-bonds {
-  margin-top:160px;
-}
 
 .project-preview.eternal-bonds img,
 .project-preview.reflections img,
@@ -258,10 +255,6 @@ body {
   mix-blend-mode: multiply;
 }
 
-.project-preview.reflections {
-  margin-top:100px;
-}
-
 .reflections-of-displacement-01 {
   right: calc(57.4757 / 1600 * 100%);
   top: calc(277.3305 / 880 * 100%);
@@ -392,10 +385,6 @@ body {
   width: calc(199.8282 / 1600 * 100%);
 }
 
-.project-preview.catelier {
-  margin-top:100px;
-  isolation:isolate;
-}
 
 .project-preview.catelier img{
   position:absolute;
@@ -742,21 +731,21 @@ body.lightbox-open {
    ========================================================= */
 
 .landing + .eternal-bonds {
-  margin-top: calc(84 / 880 * 100vh);
+  margin-top: calc(100 / 880 * 100vh);
 }
 
 .eternal-bonds + .reflections {
-  margin-top: calc(84 / 880 * 100vh);
+  margin-top: calc(100 / 880 * 100vh);
 }
 
 .reflections + .catelier {
-  margin-top: calc(84 / 880 * 100vh);
+  margin-top: calc(100 / 880 * 100vh);
 }
 
 .caterlier + .about {
-  margin-top: calc(84 / 880 * 100vh);
+  margin-top: calc(100 / 880 * 100vh);
 }
 
 .about + .footer {
-  margin-top: calc(20 / 796 * 100vh);
+  margin-top: calc(20 / 880 * 100vh);
 }
