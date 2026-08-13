@@ -14,6 +14,20 @@ body {
 
 html {
   scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  scroll-padding-top: var(--margin-top);
+}
+
+.project-preview.catelier {
+  /* Snap Catelier’s beginning below the fixed header */
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+
+  /* Preserve your canvas width but allow vertical expansion */
+  position: relative;
+  width: 100%;
+  min-height: 880px;
+  height: auto;
 }
 
 body {
@@ -385,13 +399,6 @@ body {
   width: calc(199.8282 / 1600 * 100%);
 }
 
-
-.project-preview.catelier img{
-  position:absolute;
-  mix-blend-mode:multiply;
-  height:auto;
-}
-
 .catelier-01 {
   left: calc(878.56 / 1600 * 100%);
   top: calc(237.2995 / 880 * 100%);
@@ -724,27 +731,26 @@ body.lightbox-open {
   display: none !important;
 }
 
-/* 
-   =========================================================
+/* =========================================================
    PAGE SPACING
    ========================================================= */
 
 .landing + .eternal-bonds {
-  margin-top: calc(100 / 880 * 100vh);
+  margin-top: calc(100 / 796 * 100vh);
 }
 
 .eternal-bonds + .reflections {
-  margin-top: calc(100 / 880 * 100vh);
+  margin-top: calc(100 / 796 * 100vh);
 }
 
-.reflections + .catelier {
-  margin-top: calc(100 / 880 * 100vh);
+.reflections + .catelier-scroll-section {
+  margin-top: calc(100 / 440 * 100vw);
 }
 
-.caterlier + .about {
-  margin-top: calc(100 / 880 * 100vh);
+.catelier-scroll-section + .about {
+  margin-top: calc(100 / 796 * 100vh);
 }
 
 .about + .footer {
-  margin-top: calc(20 / 880 * 100vh);
+  margin-top: calc(50 / 796 * 100vh);
 }
