@@ -327,7 +327,11 @@ main {
    ========================================================= */
 
 .landing,
-.project-preview {
+.project-preview:not(.catelier),
+.about,
+.end-of-preview {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
   
   width: 100%;
   max-width: 440px;
