@@ -845,7 +845,7 @@ body.lightbox-open {
 }
 
 .reflections + .catelier-scroll-section {
-  margin-top: calc(100 / 796 * 100vw);
+  margin-top: calc(100 / 796 * 100vH);
 }
 
 .catelier-scroll-section + .about {
