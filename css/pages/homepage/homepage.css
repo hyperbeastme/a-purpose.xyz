@@ -106,7 +106,7 @@ body {
   scroll-snap-stop: always;
   
   width: 100%;
-  max-width: 440px;
+  max-width: 880px;
 
   aspect-ratio: 1680 / 880;
 
