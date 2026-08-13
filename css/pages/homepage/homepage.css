@@ -499,7 +499,7 @@ body {
 }
 
 .catelier-01 {
-  left: calc(918.56 / 1600 * 100%);
+  left: calc(890 / 1600 * 100%);
   top: calc(237.2995 / 1050 * 100%);
   width: calc(192.7583 / 1600 * 100%);
   mix-blend-mode: multiply;
@@ -507,7 +507,7 @@ body {
 }
 
 .catelier-02 {
-  left: calc(24.7926 / 1600 * 100%);
+  left: calc(24.2074 / 1600 * 100%);
   top: calc(137.8397 / 1050 * 100%);
   width: calc(276.4334 / 1600 * 100%);
   mix-blend-mode: multiply;
@@ -559,21 +559,21 @@ body {
 }
 
 .catelier-09 {
-  left: calc(1039.6491 / 1600 * 100%);
+  left: calc(999.6491 / 1600 * 100%);
   top: calc(40.4522 / 1050 * 100%);
   width: calc(317.9863 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-10 {
-  left: calc(1343.9937 / 1600 * 100%);
+  left: calc(1303.9937 / 1600 * 100%);
   top: calc(0 / 1050 * 100%);
   width: calc(296.0063  / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-11 {
-  left: calc(1253.6975 / 1600 * 100%);
+  left: calc(1213.6975 / 1600 * 100%);
   top: calc(193.9135 / 1050 * 100%);
   width: calc(386.3025 / 1600 * 100%);
   mix-blend-mode: multiply;
@@ -587,35 +587,35 @@ body {
 }
 
 .catelier-13 {
-  left: calc(258.1732 / 1600 * 100%);
+  left: calc(218.1732 / 1600 * 100%);
   top: calc(173.2721 / 1050 * 100%);
   width: calc(114.1098 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-14 {
-  left: calc(365.3984 / 1600 * 100%);
+  left: calc(325.3984 / 1600 * 100%);
   top: calc(271.5216 / 1050 * 100%);
   width: calc(246.5636 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-15 {
-  left: calc(890 / 1600 * 100%);
+  left: calc(850 / 1600 * 100%);
   top: calc(470.2024 / 1050 * 100%);
   width: calc(232.0597 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-16 {
-  left: calc(581.8534 / 1600 * 100%);
+  left: calc(541.8534 / 1600 * 100%);
   top: calc(482.3092 / 1050 * 100%);
   width: calc(175.941 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-title {
-  left: calc(604.4813 / 1600 * 100%);
+  left: calc(564.4813 / 1600 * 100%);
   top: calc(749.3257 / 1050 * 100%);
   width: calc(185.5187 / 1600 * 100%);
   mix-blend-mode: multiply;
@@ -630,7 +630,7 @@ body {
 }
 
 .end-of-preview {
-  left: calc(749.5748 / 1600 * 100%);
+  left: calc(709.5748 / 1600 * 100%);
   top: calc(924.844 / 1050 * 100%);
   width: calc(180.8503 / 1600 * 100%);
 }
@@ -857,7 +857,7 @@ body.lightbox-open {
 }
 
 .eternal-bonds + .reflections {
-  margin-top: calc(30 / 796 * 100vh);
+  margin-top: calc(75 / 796 * 100vh);
 }
 
 .reflections + .catelier-scroll-section {
