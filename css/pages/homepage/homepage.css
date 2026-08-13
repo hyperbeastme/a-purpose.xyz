@@ -87,7 +87,20 @@ body {
    SHARED 1600 × 930 ARTBOARD
    ========================================================= */
 
-.landing,
+.landing{
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  max-width: 1600px;
+
+  aspect-ratio: 1600 / 850;
+
+  position: relative;
+  overflow: hidden;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+
+}
+
 .project-preview:not(.catelier),
 .about{
   scroll-snap-align: start;
