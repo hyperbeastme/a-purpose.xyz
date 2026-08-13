@@ -550,14 +550,14 @@ body {
 }
 
 .catelier-10 {
-  right: calc(40 / 1600 * 100%);
+  left: calc(1343.9937 / 1600 * 100%);
   top: calc(0 / 1050 * 100%);
   width: calc(296.0063  / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-11 {
-  right: calc(40 / 1600 * 100%);
+  left: calc(1253.6975 / 1600 * 100%);
   top: calc(193.9135 / 1050 * 100%);
   width: calc(386.3025 / 1600 * 100%);
   mix-blend-mode: multiply;
