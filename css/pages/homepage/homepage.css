@@ -100,18 +100,12 @@ body {
 
 .landing,
 .project-preview:not(.catelier),
-.about,
-.end-of-preview {
+.about{
   scroll-snap-align: start;
   scroll-snap-stop: always;
-  
-  width: 100%;
   max-width: 880px;
 
   aspect-ratio: 1680 / 880;
-
-  margin-right: auto;
-  margin-left: auto;
 
   position: relative;
   overflow: hidden;
