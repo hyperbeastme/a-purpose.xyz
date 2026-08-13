@@ -791,10 +791,47 @@ aspect-ratio: 440 / 732;
    CATELIER SECTION
    ========================================================= */
 
+.catelier-scroll-section {
+  width: 100%;
+  height: 732px;
+  margin-inline: auto;
+
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+}
+
+/* Visible 732px window */
+.catelier-scroll-window {
+  width: 100%;
+  height: 732px;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  overscroll-behavior-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Full 440×836 Catelier canvas */
+
+.project-preview.catelier {
+  width: 100%;
+  max-width: 440px;
+  height: auto;
+  aspect-ratio: 440 / 836;
+
+  margin: 0 auto;
+
+  position: relative;
+  overflow: hidden;
+
+  /* The outer section handles page snapping */
+  scroll-snap-align: none;
+}
+
 .project-preview.catelier {
   margin-top: 0;
   isolation: isolate;
-  mix-blend-mode: multiply;
 }
 
 .project-preview.catelier img{
