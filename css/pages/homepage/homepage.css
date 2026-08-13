@@ -411,15 +411,15 @@ body {
 }
 
 .reflections-title {
-  left: calc(1008.6875 / 1600 * 100%);
+  left: calc(890 / 1600 * 100%);
   bottom: calc(0 / 930 * 100%);
-  width: calc(509.2819 / 1600 * 100%);
+  width: calc(602.8322 / 1600 * 100%);
 }
 
 .reflections-disclaimer {
-  left: calc(1517.9694 / 1600 * 100%);
-  bottom: calc(36.3027  / 930 * 100%);
-  width: calc(199.8282 / 1600 * 100%);
+  left: calc(1256.2975 / 1600 * 100%);
+  bottom: calc(36.3027 / 930 * 100%);
+  width: calc(236.5348 / 1600 * 100%);
 }
 
 .project-preview.catelier {
