@@ -434,6 +434,12 @@ body {
   width: calc(236.5348 / 1600 * 100%);
 }
 
+/* 
+  =========================================================
+  CATELIER SECTION
+  ========================================================= 
+*/
+
 .project-preview.catelier {
   /* Snap Catelier’s beginning below the fixed header */
   scroll-snap-align: start;
@@ -445,10 +451,6 @@ body {
   min-height: 930px;
   height: auto;
 }
-
-/* =========================================================
-   CATELIER SECTION
-   ========================================================= */
 
 .catelier-scroll-section {
   width: 100%;
