@@ -1113,7 +1113,7 @@ aspect-ratio: 440 / 732;
 
   left: calc(23.3264 / 440 * 100%);
   bottom: calc(580.5262 / 625 * 100%);
-  width: calc(55 / 440 * 100%);
+  width: calc(100 / 440 * 100%);
 
   font-family: "futura-pt-condensed", sans-serif;
   font-size: clamp(16px, 4.1vw, 18px);
