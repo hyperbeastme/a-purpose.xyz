@@ -18,17 +18,7 @@ html {
   scroll-padding-top: var(--margin-top);
 }
 
-.project-preview.catelier {
-  /* Snap Catelier’s beginning below the fixed header */
-  scroll-snap-align: start;
-  scroll-snap-stop: normal;
 
-  /* Preserve your canvas width but allow vertical expansion */
-  position: relative;
-  width: 100%;
-  min-height: 930px;
-  height: auto;
-}
 
 body {
   background:white;
@@ -170,7 +160,6 @@ body {
 
 
 .project-preview.eternal-bonds img,
-.project-preview.reflections img,
 .project-preview.catelier img {
   position: absolute;
   display: block;
@@ -433,9 +422,69 @@ body {
   width: calc(199.8282 / 1600 * 100%);
 }
 
+.project-preview.catelier {
+  /* Snap Catelier’s beginning below the fixed header */
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+
+  /* Preserve your canvas width but allow vertical expansion */
+  position: relative;
+  width: 100%;
+  min-height: 930px;
+  height: auto;
+}
+
+/* =========================================================
+   CATELIER SECTION
+   ========================================================= */
+
+.catelier-scroll-section {
+  width: 100%;
+  max-width: 1680px;
+  height: 930px;
+  margin-inline: auto;
+
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.catelier-scroll-window {
+  width: 100%;
+  height: 1050px;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+.catelier-scroll-window > .project-preview.catelier {
+  position: relative;
+
+  width: 100%;
+  height: 1050px;
+  min-height: 1050px;
+  max-width: 1600px;
+
+  aspect-ratio: auto;
+  margin: 0 auto;
+  overflow: hidden;
+
+  scroll-snap-align: none;
+}
+
+.project-preview.catelier {
+  margin-top: 0;
+  isolation: isolate;
+}
+
+.project-preview.catelier img{
+  mix-blend-mode: multiply;
+}
+
 .catelier-01 {
   left: calc(918.56 / 1600 * 100%);
-  top: calc(237.2995 / 930 * 100%);
+  top: calc(237.2995 / 1050 * 100%);
   width: calc(192.7583 / 1600 * 100%);
   mix-blend-mode: multiply;
   
@@ -443,35 +492,35 @@ body {
 
 .catelier-02 {
   left: calc(24.7926 / 1600 * 100%);
-  top: calc(137.8397 / 930 * 100%);
+  top: calc(137.8397 / 1050 * 100%);
   width: calc(276.4334 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-03 {
   left: calc(280.0669 / 1600 * 100%);
-  top: calc(510.7017 / 930 * 100%);
+  top: calc(510.7017 / 1050 * 100%);
   width: calc(300.6265 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-04 {
   left: calc(890 / 1600 * 100%);
-  top: calc(0 / 930 * 100%);
+  top: calc(0 / 1050 * 100%);
   width: calc(206.1738 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-05 {
   left: calc(472.7576 / 1600 * 100%);
-  top: calc(0 / 930 * 100%);
+  top: calc(0 / 1050 * 100%);
   width: calc(288 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-06 {
   left: calc(580.1305 / 1600 * 100%);
-  top: calc(165.8374 / 930 * 100%);
+  top: calc(165.8374 / 1050 * 100%);
   width: calc(238.7541 / 1600 * 100%);
   mix-blend-mode: multiply;
   z-index:1;
@@ -479,7 +528,7 @@ body {
 
 .catelier-07 {
   left: calc(1129.6157 / 1600 * 100%);
-  top: calc(457.9709  / 930 * 100%);
+  top: calc(457.9709  / 1050 * 100%);
   width: calc(94.2156 / 1600 * 100%);
   mix-blend-mode: multiply;
   z-index:0;
@@ -487,7 +536,7 @@ body {
 
 .catelier-08 {
   left: calc(415 / 1600 * 100%);
-  top: calc(-25.3011 / 930 * 100%);
+  top: calc(-25.3011 / 1050 * 100%);
   width: calc(137.4 / 1600 * 100%);
   mix-blend-mode: multiply;
   transform: rotate(27.5deg)
@@ -495,70 +544,70 @@ body {
 
 .catelier-09 {
   left: calc(1039.6491 / 1600 * 100%);
-  top: calc(40.4522 / 930 * 100%);
+  top: calc(40.4522 / 1050 * 100%);
   width: calc(317.9863 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-10 {
   right: calc(40 / 1600 * 100%);
-  top: calc(0 / 930 * 100%);
+  top: calc(0 / 1050 * 100%);
   width: calc(296.0063  / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-11 {
   right: calc(40 / 1600 * 100%);
-  top: calc(193.9135 / 930 * 100%);
+  top: calc(193.9135 / 1050 * 100%);
   width: calc(386.3025 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-12 {
   left: calc(40 / 1600 * 100%);
-  top: calc(598.2692 / 930 * 100%);
+  top: calc(598.2692 / 1050 * 100%);
   width: calc(331.9116 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-13 {
   left: calc(258.1732 / 1600 * 100%);
-  top: calc(173.2721 / 930 * 100%);
+  top: calc(173.2721 / 1050 * 100%);
   width: calc(114.1098 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-14 {
   left: calc(365.3984 / 1600 * 100%);
-  top: calc(271.5216 / 930 * 100%);
+  top: calc(271.5216 / 1050 * 100%);
   width: calc(246.5636 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-15 {
   left: calc(890 / 1600 * 100%);
-  top: calc(470.2024 / 930 * 100%);
+  top: calc(470.2024 / 1050 * 100%);
   width: calc(232.0597 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-16 {
   left: calc(581.8534 / 1600 * 100%);
-  top: calc(482.3092 / 930 * 100%);
+  top: calc(482.3092 / 1050 * 100%);
   width: calc(175.941 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-title {
   left: calc(604.4813 / 1600 * 100%);
-  top: calc(749.3257 / 930 * 100%);
+  top: calc(749.3257 / 1050 * 100%);
   width: calc(185.5187 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-text {
   left: calc(40 / 1600 * 100%);
-  top: calc(0 / 930 * 100%);
+  top: calc(0 / 1050 * 100%);
   width: calc(350.206 / 1600 * 100%);
   mix-blend-mode: multiply;
 
@@ -566,7 +615,7 @@ body {
 
 .end-of-preview {
   left: calc(749.5748 / 1600 * 100%);
-  top: calc(924.844 / 930 * 100%);
+  top: calc(924.844 / 1050 * 100%);
   width: calc(180.8503 / 1600 * 100%);
 }
 
