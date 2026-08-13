@@ -404,7 +404,7 @@ body {
 }
 
 .reflections-of-displacement-15 {
-  left: calc(40 / 1600 * 100%);
+  left: calc(0 / 1600 * 100%);
   top: calc(0 / 930 * 100%);
   width: calc(455.6876 / 1600 * 100%);
   mix-blend-mode: multiply;
