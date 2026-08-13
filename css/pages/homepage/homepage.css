@@ -517,6 +517,8 @@ body {
   left: calc(11 / 1600 * 100%);
   top: calc(0 / 880 * 100%);
   width: calc(350.206 / 1600 * 100%);
+  margin:0 auto;
+  position:relative;
 }
 
 .about img {
