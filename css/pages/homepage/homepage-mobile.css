@@ -1654,11 +1654,11 @@ body.lightbox-open {
   margin-top: calc(84 / 796 * 100vh);
 }
 
-.reflections + .catelier {
-  margin-top: calc(84 / 796 * 100vh);
+.reflections + .catelier-scroll-section {
+  margin-top: calc(84 / 440 * 100vw);
 }
 
-.caterlier + .about {
+.catelier-scroll-section + .about {
   margin-top: calc(84 / 796 * 100vh);
 }
 
