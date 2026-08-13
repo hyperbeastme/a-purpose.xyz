@@ -103,7 +103,7 @@ body {
 .about{
   scroll-snap-align: start;
   scroll-snap-stop: always;
-  max-width: 880px;
+  max-width: 1680px;
 
   aspect-ratio: 1680 / 880;
 
