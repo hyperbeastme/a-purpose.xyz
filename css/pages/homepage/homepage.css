@@ -94,6 +94,46 @@ body {
   text-decoration:none;
 }
 
+/* =========================================================
+   SHARED 1680 × 880 ARTBOARD
+   ========================================================= */
+
+.landing,
+.project-preview:not(.catelier),
+.about,
+.end-of-preview {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  
+  width: 100%;
+  max-width: 440px;
+
+  aspect-ratio: 1680 / 880;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  position: relative;
+  overflow: hidden;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+
+}
+
+
+/* Images use the section as their positioning canvas */
+
+.landing img,
+.project-preview img,
+.about img {
+  position: absolute;
+  display: block;
+
+  height: auto;
+
+  margin: 0;
+}
+
 /* LANDING */
 
 .landing {
