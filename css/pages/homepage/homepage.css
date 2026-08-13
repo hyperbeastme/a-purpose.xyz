@@ -445,6 +445,7 @@ body {
 
   scroll-snap-align: start;
   scroll-snap-stop: always;
+  scroll-margin-top: calc(100 / 796 * 100vh);
 }
 
 .catelier-scroll-window {
