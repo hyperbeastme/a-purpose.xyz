@@ -35,7 +35,24 @@ body {
 
 html {
   scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
   scroll-padding-top: var(--header-height);
+}
+
+.project-preview.catelier {
+  /* Snap Catelier’s beginning below the fixed header */
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+
+  /* Preserve your canvas width but allow vertical expansion */
+  position: relative;
+  width: 100%;
+  min-height: 1141px;
+  height: auto;
+}
+
+html.is-zoomed {
+  scroll-snap-type: none;
 }
 
 body {
@@ -151,23 +168,44 @@ main {
   transform: translateY(0);
 }
 
-/* SHARED ARTWORK BEHAVIOR */
+
+/* =========================================================
+   SHARED 834 × 998 ARTBOARD
+   ========================================================= */
 
 .landing,
-.project-preview,
-.about {
+.project-preview:not(.catelier),
+.about,
+.end-of-preview {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  
   width: 100%;
-  margin-inline: auto;
+  max-width: 834px;
+
+  aspect-ratio: 834 / 998;
+
+  margin-right: auto;
+  margin-left: auto;
+
   position: relative;
   overflow: hidden;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+
 }
+
+
+/* Images use the section as their positioning canvas */
 
 .landing img,
 .project-preview img,
 .about img {
   position: absolute;
   display: block;
+
   height: auto;
+
   margin: 0;
 }
 
@@ -182,15 +220,6 @@ main {
 
 .project-preview.catelier {
   isolation: isolate;
-}
-
-/* SECTION SPACING */
-
-.landing + .eternal-bonds,
-.eternal-bonds + .reflections,
-.reflections + .catelier,
-.catelier + .end-of-preview {
-  margin-top: clamp(36px, 5vw, 64px);
 }
 
 /* END OF PREVIEWS */
@@ -652,10 +681,59 @@ body.lightbox-open {
 
   /*
     ================================
-    Catelier
+    CATELIER SECTION
     ================================
   */
 
+  .catelier-scroll-section {
+    width: 100%;
+    max-width: 834px;
+    height: 998px;
+    margin-inline: auto;
+
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+
+  .catelier-scroll-window {
+    width: 100%;
+    height: 834px;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .catelier-scroll-window > .project-preview.catelier {
+    position: relative;
+
+    width: 100%;
+    height: 1141px;
+    min-height: 1141px;
+    max-width: 834px;
+
+    aspect-ratio: auto;
+    margin: 0 auto;
+    overflow: hidden;
+
+    scroll-snap-align: none;
+  }
+
+  .project-preview.catelier {
+    margin-top: 0;
+    isolation: isolate;
+  }
+
+  .project-preview.catelier img{
+    mix-blend-mode: multiply;
+  }
+
+  /*
+    ================================
+    CATELIER IMAGES
+    ================================
+  */
   .catelier-01 {
     left: calc(638.2859 / 834 * 100%);
     top: calc(0 / 1141 * 100%);
