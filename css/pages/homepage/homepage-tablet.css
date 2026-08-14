@@ -36,7 +36,7 @@ body {
 html {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
-  scroll-padding-top: var(--header-height);
+  scroll-padding-top: 0;
 }
 
 .project-preview.catelier {
@@ -96,7 +96,7 @@ main {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  position: fixed;
+  position: static;
   top: 0;
   left: 0;
   z-index: 1000;
@@ -429,7 +429,7 @@ body.lightbox-open {
     position: relative;
     width: 100%;
     max-width:812px;
-    aspect-ratio:812 / 998;
+    aspect-ratio:812 / 1062;
     flex: 0 0 auto;
   }
 
