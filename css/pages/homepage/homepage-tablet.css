@@ -562,126 +562,147 @@ body.lightbox-open {
     left: calc(532.0079 /812 * 100%);
     top: calc(279.392 / 1062 * 100%);
     width: calc(78.2812 /812 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .reflections-of-displacement-02 {
     left: calc(608.4222 /812 * 100%);
     top: calc(587.2376 / 1062 * 100%);
     width: calc(62.0701 /812 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .reflections-of-displacement-03 {
     left: calc(654.1311 /812 * 100%);
     top: calc(590.8951 / 1062 * 100%);
     width: calc(157.8689 /812 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .reflections-of-displacement-04 {
     left: calc(340.475 /812 * 100%);
     top: calc(463.6475 / 1062 * 100%);
     width: calc(152.7137 /812 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .reflections-of-displacement-05 {
     left: calc(726.5062 /812 * 100%);
     top: calc(268.1078 / 1062 * 100%);
     width: calc(85.4938 /812 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .reflections-of-displacement-06 {
     left: calc(518.5526 /812 * 100%);
     top: calc(-16.0269 / 1062 * 100%);
     width: calc(173.8634 /812 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .reflections-of-displacement-07 {
     left: calc(569.8618 /812 * 100%);
     top: calc(225.7586 / 1062 * 100%);
     width: calc(174.9161 /812 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .reflections-of-displacement-08 {
     left: calc(383.981 /812 * 100%);
     top: calc(0 / 1062 * 100%);
     width: calc(165.1909 /812 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .reflections-of-displacement-09 {
     left: calc(606.699 /812 * 100%);
     top: calc(424.72 / 1062 * 100%);
     width: calc(205.301 /812 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .reflections-of-displacement-10 {
     left: calc(480.3424 /812 * 100%);
     top: calc(449.2781 / 1062 * 100%);
     width: calc(68.8296 /812 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .reflections-of-displacement-11 {
     left: calc(467.5464 /812 * 100%);
     top: calc(746.9455 / 1062 * 100%);
     width: calc(185.1147 /812 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .reflections-of-displacement-12 {
     left: calc(238.6195 /812 * 100%);
     top: calc(107.6233 / 1062 * 100%);
     width: calc(164.4577 /812 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .reflections-of-displacement-13 {
     left: calc(0 /812 * 100%);
     top: calc(680.9732 / 1062 * 100%);
     width: calc(331.023 /812 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .reflections-of-displacement-14 {
     left: calc(672.8529 /812 * 100%);
     top: calc(0 / 1062 * 100%);
     width: calc(139.1471 /812 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .reflections-of-displacement-15 {
     left: calc(0 /812 * 100%);
     top: calc(0 / 1062 * 100%);
     width: calc(333.6678 /812 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .reflections-of-displacement-16 {
     left: calc(329.4023 /812 * 100%);
     top: calc(418.3238 / 1062 * 100%);
     width: calc(170.334 /812 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .reflections-of-displacement-17 {
     left: calc(301.8421 /812 * 100%);
     top: calc(245.8811 / 1062 * 100%);
     width: calc(245.4385 /812 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .reflections-of-displacement-18 {
     left: calc(266.3739 /812 * 100%);
     top: calc(0 / 1062 * 100%);
     width: calc(80.8118 /812 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .reflections-of-displacement-19 {
     left: calc(525.4059 /812 * 100%);
     top: calc(535.3063 / 1062 * 100%);
     width: calc(89.4211 /812 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .reflections-title {
     left: calc(169.606 /812 * 100%);
     bottom: calc(0 / 1062 * 100%);
     width: calc(641.1653 /812 * 100%);
+    mix-blend-mode: multiply;
   }
 
   .reflections-disclaimer {
     left: calc(544.8742 /812 * 100%);
     top: calc(985.688 / 1062 * 100%);
     width: calc(265.897 /812 * 100%);
+    mix-blend-mode: multiply;
   }
 
   /*
