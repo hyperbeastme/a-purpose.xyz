@@ -252,6 +252,12 @@ main {
   padding: 64px var(--tablet-margin);
 }
 
+.about img{ 
+  left: calc(239.1992 /812 * 100%);
+  top: calc(162.1695 / 1062 * 100%);
+  width: calc(163.6779 /812 * 100%);
+}
+
 .about-text {
   margin: 0;
   font-size: clamp(28px, 3.6vw, 38px);
@@ -1314,4 +1320,138 @@ body.lightbox-open {
     mix-blend-mode: multiply;
   }
 
+/* ABOUT */
+
+.about {
+  min-height: 620px;
+  padding: 64px var(--tablet-margin);
+}
+
+.about img{ 
+  left: calc(0 /1194 * 100%);
+  top: calc(0 / 638 * 100%);
+  width: calc(0 /1194 * 100%);
+}
+
+.about-text {
+  margin: 0;
+  font-size: clamp(28px, 3.6vw, 38px);
+  font-style: italic;
+  font-weight: 100;
+  line-height: 1.28;
+}
+
+.about-text p {
+  margin: 0;
+}
+
+.about-text p + p {
+  margin-top: 24px;
+}
+
+.location {
+  color: var(--green);
+}
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  min-height: 360px;
+  margin: 64px auto 0;
+  padding: 48px var(--tablet-margin) 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 56px;
+  color: var(--gray);
+}
+
+.footer-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.footer-divider {
+  width: 2px;
+  height: 44px;
+  background: var(--gray);
+}
+
+.footer-social,
+.footer-social img {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-social img {
+  filter: brightness(0) invert(75%);
+}
+
+.footer-name,
+.footer-email {
+  white-space: nowrap;
+  font-size: clamp(20px, 3vw, 28px);
+}
+
+.footer-copyright {
+  margin: 0;
+  font-size: clamp(22px, 3vw, 30px);
+}
+
+/* LIGHTBOX */
+
+.image-lightbox-trigger {
+  cursor: zoom-in;
+}
+
+body.lightbox-open {
+  overflow: hidden;
+}
+
+.image-lightbox[hidden] {
+  display: none;
+}
+
+.image-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(255 255 255 / 96%);
+  cursor: zoom-out;
+}
+
+.image-lightbox-image {
+  width: auto;
+  height: auto;
+  max-width: calc(100vw - 48px);
+  max-height: calc(100vh - 48px);
+  object-fit: contain;
+  cursor: default;
+}
+
+.image-lightbox-close {
+  position: fixed;
+  top: 16px;
+  right: 20px;
+  z-index: 10001;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font: 200 46px/1 Arial, sans-serif;
+  cursor: pointer;
+}
+
+.image-lightbox-trigger:focus-visible,
+.image-lightbox-close:focus-visible {
+  outline: 2px solid var(--black);
+  outline-offset: 4px;
+}
 }
