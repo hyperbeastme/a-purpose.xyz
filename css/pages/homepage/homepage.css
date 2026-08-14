@@ -473,7 +473,7 @@ body {
 
   scroll-snap-align: start;
   scroll-snap-stop: always;
-  scroll-margin-top: calc(80 / 880 * 100vh);
+  scroll-margin-top: calc(80 / 930 * 100vh);
 }
 
 .catelier-scroll-window {
@@ -865,21 +865,21 @@ body.lightbox-open {
    ========================================================= */
 
 .landing + .eternal-bonds {
-  margin-top: calc(30 / 850 * 100vh);
+  margin-top: calc(100 / 850 * 100vh);
 }
 
 .eternal-bonds + .reflections {
-  margin-top: calc(75 / 930 * 100vh);
+  margin-top: calc(100 / 930 * 100vh);
 }
 
 .reflections + .catelier-scroll-section {
-  margin-top: calc(30 / 930 * 100vH);
+  margin-top: calc(100 / 930 * 100vh);
 }
 
 .catelier-scroll-section + .about {
-  margin-top: calc(30 / 1050 * 100vh);
+  margin-top: calc(100 / 930 * 100vh);
 }
 
 .about + .footer {
-  margin-top: calc(50 / 796 * 100vh);
+  margin-top: calc(100 / 930 * 100vh);
 }
