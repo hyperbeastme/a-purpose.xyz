@@ -874,7 +874,10 @@ body.lightbox-open {
 
 /* TABLET LANDSCAPE: 1194 x 638 */
 
-/* =========================================================
+
+@media (orientation: landscape) {
+
+  /* =========================================================
    PAGE SPACING
    ========================================================= */
 
@@ -898,8 +901,6 @@ body.lightbox-open {
   margin-top: calc(20 / 796 * 100vh);
 }
 
-
-@media (orientation: landscape) {
   .landing,
   .project-preview {
     max-width: 1194px;
