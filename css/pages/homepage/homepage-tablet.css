@@ -827,11 +827,11 @@ SEE MORE WORK
   }
 
 
-  /* 
-    =========================================================
-    ABOUT
-    ========================================================= 
-  */
+/* 
+  =========================================================
+  ABOUT
+  ========================================================= 
+*/
 
   .about {
     min-height: 620px;
@@ -889,11 +889,11 @@ SEE MORE WORK
   }
 
 
-  /* 
-    =========================================================
-    BACK TO TOP
-    ========================================================= 
-  */
+/* 
+  =========================================================
+  BACK TO TOP
+  ========================================================= 
+*/
 
   .back-to-top-text {
     position: absolute;
@@ -992,25 +992,25 @@ SEE MORE WORK
   ========================================================= 
 */
 
-.landing + .eternal-bonds {
-  margin-top: calc(84 / 796 * 100vh);
-}
+  .landing + .eternal-bonds {
+    margin-top: calc(84 / 796 * 100vh);
+  }
 
-.eternal-bonds + .reflections {
-  margin-top: calc(84 / 796 * 100vh);
-}
+  .eternal-bonds + .reflections {
+    margin-top: calc(84 / 796 * 100vh);
+  }
 
-.reflections + .catelier-scroll-section {
-  margin-top: calc(84 / 796 * 100vw);
-}
+  .reflections + .catelier-scroll-section {
+    margin-top: calc(84 / 796 * 100vw);
+  }
 
-.catelier-scroll-section + .about {
-  margin-top: calc(84 / 796 * 100vh);
-}
+  .catelier-scroll-section + .about {
+    margin-top: calc(84 / 796 * 100vh);
+  }
 
-.about + .footer {
-  margin-top: calc(20 / 796 * 100vh);
-}
+  .about + .footer {
+    margin-top: calc(20 / 796 * 100vh);
+  }
 
   .landing,
   .project-preview {
