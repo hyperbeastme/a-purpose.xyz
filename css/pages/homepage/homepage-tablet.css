@@ -448,7 +448,7 @@ body.lightbox-open {
   .eternal-bonds-02 {
     left: calc(0 /812 * 100%);
     top: calc(162.1695 / 1062 * 100%);
-    width: calc(163.6779 px /812 * 100%);
+    width: calc(163.6779 /812 * 100%);
   }
 
   .eternal-bonds-03 {
