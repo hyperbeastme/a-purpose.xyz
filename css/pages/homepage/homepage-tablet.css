@@ -84,7 +84,7 @@ select {
 main {
   width: 100%;
   margin: 0;
-  padding: var(--header-height) 0 0;
+  padding: 0;
 }
 
 /* HEADER */
@@ -96,7 +96,7 @@ main {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  position: static;
+  position: relative;
   top: 0;
   left: 0;
   z-index: 1000;
@@ -688,7 +688,7 @@ body.lightbox-open {
   .catelier-scroll-section {
     width: 100%;
     max-width:812px;
-    height: 1141px;
+    height: 1062px;
     margin-inline: auto;
 
     scroll-snap-align: start;
