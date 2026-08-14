@@ -838,6 +838,27 @@ SEE MORE WORK
     padding: 64px var(--tablet-margin);
   }
 
+  .about::before {
+    content: "about";
+
+    position: absolute;
+
+    left: calc(53.6346 / 834 * 100%);
+    bottom: calc(59.347 / 1062 * 100%);
+    width: calc(82.8271 / 834 * 100%);
+    height:59.5928;
+
+    font-family: "futura-pt-condensed", sans-serif;
+    font-size: clamp(16px, 4.1vw, 18px);
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1;
+
+    color: var(--black);
+
+    z-index: 3;
+  }
+
   .about img{ 
     left: calc(239.1992 /812 * 100%);
     top: calc(159.17 / 1062 * 100%);
