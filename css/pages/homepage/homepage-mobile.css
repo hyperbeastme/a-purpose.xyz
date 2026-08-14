@@ -349,6 +349,23 @@ main {
 }
 
 
+@media (orientation: portrait) {
+  .landing,
+  .project-preview:not(.catelier),
+  .about {
+    height: calc(100dvh - var(--header-height));
+    min-height: 732px;
+    aspect-ratio: auto;
+  }
+
+  .catelier-scroll-section,
+  .catelier-scroll-window {
+    height: calc(100dvh - var(--header-height));
+    min-height: 732px;
+  }
+}
+
+
 /* Images use the section as their positioning canvas */
 
 .landing img,
