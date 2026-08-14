@@ -531,7 +531,7 @@ body.lightbox-open {
 
   .eternal-title {
     left: calc(438.8546 /812 * 100%);
-    top: calc(922.6589 / 1062 * 100%);
+    bottom: calc(0 / 1062 * 100%);
     width: calc(373.1456 /812 * 100%);
   }
 
@@ -543,7 +543,7 @@ body.lightbox-open {
 
   .eternal-disclaimer {
     left: calc(667.0588 /812 * 100%);
-    top: calc(1005.6743 / 1062 * 100%);
+    bottom: calc(42.8833 / 1062 * 100%);
     width: calc(144.9414 /812 * 100%);
   }
 
