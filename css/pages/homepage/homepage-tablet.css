@@ -96,7 +96,7 @@ main {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  position: static;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
@@ -429,7 +429,7 @@ body.lightbox-open {
     position: relative;
     width: 100%;
     max-width:812px;
-    aspect-ratio:834 / 1062;
+    aspect-ratio:812 / 998;
     flex: 0 0 auto;
   }
 
