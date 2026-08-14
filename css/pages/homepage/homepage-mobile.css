@@ -362,7 +362,7 @@ main {
   margin: 0;
 }
 
-
+@media (orientation: portrait) and (max-height: 500px) {
 /* =========================================================
    LANDING
    Existing values preserved
@@ -1768,6 +1768,7 @@ body {
   border: 0;
 }
 
+}
 /*
   Paste this entire block at the bottom of:
   css/pages/homepage/homepage-mobile.css
