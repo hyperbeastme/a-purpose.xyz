@@ -849,7 +849,7 @@ SEE MORE WORK
     height:59.5928;
 
     font-family: "futura-pt-condensed", sans-serif;
-    font-size: clamp(16px, 4.1vw, 18px);
+    font-size: clamp(64px, 4.1vw, 18px);
     font-weight: 300;
     font-style: italic;
     line-height: 1;
