@@ -307,18 +307,17 @@ main {
 
 
 /* =========================================================
-   RESPONSIVE DESKTOP-CORRESPONDING CATELIER PROJECT LAYOUT
+   CATELIER PROJECT LAYOUT
+   One proportional copy of the desktop structure
    ========================================================= */
-/* Responsive Catelier project-page composition derived from the 1440 x 1024 desktop boards. */
-*,*::before,*::after{box-sizing:border-box}
-:root{--catelier-max-width:440px}
-html,body{width:100%;max-width:100%;margin:0;overflow-x:hidden}
-body{background:#fff;padding:0;font-family:"futura-pt-condensed",sans-serif}
-.desktop-nav,.header-right{display:none}
-.header{width:100%;height:64px;padding:0 clamp(16px,5vw,40px);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;position:relative;background:#fff;z-index:100}
-.header-left{justify-self:start;font-size:clamp(16px,4vw,24px)}
-.header-center{justify-self:center;font-size:clamp(22px,6vw,38px);white-space:nowrap}
-.mobile-menu-button{display:flex;justify-self:end}
+
+:root { --catelier-max-width:440px; }
+
+main {
+  width:100%;
+  max-width:var(--catelier-max-width);
+  margin:0 auto;
+}
 
 .catelier-section{
  width:100%;max-width:var(--catelier-max-width);min-height:0;aspect-ratio:1440 / 1024;
@@ -335,7 +334,18 @@ body{background:#fff;padding:0;font-family:"futura-pt-condensed",sans-serif}
 .catelier-opening-statement span,.catelier-statement-copy p span{display:block}
 .catelier-statement-copy>p:not(.catelier-opening-statement){font-size:calc(16 / 1440 * min(100vw,var(--catelier-max-width)));margin:calc(18 / 1024 * 100%) 0 0}
 .catelier-statement-image{display:block;width:100%;max-height:calc(760 / 1440 * min(100vw,var(--catelier-max-width)));object-fit:contain}
-.catelier-canvas{height:100%;min-height:0;padding-top:calc(80 / 1024 * 100%);display:grid;gap:calc(18 / 1440 * 100%);align-items:center}
+.catelier-canvas{
+ position:absolute;
+ left:calc(80 / 1440 * 100%);
+ top:calc(80 / 1024 * 100%);
+ width:calc(1280 / 1440 * 100%);
+ height:calc(864 / 1024 * 100%);
+ min-height:0;
+ padding-top:calc(80 / 864 * 100%);
+ display:grid;
+ gap:calc(18 / 1280 * 100%);
+ align-items:center
+ }
 .catelier-canvas img{display:block;width:100%;max-width:100%;max-height:calc(390 / 1440 * min(100vw,var(--catelier-max-width)));object-fit:contain}
 .catelier-moodboard-canvas,.catelier-process-canvas{grid-template-columns:repeat(4,minmax(0,1fr))}
 .catelier-sketch-canvas,.catelier-samples-canvas,.catelier-museum-canvas{grid-template-columns:repeat(3,minmax(0,1fr))}
@@ -352,3 +362,8 @@ body{background:#fff;padding:0;font-family:"futura-pt-condensed",sans-serif}
 .footer a,.footer a:visited,.footer a:hover,.footer a:active{color:#888;text-decoration:none}
 .footer-main .footer-name,.footer-main .footer-email{font-size:18px;white-space:nowrap}
 .project-photography-credit{margin:0 auto;padding:24px clamp(20px,5vw,80px) 0;color:#888;text-align:right}
+
+@media (orientation:landscape) and (max-height:500px) {
+  :root { --catelier-max-width:832px; }
+  .header { max-width:832px; }
+}
