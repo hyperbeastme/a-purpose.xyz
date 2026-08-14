@@ -24,7 +24,18 @@ body{background:#fff;padding:0;font-family:"futura-pt-condensed",sans-serif}
 .catelier-opening-statement span,.catelier-statement-copy p span{display:block}
 .catelier-statement-copy>p:not(.catelier-opening-statement){font-size:calc(16 / 1440 * min(100vw,var(--catelier-max-width)));margin:calc(18 / 1024 * 100%) 0 0}
 .catelier-statement-image{display:block;width:100%;max-height:calc(760 / 1440 * min(100vw,var(--catelier-max-width)));object-fit:contain}
-.catelier-canvas{height:100%;min-height:0;padding-top:calc(80 / 1024 * 100%);display:grid;gap:calc(18 / 1440 * 100%);align-items:center}
+.catelier-canvas{
+ position:absolute;
+ left:calc(80 / 1440 * 100%);
+ top:calc(80 / 1024 * 100%);
+ width:calc(1280 / 1440 * 100%);
+ height:calc(864 / 1024 * 100%);
+ min-height:0;
+ padding-top:calc(80 / 864 * 100%);
+ display:grid;
+ gap:calc(18 / 1280 * 100%);
+ align-items:center
+ }
 .catelier-canvas img{display:block;width:100%;max-width:100%;max-height:calc(390 / 1440 * min(100vw,var(--catelier-max-width)));object-fit:contain}
 .catelier-moodboard-canvas,.catelier-process-canvas{grid-template-columns:repeat(4,minmax(0,1fr))}
 .catelier-sketch-canvas,.catelier-samples-canvas,.catelier-museum-canvas{grid-template-columns:repeat(3,minmax(0,1fr))}
