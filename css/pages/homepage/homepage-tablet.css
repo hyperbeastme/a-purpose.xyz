@@ -353,6 +353,7 @@ body.lightbox-open {
     left: calc(0 / 834 * 100%);
     top: calc(670.2031 / 998 * 100%);
     width: calc(200 / 834 * 100%);
+    position: absolute;
   }
 
   .landing-statement {
