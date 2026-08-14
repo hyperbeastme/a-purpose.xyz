@@ -913,6 +913,54 @@ body.lightbox-open {
 
 /* TABLET LANDSCAPE: 1194 x 638 */
 
+/* =========================================================
+   BACK TO TOP
+
+   Original SVG:
+   X: 197.995
+   Y: 814.707
+   W: 54.67
+
+   Relative Y:
+   814.707 - 200 = 614.707
+   ========================================================= */
+
+.back-to-top-text {
+  position: absolute;
+
+  left: calc(693.7782 / 834 * 100%);
+  top: calc(940.4583 / 1062 * 100%);;
+
+  width: calc(100 / 834 * 100%);
+  margin: 0;
+
+  transform: translate(-50%, -50%);
+
+  font-family: "futura-pt-condensed", sans-serif;
+  font-size: clamp(16px, 4.1vw, 18px);
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1;
+
+  text-align: center;
+  white-space: nowrap;
+}
+
+.back-to-top-text a {
+  position: relative;
+  display: inline-block;
+
+  color: var(--black);
+  text-decoration: none;
+}
+
+.back-to-top-text a::before {
+  content: "";
+
+  position: absolute;
+  inset: -14px -22px;
+}
+
 
 @media (orientation: landscape) {
 
