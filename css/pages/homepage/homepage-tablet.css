@@ -411,6 +411,10 @@ body.lightbox-open {
 
 
 @media (orientation: portrait) {
+  .about-text {
+    position: absolute;
+  }
+
   .landing,
   .project-preview {
     max-width:812px;
