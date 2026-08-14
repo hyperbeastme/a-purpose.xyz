@@ -259,6 +259,9 @@ main {
 }
 
 .about-text {
+  left: calc(216.5547 /812 * 100%);
+  top: calc(644.3162 / 1062 * 100%);
+  width: calc(378.8906 /812 * 100%);
   margin: 0;
   font-size: clamp(28px, 3.6vw, 38px);
   font-style: italic;
