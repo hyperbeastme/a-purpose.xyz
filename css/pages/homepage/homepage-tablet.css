@@ -342,6 +342,31 @@ body.lightbox-open {
 
 /* TABLET PORTRAIT: 834 x 998 */
 
+/* =========================================================
+   PAGE SPACING
+   ========================================================= */
+
+.landing + .eternal-bonds {
+  margin-top: calc(84 / 998 * 100vh);
+}
+
+.eternal-bonds + .reflections {
+  margin-top: calc(84 / 998 * 100vh);
+}
+
+.reflections + .catelier-scroll-section {
+  margin-top: calc(84 / 998 * 100vw);
+}
+
+.catelier-scroll-section + .about {
+  margin-top: calc(84 / 998 * 100vh);
+}
+
+.about + .footer {
+  margin-top: calc(20 / 998 * 100vh);
+}
+
+
 @media (orientation: portrait) {
   .landing,
   .project-preview {
@@ -770,6 +795,31 @@ body.lightbox-open {
 }
 
 /* TABLET LANDSCAPE: 1194 x 638 */
+
+/* =========================================================
+   PAGE SPACING
+   ========================================================= */
+
+.landing + .eternal-bonds {
+  margin-top: calc(84 / 796 * 100vh);
+}
+
+.eternal-bonds + .reflections {
+  margin-top: calc(84 / 796 * 100vh);
+}
+
+.reflections + .catelier-scroll-section {
+  margin-top: calc(84 / 440 * 100vw);
+}
+
+.catelier-scroll-section + .about {
+  margin-top: calc(84 / 796 * 100vh);
+}
+
+.about + .footer {
+  margin-top: calc(20 / 796 * 100vh);
+}
+
 
 @media (orientation: landscape) {
   .landing,
