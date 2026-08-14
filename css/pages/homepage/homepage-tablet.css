@@ -844,8 +844,8 @@ SEE MORE WORK
     position: absolute;
 
     left: calc(53.6346 / 834 * 100%);
-    bottom: calc(59.347 / 1062 * 100%);
-    width: calc(82.8271 / 834 * 100%);
+    top: calc(59.347 / 1062 * 100%);
+    width: calc(150 / 834 * 100%);
     height:59.5928;
 
     font-family: "futura-pt-condensed", sans-serif;
