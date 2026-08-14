@@ -215,7 +215,7 @@ body {
 
 .eternal-bonds-05 {
   left: calc(1024.8898 / 1600 * 100%);
-  bottom: calc(0 / 930 * 100%);
+  top: calc(0 / 930 * 100%);
   width: calc(189.4747 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
@@ -299,7 +299,7 @@ body {
 
 .eternal-text {
   left: calc(850 / 1600 * 100%);
-  bottom: calc(563.5977 / 930 * 100%);
+  top: calc(563.5977 / 930 * 100%);
   width: calc(498.2514 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
