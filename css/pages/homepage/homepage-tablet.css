@@ -1951,3 +1951,16 @@ SEE MORE WORK
   mix-blend-mode: multiply;
 
 }
+
+
+/* Tablet landscape canvas width correction */
+@media (orientation: landscape) {
+  .landing,
+  .project-preview:not(.catelier),
+  .about,
+  .end-of-preview {
+    width: 100%;
+    max-width: 1194px;
+    aspect-ratio: 1194 / 638;
+  }
+}
