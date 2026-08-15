@@ -10,9 +10,13 @@
 .reflections-section {
     position:relative;
     width:1600px;
-    height:850px;
+    height:930px;
     margin:0 auto;
     overflow:hidden;
+}
+
+.reflections-section:first-of-type {
+    height:850px;
 }
 
 .reflections-section h2 {
@@ -27,15 +31,15 @@
 }
 
 .reflections-section:has(> .reflections-canvas) {
-    height:850px;
+    height:930px;
 }
 
 .reflections-canvas {
     position:absolute;
     inset:0;
-    top:108.6031px;
+    top:118.8246px;
     width:1600px;
-    height:741.3969px;
+    height:811.1754px;
 }
 
 .reflections-canvas img {
@@ -146,12 +150,12 @@
 
 .reflections-sketch-01 {
     left:188.8889px;
-    top:57.9216px;
+    top:63.373px;
 }
 
 .reflections-sketch-02 {
     left:188.8889px;
-    top:363.1687px;
+    top:397.3493px;
 }
 
 
@@ -185,7 +189,7 @@
 /* EDITORIAL */
 
 .reflections-editorial-canvas {
-    top:108.6031px;
+    top:118.8246px;
 }
 
 .reflections-editorial-01 { left:680px; top:356.5801px; width:282.2222px; }
