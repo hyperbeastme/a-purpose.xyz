@@ -113,11 +113,16 @@ main {
 .catelier-samples > h2,
 .catelier-process > h2,
 .catelier-museum > h2 {
-  position:absolute;
-  left:24px;
-  top:40px;
-  z-index:2;
-  margin:0;
+  position: absolute;
+  left: 24px;
+  top: 40px;
+  z-index: 2;
+  margin: 0;
+
+  font-family: "futura-pt-condensed", sans-serif;
+  font-size: 44px;
+  font-weight: 300;
+  line-height: 1;
 }
 
 .catelier-canvas {
