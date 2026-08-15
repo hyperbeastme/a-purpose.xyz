@@ -86,7 +86,7 @@ main {
 
 .catelier-opening{
   width:1600px;
-  min-height:850px;
+  min-height:880px;
   margin:0 auto;
   position:relative;
   overflow:hidden;
@@ -118,7 +118,7 @@ main {
 
 .catelier-process{
   width:1600px;
-  min-height: 960px;
+  min-height: 2400px;
   margin:0 auto;
   position:relative;
   overflow:hidden;
@@ -182,9 +182,9 @@ main {
 
 .catelier-statement {
   position:absolute;
-  left:calc(220.3847 / 1600 * 100%);
-  top:calc(190.8672 / 944 * 100%);
-  width:calc(561.8462 / 1600 * 100%);
+  left:calc(278.3462 / 1600 * 100%);
+  top:calc(118.8672 / 880 * 100%);
+  width:calc(505.6616 / 1600 * 100%);
 }
 
 .catelier-opening-statement {
@@ -204,9 +204,9 @@ main {
 }
 
 .catelier-statement-image {
-  left:calc(888.8889 / 1600 * 100%);
-  top:calc(145 / 944 * 100%);
-  width:calc(533.3333 / 1600 * 100%);
+  left:calc(884.0078 / 1600 * 100%);
+  top:calc(95.6228 / 880 * 100%);
+  width:calc(437.646 / 1600 * 100%);
   max-height:760px;
   position: absolute;
 }
