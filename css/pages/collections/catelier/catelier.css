@@ -102,7 +102,7 @@ main {
 
 .catelier-sketches{
   width:1600px;
-  min-height 960px;
+  min-height: 960px;
   margin:0 auto;
   position:relative;
   overflow:hidden;
@@ -110,7 +110,7 @@ main {
 
 .catelier-samples{
   width:1600px;
-  min-height 960px;
+  min-height: 960px;
   margin:0 auto;
   position:relative;
   overflow:hidden;
@@ -118,7 +118,7 @@ main {
 
 .catelier-process{
   width:1600px;
-  min-height 960px;
+  min-height: 960px;
   margin:0 auto;
   position:relative;
   overflow:hidden;
@@ -126,7 +126,7 @@ main {
 
 .catelier-museum {
   width:1600px;
-  min-height 960px;
+  min-height: 960px;
   margin:0 auto;
   position:relative;
   overflow:hidden;
@@ -139,7 +139,7 @@ main {
 .catelier-samples,
 .catelier-process,
 .catelier-museum {
-  min-height 960px;
+  min-height: 960px;
 }
 
 .catelier-mood > h2,
