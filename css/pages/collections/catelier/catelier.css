@@ -132,31 +132,6 @@ main {
   overflow:hidden;
 }
 
-.catelier-opening {
-  min-height:850px;
-  min-height: 960px;
-  margin:0 auto;
-  position:relative;
-  overflow:hidden;
-}
-
-.catelier-samples,
-.catelier-museum {
-  min-height: 960px;
-  min-height: 960px;
-  margin:0 auto;
-  position:relative;
-  overflow:hidden;
-}
-
-.catelier-process{
-  min-height: 2880px;
-  min-height: 960px;
-  margin:0 auto;
-  position:relative;
-  overflow:hidden;
-}
-
 .catelier-mood > h2,
 .catelier-sketches > h2,
 .catelier-samples > h2,
