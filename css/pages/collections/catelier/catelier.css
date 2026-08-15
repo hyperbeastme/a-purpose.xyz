@@ -82,36 +82,12 @@ body {
 
 /* CATELIER PROJECT: independent Illustrator section artboards */
 
-.catelier-section {
+.catelier-opening {
   width:1440px;
   min-height:1024px;
   margin:0 auto;
   position:relative;
   overflow:hidden;
-}
-
-.catelier-section h2 {
-  position:absolute;
-  width:1px;
-  height:1px;
-  overflow:hidden;
-  clip-path:inset(50%);
-  white-space:nowrap;
-}
-
-.catelier-statement-copy,
-.catelier-statement-image,
-.catelier-01 img {
-  position:absolute;
-  display:block;
-  height:auto;
-  margin:0;
-}
-
-.catelier-statement-copy {
-  left:calc(161.3 / 1440 * 100%);
-  top:calc(153.3 / 1024 * 100%);
-  width:calc(480 / 1440 * 100%);
 }
 
 .catelier-opening-statement {
@@ -127,12 +103,14 @@ body {
   top:calc(145 / 1024 * 100%);
   width:calc(480 / 1440 * 100%);
   max-height:760px;
-  object-fit:contain;
+  position: absolute;
 }
 
 .catelier-mood {
   position:relative;
   aspect-ratio: 1440px / 1024px;
+  overflow:hidden;
+  margin:0 auto;
 }
 
 .catelier-mood-01 {
