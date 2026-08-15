@@ -16,11 +16,12 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+main {
   background:white;
   padding:0;
   font-family:"futura-pt-condensed", sans-serif;
 }
+
 /* HEADER */
 .desktop-nav {
     display: flex;
