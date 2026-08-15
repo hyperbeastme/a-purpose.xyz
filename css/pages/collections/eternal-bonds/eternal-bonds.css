@@ -92,11 +92,15 @@ body {
 
 .eternal-section {
   width:1600px;
-  height:850px;
+  height:930px;
   margin:0 auto;
   padding:80px;
   position:relative;
   overflow:hidden;
+}
+
+.eternal-section:first-of-type {
+  height:850px;
 }
 
 .eternal-section h2 {
@@ -162,15 +166,15 @@ body {
 
 .eternal-section:has(> .eternal-moodboard-canvas),
 .eternal-section:has(> .eternal-process-layout) {
-  height:615.4174px;
+  height:673.339px;
 }
 
 .eternal-moodboard-canvas {
   position:absolute;
   inset:0;
-  top:108.6031px;
+  top:118.8246px;
   width:1600px;
-  height:741.3969px;
+  height:811.1754px;
 }
 
 .eternal-moodboard-canvas img {
@@ -182,43 +186,43 @@ body {
 
 .mood-01 {
   right:327.6334px;
-  top:158.5292px;
+  top:173.4496px;
   width:360.2204px;
 }
 
 .mood-02 {
   right:218.6868px;
-  top:416.6211px;
+  top:455.8325px;
   width:317.2721px;
 }
 
 .mood-03 {
   right:574.8478px;
-  top:441.9618px;
+  top:483.5582px;
   width:461.9919px;
 }
 
 .mood-04 {
   right:1075.7282px;
-  top:314.3162px;
+  top:343.8989px;
   width:346.4934px;
 }
 
 .mood-05 {
   right:1075.7282px;
-  top:117.3323px;
+  top:128.3753px;
   width:346.4934px;
 }
 
 .mood-06 {
   right:0;
-  top:67.4303px;
+  top:73.7767px;
   width:284.2821px;
 }
 
 .mood-07 {
   right:726.7428px;
-  top:107.9816px;
+  top:118.1446px;
   width:305.3041px;
 }
 
@@ -227,9 +231,9 @@ body {
 .eternal-sketch-layout {
   position:absolute;
   left:88.8889px;
-  top:124.5117px;
+  top:136.2304px;
   width:1422.2222px;
-  height:659.082px;
+  height:721.1132px;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -240,7 +244,7 @@ body {
   width:auto;
   max-width:1244.4444px;
   height:auto;
-  max-height:647.4609px;
+  max-height:708.3984px;
   mix-blend-mode:multiply;
 }
 
@@ -249,9 +253,9 @@ body {
 .eternal-process-layout {
   position:absolute;
   inset:0;
-  top:108.6031px;
+  top:118.8246px;
   width:1600px;
-  height:741.3969px;
+  height:811.1754px;
 }
 
 .eternal-process-layout img {
@@ -263,49 +267,49 @@ body {
 
 .process-01{
   right:696.4167px;
-  top:221.1448px;
+  top:241.9584px;
   width:262.48px;
 }
 
 .process-02{
   right:1275.6827px;
-  top:361.9001px;
+  top:395.9613px;
   width:128.1158px;
 }
 
 .process-03{
   right:407.7734px;
-  top:496.993px;
+  top:543.7688px;
   width:233.11px;
 }
 
 .process-04{
   right:407.7734px;
-  top:257.3458px;
+  top:281.5666px;
   width:235.2px;
 }
 
 .process-05{
   right:1086.6712px;
-  top:361.6489px;
+  top:395.6864px;
   width:144.2856px;
 }
 
 .process-06{
   right:57.0979px;
-  top:257.3458px;
+  top:281.5666px;
   width:295.12px;
 }
 
 .process-07{
   right:641.9356px;
-  top:36.2009px;
+  top:39.608px;
   width:316.9622px;
 }
 
 .process-08{
   right:696.4179px;
-  top:362.3181px;
+  top:396.4186px;
   width:334.6989px;
 }
 
@@ -317,13 +321,13 @@ body {
 
 .process-10{
   right:116.2739px;
-  top:551.2945px;
+  top:603.181px;
   width:235.944px;
 }
 
 .process-11{
   right:992.0333px;
-  top:533.194px;
+  top:583.377px;
   width:431.1111px;
 }
 
@@ -335,7 +339,7 @@ body {
 
 .process-13{
   right:696.4167px;
-  top:533.194px;
+  top:583.377px;
   width:240.0611px;
 }
 
@@ -343,7 +347,7 @@ body {
 
 .eternal-filmstrip {
   width:1777.7778px;
-  height:1680.2326px;
+  height:1838.3721px;
   margin:0 auto;
   padding:0 80px;
   position:relative;
@@ -353,16 +357,16 @@ body {
 .eternal-filmstrip h2 {
   position:absolute;
   left:26.6667px;
-  top:158.1395px;
+  top:173.0232px;
   z-index:2;
 }
 
 .eternal-filmstrip-layout {
   position:absolute;
   left:109.9072px;
-  top:296.5116px;
+  top:324.4186px;
   width:1380.1856px;
-  height:491.1834px;
+  height:537.4124px;
 }
 
 .eternal-filmstrip-layout img {
@@ -376,7 +380,7 @@ body {
 
 .eternal-editorial {
   width:1777.7778px;
-  height:600.0831px;
+  height:656.5615px;
   margin:0 auto;
   padding:0 80px;
   position:relative;
@@ -386,16 +390,16 @@ body {
 .eternal-editorial h2 {
   position:absolute;
   left:26.6667px;
-  top:56.4784px;
+  top:61.794px;
   z-index:2;
 }
 
 .eternal-editorial-layout {
   position:absolute;
   left:125.4189px;
-  top:103.2542px;
+  top:112.9722px;
   width:1349.1622px;
-  height:643.4917px;
+  height:704.0556px;
   margin:0;
 }
 
@@ -408,200 +412,200 @@ body {
 
 .editorial-disclaimer {
   right:0;
-  top:22.5882px;
+  top:24.7141px;
   width:305.3581px;
-  height:17.3661px;
+  height:19.0006px;
 }
 
 .editorial-01 {
   left:169.9678px;
-  top:16.5051px;
+  top:18.0585px;
   width:158.4789px;
 }
 
 .editorial-02 {
   left:0.02px;
-  top:16.4952px;
+  top:18.0477px;
   width:158.4789px;
 }
 
 .editorial-03 {
   left:339.9156px;
-  top:16.4952px;
+  top:18.0477px;
   width:158.4789px;
 }
 
 .editorial-04 {
   left:509.8633px;
-  top:16.4952px;
+  top:18.0477px;
   width:158.4789px;
 }
 
 .editorial-05 {
   left:1019.1789px;
-  top:492.0328px;
+  top:538.3418px;
   width:158.4789px;
 }
 
 .editorial-06 {
   left:509.8444px;
-  top:491.9756px;
+  top:538.2792px;
   width:158.4789px;
 }
 
 .editorial-07 {
   left:169.9478px;
-  top:492.0229px;
+  top:538.3309px;
   width:158.4789px;
 }
 
 .editorial-08 {
   left:0px;
-  top:492.0137px;
+  top:538.3209px;
   width:158.4789px;
 }
 
 .editorial-09 {
   left:850.35px;
-  top:492.0137px;
+  top:538.3209px;
   width:158.4789px;
 }
 
 .editorial-10 {
   left:680.3822px;
-  top:491.9947px;
+  top:538.3001px;
   width:158.4789px;
 }
 
 .editorial-11 {
   left:1190.3051px;
-  top:491.9948px;
+  top:538.3002px;
   width:158.7751px;
 }
 
 .editorial-12 {
   left:339.9156px;
-  top:491.9382px;
+  top:538.2383px;
   width:158.4789px;
 }
 
 .editorial-13 {
   left:339.9156px;
-  top:333.457px;
+  top:364.8412px;
   width:158.4789px;
 }
 
 .editorial-14 {
   left:850.33px;
-  top:333.4951px;
+  top:364.8829px;
   width:158.4789px;
 }
 
 .editorial-15 {
   left:0px;
-  top:333.4951px;
+  top:364.8829px;
   width:158.4789px;
 }
 
 .editorial-16 {
   left:1190.3051px;
-  top:333.5139px;
+  top:364.9034px;
   width:158.8942px;
 }
 
 .editorial-17 {
   left:680.3622px;
-  top:333.476px;
+  top:364.862px;
   width:158.4789px;
 }
 
 .editorial-18 {
   left:169.9478px;
-  top:333.5043px;
+  top:364.8929px;
   width:158.5978px;
 }
 
 .editorial-19 {
   left:509.8444px;
-  top:333.457px;
+  top:364.8412px;
   width:158.4789px;
 }
 
 .editorial-20 {
   left:1019.1789px;
-  top:333.5142px;
+  top:364.9038px;
   width:158.4789px;
 }
 
 .editorial-21 {
   left:1019.1789px;
-  top:174.9955px;
+  top:191.4657px;
   width:158.4789px;
 }
 
 .editorial-22 {
   left:1190.2852px;
-  top:174.9953px;
+  top:191.4654px;
   width:158.9232px;
 }
 
 .editorial-23 {
   left:850.33px;
-  top:174.9765px;
+  top:191.4449px;
   width:158.4789px;
 }
 
 .editorial-24 {
   left:0px;
-  top:174.9765px;
+  top:191.4449px;
   width:158.4789px;
 }
 
 .editorial-25 {
   left:169.9478px;
-  top:174.9856px;
+  top:191.4548px;
   width:158.4789px;
 }
 
 .editorial-26 {
   left:339.9156px;
-  top:174.9765px;
+  top:191.4449px;
   width:158.4789px;
 }
 
 .editorial-27 {
   left:509.8633px;
-  top:174.9765px;
+  top:191.4449px;
   width:158.4789px;
 }
 
 .editorial-28 {
   left:680.3822px;
-  top:174.9955px;
+  top:191.4657px;
   width:158.4789px;
 }
 
 .editorial-29 {
   left:1190.2852px;
-  top:16.4767px;
+  top:18.0274px;
   width:158.9232px;
 }
 
 .editorial-30 {
   left:850.35px;
-  top:16.4952px;
+  top:18.0477px;
   width:158.4789px;
 }
 
 .editorial-31 {
   left:1019.1789px;
-  top:16.4769px;
+  top:18.0277px;
   width:158.4789px;
 }
 
 .editorial-32 {
   left:680.3622px;
-  top:16.4769px;
+  top:18.0277px;
   width:158.4789px;
 }
 
@@ -609,7 +613,7 @@ body {
 
 .eternal-runway {
   width:1777.7778px;
-  height:615.4174px;
+  height:673.339px;
   margin:0 auto;
   padding:0 80px;
   position:relative;
@@ -619,16 +623,16 @@ body {
 .eternal-runway h2 {
   position:absolute;
   left:26.6667px;
-  top:57.9216px;
+  top:63.373px;
   z-index:2;
 }
 
 .eternal-runway-layout {
   position:absolute;
   left:88.3333px;
-  top:108.6031px;
+  top:118.8246px;
   width:1423.3333px;
-  height:741.3969px;
+  height:811.1754px;
 }
 
 .eternal-runway-layout img {
@@ -640,7 +644,7 @@ body {
 
 .runway-01 {
   left:1.1111px;
-  top:25.6274px;
+  top:28.0394px;
   width:347.6133px;
 }
 
@@ -652,37 +656,37 @@ body {
 
 .runway-03 {
   left:1165.8811px;
-  top:32.4108px;
+  top:35.4612px;
   width:257.3244px;
 }
 
 .runway-04 {
   left:772.5111px;
-  top:30.9034px;
+  top:33.812px;
   width:332.1678px;
 }
 
 .runway-05 {
   left:0;
-  top:431.6639px;
+  top:472.2911px;
   width:278.7556px;
 }
 
 .runway-06 {
   left:337.02px;
-  top:391.1723px;
+  top:427.9885px;
   width:259.5833px;
 }
 
 .runway-07 {
   left:655.4478px;
-  top:406.885px;
+  top:445.1801px;
   width:343.4667px;
 }
 
 .runway-08 {
   left:1055.7689px;
-  top:381.5023px;
+  top:417.4084px;
   width:367.25px;
 }
 
