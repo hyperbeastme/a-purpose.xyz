@@ -136,27 +136,27 @@ body {
 }
 
 .catelier-mood-01 {
-  left:calc(996.706 / 1440 * 100%);
-  top:calc(533.511 / 1024 * 100%);
-  width:calc(166.118 / 1440 * 100%);
+  left:calc(852.0157 / 1440 * 100%);
+  top:calc(589.6514 / 1024 * 100%);
+  width:calc(507.9843 / 1440 * 100%);
 }
 
 .catelier-mood-02 {
-  left:calc(844.766 / 1440 * 100%);
-  top:calc(542.211 / 1024 * 100%);
-  width:calc(131.94 / 1440 * 100%);
+  left:calc(852.0157 / 1440 * 100%);
+  top:calc(589.6514 / 1024 * 100%);
+  width:calc(507.9843 / 1440 * 100%);
 }
 
 .catelier-mood-03 {
-  left:calc(595.335 / 1440 * 100%);
-  top:calc(450.168 / 1024 * 100%);
-  width:calc(229.431 / 1440 * 100%);
+  left:calc(620.0585 / 1440 * 100%);
+  top:calc(97.4251 / 1024 * 100%);
+  width:calc(739.9415 / 1440 * 100%);
 }
 
 .catelier-mood-04 {
-  left:calc(408.919 / 1440 * 100%);
-  top:calc(112.905 / 1024 * 100%);
-  width:calc(166.416 / 1440 * 100%);
+  left:calc(385.3625 / 1440 * 100%);
+  top:calc(57.0817 / 1024 * 100%);
+  width:calc(265.3487 / 1440 * 100%);
 }
 
 .catelier-mood-05 {
@@ -184,12 +184,36 @@ body {
 }
 
 /* Sketches: one Illustrator row inside its own 1440 x 1024 artboard. */
-.catelier-sketch-01 { left:calc(112 / 1440 * 100%); top:calc(170 / 1024 * 100%); width:calc(128 / 1440 * 100%); }
-.catelier-sketch-02 { left:calc(320 / 1440 * 100%); top:calc(120 / 1024 * 100%); width:calc(118 / 1440 * 100%); }
-.catelier-sketch-03 { left:calc(520 / 1440 * 100%); top:calc(185 / 1024 * 100%); width:calc(112 / 1440 * 100%); }
-.catelier-sketch-04 { left:calc(720 / 1440 * 100%); top:calc(105 / 1024 * 100%); width:calc(122 / 1440 * 100%); }
-.catelier-sketch-05 { left:calc(930 / 1440 * 100%); top:calc(155 / 1024 * 100%); width:calc(118 / 1440 * 100%); }
-.catelier-sketch-06 { left:calc(1132 / 1440 * 100%); top:calc(125 / 1024 * 100%); width:calc(116 / 1440 * 100%); }
+.catelier-sketch-01 { 
+  left:calc(761.7239 / 1440 * 100%); 
+  top:calc(170 / 1024 * 100%); 
+  width:calc(414.3069 / 1440 * 100%); 
+}
+.catelier-sketch-02 { 
+  left:calc(320 / 1440 * 100%); 
+  top:calc(120 / 1024 * 100%); 
+  width:calc(118 / 1440 * 100%); 
+}
+.catelier-sketch-03 { 
+  left:calc(520 / 1440 * 100%); 
+  top:calc(185 / 1024 * 100%); 
+  width:calc(112 / 1440 * 100%); 
+}
+.catelier-sketch-04 { 
+  left:calc(720 / 1440 * 100%); 
+  top:calc(105 / 1024 * 100%); 
+  width:calc(122 / 1440 * 100%); 
+}
+.catelier-sketch-05 { 
+  left:calc(930 / 1440 * 100%); 
+  top:calc(155 / 1024 * 100%); 
+  width:calc(118 / 1440 * 100%); 
+}
+.catelier-sketch-06 { 
+  left:calc(1132 / 1440 * 100%); 
+  top:calc(125 / 1024 * 100%); 
+  width:calc(116 / 1440 * 100%); 
+}
 
 .catelier-section:has(.catelier-samples-01) {
   min-height:1256px;
