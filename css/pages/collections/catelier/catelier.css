@@ -102,7 +102,7 @@ main {
 
 .catelier-sketches{
   width:1600px;
-  min-height:930px;
+  min-height 960px;
   margin:0 auto;
   position:relative;
   overflow:hidden;
@@ -110,7 +110,7 @@ main {
 
 .catelier-samples{
   width:1600px;
-  min-height:930px;
+  min-height 960px;
   margin:0 auto;
   position:relative;
   overflow:hidden;
@@ -118,7 +118,7 @@ main {
 
 .catelier-process{
   width:1600px;
-  min-height:930px;
+  min-height 960px;
   margin:0 auto;
   position:relative;
   overflow:hidden;
@@ -126,7 +126,7 @@ main {
 
 .catelier-museum {
   width:1600px;
-  min-height:930px;
+  min-height 960px;
   margin:0 auto;
   position:relative;
   overflow:hidden;
@@ -139,7 +139,7 @@ main {
 .catelier-samples,
 .catelier-process,
 .catelier-museum {
-  min-height:930px;
+  min-height 960px;
 }
 
 .catelier-mood > h2,
@@ -289,32 +289,32 @@ SKETCH
 
 .catelier-sketch { 
   left:calc(846.3599 / 1600 * 100%); 
-  top:calc(154.3946 / 930 * 100%); 
+  top:calc(154.3946 / 960 * 100%); 
   width:calc(460.341 / 1600 * 100%); 
 }
 .catelier-sketch { 
   left:calc(355.5556 / 1600 * 100%); 
-  top:calc(108.9844 / 930 * 100%); 
+  top:calc(108.9844 / 960 * 100%); 
   width:calc(131.1111 / 1600 * 100%); 
 }
 .catelier-sketch { 
   left:calc(577.7778 / 1600 * 100%); 
-  top:calc(168.0176 / 930 * 100%); 
+  top:calc(168.0176 / 960 * 100%); 
   width:calc(124.4444 / 1600 * 100%); 
 }
 .catelier-sketch { 
   left:calc(800 / 1600 * 100%); 
-  top:calc(95.3613 / 930 * 100%); 
+  top:calc(95.3613 / 960 * 100%); 
   width:calc(135.5556 / 1600 * 100%); 
 }
 .catelier-sketch { 
   left:calc(1033.3333 / 1600 * 100%); 
-  top:calc(140.7715 / 930 * 100%); 
+  top:calc(140.7715 / 960 * 100%); 
   width:calc(131.1111 / 1600 * 100%); 
 }
 .catelier-sketch { 
   left:calc(1257.7778 / 1600 * 100%); 
-  top:calc(113.5254 / 930 * 100%); 
+  top:calc(113.5254 / 960 * 100%); 
   width:calc(128.8889 / 1600 * 100%); 
 }
 
@@ -326,37 +326,37 @@ SAMPLES
 
 .catelier-samples {
   left:calc(142.4878 / 1600 * 100%);
-  top:calc(253.3629 / 930 * 100%);
+  top:calc(253.3629 / 960 * 100%);
   width:calc(247.7522 / 1600 * 100%);
 }
 
 .catelier-samples {
   left:calc(441.5456 / 1600 * 100%);
-  top:calc(253.3629 / 930 * 100%);
+  top:calc(253.3629 / 960 * 100%);
   width:calc(247.7522 / 1600 * 100%);
 }
 
 .catelier-samples {
   left:calc(740.65 / 1600 * 100%);
-  top:calc(59.2356 / 930 * 100%);
+  top:calc(59.2356 / 960 * 100%);
   width:calc(418.2522 / 1600 * 100%);
 }
 
 .catelier-samples {
   left:calc(1210.2533 / 1600 * 100%);
-  top:calc(222.3011 / 930 * 100%);
+  top:calc(222.3011 / 960 * 100%);
   width:calc(277.1378 / 1600 * 100%);
 }
 
 .catelier-samples {
   left:calc(106.9378 / 1600 * 100%);
-  top:calc(587.3217 / 930 * 100%);
+  top:calc(587.3217 / 960 * 100%);
   width:calc(234.87 / 1600 * 100%);
 }
 
 .catelier-samples {
   left:calc(394.55 / 1600 * 100%);
-  top:calc(520.7674 / 930 * 100%);
+  top:calc(520.7674 / 960 * 100%);
   width:calc(294.7478 / 1600 * 100%);
 }
 
@@ -368,67 +368,67 @@ PROCESS
 
 .catelier-process {
   left:calc(138.9456 / 1600 * 100%);
-  top:calc(322.9267 / 930 * 100%);
+  top:calc(322.9267 / 960 * 100%);
   width:calc(433.1044 / 1600 * 100%);
 }
 
 .catelier-process {
   left:calc(595.9478 / 1600 * 100%);
-  top:calc(101.6953 / 930 * 100%);
+  top:calc(101.6953 / 960 * 100%);
   width:calc(460.4844 / 1600 * 100%);
 }
 
 .catelier-process {
   left:calc(595.9478 / 1600 * 100%);
-  top:calc(226.7029 / 930 * 100%);
+  top:calc(226.7029 / 960 * 100%);
   width:calc(460.4844 / 1600 * 100%);
 }
 
 .catelier-process {
   left:calc(577.5078 / 1600 * 100%);
-  top:calc(27.7405 / 930 * 100%);
+  top:calc(27.7405 / 960 * 100%);
   width:calc(497.3633 / 1600 * 100%);
 }
 
 .catelier-process {
   left:calc(1100.8511 / 1600 * 100%);
-  top:calc(350.0288 / 930 * 100%);
+  top:calc(350.0288 / 960 * 100%);
   width:calc(357.3333 / 1600 * 100%);
 }
 
 .catelier-process {
   left:calc(111.6256 / 1600 * 100%);
-  top:calc(543.9817 / 930 * 100%);
+  top:calc(543.9817 / 960 * 100%);
   width:calc(427.7044 / 1600 * 100%);
 }
 
 .catelier-process {
   left:calc(160.3756 / 1600 * 100%);
-  top:calc(192.1411 / 930 * 100%);
+  top:calc(192.1411 / 960 * 100%);
   width:calc(361.5767 / 1600 * 100%);
 }
 
 .catelier-process {
   left:calc(1100.8511 / 1600 * 100%);
-  top:calc(545.6894 / 930 * 100%);
+  top:calc(545.6894 / 960 * 100%);
   width:calc(330.9333 / 1600 * 100%);
 }
 
 .catelier-process {
   left:calc(1053.8989 / 1600 * 100%);
-  top:calc(693.8601 / 930 * 100%);
+  top:calc(693.8601 / 960 * 100%);
   width:calc(375.85 / 1600 * 100%);
 }
 
 .catelier-process {
   left:calc(594.8844 / 1600 * 100%);
-  top:calc(601.666 / 930 * 100%);
+  top:calc(601.666 / 960 * 100%);
   width:calc(403.4578 / 1600 * 100%);
 }
 
 .catelier-process {
   left:calc(1130.4267 / 1600 * 100%);
-  top:calc(247.7288 / 930 * 100%);
+  top:calc(247.7288 / 960 * 100%);
   width:calc(257.3244 / 1600 * 100%);
 }
 
@@ -440,55 +440,55 @@ MUSEUM
 
 .catelier-museum {
   left:calc(100.1533 / 1600 * 100%);
-  top:calc(184.8661 / 930 * 100%);
+  top:calc(184.8661 / 960 * 100%);
   width:calc(591.21 / 1600 * 100%);
 }
 
 .catelier-museum {
   left:calc(758.0311 / 1600 * 100%);
-  top:calc(573.3506 / 930 * 100%);
+  top:calc(573.3506 / 960 * 100%);
   width:calc(514.3133 / 1600 * 100%);
 }
 
 .catelier-museum {
   left:calc(100.1533 / 1600 * 100%);
-  top:calc(269.8618 / 930 * 100%);
+  top:calc(269.8618 / 960 * 100%);
   width:calc(591.21 / 1600 * 100%);
 }
 
 .catelier-museum {
   left:calc(758.0311 / 1600 * 100%);
-  top:calc(30.9613 / 930 * 100%);
+  top:calc(30.9613 / 960 * 100%);
   width:calc(735.0433 / 1600 * 100%);
 }
 
 .catelier-museum {
   left:calc(758.0311 / 1600 * 100%);
-  top:calc(74.4314 / 930 * 100%);
+  top:calc(74.4314 / 960 * 100%);
   width:calc(334.1667 / 1600 * 100%);
 }
 
 .catelier-museum {
   left:calc(1158.8644 / 1600 * 100%);
-  top:calc(72.8992 / 930 * 100%);
+  top:calc(72.8992 / 960 * 100%);
   width:calc(334.21 / 1600 * 100%);
 }
 
 .catelier-museum {
   left:calc(100.1533 / 1600 * 100%);
-  top:calc(105.7003 / 930 * 100%);
+  top:calc(105.7003 / 960 * 100%);
   width:calc(262.2733 / 1600 * 100%);
 }
 
 .catelier-museum {
   left:calc(429.0944 / 1600 * 100%);
-  top:calc(109.2652 / 930 * 100%);
+  top:calc(109.2652 / 960 * 100%);
   width:calc(262.27 / 1600 * 100%);
 }
 
 .catelier-museum {
   left:calc(100.1533 / 1600 * 100%);
-  top:calc(590.0832 / 930 * 100%);
+  top:calc(590.0832 / 960 * 100%);
   width:calc(591.21 / 1600 * 100%);
 }
 
