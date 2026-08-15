@@ -320,42 +320,42 @@ SAMPLES
 =================
 */
 
-.catelier-samples-01 { 
+.catelier-sample-01 { 
   position:absolute;
   left:calc(237.6498 / 1600 * 100%);
   top:calc(69.9213 / 960 * 100%);
   width:calc(212.8129 / 1600 * 100%);
 }
 
-.catelier-samples-02 { 
+.catelier-sample-02 { 
   position:absolute;
   left:calc(494.5332 / 1600 * 100%);
   top:calc(69.9213 / 960 * 100%);
   width:calc(212.8129 / 1600 * 100%);
 }
 
-.catelier-samples-03 { 
+.catelier-sample-03 { 
   position:absolute;
   left:calc(751.4556 / 1600 * 100%);
   top:calc(69.9213 / 960 * 100%);
   width:calc(359.2673 / 1600 * 100%);
 }
 
-.catelier-samples-04 { 
+.catelier-sample-04 { 
   position:absolute;
   left:calc(1154.8325 / 1600 * 100%);
   top:calc(73.009 / 960 * 100%);
   width:calc(238.0539 / 1600 * 100%);
 }
 
-.catelier-samples-05 { 
+.catelier-sample-05 { 
   position:absolute;
   left:calc(207.1137 / 1600 * 100%);
   top:calc(481.4782 / 960 * 100%);
   width:calc(201.7469 / 1600 * 100%);
 }
 
-.catelier-samples-06 { 
+.catelier-sample-06 { 
   position:absolute;
   left:calc(454.1652 / 1600 * 100%);
   top:calc(483.569 / 960 * 100%);
