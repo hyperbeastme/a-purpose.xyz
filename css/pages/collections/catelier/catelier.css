@@ -198,9 +198,9 @@ main {
 
 .catelier-mood-04 {
   position:absolute;
-  left:calc(408.919 / 1440 * 100%);
-  top:calc(112.905 / 1024 * 100%);
-  width:calc(166.416 / 1440 * 100%);
+  left:calc(385.3625 / 1440 * 100%);
+  top:calc(57.0817 / 1024 * 100%);
+  width:calc(265.3487 / 1440 * 100%);
    z-index: 1003;
 }
 
