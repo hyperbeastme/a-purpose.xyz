@@ -9,36 +9,502 @@ body{background:#fff;padding:0;font-family:"futura-pt-condensed",sans-serif}
 .header-center{justify-self:center;font-size:clamp(22px,6vw,38px);white-space:nowrap}
 .mobile-menu-button{display:flex;justify-self:end}
 
-.catelier-section{
- width:100%;max-width:var(--catelier-max-width);min-height:0;aspect-ratio:1440 / 1024;
- margin:0 auto;padding:calc(80 / 1440 * 100%);position:relative;overflow:hidden
+
+/* =========================================================
+   CATELIER PROJECT: desktop composition scaled responsively
+   ========================================================= */
+
+:root {
+  --catelier-museum-max-width:var(--catelier-max-width);
 }
-.catelier-section h2{
- position:absolute;left:calc(24 / 1440 * 100%);top:calc(80 / 1024 * 100%);
- z-index:2;margin:0;font-size:calc(44 / 1440 * min(100vw,var(--catelier-max-width)));
- font-weight:300;line-height:1
+
+/* CATELIER PROJECT: independent Illustrator section artboards */
+
+.catelier-opening{
+  width:100%;
+  max-width:var(--catelier-max-width);
+  min-height:0;
+  aspect-ratio:1600 / 880;
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
 }
-.catelier-statement{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:calc(100 / 1440 * 100%)}
-.catelier-statement-copy{max-width:calc(520 / 1440 * 100%)}
-.catelier-opening-statement{margin:0;font-size:calc(35 / 1440 * min(100vw,var(--catelier-max-width)));font-weight:200;font-style:italic;line-height:1.18}
-.catelier-opening-statement span,.catelier-statement-copy p span{display:block}
-.catelier-statement-copy>p:not(.catelier-opening-statement){font-size:calc(16 / 1440 * min(100vw,var(--catelier-max-width)));margin:calc(18 / 1024 * 100%) 0 0}
-.catelier-statement-image{display:block;width:100%;max-height:calc(760 / 1440 * min(100vw,var(--catelier-max-width)));object-fit:contain}
-.catelier-canvas{
- position:absolute;
- left:calc(80 / 1440 * 100%);
- top:calc(80 / 1024 * 100%);
- width:calc(1280 / 1440 * 100%);
- height:calc(864 / 1024 * 100%);
- min-height:0;
- padding-top:calc(80 / 864 * 100%);
- display:grid;
- gap:calc(18 / 1280 * 100%);
- align-items:center
- }
-.catelier-canvas img{display:block;width:100%;max-width:100%;max-height:calc(390 / 1440 * min(100vw,var(--catelier-max-width)));object-fit:contain}
-.catelier-moodboard-canvas,.catelier-process-canvas{grid-template-columns:repeat(4,minmax(0,1fr))}
-.catelier-sketch-canvas,.catelier-samples-canvas,.catelier-museum-canvas{grid-template-columns:repeat(3,minmax(0,1fr))}
+
+.catelier-mood {
+  width:100%;
+  max-width:var(--catelier-max-width);
+  min-height:0;
+  aspect-ratio:1600 / 960;
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+}
+
+.catelier-sketches{
+  width:100%;
+  max-width:var(--catelier-max-width);
+  min-height:0;
+  aspect-ratio:1600 / 960;
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+}
+
+.catelier-samples{
+  width:100%;
+  max-width:var(--catelier-max-width);
+  min-height:0;
+  aspect-ratio:1600 / 960;
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+}
+
+.catelier-process{
+  width:100%;
+  max-width:var(--catelier-max-width);
+  min-height:0;
+  aspect-ratio:1600 / 960;
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+}
+
+.catelier-museum {
+  width:100%;
+  max-width:var(--catelier-museum-max-width);
+  min-height:0;
+  aspect-ratio:1680 / 960;
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+}
+
+.catelier-mood > h2,
+.catelier-sketches > h2,
+.catelier-samples > h2,
+.catelier-process > h2,
+.catelier-museum > h2 {
+  position: absolute;
+  left:calc(24 / 1600 * 100%);
+  top:calc(40 / 960 * 100%);
+  z-index: 2;
+  margin: 0;
+
+  font-family: "futura-pt-condensed", sans-serif;
+  font-size:calc(44 / 1600 * min(100vw,var(--catelier-max-width)));
+  font-weight: 300;
+  line-height: 1;
+}
+
+.catelier-mood > div,
+.catelier-sketches > div,
+.catelier-samples > div,
+.catelier-process > div,
+.catelier-museum > div {
+  position:absolute;
+  inset:0;
+  transform:translateY(calc(50 / 1600 * min(100vw,var(--catelier-max-width))));
+}
+
+.catelier-moodboard img,
+.catelier-sketch img,
+.catelier-samples img,
+.catelier-process img,
+.catelier-museum img {
+  position:absolute;
+  display:block;
+  height:auto;
+  margin:0;
+}
+
+.catelier-statement {
+  display:block;
+  position:absolute;
+  left:calc(278.3462 / 1600 * 100%);
+  top:calc(118.8672 / 880 * 100%);
+  width:calc(505.6616 / 1600 * 100%);
+}
+
+.catelier-opening-statement {
+  margin:0;
+  font-size:calc(35 / 1600 * min(100vw,var(--catelier-max-width)));
+  font-weight:200;
+  font-style:italic;
+  line-height:1.18;
+}
+
+.catelier-opening-statement-02 {
+  margin:0;
+  font-size:calc(35 / 1600 * min(100vw,var(--catelier-max-width)));
+  font-weight:200;
+  font-style:italic;
+  line-height:1.18;
+}
+
+.catelier-statement-image {
+  left:calc(884.0078 / 1600 * 100%);
+  top:calc(95.6228 / 880 * 100%);
+  width:calc(437.646 / 1600 * 100%);
+  max-height:100%;
+  position: absolute;
+}
+
+/*
+=================
+MOOD
+=================
+*/
+
+.catelier-mood-01 {
+  position:absolute;
+  left:calc(923.3335 / 1600 * 100%);
+  top:calc(552.5446 / 960 * 100%);
+  width:calc(474.576 / 1600 * 100%);
+   z-index: 1003;
+}
+
+.catelier-mood-02 {
+  position:absolute;
+  left:calc(923.3335 / 1600 * 100%);
+  top:calc(552.5445 / 960 * 100%);
+  width:calc(474.576 / 1600 * 100%);
+   z-index: 1003;
+}
+
+.catelier-mood-03 {
+  position:absolute;
+  left:calc(706.6313 / 1600 * 100%);
+  top:calc(92.6902 / 960 * 100%);
+  width:calc(691.2783 / 1600 * 100%);
+   z-index: 1003;
+}
+
+.catelier-mood-04 {
+  position:absolute;
+  left:calc(487.3704 / 1600 * 100%);
+  top:calc(55 / 960 * 100%);
+  width:calc(247.8977 / 1600 * 100%);
+   z-index: 1003;
+}
+
+.catelier-mood-05 {
+  position:absolute;
+  left:calc(202.0904 / 1600 * 100%);
+  top:calc(55 / 960 * 100%);
+  width:calc(313.9167 / 1600 * 100%);
+   z-index: 1003;
+}
+
+.catelier-mood-06 {
+  position:absolute;
+  left:calc(202.0904 / 1600 * 100%);
+  top:calc(55 / 960 * 100%);
+  width:calc(533.1777 / 1600 * 100%);
+   z-index: 1002;
+}
+
+.catelier-mood-07 {
+  position:absolute;
+  left:calc(923.3335 / 1600 * 100%);
+  top:calc(55.0001 / 960 * 100%);
+  width:calc(474.576 / 1600 * 100%);
+   z-index: 1003;
+}
+
+.catelier-mood-08 {
+  position:absolute;
+  left:calc(706.6313 / 1600 * 100%);
+  top:calc(92.6902 / 960 * 100%);
+  width:calc(245.339 / 1600 * 100%);
+   z-index: 1003;
+}
+
+/*
+=================
+SKETCH
+=================
+*/
+
+.catelier-sketch-01 { 
+  position:absolute;
+  left:calc(1204.2286 / 1600 * 100%); 
+  top:calc(236.4244 / 960 * 100%); 
+  width:calc(191.5939 / 1600 * 100%); 
+}
+.catelier-sketch-02 { 
+  position:absolute;
+  left:calc(783.1428 / 1600 * 100%); 
+  top:calc(254.5426 / 960 * 100%); 
+  width:calc(159.5294 / 1600 * 100%); 
+}
+.catelier-sketch-03 { 
+  position:absolute;
+  left:calc(972.3427 / 1600 * 100%); 
+  top:calc(254.063 / 960 * 100%); 
+  width:calc(151.2246 / 1600 * 100%); 
+}
+.catelier-sketch-04 { 
+  position:absolute;
+  left:calc(579.4909 / 1600 * 100%); 
+  top:calc(253.404 / 960 * 100%); 
+  width:calc(173.9814 / 1600 * 100%); 
+}
+.catelier-sketch-05 { 
+  position:absolute;
+  left:calc(390.4584 / 1600 * 100%); 
+  top:calc(253.404 / 960 * 100%); 
+  width:calc(159.362 / 1600 * 100%); 
+}
+.catelier-sketch-06 { 
+  position:absolute;
+  left:calc(204.1774 / 1600 * 100%); 
+  top:calc(252.3628 / 960 * 100%); 
+  width:calc(156.6104 / 1600 * 100%); 
+}
+
+/*
+=================
+SAMPLES
+=================
+*/
+
+.catelier-sample-01 { 
+  position:absolute;
+  left:calc(237.6498 / 1600 * 100%);
+  top:calc(69.9213 / 960 * 100%);
+  width:calc(212.8129 / 1600 * 100%);
+}
+
+.catelier-sample-02 { 
+  position:absolute;
+  left:calc(494.5332 / 1600 * 100%);
+  top:calc(69.9213 / 960 * 100%);
+  width:calc(212.8129 / 1600 * 100%);
+}
+
+.catelier-sample-03 { 
+  position:absolute;
+  left:calc(751.4556 / 1600 * 100%);
+  top:calc(69.9213 / 960 * 100%);
+  width:calc(359.2673 / 1600 * 100%);
+}
+
+.catelier-sample-04 { 
+  position:absolute;
+  left:calc(1154.8325 / 1600 * 100%);
+  top:calc(73.009 / 960 * 100%);
+  width:calc(238.0539 / 1600 * 100%);
+}
+
+.catelier-sample-05 { 
+  position:absolute;
+  left:calc(207.1137 / 1600 * 100%);
+  top:calc(481.4782 / 960 * 100%);
+  width:calc(201.7469 / 1600 * 100%);
+}
+
+.catelier-sample-06 { 
+  position:absolute;
+  left:calc(454.1652 / 1600 * 100%);
+  top:calc(483.569 / 960 * 100%);
+  width:calc(253.1809 / 1600 * 100%);
+}
+
+/*
+=================
+PROCESS
+=================
+*/
+
+.catelier-process-01 { 
+  position:absolute;
+  left:calc(1262.2524 / 1600 * 100%);
+  top:calc(174.1117 / 960 * 100%);
+  width:calc(237.7317 / 1600 * 100%);
+}
+
+.catelier-process-02 { 
+  position:absolute;
+  left:calc(1044.1539 / 1600 * 100%);
+  top:calc(545.4123 / 960 * 100%);
+  width:calc(191.9667 / 1600 * 100%);
+}
+
+.catelier-process-03 { 
+  position:absolute;
+  left:calc(750.8288 / 1600 * 100%);
+  top:calc(104.6927 / 960 * 100%);
+  width:calc(267.1933 / 1600 * 100%);
+}
+
+.catelier-process-04 { 
+  position:absolute;
+  left:calc(1262.2524 / 1600 * 100%);
+  top:calc(467.9468 / 960 * 100%);
+  width:calc(237.7317 / 1600 * 100%);
+}
+
+.catelier-process-05 { 
+  position:absolute;
+  left:calc(750.8288 / 1600 * 100%);
+  top:calc(312.5267 / 960 * 100%);
+  width:calc(267.1933 / 1600 * 100%);
+}
+
+.catelier-process-06 { 
+  position:absolute;
+  left:calc(1044.1539 / 1600 * 100%);
+  top:calc(178.0064 / 960 * 100%);
+  width:calc(191.9667 / 1600 * 100%);
+}
+
+.catelier-process-07 { 
+  position:absolute;
+  left:calc(477.3161 / 1600 * 100%);
+  top:calc(132.4775 / 960 * 100%);
+  width:calc(247.3809 / 1600 * 100%);
+}
+
+.catelier-process-08 { 
+  position:absolute;
+  left:calc(180.7195 / 1600 * 100%);
+  top:calc(564.1538 / 960 * 100%);
+  width:calc(270.4648 / 1600 * 100%);
+}
+
+.catelier-process-09 { 
+  position:absolute;
+  left:calc(477.3161 / 1600 * 100%);
+  top:calc(492.4269 / 960 * 100%);
+  width:calc(247.3809 / 1600 * 100%);
+}
+
+.catelier-process-10 { 
+  position:absolute;
+  left:calc(180.0158 / 1600 * 100%);
+  top:calc(111.7457 / 960 * 100%);
+  width:calc(271.1685 / 1600 * 100%);
+}
+
+.catelier-process-11 { 
+  position:absolute;
+  left:calc(750.8288 / 1600 * 100%);
+  top:calc(509.9889 / 960 * 100%);
+  width:calc(267.1933 / 1600 * 100%);
+}
+
+/*
+=================
+MUSEUM
+=================
+*/
+
+.catelier-museum-01 { 
+  position:absolute;
+  left:calc(840.8641 / 1680 * 100%);
+  top:calc(395.1194 / 960 * 100%);
+  width:calc(132.2904 / 1680 * 100%);
+  transform: rotate(90deg)
+}
+
+.catelier-museum-02 { 
+  position:absolute;
+  left:calc(582.477 / 1680 * 100%);
+  top:calc(534.8545 / 960 * 100%);
+  width:calc(202.5394 / 1680 * 100%);
+  transform: rotate(90deg)
+}
+
+.catelier-museum-03 { 
+  position:absolute;
+  left:calc(1031.176 / 1680 * 100%);
+  top:calc(478.7309 / 960 * 100%);
+  width:calc(234.2372 / 1680 * 100%);
+}
+
+.catelier-museum-04 { 
+  position:absolute;
+  left:calc(1031.1759 / 1680 * 100%);
+  top:calc(135.4166 / 960 * 100%);
+  width:calc(440.4426 / 1680 * 100%);
+}
+
+.catelier-museum-05 { 
+  position:absolute;
+  left:calc(139.203 / 1680 * 100%);
+  top:calc(178.6564 / 960 * 100%);
+  width:calc(367.6968 / 1680 * 100%);
+}
+
+.catelier-museum-06 { 
+  position:absolute;
+  left:calc(807.8425 / 1680 * 100%);
+  top:calc(105.7934 / 960 * 100%);
+  width:calc(198.3334 / 1680 * 100%);
+}
+
+.catelier-museum-07 { 
+  position:absolute;
+  left:calc(860.5931 / 1680 * 100%);
+  top:calc(585.4306 / 960 * 100%);
+  width:calc(145.5829 / 1680 * 100%);
+}
+
+.catelier-museum-08 { 
+  position:absolute;
+  left:calc(531.8997 / 1680 * 100%);
+  top:calc(184.215 / 960 * 100%);
+  width:calc(250.9427 / 1680 * 100%);
+}
+
+.catelier-museum-09 { 
+  position:absolute;
+  left:calc(1290.4132 / 1680 * 100%);
+  top:calc(478.7309 / 960 * 100%);
+  width:calc(250.3838 / 1680 * 100%);
+}
+
+.project-photography-credit {
+  position:static;
+  display:block;
+  clear:both;
+  width:1680px;
+  max-width:100%;
+  margin:0 auto;
+  padding:24px 80px 0;
+  color:#888;
+  font-size:20px;
+  font-weight:300;
+  line-height:1.2;
+  text-align:right;
+}
+
+.project-photography-credit a,
+.project-photography-credit a:visited,
+.project-photography-credit a:hover,
+.project-photography-credit a:active {
+  color:inherit;
+  text-decoration:none;
+}
+
+
+
+.project-photography-credit {
+  position:static;
+  display:block;
+  clear:both;
+  width:100%;
+  max-width:var(--catelier-museum-max-width);
+  margin:0 auto;
+  padding:24px clamp(20px,5vw,80px) 0;
+  color:#888;
+  font-size:clamp(14px,2.25vw,20px);
+  font-weight:300;
+  line-height:1.2;
+  text-align:right;
+}
+
 .catelier-next-project{width:100%;max-width:var(--catelier-max-width);min-height:clamp(260px,33vw,475px);margin:0 auto;padding:calc(80 / 1440 * 100%);display:flex;flex-direction:column;justify-content:center;align-items:flex-end}
 .catelier-next-project p{margin:0 0 15px;font-size:clamp(16px,2vw,22px);opacity:.5}
 .catelier-next-project a{color:#000;font-size:clamp(36px,5vw,70px);line-height:1;text-decoration:none}
