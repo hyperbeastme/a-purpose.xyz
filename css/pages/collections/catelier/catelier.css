@@ -177,7 +177,7 @@ main {
   left:calc(852.0157 / 1440 * 100%);
   top:calc(589.6514 / 1024 * 100%);
   width:calc(507.9843 / 1440 * 100%);
-   z-index: 1001;
+   z-index: 1003;
 }
 
 .catelier-mood-02 {
@@ -185,7 +185,7 @@ main {
   left:calc(852.0157 / 1440 * 100%);
   top:calc(589.6514 / 1024 * 100%);
   width:calc(507.9843 / 1440 * 100%);
-   z-index: 1001;
+   z-index: 1003;
 }
 
 .catelier-mood-03 {
@@ -193,7 +193,7 @@ main {
   left:calc(620.0585 / 1440 * 100%);
   top:calc(97.4251 / 1024 * 100%);
   width:calc(739.9415 / 1440 * 100%);
-   z-index: 1001;
+   z-index: 1003;
 }
 
 .catelier-mood-04 {
@@ -201,7 +201,7 @@ main {
   left:calc(408.919 / 1440 * 100%);
   top:calc(112.905 / 1024 * 100%);
   width:calc(166.416 / 1440 * 100%);
-   z-index: 1001;
+   z-index: 1003;
 }
 
 .catelier-mood-05 {
@@ -209,7 +209,7 @@ main {
   left:calc(80 / 1440 * 100%);
   top:calc(57.0817 / 1024 * 100%);
   width:calc(336.0152 / 1440 * 100%);
-   z-index: 1001;
+   z-index: 1003;
 }
 
 .catelier-mood-06 {
@@ -217,7 +217,7 @@ main {
   left:calc(80 / 1440 * 100%);
   top:calc(57.0817 / 1024 * 100%);
   width:calc(570.7112 / 1440 * 100%);
-   z-index: 1000;
+   z-index: 1002;
 }
 
 .catelier-mood-07 {
@@ -225,7 +225,7 @@ main {
   left:calc(852.0157 / 1440 * 100%);
   top:calc(57.0817 / 1024 * 100%);
   width:calc(507.9843 / 1440 * 100%);
-   z-index: 1001;
+   z-index: 1003;
 }
 
 .catelier-mood-08 {
@@ -233,7 +233,7 @@ main {
   left:calc(620.0585 / 1440 * 100%);
   top:calc(97.4251 / 1024 * 100%);
   width:calc(262.6099 / 1440 * 100%);
-   z-index: 1001;
+   z-index: 1003;
 }
 
 /* Sketches: one Illustrator row inside its own 1440 x 1024 artboard. */
