@@ -207,7 +207,7 @@ main {
   left:calc(884.0078 / 1600 * 100%);
   top:calc(95.6228 / 880 * 100%);
   width:calc(437.646 / 1600 * 100%);
-  max-height:760px;
+  max-height:880px;
   position: absolute;
 }
 
