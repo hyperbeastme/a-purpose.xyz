@@ -118,7 +118,7 @@ main {
 
 .catelier-process{
   width:1600px;
-  min-height: 2880px;
+  min-height: 960px;
   margin:0 auto;
   position:relative;
   overflow:hidden;
@@ -370,79 +370,79 @@ PROCESS
 
 .catelier-process-01 { 
   position:absolute;
-  left:calc(1133.699 / 1600 * 100%);
-  top:calc(1411.5915 / 2880 * 100%);
-  width:calc(349.5281 / 1600 * 100%);
+  left:calc(1262.2524 / 1600 * 100%);
+  top:calc(174.1117 / 960 * 100%);
+  width:calc(237.7317 / 1600 * 100%);
 }
 
 .catelier-process-02 { 
   position:absolute;
-  left:calc(1084.108 / 1600 * 100%);
-  top:calc(1863.8629 / 2880 * 100%);
-  width:calc(396.9691 / 1600 * 100%);
+  left:calc(1044.1539 / 1600 * 100%);
+  top:calc(545.4123 / 960 * 100%);
+  width:calc(191.9667 / 1600 * 100%);
 }
 
 .catelier-process-03 { 
   position:absolute;
-  left:calc(580.9489 / 1600 * 100%);
-  top:calc(140.112 / 2880 * 100%);
-  width:calc(525.31 / 1600 * 100%);
+  left:calc(750.8288 / 1600 * 100%);
+  top:calc(104.6927 / 960 * 100%);
+  width:calc(267.1933 / 1600 * 100%);
 }
 
 .catelier-process-04 { 
   position:absolute;
-  left:calc(1164.9361 / 1600 * 100%);
-  top:calc(140.112 / 2880 * 100%);
-  width:calc(271.7832 / 1600 * 100%);
+  left:calc(1262.2524 / 1600 * 100%);
+  top:calc(467.9468 / 960 * 100%);
+  width:calc(237.7317 / 1600 * 100%);
 }
 
 .catelier-process-05 { 
   position:absolute;
-  left:calc(600.4247 / 1600 * 100%);
-  top:calc(556.0212 / 2880 * 100%);
-  width:calc(486.3582 / 1600 * 100%);
+  left:calc(750.8288 / 1600 * 100%);
+  top:calc(312.5267 / 960 * 100%);
+  width:calc(267.1933 / 1600 * 100%);
 }
 
 .catelier-process-06 { 
   position:absolute;
-  left:calc(1133.699 / 1600 * 100%);
-  top:calc(666.8035 / 2880 * 100%);
-  width:calc(377.4122 / 1600 * 100%);
+  left:calc(1044.1539 / 1600 * 100%);
+  top:calc(178.0064 / 960 * 100%);
+  width:calc(191.9667 / 1600 * 100%);
 }
 
 .catelier-process-07 { 
   position:absolute;
-  left:calc(600.4247 / 1600 * 100%);
-  top:calc(926.5622 / 2880 * 100%);
-  width:calc(486.3582 / 1600 * 100%);
+  left:calc(477.3161 / 1600 * 100%);
+  top:calc(132.4775 / 960 * 100%);
+  width:calc(247.3809 / 1600 * 100%);
 }
 
 .catelier-process-08 { 
   position:absolute;
-  left:calc(129.6478 / 1600 * 100%);
-  top:calc(799.1243 / 2880 * 100%);
-  width:calc(412.0998 / 1600 * 100%);
+  left:calc(180.7195 / 1600 * 100%);
+  top:calc(564.1538 / 960 * 100%);
+  width:calc(270.4648 / 1600 * 100%);
 }
 
 .catelier-process-09 { 
   position:absolute;
-  left:calc(88.8889 / 1600 * 100%);
-  top:calc(1450.1949 / 2880 * 100%);
-  width:calc(451.7366 / 1600 * 100%);
+  left:calc(477.3161 / 1600 * 100%);
+  top:calc(492.4269 / 960 * 100%);
+  width:calc(247.3809 / 1600 * 100%);
 }
 
 .catelier-process-10 { 
   position:absolute;
-  left:calc(140.3787 / 1600 * 100%);
-  top:calc(140.112 / 2880 * 100%);
-  width:calc(381.893 / 1600 * 100%);
+  left:calc(180.0158 / 1600 * 100%);
+  top:calc(111.7457 / 960 * 100%);
+  width:calc(271.1685 / 1600 * 100%);
 }
 
 .catelier-process-11 { 
   position:absolute;
-  left:calc(599.3027 / 1600 * 100%);
-  top:calc(1641.5347 / 2880 * 100%);
-  width:calc(426.1281 / 1600 * 100%);
+  left:calc(750.8288 / 1600 * 100%);
+  top:calc(509.9889 / 960 * 100%);
+  width:calc(267.1933 / 1600 * 100%);
 }
 
 /*
