@@ -91,13 +91,41 @@ main {
   overflow:hidden;
 }
 
-.catelier-mood,
-.catelier-sketches,
-.catelier-samples,
-.catelier-process,
+.catelier-mood { 
+  aspect-ratio: 1440 / 944;
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+}
+
+.catelier-sketches{
+  aspect-ratio: 1440 / 944;
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+}
+
+.catelier-samples{
+  aspect-ratio: 1440 / 944;
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+}
+
+.catelier-process{
+  aspect-ratio: 1440 /944;
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+}
+
 .catelier-museum {
+<<<<<<< HEAD
+  aspect-ratio: 1440 / 944;
+=======
   width:1600px;
   min-height:850px;
+>>>>>>> da41181f5fe2fd6ef4889d07242d22f7503687af
   margin:0 auto;
   position:relative;
   overflow:hidden;
