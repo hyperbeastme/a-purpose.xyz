@@ -90,6 +90,13 @@ body {
   overflow:hidden;
 }
 
+.catelier-statement {
+  position:absolute;
+  left:calc(198.3462 / 1440 * 100%);
+  top:calc(190.8672 / 1024 * 100%);
+  width:calc(505.6616 / 1440 * 100%);
+}
+
 .catelier-opening-statement {
   margin:0;
   font-size:35px;
