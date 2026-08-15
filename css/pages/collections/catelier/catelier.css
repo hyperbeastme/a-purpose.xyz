@@ -97,8 +97,10 @@ main {
 }
 
 .catelier-opening{
-  position:absolute;
   aspect-ratio: 1440 / 944;
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
 }
 
 .catelier-samples {
