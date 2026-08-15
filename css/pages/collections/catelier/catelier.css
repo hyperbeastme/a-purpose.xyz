@@ -130,7 +130,11 @@ main {
   line-height: 1;
 }
 
-.catelier {
+.catelier-mood > div,
+.catelier-sketches > div,
+.catelier-samples > div,
+.catelier-process > div,
+.catelier-museum > div {
   position:absolute;
   inset:0;
   transform:translateY(50px);
