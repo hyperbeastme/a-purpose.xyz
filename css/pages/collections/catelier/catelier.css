@@ -517,9 +517,11 @@ MUSEUM
 }
 
 .project-photography-credit {
-  width:1600px;
+  position:static;
+  display:block;
+  clear:both;
+  width:1680px;
   max-width:100%;
-  bottom:calc(0 / 960 * 100%);
   margin:0 auto;
   padding:24px 80px 0;
   color:#888;
@@ -527,7 +529,6 @@ MUSEUM
   font-weight:300;
   line-height:1.2;
   text-align:right;
-
 }
 
 .project-photography-credit a,
