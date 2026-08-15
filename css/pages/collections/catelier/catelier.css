@@ -120,12 +120,8 @@ main {
 }
 
 .catelier-museum {
-<<<<<<< HEAD
-  aspect-ratio: 1440 / 944;
-=======
   width:1600px;
   min-height:850px;
->>>>>>> da41181f5fe2fd6ef4889d07242d22f7503687af
   margin:0 auto;
   position:relative;
   overflow:hidden;
