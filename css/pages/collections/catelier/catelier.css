@@ -217,7 +217,7 @@ main {
   left:calc(80 / 1440 * 100%);
   top:calc(57.0817 / 1024 * 100%);
   width:calc(570.7112 / 1440 * 100%);
-   z-index: -1001;
+   z-index: 1000;
 }
 
 .catelier-mood-07 {
