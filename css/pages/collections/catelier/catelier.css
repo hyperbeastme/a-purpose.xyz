@@ -118,7 +118,7 @@ main {
 
 .catelier-process{
   width:1600px;
-  min-height: 2400px;
+  min-height: 2880px;
   margin:0 auto;
   position:relative;
   overflow:hidden;
@@ -381,77 +381,77 @@ PROCESS
 .catelier-process-01 { 
   position:absolute;
   left:calc(138.9456 / 1600 * 100%);
-  top:calc(322.9267 / 2400 * 100%);
+  top:calc(322.9267 / 2880 * 100%);
   width:calc(433.1044 / 1600 * 100%);
 }
 
 .catelier-process-02 { 
   position:absolute;
   left:calc(595.9478 / 1600 * 100%);
-  top:calc(101.6953 / 2400 * 100%);
+  top:calc(101.6953 / 2880 * 100%);
   width:calc(460.4844 / 1600 * 100%);
 }
 
 .catelier-process-03 { 
   position:absolute;
   left:calc(595.9478 / 1600 * 100%);
-  top:calc(226.7029 / 2400 * 100%);
+  top:calc(226.7029 / 2880 * 100%);
   width:calc(460.4844 / 1600 * 100%);
 }
 
 .catelier-process-04 { 
   position:absolute;
   left:calc(577.5078 / 1600 * 100%);
-  top:calc(27.7405 / 2400 * 100%);
+  top:calc(27.7405 / 2880 * 100%);
   width:calc(497.3633 / 1600 * 100%);
 }
 
 .catelier-process-05 { 
   position:absolute;
   left:calc(1100.8511 / 1600 * 100%);
-  top:calc(350.0288 / 2400 * 100%);
+  top:calc(350.0288 / 2880 * 100%);
   width:calc(357.3333 / 1600 * 100%);
 }
 
 .catelier-process-06 { 
   position:absolute;
   left:calc(111.6256 / 1600 * 100%);
-  top:calc(543.9817 / 2400 * 100%);
+  top:calc(543.9817 / 2880 * 100%);
   width:calc(427.7044 / 1600 * 100%);
 }
 
 .catelier-process-07 { 
   position:absolute;
   left:calc(160.3756 / 1600 * 100%);
-  top:calc(192.1411 / 2400 * 100%);
+  top:calc(192.1411 / 2880 * 100%);
   width:calc(361.5767 / 1600 * 100%);
 }
 
 .catelier-process-08 { 
   position:absolute;
   left:calc(1100.8511 / 1600 * 100%);
-  top:calc(545.6894 / 2400 * 100%);
+  top:calc(545.6894 / 2880 * 100%);
   width:calc(330.9333 / 1600 * 100%);
 }
 
 .catelier-process-09 { 
   position:absolute;
   left:calc(1053.8989 / 1600 * 100%);
-  top:calc(693.8601 / 2400 * 100%);
+  top:calc(693.8601 / 2880 * 100%);
   width:calc(375.85 / 1600 * 100%);
 }
 
 .catelier-process-10 { 
   position:absolute;
   left:calc(594.8844 / 1600 * 100%);
-  top:calc(601.666 / 2400 * 100%);
+  top:calc(601.666 / 2880 * 100%);
   width:calc(403.4578 / 1600 * 100%);
 }
 
 .catelier-process-11 { 
   position:absolute;
   left:calc(1130.4267 / 1600 * 100%);
-  top:calc(247.7288 / 2400 * 100%);
+  top:calc(247.7288 / 2880 * 100%);
   width:calc(257.3244 / 1600 * 100%);
 }
 
