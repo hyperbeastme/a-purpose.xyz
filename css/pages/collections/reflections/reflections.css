@@ -127,14 +127,14 @@
 
 /* MOOD BOARD */
 
-.reflections-mood-01 { left:1108.5556px; top:444.9106px; width:365.5556px; }
-.reflections-mood-02 { left:529.5556px; top:337.4659px; width:551.5556px; }
-.reflections-mood-03 { left:790px; top:198.5264px; width:295.5556px; }
-.reflections-mood-04 { left:795.1111px; top:57.9216px; width:285.5556px; }
-.reflections-mood-05 { left:530.7444px; top:131.6993px; width:237.7778px; }
-.reflections-mood-06 { left:178.8889px; top:145.5281px; width:320px; }
-.reflections-mood-07 { left:125.5556px; top:320.379px; width:375.5556px; }
-.reflections-mood-08 { left:1108.5556px; top:145.5281px; width:343.7889px; }
+.reflections-mood-01 { left:1108.5556px; top:486.7845px; width:365.5556px; }
+.reflections-mood-02 { left:529.5556px; top:369.2274px; width:551.5556px; }
+.reflections-mood-03 { left:790px; top:217.2112px; width:295.5556px; }
+.reflections-mood-04 { left:795.1111px; top:63.373px; width:285.5556px; }
+.reflections-mood-05 { left:530.7444px; top:144.0945px; width:237.7778px; }
+.reflections-mood-06 { left:178.8889px; top:159.2249px; width:320px; }
+.reflections-mood-07 { left:125.5556px; top:350.5323px; width:375.5556px; }
+.reflections-mood-08 { left:1108.5556px; top:159.2249px; width:343.7889px; }
 
 
 /* SKETCHES */
@@ -150,61 +150,61 @@
 
 .reflections-sketch-01 {
     left:188.8889px;
-    top:63.373px;
+    top:69.3375px;
 }
 
 .reflections-sketch-02 {
     left:188.8889px;
-    top:397.3493px;
+    top:434.7469px;
 }
 
 
 /* PROCESS */
 
-.reflections-process-01 { left:167.7778px; top:91.0456px; width:341.1111px; }
-.reflections-process-02 { left:207.7778px; top:254.1312px; width:131.1111px; }
-.reflections-process-03 { left:453.3333px; top:487.9898px; width:150px; }
-.reflections-process-04 { left:937.7778px; top:91.2266px; width:170px; }
-.reflections-process-05 { left:167.7778px; top:365.6303px; width:245.5556px; }
-.reflections-process-06 { left:948.8889px; top:444.5486px; width:436.6667px; }
-.reflections-process-07 { left:378.8889px; top:254.1312px; width:182.2222px; }
+.reflections-process-01 { left:167.7778px; top:99.6146px; width:341.1111px; }
+.reflections-process-02 { left:207.7778px; top:278.0494px; width:131.1111px; }
+.reflections-process-03 { left:453.3333px; top:533.9183px; width:150px; }
+.reflections-process-04 { left:937.7778px; top:99.8126px; width:170px; }
+.reflections-process-05 { left:167.7778px; top:400.0426px; width:245.5556px; }
+.reflections-process-06 { left:948.8889px; top:486.3885px; width:436.6667px; }
+.reflections-process-07 { left:378.8889px; top:278.0494px; width:182.2222px; }
 
-.reflections-process-08 { left:601.1111px; top:254.1312px; width:73.3333px; }
-.reflections-process-09 { left:548.8889px; top:91.0456px; width:125.5556px; }
-.reflections-process-10 { left:714.4444px; top:116.5673px; width:183.3333px; }
-.reflections-process-11 { left:643.3333px; top:487.9898px; width:266.6667px; }
-.reflections-process-12 { left:758.8889px; top:339.5656px; width:147.7778px; }
-.reflections-process-13 { left:453.3333px; top:365.6303px; width:266.6667px; }
-.reflections-process-14 { left:1147.7778px; top:91.2266px; width:282.2222px; }
+.reflections-process-08 { left:601.1111px; top:278.0494px; width:73.3333px; }
+.reflections-process-09 { left:548.8889px; top:99.6146px; width:125.5556px; }
+.reflections-process-10 { left:714.4444px; top:127.5383px; width:183.3333px; }
+.reflections-process-11 { left:643.3333px; top:533.9183px; width:266.6667px; }
+.reflections-process-12 { left:758.8889px; top:371.5247px; width:147.7778px; }
+.reflections-process-13 { left:453.3333px; top:400.0426px; width:266.6667px; }
+.reflections-process-14 { left:1147.7778px; top:99.8126px; width:282.2222px; }
 
 
 /* CATALOG */
 
-.reflections-catalog-01 { left:133.3333px; top:184.6252px; width:337.7778px; }
-.reflections-catalog-02 { left:488.8889px; top:184.6252px; width:337.7778px; }
-.reflections-catalog-03 { left:844.4444px; top:184.6252px; width:337.7778px; }
-.reflections-catalog-04 { left:1200px; top:184.6252px; width:322.2222px; }
+.reflections-catalog-01 { left:133.3333px; top:202.0017px; width:337.7778px; }
+.reflections-catalog-02 { left:488.8889px; top:202.0017px; width:337.7778px; }
+.reflections-catalog-03 { left:844.4444px; top:202.0017px; width:337.7778px; }
+.reflections-catalog-04 { left:1200px; top:202.0017px; width:322.2222px; }
 
 
 /* EDITORIAL */
 
 .reflections-editorial-canvas {
-    top:118.8246px;
+    top:130.0081px;
 }
 
-.reflections-editorial-01 { left:680px; top:356.5801px; width:282.2222px; }
-.reflections-editorial-02 { left:111.1111px; top:57.9216px; width:228.8889px; }
-.reflections-editorial-03 { left:88.8889px; top:306.2606px; width:317.7778px; }
-.reflections-editorial-04 { left:434.4444px; top:423.552px; width:216.6667px; }
-.reflections-editorial-05 { left:340px; top:57.9216px; width:395.5556px; }
-.reflections-editorial-06 { left:735.5556px; top:57.9216px; width:276.6667px; }
+.reflections-editorial-01 { left:680px; top:390.1406px; width:282.2222px; }
+.reflections-editorial-02 { left:111.1111px; top:63.373px; width:228.8889px; }
+.reflections-editorial-03 { left:88.8889px; top:335.0851px; width:317.7778px; }
+.reflections-editorial-04 { left:434.4444px; top:463.4157px; width:216.6667px; }
+.reflections-editorial-05 { left:340px; top:63.373px; width:395.5556px; }
+.reflections-editorial-06 { left:735.5556px; top:63.373px; width:276.6667px; }
 
-.reflections-editorial-07 { left:1041.1111px; top:72.402px; width:124.4444px; }
-.reflections-editorial-08 { left:1041.1111px; top:212.862px; width:124.4444px; }
-.reflections-editorial-09 { left:990px; top:352.598px; width:155.5556px; }
-.reflections-editorial-10 { left:990px; top:523.4668px; width:155.5556px; }
-.reflections-editorial-11 { left:1194.4444px; top:57.9216px; width:321.1111px; }
-.reflections-editorial-12 { left:1174.4444px; top:404.7274px; width:285.5556px; }
+.reflections-editorial-07 { left:1041.1111px; top:79.2163px; width:124.4444px; }
+.reflections-editorial-08 { left:1041.1111px; top:232.8961px; width:124.4444px; }
+.reflections-editorial-09 { left:990px; top:385.7837px; width:155.5556px; }
+.reflections-editorial-10 { left:990px; top:572.7343px; width:155.5556px; }
+.reflections-editorial-11 { left:1194.4444px; top:63.373px; width:321.1111px; }
+.reflections-editorial-12 { left:1174.4444px; top:442.8194px; width:285.5556px; }
 
 
 /* NEXT PROJECT */
