@@ -125,7 +125,6 @@ main {
 .catelier-mood {
   position:relative;
   aspect-ratio: 1440px / 1024px;
-  overflow:hidden;
   margin:0 auto;
 }
 
