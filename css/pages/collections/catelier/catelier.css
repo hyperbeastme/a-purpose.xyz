@@ -128,6 +128,7 @@ main {
 .catelier-canvas {
   position:absolute;
   inset:0;
+  transform:translateY(50px);
 }
 
 .catelier-moodboard-canvas img,
