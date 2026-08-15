@@ -85,35 +85,40 @@ main {
 /* CATELIER PROJECT: independent Illustrator section artboards */
 
 .catelier-opening{
-  aspect-ratio: 1440 / 944;
+  width:1600px;
+  min-height:780px;
   margin:0 auto;
   position:relative;
   overflow:hidden;
 }
 
-.catelier-mood { 
-  aspect-ratio: 1440 / 944;
+.catelier-mood {
+  width:1600px;
+  min-height:850px;
   margin:0 auto;
   position:relative;
   overflow:hidden;
 }
 
 .catelier-sketches{
-  aspect-ratio: 1440 / 944;
+  width:1600px;
+  min-height:850px;
   margin:0 auto;
   position:relative;
   overflow:hidden;
 }
 
 .catelier-samples{
-  aspect-ratio: 1440 / 944;
+  width:1600px;
+  min-height:850px;
   margin:0 auto;
   position:relative;
   overflow:hidden;
 }
 
 .catelier-process{
-  aspect-ratio: 1440 /944;
+  width:1600px;
+  min-height:850px;
   margin:0 auto;
   position:relative;
   overflow:hidden;
