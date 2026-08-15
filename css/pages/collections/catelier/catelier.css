@@ -84,7 +84,6 @@ main {
 
 /* CATELIER PROJECT: independent Illustrator section artboards */
 
-.catelier-opening,
 .catelier-mood,
 .catelier-sketches,
 .catelier-samples,
@@ -95,6 +94,11 @@ main {
   margin:0 auto;
   position:relative;
   overflow:hidden;
+}
+
+.catelier-opening{
+  position:absolute;
+  aspect-ratio: 1440 / 944;
 }
 
 .catelier-samples {
@@ -146,7 +150,7 @@ main {
 .catelier-statement {
   position:absolute;
   left:calc(198.3462 / 1440 * 100%);
-  top:calc(190.8672 / 1024 * 100%);
+  top:calc(190.8672 / 944 * 100%);
   width:calc(505.6616 / 1440 * 100%);
 }
 
@@ -168,7 +172,7 @@ main {
 
 .catelier-statement-image {
   left:calc(800 / 1440 * 100%);
-  top:calc(145 / 1024 * 100%);
+  top:calc(145 / 944 * 100%);
   width:calc(480 / 1440 * 100%);
   max-height:760px;
   position: absolute;
