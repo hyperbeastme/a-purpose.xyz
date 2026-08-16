@@ -368,8 +368,10 @@ main {
 
 .reflection-sketch-canvas {
   position:absolute;
+  left:295.0422px;
+  top:27.1041px;
   width:100%;
-  height:960px;
+  height:auto;
 }
 
 .reflections-mood img{
