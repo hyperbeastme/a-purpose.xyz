@@ -168,9 +168,10 @@ main {
 
 .reflections-opening-body {
   position:relative;
-  width:100%;
+  width:min(100%, 1680px);
   max-width:1680px;
-  height:880px;
+  aspect-ratio:1680 / 880;
+  height:auto;
   margin:0 auto;
   overflow:hidden;
 }
@@ -182,9 +183,28 @@ main {
 }
 
 .reflections-opening {
-  font-size:24px;
-  font-weight:200;
-  line-height:1.18;
+  font-size:28px;
+  font-weight:400;
+  font-style:oblique;
+  line-height:1.28;
+  text-align:center;
+}
+
+.reflections-opening span {
+  display:block;
+}
+
+.reflections-question-03 p {
+  margin:0;
+}
+
+.reflections-question-03 p:nth-child(1),
+.reflections-question-03 p:nth-child(3) {
+  text-align:left;
+}
+
+.reflections-question-03 p:nth-child(2) {
+  text-align:right;
 }
 
 .reflections-question-01 {
