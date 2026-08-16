@@ -181,9 +181,9 @@ main {
   margin:0 auto;
   position:absolute;
   overflow:hidden;
-  left:calc(929.1301 / 1600 * 100%);
-  top:calc(68.4088 / 880 * 100%);
-  width:calc(494.6807 / 1600 * 100%);
+  left:calc(936.3108 / 1680 * 100%);
+  top:calc(75.2988 / 880 * 100%);
+  width:calc(487.5 / 1680 * 100%);
 }
 
 .reflections-opening {
@@ -193,45 +193,30 @@ main {
 }
 
 .reflections-question-01 {
-  left:calc(936.3108 / 1600 * 100%);
+  left:calc(936.3108 / 1680 * 100%);
   top:calc(75.2988 / 880 * 100%);
-  width:calc(487.5 / 1600 * 100%);
+  width:calc(487.5 / 1680 * 100%);
 }
 
 .reflections-question-02 {
-  left:calc(1240.0774 / 1600 * 100%);
+  left:calc(1240.0774 / 1680 * 100%);
   top:calc(149.209 / 880 * 100%);
-  width:calc(183.7334 / 1600 * 100%);
+  width:calc(183.7334 / 1680 * 100%);
 }
 
 .reflections-statement-01 {
   left:calc(936.3108 / 1600 * 100%);
   top:calc(210.76 / 880 * 100%);
-  width:calc(487.5 / 1600 * 100%);
+  width:calc(487.5 / 1680 * 100%);
 }
 
 .reflections-question-03 {
-  left:calc(936.3108 / 1600 * 100%);
+  left:calc(936.3108 / 1680 * 100%);
   top:calc(683.5899 / 880 * 100%);
-  width:calc(487.5 / 1600 * 100%);
+  width:calc(487.5 / 1680 * 100%);
 }
 
-.reflections-opening-closing p + p {
-  margin-top:calc(19.0918 / 850 * 100%);
-}
-
-.reflections-opening-closing p:nth-child(2) {
-  margin-left:calc(288.8889 / 1600 * 100%);
-}
-
-.reflections-statement {
-    position:absolute;
-    left:calc(88.8889 / 1600 * 100%);
-    top:calc(162.6953 / 850 * 100%);
-    width:calc(577.7778 / 1600 * 100%);
-}
-
-.reflections-opening-statement {
+.reflections-opening-image {
     margin:0;
     font-size:36px;
     font-weight:200;
@@ -239,11 +224,11 @@ main {
     line-height:1.15;
 }
 
-.reflections-statement-image {
+.reflections-opening-image {
     position:absolute;
-    right:calc(88.8889 / 1600 * 100%);
-    top:calc(182.6172 / 850 * 100%);
-    width:calc(722.2222 / 1600 * 100%);
+    right:calc(256.1892 / 1680 * 100%);
+    top:calc(255.7495 / 880 * 100%);
+    width:calc(722.2222 / 1680 * 100%);
     height:auto;
 }
 
