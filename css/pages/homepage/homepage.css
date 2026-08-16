@@ -468,7 +468,7 @@ body {
 .catelier-scroll-section {
   width: 100%;
   max-width: 1600px;
-  height: 930px;
+  height: 960px;
   margin-inline: auto;
 
   scroll-snap-align: start;
