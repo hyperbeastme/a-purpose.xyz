@@ -1,55 +1,165 @@
-/* REFLECTIONS OF DISPLACEMENT */
+/* Reflections of Displacement desktop project layout.
+   Composition controls follow the same section/canvas structure as Eternal Bonds. */
 
-.reflections-page {
-    margin:0;
-    background:#fff;
-    color:#000;
-    font-family:"futura-pt-condensed", sans-serif;
+:root {
+  --project-max-width:1600px;
+  --header-height:80px;
+  --page-margin:80px;
+  --section-height:930px;
+  --opening-height:850px;
+  --canvas-top:118.8246px;
+  --canvas-height:811.1754px;
+  --black:#000;
+  --white:#fff;
+  --gray:#888;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing:border-box;
+}
+
+html,
+body {
+  width:100%;
+  max-width:100%;
+  margin:0;
+  padding:0;
+}
+
+html {
+  overflow-x:hidden;
+  scroll-behavior:smooth;
+}
+
+body {
+  overflow-x:clip;
+  background:var(--white);
+  color:var(--black);
+  font-family:"futura-pt-condensed", sans-serif;
+}
+
+img {
+  display:block;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color:inherit;
+  text-decoration:none;
+}
+
+/* HEADER */
+
+.desktop-nav {
+  display:flex;
+}
+
+.mobile-menu-button,
+.mobile-menu {
+  display:none;
+}
+
+.header {
+  width:100%;
+  height:var(--header-height);
+  padding:0 var(--page-margin);
+  display:grid;
+  grid-template-columns:1fr auto 1fr;
+  align-items:center;
+  position:relative;
+  z-index:100;
+  background:var(--white);
+}
+
+.header-left {
+  justify-self:start;
+  font-size:30px;
+  font-weight:400;
+}
+
+.header-center {
+  justify-self:center;
+  font-size:45px;
+  font-weight:500;
+  white-space:nowrap;
+}
+
+.header-right {
+  justify-self:end;
+  display:flex;
+  align-items:center;
+  gap:35px;
+  font-size:30px;
+  font-weight:400;
+}
+
+.header-right img {
+  width:26px;
+  height:26px;
+}
+
+/* REFLECTIONS PAGE */
+
+.reflections-page {
+  margin:0;
+  background:var(--white);
+  color:var(--black);
+}
+
+main {
+  width:100%;
+}
+
+/* SHARED PROJECT SECTIONS */
+
 .reflections-section {
-    position:relative;
-    width:1600px;
-    height:930px;
-    margin:0 auto;
-    overflow:hidden;
+  position:relative;
+  width:100%;
+  max-width:var(--project-max-width);
+  height:var(--section-height);
+  margin:0 auto;
+  padding:0;
+  overflow:hidden;
 }
 
 .reflections-section:first-of-type {
-    height:850px;
+  height:var(--opening-height);
 }
 
 .reflections-section h2 {
-    position:absolute;
-    left:24px;
-    top:80px;
-    z-index:20;
-    margin:0;
-    font-size:44px;
-    font-weight:300;
-    line-height:1;
+  position:absolute;
+  left:24px;
+  top:80px;
+  z-index:20;
+  margin:0;
+  font-size:44px;
+  font-weight:300;
+  line-height:1;
 }
 
 .reflections-section:has(> .reflections-canvas) {
-    height:930px;
+  height:var(--section-height);
 }
 
 .reflections-canvas {
-    position:absolute;
-    inset:0;
-    top:118.8246px;
-    width:1600px;
-    height:811.1754px;
+  position:absolute;
+  left:0;
+  top:var(--canvas-top);
+  width:100%;
+  height:var(--canvas-height);
 }
 
 .reflections-canvas img {
-    position:absolute;
-    display:block;
-    height:auto;
-    max-width:none;
-    margin:0;
+  position:absolute;
+  display:block;
+  max-width:none;
+  height:auto;
+  margin:0;
 }
-
 
 /* OPENING STATEMENT */
 /* Reflections of Displacement opening board
@@ -188,10 +298,6 @@
 
 /* EDITORIAL */
 
-.reflections-editorial-canvas {
-    top:118.8246px;
-}
-
 .reflections-editorial-01 { left:680px; top:390.1406px; width:282.2222px; }
 .reflections-editorial-02 { left:111.1111px; top:63.373px; width:228.8889px; }
 .reflections-editorial-03 { left:88.8889px; top:335.0851px; width:317.7778px; }
@@ -210,27 +316,39 @@
 /* NEXT PROJECT */
 
 .reflections-next-project {
-    width:1440px;
-    height:475px;
-    margin:0 auto;
-    padding:80px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:flex-end;
+  width:1440px;
+  height:475px;
+  margin:0 auto;
+  padding:80px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:flex-end;
 }
 
 .reflections-next-project p {
-    margin:0 0 15px;
-    font-size:22px;
-    opacity:.5;
+  margin:0 0 15px;
+  font-size:22px;
+  opacity:.5;
 }
 
 .reflections-next-project a {
-    color:#000;
-    font-size:70px;
-    line-height:1;
-    text-decoration:none;
+  font-size:70px;
+  line-height:1;
+}
+
+/* PHOTOGRAPHY CREDIT
+   Shared defaults live in /css/components/photography-credit.css.
+   Override the custom properties below per section when needed. */
+
+.project-photography-credit {
+  --credit-max-width:1440px;
+  --credit-padding-top:24px;
+  --credit-padding-right:80px;
+  --credit-padding-bottom:0px;
+  --credit-padding-left:80px;
+  --credit-font-size:20px;
+  --credit-text-align:right;
 }
 
 /* FOOTER */
@@ -246,8 +364,7 @@
   align-items:center;
   justify-content:flex-end;
   gap:75px;
-  font-family:"futura-pt-condensed", sans-serif;
-  text-decoration:#888;
+  color:var(--gray);
 }
 
 .footer::before {
@@ -256,27 +373,7 @@
   top:0;
   left:80px;
   right:80px;
-  border-top:1px solid rgba(0, 0, 0, 0.18);
-}
-
-.project-photography-credit {
-  width:1440px;
-  max-width:100%;
-  margin:0 auto;
-  padding:24px 80px 0;
-  color:#888;
-  font-size:20px;
-  font-weight:300;
-  line-height:1.2;
-  text-align:right;
-}
-
-.project-photography-credit a,
-.project-photography-credit a:visited,
-.project-photography-credit a:hover,
-.project-photography-credit a:active {
-  color:inherit;
-  text-decoration:none;
+  border-top:1px solid rgb(0 0 0 / 18%);
 }
 
 .footer-main {
@@ -287,50 +384,26 @@
 }
 
 .footer-divider {
-  display:block;
   width:2.25px;
   height:50px;
-  background-color:#888;
+  background:currentColor;
 }
 
-.footer-social {
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  filter: brightness(0) invert(75%)
-}
-
+.footer-social,
 .footer-social img {
-  display:block;
   width:44px;
   height:44px;
-  filter: brightness(0) invert(75%)
 }
 
 .footer-copyright {
   margin:0;
-  color:#888;
-  align-content:center;
   font-size:32px;
 }
 
-.footer a,
-.footer a:visited,
-.footer a:hover,
-.footer a:active {
-  color:#888;
-  text-decoration:none;
+.footer-name,
+.footer-email {
+  font-size:25px;
+  font-weight:400;
+  line-height:1;
+  white-space:nowrap;
 }
-
-.footer-main .footer-name,
-.footer-main .footer-email {
-  font-family: "futura-pt-condensed", sans-serif;
-  font-size: 25px;
-  font-weight: 400;
-  line-height: 1;
-  transform: none;
-  white-space: nowrap;
-  color: #888;
-  text-decoration: none;
-}
-
