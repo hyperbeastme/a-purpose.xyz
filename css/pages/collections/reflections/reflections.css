@@ -177,9 +177,9 @@ main {
 
 .reflections-statement {
   position:absolute;
-  left:0;
-  top:0;
-  width:100%;
+  left:calc(936.3108 / 1680 * 100%);
+  top:calc(75.2988 / 880 * 100%);
+  width:calc(487.5 / 1680 * 100%);
   height:calc(736.2923 / 880 * 100%);
 }
 
@@ -198,9 +198,9 @@ main {
 .reflections-question-01 {
   position:absolute;
   margin:0;
-  left:calc(936.3108 / 1680 * 100%);
-  top:calc(75.2988 / 880 * 100%);
-  width:calc(487.5 / 1680 * 100%);
+  left:0;
+  top:0;
+  width:100%;
 }
 
 .reflections-question-02 {
