@@ -680,51 +680,66 @@ body {
 }
 
 .runway-01 {
-  left:1.1111px;
-  top:28.0394px;
-  width:347.6133px;
+  position: absolute;
+  left: calc(238.3304 / 1680 * 100%);
+  bottom: calc(29.0085 / 960 * 100%);
+  width: calc(258.579 / 1680 * 100%);
 }
 
 .runway-02 {
-  left:404.1267px;
-  top:0;
-  width:314.34px;
+  position: absolute;
+  left: calc(526.9094 / 1680 * 100%);
+  bottom: calc(11.4743 / 960 * 100%);
+  width: calc(310.1735 / 1680 * 100%);
 }
 
 .runway-03 {
-  left:1165.8811px;
-  top:35.4612px;
-  width:257.3244px;
+  position: absolute;
+  left: calc(867.0829 / 1680 * 100%);
+  bottom: calc(11.4743 / 960 * 100%);
+  width: calc(267.3053 / 1680 * 100%);
 }
 
 .runway-04 {
-  left:772.5111px;
-  top:33.812px;
-  width:332.1678px;
+  position: absolute;
+  left: calc(1164.3882 / 1680 * 100%);
+  bottom: calc(25.4251 / 960 * 100%);
+  width: calc(281.0278 / 1680 * 100%);
 }
 
 .runway-05 {
-  left:0;
-  top:472.2911px;
-  width:278.7556px;
+  position: absolute;
+  left: calc(234.584 / 1680 * 100%);
+  bottom: calc(446.925 / 960 * 100%);
+  width: calc(262.3254 / 1680 * 100%);
 }
 
 .runway-06 {
-  left:337.02px;
-  top:427.9885px;
-  width:259.5833px;
+  position: absolute;
+  left: calc(526.9094 / 1680 * 100%);
+  bottom: calc(506.0903 / 960 * 100%);
+  width: calc(242.4773 / 1680 * 100%);
 }
 
 .runway-07 {
-  left:655.4478px;
-  top:445.1801px;
-  width:343.4667px;
+  position: absolute;
+  left: calc(798.5276 / 1680 * 100%);
+  bottom: calc(442.4321 / 960 * 100%);
+  width: calc(335.8606 / 1680 * 100%);
 }
 
 .runway-08 {
-  left:1055.7689px;
-  top:417.4084px;
-  width:367.25px;
+  position: absolute;
+  left: calc(1164.3882 / 1680 * 100%);
+  bottom: calc(476.925 / 960 * 100%);
+  width: calc(281.0278 / 1680 * 100%);
+}
+
+.runway-outline {
+  position: absolute;
+  left: calc(234.584 / 1680 * 100%);
+  bottom: calc(11.4743 / 960 * 100%);
+  width: calc(1210.8321 / 1680 * 100%);
 }
 
 /* NEXT PROJECT */
