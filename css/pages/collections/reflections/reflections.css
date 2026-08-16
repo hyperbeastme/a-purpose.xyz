@@ -658,6 +658,12 @@ main {
   width:calc(125.828/ 1680 * 100%);
 }
 
+.reflections-outline {
+  left:calc(1129.3769 / 1680 * 100%);
+  top:calc(514.6212 / 960 * 100%);
+  width:calc(125.828/ 1680 * 100%);
+}
+
 /* NEXT PROJECT */
 
 .reflections-next-project {
