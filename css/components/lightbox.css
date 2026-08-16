@@ -95,9 +95,7 @@ body.lightbox-open {
 .eternal-editorial > h2,
 .eternal-runway > h2,
 .reflections-section > h2 {
-  position: relative;
   z-index: 30;
-  margin-bottom: 50px;
   font-family: "futura-pt-condensed", sans-serif;
   font-style: normal;
   font-weight: 300;
