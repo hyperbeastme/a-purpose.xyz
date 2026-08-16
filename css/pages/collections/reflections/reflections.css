@@ -341,7 +341,7 @@ main {
 
 /* SKETCHES
    Inner-canvas coordinate system: 1680 x 960. */
-   
+
 .reflections-sketch{
   width:1680px;
   height:1040px;
@@ -349,6 +349,20 @@ main {
   padding:80px;
   position:relative;
   overflow:hidden;
+}
+
+.reflections-sketch h2 {
+  font-family:"futura-pt-condensed", sans-serif;
+  font-style:italic;
+  position:absolute;
+  left: calc(24 / 1680 * 100%);
+  top: calc(13 / 960 * 100%);
+  z-index:20;
+  margin:0;
+  font-size:44px;
+  font-weight:300;
+  letter-spacing:0;
+  line-height:1;
 }
 
 .reflection-sketch-canvas {
