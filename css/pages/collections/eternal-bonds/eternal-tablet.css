@@ -309,7 +309,7 @@ main { width:100%; max-width:var(--project-max-width); margin:0 auto; }
 .eternal-editorial {
   width:100%;
   max-width:1680px;
-  aspect-ratio:1680 / 960;
+  aspect-ratio:1680 / 1040;
   height:auto;
   margin:0 auto;
   padding:0;
@@ -319,7 +319,7 @@ main { width:100%; max-width:var(--project-max-width); margin:0 auto; }
 .eternal-editorial h2 {
   position:absolute;
   left:calc(24 / 1680 * 100%);
-  top:calc(13 / 960 * 100%);
+  top:calc(13 / 1040 * 100%);
   z-index:20;
   margin:0;
   font-family:"futura-pt-condensed", sans-serif;
@@ -330,9 +330,10 @@ main { width:100%; max-width:var(--project-max-width); margin:0 auto; }
 }
 .eternal-editorial-layout {
   position:absolute;
-  inset:0;
+  left:0;
+  top:calc(80 / 1040 * 100%);
   width:100%;
-  height:100%;
+  height:calc(960 / 1040 * 100%);
 }
 .eternal-editorial-layout img {
   position:absolute;
