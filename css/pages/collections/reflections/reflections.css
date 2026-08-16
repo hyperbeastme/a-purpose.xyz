@@ -521,33 +521,27 @@ main {
 }
 
 .reflections-catalog-01 {
-  left:calc(133.3333 / 1680 * 100%);
-  top:calc(202.0017 / 960 * 100%);
-  width:calc(337.7778 / 1680 * 100%);
+  left:calc(111.7008 / 1680 * 100%);
+  top:calc(220.2554 / 960 * 100%);
+  width:calc(346.3262 / 1680 * 100%);
 }
 
 .reflections-catalog-02 {
-  left:calc(488.8889 / 1680 * 100%);
-  top:calc(202.0017 / 960 * 100%);
-  width:calc(337.7778 / 1680 * 100%);
+  left:calc(487.0715 / 1680 * 100%);
+  top:calc(220.2554 / 960 * 100%);
+  width:calc(346.3262 / 1680 * 100%);
 }
 
 .reflections-catalog-03 {
-  left:calc(844.4444 / 1680 * 100%);
-  top:calc(202.0017 / 960 * 100%);
-  width:calc(337.7778 / 1680 * 100%);
+  left:calc(862.4421 / 1680 * 100%);
+  top:calc(220.2554 / 960 * 100%);
+  width:calc(346.3262 / 1680 * 100%);
 }
 
 .reflections-catalog-04 {
-  left:calc(1200 / 1680 * 100%);
-  top:calc(202.0017 / 960 * 100%);
-  width:calc(322.2222 / 1680 * 100%);
-}
-
-.reflections-catalog-02 { 
-  left:488.8889px; 
-  top:202.0017px; 
-  width:337.7778px; 
+  left:calc(1237.8128 / 1680 * 100%);
+  top:calc(220.2554 / 960 * 100%);
+  width:calc(330.4864  / 1680 * 100%);
 }
 
 /* EDITORIAL
