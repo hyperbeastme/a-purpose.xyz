@@ -264,81 +264,81 @@ body {
 }
 
 .process-01{
-  right:696.4167px;
-  top:241.9584px;
-  width:262.48px;
+  left:calc(1055.4274 / 1600 * 100%);
+  top:calc(505.7481 / 960 * 100%);
+  width:calc(270.4402 / 1600 * 100%);
 }
 
 .process-02{
-  right:1275.6827px;
-  top:395.9613px;
-  width:128.1158px;
+  left:calc(1355.8676 / 1600 * 100%);
+  top:calc(324.4197 / 960 * 100%);
+  width:calc(231.0764 / 1600 * 100%);
 }
 
 .process-03{
-  right:407.7734px;
-  top:543.7688px;
-  width:233.11px;
+  left:calc(620.8961 / 1600 * 100%);
+  top:calc(444.2718 / 960 * 100%);
+  width:calc(96.073 / 1600 * 100%);
 }
 
 .process-04{
-  right:407.7734px;
-  top:281.5666px;
-  width:235.2px;
+  left:calc(1055.4274 / 1600 * 100%);
+  top:calc(115.1612 / 960 * 100%);
+  width:calc(270.4402 / 1600 * 100%);
 }
 
 .process-05{
-  right:1086.6712px;
-  top:395.6864px;
-  width:144.2856px;
+  left:calc(141.4945 / 1600 * 100%);
+  top:calc(80.88 / 960 * 100%);
+  width:calc(175.0347 / 1600 * 100%);
 }
 
 .process-06{
-  right:57.0979px;
-  top:281.5666px;
-  width:295.12px;
+  left:calc(93.056 / 1600 * 100%);
+  top:calc(362.0861 / 960 * 100%);
+  width:calc(223.4733 / 1600 * 100%);
 }
 
 .process-07{
-  right:641.9356px;
-  top:39.608px;
-  width:316.9622px;
+  left:calc(346.5293 / 1600 * 100%);
+  top:calc(444.2718 / 960 * 100%);
+  width:calc(244.3669 / 1600 * 100%);
 }
 
 .process-08{
-  right:696.4179px;
-  top:396.4186px;
-  width:334.6989px;
+  left:calc(1055.4274 / 1600 * 100%);
+  top:calc(687.8707 / 960 * 100%);
+  width:calc(270.4401 / 1600 * 100%);
 }
 
 .process-09{
-  right:1013.8711px;
-  top:0px;
-  width:281.6px;
+  left:calc(746.9692 / 1600 * 100%);
+  top:calc(444.2718 / 960 * 100%);
+  width:calc(278.4582 / 1600 * 100%);
 }
 
 .process-10{
-  right:116.2739px;
-  top:603.181px;
-  width:235.944px;
+  left:calc(157.5511 / 1600 * 100%);
+  top:calc(690.0504 / 960 * 100%);
+  width:calc(158.9782 / 1600 * 100%);
 }
 
 .process-11{
-  right:992.0333px;
-  top:583.377px;
-  width:431.1111px;
+  left:calc(346.5293 / 1600 * 100%);
+  top:calc(98.3448 / 960 * 100%);
+  width:calc(421.236 / 1600 * 100%);
 }
 
 .process-12{
-  right:0px;
-  top:0px;
-  width:586.3801px;
+  left:calc(346.5293 / 1600 * 100%);
+  top:calc(645.0184 / 960 * 100%);
+  width:calc(370.4399 / 1600 * 100%);
 }
 
 .process-13{
-  right:696.4167px;
-  top:583.377px;
-  width:240.0611px;
+  left:calc(797.7653 / 1600 * 100%);
+  top:calc(156.8706 / 960 * 100%);
+  width:calc(227.6621 / 1600 * 100%);
 }
 
 /* FILMSTRIP */
