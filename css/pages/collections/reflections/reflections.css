@@ -7,8 +7,8 @@
   --page-margin:80px;
   --section-height:930px;
   --opening-height:850px;
-  --canvas-top:118.8246px;
-  --canvas-height:811.1754px;
+  --canvas-top:calc(118.8246 / 930 * 100%);
+  --canvas-height:calc(811.1754 / 930 * 100%);
   --black:#000;
   --white:#fff;
   --gray:#888;
@@ -132,8 +132,8 @@ main {
 
 .reflections-section h2 {
   position:absolute;
-  left:24px;
-  top:80px;
+  left:calc(24 / 1600 * 100%);
+  top:calc(80 / 930 * 100%);
   z-index:20;
   margin:0;
   font-size:44px;
@@ -161,7 +161,8 @@ main {
   margin:0;
 }
 
-/* OPENING STATEMENT */
+/* OPENING STATEMENT
+   Coordinate system: 1600 x 850. */
 /* Reflections of Displacement opening board
    Desktop coordinates are translated from the 1440 × 1024 Illustrator artboard. */
 
@@ -197,25 +198,25 @@ main {
 }
 
 .reflections-opening-closing {
-  margin-top:41.5039px;
+  margin-top:calc(41.5039 / 850 * 100%);
   font-size:28px;
   font-weight:200;
   line-height:1.25;
 }
 
 .reflections-opening-closing p + p {
-  margin-top:19.0918px;
+  margin-top:calc(19.0918 / 850 * 100%);
 }
 
 .reflections-opening-closing p:nth-child(2) {
-  margin-left:288.8889px;
+  margin-left:calc(288.8889 / 1600 * 100%);
 }
 
 .reflections-statement-copy {
     position:absolute;
-    left:88.8889px;
-    top:162.6953px;
-    width:577.7778px;
+    left:calc(88.8889 / 1600 * 100%);
+    top:calc(162.6953 / 850 * 100%);
+    width:calc(577.7778 / 1600 * 100%);
 }
 
 .reflections-opening-statement {
@@ -228,30 +229,32 @@ main {
 
 .reflections-statement-image {
     position:absolute;
-    right:88.8889px;
-    top:182.6172px;
-    width:722.2222px;
+    right:calc(88.8889 / 1600 * 100%);
+    top:calc(182.6172 / 850 * 100%);
+    width:calc(722.2222 / 1600 * 100%);
     height:auto;
 }
 
 
-/* MOOD BOARD */
+/* MOOD BOARD
+   Inner-canvas coordinate system: 1600 x 811.1754. */
 
-.reflections-mood-01 { left:1108.5556px; top:486.7845px; width:365.5556px; }
-.reflections-mood-02 { left:529.5556px; top:369.2274px; width:551.5556px; }
-.reflections-mood-03 { left:790px; top:217.2112px; width:295.5556px; }
-.reflections-mood-04 { left:795.1111px; top:63.373px; width:285.5556px; }
-.reflections-mood-05 { left:530.7444px; top:144.0945px; width:237.7778px; }
-.reflections-mood-06 { left:178.8889px; top:159.2249px; width:320px; }
-.reflections-mood-07 { left:125.5556px; top:350.5323px; width:375.5556px; }
-.reflections-mood-08 { left:1108.5556px; top:159.2249px; width:343.7889px; }
+.reflections-mood-01 { left:calc(1108.5556 / 1600 * 100%); top:calc(486.7845 / 811.1754 * 100%); width:calc(365.5556 / 1600 * 100%); }
+.reflections-mood-02 { left:calc(529.5556 / 1600 * 100%); top:calc(369.2274 / 811.1754 * 100%); width:calc(551.5556 / 1600 * 100%); }
+.reflections-mood-03 { left:calc(790 / 1600 * 100%); top:calc(217.2112 / 811.1754 * 100%); width:calc(295.5556 / 1600 * 100%); }
+.reflections-mood-04 { left:calc(795.1111 / 1600 * 100%); top:calc(63.373 / 811.1754 * 100%); width:calc(285.5556 / 1600 * 100%); }
+.reflections-mood-05 { left:calc(530.7444 / 1600 * 100%); top:calc(144.0945 / 811.1754 * 100%); width:calc(237.7778 / 1600 * 100%); }
+.reflections-mood-06 { left:calc(178.8889 / 1600 * 100%); top:calc(159.2249 / 811.1754 * 100%); width:calc(320 / 1600 * 100%); }
+.reflections-mood-07 { left:calc(125.5556 / 1600 * 100%); top:calc(350.5323 / 811.1754 * 100%); width:calc(375.5556 / 1600 * 100%); }
+.reflections-mood-08 { left:calc(1108.5556 / 1600 * 100%); top:calc(159.2249 / 811.1754 * 100%); width:calc(343.7889 / 1600 * 100%); }
 
 
-/* SKETCHES */
+/* SKETCHES
+   Inner-canvas coordinate system: 1600 x 811.1754. */
 
 .reflections-sketch-01,
 .reflections-sketch-02 {
-    width:1222.2222px;
+    width:calc(1222.2222 / 1600 * 100%);
     height:auto;
     max-width:none;
     object-fit:contain;
@@ -259,58 +262,61 @@ main {
 }
 
 .reflections-sketch-01 {
-    left:188.8889px;
-    top:63.373px;
+    left:calc(188.8889 / 1600 * 100%);
+    top:calc(63.373 / 811.1754 * 100%);
 }
 
 .reflections-sketch-02 {
-    left:188.8889px;
-    top:397.3493px;
+    left:calc(188.8889 / 1600 * 100%);
+    top:calc(397.3493 / 811.1754 * 100%);
 }
 
 
-/* PROCESS */
+/* PROCESS
+   Inner-canvas coordinate system: 1600 x 811.1754. */
 
-.reflections-process-01 { left:167.7778px; top:99.6146px; width:341.1111px; }
-.reflections-process-02 { left:207.7778px; top:278.0494px; width:131.1111px; }
-.reflections-process-03 { left:453.3333px; top:533.9183px; width:150px; }
-.reflections-process-04 { left:937.7778px; top:99.8126px; width:170px; }
-.reflections-process-05 { left:167.7778px; top:400.0426px; width:245.5556px; }
-.reflections-process-06 { left:948.8889px; top:486.3885px; width:436.6667px; }
-.reflections-process-07 { left:378.8889px; top:278.0494px; width:182.2222px; }
+.reflections-process-01 { left:calc(167.7778 / 1600 * 100%); top:calc(99.6146 / 811.1754 * 100%); width:calc(341.1111 / 1600 * 100%); }
+.reflections-process-02 { left:calc(207.7778 / 1600 * 100%); top:calc(278.0494 / 811.1754 * 100%); width:calc(131.1111 / 1600 * 100%); }
+.reflections-process-03 { left:calc(453.3333 / 1600 * 100%); top:calc(533.9183 / 811.1754 * 100%); width:calc(150 / 1600 * 100%); }
+.reflections-process-04 { left:calc(937.7778 / 1600 * 100%); top:calc(99.8126 / 811.1754 * 100%); width:calc(170 / 1600 * 100%); }
+.reflections-process-05 { left:calc(167.7778 / 1600 * 100%); top:calc(400.0426 / 811.1754 * 100%); width:calc(245.5556 / 1600 * 100%); }
+.reflections-process-06 { left:calc(948.8889 / 1600 * 100%); top:calc(486.3885 / 811.1754 * 100%); width:calc(436.6667 / 1600 * 100%); }
+.reflections-process-07 { left:calc(378.8889 / 1600 * 100%); top:calc(278.0494 / 811.1754 * 100%); width:calc(182.2222 / 1600 * 100%); }
 
-.reflections-process-08 { left:601.1111px; top:278.0494px; width:73.3333px; }
-.reflections-process-09 { left:548.8889px; top:99.6146px; width:125.5556px; }
-.reflections-process-10 { left:714.4444px; top:127.5383px; width:183.3333px; }
-.reflections-process-11 { left:643.3333px; top:533.9183px; width:266.6667px; }
-.reflections-process-12 { left:758.8889px; top:371.5247px; width:147.7778px; }
-.reflections-process-13 { left:453.3333px; top:400.0426px; width:266.6667px; }
-.reflections-process-14 { left:1147.7778px; top:99.8126px; width:282.2222px; }
-
-
-/* CATALOG */
-
-.reflections-catalog-01 { left:133.3333px; top:202.0017px; width:337.7778px; }
-.reflections-catalog-02 { left:488.8889px; top:202.0017px; width:337.7778px; }
-.reflections-catalog-03 { left:844.4444px; top:202.0017px; width:337.7778px; }
-.reflections-catalog-04 { left:1200px; top:202.0017px; width:322.2222px; }
+.reflections-process-08 { left:calc(601.1111 / 1600 * 100%); top:calc(278.0494 / 811.1754 * 100%); width:calc(73.3333 / 1600 * 100%); }
+.reflections-process-09 { left:calc(548.8889 / 1600 * 100%); top:calc(99.6146 / 811.1754 * 100%); width:calc(125.5556 / 1600 * 100%); }
+.reflections-process-10 { left:calc(714.4444 / 1600 * 100%); top:calc(127.5383 / 811.1754 * 100%); width:calc(183.3333 / 1600 * 100%); }
+.reflections-process-11 { left:calc(643.3333 / 1600 * 100%); top:calc(533.9183 / 811.1754 * 100%); width:calc(266.6667 / 1600 * 100%); }
+.reflections-process-12 { left:calc(758.8889 / 1600 * 100%); top:calc(371.5247 / 811.1754 * 100%); width:calc(147.7778 / 1600 * 100%); }
+.reflections-process-13 { left:calc(453.3333 / 1600 * 100%); top:calc(400.0426 / 811.1754 * 100%); width:calc(266.6667 / 1600 * 100%); }
+.reflections-process-14 { left:calc(1147.7778 / 1600 * 100%); top:calc(99.8126 / 811.1754 * 100%); width:calc(282.2222 / 1600 * 100%); }
 
 
-/* EDITORIAL */
+/* CATALOG
+   Inner-canvas coordinate system: 1600 x 811.1754. */
 
-.reflections-editorial-01 { left:680px; top:390.1406px; width:282.2222px; }
-.reflections-editorial-02 { left:111.1111px; top:63.373px; width:228.8889px; }
-.reflections-editorial-03 { left:88.8889px; top:335.0851px; width:317.7778px; }
-.reflections-editorial-04 { left:434.4444px; top:463.4157px; width:216.6667px; }
-.reflections-editorial-05 { left:340px; top:63.373px; width:395.5556px; }
-.reflections-editorial-06 { left:735.5556px; top:63.373px; width:276.6667px; }
+.reflections-catalog-01 { left:calc(133.3333 / 1600 * 100%); top:calc(202.0017 / 811.1754 * 100%); width:calc(337.7778 / 1600 * 100%); }
+.reflections-catalog-02 { left:calc(488.8889 / 1600 * 100%); top:calc(202.0017 / 811.1754 * 100%); width:calc(337.7778 / 1600 * 100%); }
+.reflections-catalog-03 { left:calc(844.4444 / 1600 * 100%); top:calc(202.0017 / 811.1754 * 100%); width:calc(337.7778 / 1600 * 100%); }
+.reflections-catalog-04 { left:calc(1200 / 1600 * 100%); top:calc(202.0017 / 811.1754 * 100%); width:calc(322.2222 / 1600 * 100%); }
 
-.reflections-editorial-07 { left:1041.1111px; top:79.2163px; width:124.4444px; }
-.reflections-editorial-08 { left:1041.1111px; top:232.8961px; width:124.4444px; }
-.reflections-editorial-09 { left:990px; top:385.7837px; width:155.5556px; }
-.reflections-editorial-10 { left:990px; top:572.7343px; width:155.5556px; }
-.reflections-editorial-11 { left:1194.4444px; top:63.373px; width:321.1111px; }
-.reflections-editorial-12 { left:1174.4444px; top:442.8194px; width:285.5556px; }
+
+/* EDITORIAL
+   Inner-canvas coordinate system: 1600 x 811.1754. */
+
+.reflections-editorial-01 { left:calc(680 / 1600 * 100%); top:calc(390.1406 / 811.1754 * 100%); width:calc(282.2222 / 1600 * 100%); }
+.reflections-editorial-02 { left:calc(111.1111 / 1600 * 100%); top:calc(63.373 / 811.1754 * 100%); width:calc(228.8889 / 1600 * 100%); }
+.reflections-editorial-03 { left:calc(88.8889 / 1600 * 100%); top:calc(335.0851 / 811.1754 * 100%); width:calc(317.7778 / 1600 * 100%); }
+.reflections-editorial-04 { left:calc(434.4444 / 1600 * 100%); top:calc(463.4157 / 811.1754 * 100%); width:calc(216.6667 / 1600 * 100%); }
+.reflections-editorial-05 { left:calc(340 / 1600 * 100%); top:calc(63.373 / 811.1754 * 100%); width:calc(395.5556 / 1600 * 100%); }
+.reflections-editorial-06 { left:calc(735.5556 / 1600 * 100%); top:calc(63.373 / 811.1754 * 100%); width:calc(276.6667 / 1600 * 100%); }
+
+.reflections-editorial-07 { left:calc(1041.1111 / 1600 * 100%); top:calc(79.2163 / 811.1754 * 100%); width:calc(124.4444 / 1600 * 100%); }
+.reflections-editorial-08 { left:calc(1041.1111 / 1600 * 100%); top:calc(232.8961 / 811.1754 * 100%); width:calc(124.4444 / 1600 * 100%); }
+.reflections-editorial-09 { left:calc(990 / 1600 * 100%); top:calc(385.7837 / 811.1754 * 100%); width:calc(155.5556 / 1600 * 100%); }
+.reflections-editorial-10 { left:calc(990 / 1600 * 100%); top:calc(572.7343 / 811.1754 * 100%); width:calc(155.5556 / 1600 * 100%); }
+.reflections-editorial-11 { left:calc(1194.4444 / 1600 * 100%); top:calc(63.373 / 811.1754 * 100%); width:calc(321.1111 / 1600 * 100%); }
+.reflections-editorial-12 { left:calc(1174.4444 / 1600 * 100%); top:calc(442.8194 / 811.1754 * 100%); width:calc(285.5556 / 1600 * 100%); }
 
 
 /* NEXT PROJECT */
