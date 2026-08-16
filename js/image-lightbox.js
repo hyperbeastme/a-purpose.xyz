@@ -7,27 +7,103 @@
     }
 
     const SELECTOR = "img:not([data-no-lightbox])";
-    let activeTrigger = null;
+    let returnFocusTo = null;
+    let activeGallery = [];
+    let activeIndex = 0;
 
     const overlay = document.createElement("div");
     overlay.className = "image-lightbox";
     overlay.hidden = true;
     overlay.setAttribute("role", "dialog");
     overlay.setAttribute("aria-modal", "true");
-    overlay.setAttribute("aria-label", "Expanded image");
+    overlay.setAttribute("aria-label", "Image gallery");
 
     const closeButton = document.createElement("button");
     closeButton.className = "image-lightbox-close";
     closeButton.type = "button";
-    closeButton.setAttribute("aria-label", "Close expanded image");
+    closeButton.setAttribute("aria-label", "Close image gallery");
     closeButton.textContent = "×";
+
+    const previousButton = document.createElement("button");
+    previousButton.className = "image-lightbox-nav image-lightbox-previous";
+    previousButton.type = "button";
+    previousButton.setAttribute("aria-label", "Previous image");
+    previousButton.textContent = "‹";
+
+    const nextButton = document.createElement("button");
+    nextButton.className = "image-lightbox-nav image-lightbox-next";
+    nextButton.type = "button";
+    nextButton.setAttribute("aria-label", "Next image");
+    nextButton.textContent = "›";
 
     const expandedImage = document.createElement("img");
     expandedImage.className = "image-lightbox-image";
     expandedImage.alt = "";
 
-    overlay.append(closeButton, expandedImage);
+    const status = document.createElement("p");
+    status.className = "image-lightbox-status";
+    status.setAttribute("aria-live", "polite");
+
+    overlay.append(
+        closeButton,
+        previousButton,
+        expandedImage,
+        nextButton,
+        status
+    );
     document.body.append(overlay);
+
+    const isEligible = (image) =>
+        image.matches(SELECTOR) &&
+        !image.closest("a, button, .image-lightbox");
+
+    const findGallerySection = (image) => {
+        let section = image.closest("section");
+
+        while (section) {
+            if (Array.from(section.children).some((child) => child.matches?.("h2"))) {
+                return section;
+            }
+
+            section = section.parentElement?.closest("section") || null;
+        }
+
+        return image.closest("main") || document.body;
+    };
+
+    const getGallery = (image) =>
+        Array.from(findGallerySection(image).querySelectorAll(SELECTOR))
+            .filter(isEligible);
+
+    const getSectionName = (image) => {
+        const section = findGallerySection(image);
+        const heading = Array.from(section.children)
+            .find((child) => child.matches?.("h2"));
+
+        return heading?.textContent?.trim() || "Gallery";
+    };
+
+    const showImage = (index) => {
+        if (!activeGallery.length) {
+            return;
+        }
+
+        activeIndex = (index + activeGallery.length) % activeGallery.length;
+        const image = activeGallery[activeIndex];
+        const hasMultipleImages = activeGallery.length > 1;
+
+        expandedImage.src = image.currentSrc || image.src;
+        expandedImage.alt = image.alt || "";
+        overlay.setAttribute(
+            "aria-label",
+            `${getSectionName(image)} image gallery`
+        );
+        status.textContent = hasMultipleImages
+            ? `${activeIndex + 1} / ${activeGallery.length}`
+            : "";
+        previousButton.hidden = !hasMultipleImages;
+        nextButton.hidden = !hasMultipleImages;
+    };
 
     const closeLightbox = () => {
         if (overlay.hidden) {
@@ -37,28 +113,31 @@
         overlay.hidden = true;
         expandedImage.removeAttribute("src");
         expandedImage.alt = "";
+        status.textContent = "";
+        activeGallery = [];
         document.body.classList.remove("lightbox-open");
 
-        if (activeTrigger) {
-            activeTrigger.focus();
-            activeTrigger = null;
+        if (returnFocusTo) {
+            returnFocusTo.focus();
+            returnFocusTo = null;
         }
     };
 
     const openLightbox = (image) => {
-        activeTrigger = image;
-        expandedImage.src = image.currentSrc || image.src;
-        expandedImage.alt = image.alt || "";
+        activeGallery = getGallery(image);
+        activeIndex = Math.max(0, activeGallery.indexOf(image));
+        returnFocusTo = image;
+        showImage(activeIndex);
         overlay.hidden = false;
         document.body.classList.add("lightbox-open");
         closeButton.focus();
     };
 
+    const showPrevious = () => showImage(activeIndex - 1);
+    const showNext = () => showImage(activeIndex + 1);
+
     const makeClickable = (image) => {
-        if (
-            image.dataset.lightboxReady === "true" ||
-            image.closest("a, button, .image-lightbox")
-        ) {
+        if (image.dataset.lightboxReady === "true" || !isEligible(image)) {
             return;
         }
 
@@ -69,8 +148,8 @@
         image.setAttribute(
             "aria-label",
             image.alt
-                ? `Enlarge image: ${image.alt}`
-                : "Enlarge image"
+                ? `Open ${image.alt} in its section gallery`
+                : "Open image in its section gallery"
         );
 
         image.addEventListener("click", () => openLightbox(image));
@@ -106,6 +185,13 @@
     });
 
     closeButton.addEventListener("click", closeLightbox);
+    previousButton.addEventListener("click", showPrevious);
+    nextButton.addEventListener("click", showNext);
+    expandedImage.addEventListener("click", () => {
+        if (activeGallery.length > 1) {
+            showNext();
+        }
+    });
 
     overlay.addEventListener("click", (event) => {
         if (event.target === overlay) {
@@ -114,8 +200,18 @@
     });
 
     document.addEventListener("keydown", (event) => {
+        if (overlay.hidden) {
+            return;
+        }
+
         if (event.key === "Escape") {
             closeLightbox();
+        } else if (event.key === "ArrowLeft") {
+            event.preventDefault();
+            showPrevious();
+        } else if (event.key === "ArrowRight") {
+            event.preventDefault();
+            showNext();
         }
     });
 })();
