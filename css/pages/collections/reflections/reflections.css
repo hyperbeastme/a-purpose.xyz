@@ -343,7 +343,8 @@ main {
    Inner-canvas coordinate system: 1680 x 960. */
 
 .reflections-sketch{
-  width:1680px;
+  width:100%;
+  max-width:1680px;
   height:960px;
   margin:0 auto;
   margin-top:100px;
@@ -366,12 +367,12 @@ main {
   line-height:1;
 }
 
-.reflection-sketch-canvas {
+.reflections-sketch-canvas {
   position:absolute;
-  left:295.0422px;
-  top:27.1041px;
+  left:0;
+  top:0;
   width:100%;
-  height:auto;
+  height:100%;
 }
 
 .reflections-mood img{
