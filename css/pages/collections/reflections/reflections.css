@@ -426,6 +426,20 @@ main {
   line-height:1;
 }
 
+.reflections-details {
+  position:absolute;
+  left:0;
+  top:40px;
+  width:100%;
+  height:960px;
+}
+
+.reflections-details img{
+  position: absolute;
+  height: auto;
+  margin: 0;
+}
+
 .reflections-process-01 {
   left:calc(167.7778 / 1680 * 100%);
   top:calc(99.6146 / 960 * 100%);
