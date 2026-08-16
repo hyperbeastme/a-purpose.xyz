@@ -461,7 +461,7 @@ body {
   /* Preserve your canvas width but allow vertical expansion */
   position: relative;
   width: 100%;
-  min-height: 930px;
+  min-height: 960px;
   height: auto;
 }
 
