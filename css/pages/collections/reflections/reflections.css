@@ -174,15 +174,6 @@ main {
   overflow:hidden;
 }   
 
-.reflections-statement {
-  font-family:"futura-pt-condensed", sans-serif;
-  font-style:italic;
-  margin:0 auto;
-  position:absolute;
-  overflow:hidden;
-  max-width:487.5px;
-}
-
 .reflections-opening {
   font-size:29px;
   font-weight:200;
