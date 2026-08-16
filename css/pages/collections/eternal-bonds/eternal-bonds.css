@@ -346,8 +346,7 @@ body {
 /* FILMSTRIP */
 
 .eternal-filmstrip {
-  width:1777.7778px;
-  height:1838.3721px;
+  aspect-ratio: 1680 / 450;
   margin:0 auto;
   padding:0 80px;
   position:relative;
@@ -361,19 +360,11 @@ body {
   z-index:2;
 }
 
-.eternal-filmstrip-layout {
-  position:absolute;
-  left:109.9072px;
-  top:324.4186px;
-  width:1380.1856px;
-  height:537.4124px;
-}
-
-.eternal-filmstrip-layout img {
-  display:block;
-  width:100%;
-  height:100%;
-  object-fit:contain;
+.eternal-filmstrip img {
+  position: absolute;
+  left: calc(238.7635 / 1680 * 100%);
+  bottom: calc(104.7288 / 450 * 100%);
+  width: calc(1202.4731 / 1680 * 100%);
 }
 
 /* EDITORIAL */
