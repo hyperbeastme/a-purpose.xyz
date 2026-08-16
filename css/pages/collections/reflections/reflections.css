@@ -254,63 +254,81 @@ main {
 /* MOOD BOARD
    Inner-canvas coordinate system: 1600 x 811.1754. */
 
+.reflections-mood {
+  position:relative;
+  width:100%;
+  max-width:1680px;
+  height:960px;
+  margin:0 auto;
+  overflow:hidden;
+}
+
+.reflections-h2 {
+  font-family:"futura-pt-condensed", sans-serif;
+  font-style:italic;
+  position:absolute;
+  left: calc(30 / 1680 * 100%);
+  top: calc(13 / 960 * 100%);
+  z-index:20;
+  margin:0;
+  font-size:44px;
+  font-weight:300;
+  letter-spacing:0;
+  line-height:1;
+}
+
+.reflections-mood img{
+  position:absolute;
+  height:auto;
+  margin:0;
+}
+
 .reflections-mood-01 {
-  left:calc(1108.5556 / 1600 * 100%);
-  top:calc(486.7845 / 811.1754 * 100%);
-  width:calc(365.5556 / 1600 * 100%);
+  left:calc(1122.5545 / 1680 * 100%);
+  top:calc(604.3654 / 811.1754 * 100%);
+  width:calc(335.1698 / 1680 * 100%);
 }
 
 .reflections-mood-02 {
-  left:calc(529.5556 / 1600 * 100%);
-  top:calc(369.2274 / 811.1754 * 100%);
-  width:calc(551.5556 / 1600 * 100%);
+  left:calc(592.4265 / 1680 * 100%);
+  top:calc(453.3106 / 811.1754 * 100%);
+  width:calc(505.0441 / 1680 * 100%);
 }
 
 .reflections-mood-03 {
-  left:calc(790 / 1600 * 100%);
-  top:calc(217.2112 / 811.1754 * 100%);
-  width:calc(295.5556 / 1600 * 100%);
+  left:calc(831.5428 / 1680 * 100%);
+  top:calc(258.2282 / 811.1754 * 100%);
+  width:calc(270.6985 / 1680 * 100%);
 }
 
 .reflections-mood-04 {
-  left:calc(795.1111 / 1600 * 100%);
-  top:calc(63.373 / 811.1754 * 100%);
-  width:calc(285.5556 / 1600 * 100%);
+  left:calc(835.5199 / 1680 * 100%);
+  top:calc(60.4968 / 811.1754 * 100%);
+  width:calc(262.2527 / 1680 * 100%);
 }
 
 .reflections-mood-05 {
-  left:calc(530.7444 / 1600 * 100%);
-  top:calc(144.0945 / 811.1754 * 100%);
-  width:calc(237.7778 / 1600 * 100%);
+  left:calc(593.4612 / 1680 * 100%);
+  top:calc(164.1825 / 811.1754 * 100%);
+  width:calc(217.7685 / 1680 * 100%);
 }
 
 .reflections-mood-06 {
-  left:calc(178.8889 / 1600 * 100%);
-  top:calc(159.2249 / 811.1754 * 100%);
-  width:calc(320 / 1600 * 100%);
+  left:calc(271.3981 / 1680 * 100%);
+  top:calc(183.6157 / 811.1754 * 100%);
+  width:calc(293.348 / 1680 * 100%);
 }
 
 .reflections-mood-07 {
-  left:calc(125.5556 / 1600 * 100%);
-  top:calc(350.5323 / 811.1754 * 100%);
-  width:calc(375.5556 / 1600 * 100%);
+  left:calc(222.2757 / 1680 * 100%);
+  top:calc(429.3747 / 811.1754 * 100%);
+  width:calc(344.5069 / 1680 * 100%);
 }
 
 .reflections-mood-08 {
-  left:calc(1108.5556 / 1600 * 100%);
-  top:calc(159.2249 / 811.1754 * 100%);
-  width:calc(343.7889 / 1600 * 100%);
-}
-
-.reflections-mood-02 { 
-  left:529.5556px; 
-  top:369.2274px; 
-  width:551.5556px; 
-}
-.reflections-mood-03 { 
-  left:790px; 
-  top:217.2112px; 
-  width:295.5556px; 
+  left:calc(1122.5546 / 1680 * 100%);
+  top:calc(184.193 / 811.1754 * 100%);
+  width:calc(314.7969 / 1680 * 100%);
 }
 
 /* SKETCHES
