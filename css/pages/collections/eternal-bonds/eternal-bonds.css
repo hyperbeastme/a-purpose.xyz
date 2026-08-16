@@ -358,8 +358,8 @@ body {
   font-family:"futura-pt-condensed", sans-serif;
   font-style:italic;
   position:absolute;
-  left: calc(238.7635 / 1680 * 100%);
-  bottom: calc(104.7288 / 450 * 100%);
+  left: calc(99.6632 / 1680 * 100%);
+  top: calc(13.0944 / 450 * 100%);
   z-index:20;
   margin:0;
   font-size:44px;
