@@ -114,53 +114,6 @@ main {
   width:100%;
 }
 
-/* SHARED PROJECT SECTIONS */
-
-.reflections-section {
-  position:relative;
-  width:100%;
-  max-width:var(--project-max-width);
-  height:var(--section-height);
-  margin:0 auto;
-  padding:0;
-  overflow:hidden;
-}
-
-.reflections-section:first-of-type {
-  height:var(--opening-height);
-}
-
-.reflections-section h2 {
-  position:absolute;
-  left:calc(24 / 1680 * 100%);
-  top:calc(80 / 930 * 100%);
-  z-index:20;
-  margin:0;
-  font-size:44px;
-  font-weight:300;
-  line-height:1;
-}
-
-.reflections-section:has(> .reflections-canvas) {
-  height:var(--section-height);
-}
-
-.reflections-canvas {
-  position:absolute;
-  left:0;
-  top:var(--canvas-top);
-  width:100%;
-  height:var(--canvas-height);
-}
-
-.reflections-canvas img {
-  position:absolute;
-  display:block;
-  max-width:none;
-  height:auto;
-  margin:0;
-}
-
 /* OPENING STATEMENT
    Coordinate system: 1680 x 850. */
 /* Reflections of Displacement opening board
