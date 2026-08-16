@@ -401,12 +401,10 @@ main {
 /* PROCESS
    Inner-canvas coordinate system: 1680 x 960. */
 
-.reflections-process{
-  width:100%;
-  max-width:1680px;
-  height:960px;
+.reflections-process {
+  width:1600px;
+  height:1040px;
   margin:0 auto;
-  margin-top:100px;
   padding:80px;
   position:relative;
   overflow:hidden;
@@ -416,8 +414,8 @@ main {
   font-family:"futura-pt-condensed", sans-serif;
   font-style:italic;
   position:absolute;
-  left: calc(24 / 1680 * 100%);
-  top: calc(13 / 960 * 100%);
+  left: calc(30 / 1680 * 100%);
+  top: calc(13 / 450 * 100%);
   z-index:20;
   margin:0;
   font-size:44px;
