@@ -1,0 +1,111 @@
+/*
+  EDITABLE PHOTOGRAPHY CREDIT VALUES
+
+  Each collection page has its own value block below.
+  Change left/top to reposition a credit without moving its section.
+  Change max-width, padding, font-size, color, or text-align as needed.
+*/
+
+.catelier-page {
+  --photo-credit-left: 0px;
+  --photo-credit-top: 0px;
+  --photo-credit-max-width: 1680px;
+  --photo-credit-margin-top: 0px;
+  --photo-credit-margin-bottom: 0px;
+  --photo-credit-padding-top: 24px;
+  --photo-credit-padding-right: 80px;
+  --photo-credit-padding-bottom: 0px;
+  --photo-credit-padding-left: 80px;
+  --photo-credit-font-size: 20px;
+  --photo-credit-color: #888;
+  --photo-credit-text-align: right;
+}
+
+.eternal-bonds-page {
+  --photo-credit-left: 0px;
+  --photo-credit-top: 0px;
+  --photo-credit-max-width: 1440px;
+  --photo-credit-margin-top: 0px;
+  --photo-credit-margin-bottom: 0px;
+  --photo-credit-padding-top: 24px;
+  --photo-credit-padding-right: 80px;
+  --photo-credit-padding-bottom: 0px;
+  --photo-credit-padding-left: 80px;
+  --photo-credit-font-size: 20px;
+  --photo-credit-color: #888;
+  --photo-credit-text-align: right;
+}
+
+.reflections-page {
+  --photo-credit-left: 0px;
+  --photo-credit-top: 0px;
+  --photo-credit-max-width: 1440px;
+  --photo-credit-margin-top: 0px;
+  --photo-credit-margin-bottom: 0px;
+  --photo-credit-padding-top: 24px;
+  --photo-credit-padding-right: 80px;
+  --photo-credit-padding-bottom: 0px;
+  --photo-credit-padding-left: 80px;
+  --photo-credit-font-size: 20px;
+  --photo-credit-color: #888;
+  --photo-credit-text-align: right;
+}
+
+.project-photography-credit {
+  position: relative;
+  left: var(--photo-credit-left);
+  top: var(--photo-credit-top);
+  display: block;
+  clear: both;
+  width: 100%;
+  max-width: var(--photo-credit-max-width);
+  margin:
+    var(--photo-credit-margin-top)
+    auto
+    var(--photo-credit-margin-bottom);
+  padding:
+    var(--photo-credit-padding-top)
+    var(--photo-credit-padding-right)
+    var(--photo-credit-padding-bottom)
+    var(--photo-credit-padding-left);
+  color: var(--photo-credit-color);
+  font-family: "futura-pt-condensed", sans-serif;
+  font-size: var(--photo-credit-font-size);
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: var(--photo-credit-text-align);
+  z-index: 1;
+}
+
+.project-photography-credit a,
+.project-photography-credit a:visited,
+.project-photography-credit a:hover,
+.project-photography-credit a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .catelier-page,
+  .eternal-bonds-page,
+  .reflections-page {
+    --photo-credit-max-width: 100%;
+    --photo-credit-padding-top: 20px;
+    --photo-credit-padding-right: clamp(20px, 5vw, 80px);
+    --photo-credit-padding-left: clamp(20px, 5vw, 80px);
+    --photo-credit-font-size: clamp(16px, 2.25vw, 20px);
+  }
+}
+
+@media (max-width: 767px), (orientation: landscape) and (max-height: 500px) {
+  .catelier-page,
+  .eternal-bonds-page,
+  .reflections-page {
+    --photo-credit-max-width: 100%;
+    --photo-credit-padding-top: 16px;
+    --photo-credit-padding-right: 20px;
+    --photo-credit-padding-left: 20px;
+    --photo-credit-font-size: 16px;
+  }
+}
