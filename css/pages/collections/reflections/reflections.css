@@ -384,8 +384,6 @@ main {
 .reflections-sketch-02 {
     width:calc(1089.9156 / 1680 * 100%);
     height:auto;
-    max-width:none;
-    object-fit:contain;
     mix-blend-mode:multiply;
 }
 
