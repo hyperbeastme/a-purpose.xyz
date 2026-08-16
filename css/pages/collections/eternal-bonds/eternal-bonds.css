@@ -223,13 +223,15 @@ body {
   justify-content:center;
 }
 
+.eternal-sketch-layout img {
+  position:absolute;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
 .eternal-sketches-01{
-  display:block;
-  width:auto;
-  max-width:1244.4444px;
-  height:auto;
-  max-height:708.3984px;
-  mix-blend-mode:multiply;
+  
 }
 
 /* PROCESS */
