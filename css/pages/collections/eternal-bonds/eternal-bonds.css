@@ -735,11 +735,27 @@ body {
   width: calc(281.0278 / 1680 * 100%);
 }
 
+.eternal-runway-layout .runway-07 {
+  z-index: 0;
+}
+
+.eternal-runway-layout .runway-01,
+.eternal-runway-layout .runway-02,
+.eternal-runway-layout .runway-03,
+.eternal-runway-layout .runway-04,
+.eternal-runway-layout .runway-05,
+.eternal-runway-layout .runway-06,
+.eternal-runway-layout .runway-08 {
+  z-index: 1;
+}
+
 .runway-outline {
   position: absolute;
   left: calc(234.584 / 1680 * 100%);
   bottom: calc(11.4743 / 960 * 100%);
   width: calc(1210.8321 / 1680 * 100%);
+  z-index: 2;
+  pointer-events: none;
 }
 
 /* NEXT PROJECT */
