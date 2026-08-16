@@ -231,7 +231,9 @@ body {
 }
 
 .eternal-sketches-01{
-  
+  left:calc(297.7541 / 1600 * 100%);
+  top:calc(103.3396 / 960 * 100%);
+  width:calc(1084.4918 / 1600 * 100%);
 }
 
 /* PROCESS */
