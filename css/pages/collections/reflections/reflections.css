@@ -166,6 +166,14 @@ main {
 /* Reflections of Displacement opening board
    Desktop coordinates are translated from the 1440 × 1024 Illustrator artboard. */
 
+.reflections-opening-body{
+  width:1680px;
+  min-height:880px;
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+}   
+
 .reflections-opening-statement {
   margin:0;
   font-family:"futura-pt-condensed", sans-serif;
@@ -191,13 +199,20 @@ main {
   margin:24px 0 34px 220px !important;
 }
 
-.reflections-opening-body {
+.reflections-statement-01 {
   font-size:27px;
   font-weight:500;
   line-height:1.22;
 }
 
-.reflections-opening-closing {
+.reflections-question-02 {
+  margin-top:calc(41.5039 / 850 * 100%);
+  font-size:28px;
+  font-weight:200;
+  line-height:1.25;
+}
+
+.reflections-question-03 {
   margin-top:calc(41.5039 / 850 * 100%);
   font-size:28px;
   font-weight:200;
@@ -212,7 +227,7 @@ main {
   margin-left:calc(288.8889 / 1600 * 100%);
 }
 
-.reflections-statement-copy {
+.reflections-statement {
     position:absolute;
     left:calc(88.8889 / 1600 * 100%);
     top:calc(162.6953 / 850 * 100%);
