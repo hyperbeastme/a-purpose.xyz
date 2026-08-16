@@ -216,13 +216,14 @@ body {
   line-height:1;
 }
 
-.eternal-sketch-layout {
+.eternal-sketch-layout img{
   position:absolute;
   display:flex;
   align-items:center;
   justify-content:center;
   padding-left:80px;
   padding-right: 80px;
+  height: auto;
 }
 
 .eternal-sketches-01{
