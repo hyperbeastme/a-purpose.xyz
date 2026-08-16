@@ -91,7 +91,7 @@ body {
   scroll-snap-stop: always;
   max-width: 1600px;
 
-  aspect-ratio: 1600 / 850;
+  aspect-ratio: 1680 / 890;
 
   position: relative;
   overflow: hidden;
@@ -105,9 +105,9 @@ body {
 .about{
   scroll-snap-align: start;
   scroll-snap-stop: always;
-  max-width: 1600px;
+  max-width: 1680px;
 
-  aspect-ratio: 1600 / 930;
+  aspect-ratio: 1680 / 960;
 
   position: relative;
   overflow: hidden;
@@ -135,7 +135,7 @@ body {
 .landing {
   width:calc(100% - 80px);
   max-width:1600px;
-  aspect-ratio:1600 / 850;
+  aspect-ratio:1680 / 880;
   padding-top:80px;
   margin:0 auto;
   position:relative;
@@ -144,7 +144,7 @@ body {
 .landing-image {
   position:absolute;
   left:calc(0 / 1600 * 100%);
-  bottom:calc(0 / 850 * 100%);
+  bottom:calc(0 / 880 * 100%);
   width:calc(175 / 1600 * 100%);
   height:auto;
 }
@@ -152,7 +152,7 @@ body {
 .landing-statement {
   position:absolute;
   left: calc(1285.1505 / 1600 * 100%);
-  top: calc(236.5131 / 850 * 100%);
+  top: calc(236.5131 / 880 * 100%);
   width: calc(314.8495 / 1600 * 100%);
 }
 
@@ -164,8 +164,8 @@ body {
 
 .project-preview {
   width:100%;
-  max-width:1600px;
-  aspect-ratio:1600 / 930;
+  max-width:1680px;
+  aspect-ratio:1680 / 960;
   margin-inline: auto;
   position:relative;
   overflow:hidden;
