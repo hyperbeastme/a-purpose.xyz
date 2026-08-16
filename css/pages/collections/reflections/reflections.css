@@ -368,8 +368,6 @@ main {
 
 .reflection-sketch-canvas {
   position:absolute;
-  left:0;
-  top:80px;
   width:100%;
   height:960px;
 }
