@@ -135,11 +135,11 @@ main { width:100%; max-width:var(--project-max-width); margin:0 auto; }
 
 /* Mood board and process use the desktop 1440 x 1024 inner canvas. */
 .eternal-section:has(> .eternal-moodboard-canvas),
-.eternal-section:has(> .eternal-process-layout) {
+.eternal-section:has(> .eternal-details) {
   aspect-ratio:1440 / 1174;
 }
 .eternal-moodboard-canvas,
-.eternal-process-layout {
+.eternal-details {
   position:absolute;
   left:0;
   top:calc(150 / 1174 * 100%);
@@ -147,7 +147,7 @@ main { width:100%; max-width:var(--project-max-width); margin:0 auto; }
   height:calc(1024 / 1174 * 100%);
 }
 .eternal-moodboard-canvas img,
-.eternal-process-layout img {
+.eternal-details img {
   position:absolute;
   display:block;
   height:auto;
@@ -296,14 +296,14 @@ main { width:100%; max-width:var(--project-max-width); margin:0 auto; }
 /* Filmstrip: desktop 1440 x 430 section */
 .eternal-filmstrip { aspect-ratio:1440 / 430; }
 .eternal-filmstrip h2 { top:calc(80 / 430 * 100%); }
-.eternal-filmstrip-layout {
+.eternal-film {
   position:absolute;
   left:calc(98.9165 / 1440 * 100%);
   top:calc(150 / 430 * 100%);
   width:calc(1242.167 / 1440 * 100%);
   height:calc(248.481 / 430 * 100%);
 }
-.eternal-filmstrip-layout img { width:100%; height:100%; object-fit:contain; }
+.eternal-film img { width:100%; height:100%; object-fit:contain; }
 
 /* Editorial: exact 1680 x 960 composition measured from editorial-bonds.pdf. */
 .eternal-editorial {
