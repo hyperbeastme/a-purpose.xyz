@@ -90,7 +90,7 @@ body {
 
 /* SHARED PROJECT SECTIONS */
 
-.eternal-section {
+.eternal-opening {
   width:1600px;
   height:930px;
   margin:0 auto;
@@ -346,18 +346,26 @@ body {
 /* FILMSTRIP */
 
 .eternal-filmstrip {
-  aspect-ratio: 1680 / 450;
+  width:1600px;
+  height:450px;
   margin:0 auto;
-  padding:0 80px;
+  padding:80px;
   position:relative;
   overflow:hidden;
 }
 
 .eternal-filmstrip h2 {
+  font-family:"futura-pt-condensed", sans-serif;
+  font-style:italic;
   position:absolute;
-  left:26.6667px;
-  top:173.0232px;
-  z-index:2;
+  left: calc(238.7635 / 1680 * 100%);
+  bottom: calc(104.7288 / 450 * 100%);
+  z-index:20;
+  margin:0;
+  font-size:44px;
+  font-weight:300;
+  letter-spacing:0;
+  line-height:1;
 }
 
 .eternal-filmstrip img {
