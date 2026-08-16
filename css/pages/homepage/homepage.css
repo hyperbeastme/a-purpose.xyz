@@ -107,7 +107,7 @@ body {
   scroll-snap-stop: always;
   max-width: 1680px;
 
-  aspect-ratio: 1680 / 960;
+  aspect-ratio: 1600 / 960;
 
   position: relative;
   overflow: hidden;
@@ -164,8 +164,8 @@ body {
 
 .project-preview {
   width:100%;
-  max-width:1680px;
-  aspect-ratio:1680 / 960;
+  max-width:1600px;
+  aspect-ratio:1600 / 960;
   margin-inline: auto;
   position:relative;
   overflow:hidden;
