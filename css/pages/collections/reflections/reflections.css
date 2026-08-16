@@ -174,10 +174,16 @@ main {
   overflow:hidden;
 }   
 
-.reflections-opening-statement {
+.reflections-statement {
   margin:0;
   font-family:"futura-pt-condensed", sans-serif;
   font-style:italic;
+  margin:0 auto;
+  position:absolute;
+  overflow:hidden;
+  left:calc(929.1301 / 1600 * 100%);
+  top:calc(68.4088 / 880 * 100%);
+  width:calc(494.6807 / 1600 * 100%);
 }
 
 .reflections-opening-statement p {
