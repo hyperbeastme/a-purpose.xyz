@@ -250,12 +250,13 @@ body {
 
 /* PROCESS */
 
-.eternal-process-layout {
-  position:absolute;
-  inset:0;
-  top:118.8246px;
+.eternal-process {
   width:1600px;
-  height:811.1754px;
+  height:960px;
+  margin:0 auto;
+  padding:80px;
+  position:relative;
+  overflow:hidden;
 }
 
 .eternal-process-layout img {
