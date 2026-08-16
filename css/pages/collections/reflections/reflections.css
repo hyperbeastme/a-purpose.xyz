@@ -401,7 +401,7 @@ main {
 /* PROCESS
    Inner-canvas coordinate system: 1680 x 960. */
 
-   .reflections-process{
+.reflections-process{
   width:100%;
   max-width:1680px;
   height:960px;
