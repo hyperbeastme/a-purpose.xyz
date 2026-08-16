@@ -133,7 +133,7 @@ body {
   font-style:italic;
   position:absolute;
   left: calc(30 / 1680 * 100%);
-  top: calc(13 / 450 * 100%);
+  top: calc(13 / 960 * 100%);
   z-index:20;
   margin:0;
   font-size:44px;
