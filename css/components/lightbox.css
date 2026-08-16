@@ -1,4 +1,5 @@
-.image-lightbox[hidden] {
+.image-lightbox[hidden],
+.image-lightbox-nav[hidden] {
   display: none;
 }
 
@@ -7,18 +8,33 @@
   inset: 0;
   z-index: 10000;
   display: grid;
-  place-items: center;
+  grid-template-columns: minmax(44px, 1fr) minmax(0, auto) minmax(44px, 1fr);
+  align-items: center;
+  gap: clamp(8px, 2vw, 32px);
   padding: clamp(20px, 4vw, 64px);
   background: rgba(0, 0, 0, 0.92);
 }
 
 .image-lightbox-image {
+  grid-column: 2;
   display: block;
   max-width: 100%;
-  max-height: calc(100dvh - clamp(40px, 8vw, 128px));
+  max-height: calc(100dvh - clamp(72px, 10vw, 144px));
   width: auto;
   height: auto;
   object-fit: contain;
+  cursor: pointer;
+}
+
+.image-lightbox-close,
+.image-lightbox-nav {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: #fff;
+  font: inherit;
+  line-height: 1;
+  cursor: pointer;
 }
 
 .image-lightbox-close {
@@ -26,14 +42,35 @@
   top: max(16px, env(safe-area-inset-top));
   right: max(16px, env(safe-area-inset-right));
   z-index: 1;
-  border: 0;
-  padding: 0;
-  background: transparent;
-  color: #fff;
-  font: inherit;
   font-size: 42px;
+}
+
+.image-lightbox-nav {
+  min-width: 44px;
+  min-height: 44px;
+  font-size: clamp(48px, 7vw, 84px);
+}
+
+.image-lightbox-previous {
+  grid-column: 1;
+  justify-self: end;
+}
+
+.image-lightbox-next {
+  grid-column: 3;
+  justify-self: start;
+}
+
+.image-lightbox-status {
+  position: fixed;
+  left: 50%;
+  bottom: max(14px, env(safe-area-inset-bottom));
+  margin: 0;
+  color: #fff;
+  font-family: "futura-pt-condensed", sans-serif;
+  font-size: 18px;
   line-height: 1;
-  cursor: pointer;
+  transform: translateX(-50%);
 }
 
 .image-lightbox-trigger {
@@ -42,4 +79,44 @@
 
 body.lightbox-open {
   overflow: hidden;
+}
+
+/* Keep project section headings above their artwork without changing
+   each layout's existing size or coordinates. */
+.catelier-mood > h2,
+.catelier-sketches > h2,
+.catelier-samples > h2,
+.catelier-process > h2,
+.catelier-museum > h2,
+.eternal-moodboard > h2,
+.eternal-sketch > h2,
+.eternal-process > h2,
+.eternal-filmstrip > h2,
+.eternal-editorial > h2,
+.eternal-runway > h2,
+.reflections-section > h2 {
+  position: relative;
+  z-index: 30;
+  margin-bottom: 50px;
+  font-family: "futura-pt-condensed", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1;
+  pointer-events: none;
+}
+
+@media (max-width: 767px) {
+  .image-lightbox {
+    grid-template-columns: 44px minmax(0, 1fr) 44px;
+    gap: 4px;
+    padding: 56px 8px 48px;
+  }
+
+  .image-lightbox-image {
+    max-height: calc(100dvh - 104px);
+  }
+
+  .image-lightbox-nav {
+    font-size: 48px;
+  }
 }
