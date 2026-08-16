@@ -1,4 +1,11 @@
 (() => {
+    if (!document.querySelector('link[href="/css/components/lightbox.css"]')) {
+        const stylesheet = document.createElement("link");
+        stylesheet.rel = "stylesheet";
+        stylesheet.href = "/css/components/lightbox.css";
+        document.head.append(stylesheet);
+    }
+
     const SELECTOR = "img:not([data-no-lightbox])";
     let activeTrigger = null;
 
