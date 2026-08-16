@@ -248,6 +248,16 @@ main {
 .reflections-mood-07 { left:calc(125.5556 / 1600 * 100%); top:calc(350.5323 / 811.1754 * 100%); width:calc(375.5556 / 1600 * 100%); }
 .reflections-mood-08 { left:calc(1108.5556 / 1600 * 100%); top:calc(159.2249 / 811.1754 * 100%); width:calc(343.7889 / 1600 * 100%); }
 
+.reflections-mood-02 { 
+  left:529.5556px; 
+  top:369.2274px; 
+  width:551.5556px; 
+}
+.reflections-mood-03 { 
+  left:790px; 
+  top:217.2112px; 
+  width:295.5556px; 
+}
 
 /* SKETCHES
    Inner-canvas coordinate system: 1600 x 811.1754. */
@@ -300,6 +310,11 @@ main {
 .reflections-catalog-03 { left:calc(844.4444 / 1600 * 100%); top:calc(202.0017 / 811.1754 * 100%); width:calc(337.7778 / 1600 * 100%); }
 .reflections-catalog-04 { left:calc(1200 / 1600 * 100%); top:calc(202.0017 / 811.1754 * 100%); width:calc(322.2222 / 1600 * 100%); }
 
+.reflections-catalog-02 { 
+  left:488.8889px; 
+  top:202.0017px; 
+  width:337.7778px; 
+}
 
 /* EDITORIAL
    Inner-canvas coordinate system: 1600 x 811.1754. */
