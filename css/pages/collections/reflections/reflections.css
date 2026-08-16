@@ -220,11 +220,11 @@ main {
 }
 
 .reflections-opening-image {
-    position:absolute;
-    right:calc(256.1892 / 1680 * 100%);
-    top:calc(255.7495 / 880 * 100%);
-    width:calc(722.2222 / 1680 * 100%);
-    height:auto;
+  position:absolute;
+  left:calc(256.1892 / 1680 * 100%);
+  top:calc(255.7495 / 880 * 100%);
+  width:calc(573.8 / 1680 * 100%);
+  height:auto;
 }
 
 /* MOOD BOARD
