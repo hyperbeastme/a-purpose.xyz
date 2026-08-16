@@ -649,8 +649,8 @@ body {
 /* RUNWAY */
 
 .eternal-runway {
-  width:1777.7778px;
-  height:723.339px;
+  width:1680px;
+  height:960px;
   margin:0 auto;
   padding:0 80px;
   position:relative;
@@ -659,8 +659,8 @@ body {
 
 .eternal-runway h2 {
   position:absolute;
-  left:26.6667px;
-  top:63.373px;
+  left:24px;
+  top:13px;
   z-index:2;
 }
 
