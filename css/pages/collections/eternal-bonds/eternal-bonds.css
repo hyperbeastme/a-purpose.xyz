@@ -682,56 +682,56 @@ body {
 .runway-01 {
   position: absolute;
   left: calc(238.3304 / 1680 * 100%);
-  bottom: calc(29.0085 / 960 * 100%);
+  top: calc(29.0085 / 960 * 100%);
   width: calc(258.579 / 1680 * 100%);
 }
 
 .runway-02 {
   position: absolute;
   left: calc(526.9094 / 1680 * 100%);
-  bottom: calc(11.4743 / 960 * 100%);
+  top: calc(11.4743 / 960 * 100%);
   width: calc(310.1735 / 1680 * 100%);
 }
 
 .runway-03 {
   position: absolute;
   left: calc(867.0829 / 1680 * 100%);
-  bottom: calc(11.4743 / 960 * 100%);
+  top: calc(11.4743 / 960 * 100%);
   width: calc(267.3053 / 1680 * 100%);
 }
 
 .runway-04 {
   position: absolute;
   left: calc(1164.3882 / 1680 * 100%);
-  bottom: calc(25.4251 / 960 * 100%);
+  top: calc(25.4251 / 960 * 100%);
   width: calc(281.0278 / 1680 * 100%);
 }
 
 .runway-05 {
   position: absolute;
   left: calc(234.584 / 1680 * 100%);
-  bottom: calc(446.925 / 960 * 100%);
+  top: calc(446.925 / 960 * 100%);
   width: calc(262.3254 / 1680 * 100%);
 }
 
 .runway-06 {
   position: absolute;
   left: calc(526.9094 / 1680 * 100%);
-  bottom: calc(506.0903 / 960 * 100%);
+  top: calc(506.0903 / 960 * 100%);
   width: calc(242.4773 / 1680 * 100%);
 }
 
 .runway-07 {
   position: absolute;
   left: calc(798.5276 / 1680 * 100%);
-  bottom: calc(442.4321 / 960 * 100%);
+  top: calc(442.4321 / 960 * 100%);
   width: calc(335.8606 / 1680 * 100%);
 }
 
 .runway-08 {
   position: absolute;
   left: calc(1164.3882 / 1680 * 100%);
-  bottom: calc(476.925 / 960 * 100%);
+  top: calc(476.925 / 960 * 100%);
   width: calc(281.0278 / 1680 * 100%);
 }
 
@@ -752,7 +752,7 @@ body {
 .runway-outline {
   position: absolute;
   left: calc(234.584 / 1680 * 100%);
-  bottom: calc(11.4743 / 960 * 100%);
+  top: calc(11.4743 / 960 * 100%);
   width: calc(1210.8321 / 1680 * 100%);
   z-index: 2;
   pointer-events: none;
