@@ -221,13 +221,8 @@ body {
   display:flex;
   align-items:center;
   justify-content:center;
-}
-
-.eternal-sketch-layout img {
-  position:absolute;
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  padding-left:80px;
+  padding-right: 80px;
 }
 
 .eternal-sketches-01{
