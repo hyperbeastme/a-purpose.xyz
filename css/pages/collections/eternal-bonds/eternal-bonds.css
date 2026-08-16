@@ -754,7 +754,7 @@ body {
   left: calc(234.584 / 1680 * 100%);
   top: calc(11.4743 / 960 * 100%);
   width: calc(1210.8321 / 1680 * 100%);
-  z-index: 2;
+  z-index: 4;
   pointer-events: none;
 }
 
