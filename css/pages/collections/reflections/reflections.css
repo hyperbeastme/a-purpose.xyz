@@ -186,43 +186,34 @@ main {
   width:calc(494.6807 / 1600 * 100%);
 }
 
-.reflections-opening-statement p {
-  margin:0;
-}
-
-.reflections-opening-statement span {
-  display:block;
-  white-space:nowrap;
-}
-
-.reflections-opening-question {
+.reflections-opening {
   font-size:29px;
   font-weight:200;
   line-height:1.28;
 }
 
-.reflections-opening-question--offset {
-  margin:24px 0 34px 220px !important;
-}
-
-.reflections-statement-01 {
-  font-size:27px;
-  font-weight:500;
-  line-height:1.22;
+.reflections-question-01 {
+  left:calc(936.3108 / 1600 * 100%);
+  top:calc(75.2988 / 880 * 100%);
+  width:calc(487.5 / 1600 * 100%);
 }
 
 .reflections-question-02 {
-  margin-top:calc(41.5039 / 850 * 100%);
-  font-size:28px;
-  font-weight:200;
-  line-height:1.25;
+  left:calc(1240.0774 / 1600 * 100%);
+  top:calc(149.209 / 880 * 100%);
+  width:calc(183.7334 / 1600 * 100%);
+}
+
+.reflections-statement-01 {
+  left:calc(936.3108 / 1600 * 100%);
+  top:calc(210.76 / 880 * 100%);
+  width:calc(487.5 / 1600 * 100%);
 }
 
 .reflections-question-03 {
-  margin-top:calc(41.5039 / 850 * 100%);
-  font-size:28px;
-  font-weight:200;
-  line-height:1.25;
+  left:calc(936.3108 / 1600 * 100%);
+  top:calc(683.5899 / 880 * 100%);
+  width:calc(487.5 / 1600 * 100%);
 }
 
 .reflections-opening-closing p + p {
