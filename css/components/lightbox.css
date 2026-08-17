@@ -77,6 +77,12 @@
   cursor: zoom-in;
 }
 
+/* Decorative outline layers stay visible but must not block the images below. */
+.catelier-mood-outline,
+.reflections-outline {
+  pointer-events: none;
+}
+
 body.lightbox-open {
   overflow: hidden;
 }
