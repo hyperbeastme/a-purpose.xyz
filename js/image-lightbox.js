@@ -53,8 +53,23 @@
     );
     document.body.append(overlay);
 
+    const isOutlineImage = (image) => {
+        const metadata = [
+            image.currentSrc,
+            image.getAttribute("src"),
+            image.className,
+            image.alt
+        ]
+            .filter(Boolean)
+            .join(" ")
+            .toLowerCase();
+
+        return metadata.includes("outline");
+    };
+
     const isEligible = (image) =>
         image.matches(SELECTOR) &&
+        !isOutlineImage(image) &&
         !image.closest("a, button, .image-lightbox");
 
     const findGallerySection = (image) => {
