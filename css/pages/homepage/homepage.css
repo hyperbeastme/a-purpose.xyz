@@ -101,19 +101,17 @@ body {
 
 }
 
-.project-preview:not(.catelier),
-.about{
+.project-preview {
   scroll-snap-align: start;
   scroll-snap-stop: always;
-  max-width: 1680px;
 
+  width: calc(100% - 80px);
+  max-width: 1600px;
   aspect-ratio: 1600 / 960;
 
+  margin-inline: auto;
   position: relative;
   overflow: hidden;
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
-
 }
 
 
@@ -163,8 +161,7 @@ body {
 }
 
 .project-preview {
-  width:100%;
-  max-width:1600px;
+  width: calc(100% - 80px);
   aspect-ratio:1600 / 960;
   margin-inline: auto;
   position:relative;
