@@ -209,66 +209,74 @@ MOOD
 
 .catelier-mood-01 {
   position:absolute;
-  left:calc(923.3335 / 1600 * 100%);
-  top:calc(552.5446 / 960 * 100%);
-  width:calc(474.576 / 1600 * 100%);
+  left:calc(1246.4805 / 1600 * 100%);
+  top:calc(581.1813 / 960 * 100%);
+  width:calc(190.2828 / 1600 * 100%);
    z-index: 1003;
 }
 
 .catelier-mood-02 {
   position:absolute;
-  left:calc(923.3335 / 1600 * 100%);
-  top:calc(552.5445 / 960 * 100%);
-  width:calc(474.576 / 1600 * 100%);
+  left:calc(1066.7109 / 1600 * 100%);
+  top:calc(581.1813 / 960 * 100%);
+  width:calc(151.1328 / 1600 * 100%);
    z-index: 1003;
 }
 
 .catelier-mood-03 {
   position:absolute;
-  left:calc(706.6313 / 1600 * 100%);
-  top:calc(92.6902 / 960 * 100%);
-  width:calc(691.2783 / 1600 * 100%);
+  left:calc(775.2681 / 1600 * 100%);
+  top:calc(478.1727 / 960 * 100%);
+  width:calc(262.8061 / 1600 * 100%);
    z-index: 1003;
 }
 
 .catelier-mood-04 {
   position:absolute;
-  left:calc(487.3704 / 1600 * 100%);
-  top:calc(55 / 960 * 100%);
-  width:calc(247.8977 / 1600 * 100%);
+  left:calc(556.0071 / 1600 * 100%);
+  top:calc(92.6902 / 960 * 100%);
+  width:calc(190.6242 / 1600 * 100%);
    z-index: 1003;
 }
 
 .catelier-mood-05 {
   position:absolute;
-  left:calc(202.0904 / 1600 * 100%);
+  left:calc(242.0904 / 1600 * 100%);
   top:calc(55 / 960 * 100%);
-  width:calc(313.9167 / 1600 * 100%);
+  width:calc(285.2799 / 1600 * 100%);
    z-index: 1003;
 }
 
 .catelier-mood-06 {
   position:absolute;
-  left:calc(202.0904 / 1600 * 100%);
-  top:calc(55 / 960 * 100%);
-  width:calc(533.1777 / 1600 * 100%);
+  left:calc(366.6182 / 1600 * 100%);
+  top:calc(334.98 / 960 * 100%);
+  width:calc(380.0131 / 1600 * 100%);
    z-index: 1002;
 }
 
 .catelier-mood-07 {
   position:absolute;
-  left:calc(923.3335 / 1600 * 100%);
-  top:calc(55.0001 / 960 * 100%);
-  width:calc(474.576 / 1600 * 100%);
+  left:calc(991.9703 / 1600 * 100%);
+  top:calc(34.9841 / 960 * 100%);
+  width:calc(420.4122 / 1600 * 100%);
    z-index: 1003;
 }
 
 .catelier-mood-08 {
   position:absolute;
-  left:calc(706.6313 / 1600 * 100%);
-  top:calc(92.6902 / 960 * 100%);
-  width:calc(245.339 / 1600 * 100%);
+  left:calc(775.2681 / 1600 * 100%);
+  top:calc(191.8831 / 960 * 100%);
+  width:calc(188.0655 / 1600 * 100%);
    z-index: 1003;
+}
+
+.catelier-mood-outline {
+  position:absolute;
+  left:calc(242.0904 / 1600 * 100%);
+  top:calc(55 / 960 * 100%);
+  width:calc(1195.8192 / 1600 * 100%);
+   z-index: 1004;
 }
 
 /*
