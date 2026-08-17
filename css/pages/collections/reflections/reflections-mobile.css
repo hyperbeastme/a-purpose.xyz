@@ -223,7 +223,7 @@ main {
   margin:24px 0 34px 220px !important;
 }
 
-.reflections-opening-body {
+.reflections-opening-copy {
   font-size:27px;
   font-weight:500;
   line-height:1.22;
@@ -530,7 +530,7 @@ main {
   font-size:clamp(8px, calc(29 / 1440 * 100vw), 29px);
 }
 
-.reflections-opening-body {
+.reflections-opening-copy {
   font-size:clamp(8px, calc(27 / 1440 * 100vw), 27px);
 }
 

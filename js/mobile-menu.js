@@ -5,23 +5,33 @@
 
   const setupHeader = (header, index) => {
     const sourceNav = header.querySelector(".header-right, .desktop-nav");
-    if (!sourceNav || header.querySelector(".mobile-menu-button")) return;
+    if (!sourceNav) return;
 
-    const button = document.createElement("button");
-    button.className = "mobile-menu-button";
-    button.type = "button";
-    button.setAttribute("aria-label", "Open menu");
-    button.setAttribute("aria-expanded", "false");
-    button.setAttribute("aria-controls", `mobile-menu-${index}`);
-    button.innerHTML = "<span></span><span></span><span></span>";
+    let button = header.querySelector(".mobile-menu-button");
+    let menu = header.querySelector(".mobile-menu");
 
-    const menu = sourceNav.cloneNode(true);
-    menu.className = "mobile-menu";
-    menu.id = `mobile-menu-${index}`;
-    menu.setAttribute("aria-label", "Mobile navigation");
-    menu.hidden = true;
+    if (!button) {
+      button = document.createElement("button");
+      button.className = "mobile-menu-button";
+      button.type = "button";
+      button.setAttribute("aria-label", "Open menu");
+      button.setAttribute("aria-expanded", "false");
+      button.setAttribute("aria-controls", `mobile-menu-${index}`);
+      button.innerHTML = "<span></span><span></span><span></span>";
+      header.append(button);
+    }
 
-    header.append(button, menu);
+    if (!menu) {
+      menu = sourceNav.cloneNode(true);
+      menu.className = "mobile-menu";
+      menu.id = `mobile-menu-${index}`;
+      menu.setAttribute("aria-label", "Mobile navigation");
+      menu.hidden = true;
+      header.append(menu);
+    }
+
+    if (button.dataset.mobileMenuReady === "true") return;
+    button.dataset.mobileMenuReady = "true";
 
     const close = () => {
       header.classList.remove("menu-open");
@@ -50,6 +60,7 @@
     });
 
     mobileQuery.addEventListener?.("change", sync);
+    close();
     sync();
   };
 

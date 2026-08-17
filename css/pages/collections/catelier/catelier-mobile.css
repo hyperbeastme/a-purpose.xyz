@@ -25,6 +25,7 @@
   --white: #fff;
   --gray: #888;
   --green: #006837;
+  --catelier-max-width: 440px;
 }
 
 
@@ -1028,4 +1029,47 @@ MUSEUM
 @media (orientation:landscape) and (max-height:500px) {
   :root { --catelier-max-width:832px; }
   .header { max-width:832px; }
+}
+
+
+/* CATELIER PORTRAIT OPENING REPAIR
+   Keep the full statement readable instead of clipping it to the desktop artboard. */
+@media (orientation: portrait) {
+  .catelier-opening {
+    aspect-ratio: auto;
+    min-height: 0;
+    padding: 36px 18px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    overflow: visible;
+  }
+
+  .catelier-statement {
+    position: static;
+    width: 100%;
+  }
+
+  .catelier-opening-statement,
+  .catelier-opening-statement-02 {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .catelier-opening-statement-02 {
+    margin-top: 24px;
+  }
+
+  .catelier-opening-statement span,
+  .catelier-opening-statement-02 span {
+    display: inline;
+  }
+
+  .catelier-statement-image {
+    position: static;
+    width: min(78%, 320px);
+    max-height: none;
+    margin: 0 auto;
+  }
 }

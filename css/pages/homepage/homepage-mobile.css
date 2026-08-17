@@ -776,7 +776,7 @@ aspect-ratio: 440 / 732;
 
 .reflections-disclaimer {
   right: calc(11 / 440 * 100%);
-  bottom: calc(27.0371 / 732 * 100%);
+  bottom: calc(17.0371 / 732 * 100%);
   width: calc(181.0078 / 440 * 100%);
 }
 
