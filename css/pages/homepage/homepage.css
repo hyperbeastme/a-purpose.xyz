@@ -89,9 +89,9 @@ body {
 .landing{
   scroll-snap-align: start;
   scroll-snap-stop: always;
-  max-width: 1600px;
+  max-width: 1680px;
 
-  aspect-ratio: 1680 / 880;
+  aspect-ratio: 1600 / 880;
 
   position: relative;
   overflow: hidden;
@@ -865,7 +865,7 @@ body.lightbox-open {
    ========================================================= */
 
 .landing + .eternal-bonds {
-  margin-top: calc(100 / 850 * 100vh);
+  margin-top: calc(100 / 880 * 100vh);
 }
 
 .eternal-bonds + .reflections {
