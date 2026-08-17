@@ -406,7 +406,7 @@ body {
 .reflections-of-displacement-15 {
   left: calc(0 / 1600 * 100%);
   top: calc(0 / 960 * 100%);
-  width: calc(455.6876 / 1600 * 100%);
+  width: calc(470.3872 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
@@ -437,7 +437,7 @@ body {
 
 .reflections-title {
   left: calc(850 / 1600 * 100%);
-  bottom: calc(0 / 960 * 100%);
+  top: calc(793.3881 / 960 * 100%);
   width: calc(602.8322 / 1600 * 100%);
 }
 
