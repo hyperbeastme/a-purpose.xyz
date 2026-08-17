@@ -647,9 +647,7 @@ body {
 
 /* ABOUT */
 
-.about::before {
-  content: "about";
-
+.about h2{
   font-family:"futura-pt-condensed", sans-serif;
   font-style:italic;
   position:absolute;
@@ -665,26 +663,27 @@ body {
 
 .about {
   width: calc(100% - 80px);
-  aspect-ratio:1600 / 960;
+  aspect-ratio:1600 / 625;
   margin-inline: auto;
   position:relative;
   overflow:hidden;
 }
 
+
 .about img {
   position:absolute;
-  left:272.4926px;
-  bottom:43px;
-  width:281.3235px;
-  height:375.3881px;
+  left: calc(403.3516 / 1600 * 100%);
+  top: calc(89.9269 / 625 * 100%);
+  width: calc(333.6017 / 1600 * 100%);
+  height: auto;
 }
 
 .about-text {
   position:absolute;
-  left:695px;
-  bottom:43px;
-  width:549.3474px;
-  height:281.6594px;
+  left: calc(817.7578 / 1600 * 100%);
+  top: calc(215.2431 / 625 * 100%);
+  width: calc(378.8906 / 1600 * 100%);
+  height: auto;
   margin:0;
   font-family:"futura-pt-condensed", sans-serif;
   font-size:36px;

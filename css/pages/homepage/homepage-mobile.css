@@ -1103,8 +1103,7 @@ aspect-ratio: 440 / 732;
    243.982 - 200 = 43.982
    ========================================================= */
 
-.about::before {
-  content: "about";
+.about h2 {
 
   position: absolute;
 

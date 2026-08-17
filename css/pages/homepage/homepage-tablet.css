@@ -838,9 +838,7 @@ SEE MORE WORK
     padding: 64px var(--tablet-margin);
   }
 
-  .about::before {
-    content: "about";
-
+  .about h2{
     position: absolute;
 
     left: calc(53.6346 / 834 * 100%);
@@ -1406,9 +1404,7 @@ SEE MORE WORK
     padding: 64px var(--tablet-margin);
   }
 
-  .about::before {
-    content: "about";
-
+  .about h2{
     position: absolute;
 
     left: calc(53.6346 / 834 * 100%);
