@@ -87,8 +87,106 @@ body.lightbox-open {
   overflow: hidden;
 }
 
-/* Keep project section headings above their artwork without changing
-   each layout's existing size or coordinates. */
+/* Shared project-section contract.
+   Every gallery reserves a 150-unit heading band, and every artwork canvas
+   begins below it. Page-specific artwork coordinates remain unchanged. */
+.catelier-mood,
+.catelier-sketches,
+.catelier-samples,
+.catelier-process {
+  aspect-ratio: 1600 / 1110;
+  min-height: 0;
+}
+
+.catelier-museum {
+  aspect-ratio: 1680 / 1110;
+  min-height: 0;
+}
+
+.catelier-mood > div,
+.catelier-sketches > div,
+.catelier-samples > div,
+.catelier-process > div {
+  inset: auto;
+  left: 50%;
+  top: calc(150 / 1110 * 100%);
+  width: 100%;
+  height: calc(960 / 1110 * 100%);
+  transform: translateX(-50%);
+}
+
+.catelier-museum > div {
+  inset: auto;
+  left: 50%;
+  top: calc(150 / 1110 * 100%);
+  width: 100%;
+  height: calc(960 / 1110 * 100%);
+  transform: translateX(-50%);
+}
+
+.catelier-mood > h2,
+.catelier-sketches > h2,
+.catelier-samples > h2,
+.catelier-process > h2 {
+  left: calc(24 / 1600 * 100%);
+  top: calc(55 / 1110 * 100%);
+}
+
+.catelier-museum > h2 {
+  left: calc(24 / 1680 * 100%);
+  top: calc(55 / 1110 * 100%);
+}
+
+.eternal-sketch {
+  aspect-ratio: 1440 / 1174;
+}
+
+.eternal-sketch-layout {
+  left: 50%;
+  top: calc(150 / 1174 * 100%);
+  height: calc(794 / 1174 * 100%);
+  transform: translateX(-50%);
+}
+
+.eternal-moodboard-canvas,
+.eternal-details,
+.eternal-process-layout {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.eternal-film {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.eternal-editorial {
+  aspect-ratio: 1680 / 1110;
+}
+
+.eternal-editorial h2 {
+  left: calc(24 / 1680 * 100%);
+  top: calc(55 / 1110 * 100%);
+}
+
+.eternal-editorial-layout {
+  left: 50%;
+  top: calc(150 / 1110 * 100%);
+  height: calc(960 / 1110 * 100%);
+  transform: translateX(-50%);
+}
+
+.eternal-runway-layout {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.reflections-canvas {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Keep headings above their own canvases without overriding page typography. */
 .catelier-mood > h2,
 .catelier-sketches > h2,
 .catelier-samples > h2,
@@ -102,56 +200,12 @@ body.lightbox-open {
 .eternal-runway > h2,
 .reflections-section > h2 {
   position: absolute;
-  left: 24px;
-  top: 40px;
   z-index: 30;
   margin: 0;
-  font-family: "futura-pt-condensed", sans-serif;
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 300;
-  letter-spacing: 0;
-  line-height: 1;
   pointer-events: none;
 }
 
-@media (min-width: 768px) and (max-width: 1199px) {
-  .catelier-mood > h2,
-  .catelier-sketches > h2,
-  .catelier-samples > h2,
-  .catelier-process > h2,
-  .catelier-museum > h2,
-  .eternal-moodboard > h2,
-  .eternal-sketch > h2,
-  .eternal-process > h2,
-  .eternal-filmstrip > h2,
-  .eternal-editorial > h2,
-  .eternal-runway > h2,
-  .reflections-section > h2 {
-    left: 18px;
-    top: 30px;
-    font-size: 34px;
-  }
-}
-
 @media (max-width: 767px) {
-  .catelier-mood > h2,
-  .catelier-sketches > h2,
-  .catelier-samples > h2,
-  .catelier-process > h2,
-  .catelier-museum > h2,
-  .eternal-moodboard > h2,
-  .eternal-sketch > h2,
-  .eternal-process > h2,
-  .eternal-filmstrip > h2,
-  .eternal-editorial > h2,
-  .eternal-runway > h2,
-  .reflections-section > h2 {
-    left: 12px;
-    top: 20px;
-    font-size: 28px;
-  }
-
   .image-lightbox {
     grid-template-columns: 44px minmax(0, 1fr) 44px;
     gap: 4px;
