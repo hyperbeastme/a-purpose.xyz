@@ -459,19 +459,19 @@ body {
   /* Preserve your canvas width but allow vertical expansion */
   position: relative;
   width: 100%;
-  min-height: 1050px;
+  min-height: 1250px;
   height: auto;
 }
 
 .catelier-scroll-section {
   width: 100%;
   max-width: 1600px;
-  height: 1050px;
+  height: 1250px;
   margin-inline: auto;
 
   scroll-snap-align: start;
   scroll-snap-stop: always;
-  scroll-margin-top: calc(0 / 1050 * 100vh);
+  scroll-margin-top: calc(0 / 1250 * 100vh);
 }
 
 .catelier-scroll-window {
@@ -488,8 +488,8 @@ body {
   position: relative;
 
   width: 100%;
-  height: 1050px;
-  min-height: 1050px;
+  height: 1250px;
+  min-height: 1250px;
   max-width: 1600px;
 
   aspect-ratio: auto;
@@ -510,7 +510,7 @@ body {
 
 .catelier-01 {
   left: calc(850 / 1600 * 100%);
-  top: calc(266.7343 / 1050 * 100%);
+  top: calc(266.7343 / 1250 * 100%);
   width: calc(176.3153 / 1600 * 100%);
   mix-blend-mode: multiply;
   
@@ -518,35 +518,35 @@ body {
 
 .catelier-02 {
   left: calc(-15.7926 / 1600 * 100%);
-  top: calc(162.4335 / 1050 * 100%);
+  top: calc(162.4335 / 1250 * 100%);
   width: calc(280.2321 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-03 {
   left: calc(198.6356  / 1600 * 100%);
-  top: calc(527.7211 / 1050 * 100%);
+  top: calc(527.7211 / 1250 * 100%);
   width: calc(333.4491 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-04 {
   left: calc(850 / 1600 * 100%);
-  top: calc(0 / 1050 * 100%);
+  top: calc(0 / 1250 * 100%);
   width: calc(245.4944 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-05 {
   left: calc(398.9064 / 1600 * 100%);
-  top: calc(0 / 1050 * 100%);
+  top: calc(0 / 1250 * 100%);
   width: calc(349.8736 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-06 {
   left: calc(519.2256/ 1600 * 100%);
-  top: calc(193.9832 / 1050 * 100%);
+  top: calc(193.9832 / 1250 * 100%);
   width: calc(257.6574 / 1600 * 100%);
   mix-blend-mode: multiply;
   z-index:1;
@@ -554,7 +554,7 @@ body {
 
 .catelier-07 {
   left: calc(1069.5908 / 1600 * 100%);
-  top: calc(451.5205  / 1050 * 100%);
+  top: calc(451.5205  / 1250 * 100%);
   width: calc(124.2485 / 1600 * 100%);
   mix-blend-mode: multiply;
   z-index:0;
@@ -562,7 +562,7 @@ body {
 
 .catelier-08 {
   left: calc(344.1809 / 1600 * 100%);
-  top: calc(-23.2993 / 1050 * 100%);
+  top: calc(-23.2993 / 1250 * 100%);
   width: calc(137.4001 / 1600 * 100%);
   mix-blend-mode: multiply;
   transform: rotate(27.5deg)
@@ -570,70 +570,70 @@ body {
 
 .catelier-09 {
   left: calc(939.3017 / 1600 * 100%);
-  top: calc(44.5185 / 1050 * 100%);
+  top: calc(44.5185 / 1250 * 100%);
   width: calc(349.9503 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-10 {
   left: calc(1274.2391 / 1600 * 100%);
-  top: calc(0 / 1050 * 100%);
+  top: calc(0 / 1250 * 100%);
   width: calc(325.7609  / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-11 {
   left: calc(1198.8253 / 1600 * 100%);
-  top: calc(247.5 / 1050 * 100%);
+  top: calc(247.5 / 1250 * 100%);
   width: calc(401.1747 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-12 {
   left: calc(0 / 1600 * 100%);
-  top: calc(657.0328 / 1050 * 100%);
+  top: calc(657.0328 / 1250 * 100%);
   width: calc(436.5031 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-13 {
   left: calc(220.3875 / 1600 * 100%);
-  top: calc(226.3752 / 1050 * 100%);
+  top: calc(226.3752 / 1250 * 100%);
   width: calc(115.6779 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-14 {
   left: calc(335.4064 / 1600 * 100%);
-  top: calc(301.5456 / 1050 * 100%);
+  top: calc(301.5456 / 1250 * 100%);
   width: calc(246.5636 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-15 {
   left: calc(850 / 1600 * 100%);
-  top: calc(550.3372 / 1050 * 100%);
+  top: calc(550.3372 / 1250 * 100%);
   width: calc(232.0597 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-16 {
   left: calc(531.0422 / 1600 * 100%);
-  top: calc(553 / 1050 * 100%);
+  top: calc(553 / 1250 * 100%);
   width: calc(206.7682 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-title {
   left: calc(564.4813 / 1600 * 100%);
-  top: calc(829.3257 / 1050 * 100%);
+  top: calc(829.3257 / 1250 * 100%);
   width: calc(185.5187 / 1600 * 100%);
   mix-blend-mode: multiply;
 }
 
 .catelier-text {
   left: calc(0 / 1600 * 100%);
-  top: calc(0 / 1050 * 100%);
+  top: calc(0 / 1250 * 100%);
   width: calc(382.585 / 1600 * 100%);
   mix-blend-mode: multiply;
 
@@ -641,7 +641,7 @@ body {
 
 .end-of-preview {
   left: calc(709.5748 / 1600 * 100%);
-  bottom: calc(0 / 1050 * 100%);
+  bottom: calc(1198.0624 / 1250 * 100%);
   width: calc(180.8503 / 1600 * 100%);
 }
 
