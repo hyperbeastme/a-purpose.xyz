@@ -647,6 +647,22 @@ body {
 
 /* ABOUT */
 
+.about::before {
+  content: "about";
+
+  font-family:"futura-pt-condensed", sans-serif;
+  font-style:italic;
+  position:absolute;
+  left:calc(24 / 1680 * 100%);
+  top:calc(13 / 1040 * 100%);
+  z-index:20;
+  margin:0;
+  font-size:clamp(12px, calc(44 / 1600 * 100vw), 44px);
+  font-weight:300;
+  letter-spacing:0;
+  line-height:1;
+}
+
 .about {
   width: calc(100% - 80px);
   aspect-ratio:1600 / 960;
@@ -688,6 +704,54 @@ body {
 
 .about-text p + p {
   margin-top:24px;
+}
+
+/* =========================================================
+   BACK TO TOP
+
+   Original SVG:
+   X: 197.995
+   Y: 814.707
+   W: 54.67
+
+   Relative Y:
+   814.707 - 200 = 614.707
+   ========================================================= */
+
+.back-to-top-text {
+  position: absolute;
+
+  left: 50%;
+  bottom: calc(20 / 625 * 100%);;
+
+  width: calc(100 / 440 * 100%);
+  margin: 0;
+
+  transform: translate(-50%, -50%);
+
+  font-family: "futura-pt-condensed", sans-serif;
+  font-size: clamp(16px, 4.1vw, 18px);
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1;
+
+  text-align: center;
+  white-space: nowrap;
+}
+
+.back-to-top-text a {
+  position: relative;
+  display: inline-block;
+
+  color: var(--black);
+  text-decoration: none;
+}
+
+.back-to-top-text a::before {
+  content: "";
+
+  position: absolute;
+  inset: -14px -22px;
 }
 
 /* FOOTER */
