@@ -641,7 +641,7 @@ body {
 
 .end-of-preview {
   left: calc(709.5748 / 1600 * 100%);
-  top: calc(1198.0624 / 1250 * 100%);
+  bottom: calc(20 / 1250 * 100%);
   width: calc(180.8503 / 1600 * 100%);
 }
 
