@@ -648,11 +648,11 @@ body {
 /* ABOUT */
 
 .about {
-  left: calc(11 / 1600 * 100%);
-  top: calc(0 / 960 * 100%);
-  width: calc(350.206 / 1600 * 100%);
-  margin:0 auto;
+  width: calc(100% - 80px);
+  aspect-ratio:1600 / 960;
+  margin-inline: auto;
   position:relative;
+  overflow:hidden;
 }
 
 .about img {
