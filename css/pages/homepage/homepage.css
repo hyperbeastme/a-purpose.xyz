@@ -437,7 +437,7 @@ body {
 
 .reflections-title {
   left: calc(850 / 1600 * 100%);
-  top: calc(763.3881 / 960 * 100%);
+  bottom: calc(0 / 960 * 100%);
   width: calc(602.8322 / 1600 * 100%);
 }
 
