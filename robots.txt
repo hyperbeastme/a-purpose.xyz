@@ -1,0 +1,1 @@
+User-agent: *\nAllow: /\n\nSitemap: https://a-purpose.xyz/sitemap.xml\n
