@@ -718,18 +718,17 @@ body {
    ========================================================= */
 
 .back-to-top-text {
-  position: absolute;
-
-  left: 50%;
-  bottom: calc(20 / 625 * 100%);;
-
-  width: calc(100 / 440 * 100%);
+  position:absolute;
+  left: calc(1486.6472 / 1600 * 100%);
+  top: calc(571.4227 / 625 * 100%);
+  width: calc(100 / 1600 * 100%);
+  height: auto;
   margin: 0;
 
   transform: translate(-50%, -50%);
 
   font-family: "futura-pt-condensed", sans-serif;
-  font-size: clamp(16px, 4.1vw, 18px);
+  font-size: clamp(16px, 4.1vw, 26px);
   font-weight: 300;
   font-style: italic;
   line-height: 1;
