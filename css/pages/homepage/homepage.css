@@ -91,7 +91,7 @@ body {
   scroll-snap-stop: always;
   max-width: 1600px;
 
-  aspect-ratio: 1680 / 890;
+  aspect-ratio: 1680 / 880;
 
   position: relative;
   overflow: hidden;
@@ -375,7 +375,7 @@ body {
 
 .reflections-of-displacement-10 {
   left: calc(638.3077 / 1600 * 100%);
-  top: calc(633.0403 / 960 * 100%);
+  top: calc(623.0403 / 960 * 100%);
   width: calc(111.6923 / 1600 * 100%);
 }
 
