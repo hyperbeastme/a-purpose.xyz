@@ -2231,3 +2231,30 @@ body {
   }
 
 }
+
+
+/* FINAL HOMEPAGE SCREEN: ABOUT + FOOTER */
+
+.homepage-final-screen {
+  width:100%;
+  min-height:calc(100svh - var(--header-height));
+  margin:0;
+  display:flex;
+  flex-direction:column;
+  scroll-snap-align:start;
+  scroll-snap-stop:always;
+}
+
+.homepage-final-screen .about {
+  flex:1 1 auto;
+  min-height:0;
+  margin:0 auto;
+  aspect-ratio:auto;
+  scroll-snap-align:none;
+  scroll-snap-stop:normal;
+}
+
+.homepage-final-screen .footer {
+  margin:0 auto;
+  flex:0 0 108.5px;
+}
