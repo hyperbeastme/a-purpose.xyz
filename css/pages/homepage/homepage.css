@@ -101,7 +101,8 @@ body {
 
 }
 
-.project-preview {
+.project-preview,
+.about {
   scroll-snap-align: start;
   scroll-snap-stop: always;
 
