@@ -23,33 +23,53 @@ main { width: 100%; padding-top: var(--header-height); }
 .header-center { justify-self: end; font-size: clamp(24px, 7vw, 31px); font-weight: 500; line-height: 1; white-space: nowrap; }
 .header-right { display: none; }
 
-.subtraction-section {
+.subtraction-opening,
+.subtraction-sketch,
+.subtraction-process,
+.subtraction-final-garment {
   width: 100%;
   min-height: calc(100svh - var(--header-height));
   padding: 10vh var(--mobile-margin) 8vh;
   position: relative;
 }
-.subtraction-section h2 { margin: 0; font-weight: 500; line-height: 1; }
-.subtraction-concept { display: flex; flex-direction: column; gap: 30px; }
+.subtraction-concept-heading,
+.subtraction-process-heading,
+.sub-sketch-heading,
+.sub-process-heading,
+.sub-catalog-heading { margin: 0; font-weight: 500; line-height: 1; }
+.subtraction-opening { display: flex; flex-direction: column; gap: 30px; }
 .subtraction-concept-heading, .subtraction-process-heading { font-size: 36px; }
 .subtraction-process-heading { order: 3; margin-top: 8px; }
-.subtraction-copy { order: 2; }
+.subtraction-concept-copy { order: 2; }
 .subtraction-concept-heading { order: 1; }
 .subtraction-process-copy { order: 4; margin: 0; font-size: 20px; font-weight: 300; line-height: 1.18; }
 .subtraction-opening-image { order: 5; }
-.subtraction-copy p { margin: 16px 0 0; font-size: 20px; font-weight: 300; line-height: 1.18; }
-.subtraction-copy p:first-child { margin-top: 0; }
+.subtraction-concept-copy p { margin: 16px 0 0; font-size: 20px; font-weight: 300; line-height: 1.18; }
+.subtraction-concept-copy p:first-child { margin-top: 0; }
 .subtraction-opening-image { width: 100%; height: auto; object-fit: contain; }
 
-.subtraction-sketches, .subtraction-process-gallery, .subtraction-final-gallery {
+.subtraction-sketch,
+.subtraction-process,
+.subtraction-final-garment {
   display: flex;
   flex-direction: column;
   gap: 28px;
 }
-.subtraction-sketches h2, .subtraction-process-gallery h2, .subtraction-final-gallery h2 { font-size: 34px; font-weight: 300; }
-.subtraction-sketches img { width: 100%; flex: 1; min-height: 0; object-fit: contain; }
-.subtraction-process-layout, .subtraction-final-layout { display: block; }
-.subtraction-process-layout img, .subtraction-final-layout img {
+.sub-sketch-heading,
+.sub-process-heading,
+.sub-catalog-heading { font-size: 34px; font-weight: 300; }
+.sub-sketch-01,
+.sub-sketch-02,
+.sub-sketch-03 { width: 100%; flex: 1; min-height: 0; object-fit: contain; }
+.sub-process-images,
+.sub-catalog-images { display: block; }
+.sub-process-01,
+.sub-process-02,
+.sub-process-03,
+.sub-catalog-01,
+.sub-catalog-02,
+.sub-catalog-03,
+.sub-catalog-04 {
   width: 100%;
   height: auto;
   max-height: 82svh;
