@@ -169,11 +169,24 @@ main {
 .sub-sketch-02,
 .sub-sketch-03 {
   position:absolute;
-  left:calc(80 / 1680 * 100%);
-  top:calc(120 / 960 * 100%);
-  width:calc(1520 / 1680 * 100%);
-  height:calc(760 / 960 * 100%);
+  top:calc(140 / 960 * 100%);
+  height:calc(740 / 960 * 100%);
   object-fit:contain;
+}
+
+.sub-sketch-01 {
+  left:calc(80 / 1680 * 100%);
+  width:calc(430 / 1680 * 100%);
+}
+
+.sub-sketch-02 {
+  left:calc(625 / 1680 * 100%);
+  width:calc(430 / 1680 * 100%);
+}
+
+.sub-sketch-03 {
+  left:calc(1100 / 1680 * 100%);
+  width:calc(500 / 1680 * 100%);
 }
 
 .sub-process-images,
