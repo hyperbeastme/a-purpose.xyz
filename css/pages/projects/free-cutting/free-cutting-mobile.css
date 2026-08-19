@@ -87,14 +87,16 @@ main {
   overflow:hidden;
 }
 
+/* Opening artboard: 1680 × 880. */
 .subtraction-opening {
-  aspect-ratio:1680 / 880;
+  height:calc(880 / 1680 * 100vw);
 }
 
+/* Titled section artboards: 1680 × 960, including the title. */
 .subtraction-sketch,
 .subtraction-process,
 .subtraction-final-garment {
-  aspect-ratio:1680 / 960;
+  height:calc(960 / 1680 * 100vw);
 }
 
 .subtraction-concept-heading,
