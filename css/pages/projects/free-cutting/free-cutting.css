@@ -206,24 +206,21 @@ body {
 }
 
 .sub-sketch-01 {
-  left:calc(80 / 1600 * 100%);
-  top:calc(60 / 960 * 100%);
-  width:calc(430 / 1600 * 100%);
-  max-height:calc(740 / 960 * 100%);
+  left:calc(259.8148 / 1600 * 100%);
+  top:calc(20.8745 / 960 * 100%);
+  width:calc(285.1628 / 1600 * 100%);
 }
 
 .sub-sketch-02 {
-  left:calc(585 / 1600 * 100%);
-  top:calc(60 / 960 * 100%);
-  width:calc(430 / 1600 * 100%);
-  max-height:calc(740 / 960 * 100%);
+  left:calc(600.6483 / 1600 * 100%);
+  top:calc(51.6551 / 960 * 100%);
+  width:calc(421.2626 / 1600 * 100%);
 }
 
 .sub-sketch-03 {
-  left:calc(1040 / 1600 * 100%);
-  top:calc(60 / 960 * 100%);
-  width:calc(500 / 1600 * 100%);
-  max-height:calc(740 / 960 * 100%);
+  left:calc(1175.4624 / 1600 * 100%);
+  top:calc(86.9319 / 960 * 100%);
+  width:calc(211.3343 / 1600 * 100%);
 }
 
 /* PROCESS */
@@ -269,24 +266,21 @@ body {
 }
 
 .sub-process-01 {
-  left:calc(80 / 1600 * 100%);
-  top:calc(60 / 960 * 100%);
-  width:calc(430 / 1600 * 100%);
-  max-height:calc(740 / 960 * 100%);
+  left:calc(1091.5859 / 1600 * 100%);
+  top:calc(74.946 / 960 * 100%);
+  width:calc(444.6779 / 1600 * 100%);
 }
 
 .sub-process-02 {
-  left:calc(585 / 1600 * 100%);
-  top:calc(60 / 960 * 100%);
-  width:calc(430 / 1600 * 100%);
-  max-height:calc(740 / 960 * 100%);
+  left:calc(658.867 / 1600 * 100%);
+  top:calc(125.7381 / 960 * 100%);
+  width:calc(331.0539 / 1600 * 100%);
 }
 
 .sub-process-03 {
-  left:calc(1040 / 1600 * 100%);
-  top:calc(60 / 960 * 100%);
-  width:calc(500 / 1600 * 100%);
-  max-height:calc(740 / 960 * 100%);
+  left:calc(1091.5859 / 1600 * 100%);
+  top:calc(74.946 / 960 * 100%);
+  width:calc(444.6779 / 1600 * 100%);
 }
 
 /* FINAL GARMENT */
