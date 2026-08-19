@@ -74,12 +74,25 @@ body, main { margin: 0; padding: 0; background: #fff; color: #000; font-family: 
 .sub-sketch-01,
 .sub-sketch-02,
 .sub-sketch-03 {
-  position: absolute;
-  left: 80px;
-  top: 120px;
-  width: 1520px;
-  height: 760px;
-  object-fit: contain;
+  position:absolute;
+  top:140px;
+  height:740px;
+  object-fit:contain;
+}
+
+.sub-sketch-01 {
+  left:80px;
+  width:430px;
+}
+
+.sub-sketch-02 {
+  left:625px;
+  width:430px;
+}
+
+.sub-sketch-03 {
+  left:1100px;
+  width:500px;
 }
 
 .sub-process-images,
