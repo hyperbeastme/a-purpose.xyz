@@ -1032,44 +1032,56 @@ MUSEUM
 }
 
 
-/* CATELIER PORTRAIT OPENING REPAIR
-   Keep the full statement readable instead of clipping it to the desktop artboard. */
+/* CATELIER PORTRAIT OPENING
+   Preserve the 1600 x 880 composition and scale it with the viewport. */
 @media (orientation: portrait) {
+  body {
+    text-size-adjust:none;
+    -webkit-text-size-adjust:none;
+  }
+
   .catelier-opening {
-    aspect-ratio: auto;
-    min-height: 0;
-    padding: 36px 18px 48px;
-    display: flex;
-    flex-direction: column;
-    gap: 28px;
-    overflow: visible;
+    width:100%;
+    max-width:var(--catelier-max-width);
+    min-height:0;
+    aspect-ratio:1600 / 880;
+    padding:0;
+    display:block;
+    position:relative;
+    overflow:hidden;
   }
 
   .catelier-statement {
-    position: static;
-    width: 100%;
+    position:absolute;
+    left:calc(80 / 1600 * 100%);
+    top:calc(82 / 880 * 100%);
+    width:calc(880 / 1600 * 100%);
   }
 
   .catelier-opening-statement,
   .catelier-opening-statement-02 {
-    margin: 0;
-    font-size: 20px;
-    line-height: 1.2;
+    margin:0;
+    font-size:clamp(12px, calc(39 / 1600 * min(100vw, var(--catelier-max-width))), 39px);
+    line-height:1.15;
   }
 
   .catelier-opening-statement-02 {
-    margin-top: 24px;
+    margin-top:calc(32 / 880 * 100%);
   }
 
   .catelier-opening-statement span,
   .catelier-opening-statement-02 span {
-    display: inline;
+    display:block;
+    white-space:normal;
   }
 
   .catelier-statement-image {
-    position: static;
-    width: min(78%, 320px);
-    max-height: none;
-    margin: 0 auto;
+    position:absolute;
+    left:calc(1040 / 1600 * 100%);
+    top:calc(105 / 880 * 100%);
+    width:calc(470 / 1600 * 100%);
+    max-height:calc(700 / 880 * 100%);
+    margin:0;
+    object-fit:contain;
   }
 }
