@@ -217,7 +217,7 @@ main {
   overflow:hidden;
 }
 
-.reflection-moodboard-canvas {
+.reflections-moodboard-canvas {
   position:absolute;
   left:0;
   top:80px;
@@ -366,7 +366,7 @@ main {
   overflow:hidden;
 }
 
-.reflection-details {
+.reflections-details {
   position:absolute;
   left:0;
   top:80px;
@@ -492,7 +492,7 @@ main {
   overflow:hidden;
 }
 
-.reflection-lookbook {
+.reflections-lookbook {
   position:absolute;
   left:0;
   top:80px;
