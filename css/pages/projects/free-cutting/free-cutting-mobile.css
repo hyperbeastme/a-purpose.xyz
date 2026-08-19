@@ -160,3 +160,12 @@ main { width: 100%; padding-top: var(--header-height); }
 .sub-catalog-02 { left:calc(480 / 1680 * 100%); top:calc(140 / 960 * 100%); width:calc(300 / 1680 * 100%); }
 .sub-catalog-03 { left:calc(880 / 1680 * 100%); top:calc(140 / 960 * 100%); width:calc(300 / 1680 * 100%); }
 .sub-catalog-04 { left:calc(1280 / 1680 * 100%); top:calc(140 / 960 * 100%); width:calc(300 / 1680 * 100%); }
+
+
+/* Keep a readable title band above the mobile Process composition. */
+.sub-process-01,
+.sub-process-02,
+.sub-process-03 {
+  top:calc(220 / 960 * 100%);
+  height:calc(660 / 960 * 100%);
+}
