@@ -674,3 +674,38 @@ main { padding-top:var(--header-height); }
 @media (orientation:landscape) and (max-height:500px) {
   :root { --project-max-width:832px; }
 }
+
+
+/* Mobile opening and runway interaction repair. */
+body {
+  text-size-adjust:none;
+  -webkit-text-size-adjust:none;
+}
+
+.eternal-statement-copy {
+  left:calc(80 / 1440 * 100%);
+  top:calc(118 / 1024 * 100%);
+  width:calc(600 / 1440 * 100%);
+}
+
+.opening-statement {
+  font-size:clamp(12px, calc(39 / 1440 * min(100vw, var(--project-max-width))), 39px);
+  line-height:1.15;
+}
+
+.eternal-statement-image {
+  right:calc(80 / 1440 * 100%);
+  top:calc(210 / 1024 * 100%);
+  width:calc(600 / 1440 * 100%);
+  max-height:calc(760 / 1024 * 100%);
+  object-fit:contain;
+}
+
+.runway-outline {
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  pointer-events:none;
+  object-fit:contain;
+}
