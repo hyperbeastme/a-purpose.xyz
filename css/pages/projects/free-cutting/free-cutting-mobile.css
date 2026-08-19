@@ -165,28 +165,37 @@ main {
   top:calc(80 / 960 * 100%);
 }
 
-.sub-sketch-01,
-.sub-sketch-02,
-.sub-sketch-03 {
+.sub-sketch-01 {
   position:absolute;
+  display:block;
+  max-width:none;
+  left:calc(80 / 1680 * 100%);
   top:calc(140 / 960 * 100%);
+  width:calc(430 / 1680 * 100%);
   height:calc(740 / 960 * 100%);
   object-fit:contain;
 }
 
-.sub-sketch-01 {
-  left:calc(80 / 1680 * 100%);
-  width:calc(430 / 1680 * 100%);
-}
-
 .sub-sketch-02 {
+  position:absolute;
+  display:block;
+  max-width:none;
   left:calc(625 / 1680 * 100%);
+  top:calc(140 / 960 * 100%);
   width:calc(430 / 1680 * 100%);
+  height:calc(740 / 960 * 100%);
+  object-fit:contain;
 }
 
 .sub-sketch-03 {
+  position:absolute;
+  display:block;
+  max-width:none;
   left:calc(1100 / 1680 * 100%);
+  top:calc(140 / 960 * 100%);
   width:calc(500 / 1680 * 100%);
+  height:calc(740 / 960 * 100%);
+  object-fit:contain;
 }
 
 .sub-process-images,
@@ -196,61 +205,88 @@ main {
   display:block;
 }
 
-.sub-process-01,
-.sub-process-02,
-.sub-process-03,
-.sub-catalog-01,
-.sub-catalog-02,
-.sub-catalog-03,
-.sub-catalog-04 {
+.sub-process-01 {
   position:absolute;
   display:block;
+  max-width:none;
+  left:calc(80 / 1680 * 100%);
+  top:calc(140 / 960 * 100%);
+  width:calc(430 / 1680 * 100%);
   height:calc(740 / 960 * 100%);
-  max-height:none;
   margin:0;
   object-fit:contain;
 }
 
-.sub-process-01 {
-  left:calc(80 / 1680 * 100%);
-  top:calc(140 / 960 * 100%);
-  width:calc(430 / 1680 * 100%);
-}
-
 .sub-process-02 {
+  position:absolute;
+  display:block;
+  max-width:none;
   left:calc(625 / 1680 * 100%);
   top:calc(140 / 960 * 100%);
   width:calc(430 / 1680 * 100%);
+  height:calc(740 / 960 * 100%);
+  margin:0;
+  object-fit:contain;
 }
 
 .sub-process-03 {
+  position:absolute;
+  display:block;
+  max-width:none;
   left:calc(1100 / 1680 * 100%);
   top:calc(140 / 960 * 100%);
   width:calc(500 / 1680 * 100%);
+  height:calc(740 / 960 * 100%);
+  margin:0;
+  object-fit:contain;
 }
 
 .sub-catalog-01 {
+  position:absolute;
+  display:block;
+  max-width:none;
   left:calc(80 / 1680 * 100%);
   top:calc(140 / 960 * 100%);
   width:calc(300 / 1680 * 100%);
+  height:calc(740 / 960 * 100%);
+  margin:0;
+  object-fit:contain;
 }
 
 .sub-catalog-02 {
+  position:absolute;
+  display:block;
+  max-width:none;
   left:calc(480 / 1680 * 100%);
   top:calc(140 / 960 * 100%);
   width:calc(300 / 1680 * 100%);
+  height:calc(740 / 960 * 100%);
+  margin:0;
+  object-fit:contain;
 }
 
 .sub-catalog-03 {
+  position:absolute;
+  display:block;
+  max-width:none;
   left:calc(880 / 1680 * 100%);
   top:calc(140 / 960 * 100%);
   width:calc(300 / 1680 * 100%);
+  height:calc(740 / 960 * 100%);
+  margin:0;
+  object-fit:contain;
 }
 
 .sub-catalog-04 {
+  position:absolute;
+  display:block;
+  max-width:none;
   left:calc(1280 / 1680 * 100%);
   top:calc(140 / 960 * 100%);
   width:calc(300 / 1680 * 100%);
+  height:calc(740 / 960 * 100%);
+  margin:0;
+  object-fit:contain;
 }
 
 .subtraction-next-project {
