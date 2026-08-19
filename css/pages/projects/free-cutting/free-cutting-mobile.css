@@ -93,3 +93,70 @@ main { width: 100%; padding-top: var(--header-height); }
 .footer-divider { width: 1px; height: 28px; background: #888; }
 .footer-social img { width: 25px; height: 25px; }
 .footer-copyright { margin: 38px 0 0; color: #888; font-size: 16px; }
+
+
+/* Preserve the desktop artboard compositions on narrow screens. */
+.subtraction-sketch,
+.subtraction-process,
+.subtraction-final-garment {
+  display:block;
+  width:100%;
+  min-height:0;
+  height:auto;
+  aspect-ratio:1680 / 960;
+  padding:0;
+  overflow:hidden;
+  position:relative;
+}
+
+.sub-sketch-heading,
+.sub-process-heading,
+.sub-catalog-heading {
+  position:absolute;
+  left:calc(80 / 1680 * 100%);
+  top:calc(80 / 960 * 100%);
+  z-index:20;
+  font-size:clamp(20px, 7vw, 34px);
+}
+
+.sub-sketch-01,
+.sub-sketch-02,
+.sub-sketch-03 {
+  position:absolute;
+  left:calc(80 / 1680 * 100%);
+  top:calc(120 / 960 * 100%);
+  width:calc(1520 / 1680 * 100%);
+  height:calc(760 / 960 * 100%);
+  min-height:0;
+  object-fit:contain;
+}
+
+.sub-process-images,
+.sub-catalog-images {
+  position:absolute;
+  inset:0;
+  display:block;
+}
+
+.sub-process-01,
+.sub-process-02,
+.sub-process-03,
+.sub-catalog-01,
+.sub-catalog-02,
+.sub-catalog-03,
+.sub-catalog-04 {
+  position:absolute;
+  height:calc(740 / 960 * 100%);
+  max-height:none;
+  margin:0;
+  object-fit:contain;
+}
+
+.sub-process-01 { left:calc(80 / 1680 * 100%); top:calc(140 / 960 * 100%); width:calc(430 / 1680 * 100%); }
+.sub-process-02 { left:calc(625 / 1680 * 100%); top:calc(140 / 960 * 100%); width:calc(430 / 1680 * 100%); }
+.sub-process-03 { left:calc(1100 / 1680 * 100%); top:calc(140 / 960 * 100%); width:calc(500 / 1680 * 100%); }
+
+.sub-catalog-01 { left:calc(80 / 1680 * 100%); top:calc(140 / 960 * 100%); width:calc(300 / 1680 * 100%); }
+.sub-catalog-02 { left:calc(480 / 1680 * 100%); top:calc(140 / 960 * 100%); width:calc(300 / 1680 * 100%); }
+.sub-catalog-03 { left:calc(880 / 1680 * 100%); top:calc(140 / 960 * 100%); width:calc(300 / 1680 * 100%); }
+.sub-catalog-04 { left:calc(1280 / 1680 * 100%); top:calc(140 / 960 * 100%); width:calc(300 / 1680 * 100%); }
