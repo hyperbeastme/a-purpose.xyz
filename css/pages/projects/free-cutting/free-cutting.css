@@ -60,13 +60,25 @@ body, main { margin: 0; padding: 0; background: #fff; color: #000; font-family: 
 .subtraction-process-gallery > h2,
 .subtraction-final-gallery > h2 { left: 24px; top: 40px; }
 
-.subtraction-sketches > img {
-  position: absolute;
-  left: 90px;
-  top: 90px;
-  width: 1500px;
-  height: 720px;
-  object-fit: contain;
+.sub-sketch-01 { 
+  position:absolute;
+  left:calc(1204.2286 / 1680 * 100%); 
+  top:calc(236.4244 / 960 * 100%); 
+  width:calc(191.5939 / 1600 * 100%); 
+}
+
+.sub-sketch-02 { 
+  position:absolute;
+  left:calc(783.1428 / 1680 * 100%); 
+  top:calc(254.5426 / 960 * 100%); 
+  width:calc(159.5294 / 1600 * 100%); 
+}
+
+.sub-sketch-03 { 
+  position:absolute;
+  left:calc(972.3427 / 1680 * 100%); 
+  top:calc(254.063 / 960 * 100%); 
+  width:calc(151.2246 / 1600 * 100%); 
 }
 
 .subtraction-process-layout,
