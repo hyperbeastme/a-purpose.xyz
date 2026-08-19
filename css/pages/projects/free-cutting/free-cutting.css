@@ -31,14 +31,21 @@ body, main { margin: 0; padding: 0; background: #fff; color: #000; font-family: 
   pointer-events: none;
 }
 
-.subtraction-concept-heading { left: 80px; top: 80px; }
-.subtraction-process-heading { left: 80px; top: 585px; }
+.subtraction-concept-heading {
+  left: calc(80 / 1680 * 100%);
+  top: calc(80 / 880 * 100%);
+}
+
+.subtraction-process-heading {
+  left: calc(80 / 1680 * 100%);
+  top: calc(585 / 880 * 100%);
+}
 
 .subtraction-concept-copy {
   position: absolute;
-  left: 80px;
-  top: 145px;
-  width: 680px;
+  left: calc(80 / 1680 * 100%);
+  top: calc(145 / 880 * 100%);
+  width: calc(680 / 1680 * 100%);
 }
 
 .subtraction-concept-copy p,
@@ -49,146 +56,154 @@ body, main { margin: 0; padding: 0; background: #fff; color: #000; font-family: 
   line-height: 1.18;
 }
 
-.subtraction-concept-copy p + p { margin-top: 32px; }
+.subtraction-concept-copy p + p { margin-top: calc(32 / 880 * 100%); }
 
 .subtraction-process-copy {
   position: absolute;
-  left: 80px;
-  top: 650px;
-  width: 680px;
+  left: calc(80 / 1680 * 100%);
+  top: calc(650 / 880 * 100%);
+  width: calc(680 / 1680 * 100%);
 }
 
 .subtraction-opening-image {
   position: absolute;
-  left:calc(840 / 1680 * 100%);
-  top:calc(80 / 880 * 100%);
-  width:calc(760 / 1680 * 100%);
-  height:calc(360 / 880 * 100%);
+  display: block;
+  max-width: none;
+  left: calc(840 / 1680 * 100%);
+  top: calc(80 / 880 * 100%);
+  width: calc(760 / 1680 * 100%);
+  height: calc(360 / 880 * 100%);
   object-fit: contain;
 }
 
 .sub-sketch-heading,
 .sub-process-heading,
-.sub-catalog-heading { left: 80px; top: 80px; }
+.sub-catalog-heading {
+  left: calc(80 / 1680 * 100%);
+  top: calc(80 / 960 * 100%);
+}
 
 .sub-sketch-01 {
-  position:absolute;
-  display:block;
-  max-width:none;
-  left:calc(80 / 1680 * 100%);
-  top:calc(140 / 960 * 100%);
-  width:calc(430 / 1680 * 100%);
-  height:calc(740 / 960 * 100%);
-  object-fit:contain;
+  position: absolute;
+  display: block;
+  max-width: none;
+  left: calc(80 / 1680 * 100%);
+  top: calc(140 / 960 * 100%);
+  width: calc(430 / 1680 * 100%);
+  height: calc(740 / 960 * 100%);
+  object-fit: contain;
 }
 
 .sub-sketch-02 {
-  position:absolute;
-  display:block;
-  max-width:none;
-  left:calc(625 / 1680 * 100%);
-  top:calc(140 / 960 * 100%);
-  width:calc(430 / 1680 * 100%);
-  height:calc(740 / 960 * 100%);
-  object-fit:contain;
+  position: absolute;
+  display: block;
+  max-width: none;
+  left: calc(625 / 1680 * 100%);
+  top: calc(140 / 960 * 100%);
+  width: calc(430 / 1680 * 100%);
+  height: calc(740 / 960 * 100%);
+  object-fit: contain;
 }
 
 .sub-sketch-03 {
-  position:absolute;
-  display:block;
-  max-width:none;
-  left:calc(1100 / 1680 * 100%);
-  top:calc(140 / 960 * 100%);
-  width:calc(500 / 1680 * 100%);
-  height:calc(740 / 960 * 100%);
-  object-fit:contain;
+  position: absolute;
+  display: block;
+  max-width: none;
+  left: calc(1100 / 1680 * 100%);
+  top: calc(140 / 960 * 100%);
+  width: calc(500 / 1680 * 100%);
+  height: calc(740 / 960 * 100%);
+  object-fit: contain;
 }
 
 .sub-process-images,
-.sub-catalog-images { position: absolute; inset: 0; }
+.sub-catalog-images {
+  position: absolute;
+  inset: 0;
+}
 
 .sub-process-01 {
-  position:absolute;
-  display:block;
-  max-width:none;
-  left:calc(80 / 1680 * 100%);
-  top:calc(140 / 960 * 100%);
-  width:calc(430 / 1680 * 100%);
-  height:calc(740 / 960 * 100%);
-  margin:0;
-  object-fit:contain;
+  position: absolute;
+  display: block;
+  max-width: none;
+  left: calc(80 / 1680 * 100%);
+  top: calc(140 / 960 * 100%);
+  width: calc(430 / 1680 * 100%);
+  height: calc(740 / 960 * 100%);
+  margin: 0;
+  object-fit: contain;
 }
 
 .sub-process-02 {
-  position:absolute;
-  display:block;
-  max-width:none;
-  left:calc(625 / 1680 * 100%);
-  top:calc(140 / 960 * 100%);
-  width:calc(430 / 1680 * 100%);
-  height:calc(740 / 960 * 100%);
-  margin:0;
-  object-fit:contain;
+  position: absolute;
+  display: block;
+  max-width: none;
+  left: calc(625 / 1680 * 100%);
+  top: calc(140 / 960 * 100%);
+  width: calc(430 / 1680 * 100%);
+  height: calc(740 / 960 * 100%);
+  margin: 0;
+  object-fit: contain;
 }
 
 .sub-process-03 {
-  position:absolute;
-  display:block;
-  max-width:none;
-  left:calc(1100 / 1680 * 100%);
-  top:calc(140 / 960 * 100%);
-  width:calc(500 / 1680 * 100%);
-  height:calc(740 / 960 * 100%);
-  margin:0;
-  object-fit:contain;
+  position: absolute;
+  display: block;
+  max-width: none;
+  left: calc(1100 / 1680 * 100%);
+  top: calc(140 / 960 * 100%);
+  width: calc(500 / 1680 * 100%);
+  height: calc(740 / 960 * 100%);
+  margin: 0;
+  object-fit: contain;
 }
 
 .sub-catalog-01 {
-  position:absolute;
-  display:block;
-  max-width:none;
-  left:calc(80 / 1680 * 100%);
-  top:calc(140 / 960 * 100%);
-  width:calc(300 / 1680 * 100%);
-  height:calc(740 / 960 * 100%);
-  margin:0;
-  object-fit:contain;
+  position: absolute;
+  display: block;
+  max-width: none;
+  left: calc(80 / 1680 * 100%);
+  top: calc(140 / 960 * 100%);
+  width: calc(300 / 1680 * 100%);
+  height: calc(740 / 960 * 100%);
+  margin: 0;
+  object-fit: contain;
 }
 
 .sub-catalog-02 {
-  position:absolute;
-  display:block;
-  max-width:none;
-  left:calc(480 / 1680 * 100%);
-  top:calc(140 / 960 * 100%);
-  width:calc(300 / 1680 * 100%);
-  height:calc(740 / 960 * 100%);
-  margin:0;
-  object-fit:contain;
+  position: absolute;
+  display: block;
+  max-width: none;
+  left: calc(480 / 1680 * 100%);
+  top: calc(140 / 960 * 100%);
+  width: calc(300 / 1680 * 100%);
+  height: calc(740 / 960 * 100%);
+  margin: 0;
+  object-fit: contain;
 }
 
 .sub-catalog-03 {
-  position:absolute;
-  display:block;
-  max-width:none;
-  left:calc(880 / 1680 * 100%);
-  top:calc(140 / 960 * 100%);
-  width:calc(300 / 1680 * 100%);
-  height:calc(740 / 960 * 100%);
-  margin:0;
-  object-fit:contain;
+  position: absolute;
+  display: block;
+  max-width: none;
+  left: calc(880 / 1680 * 100%);
+  top: calc(140 / 960 * 100%);
+  width: calc(300 / 1680 * 100%);
+  height: calc(740 / 960 * 100%);
+  margin: 0;
+  object-fit: contain;
 }
 
 .sub-catalog-04 {
-  position:absolute;
-  display:block;
-  max-width:none;
-  left:calc(1280 / 1680 * 100%);
-  top:calc(140 / 960 * 100%);
-  width:calc(300 / 1680 * 100%);
-  height:calc(740 / 960 * 100%);
-  margin:0;
-  object-fit:contain;
+  position: absolute;
+  display: block;
+  max-width: none;
+  left: calc(1280 / 1680 * 100%);
+  top: calc(140 / 960 * 100%);
+  width: calc(300 / 1680 * 100%);
+  height: calc(740 / 960 * 100%);
+  margin: 0;
+  object-fit: contain;
 }
 
 .subtraction-next-project {
@@ -201,5 +216,6 @@ body, main { margin: 0; padding: 0; background: #fff; color: #000; font-family: 
   justify-content: center;
   align-items: flex-end;
 }
+
 .subtraction-next-project p { margin: 0 0 15px; font-size: 22px; opacity: .5; }
 .subtraction-next-project a { color: #000; font-size: 70px; line-height: 1; text-decoration: none; }
