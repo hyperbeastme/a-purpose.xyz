@@ -210,9 +210,9 @@ main {
   display:block;
   max-width:none;
   left:calc(80 / 1680 * 100%);
-  top:calc(140 / 960 * 100%);
+  top:calc(220 / 960 * 100%);
   width:calc(430 / 1680 * 100%);
-  height:calc(740 / 960 * 100%);
+  height:calc(660 / 960 * 100%);
   margin:0;
   object-fit:contain;
 }
@@ -222,9 +222,9 @@ main {
   display:block;
   max-width:none;
   left:calc(625 / 1680 * 100%);
-  top:calc(140 / 960 * 100%);
+  top:calc(220 / 960 * 100%);
   width:calc(430 / 1680 * 100%);
-  height:calc(740 / 960 * 100%);
+  height:calc(660 / 960 * 100%);
   margin:0;
   object-fit:contain;
 }
@@ -234,9 +234,9 @@ main {
   display:block;
   max-width:none;
   left:calc(1100 / 1680 * 100%);
-  top:calc(140 / 960 * 100%);
+  top:calc(220 / 960 * 100%);
   width:calc(500 / 1680 * 100%);
-  height:calc(740 / 960 * 100%);
+  height:calc(660 / 960 * 100%);
   margin:0;
   object-fit:contain;
 }
