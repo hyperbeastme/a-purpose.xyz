@@ -3,8 +3,8 @@ html, body { width: 100%; max-width: 100%; margin: 0; overflow-x: hidden; }
 body { background: #fff; color: #000; font-family: "futura-pt-condensed", sans-serif; }
 
 .subtraction-section {
-  width: 1440px;
-  min-height: 1024px;
+  width: 16800px;
+  min-height: 960px;
   margin: 0 auto;
   padding: 80px;
   position: relative;
@@ -16,6 +16,16 @@ body { background: #fff; color: #000; font-family: "futura-pt-condensed", sans-s
   grid-template-columns: 550px 1fr;
   align-items: center;
   gap: 64px;
+}
+
+.subtraction-section subtraction-concept{
+  width: 16800px;
+  min-height: 880px;
+  margin: 0 auto;
+  padding: 80px;
+  position: relative;
+  overflow: hidden;
+
 }
 .subtraction-copy h1, .subtraction-copy h2 { font-size: 48px; }
 .subtraction-copy h2 { margin-top: 34px; }
@@ -41,7 +51,7 @@ body { background: #fff; color: #000; font-family: "futura-pt-condensed", sans-s
 .subtraction-final-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 
 .subtraction-next-project {
-  width: 1440px;
+  width: 1680px;
   min-height: 475px;
   margin: 0 auto;
   padding: 80px;
