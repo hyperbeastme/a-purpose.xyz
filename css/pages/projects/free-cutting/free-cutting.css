@@ -11,12 +11,6 @@ body { background: #fff; color: #000; font-family: "futura-pt-condensed", sans-s
   overflow: hidden;
 }
 .subtraction-section h1, .subtraction-section h2 { margin: 0; font-weight: 500; line-height: 1; }
-.subtraction-concept {
-  display: grid;
-  grid-template-columns: 550px 1fr;
-  align-items: center;
-  gap: 64px;
-}
 
 .subtraction-section subtraction-concept{
   width: 16800px;
