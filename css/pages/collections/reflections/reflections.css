@@ -222,7 +222,7 @@ main {
   left:0;
   top:80px;
   width:100%;
-  height:960px;
+  height:880px;
 }
 
 .reflections-mood h2 {
@@ -324,9 +324,9 @@ main {
 .reflections-sketch-canvas {
   position:absolute;
   left:0;
-  top:480;
+  top:80px;
   width:100%;
-  height:100%;
+  height:880px;
 }
 
 .reflections-sketch img{
@@ -371,7 +371,7 @@ main {
   left:0;
   top:80px;
   width:100%;
-  height:960px;
+  height:880px;
 }
 
 .reflections-process h2 {
@@ -497,7 +497,7 @@ main {
   left:0;
   top:80px;
   width:100%;
-  height:960px;
+  height:880px;
 }
 
 .reflections-catalog h2 {
@@ -563,7 +563,7 @@ main {
   left:0;
   top:80px;
   width:100%;
-  height:960px;
+  height:880px;
 }
 
 .reflections-editorial h2 {
