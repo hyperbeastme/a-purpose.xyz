@@ -196,37 +196,35 @@ body {
   height:960px;
 }
 
-.sub-sketch-layout img {
+.sub-sketches img {
   position:absolute;
   display:block;
   max-width:none;
   height:auto;
-  margin:0;
-  object-fit:contain;
 }
 
 .sub-sketch-01 {
-  left:calc(259.8148 / 1600 * 100%);
-  top:calc(20.8745 / 960 * 100%);
-  width:calc(285.1628 / 1600 * 100%);
+  left:calc(132.611 / 1680 * 100%);
+  top:calc(15.3833 / 960 * 100%);
+  width:calc(563.3262 / 1680 * 100%);
 }
 
 .sub-sketch-02 {
-  left:calc(600.6483 / 1600 * 100%);
-  top:calc(51.6551 / 960 * 100%);
-  width:calc(421.2626 / 1600 * 100%);
+  left:calc(578.9262 / 1680 * 100%);
+  top:calc(31.4829 / 960 * 100%);
+  width:calc(553.7251 / 1680 * 100%);
 }
 
 .sub-sketch-03 {
-  left:calc(1175.4624 / 1600 * 100%);
-  top:calc(86.9319 / 960 * 100%);
-  width:calc(211.3343 / 1600 * 100%);
+  left:calc(1057.6513 / 1680 * 100%);
+  top:calc(59.2404 / 960 * 100%);
+  width:calc(553.7251 / 1680 * 100%);
 }
 
 /* PROCESS */
 
 .subtraction-process {
-  width:1600px;
+  width:1680px;
   height:1040px;
   margin:0 auto;
   padding:80px;
@@ -266,21 +264,21 @@ body {
 }
 
 .sub-process-01 {
-  left:calc(1091.5859 / 1600 * 100%);
+  left:calc(1091.5859 / 1680 * 100%);
   top:calc(74.946 / 960 * 100%);
   width:calc(444.6779 / 1600 * 100%);
 }
 
 .sub-process-02 {
-  left:calc(658.867 / 1600 * 100%);
+  left:calc(658.867 / 1680 * 100%);
   top:calc(125.7381 / 960 * 100%);
-  width:calc(331.0539 / 1600 * 100%);
+  width:calc(331.0539 / 1680 * 100%);
 }
 
 .sub-process-03 {
-  left:calc(1091.5859 / 1600 * 100%);
+  left:calc(1091.5859 / 1680 * 100%);
   top:calc(74.946 / 960 * 100%);
-  width:calc(444.6779 / 1600 * 100%);
+  width:calc(444.6779 / 1680 * 100%);
 }
 
 /* FINAL GARMENT */
@@ -326,30 +324,30 @@ body {
 }
 
 .sub-catalog-01 {
-  left:calc(80 / 1600 * 100%);
+  left:calc(80 / 1680 * 100%);
   top:calc(60 / 960 * 100%);
-  width:calc(300 / 1600 * 100%);
+  width:calc(300 / 1680 * 100%);
   max-height:calc(740 / 960 * 100%);
 }
 
 .sub-catalog-02 {
-  left:calc(460 / 1600 * 100%);
+  left:calc(460 / 1680 * 100%);
   top:calc(60 / 960 * 100%);
-  width:calc(300 / 1600 * 100%);
+  width:calc(300 / 1680 * 100%);
   max-height:calc(740 / 960 * 100%);
 }
 
 .sub-catalog-03 {
-  left:calc(840 / 1600 * 100%);
+  left:calc(840 / 1680 * 100%);
   top:calc(60 / 960 * 100%);
-  width:calc(300 / 1600 * 100%);
+  width:calc(300 / 1680 * 100%);
   max-height:calc(740 / 960 * 100%);
 }
 
 .sub-catalog-04 {
-  left:calc(1220 / 1600 * 100%);
+  left:calc(1220 / 1680 * 100%);
   top:calc(60 / 960 * 100%);
-  width:calc(300 / 1600 * 100%);
+  width:calc(300 / 1680 * 100%);
   max-height:calc(740 / 960 * 100%);
 }
 
