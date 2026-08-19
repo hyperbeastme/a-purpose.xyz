@@ -29,12 +29,17 @@ main { width: 100%; padding-top: var(--header-height); }
   padding: 10vh var(--mobile-margin) 8vh;
   position: relative;
 }
-.subtraction-section h1, .subtraction-section h2 { margin: 0; font-weight: 500; line-height: 1; }
+.subtraction-section h2 { margin: 0; font-weight: 500; line-height: 1; }
 .subtraction-concept { display: flex; flex-direction: column; gap: 30px; }
-.subtraction-copy h1, .subtraction-copy h2 { font-size: 36px; }
-.subtraction-copy h2 { margin-top: 34px; }
+.subtraction-concept-heading, .subtraction-process-heading { font-size: 36px; }
+.subtraction-process-heading { order: 3; margin-top: 8px; }
+.subtraction-copy { order: 2; }
+.subtraction-concept-heading { order: 1; }
+.subtraction-process-copy { order: 4; margin: 0; font-size: 20px; font-weight: 300; line-height: 1.18; }
+.subtraction-opening-image { order: 5; }
 .subtraction-copy p { margin: 16px 0 0; font-size: 20px; font-weight: 300; line-height: 1.18; }
-.subtraction-opening-image { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.subtraction-copy p:first-child { margin-top: 0; }
+.subtraction-opening-image { width: 100%; height: auto; object-fit: contain; }
 
 .subtraction-sketches, .subtraction-process-gallery, .subtraction-final-gallery {
   display: flex;
@@ -43,9 +48,14 @@ main { width: 100%; padding-top: var(--header-height); }
 }
 .subtraction-sketches h2, .subtraction-process-gallery h2, .subtraction-final-gallery h2 { font-size: 34px; font-weight: 300; }
 .subtraction-sketches img { width: 100%; flex: 1; min-height: 0; object-fit: contain; }
-.subtraction-grid { display: grid; gap: 5vh; }
-.subtraction-grid img { width: 100%; height: auto; max-height: 82svh; object-fit: contain; }
-.subtraction-process-grid, .subtraction-final-grid { grid-template-columns: 1fr; }
+.subtraction-process-layout, .subtraction-final-layout { display: block; }
+.subtraction-process-layout img, .subtraction-final-layout img {
+  width: 100%;
+  height: auto;
+  max-height: 82svh;
+  margin: 0 0 5vh;
+  object-fit: contain;
+}
 
 .subtraction-next-project {
   min-height: 55svh;
