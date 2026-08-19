@@ -2,19 +2,26 @@
 html, body { width: 100%; max-width: 100%; margin: 0; overflow-x: hidden; }
 body, main { margin: 0; padding: 0; background: #fff; color: #000; font-family: "futura-pt-condensed", sans-serif; }
 
-.subtraction-section {
+.subtraction-opening,
+.subtraction-sketch,
+.subtraction-process,
+.subtraction-final-garment {
   width: 1680px;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
 }
 
-.subtraction-concept { height: 880px; }
-.subtraction-sketches,
-.subtraction-process-gallery,
-.subtraction-final-gallery { height: 960px; }
+.subtraction-opening { height: 880px; }
+.subtraction-sketch,
+.subtraction-process,
+.subtraction-final-garment { height: 960px; }
 
-.subtraction-section > h2 {
+.subtraction-concept-heading,
+.subtraction-process-heading,
+.sub-sketch-heading,
+.sub-process-heading,
+.sub-catalog-heading {
   position: absolute;
   z-index: 20;
   margin: 0;
@@ -27,14 +34,14 @@ body, main { margin: 0; padding: 0; background: #fff; color: #000; font-family: 
 .subtraction-concept-heading { left: 80px; top: 80px; }
 .subtraction-process-heading { left: 80px; top: 585px; }
 
-.subtraction-copy {
+.subtraction-concept-copy {
   position: absolute;
   left: 80px;
   top: 145px;
   width: 680px;
 }
 
-.subtraction-copy p,
+.subtraction-concept-copy p,
 .subtraction-process-copy {
   margin: 0;
   font-size: 25px;
@@ -42,7 +49,7 @@ body, main { margin: 0; padding: 0; background: #fff; color: #000; font-family: 
   line-height: 1.18;
 }
 
-.subtraction-copy p + p { margin-top: 32px; }
+.subtraction-concept-copy p + p { margin-top: 32px; }
 
 .subtraction-process-copy {
   position: absolute;
@@ -60,11 +67,13 @@ body, main { margin: 0; padding: 0; background: #fff; color: #000; font-family: 
   object-fit: contain;
 }
 
-.subtraction-sketches > h2,
-.subtraction-process-gallery > h2,
-.subtraction-final-gallery > h2 { left: 80px; top: 80px; }
+.sub-sketch-heading,
+.sub-process-heading,
+.sub-catalog-heading { left: 80px; top: 80px; }
 
-.subtraction-sketches > img {
+.sub-sketch-01,
+.sub-sketch-02,
+.sub-sketch-03 {
   position: absolute;
   left: 80px;
   top: 120px;
@@ -73,11 +82,16 @@ body, main { margin: 0; padding: 0; background: #fff; color: #000; font-family: 
   object-fit: contain;
 }
 
-.subtraction-process-layout,
-.subtraction-final-layout { position: absolute; inset: 0; }
+.sub-process-images,
+.sub-catalog-images { position: absolute; inset: 0; }
 
-.subtraction-process-layout img,
-.subtraction-final-layout img {
+.sub-process-01,
+.sub-process-02,
+.sub-process-03,
+.sub-catalog-01,
+.sub-catalog-02,
+.sub-catalog-03,
+.sub-catalog-04 {
   position: absolute;
   display: block;
   height: auto;
@@ -85,14 +99,14 @@ body, main { margin: 0; padding: 0; background: #fff; color: #000; font-family: 
   object-fit: contain;
 }
 
-.subtraction-process-layout img:nth-child(1) { left: 80px; top: 140px; width: 430px; height: 740px; }
-.subtraction-process-layout img:nth-child(2) { left: 625px; top: 140px; width: 430px; height: 740px; }
-.subtraction-process-layout img:nth-child(3) { left: 1100px; top: 140px; width: 500px; height: 740px; }
+.sub-process-01 { left: 80px; top: 140px; width: 430px; height: 740px; }
+.sub-process-02 { left: 625px; top: 140px; width: 430px; height: 740px; }
+.sub-process-03 { left: 1100px; top: 140px; width: 500px; height: 740px; }
 
-.subtraction-final-layout img:nth-child(1) { left: 80px; top: 140px; width: 300px; height: 740px; }
-.subtraction-final-layout img:nth-child(2) { left: 480px; top: 140px; width: 300px; height: 740px; }
-.subtraction-final-layout img:nth-child(3) { left: 880px; top: 140px; width: 300px; height: 740px; }
-.subtraction-final-layout img:nth-child(4) { left: 1280px; top: 140px; width: 300px; height: 740px; }
+.sub-catalog-01 { left: 80px; top: 140px; width: 300px; height: 740px; }
+.sub-catalog-02 { left: 480px; top: 140px; width: 300px; height: 740px; }
+.sub-catalog-03 { left: 880px; top: 140px; width: 300px; height: 740px; }
+.sub-catalog-04 { left: 1280px; top: 140px; width: 300px; height: 740px; }
 
 .subtraction-next-project {
   width: 1680px;
