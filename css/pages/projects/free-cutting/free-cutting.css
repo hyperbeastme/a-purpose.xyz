@@ -60,10 +60,10 @@ body, main { margin: 0; padding: 0; background: #fff; color: #000; font-family: 
 
 .subtraction-opening-image {
   position: absolute;
-  left: 840px;
-  top: 80px;
-  width: 760px;
-  height: 360px;
+  left:calc(840 / 1680 * 100%);
+  top:calc(80 / 880 * 100%);
+  width:calc(760 / 1680 * 100%);
+  height:calc(360 / 880 * 100%);
   object-fit: contain;
 }
 
@@ -75,10 +75,10 @@ body, main { margin: 0; padding: 0; background: #fff; color: #000; font-family: 
   position:absolute;
   display:block;
   max-width:none;
-  left:80px;
-  top:140px;
-  width:430px;
-  height:740px;
+  left:calc(80 / 1680 * 100%);
+  top:calc(140 / 960 * 100%);
+  width:calc(430 / 1680 * 100%);
+  height:calc(740 / 960 * 100%);
   object-fit:contain;
 }
 
@@ -86,10 +86,10 @@ body, main { margin: 0; padding: 0; background: #fff; color: #000; font-family: 
   position:absolute;
   display:block;
   max-width:none;
-  left:625px;
-  top:140px;
-  width:430px;
-  height:740px;
+  left:calc(625 / 1680 * 100%);
+  top:calc(140 / 960 * 100%);
+  width:calc(430 / 1680 * 100%);
+  height:calc(740 / 960 * 100%);
   object-fit:contain;
 }
 
@@ -97,10 +97,10 @@ body, main { margin: 0; padding: 0; background: #fff; color: #000; font-family: 
   position:absolute;
   display:block;
   max-width:none;
-  left:1100px;
-  top:140px;
-  width:500px;
-  height:740px;
+  left:calc(1100 / 1680 * 100%);
+  top:calc(140 / 960 * 100%);
+  width:calc(500 / 1680 * 100%);
+  height:calc(740 / 960 * 100%);
   object-fit:contain;
 }
 
@@ -111,10 +111,10 @@ body, main { margin: 0; padding: 0; background: #fff; color: #000; font-family: 
   position:absolute;
   display:block;
   max-width:none;
-  left:80px;
-  top:140px;
-  width:430px;
-  height:740px;
+  left:calc(80 / 1680 * 100%);
+  top:calc(140 / 960 * 100%);
+  width:calc(430 / 1680 * 100%);
+  height:calc(740 / 960 * 100%);
   margin:0;
   object-fit:contain;
 }
@@ -123,10 +123,10 @@ body, main { margin: 0; padding: 0; background: #fff; color: #000; font-family: 
   position:absolute;
   display:block;
   max-width:none;
-  left:625px;
-  top:140px;
-  width:430px;
-  height:740px;
+  left:calc(625 / 1680 * 100%);
+  top:calc(140 / 960 * 100%);
+  width:calc(430 / 1680 * 100%);
+  height:calc(740 / 960 * 100%);
   margin:0;
   object-fit:contain;
 }
@@ -135,10 +135,10 @@ body, main { margin: 0; padding: 0; background: #fff; color: #000; font-family: 
   position:absolute;
   display:block;
   max-width:none;
-  left:1100px;
-  top:140px;
-  width:500px;
-  height:740px;
+  left:calc(1100 / 1680 * 100%);
+  top:calc(140 / 960 * 100%);
+  width:calc(500 / 1680 * 100%);
+  height:calc(740 / 960 * 100%);
   margin:0;
   object-fit:contain;
 }
@@ -147,10 +147,10 @@ body, main { margin: 0; padding: 0; background: #fff; color: #000; font-family: 
   position:absolute;
   display:block;
   max-width:none;
-  left:80px;
-  top:140px;
-  width:300px;
-  height:740px;
+  left:calc(80 / 1680 * 100%);
+  top:calc(140 / 960 * 100%);
+  width:calc(300 / 1680 * 100%);
+  height:calc(740 / 960 * 100%);
   margin:0;
   object-fit:contain;
 }
@@ -159,10 +159,10 @@ body, main { margin: 0; padding: 0; background: #fff; color: #000; font-family: 
   position:absolute;
   display:block;
   max-width:none;
-  left:480px;
-  top:140px;
-  width:300px;
-  height:740px;
+  left:calc(480 / 1680 * 100%);
+  top:calc(140 / 960 * 100%);
+  width:calc(300 / 1680 * 100%);
+  height:calc(740 / 960 * 100%);
   margin:0;
   object-fit:contain;
 }
@@ -171,10 +171,10 @@ body, main { margin: 0; padding: 0; background: #fff; color: #000; font-family: 
   position:absolute;
   display:block;
   max-width:none;
-  left:880px;
-  top:140px;
-  width:300px;
-  height:740px;
+  left:calc(880 / 1680 * 100%);
+  top:calc(140 / 960 * 100%);
+  width:calc(300 / 1680 * 100%);
+  height:calc(740 / 960 * 100%);
   margin:0;
   object-fit:contain;
 }
@@ -183,10 +183,10 @@ body, main { margin: 0; padding: 0; background: #fff; color: #000; font-family: 
   position:absolute;
   display:block;
   max-width:none;
-  left:1280px;
-  top:140px;
-  width:300px;
-  height:740px;
+  left:calc(1280 / 1680 * 100%);
+  top:calc(140 / 960 * 100%);
+  width:calc(300 / 1680 * 100%);
+  height:calc(740 / 960 * 100%);
   margin:0;
   object-fit:contain;
 }
