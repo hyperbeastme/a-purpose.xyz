@@ -21,7 +21,7 @@ body.printmaking-page main {
   width:100%;
   max-width:1680px;
   aspect-ratio:1680 / 880;
-  height:auto;
+  max-height:705;
   margin:0 auto;
   position:relative;
   overflow:hidden;
@@ -31,7 +31,7 @@ body.printmaking-page main {
   position:absolute;
   left:calc(270.5699 / 1680 * 100%);
   top:calc(110.2 / 880 * 100%);
-  width:calc(559.3975 / 1680 * 100%);
+  width:calc(487.5 / 1680 * 100%);
   height:calc(703.7943 / 880 * 100%);
   font-size:clamp(8px, calc(36 / 1680 * 100vw), 36px);
   font-weight:500;
