@@ -675,12 +675,18 @@ main {
 }
 
 @media (max-width: 768px) {
- *{
-  background-color: transparent !important;
+  .project-preview,
+  .project-preview * {
+    filter:none !important;
+    backdrop-filter: none !important;
+    will-change: auto !important;
+    perspective: none !important;
   }
-  
-  body {
-    background: white !important;
+
+  .project-preview img{
+    transform: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
   }
 
 }
