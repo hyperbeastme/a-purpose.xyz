@@ -106,15 +106,46 @@ a.project-index-link::before {
   inset:-18px -24px;
 }
 
-.project-index-nascar { left:410px; top:62px; font-size:48px; }
-.project-index-eternal { left:285.022px; top:305.853px; font-size:52px; }
-.project-index-reflections { left:790.454px; top:463.792px; font-size:61px; }
-.project-index-catelier { left:393.85px; top:586.572px; font-size:49px; }
-.project-index-digital { left:860.175px; top:695.924px; font-size:57px; }
-.project-index-opposites { left:151.1px; top:822.121px; font-size:51px; }
-.project-index-printmaking { left:308.906px; top:1000px; font-size:54px; }
-.project-index-free-cutting { left:957.259px; top:1188px; font-size:59px; }
-.project-index-graphic { left:572.315px; top:1430px; font-size:56px; }
+.project-index-nascar { 
+  left:calc(648.917  / 1680 * 100%);
+  top:calc(62.5918 / 1650 * 100%);
+  font-size:61px; 
+}
+.project-index-eternal {  
+  left:calc(821.1372  / 1680 * 100%);
+  top:calc(234.689 / 1650 * 100%);
+  font-size:61px; 
+}
+.project-index-catelier {  
+  left:calc(1337.7998  / 1680 * 100%);
+  top:calc(406.7861 / 1650 * 100%);
+  font-size:61px; 
+}
+.project-index-reflections {  
+  left:calc(132.2554  / 1680 * 100%);
+  top:calc(578.8833 / 1650 * 100%);
+  font-size:61px; 
+}
+.project-index-free-cutting {  
+  left:calc(304.4756  / 1680 * 100%);
+  top:calc(750.9805 / 1650 * 100%);
+  font-size:61px; 
+}
+.project-index-printmaking {  
+  left:calc(993.3584  / 1680 * 100%);
+  top:calc(923.0776 / 1650 * 100%);
+  font-size:61px; 
+}
+.project-index-digital {  
+  left:calc(1165.5791  / 1680 * 100%);
+  top:calc(1095.1743 / 1650 * 100%);
+  font-size:61px; 
+}
+.project-index-archive {  
+  left:calc(579.2363  / 1680 * 100%);
+  top:calc(1432.293 / 1650 * 100%);
+  font-size:200px; 
+}
 
 /* COMING SOON PROJECTS */
 
