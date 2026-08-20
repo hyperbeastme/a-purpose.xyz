@@ -674,6 +674,14 @@ main {
   font:200 46px/1 Arial, sans-serif;
 }
 
+@media (max-width: 768px) {
+ .editorial img {
+  opacity: 1 !important;
+  visibility: visible !important;
+ }
+
+}
+
 @media (orientation:landscape) {
   :root {
     --project-max-width:1194px;
