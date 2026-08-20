@@ -662,10 +662,17 @@ body {
 }
 
 .eternal-runway h2 {
+  font-family:"futura-pt-condensed", sans-serif;
+  font-style:italic;
   position:absolute;
-  left:24px;
-  top:13px;
-  z-index:2;
+  left: calc(24 / 1680 * 100%);
+  top: calc(13 / 960 * 100%);
+  z-index:20;
+  margin:0;
+  font-size:44px;
+  font-weight:300;
+  letter-spacing:0;
+  line-height:1;
 }
 
 .eternal-runway-layout {
