@@ -34,10 +34,11 @@ body.printmaking-page main {
   width:calc(487.5 / 1680 * 100%);
   height:calc(703.7943 / 880 * 100%);
   margin:0;
-  font-size:35px;
   font-weight:200;
   font-style:italic;
-  line-height:1.18;
+  font-size: 28px;      /* try 26–28px */
+  line-height: 1.32;    /* tighter than what you have now */
+  letter-spacing: -0.2px;
 }
 
 .opening-copy p {
