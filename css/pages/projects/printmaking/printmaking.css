@@ -365,43 +365,43 @@ body.printmaking-page main {
 
 /* Production Printing — 1680 × 960 artboard */
 .production-01 {
-  left:calc(859.1 / 1680 * 100%);
-  top:calc(135.6 / 960 * 100%);
-  width:calc(166.7 / 1680 * 100%);
+  left:calc(1174.1054 / 1680 * 100%);
+  top:calc(464.6976 / 960 * 100%);
+  width:calc(309.6093 / 1680 * 100%);
 }
 .production-02 {
-  left:calc(-18.5 / 1680 * 100%);
-  top:calc(-80.9 / 960 * 100%);
-  width:calc(759.9 / 1680 * 100%);
+  left:calc(1055.745 / 1680 * 100%);
+  top:calc(135.5684 / 960 * 100%);
+  width:calc(427.9697 / 1680 * 100%);
 }
 .production-03 {
-  left:calc(622.1 / 1680 * 100%);
-  top:calc(464.7 / 960 * 100%);
-  width:calc(230.2 / 1680 * 100%);
+  left:calc(882.3762 / 1680 * 100%);
+  top:calc(464.6976 / 960 * 100%);
+  width:calc(261.7292 / 1680 * 100%);
 }
 .production-04 {
-  left:calc(622.1 / 1680 * 100%);
-  top:calc(63.9 / 960 * 100%);
-  width:calc(206.9 / 1680 * 100%);
+  left:calc(622.1266 / 1680 * 100%);
+  top:calc(135.5684 / 960 * 100%);
+  width:calc(206.9356 / 1680 * 100%);
 }
 .production-05 {
-  left:calc(882.4 / 1680 * 100%);
-  top:calc(408.6 / 960 * 100%);
-  width:calc(261.7 / 1680 * 100%);
+  left:calc(622.1266 / 1680 * 100%);
+  top:calc(464.6976 / 960 * 100%);
+  width:calc(230.2496 / 1680 * 100%);
 }
 .production-06 {
-  left:calc(1055.7 / 1680 * 100%);
-  top:calc(-55.7 / 960 * 100%);
-  width:calc(428 / 1680 * 100%);
+  left:calc(859.0621 / 1680 * 100%);
+  top:calc(135.5684 / 960 * 100%);
+  width:calc(166.6829 / 1680 * 100%);
 }
 .production-colorway {
-  left:calc(1167.2 / 1680 * 100%);
-  top:calc(215.8 / 960 * 100%);
-  width:calc(404.9 / 1680 * 100%);
+  left:calc(196.2853 / 1680 * 100%);
+  top:calc(135.5684 / 960 * 100%);
+  width:calc(395.8413 / 1680 * 100%);
 }
 .production-caption {
-  left:calc(762 / 1680 * 100%);
-  top:calc(905 / 960 * 100%);
+  left:calc(762.0986 / 1680 * 100%);
+  top:calc(899.8213 / 960 * 100%);
 }
 
 .next-project {
