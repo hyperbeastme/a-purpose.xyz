@@ -144,7 +144,7 @@ main {
 .catelier-moodboard {
   position:absolute;
   left:0;
-  top:calc(80 / 960 * 100%);
+  top:calc(50 / 960 * 100%);
   width:100%;
   height:calc(960 / 960 * 100%);
   overflow:hidden;
