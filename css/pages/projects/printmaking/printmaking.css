@@ -161,9 +161,13 @@ body.printmaking-page main {
 .personal-08 { left:calc(495.9 / 1680 * 100%); top:calc(115.1 / 960 * 100%); width:calc(244.8 / 1680 * 100%); }
 .personal-08-detail { left:calc(956.1 / 1680 * 100%); top:calc(100.3 / 960 * 100%); width:calc(610.9 / 1680 * 100%); }
 .personal-caption-indigo { left:calc(414 / 1680 * 100%); top:calc(486 / 960 * 100%); }
+
 .personal-caption-top-influence { left:calc(801 / 1680 * 100%); top:calc(486 / 960 * 100%); }
+
 .personal-caption-yardage { left:calc(1161 / 1680 * 100%); top:calc(486 / 960 * 100%); }
+
 .personal-caption-technicians { left:calc(454 / 1680 * 100%); top:calc(905 / 960 * 100%); }
+
 .personal-caption-valentine { left:calc(1075 / 1680 * 100%); top:calc(905 / 960 * 100%); }
 
 /* Production Printing — 1680 × 960 artboard */
