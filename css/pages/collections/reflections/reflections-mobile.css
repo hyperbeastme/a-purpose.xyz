@@ -236,7 +236,7 @@ main {
   margin:calc(24 / 1024 * 100%) 0 calc(34 / 1024 * 100%) calc(220 / 520 * 100%) !important;
 }
 
-.reflections-opening-copy {
+.reflections-opening-body {
   font-size:clamp(8px, calc(27 / 1440 * 100vw), 27px);
   font-weight:500;
   line-height:1.22;
