@@ -122,11 +122,11 @@ main {
    ========================================================= */
 
 .catelier-mood {
-  width:1680px;
-  height:960px;
-  margin:0 auto;
-  position:relative;
-  overflow:hidden;
+  position: relative;
+  width: 100%;
+  max-width: 1680px;
+  aspect-ratio: 1680 / 960;
+  margin: 0 auto;
 }
 
 .catelier-mood > h2 {
