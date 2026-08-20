@@ -132,7 +132,7 @@ main {
 .catelier-mood > h2 {
   position:absolute;
   left:calc(24 / 1600 * 100%);
-  top:calc(40 / 960 * 100%);
+  top:calc(13 / 960 * 100%);
   z-index:20;
   margin:0;
   font-family:"futura-pt-condensed", sans-serif;
@@ -146,7 +146,7 @@ main {
   left:0;
   top:calc(80 / 960 * 100%);
   width:100%;
-  height:calc(880 / 960 * 100%);
+  height:calc(960 / 960 * 100%);
   overflow:hidden;
 }
 
