@@ -29,10 +29,10 @@ body.printmaking-page main {
 
 .opening-copy {
   position:absolute;
-  left:calc(220 / 1680 * 100%);
-  top:calc(108 / 880 * 100%);
-  width:calc(557 / 1680 * 100%);
-  font-size:clamp(8px, calc(23 / 1680 * 100vw), 23px);
+  left:calc(220.5235 / 1680 * 100%);
+  top:calc(110.2 / 880 * 100%);
+  width:calc(559.3975 / 1680 * 100%);
+  font-size:clamp(8px, calc(44 / 1680 * 100vw), 44px);
   font-weight:500;
   line-height:1.34;
 }
