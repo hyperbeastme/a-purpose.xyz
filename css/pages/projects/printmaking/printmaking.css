@@ -1,10 +1,14 @@
 *, *::before, *::after { box-sizing:border-box; }
 html, body { width:100%; max-width:100%; margin:0; overflow-x:hidden; }
 body { font-family:"futura-pt-condensed", sans-serif; color:#000; background:#fff; }
-main { width:100%; }
+body.printmaking-page main {
+  width:100%;
+  max-width:none;
+}
 
 .printmaking-introduction {
-  width:min(1680px, 100%);
+  width:100%;
+  max-width:1680px;
   aspect-ratio:1680 / 880;
   height:auto;
   margin:0 auto;
@@ -28,11 +32,11 @@ main { width:100%; }
   position:absolute;
   display:block;
   max-width:none;
-  left:calc(856 / 1680 * 100%);
-  top:calc(109 / 880 * 100%);
-  width:calc(504 / 1680 * 100%);
-  height:calc(707 / 880 * 100%);
-  object-fit:cover;
+  left:calc(824.33 / 1680 * 100%);
+  top:calc(-65.596 / 880 * 100%);
+  width:calc(567 / 1680 * 100%);
+  height:auto;
+  object-fit:contain;
 }
 
 .printmaking-linoleum-intaglio,
@@ -40,7 +44,8 @@ main { width:100%; }
 .printmaking-brand-printing,
 .printmaking-personal-work,
 .printmaking-production-printing {
-  width:min(1680px, 100%);
+  width:100%;
+  max-width:1680px;
   aspect-ratio:1680 / 960;
   height:auto;
   margin:0 auto;
@@ -172,7 +177,8 @@ main { width:100%; }
 .production-printing-caption { left:calc(762 / 1680 * 100%); top:calc(905 / 960 * 100%); }
 
 .printmaking-next-project {
-  width:min(1680px, 100%);
+  width:100%;
+  max-width:1680px;
   min-height:475px;
   margin:0 auto;
   padding:80px;
