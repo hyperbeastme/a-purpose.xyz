@@ -524,6 +524,13 @@ main {
   width:calc(257 / 1440 * 100%);
 }
 
+.reflections-outline {
+  left:calc(276 / 1440 * 100%);
+  top:calc(80 / 1024 * 100%);
+  width:calc(416 / 1440 * 100%);
+  pointer-events:none;
+}
+
 /* RESPONSIVE COMPOSITION TYPOGRAPHY */
 
 .reflections-opening-question {
