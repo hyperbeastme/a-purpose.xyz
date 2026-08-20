@@ -1,0 +1,203 @@
+*, *::before, *::after { box-sizing:border-box; }
+html, body { width:100%; max-width:100%; margin:0; overflow-x:hidden; }
+body { font-family:"futura-pt-condensed", sans-serif; color:#000; background:#fff; }
+main { width:100%; }
+
+.printmaking-introduction {
+  width:min(1680px, 100%);
+  aspect-ratio:1680 / 880;
+  height:auto;
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+}
+
+.printmaking-introduction-copy {
+  position:absolute;
+  left:calc(220 / 1680 * 100%);
+  top:calc(108 / 880 * 100%);
+  width:calc(557 / 1680 * 100%);
+  font-size:clamp(8px, calc(23 / 1680 * 100vw), 23px);
+  font-weight:500;
+  line-height:1.34;
+}
+
+.printmaking-introduction-copy p { margin:0 0 calc(35 / 880 * 100%); }
+
+.printmaking-introduction-screen {
+  position:absolute;
+  display:block;
+  max-width:none;
+  left:calc(856 / 1680 * 100%);
+  top:calc(109 / 880 * 100%);
+  width:calc(504 / 1680 * 100%);
+  height:calc(707 / 880 * 100%);
+  object-fit:cover;
+}
+
+.printmaking-linoleum-intaglio,
+.printmaking-screen-printing,
+.printmaking-brand-printing,
+.printmaking-personal-work,
+.printmaking-production-printing {
+  width:min(1680px, 100%);
+  aspect-ratio:1680 / 960;
+  height:auto;
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+}
+
+.printmaking-linoleum-intaglio h2,
+.printmaking-screen-printing h2,
+.printmaking-brand-printing h2,
+.printmaking-personal-work h2,
+.printmaking-production-printing h2 {
+  font-family:"futura-pt-condensed", sans-serif;
+  font-style:italic;
+  position:absolute;
+  left:calc(25 / 1680 * 100%);
+  top:calc(13 / 960 * 100%);
+  z-index:20;
+  margin:0;
+  font-size:clamp(16px, calc(54 / 1680 * 100vw), 54px);
+  font-weight:500;
+  letter-spacing:0;
+  line-height:1;
+}
+
+.printmaking-linoleum-intaglio-layout,
+.printmaking-screen-printing-layout,
+.printmaking-brand-printing-layout,
+.printmaking-personal-work-layout,
+.printmaking-production-printing-layout {
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+}
+
+.printmaking-linoleum-intaglio-layout img,
+.printmaking-screen-printing-layout img,
+.printmaking-brand-printing-layout img,
+.printmaking-personal-work-layout img,
+.printmaking-production-printing-layout img {
+  position:absolute;
+  display:block;
+  max-width:none;
+  height:auto;
+  margin:0;
+}
+
+.printmaking-linoleum-intaglio p,
+.printmaking-screen-printing p,
+.printmaking-brand-printing p,
+.printmaking-personal-work p,
+.printmaking-production-printing p {
+  position:absolute;
+  z-index:20;
+  margin:0;
+  font-size:clamp(7px, calc(17 / 1680 * 100vw), 17px);
+  font-style:italic;
+  font-weight:500;
+  line-height:1;
+}
+
+/* Linoleum (Relief) / Intaglio (Etching) — 1680 × 960 artboard */
+.linoleum-intaglio-im0 { left:calc(805.4 / 1680 * 100%); top:calc(518.3 / 960 * 100%); width:calc(432.9 / 1680 * 100%); }
+.linoleum-intaglio-im1 { left:calc(286.3 / 1680 * 100%); top:calc(250.5 / 960 * 100%); width:calc(303 / 1680 * 100%); }
+.linoleum-intaglio-im2 { left:calc(120.1 / 1680 * 100%); top:calc(518.3 / 960 * 100%); width:calc(307.2 / 1680 * 100%); }
+.linoleum-intaglio-im3 { left:calc(457.3 / 1680 * 100%); top:calc(518.3 / 960 * 100%); width:calc(298.2 / 1680 * 100%); }
+.linoleum-intaglio-im4 { left:calc(687 / 1680 * 100%); top:calc(223.2 / 960 * 100%); width:calc(262.6 / 1680 * 100%); }
+.linoleum-intaglio-im5 { left:calc(1308.1 / 1680 * 100%); top:calc(223.2 / 960 * 100%); width:calc(251.8 / 1680 * 100%); }
+.linoleum-intaglio-im6 { left:calc(979.6 / 1680 * 100%); top:calc(223.2 / 960 * 100%); width:calc(298.5 / 1680 * 100%); }
+.linoleum-caption-relief { left:calc(283 / 1680 * 100%); top:calc(780 / 960 * 100%); }
+.linoleum-caption-study { left:calc(1070 / 1680 * 100%); top:calc(485 / 960 * 100%); }
+.linoleum-caption-etching { left:calc(930 / 1680 * 100%); top:calc(780 / 960 * 100%); }
+
+/* Screen Printing — 1680 × 960 artboard */
+.screen-printing-im0 { left:calc(939.6 / 1680 * 100%); top:calc(131.2 / 960 * 100%); width:calc(255.6 / 1680 * 100%); }
+.screen-printing-im1 { left:calc(1270.2 / 1680 * 100%); top:calc(131.2 / 960 * 100%); width:calc(116.8 / 1680 * 100%); }
+.screen-printing-im2 { left:calc(1270.2 / 1680 * 100%); top:calc(316.2 / 960 * 100%); width:calc(116.8 / 1680 * 100%); }
+.screen-printing-im3 { left:calc(1416.3 / 1680 * 100%); top:calc(316.2 / 960 * 100%); width:calc(116.8 / 1680 * 100%); }
+.screen-printing-im4 { left:calc(1416.3 / 1680 * 100%); top:calc(131.2 / 960 * 100%); width:calc(116.8 / 1680 * 100%); }
+.screen-printing-im5 { left:calc(672.9 / 1680 * 100%); top:calc(131.2 / 960 * 100%); width:calc(191.7 / 1680 * 100%); }
+.screen-printing-im6 { left:calc(146.9 / 1680 * 100%); top:calc(132 / 960 * 100%); width:calc(496 / 1680 * 100%); }
+.screen-printing-im7 { left:calc(189.7 / 1680 * 100%); top:calc(552 / 960 * 100%); width:calc(255.6 / 1680 * 100%); }
+.screen-printing-im8 { left:calc(515.3 / 1680 * 100%); top:calc(552 / 960 * 100%); width:calc(263.3 / 1680 * 100%); }
+.screen-printing-im9 { left:calc(1333.8 / 1680 * 100%); top:calc(552 / 960 * 100%); width:calc(155.7 / 1680 * 100%); }
+.screen-printing-im10 { left:calc(1333.1 / 1680 * 100%); top:calc(737.7 / 960 * 100%); width:calc(157.2 / 1680 * 100%); }
+.screen-printing-im11 { left:calc(848.7 / 1680 * 100%); top:calc(552 / 960 * 100%); width:calc(454.4 / 1680 * 100%); }
+.screen-caption-optical { left:calc(367 / 1680 * 100%); top:calc(487 / 960 * 100%); }
+.screen-caption-repeat { left:calc(1020 / 1680 * 100%); top:calc(487 / 960 * 100%); }
+.screen-caption-cmyk { left:calc(1310 / 1680 * 100%); top:calc(487 / 960 * 100%); }
+.screen-caption-shirt { left:calc(244 / 1680 * 100%); top:calc(905 / 960 * 100%); }
+.screen-caption-zine { left:calc(633 / 1680 * 100%); top:calc(905 / 960 * 100%); }
+.screen-caption-virgil { left:calc(1024 / 1680 * 100%); top:calc(905 / 960 * 100%); }
+
+/* Brand Printing — 1680 × 960 artboard */
+.brand-printing-im0 { left:calc(317.7 / 1680 * 100%); top:calc(497.2 / 960 * 100%); width:calc(504 / 1680 * 100%); }
+.brand-printing-im1 { left:calc(858.3 / 1680 * 100%); top:calc(497.2 / 960 * 100%); width:calc(504 / 1680 * 100%); }
+.brand-printing-im2 { left:calc(264.6 / 1680 * 100%); top:calc(-82.2 / 960 * 100%); width:calc(453.4 / 1680 * 100%); }
+.brand-printing-im3 { left:calc(754.6 / 1680 * 100%); top:calc(124.7 / 960 * 100%); width:calc(176.7 / 1680 * 100%); }
+.brand-printing-im4 { left:calc(968 / 1680 * 100%); top:calc(124.7 / 960 * 100%); width:calc(176.7 / 1680 * 100%); }
+.brand-printing-im5 { left:calc(1139.3 / 1680 * 100%); top:calc(24.6 / 960 * 100%); width:calc(343.1 / 1680 * 100%); }
+.brand-printing-caption { left:calc(696 / 1680 * 100%); top:calc(905 / 960 * 100%); }
+
+/* Singular / Personal Work — 1680 × 960 artboard */
+.personal-work-im0 { left:calc(836.6 / 1680 * 100%); top:calc(537 / 960 * 100%); width:calc(351.6 / 1680 * 100%); }
+.personal-work-im1 { left:calc(261.7 / 1680 * 100%); top:calc(537 / 960 * 100%); width:calc(249.1 / 1680 * 100%); }
+.personal-work-im2 { left:calc(540.8 / 1680 * 100%); top:calc(537 / 960 * 100%); width:calc(299.2 / 1680 * 100%); }
+.personal-work-im3 { left:calc(-18.5 / 1680 * 100%); top:calc(899.1 / 960 * 100%); width:calc(759.9 / 1680 * 100%); }
+.personal-work-im4 { left:calc(1055.7 / 1680 * 100%); top:calc(924.3 / 960 * 100%); width:calc(428 / 1680 * 100%); }
+.personal-work-im5 { left:calc(772.1 / 1680 * 100%); top:calc(115.1 / 960 * 100%); width:calc(252.4 / 1680 * 100%); }
+.personal-work-im6 { left:calc(216.2 / 1680 * 100%); top:calc(115.1 / 960 * 100%); width:calc(249.7 / 1680 * 100%); }
+.personal-work-im7 { left:calc(495.9 / 1680 * 100%); top:calc(115.1 / 960 * 100%); width:calc(244.8 / 1680 * 100%); }
+.personal-work-im8 { left:calc(956.1 / 1680 * 100%); top:calc(100.3 / 960 * 100%); width:calc(610.9 / 1680 * 100%); }
+.personal-caption-indigo { left:calc(414 / 1680 * 100%); top:calc(486 / 960 * 100%); }
+.personal-caption-top-influence { left:calc(801 / 1680 * 100%); top:calc(486 / 960 * 100%); }
+.personal-caption-yardage { left:calc(1161 / 1680 * 100%); top:calc(486 / 960 * 100%); }
+.personal-caption-technicians { left:calc(454 / 1680 * 100%); top:calc(905 / 960 * 100%); }
+.personal-caption-valentine { left:calc(1075 / 1680 * 100%); top:calc(905 / 960 * 100%); }
+
+/* Production Printing — 1680 × 960 artboard */
+.production-printing-im0 { left:calc(859.1 / 1680 * 100%); top:calc(135.6 / 960 * 100%); width:calc(166.7 / 1680 * 100%); }
+.production-printing-im1 { left:calc(-18.5 / 1680 * 100%); top:calc(-80.9 / 960 * 100%); width:calc(759.9 / 1680 * 100%); }
+.production-printing-im2 { left:calc(622.1 / 1680 * 100%); top:calc(464.7 / 960 * 100%); width:calc(230.2 / 1680 * 100%); }
+.production-printing-im3 { left:calc(622.1 / 1680 * 100%); top:calc(63.9 / 960 * 100%); width:calc(206.9 / 1680 * 100%); }
+.production-printing-im4 { left:calc(882.4 / 1680 * 100%); top:calc(408.6 / 960 * 100%); width:calc(261.7 / 1680 * 100%); }
+.production-printing-im5 { left:calc(1055.7 / 1680 * 100%); top:calc(-55.7 / 960 * 100%); width:calc(428 / 1680 * 100%); }
+.production-printing-im6 { left:calc(1167.2 / 1680 * 100%); top:calc(215.8 / 960 * 100%); width:calc(404.9 / 1680 * 100%); }
+.production-printing-caption { left:calc(762 / 1680 * 100%); top:calc(905 / 960 * 100%); }
+
+.printmaking-next-project {
+  width:min(1680px, 100%);
+  min-height:475px;
+  margin:0 auto;
+  padding:80px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:flex-end;
+}
+
+.printmaking-next-project p { margin:0 0 15px; font-size:22px; opacity:.5; }
+.printmaking-next-project a { color:#000; font-size:clamp(42px, 4.2vw, 70px); line-height:1; text-decoration:none; }
+
+@media screen and (max-width:767px), screen and (orientation:portrait), screen and (orientation:landscape) and (max-height:500px) {
+  .printmaking-introduction-copy { font-size:calc(23 / 1680 * 100vw); }
+  .printmaking-linoleum-intaglio h2,
+  .printmaking-screen-printing h2,
+  .printmaking-brand-printing h2,
+  .printmaking-personal-work h2,
+  .printmaking-production-printing h2 { font-size:calc(54 / 1680 * 100vw); }
+  .printmaking-linoleum-intaglio p,
+  .printmaking-screen-printing p,
+  .printmaking-brand-printing p,
+  .printmaking-personal-work p,
+  .printmaking-production-printing p { font-size:calc(17 / 1680 * 100vw); }
+  .printmaking-next-project { min-height:240px; padding:20px; }
+  .printmaking-next-project p { font-size:16px; }
+  .printmaking-next-project a { font-size:42px; }
+}
