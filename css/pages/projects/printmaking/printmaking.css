@@ -177,88 +177,88 @@ body.printmaking-page main {
 
 /* Screen Printing — 1680 × 960 artboard */
 .general-01 {
-  left:calc(939.6 / 1680 * 100%);
-  top:calc(131.2 / 960 * 100%);
-  width:calc(255.6 / 1680 * 100%);
+  left:calc(146.884 / 1680 * 100%);
+  top:calc(132.0304 / 960 * 100%);
+  width:calc(496.0245 / 1680 * 100%);
 }
 .general-02 {
-  left:calc(1270.2 / 1680 * 100%);
-  top:calc(131.2 / 960 * 100%);
-  width:calc(116.8 / 1680 * 100%);
+  left:calc(672.9085 / 1680 * 100%);
+  top:calc(131.1668 / 960 * 100%);
+  width:calc(191.7011 / 1680 * 100%);
 }
 .general-03 {
-  left:calc(1270.2 / 1680 * 100%);
-  top:calc(316.2 / 960 * 100%);
-  width:calc(116.8 / 1680 * 100%);
+  left:calc(939.6096 / 1680 * 100%);
+  top:calc(131.1668 / 960 * 100%);
+  width:calc(255.6015 / 1680 * 100%);
 }
 .general-04 {
-  left:calc(1416.3 / 1680 * 100%);
-  top:calc(316.2 / 960 * 100%);
-  width:calc(116.8 / 1680 * 100%);
+  left:calc(1270.2111 / 1680 * 100%);
+  top:calc(131.1668 / 960 * 100%);
+  width:calc(116.8457 / 1680 * 100%);
 }
 .general-05 {
-  left:calc(1416.3 / 1680 * 100%);
-  top:calc(131.2 / 960 * 100%);
-  width:calc(116.8 / 1680 * 100%);
+  left:calc(1416.2704 / 1680 * 100%);
+  top:calc(131.1668 / 960 * 100%);
+  width:calc(116.8457 / 1680 * 100%);
 }
 .general-06 {
-  left:calc(672.9 / 1680 * 100%);
-  top:calc(131.2 / 960 * 100%);
-  width:calc(191.7 / 1680 * 100%);
+  left:calc(1270.2111 / 1680 * 100%);
+  top:calc(316.1746 / 960 * 100%);
+  width:calc(116.8457 / 1680 * 100%);
 }
 .general-07 {
-  left:calc(146.9 / 1680 * 100%);
-  top:calc(132 / 960 * 100%);
-  width:calc(496 / 1680 * 100%);
+  left:calc(1416.2704 / 1680 * 100%);
+  top:calc(316.1746 / 960 * 100%);
+  width:calc(116.8457 / 1680 * 100%);
 }
 .general-08 {
-  left:calc(189.7 / 1680 * 100%);
-  top:calc(552 / 960 * 100%);
-  width:calc(255.6 / 1680 * 100%);
+  left:calc(189.7234 / 1680 * 100%);
+  top:calc(552.042 / 960 * 100%);
+  width:calc(255.6015 / 1680 * 100%);
 }
 .general-09 {
-  left:calc(515.3 / 1680 * 100%);
-  top:calc(552 / 960 * 100%);
-  width:calc(263.3 / 1680 * 100%);
+  left:calc(515.325 / 1680 * 100%);
+  top:calc(552.0419 / 960 * 100%);
+  width:calc(263.3471 / 1680 * 100%);
 }
 .general-10 {
-  left:calc(1333.8 / 1680 * 100%);
-  top:calc(552 / 960 * 100%);
-  width:calc(155.7 / 1680 * 100%);
+  left:calc(848.672 / 1680 * 100%);
+  top:calc(552.042 / 960 * 100%);
+  width:calc(454.4027 / 1680 * 100%);
 }
 .general-11 {
-  left:calc(1333.1 / 1680 * 100%);
-  top:calc(737.7 / 960 * 100%);
-  width:calc(157.2 / 1680 * 100%);
+  left:calc(1333.8149 / 1680 * 100%);
+  top:calc(552.0229 / 960 * 100%);
+  width:calc(155.7215 / 1680 * 100%);
 }
 .general-12 {
-  left:calc(848.7 / 1680 * 100%);
-  top:calc(552 / 960 * 100%);
-  width:calc(454.4 / 1680 * 100%);
+  left:calc(1333.0747 / 1680 * 100%);
+  top:calc(737.7444 / 960 * 100%);
+  width:calc(157.2018 / 1680 * 100%);
 }
 .general-print-caption-optical {
-  left:calc(367 / 1680 * 100%);
-  top:calc(487 / 960 * 100%);
+  left:calc(366.6406 / 1680 * 100%);
+  top:calc(484.2383 / 960 * 100%);
 }
 .general-print-caption-repeat {
-  left:calc(1020 / 1680 * 100%);
-  top:calc(487 / 960 * 100%);
+  left:calc(1019.4258 / 1680 * 100%);
+  top:calc(484.2383 / 960 * 100%);
 }
 .general-print-caption-cmyk {
-  left:calc(1310 / 1680 * 100%);
-  top:calc(487 / 960 * 100%);
+  left:calc(1313.4287 / 1680 * 100%);
+  top:calc(484.2383 / 960 * 100%);
 }
 .general-print-caption-shirt {
-  left:calc(244 / 1680 * 100%);
-  top:calc(905 / 960 * 100%);
+  left:calc(243.3271 / 1680 * 100%);
+  top:calc(922.3135 / 960 * 100%);
 }
 .general-print-caption-zine {
-  left:calc(633 / 1680 * 100%);
-  top:calc(905 / 960 * 100%);
+  left:calc(633.5083 / 1680 * 100%);
+  top:calc(922.3135 / 960 * 100%);
 }
 .general-print-caption-virgil {
-  left:calc(1024 / 1680 * 100%);
-  top:calc(905 / 960 * 100%);
+  left:calc(1024.9746 / 1680 * 100%);
+  top:calc(922.3135 / 960 * 100%);
 }
 
 /* Brand Printing — 1680 × 960 artboard */
