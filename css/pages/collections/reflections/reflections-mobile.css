@@ -675,12 +675,17 @@ main {
 }
 
 @media (max-width: 768px) {
- .editorial img {
-  opacity: 1 !important;
-  visibility: visible !important;
- }
+ *{
+  background-color: transparent !important;
+  }
+  
+  body {
+    background: white !important;
+  }
 
 }
+
+
 
 @media (orientation:landscape) {
   :root {
