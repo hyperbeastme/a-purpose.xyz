@@ -299,73 +299,68 @@ body.printmaking-page main {
 
 /* Singular / Personal Work — 1680 × 960 artboard */
 .personal-01 {
-  left:calc(836.6 / 1680 * 100%);
-  top:calc(537 / 960 * 100%);
-  width:calc(351.6 / 1680 * 100%);
+  left:calc(216.1758 / 1680 * 100%);
+  top:calc(115.0669 / 960 * 100%);
+  width:calc(249.73 / 1680 * 100%);
 }
 .personal-02 {
-  left:calc(261.7 / 1680 * 100%);
-  top:calc(537 / 960 * 100%);
-  width:calc(249.1 / 1680 * 100%);
+  left:calc(495.9058 / 1680 * 100%);
+  top:calc(115.0669 / 960 * 100%);
+  width:calc(244.825 / 1680 * 100%);
 }
 .personal-03 {
-  left:calc(540.8 / 1680 * 100%);
-  top:calc(537 / 960 * 100%);
-  width:calc(299.2 / 1680 * 100%);
+  left:calc(770.7308 / 1680 * 100%);
+  top:calc(115.0669 / 960 * 100%);
+  width:calc(253.7408 / 1680 * 100%);
 }
 .personal-04 {
-  left:calc(-18.5 / 1680 * 100%);
-  top:calc(899.1 / 960 * 100%);
-  width:calc(759.9 / 1680 * 100%);
+  left:calc(1054.4716 / 1680 * 100%);
+  top:calc(115.0669 / 960 * 100%);
+  width:calc(409.3526 / 1680 * 100%);
 }
 .personal-05 {
-  left:calc(1055.7 / 1680 * 100%);
-  top:calc(924.3 / 960 * 100%);
-  width:calc(428 / 1680 * 100%);
+  left:calc(261.6634 / 1680 * 100%);
+  top:calc(536.9528 / 960 * 100%);
+  width:calc(249.1339 / 1680 * 100%);
 }
 .personal-06 {
-  left:calc(772.1 / 1680 * 100%);
-  top:calc(115.1 / 960 * 100%);
-  width:calc(252.4 / 1680 * 100%);
+  left:calc(540.7973 / 1680 * 100%);
+  top:calc(536.9528 / 960 * 100%);
+  width:calc(299.2027 / 1680 * 100%);
 }
 .personal-07 {
-  left:calc(216.2 / 1680 * 100%);
-  top:calc(115.1 / 960 * 100%);
-  width:calc(249.7 / 1680 * 100%);
+  left:calc(870 / 1680 * 100%);
+  top:calc(536.9528 / 960 * 100%);
+  width:calc(268.8777 / 1680 * 100%);
 }
 .personal-08 {
-  left:calc(495.9 / 1680 * 100%);
-  top:calc(115.1 / 960 * 100%);
-  width:calc(244.8 / 1680 * 100%);
-}
-.personal-08-detail {
-  left:calc(956.1 / 1680 * 100%);
-  top:calc(100.3 / 960 * 100%);
-  width:calc(610.9 / 1680 * 100%);
+  left:calc(1168.8777 / 1680 * 100%);
+  top:calc(594.1088 / 960 * 100%);
+  width:calc(244.1435 / 1680 * 100%);
 }
 .personal-caption-indigo {
-  left:calc(414 / 1680 * 100%);
-  top:calc(486 / 960 * 100%);
+  left:calc(414.6846 / 1680 * 100%);
+  top:calc(485.3379 / 960 * 100%);
 }
 
 .personal-caption-top-influence {
-  left:calc(801 / 1680 * 100%);
-  top:calc(486 / 960 * 100%);
+  left:calc(801.2236 / 1680 * 100%);
+  top:calc(485.3379 / 960 * 100%);
 }
 
 .personal-caption-yardage {
-  left:calc(1161 / 1680 * 100%);
-  top:calc(486 / 960 * 100%);
+  left:calc(1182.5625 / 1680 * 100%);
+  top:calc(485.3379 / 960 * 100%);
 }
 
 .personal-caption-technicians {
-  left:calc(454 / 1680 * 100%);
-  top:calc(905 / 960 * 100%);
+  left:calc(453.9263 / 1680 * 100%);
+  top:calc(907.2246 / 960 * 100%);
 }
 
 .personal-caption-valentine {
-  left:calc(1075 / 1680 * 100%);
-  top:calc(905 / 960 * 100%);
+  left:calc(1074.0225 / 1680 * 100%);
+  top:calc(905.8301 / 960 * 100%);
 }
 
 /* Production Printing — 1680 × 960 artboard */
