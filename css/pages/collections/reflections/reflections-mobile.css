@@ -503,6 +503,7 @@ main {
   left:calc(306 / 440 * 100%); 
   top:calc(80 / 956 * 100%); 
   width:calc(356 / 440 * 100%); 
+  z-index: below;
 }
 .reflections-editorial-06 { 
   left:calc(662 / 440 * 100%); 
@@ -544,7 +545,7 @@ main {
   left:calc(377.3283 / 440 * 100%);
   top:calc(58.7099 / 960 * 100%);
   width:calc(369.8127 / 440 * 100%);
-  z-index: below;
+  z-index: top;
 }
 
 /* NEXT PROJECT */
