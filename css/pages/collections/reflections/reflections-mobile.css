@@ -256,7 +256,7 @@ main {
   position:absolute;
   margin:0;
   text-align:left;
-  left:calc(160 / 440 * 100%);
+  left:calc(156 / 440 * 100%);
   top:calc(271.1198 / 732 * 100%);
   width:calc(296.7041 / 440 * 100%);
 }
