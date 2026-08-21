@@ -239,10 +239,6 @@ main {
   display:block;
 }
 
-.reflections-question-03 p {
-  margin:0;
-}
-
 .reflections-question-03 p:nth-child(1),
 .reflections-question-03 p:nth-child(3) {
   text-align:left;
