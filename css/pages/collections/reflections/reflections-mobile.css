@@ -256,7 +256,7 @@ main {
   position:absolute;
   margin:0;
   text-align:left;
-  left:calc(148.2165 / 440 * 100%);
+  left:calc(159.2165 / 440 * 100%);
   top:calc(314.0274 / 732 * 100%);
   width:calc(244.4876 / 440 * 100%);
 }
@@ -266,7 +266,7 @@ main {
   margin:0;
   text-align:right;
   white-space:nowrap;
-  left:calc(300.5594 / 440 * 100%);
+  left:calc(311.5594 / 440 * 100%);
   top:calc(351.0943 / 732 * 100%);
   width:calc(92.1447 / 440 * 100%);
 }
@@ -275,7 +275,7 @@ main {
   position:absolute;
   margin:0;
   text-align:left;
-  left:calc(25.2959 / 440 * 100%);
+  left:calc(36.2959 / 440 * 100%);
   top:calc(377.3306 / 732 * 100%);
   width:calc(367.4081 / 440 * 100%);
 }
@@ -283,7 +283,7 @@ main {
 .reflections-question-03 {
   position:absolute;
   margin:0;
-  left:calc(25.9727 / 440 * 100%);
+  left:calc(36.9727 / 440 * 100%);
   top:calc(523.9732 / 732 * 100%);
   width:calc(244.4876 / 440 * 100%);
 }
