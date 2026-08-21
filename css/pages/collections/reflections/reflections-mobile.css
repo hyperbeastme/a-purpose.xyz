@@ -540,6 +540,12 @@ main {
   width:calc(257 / 1440 * 100%); 
 }
 
+.reflections-outline {
+  left:calc(377.3283 / 1680 * 100%);
+  top:calc(58.7099 / 960 * 100%);
+  width:calc(369.8127 / 1680 * 100%);
+}
+
 /* NEXT PROJECT */
 
 .reflections-next-project {
