@@ -228,7 +228,7 @@ main {
 }
 
 .reflections-opening {
-  font-size:14px;
+  font-size:px;
   font-weight:400;
   font-style:oblique;
   line-height:1.28;
@@ -237,6 +237,10 @@ main {
 
 .reflections-opening span {
   display:block;
+}
+
+.reflections-question-03 p {
+  margin:0;
 }
 
 .reflections-question-03 p:nth-child(1),
@@ -252,8 +256,8 @@ main {
   position:absolute;
   margin:0;
   text-align:left;
-  left:calc(159.2165 / 440 * 100%);
-  top:calc(314.0274 / 732 * 100%);
+  left:calc(136.5652 / 440 * 100%);
+  top:calc(313.407 / 732 * 100%);
   width:calc(244.4876 / 440 * 100%);
 }
 
@@ -262,8 +266,8 @@ main {
   margin:0;
   text-align:right;
   white-space:nowrap;
-  left:calc(311.5594 / 440 * 100%);
-  top:calc(351.0943 / 732 * 100%);
+  left:calc(288.9081 / 440 * 100%);
+  top:calc(350.4739 / 732 * 100%);
   width:calc(92.1447 / 440 * 100%);
 }
 
@@ -271,16 +275,16 @@ main {
   position:absolute;
   margin:0;
   text-align:left;
-  left:calc(36.2959 / 440 * 100%);
-  top:calc(377.3306 / 732 * 100%);
-  height:calc(130.7415 / 732 * 100%);
+  left:calc(74.399 / 440 * 100%);
+  top:calc(376.8091 / 732 * 100%);
+  width:calc(291.2021 / 440 * 100%);
 }
 
 .reflections-question-03 {
   position:absolute;
   margin:0;
-  left:calc(36.9727 / 440 * 100%);
-  top:calc(523.9732 / 732 * 100%);
+  left:calc(58.9472 / 440 * 100%);
+  top:calc(649.5921 / 732 * 100%);
   width:calc(244.4876 / 440 * 100%);
 }
 
