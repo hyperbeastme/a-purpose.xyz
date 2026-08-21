@@ -273,7 +273,7 @@ main {
   text-align:left;
   left:calc(36.2959 / 440 * 100%);
   top:calc(377.3306 / 732 * 100%);
-  width:calc(367.4081 / 440 * 100%);
+  height:calc(130.7415 / 732 * 100%);
 }
 
 .reflections-question-03 {
