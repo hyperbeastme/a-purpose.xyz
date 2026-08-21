@@ -544,6 +544,7 @@ main {
   left:calc(377.3283 / 440 * 100%);
   top:calc(58.7099 / 960 * 100%);
   width:calc(369.8127 / 440 * 100%);
+  z-index: below;
 }
 
 /* NEXT PROJECT */
