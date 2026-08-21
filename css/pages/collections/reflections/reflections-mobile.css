@@ -206,69 +206,93 @@ main {
   margin:0;
 }
 
-/* OPENING STATEMENT */
-
-.reflections-opening-statement {
-  margin:0;
-  font-family:"futura-pt-condensed", sans-serif;
-  font-size:36px;
-  font-weight:200;
-  font-style:italic;
-  line-height:1.15;
-}
-
-.reflections-opening-statement p {
-  margin:0;
-}
-
-.reflections-opening-statement span {
-  display:block;
-  white-space:nowrap;
-}
-
-.reflections-opening-question {
-  font-size:clamp(8px, calc(29 / 440 * 100vw), 29px);
-  font-weight:200;
-  line-height:1.28;
-}
-
-.reflections-opening-question--offset {
-  margin:calc(24 / 956 * 100%) 0 calc(34 / 956 * 100%) calc(220 / 520 * 100%) !important;
-}
+/* OPENING STATEMENT
+   Coordinate system: 440 x 850. */
+/* Reflections of Displacement opening board
+   Desktop coordinates are translated from the 1440 × 1024 Illustrator artboard. */
 
 .reflections-opening-body {
-  font-size:clamp(8px, calc(27 / 440 * 100vw), 27px);
-  font-weight:500;
-  line-height:1.22;
+  position:relative;
+  width:min(100%, 440px);
+  max-width:440px;
+  aspect-ratio:440 / 732;
+  height:auto;
+  margin:0 auto;
+  overflow:hidden;
 }
 
-.reflections-opening-closing {
-  margin-top:calc(50 / 956 * 100%);
-  font-size:clamp(8px, calc(28 / 440 * 100vw), 28px);
-  font-weight:200;
-  line-height:1.25;
-}
-
-.reflections-opening-closing p + p {
-  margin-top:calc(23 / 956 * 100%);
-}
-
-.reflections-opening-closing p:nth-child(2) {
-  margin-left:calc(260 / 520 * 100%);
-}
-
-.reflections-statement-copy {
+.reflections-statement,
+.reflections-opening {
   position:absolute;
-  left:calc(80 / 440 * 100%);
-  top:calc(196 / 956 * 100%);
-  width:calc(520 / 440 * 100%);
+  inset:0;
 }
 
-.reflections-statement-image {
+.reflections-opening {
+  font-size:28px;
+  font-weight:400;
+  font-style:oblique;
+  line-height:1.28;
+  text-align:center;
+}
+
+.reflections-opening span {
+  display:block;
+}
+
+.reflections-question-03 p {
+  margin:0;
+}
+
+.reflections-question-03 p:nth-child(1),
+.reflections-question-03 p:nth-child(3) {
+  text-align:left;
+}
+
+.reflections-question-03 p:nth-child(2) {
+  text-align:right;
+}
+
+.reflections-question-01 {
   position:absolute;
-  right:calc(80 / 440 * 100%);
-  top:calc(220 / 956 * 100%);
-  width:calc(650 / 440 * 100%);
+  margin:0;
+  text-align:left;
+  left:calc(148.2165 / 440 * 100%);
+  top:calc(314.0274 / 732 * 100%);
+  width:calc(244.4876 / 440 * 100%);
+}
+
+.reflections-question-02 {
+  position:absolute;
+  margin:0;
+  text-align:right;
+  white-space:nowrap;
+  left:calc(300.5594 / 440 * 100%);
+  top:calc(351.0943 / 732 * 100%);
+  width:calc(92.1447 / 440 * 100%);
+}
+
+.reflections-statement-01 {
+  position:absolute;
+  margin:0;
+  text-align:left;
+  left:calc(25.2959 / 440 * 100%);
+  top:calc(377.3306 / 732 * 100%);
+  width:calc(367.4081 / 440 * 100%);
+}
+
+.reflections-question-03 {
+  position:absolute;
+  margin:0;
+  left:calc(25.9727 / 440 * 100%);
+  top:calc(523.9732 / 732 * 100%);
+  width:calc(244.4876 / 440 * 100%);
+}
+
+.reflections-opening-image {
+  position:absolute;
+  left:calc(47.9472 / 440 * 100%);
+  top:calc(77.0747 / 732 * 100%);
+  width:calc(322.1057 / 440 * 100%);
   height:auto;
 }
 
