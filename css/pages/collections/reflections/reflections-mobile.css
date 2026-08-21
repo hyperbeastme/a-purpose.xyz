@@ -256,9 +256,9 @@ main {
   position:absolute;
   margin:0;
   text-align:left;
-  left:calc(127.1793 / 440 * 100%);
-  top:calc(276.4538 / 732 * 100%);
-  width:calc(273.4877 / 440 * 100%);
+  left:calc(103.9629 / 440 * 100%);
+  top:calc(271.1198 / 732 * 100%);
+  width:calc(296.7041 / 440 * 100%);
 }
 
 .reflections-question-02 {
@@ -266,9 +266,9 @@ main {
   margin:0;
   text-align:right;
   white-space:nowrap;
-  left:calc(297.5925 / 440 * 100%);
-  top:calc(317.9175 / 732 * 100%);
-  width:calc(103.0745 / 440 * 100%);
+  left:calc(288.8425 / 440 * 100%);
+  top:calc(316.1033 / 732 * 100%);
+  width:calc(111.8245 / 440 * 100%);
 }
 
 .reflections-statement-01 {
@@ -276,16 +276,16 @@ main {
   margin:0;
   text-align:left;
   left:calc(40.3545 / 440 * 100%);
-  top:calc(347.3764 / 732 * 100%);
-  width:calc(325.7433 / 440 * 100%);
+  top:calc(353.5647 / 732 * 100%);
+  width:calc(296.7041 / 440 * 100%);
 }
 
 .reflections-question-03 {
   position:absolute;
   margin:0;
   left:calc(40.3545 / 440 * 100%);
-  top:calc(625 / 732 * 100%);
-  width:calc(273.4877 / 440 * 100%);
+  top:calc(641.3402 / 732 * 100%);
+  width:calc(296.7041 / 440 * 100%);
 }
 
 .reflections-opening-image {
