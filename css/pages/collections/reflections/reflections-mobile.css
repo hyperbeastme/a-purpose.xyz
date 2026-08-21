@@ -81,7 +81,7 @@ a:active {
   justify-self:center;
   max-width:52vw;
   overflow:hidden;
-  font-size:clamp(21px, 3.5vw, 40px);
+  font-size:clamp(23px, 3.5vw, 40px);
   font-weight:500;
   line-height:1;
   text-overflow:ellipsis;
