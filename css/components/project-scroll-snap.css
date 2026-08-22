@@ -6,7 +6,7 @@ html {
 }
 
 main > section {
-  scroll-snap-align:end;
+  scroll-snap-align:top;
   scroll-snap-stop:always;
 }
 
