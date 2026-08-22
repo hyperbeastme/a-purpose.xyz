@@ -237,18 +237,6 @@ main { width:100%; max-width:var(--project-max-width); margin:0 auto; }
   mix-blend-mode:multiply;
 }
 
-/* Filmstrip: desktop 440 x 430 section */
-.eternal-filmstrip { aspect-ratio:440 / 430; }
-.eternal-filmstrip h2 { top:calc(80 / 430 * 100%); }
-.eternal-film {
-  position:absolute;
-  left:calc(98.9165 / 440 * 100%);
-  top:calc(150 / 430 * 100%);
-  width:calc(1242.167 / 440 * 100%);
-  height:calc(248.481 / 430 * 100%);
-}
-.eternal-film img { width:100%; height:100%; object-fit:contain; }
-
 /* Editorial:xact 440 x 772 composition measured from editorial-nds.pdf. */
 
 .eternal-editorial{ 
