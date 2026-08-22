@@ -1,15 +1,32 @@
-/* Shared bottom-edge scroll snapping for every project artboard. */
+/* Shared project scroll snapping.
+   Desktop keeps the existing bottom-edge landing.
+   Mobile matches the homepage: snap section starts below the fixed header. */
 html {
-  scroll-snap-type: y mandatory;
+  scroll-snap-type:y mandatory;
 }
 
 main > section {
-  scroll-snap-align: end;
-  scroll-snap-stop: always;
+  scroll-snap-align:end;
+  scroll-snap-stop:always;
 }
 
-@media (prefers-reduced-motion: reduce) {
+@media screen and (max-width:767px),
+       screen and (orientation:landscape) and (max-height:500px) {
   html {
-    scroll-snap-type: none;
+    scroll-behavior:smooth;
+    scroll-snap-type:y mandatory;
+    scroll-padding-top:var(--header-height);
+  }
+
+  main > section[class] {
+    scroll-snap-align:start;
+    scroll-snap-stop:always;
+    scroll-margin-top:0;
+  }
+}
+
+@media (prefers-reduced-motion:reduce) {
+  html {
+    scroll-snap-type:none;
   }
 }
