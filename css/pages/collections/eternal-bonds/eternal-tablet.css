@@ -22,7 +22,6 @@ body {
 }
 img { display:block; }
 a, a:visited, a:hover, a:active { color:inherit; text-decoration:none; }
-.mobile-menu img { display:none; }
 
 main { width:100%; max-width:var(--project-max-width); margin:0 auto; }
 

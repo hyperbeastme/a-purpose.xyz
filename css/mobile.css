@@ -78,19 +78,6 @@ main {
 
 /* Header */
 
-.mobile-menu a {
-  display: block;
-  white-space: nowrap;
-}
-
-.mobile-menu img {
-  display: none;
-}.header a:focus-visible,
-.mobile-menu a:focus-visible {
-  outline: 2px solid var(--black);
-  outline-offset: 4px;
-}
-
 /* Shared content */
 .about-page-main,
 .contact-page,

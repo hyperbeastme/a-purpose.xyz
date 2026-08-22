@@ -23,14 +23,6 @@ body {
 }
 /* HEADER */
 
-.header a,
-.header a:visited,
-.header a:hover,
-.header a:active {
-  color:black;
-  text-decoration:none;
-}
-
 /* PROJECTS INDEX */
 
 .projects-index {

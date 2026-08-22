@@ -129,32 +129,15 @@ main {
    MOBILE DROPDOWN MENU
    ========================================================= */
 
-.mobile-menu a {
-  display: block;
-  white-space: nowrap;
-}
-
 
 /* =========================================================
    HEADER LINKS
    ========================================================= */
 
-.header a,
-.header a:visited,
-.header a:hover,
-.header a:active {
-  color: var(--black);
-  text-decoration: none;
-}
-
 
 /* =========================================================
    ACCESSIBILITY
    ========================================================= */
-.header a:focus-visible {
-  outline: 2px solid var(--black);
-  outline-offset: 4px;
-}
 
 /* =========================================================
    PART 2
