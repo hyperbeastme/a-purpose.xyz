@@ -356,32 +356,32 @@ main {
 }
 
 .reflections-sketch-02 {
-    left:calc(103.8245 / 1680 * 100%);
-    top:calc(6.3392 / 960 * 100%);
-    width:calc(286.3486 / 1680 * 100%);
-}
-
-.reflections-sketch-03 {
     left:calc(377.1101 / 1680 * 100%);
     top:calc(33.4325 / 960 * 100%);
     width:calc(286.3486 / 1680 * 100%);
 }
 
-.reflections-sketch-04 {
-    left:calc(725.0738 / 1680 * 100%);
-    top:calc(457.7416 / 960 * 100%);
+.reflections-sketch-03 {
+    left:calc(103.8245 / 1680 * 100%);
+    top:calc(6.3392 / 960 * 100%);
     width:calc(286.3486 / 1680 * 100%);
 }
 
-.reflections-sketch-05 {
+.reflections-sketch-04 {
     left:calc(995.7522 / 1680 * 100%);
     top:calc(400.3643 / 960 * 100%);
     width:calc(286.3486 / 1680 * 100%);
 }
 
-.reflections-sketch-06 {
+.reflections-sketch-05 {
     left:calc(1314.6522 / 1680 * 100%);
     top:calc(26.4269 / 960 * 100%);
+    width:calc(286.3486 / 1680 * 100%);
+}
+
+.reflections-sketch-06 {
+    left:calc(725.0738 / 1680 * 100%);
+    top:calc(457.7416 / 960 * 100%);
     width:calc(286.3486 / 1680 * 100%);
 }
 
