@@ -346,24 +346,120 @@ main {
   width:calc(98.6703 / 440 * 100%); 
 }
 
-/* SKETCHES */
+/* SKETCHES
+   Inner-canvas coordinate system: 440 x 956. */
+
+.reflections-sketch{
+  width:100%;
+  max-width:440px;
+  height:960px;
+  margin:0 auto;
+  margin-top:100px;
+  padding:40px;
+  position:relative;
+  overflow:hidden;
+}
+
+.reflections-sketch h2 {
+  font-family:"futura-pt-condensed", sans-serif;
+  font-style:italic;
+  position:absolute;
+  left: calc(24 / 440 * 100%);
+  top: calc(13 / 956 * 100%);
+  z-index:20;
+  margin:0;
+  font-size:44px;
+  font-weight:300;
+  letter-spacing:0;
+  line-height:1;
+}
+
+.reflections-sketch-canvas {
+  position:absolute;
+  left:0;
+  top:40px;
+  width:100%;
+  height:960px;
+}
+
+.reflections-sketch img{
+  position:absolute;
+  height:auto;
+  margin:0;
+}
 
 .reflections-sketch-01,
-.reflections-sketch-02 {
-  width:calc(396 / 440 * 100%);
-  height:auto;
-  max-width:none;
-  object-fit:contain;
-  mix-blend-mode:multiply;
+.reflections-sketch-02, 
+.reflections-sketch-03,
+.reflections-sketch-04, 
+.reflections-sketch-05,
+.reflections-sketch-06,
+.reflections-sketch-07,
+.reflections-sketch-08, 
+.reflections-sketch-09,
+.reflections-sketch-10 {
+    height:auto;
+    mix-blend-mode:multiply;
 }
 
-.reflections-sketch-01 { 
-  left:calc(22 / 440 * 100%); 
-  top:calc(144.4057 / 956 * 100%); 
+.reflections-sketch-01 {
+    left:calc(239.8959 / 440 * 100%);
+    top:calc(515.4631 / 956 * 100%);
+    width:calc(122.6368 / 440 * 100%);
 }
-.reflections-sketch-02 { 
-  left:calc(22 / 440 * 100%); 
-  top:calc(144.4057 / 956 * 100%); 
+
+.reflections-sketch-02 {
+    left:calc(11 / 440 * 100%);
+    top:calc(46.3753 / 956 * 100%);
+    width:calc(122.6368 / 440 * 100%);
+}
+
+.reflections-sketch-03 {
+    left:calc(194.2282 / 440 * 100%);
+    top:calc(58.3721 / 956 * 100%);
+    width:calc(122.6368 / 440 * 100%);
+}
+
+.reflections-sketch-04 {
+    left:calc(194.2282 / 440 * 100%);
+    top:calc(304.3787 / 956 * 100%);
+    width:calc(122.6368 / 440 * 100%);
+}
+
+.reflections-sketch-05 {
+    left:calc(303.5337 / 440 * 100%);
+    top:calc(402.5553 / 956 * 100%);
+    width:calc(122.6368 / 440 * 100%);
+}
+
+.reflections-sketch-06 {
+    left:calc(11 / 440 * 100%);
+    top:calc(527.7213 / 956 * 100%);
+    width:calc(122.6368 / 440 * 100%);
+}
+
+.reflections-sketch-07 {
+    left:calc(105.9753 / 440 * 100%);
+    top:calc(178.6067 / 956 * 100%);
+    width:calc(122.6368 / 440 * 100%);
+}
+
+.reflections-sketch-08 {
+    left:calc(292.3626 / 440 * 100%);
+    top:calc(192.0258 / 956 * 100%);
+    width:calc(122.6368 / 440 * 100%);
+}
+
+.reflections-sketch-09 {
+    left:calc(105.9753 / 440 * 100%);
+    top:calc(413.569 / 956 * 100%);
+    width:calc(122.6368 / 440 * 100%);
+}
+
+.reflections-sketch-10 {
+    left:calc(11 / 440 * 100%);
+    top:calc(279.0483 / 956 * 100%);
+    width:calc(122.6368 / 440 * 100%);
 }
 
 /* PROCESS */
@@ -567,14 +663,14 @@ main {
 
 .reflections-outline-mobile {
   left:calc(143.2709 / 440 * 100%);
-  top:calc(28.098 / 960 * 100%);
+  top:calc(28.098 / 956 * 100%);
   width:calc(150.066 / 440 * 100%);
   z-index: top;
 }
 
 .reflections-outline {
   left:calc(0 / 440 * 100%);
-  top:calc(0 / 960 * 100%);
+  top:calc(0 / 956 * 100%);
   width:calc(0 / 440 * 100%);
   z-index: top;
 }

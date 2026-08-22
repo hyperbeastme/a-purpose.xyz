@@ -336,20 +336,77 @@ main {
 }
 
 .reflections-sketch-01,
-.reflections-sketch-02 {
-    width:calc(1089.9156 / 1680 * 100%);
+.reflections-sketch-02, 
+.reflections-sketch-03,
+.reflections-sketch-04, 
+.reflections-sketch-05,
+.reflections-sketch-06,
+.reflections-sketch-07,
+.reflections-sketch-08, 
+.reflections-sketch-09,
+.reflections-sketch-10 {
     height:auto;
     mix-blend-mode:multiply;
 }
 
 .reflections-sketch-01 {
-    left:calc(295.0422 / 1680 * 100%);
-    top:calc(63.373 / 960 * 100%);
+    left:calc(1291.8285 / 1680 * 100%);
+    top:calc(411.4956 / 960 * 100%);
+    width:calc(286.3486 / 1680 * 100%);
 }
 
 .reflections-sketch-02 {
-    left:calc(295.0422 / 1680 * 100%);
-    top:calc(480 / 960 * 100%);
+    left:calc(103.8245 / 1680 * 100%);
+    top:calc(6.3392 / 960 * 100%);
+    width:calc(286.3486 / 1680 * 100%);
+}
+
+.reflections-sketch-03 {
+    left:calc(377.1101 / 1680 * 100%);
+    top:calc(33.4325 / 960 * 100%);
+    width:calc(286.3486 / 1680 * 100%);
+}
+
+.reflections-sketch-04 {
+    left:calc(725.0738 / 1680 * 100%);
+    top:calc(457.7416 / 960 * 100%);
+    width:calc(286.3486 / 1680 * 100%);
+}
+
+.reflections-sketch-05 {
+    left:calc(995.7522 / 1680 * 100%);
+    top:calc(400.3643 / 960 * 100%);
+    width:calc(286.3486 / 1680 * 100%);
+}
+
+.reflections-sketch-06 {
+    left:calc(1314.6522 / 1680 * 100%);
+    top:calc(26.4269 / 960 * 100%);
+    width:calc(286.3486 / 1680 * 100%);
+}
+
+.reflections-sketch-07 {
+    left:calc(147.6168 / 1680 * 100%);
+    top:calc(427.2773 / 960 * 100%);
+    width:calc(286.3486 / 1680 * 100%);
+}
+
+.reflections-sketch-08 {
+    left:calc(456.8437 / 1680 * 100%);
+    top:calc(411.4956 / 960 * 100%);
+    width:calc(286.3486 / 1680 * 100%);
+}
+
+.reflections-sketch-09 {
+    left:calc(995.7522 / 1680 * 100%);
+    top:calc(6.3392 / 960 * 100%);
+    width:calc(286.3486 / 1680 * 100%);
+}
+
+.reflections-sketch-10 {
+    left:calc(697.8265 / 1680 * 100%);
+    top:calc(26.4269 / 960 * 100%);
+    width:calc(286.3486 / 1680 * 100%);
 }
 
 /* PROCESS
