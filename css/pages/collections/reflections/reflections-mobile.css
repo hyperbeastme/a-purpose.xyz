@@ -565,10 +565,17 @@ main {
   width:calc(121.3219 / 440 * 100%); 
 }
 
-.reflections-outline {
+.reflections-outline-mobile {
   left:calc(143.2709 / 440 * 100%);
   top:calc(28.098 / 960 * 100%);
   width:calc(150.066 / 440 * 100%);
+  z-index: top;
+}
+
+.reflections-outline {
+  left:calc(0 / 440 * 100%);
+  top:calc(0 / 960 * 100%);
+  width:calc(0 / 440 * 100%);
   z-index: top;
 }
 

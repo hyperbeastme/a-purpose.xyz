@@ -664,6 +664,13 @@ main {
   width:calc(369.8127 / 1680 * 100%);
 }
 
+.reflections-outline-mobile {
+  left:calc(0 / 440 * 100%);
+  top:calc(0 / 960 * 100%);
+  width:calc(0 / 440 * 100%);
+  z-index: top;
+}
+
 /* NEXT PROJECT */
 
 .reflections-next-project {
