@@ -350,7 +350,7 @@ main {
 
 .reflections-sketch-01,
 .reflections-sketch-02 {
-  width:calc(1100 / 440 * 100%);
+  width:calc(396 / 440 * 100%);
   height:auto;
   max-width:none;
   object-fit:contain;
@@ -358,12 +358,12 @@ main {
 }
 
 .reflections-sketch-01 { 
-  left:calc(170 / 440 * 100%); 
-  top:calc(80 / 956 * 100%); 
+  left:calc(22 / 440 * 100%); 
+  top:calc(144.4057 / 956 * 100%); 
 }
 .reflections-sketch-02 { 
-  left:calc(170 / 440 * 100%); 
-  top:calc(501.6 / 956 * 100%); 
+  left:calc(22 / 440 * 100%); 
+  top:calc(144.4057 / 956 * 100%); 
 }
 
 /* PROCESS */
