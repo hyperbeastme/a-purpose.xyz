@@ -563,14 +563,14 @@ main {
   left:0;
   top:80px;
   width:100%;
-  height:880px;
+  height:960px;
 }
 
 .reflections-editorial h2 {
   font-family:"futura-pt-condensed", sans-serif;
   font-style:italic;
   position:absolute;
-  left: calc(30 / 1680 * 100%);
+  left: calc(24 / 1680 * 100%);
   top: calc(13 / 960 * 100%);
   z-index:20;
   margin:0;
