@@ -302,7 +302,7 @@ main {
   height:960px;
   margin:0 auto;
   margin-top:100px;
-  padding:80px;
+  padding:40px;
   position:relative;
   overflow:hidden;
 }
@@ -362,7 +362,7 @@ main {
   height:960px;
   margin:0 auto;
   margin-top:100px;
-  padding:80px;
+  padding:40px;
   overflow:hidden;
 }
 
@@ -488,7 +488,7 @@ main {
   height:960px;
   margin:0 auto;
   margin-top:100px;
-  padding:80px;
+  padding:40px;
   overflow:hidden;
 }
 
@@ -554,7 +554,7 @@ main {
   height:960px;
   margin:0 auto;
   margin-top:100px;
-  padding:80px;
+  padding:40px;
   overflow:hidden;
 }
 
@@ -674,10 +674,10 @@ main {
 /* NEXT PROJECT */
 
 .reflections-next-project {
-  width:1440px;
+  width:1680px;
   height:475px;
   margin:0 auto;
-  padding:80px;
+  padding:40px;
   display:flex;
   flex-direction:column;
   justify-content:center;
