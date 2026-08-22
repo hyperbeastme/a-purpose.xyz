@@ -600,7 +600,6 @@ main { width:100%; max-width:var(--project-max-width); margin:0 auto; }
   background:rgb(255 255 255 / 96%);
 }
 .image-lightbox-image { width:auto; height:auto; max-width:calc(100vw - 48px); max-height:calc(100vh - 48px); object-fit:contain; }
-.image-lightbox-close { position:fixed; top:16px; right:20px; z-index:10001; border:0; background:transparent; font:200 46px/1 Arial,sans-serif; }
 
 @media (orientation:landscape) {
   :root { --project-max-width:1194px; }

@@ -61,10 +61,7 @@ body {
 
 img {
   display: block;
-}
-
-button,
-input,
+}input,
 textarea,
 select {
   font: inherit;

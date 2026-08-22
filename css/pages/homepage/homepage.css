@@ -829,26 +829,7 @@ body.lightbox-open {
   max-height:calc(100vh - 80px);
   object-fit:contain;
   cursor:default;
-}
-
-.image-lightbox-close {
-  position:fixed;
-  top:20px;
-  right:28px;
-  z-index:10001;
-  padding:0;
-  border:0;
-  background:transparent;
-  color:black;
-  font-family:Arial, sans-serif;
-  font-size:48px;
-  font-weight:200;
-  line-height:1;
-  cursor:pointer;
-}
-
-.image-lightbox-close:focus-visible,
-.image-lightbox-trigger:focus-visible {
+}.image-lightbox-trigger:focus-visible {
   outline:2px solid black;
   outline-offset:4px;
 }

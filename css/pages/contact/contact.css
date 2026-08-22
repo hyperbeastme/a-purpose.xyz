@@ -87,19 +87,3 @@ body {
   outline:none;
   border-bottom-width:2px;
 }
-
-.contact-form button {
-  width:max-content;
-  padding:12px 35px;
-  border:1px solid black;
-  background:white;
-  color:black;
-  font-family:"futura-pt-condensed", sans-serif;
-  font-size:25px;
-  cursor:pointer;
-}
-
-.contact-form button:hover {
-  background:black;
-  color:white;
-}

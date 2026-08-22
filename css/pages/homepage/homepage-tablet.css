@@ -72,10 +72,7 @@ a:hover,
 a:active {
   color: inherit;
   text-decoration: none;
-}
-
-button,
-input,
+}input,
 textarea,
 select {
   font: inherit;
@@ -199,22 +196,7 @@ body.lightbox-open {
   max-height: calc(100vh - 48px);
   object-fit: contain;
   cursor: default;
-}
-
-.image-lightbox-close {
-  position: fixed;
-  top: 16px;
-  right: 20px;
-  z-index: 10001;
-  padding: 0;
-  border: 0;
-  background: transparent;
-  font: 200 46px/1 Arial, sans-serif;
-  cursor: pointer;
-}
-
-.image-lightbox-trigger:focus-visible,
-.image-lightbox-close:focus-visible {
+}.image-lightbox-trigger:focus-visible {
   outline: 2px solid var(--black);
   outline-offset: 4px;
 }
@@ -1452,22 +1434,7 @@ SEE MORE WORK
     max-height: calc(100vh - 48px);
     object-fit: contain;
     cursor: default;
-  }
-
-  .image-lightbox-close {
-    position: fixed;
-    top: 16px;
-    right: 20px;
-    z-index: 10001;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    font: 200 46px/1 Arial, sans-serif;
-    cursor: pointer;
-  }
-
-  .image-lightbox-trigger:focus-visible,
-  .image-lightbox-close:focus-visible {
+  }.image-lightbox-trigger:focus-visible {
     outline: 2px solid var(--black);
     outline-offset: 4px;
   }

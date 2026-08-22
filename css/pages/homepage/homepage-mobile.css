@@ -78,10 +78,7 @@ body {
 
 img {
   display: block;
-}
-
-button,
-input,
+}input,
 textarea,
 select {
   font: inherit;
@@ -1405,36 +1402,11 @@ body.lightbox-open {
   cursor: default;
 }
 
-.image-lightbox-close {
-  position: fixed;
-  top: 18px;
-  right: 18px;
-
-  margin: 0;
-  padding: 0;
-
-  border: 0;
-  background: transparent;
-
-  color: var(--black);
-
-  font-family: Arial, sans-serif;
-  font-size: 42px;
-  font-weight: 200;
-  line-height: 1;
-
-  cursor: pointer;
-
-  z-index: 10001;
-}
-
 
 /* =========================================================
    FOCUS STATES
    ========================================================= */
-
-.image-lightbox-trigger:focus-visible,
-.image-lightbox-close:focus-visible {
+.image-lightbox-trigger:focus-visible {
   outline: 2px solid var(--black);
   outline-offset: 4px;
 }
@@ -1504,9 +1476,7 @@ img[src$=".webp"] {
 /* =========================================================
    TAP HIGHLIGHT
    ========================================================= */
-
-a,
-button {
+a {
   -webkit-tap-highlight-color: transparent;
 }
 

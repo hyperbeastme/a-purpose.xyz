@@ -684,13 +684,3 @@ main {
   max-height:calc(100vh - 48px);
   object-fit:contain;
 }
-
-.image-lightbox-close {
-  position:fixed;
-  top:16px;
-  right:20px;
-  z-index:10001;
-  border:0;
-  background:transparent;
-  font:200 46px/1 Arial, sans-serif;
-}
