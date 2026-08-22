@@ -32,36 +32,6 @@ main {
   padding-top:var(--header-height);
 }
 
-.header {
-  width:100%;
-  height:var(--header-height);
-  padding:0 5%;
-  display:grid;
-  grid-template-columns:1fr auto;
-  align-items:center;
-  position:fixed;
-  top:0;
-  left:0;
-  z-index:1000;
-  background:#fff;
-}
-
-.header-left {
-  justify-self:start;
-  font-size:18px;
-  line-height:1;
-}
-
-.header-center {
-  justify-self:end;
-  font-size:clamp(24px, 7vw, 31px);
-  font-weight:500;
-  line-height:1;
-  white-space:nowrap;
-}
-
-.header-right { display:none; }
-
 /* Opening artboard: 1680 × 880. */
 .subtraction-opening {
   width:100%;

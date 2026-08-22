@@ -24,55 +24,6 @@ main {
 }
 
 /* HEADER */
-.desktop-nav {
-    display: flex;
-}
-
-.mobile-menu-button {
-    display: none;
-}
-
-.header {
-  width:100%;
-  height:80px;
-  padding:0 80px;
-
-  display:grid;
-  grid-template-columns:1fr auto 1fr;
-  align-items:center;
-
-  position:relative;
-  background:white;
-  z-index:100;
-}
-
-.header-left {
-  justify-self:start;
-  font-size:30px;
-  font-weight:400;
-}
-
-.header-center {
-  justify-self:center;
-  font-size:45px;
-  font-weight:500;
-  white-space:nowrap;
-}
-
-.header-right {
-  justify-self:end;
-  display:flex;
-  align-items:center;
-  gap:35px;
-  font-size:30px;
-  font-weight:400;
-}
-
-.header-right img {
-  display:block;
-  width:26px;
-  height:26px;
-}
 
 .header a,
 .header a:visited,
@@ -441,41 +392,41 @@ SKETCH
 =================
 */
 
-.catelier-sketch-01 { 
+.catelier-sketch-01 {
   position:absolute;
-  left:calc(1204.2286 / 1600 * 100%); 
-  top:calc(236.4244 / 960 * 100%); 
-  width:calc(191.5939 / 1600 * 100%); 
+  left:calc(1204.2286 / 1600 * 100%);
+  top:calc(236.4244 / 960 * 100%);
+  width:calc(191.5939 / 1600 * 100%);
 }
-.catelier-sketch-02 { 
+.catelier-sketch-02 {
   position:absolute;
-  left:calc(783.1428 / 1600 * 100%); 
-  top:calc(254.5426 / 960 * 100%); 
-  width:calc(159.5294 / 1600 * 100%); 
+  left:calc(783.1428 / 1600 * 100%);
+  top:calc(254.5426 / 960 * 100%);
+  width:calc(159.5294 / 1600 * 100%);
 }
-.catelier-sketch-03 { 
+.catelier-sketch-03 {
   position:absolute;
-  left:calc(972.3427 / 1600 * 100%); 
-  top:calc(254.063 / 960 * 100%); 
-  width:calc(151.2246 / 1600 * 100%); 
+  left:calc(972.3427 / 1600 * 100%);
+  top:calc(254.063 / 960 * 100%);
+  width:calc(151.2246 / 1600 * 100%);
 }
-.catelier-sketch-04 { 
+.catelier-sketch-04 {
   position:absolute;
-  left:calc(579.4909 / 1600 * 100%); 
-  top:calc(253.404 / 960 * 100%); 
-  width:calc(173.9814 / 1600 * 100%); 
+  left:calc(579.4909 / 1600 * 100%);
+  top:calc(253.404 / 960 * 100%);
+  width:calc(173.9814 / 1600 * 100%);
 }
-.catelier-sketch-05 { 
+.catelier-sketch-05 {
   position:absolute;
-  left:calc(390.4584 / 1600 * 100%); 
-  top:calc(253.404 / 960 * 100%); 
-  width:calc(159.362 / 1600 * 100%); 
+  left:calc(390.4584 / 1600 * 100%);
+  top:calc(253.404 / 960 * 100%);
+  width:calc(159.362 / 1600 * 100%);
 }
-.catelier-sketch-06 { 
+.catelier-sketch-06 {
   position:absolute;
-  left:calc(204.1774 / 1600 * 100%); 
-  top:calc(252.3628 / 960 * 100%); 
-  width:calc(156.6104 / 1600 * 100%); 
+  left:calc(204.1774 / 1600 * 100%);
+  top:calc(252.3628 / 960 * 100%);
+  width:calc(156.6104 / 1600 * 100%);
 }
 
 /*
@@ -484,42 +435,42 @@ SAMPLES
 =================
 */
 
-.catelier-sample-01 { 
+.catelier-sample-01 {
   position:absolute;
   left:calc(237.6498 / 1600 * 100%);
   top:calc(69.9213 / 960 * 100%);
   width:calc(212.8129 / 1600 * 100%);
 }
 
-.catelier-sample-02 { 
+.catelier-sample-02 {
   position:absolute;
   left:calc(494.5332 / 1600 * 100%);
   top:calc(69.9213 / 960 * 100%);
   width:calc(212.8129 / 1600 * 100%);
 }
 
-.catelier-sample-03 { 
+.catelier-sample-03 {
   position:absolute;
   left:calc(751.4556 / 1600 * 100%);
   top:calc(69.9213 / 960 * 100%);
   width:calc(359.2673 / 1600 * 100%);
 }
 
-.catelier-sample-04 { 
+.catelier-sample-04 {
   position:absolute;
   left:calc(1154.8325 / 1600 * 100%);
   top:calc(73.009 / 960 * 100%);
   width:calc(238.0539 / 1600 * 100%);
 }
 
-.catelier-sample-05 { 
+.catelier-sample-05 {
   position:absolute;
   left:calc(207.1137 / 1600 * 100%);
   top:calc(481.4782 / 960 * 100%);
   width:calc(201.7469 / 1600 * 100%);
 }
 
-.catelier-sample-06 { 
+.catelier-sample-06 {
   position:absolute;
   left:calc(454.1652 / 1600 * 100%);
   top:calc(483.569 / 960 * 100%);
@@ -532,77 +483,77 @@ PROCESS
 =================
 */
 
-.catelier-process-01 { 
+.catelier-process-01 {
   position:absolute;
   left:calc(1262.2524 / 1600 * 100%);
   top:calc(174.1117 / 960 * 100%);
   width:calc(237.7317 / 1600 * 100%);
 }
 
-.catelier-process-02 { 
+.catelier-process-02 {
   position:absolute;
   left:calc(1044.1539 / 1600 * 100%);
   top:calc(545.4123 / 960 * 100%);
   width:calc(191.9667 / 1600 * 100%);
 }
 
-.catelier-process-03 { 
+.catelier-process-03 {
   position:absolute;
   left:calc(750.8288 / 1600 * 100%);
   top:calc(104.6927 / 960 * 100%);
   width:calc(267.1933 / 1600 * 100%);
 }
 
-.catelier-process-04 { 
+.catelier-process-04 {
   position:absolute;
   left:calc(1262.2524 / 1600 * 100%);
   top:calc(467.9468 / 960 * 100%);
   width:calc(237.7317 / 1600 * 100%);
 }
 
-.catelier-process-05 { 
+.catelier-process-05 {
   position:absolute;
   left:calc(750.8288 / 1600 * 100%);
   top:calc(312.5267 / 960 * 100%);
   width:calc(267.1933 / 1600 * 100%);
 }
 
-.catelier-process-06 { 
+.catelier-process-06 {
   position:absolute;
   left:calc(1044.1539 / 1600 * 100%);
   top:calc(178.0064 / 960 * 100%);
   width:calc(191.9667 / 1600 * 100%);
 }
 
-.catelier-process-07 { 
+.catelier-process-07 {
   position:absolute;
   left:calc(477.3161 / 1600 * 100%);
   top:calc(132.4775 / 960 * 100%);
   width:calc(247.3809 / 1600 * 100%);
 }
 
-.catelier-process-08 { 
+.catelier-process-08 {
   position:absolute;
   left:calc(180.7195 / 1600 * 100%);
   top:calc(564.1538 / 960 * 100%);
   width:calc(270.4648 / 1600 * 100%);
 }
 
-.catelier-process-09 { 
+.catelier-process-09 {
   position:absolute;
   left:calc(477.3161 / 1600 * 100%);
   top:calc(492.4269 / 960 * 100%);
   width:calc(247.3809 / 1600 * 100%);
 }
 
-.catelier-process-10 { 
+.catelier-process-10 {
   position:absolute;
   left:calc(180.0158 / 1600 * 100%);
   top:calc(111.7457 / 960 * 100%);
   width:calc(271.1685 / 1600 * 100%);
 }
 
-.catelier-process-11 { 
+.catelier-process-11 {
   position:absolute;
   left:calc(750.8288 / 1600 * 100%);
   top:calc(509.9889 / 960 * 100%);
@@ -615,7 +566,7 @@ MUSEUM
 =================
 */
 
-.catelier-museum-01 { 
+.catelier-museum-01 {
   position:absolute;
   left:calc(840.8641 / 1680 * 100%);
   top:calc(395.1194 / 960 * 100%);
@@ -623,7 +574,7 @@ MUSEUM
   transform: rotate(90deg)
 }
 
-.catelier-museum-02 { 
+.catelier-museum-02 {
   position:absolute;
   left:calc(582.477 / 1680 * 100%);
   top:calc(534.8545 / 960 * 100%);
@@ -631,49 +582,49 @@ MUSEUM
   transform: rotate(90deg)
 }
 
-.catelier-museum-03 { 
+.catelier-museum-03 {
   position:absolute;
   left:calc(1031.176 / 1680 * 100%);
   top:calc(478.7309 / 960 * 100%);
   width:calc(234.2372 / 1680 * 100%);
 }
 
-.catelier-museum-04 { 
+.catelier-museum-04 {
   position:absolute;
   left:calc(1031.1759 / 1680 * 100%);
   top:calc(135.4166 / 960 * 100%);
   width:calc(440.4426 / 1680 * 100%);
 }
 
-.catelier-museum-05 { 
+.catelier-museum-05 {
   position:absolute;
   left:calc(139.203 / 1680 * 100%);
   top:calc(178.6564 / 960 * 100%);
   width:calc(367.6968 / 1680 * 100%);
 }
 
-.catelier-museum-06 { 
+.catelier-museum-06 {
   position:absolute;
   left:calc(807.8425 / 1680 * 100%);
   top:calc(105.7934 / 960 * 100%);
   width:calc(198.3334 / 1680 * 100%);
 }
 
-.catelier-museum-07 { 
+.catelier-museum-07 {
   position:absolute;
   left:calc(860.5931 / 1680 * 100%);
   top:calc(585.4306 / 960 * 100%);
   width:calc(145.5829 / 1680 * 100%);
 }
 
-.catelier-museum-08 { 
+.catelier-museum-08 {
   position:absolute;
   left:calc(531.8997 / 1680 * 100%);
   top:calc(184.215 / 960 * 100%);
   width:calc(250.9427 / 1680 * 100%);
 }
 
-.catelier-museum-09 { 
+.catelier-museum-09 {
   position:absolute;
   left:calc(1290.4132 / 1680 * 100%);
   top:calc(478.7309 / 960 * 100%);
@@ -811,4 +762,3 @@ FOOTER
   color: #888;
   text-decoration: none;
 }
-

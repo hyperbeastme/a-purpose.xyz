@@ -22,55 +22,6 @@ body {
   font-family:"futura-pt-condensed", sans-serif;
 }
 /* HEADER */
-.desktop-nav {
-    display: flex;
-}
-
-.mobile-menu-button {
-    display: none;
-}
-
-.header {
-  width:100%;
-  height:80px;
-  padding:0 80px;
-
-  display:grid;
-  grid-template-columns:1fr auto 1fr;
-  align-items:center;
-
-  position:relative;
-  background:white;
-  z-index:100;
-}
-
-.header-left {
-  justify-self:start;
-  font-size:30px;
-  font-weight:400;
-}
-
-.header-center {
-  justify-self:center;
-  font-size:45px;
-  font-weight:500;
-  white-space:nowrap;
-}
-
-.header-right {
-  justify-self:end;
-  display:flex;
-  align-items:center;
-  gap:35px;
-  font-size:30px;
-  font-weight:400;
-}
-
-.header-right img {
-  display:block;
-  width:26px;
-  height:26px;
-}
 
 .header a,
 .header a:visited,
@@ -106,45 +57,45 @@ a.project-index-link::before {
   inset:-18px -24px;
 }
 
-.project-index-nascar { 
+.project-index-nascar {
   left:calc(648.917  / 1680 * 100%);
   top:calc(62.5918 / 1650 * 100%);
-  font-size:61px; 
+  font-size:61px;
 }
-.project-index-eternal {  
+.project-index-eternal {
   left:calc(821.1372  / 1680 * 100%);
   top:calc(234.689 / 1650 * 100%);
-  font-size:61px; 
+  font-size:61px;
 }
-.project-index-catelier {  
+.project-index-catelier {
   left:calc(1337.7998  / 1680 * 100%);
   top:calc(406.7861 / 1650 * 100%);
-  font-size:61px; 
+  font-size:61px;
 }
-.project-index-reflections {  
+.project-index-reflections {
   left:calc(132.2554  / 1680 * 100%);
   top:calc(578.8833 / 1650 * 100%);
-  font-size:61px; 
+  font-size:61px;
 }
-.project-index-free-cutting {  
+.project-index-free-cutting {
   left:calc(304.4756  / 1680 * 100%);
   top:calc(750.9805 / 1650 * 100%);
-  font-size:61px; 
+  font-size:61px;
 }
-.project-index-printmaking {  
+.project-index-printmaking {
   left:calc(993.3584  / 1680 * 100%);
   top:calc(923.0776 / 1650 * 100%);
-  font-size:61px; 
+  font-size:61px;
 }
-.project-index-digital {  
+.project-index-digital {
   left:calc(1165.5791  / 1680 * 100%);
   top:calc(1095.1743 / 1650 * 100%);
-  font-size:61px; 
+  font-size:61px;
 }
-.project-index-archive {  
+.project-index-archive {
   left:calc(579.2363  / 1680 * 100%);
   top:calc(1432.293 / 1650 * 100%);
-  font-size:200px; 
+  font-size:200px;
 }
 
 /* COMING SOON PROJECTS */

@@ -54,54 +54,6 @@ a:active {
 
 /* HEADER */
 
-.desktop-nav {
-  display:flex;
-}
-
-.mobile-menu-button,
-.mobile-menu {
-  display:none;
-}
-
-.header {
-  width:100%;
-  height:var(--header-height);
-  padding:0 var(--page-margin);
-  display:grid;
-  grid-template-columns:1fr auto 1fr;
-  align-items:center;
-  position:relative;
-  z-index:100;
-  background:var(--white);
-}
-
-.header-left {
-  justify-self:start;
-  font-size:30px;
-  font-weight:400;
-}
-
-.header-center {
-  justify-self:center;
-  font-size:45px;
-  font-weight:500;
-  white-space:nowrap;
-}
-
-.header-right {
-  justify-self:end;
-  display:flex;
-  align-items:center;
-  gap:35px;
-  font-size:30px;
-  font-weight:400;
-}
-
-.header-right img {
-  width:26px;
-  height:26px;
-}
-
 /* REFLECTIONS PAGE */
 
 .reflections-page {
@@ -336,13 +288,13 @@ main {
 }
 
 .reflections-sketch-01,
-.reflections-sketch-02, 
+.reflections-sketch-02,
 .reflections-sketch-03,
-.reflections-sketch-04, 
+.reflections-sketch-04,
 .reflections-sketch-05,
 .reflections-sketch-06,
 .reflections-sketch-07,
-.reflections-sketch-08, 
+.reflections-sketch-08,
 .reflections-sketch-09,
 .reflections-sketch-10 {
     height:auto;

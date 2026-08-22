@@ -89,85 +89,6 @@ main {
 
 /* HEADER */
 
-.header {
-  width: 100%;
-  height: var(--header-height);
-  padding: 0 var(--tablet-margin);
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  align-items: center;
-  position: relative;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  background: var(--white);
-}
-
-.header-left {
-  justify-self: start;
-  white-space: nowrap;
-  font-size: clamp(20px, 2.6vw, 28px);
-  font-weight: 400;
-}
-
-.header-center {
-  justify-self: center;
-  white-space: nowrap;
-  font-size: clamp(28px, 3.5vw, 40px);
-  font-weight: 500;
-}
-
-.desktop-nav {
-  display: none;
-}
-
-.mobile-menu-button {
-  width: 44px;
-  height: 44px;
-  padding: 8px;
-  border: 0;
-  justify-self: end;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 6px;
-  background: transparent;
-  cursor: pointer;
-}
-
-.mobile-menu-button span {
-  display: block;
-  width: 100%;
-  height: 2px;
-  background: var(--black);
-}
-
-.mobile-menu {
-  width: 100%;
-  min-height: calc(100svh - var(--header-height));
-  padding: 48px var(--tablet-margin);
-  position: fixed;
-  top: var(--header-height);
-  left: 0;
-  z-index: 999;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 28px;
-  background: var(--white);
-  font-size: clamp(28px, 5vw, 44px);
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-12px);
-  transition: opacity .22s ease, transform .22s ease, visibility .22s ease;
-}
-
-.header.menu-open .mobile-menu {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-}
-
 
 /* =========================================================
    SHARED812 × 1062 ARTBOARD
@@ -179,7 +100,7 @@ main {
 .end-of-preview {
   scroll-snap-align: start;
   scroll-snap-stop: always;
-  
+
   width: 100%;
   max-width:812px;
 
@@ -812,12 +733,12 @@ body.lightbox-open {
     width: calc(328.5636 /812 * 100%);
     mix-blend-mode: multiply;
   }
-   
-  
-/* 
+
+
+/*
 =========================================================
 SEE MORE WORK
-========================================================= 
+=========================================================
 */
 
   .end-of-preview {
@@ -827,10 +748,10 @@ SEE MORE WORK
   }
 
 
-/* 
+/*
   =========================================================
   ABOUT
-  ========================================================= 
+  =========================================================
 */
 
   .about {
@@ -857,7 +778,7 @@ SEE MORE WORK
     z-index: 3;
   }
 
-  .about img{ 
+  .about img{
     left: calc(239.1992 /812 * 100%);
     top: calc(159.17 / 1062 * 100%);
     width: calc(333.6017 /812 * 100%);
@@ -887,10 +808,10 @@ SEE MORE WORK
   }
 
 
-/* 
+/*
   =========================================================
   BACK TO TOP
-  ========================================================= 
+  =========================================================
 */
 
   .back-to-top-text {
@@ -984,10 +905,10 @@ SEE MORE WORK
 
 @media (orientation: landscape) {
 
-/* 
+/*
   =========================================================
   PAGE SPACING
-  ========================================================= 
+  =========================================================
 */
 
   .landing + .eternal-bonds {
@@ -1269,7 +1190,7 @@ SEE MORE WORK
     Catelier
     ================================
   */
-  
+
   .catelier-01 {
     left: calc(1062.2859 / 1194 * 100%);
     top: calc(0 / 638 * 100%);
@@ -1423,7 +1344,7 @@ SEE MORE WORK
     z-index: 3;
   }
 
-  .about img{ 
+  .about img{
     left: calc(0 /1194 * 100%);
     top: calc(0 / 638 * 100%);
     width: calc(0 /1194 * 100%);
