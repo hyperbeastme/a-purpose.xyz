@@ -166,8 +166,6 @@ main {
   margin:0 auto;
   padding:0;
   overflow:hidden;
-  scroll-snap-align:start;
-  scroll-snap-stop:normal;
 }
 
 .reflections-section h2 {
@@ -179,6 +177,9 @@ main {
   font-size:clamp(12px, calc(44 / 440 * 100vw), 44px);
   font-weight:300;
   line-height:1;
+  scroll-snap-align:start;
+  scroll-snap-stop:normal;
+  scroll-margin-top:var(--header-height);
 }
 
 /* Mood board, sketches, process, and catalog use a heading band
