@@ -250,8 +250,8 @@ main { width:100%; max-width:var(--project-max-width); margin:0 auto; }
 .eternal-film img { width:100%; height:100%; object-fit:contain; }
 
 /* Editorial:xact 440 x 772 composition measured from editorial-nds.pdf. */
-.eternal-editorial{  
 
+.eternal-editorial{ 
   width:100%;
   max-width:440px;
   aspect-ratio:440 / 772;
@@ -261,6 +261,7 @@ main { width:100%; max-width:var(--project-max-width); margin:0 auto; }
   position:relative;
   overflow:hidden;
 }
+
 .eternal-editorial  {
   position:absolute;
   left:calc(24 /440 * 100%);
@@ -273,6 +274,7 @@ main { width:100%; max-width:var(--project-max-width); margin:0 auto; }
   font-weight:300;
   line-height:1;
 }
+
 .eternal-editorial-yout {
   position:absolute;
   left:0;
@@ -280,12 +282,14 @@ main { width:100%; max-width:var(--project-max-width); margin:0 auto; }
   width:100%;
   height:calc(772 / 772 * 100%);
 }
-.eternal-editorial-yout img {
+
+.eternal-editorial-layout img {
   position:absolute;
   display:block;
   max-width:none;
   height:auto;
 }
+
 .editorial-disclaimer {
   right:calc(238.9649 / 440 * 100%);
   top:calc(10.8574 / 772 * 100%);
@@ -493,21 +497,31 @@ main { width:100%; max-width:var(--project-max-width); margin:0 auto; }
 
 
 /* Runway: desktop 440 x 772 section and 440 x 772 inner layout */
-.eternal-runway { aspect-ratio:440 / 772; }
-.eternal-runway h2 { top:calc(80 / 772 * 100%); }
+.eternal-runway { 
+  position:relative;
+  aspect-ratio:440 / 772; 
+}
+
+.eternal-runway h2 { 
+  left:calc(24 / 440 * 100%);
+  top:calc(13 / 772 * 100%);
+ }
+
 .eternal-runway-layout {
   position:absolute;
   left:calc(79.5 / 440 * 100%);
-  top:calc(150 / 772 * 100%);
+  top:calc(56.5033 / 772 * 100%);
   width:calc(440 / 440 * 100%);
   height:calc(772 / 772 * 100%);
 }
+
 .eternal-runway-layout img {
   position:absolute;
   display:block;
   max-width:none;
   height:auto;
 }
+
 .runway-01 {
   left:calc(18.0087 / 440 * 100%);
   top:calc(75.6141 / 772 * 100%);
