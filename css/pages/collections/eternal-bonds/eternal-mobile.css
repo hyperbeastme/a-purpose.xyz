@@ -556,6 +556,15 @@ main { width:100%; max-width:var(--project-max-width); margin:0 auto; }
   width:calc(163.2105 / 440 * 100%);
 }
 
+.runway-outline {
+  position: absolute;
+  left: calc(0 / 1680 * 100%);
+  top: calc(0 / 960 * 100%);
+  width: calc(0 / 1680 * 100%);
+  z-index: 4;
+  pointer-events: none;
+}
+
 /* Next project and footer */
 .eternal-next-project {
   width:100%;
