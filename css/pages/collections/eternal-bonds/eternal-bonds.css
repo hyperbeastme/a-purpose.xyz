@@ -382,8 +382,7 @@ body {
 .editorial-disclaimer {
   left:calc(1164.2746 / 1680 * 100%);
   top:calc(62 / 960 * 100%);
-  width:calc(220.6377 / 1680 * 100%);
-  height:calc(19.5674 / 960 * 100%);
+  width:calc(300 / 1680 * 100%);
 }
 
 /* EDITORIAL Y COORDINATES */
