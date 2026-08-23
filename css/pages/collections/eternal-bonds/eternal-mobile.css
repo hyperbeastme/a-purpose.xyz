@@ -799,7 +799,7 @@ body {
 
 
 /* Align Editorial metadata to the right edge of the rightmost photo column. */
-.eternal-editorial-layout .editorial-disclaimer {
+.eternal-editorial > .editorial-disclaimer {
   position:absolute !important;
   left:calc(314.847 / 440 * 100%);
   right:auto;
