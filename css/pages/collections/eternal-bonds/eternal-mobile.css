@@ -350,8 +350,6 @@ main {
 /* Editorial:xact 440 x 772 composition measured from editorial-nds.pdf. */
 
 .eternal-editorial {
-  width: 100%;
-  max-width: 440px;
   aspect-ratio: 440 / 772;
   height: auto;
   margin: 0 auto;
