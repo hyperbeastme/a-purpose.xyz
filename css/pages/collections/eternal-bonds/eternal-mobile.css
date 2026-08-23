@@ -56,7 +56,7 @@ main {
 }
 
 /* Shared 440 x 772 composition */
-.sectioesn {
+.section {
   width: 100%;
   max-width: var(--project-max-width);
   aspect-ratio: 440 / 772;
@@ -66,10 +66,10 @@ main {
   overflow: hidden;
 }
 
-.sectioesn h2 {
+.section h2 {
   position: absolute;
   left: calc(24 / 440 * 100%);
-  top: calc(80 / 772 * 100%);
+  top: calc(13 / 772 * 100%);
   z-index: 20;
   margin: 0;
   font-size: clamp(12px, calc(44 / 440 * 100vw), 44px);
@@ -78,60 +78,54 @@ main {
 }
 
 /* Opening statement */
-.statemesent-copy {
+.eternal-opening {
   position: absolute;
   left: calc(80 / 440 * 100%);
   top: calc(140 / 772 * 100%);
-  width: calc(487.5 / 440 * 100%);
+  width: calc(370 / 440 * 100%);
   margin: 0;
 }
 
-.opening-statement {
+.eternal-statement {
   font-size: clamp(8px, calc(34.6931 / 440 * 100vw), 34.6931px);
   font-weight: 200;
   font-style: italic;
+  width: calc(299.3664 / 487.5 * 100%);
   line-height: 1.18;
-}
-
-.scaled-text {
-  display: block;
-  width: calc(571.42 / 487.5 * 100%);
-  transform: scaleX(.85314);
-  transform-origin: left top;
 }
 
 .opening-statement p {
   margin: 0 0 1.125em;
 }
 
-.opening-statement p:last-child {
+.eternal-statement p:last-child {
   margin-bottom: 0;
 }
 
-.opening-statement span {
+.eternal-statement span {
   display: block;
   white-space: nowrap;
 }
 
 .statement-image {
   position: absolute;
-  left: calc(130.3 / 440 * 100%);
-  top: calc(228.53 / 772 * 100%);
-  width: calc(540 / 440 * 100%);
+  left: calc(74.1413 / 440 * 100%);
+  top: calc(20.016 / 772 * 100%);
+  width: calc(291.7175 / 440 * 100%);
   height: auto;
 }
 
 /* Mood board and process use the desktop 440 x 772 inner canvas. */
 
-.moodboesard-canvas {
+.moodboard-canvas {
   position: absolute;
   left: 0;
   top: calc(64 / 772 * 100%);
   width: 100%;
 }
 
-.moodboesard-canvas img,
-.detailess img {
+.moodboard-canvas img,
+.details img {
   position: absolute;
   display: block;
   height: auto;
@@ -635,17 +629,17 @@ main {
 }
 
 /* Runway: desktop 440 x 772 section and 440 x 772 inner layout */
-.runwayes {
+.runways {
   position: relative;
   aspect-ratio: 440 / 772;
 }
 
-.runwayes h2 {
+.runways h2 {
   left: calc(24 / 440 * 100%);
   top: calc(13 / 772 * 100%);
 }
 
-.runwayes-layout {
+.runways-layout {
   position: absolute;
   left: calc(79.5 / 440 * 100%);
   top: calc(56.5033 / 772 * 100%);
@@ -653,7 +647,7 @@ main {
   height: calc(772 / 772 * 100%);
 }
 
-.runwayes-layout img {
+.runways-layout img {
   position: absolute;
   display: block;
   max-width: none;
