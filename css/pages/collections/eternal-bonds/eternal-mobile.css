@@ -57,15 +57,19 @@ main {
 .eternal-moodboard h2,
 .eternal-sketches h2,
 .eternal-process h2,
-.eternal-editorial h2 {
+.eternal-editorial h2,
+.eternal-runway h2 {
+  font-family: "futura-pt-condensed", sans-serif;
+  font-style: italic;
   position: absolute;
   left: calc(24 / 440 * 100%);
   top: calc(13 / 772 * 100%);
   z-index: 20;
   margin: 0;
-  font-size: clamp(12px, calc(44 / 440 * 100vw), 44px);
+  font-size: 44px;
   font-weight: 300;
-  line-height: 1.25;
+  letter-spacing: 0;
+  line-height: 1;
 }
 
 /* Opening statement */
@@ -96,16 +100,6 @@ main {
   height:calc(382.9368 / 732 * 100%);
 }
 
-
-
-.eternal-statement p {
-  margin: 0 0 1.125em;
-}
-
-.eternal-statement p:last-child {
-  margin-bottom: 0;
-}
-
 .eternal-opening-image {
   position: absolute;
   left: calc(74.1413 / 440 * 100%);
@@ -129,20 +123,6 @@ main {
   left: 0;
   top: calc(64 / 772 * 100%);
   width: 100%;
-}
-
-.eternal-moodboard h2 {
-  font-family: "futura-pt-condensed", sans-serif;
-  font-style: italic;
-  position: absolute;
-  left: calc(24 / 440 * 100%);
-  top: calc(13 / 772 * 100%);
-  z-index: 20;
-  margin: 0;
-  font-size: 44px;
-  font-weight: 300;
-  letter-spacing: 0;
-  line-height: 1;
 }
 
 .eternal-moodboard img {
@@ -201,20 +181,6 @@ main {
   padding: 40px;
   position: relative;
   overflow: hidden;
-}
-
-.eternal-sketches h2 {
-  font-family: "futura-pt-condensed", sans-serif;
-  font-style: italic;
-  position: absolute;
-  left: calc(24 / 440 * 100%);
-  top: calc(13 / 772 * 100%);
-  z-index: 20;
-  margin: 0;
-  font-size: 44px;
-  font-weight: 300;
-  letter-spacing: 0;
-  line-height: 1;
 }
 
 .eternal-sketches-canvas {
@@ -287,20 +253,6 @@ main {
   padding: 80px;
   position: relative;
   overflow: hidden;
-}
-
-.eternal-process h2 {
-  font-family: "futura-pt-condensed", sans-serif;
-  font-style: italic;
-  position: absolute;
-  left: calc(24 / 440 * 100%);
-  top: calc(13 / 772 * 100%);
-  z-index: 20;
-  margin: 0;
-  font-size: 44px;
-  font-weight: 300;
-  letter-spacing: 0;
-  line-height: 1;
 }
 
 .editorial-details {
@@ -410,19 +362,6 @@ main {
   padding: 0;
   position: relative;
   overflow: hidden;
-}
-
-.eternal-editorial h2{
-  position: absolute;
-  left: calc(24 /440 * 100%);
-  top: calc(13 / 772 * 100%);
-  z-index: 20;
-  margin: 0;
-  font-family: "futura-pt-condensed", sans-serif;
-  font-style: italic;
-  font-size: clamp(12px, calc(44 / 440 * 100vw), 44px);
-  font-weight: 300;
-  line-height: 1;
 }
 
 .eternal-editorial-layout {
@@ -637,11 +576,6 @@ main {
 .eternal-runway {
   position: relative;
   aspect-ratio: 440 / 772;
-}
-
-.eternal-runway h2 {
-  left: calc(24 / 440 * 100%);
-  top: calc(13 / 772 * 100%);
 }
 
 .eternal-runway-layout {
