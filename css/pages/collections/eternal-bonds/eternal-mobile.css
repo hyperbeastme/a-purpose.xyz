@@ -556,8 +556,7 @@ main { width:100%; max-width:var(--project-max-width); margin:0 auto; }
   left: calc(0 / 1680 * 100%);
   top: calc(0 / 960 * 100%);
   width: calc(0 / 1680 * 100%);
-  z-index: 4;
-  pointer-events: none;
+  opacity:0;
 }
 
 /* Next project and footer */
