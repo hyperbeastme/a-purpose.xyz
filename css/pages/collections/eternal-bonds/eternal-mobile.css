@@ -579,7 +579,7 @@ main {
   aspect-ratio: 440 / 772;
   position: absolute;
   left: 0;
-  top: calc(64 / 772 * 100%);
+  top: calc(0 / 772 * 100%);
   width: 100%;
 }
 
