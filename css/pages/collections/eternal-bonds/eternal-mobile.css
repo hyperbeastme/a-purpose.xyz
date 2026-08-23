@@ -143,6 +143,12 @@ main {
   line-height: 1;
 }
 
+.eternal-moodboard img {
+  position:absolute;
+  height:auto;
+  margin:0;
+}
+
 .mood-05 {
   left: calc(16.8864 / 440 * 100%);
   top: calc(35.2302 / 772 * 100%);
