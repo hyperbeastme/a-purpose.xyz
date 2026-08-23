@@ -636,6 +636,33 @@ body {
   line-height:1;
 }
 
+/* =========================================================
+   PAGE SPACING
+   ========================================================= */
+
+.eternal-opening + .eternal-moodboard {
+  margin-top: calc(100 / 880 * 100vh);
+}
+
+.eternal-moodboard + .eternal-sketches {
+  margin-top: calc(100 / 960 * 100vh);
+}
+
+.eternal-sketches + .eternal-process {
+  margin-top: calc(100 / 960 * 100vh);
+}
+
+.eternal-editorial + .eternal-runway {
+  margin-top: calc(100 / 960 * 100vh);
+}
+
+.eternal-runway + .eternal-next-project {
+  margin-top: calc(25 / 960 * 100vh);
+}
+
+.eternal-next-project + .footer {
+  margin-top: calc(25 / 960 * 100vh);
+}
 
 /* FOOTER */
 
