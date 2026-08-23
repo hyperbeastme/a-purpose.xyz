@@ -182,6 +182,7 @@ body {
   position: absolute;
   height: auto;
   margin: 0;
+  mix-blend-mode: multiply;
 }
 
 .sketches-01 {
