@@ -796,3 +796,76 @@ body {
   color: #888;
   text-decoration: none;
 }
+
+
+/* Current Eternal Bonds markup and responsive desktop repair. */
+.eternal-opening,
+.eternal-moodboard,
+.eternal-process,
+.eternal-runway,
+.eternal-next-project,
+.footer {
+  width:100%;
+  max-width:1680px;
+}
+
+.eternal-opening { aspect-ratio:1680 / 880; min-height:0; }
+.eternal-moodboard { aspect-ratio:1680 / 1040; height:auto; }
+.eternal-process { aspect-ratio:1680 / 960; height:auto; }
+.eternal-runway { aspect-ratio:1680 / 960; height:auto; }
+.eternal-next-project { height:auto; min-height:475px; }
+
+.eternal-sketches {
+  width:100%;
+  max-width:1680px;
+  aspect-ratio:1680 / 1040;
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+}
+
+.eternal-sketches h2 {
+  position:absolute;
+  left:calc(24 / 1680 * 100%);
+  top:calc(13 / 1040 * 100%);
+  z-index:30;
+  margin:0;
+  font-family:"futura-pt-condensed", sans-serif;
+  font-style:italic;
+  font-size:44px;
+  font-weight:300;
+  line-height:1;
+}
+
+.eternal-sketches-canvas {
+  position:absolute;
+  left:0;
+  top:calc(80 / 1040 * 100%);
+  width:100%;
+  height:calc(960 / 1040 * 100%);
+}
+
+.eternal-sketches-canvas img {
+  position:absolute;
+  display:block;
+  height:auto;
+  margin:0;
+  mix-blend-mode:multiply;
+}
+
+.sketches-01 { left:calc(171.5267 / 440 * 100%); top:calc(30.872 / 772 * 100%); width:calc(260.052 / 440 * 100%); }
+.sketches-02 { left:calc(17.3393 / 440 * 100%); top:calc(453.5677 / 772 * 100%); width:calc(202.6607 / 440 * 100%); }
+.sketches-03 { left:calc(145.0936 / 440 * 100%); top:calc(207.7247 / 772 * 100%); width:calc(172.1879 / 440 * 100%); }
+.sketches-04 { left:calc(14.6126 / 440 * 100%); top:calc(247.5782 / 772 * 100%); width:calc(153.3015 / 440 * 100%); }
+.sketches-05 { left:calc(286.1715 / 440 * 100%); top:calc(237.8383 / 772 * 100%); width:calc(153.8285 / 440 * 100%); }
+.sketches-06 { left:calc(145.0936 / 440 * 100%); top:calc(317.3973 / 772 * 100%); width:calc(160.5267 / 440 * 100%); }
+.sketches-07 { left:calc(23.4165 / 440 * 100%); top:calc(34.949 / 772 * 100%); width:calc(160.5267 / 440 * 100%); }
+.sketches-08 { left:calc(262.3727 / 440 * 100%); top:calc(441.9797 / 772 * 100%); width:calc(177.6273 / 440 * 100%); }
+
+.editorial-09 { left:calc(280.372 / 1680 * 100%); top:calc(262.47 / 960 * 100%); }
+.editorial-10 { left:calc(422.0351 / 1680 * 100%); top:calc(262.47 / 960 * 100%); }
+.editorial-21 { left:calc(847.0242 / 1680 * 100%); top:calc(484.36 / 960 * 100%); }
+.editorial-29 { left:calc(847.0242 / 1680 * 100%); top:calc(706.91 / 960 * 100%); }
+.editorial-30 { left:calc(988.6872 / 1680 * 100%); top:calc(706.91 / 960 * 100%); }
+.editorial-31 { left:calc(1130.3502 / 1680 * 100%); top:calc(706.91 / 960 * 100%); }
+.editorial-32 { left:calc(1272.0133 / 1680 * 100%); top:calc(706.91 / 960 * 100%); }
