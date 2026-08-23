@@ -145,7 +145,7 @@ main {
   inset:0;
 }
 
-.reflections-opening {
+.reflections-statement {
   font-size:16px;
   font-weight:400;
   font-style:oblique;
@@ -153,7 +153,7 @@ main {
   text-align:center;
 }
 
-.reflections-opening span {
+.reflections-statement-body span {
   display:block;
 }
 
@@ -628,6 +628,39 @@ main {
   --credit-padding-left:var(--page-margin);
   --credit-font-size:20px;
   --credit-text-align:right;
+}
+
+
+/* =========================================================
+   PAGE SPACING
+   ========================================================= */
+
+.eternal-opening + .eternal-moodboard {
+  margin-top: calc(100 / 880 * 100vh);
+}
+
+.eternal-moodboard + .eternal-sketches {
+  margin-top: calc(100 / 960 * 100vh);
+}
+
+.eternal-sketches + .eternal-process {
+  margin-top: calc(100 / 960 * 100vh);
+}
+
+.eternal-process + .eternal-editorial {
+  margin-top: calc(100 / 960 * 100vh);
+}
+
+.eternal-editorial + .eternal-runway {
+  margin-top: calc(100 / 960 * 100vh);
+}
+
+.eternal-runway + .eternal-next-project {
+  margin-top: calc(50 / 960 * 100vh);
+}
+
+.eternal-next-project + .footer {
+  margin-top: calc(0 / 960 * 100vh);
 }
 
 /* FOOTER */
