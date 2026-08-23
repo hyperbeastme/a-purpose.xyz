@@ -163,6 +163,20 @@ body {
   height: 960px;
 }
 
+.eternal-sketches h2 {
+  font-family:"futura-pt-condensed", sans-serif;
+  font-style:italic;
+  position:absolute;
+  left: calc(30 / 1680 * 100%);
+  top: calc(13 / 960 * 100%);
+  z-index:20;
+  margin:0;
+  font-size:44px;
+  font-weight:300;
+  letter-spacing:0;
+  line-height:1;
+}
+
 .eternal-sketches-canvas img{
   height:auto;
   mix-blend-mode:multiply;
@@ -614,7 +628,7 @@ body {
 
 .eternal-next-project {
   width:1680px;
-  height:475px;
+  height:100px;
   margin:0 auto;
   padding:25px;
   display:flex;
@@ -652,16 +666,20 @@ body {
   margin-top: calc(100 / 960 * 100vh);
 }
 
+.eternal-process + .eternal-editorial {
+  margin-top: calc(100 / 960 * 100vh);
+}
+
 .eternal-editorial + .eternal-runway {
   margin-top: calc(100 / 960 * 100vh);
 }
 
 .eternal-runway + .eternal-next-project {
-  margin-top: calc(25 / 960 * 100vh);
+  margin-top: calc(0 / 960 * 100vh);
 }
 
 .eternal-next-project + .footer {
-  margin-top: calc(25 / 960 * 100vh);
+  margin-top: calc(0 / 960 * 100vh);
 }
 
 /* FOOTER */
