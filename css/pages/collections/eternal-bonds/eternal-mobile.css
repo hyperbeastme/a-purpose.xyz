@@ -279,210 +279,203 @@ main { width:100%; max-width:var(--project-max-width); margin:0 auto; }
 }
 
 .editorial-disclaimer {
-  right:calc(238.9649 / 440 * 100%);
-  top:calc(10.8574 / 772 * 100%);
-  width:calc(235.4443 / 440 * 100%);
+  left:calc(314.8556 / 440 * 100%);
+  top:calc(60 / 772 * 100%);
+  width:calc(113.4814 / 440 * 100%);
   height:auto;
 }
 
-.editorial-21 {
-  left:calc(238.25 / 440 * 100%);
-  top:calc(10.8574 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+.editorial-01 {
+  left:calc(11.6716 / 440 * 100%);
+  top:calc(595.317 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-02 {
-  left:calc(389.45 / 440 * 100%);
-  top:calc(10.8574 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(81.9477 / 440 * 100%);
+  top:calc(595.317 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-03 {
-  left:calc(541.31 / 440 * 100%);
-  top:calc(10.8574 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(152.2239 / 440 * 100%);
+  top:calc(595.317 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-04 {
-  left:calc(692.51 / 440 * 100%);
-  top:calc(10.8574 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(222.5 / 440 * 100%);
+  top:calc(595.317 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-05 {
-  left:calc(845.02 / 440 * 100%);
-  top:calc(10.8574 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(292.7761 / 440 * 100%);
+  top:calc(595.317 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-06 {
-  left:calc(996.22 / 440 * 100%);
-  top:calc(10.8574 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(363.0523/ 440 * 100%);
+  top:calc(595.317 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-07 {
-  left:calc(1146.76 / 440 * 100%);
-  top:calc(10.8574 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(11.6716 / 440 * 100%);
+  top:calc(183.5622 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-08 {
-  left:calc(1299.27 / 440 * 100%);
-  top:calc(10.8574 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(81.9477 / 440 * 100%);
+  top:calc(183.5622 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-09 {
-  left:calc(238.25 / 440 * 100%);
-  top:calc(10.8574 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(152.2239 / 440 * 100%);
+  top:calc(183.5622 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-10 {
-  left:calc(389.45 / 440 * 100%);
-  top:calc(10.8574 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(222.5 / 440 * 100%);
+  top:calc(183.5622 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-11 {
-  left:calc(541.31 / 440 * 100%);
-  top:calc(262.47 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(292.7761 / 440 * 100%);
+  top:calc(183.5622 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-12 {
-  left:calc(692.51 / 440 * 100%);
-  top:calc(262.47 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(363.0523/ 440 * 100%);
+  top:calc(183.5622 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-13 {
-  left:calc(845.02 / 440 * 100%);
-  top:calc(262.47 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(11.6716 / 440 * 100%);
+  top:calc(286.5009 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-14 {
-  left:calc(996.22 / 440 * 100%);
-  top:calc(262.47 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(81.9477 / 440 * 100%);
+  top:calc(286.5009 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-15 {
-  left:calc(1146.76 / 440 * 100%);
-  top:calc(262.47 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(152.2239 / 440 * 100%);
+  top:calc(286.5009 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-16 {
-  left:calc(1299.27 / 440 * 100%);
-  top:calc(262.47 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(222.5 / 440 * 100%);
+  top:calc(286.5009 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-17 {
-  left:calc(238.25 / 440 * 100%);
-  top:calc(484.36 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(292.7761 / 440 * 100%);
+  top:calc(286.5009 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-18 {
-  left:calc(389.45 / 440 * 100%);
-  top:calc(484.36 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(363.0523/ 440 * 100%);
+  top:calc(286.5009 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-19 {
-  left:calc(541.31 / 440 * 100%);
-  top:calc(484.36 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(11.6716 / 440 * 100%);
+  top:calc(389.4396 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-20 {
-  left:calc(692.51 / 440 * 100%);
-  top:calc(484.36 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(81.9477 / 440 * 100%);
+  top:calc(389.4396 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-21 {
-  left:calc(845.02 / 440 * 100%);
-  top:calc(484.36 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(152.2239 / 440 * 100%);
+  top:calc(389.4396 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-22 {
-  left:calc(996.22 / 440 * 100%);
-  top:calc(484.36 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(222.5 / 440 * 100%);
+  top:calc(389.4396 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-23 {
-  left:calc(1146.76 / 440 * 100%);
-  top:calc(484.36 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(292.7761 / 440 * 100%);
+  top:calc(389.4396 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-24 {
-  left:calc(1299.27 / 440 * 100%);
-  top:calc(484.36 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(363.0523/ 440 * 100%);
+  top:calc(389.4396 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-25 {
-  left:calc(238.25 / 440 * 100%);
-  top:calc(706.91 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(11.6716 / 440 * 100%);
+  top:calc(492.3783 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-26 {
-  left:calc(389.45 / 440 * 100%);
-  top:calc(706.91 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(81.9477 / 440 * 100%);
+  top:calc(492.3783 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-27 {
-  left:calc(541.31 / 440 * 100%);
-  top:calc(706.91 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(152.2239 / 440 * 100%);
+  top:calc(492.3783 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-28 {
-  left:calc(692.51 / 440 * 100%);
-  top:calc(706.91 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
-}
-
-.editorial-21 {
-  left:calc(845.02 / 440 * 100%);
-  top:calc(706.91 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(222.5 / 440 * 100%);
+  top:calc(492.3783 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-29 {
-  left:calc(996.22 / 440 * 100%);
-  top:calc(706.91 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(292.7761 / 440 * 100%);
+  top:calc(492.3783 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-30 {
-  left:calc(1146.76 / 440 * 100%);
-  top:calc(706.91 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(363.0523/ 440 * 100%);
+  top:calc(492.3783 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-31 {
-  left:calc(1299.27 / 440 * 100%);
-  top:calc(706.91 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(81.9477 / 440 * 100%);
+  top:calc(595.317 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
 
 .editorial-32 {
-  left:calc(1299.27 / 440 * 100%);
-  top:calc(706.91 / 772 * 100%);
-  width:calc(142 / 440 * 100%);
+  left:calc(292.7761 / 440 * 100%);
+  top:calc(595.317 / 772 * 100%);
+  width:calc(65.2761 / 440 * 100%);
 }
-
 
 /* Runway: desktop 440 x 772 section and 440 x 772 inner layout */
 .eternal-runway { 
@@ -537,7 +530,7 @@ main { width:100%; max-width:var(--project-max-width); margin:0 auto; }
 .runway-05 {
   left:calc(163.4857 / 440 * 100%);
   top:calc(275.8483 / 772 * 100%);
-  width:calc(142.5066 / 440 * 100%);
+  width:calc(65.2761.5066 / 440 * 100%);
 }
 
 .runway-06 {
