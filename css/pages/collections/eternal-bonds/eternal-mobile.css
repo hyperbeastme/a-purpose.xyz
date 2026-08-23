@@ -137,6 +137,20 @@ main {
   margin: 0;
 }
 
+.eternal-moodboard h2 {
+  font-family: "futura-pt-condensed", sans-serif;
+  font-style: italic;
+  position: absolute;
+  left: calc(24 / 1680 * 100%);
+  top: calc(13 / 772 * 100%);
+  z-index: 20;
+  margin: 0;
+  font-size: 44px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
 .mood-01 {
   left: calc(294.8721 / 440 * 100%);
   top: calc(218.9568 / 772 * 100%);
@@ -406,7 +420,7 @@ main {
   overflow: hidden;
 }
 
-.editorial {
+.editorial h2{
   position: absolute;
   left: calc(24 /440 * 100%);
   top: calc(13 / 772 * 100%);
