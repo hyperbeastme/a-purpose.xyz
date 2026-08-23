@@ -82,12 +82,23 @@ main {
   overflow: hidden;
 }
 
-.eternal-statement text {
+.eternal-statement {
   font-size:16px;
   font-weight:400;
   font-style:oblique;
-  line-height:5;
-  text-align:center;
+  line-height:1.15;
+}
+
+.eternal-statement p {
+  margin:0 0 1em;
+}
+
+.eternal-statement p:last-child {
+  margin-bottom:0;
+}
+
+.eternal-statement span {
+  display:block;
 }
 
 .eternal-statement {
@@ -366,6 +377,14 @@ main {
   width: 100%;
 }
 
+.eternal-editorial-layout img {
+  position:absolute;
+  display:block;
+  max-width:none;
+  height:auto;
+  margin:0;
+}
+
 .editorial-disclaimer {
   left: calc(314.8556 / 440 * 100%);
   top: calc(60 / 772 * 100%);
@@ -638,15 +657,18 @@ main {
 }
 
 .runway-outline {
-  position: absolute;
-  left: calc(550 / 440 * 100%);
-  top: calc(990 / 772 * 100%);
-  width: calc(1 / 440 * 100%);
-  opacity: 0;
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  opacity:1;
+  object-fit:contain;
+  pointer-events:none;
 }
 
 /* Next project and footer */
-.next-project {
+.eternal-next-project {
   width: 100%;
   min-height: 360px;
   padding: 48px var(--page-margin);
@@ -656,13 +678,13 @@ main {
   align-items: flex-end;
 }
 
-.next-project p {
+.eternal-next-project p {
   margin: 0 0 12px;
   font-size: 22px;
   opacity: .5;
 }
 
-.next-project a {
+.eternal-next-project a {
   font-size: clamp(54px, 7vw, 70px);
   line-height: 1;
 }
@@ -719,7 +741,7 @@ main {
   white-space: nowrap;
 }
 
-.footer-copyleft {
+.footer-copyright {
   margin: 0;
   font-size: 20px;
 }
@@ -747,12 +769,6 @@ main {
   object-fit: contain;
 }
 
-@media (orientation:landscape) {
-  :root {
-    --project-max-width: px;
-  }
-}
-
 /* Keep the existing mobile fixed-header behavior without changing the project boards. */
 main {
   padding-top: var(--header-height);
@@ -765,36 +781,21 @@ main {
 }
 
 
-/* Mobile opening and runway interaction repair. */
 body {
-  text-size-adjust: none;
-  -webkit-text-size-adjust: none;
+  text-size-adjust:none;
+  -webkit-text-size-adjust:none;
 }
 
-.statemesent-copy {
-  left: calc(80 / 440 * 100%);
-  top: calc(118 / 772 * 100%);
-  width: calc(600 / 440 * 100%);
-}
+/* Eternal Bonds mobile cascade repair. */
+@media screen and (max-width:767px),
+       screen and (orientation:landscape) and (max-height:500px) {
+  html:has(body.eternal-bonds-page) {
+    scroll-behavior:auto;
+    scroll-snap-type:none !important;
+  }
 
-.opening-statement {
-  font-size: clamp(12px, calc(39 / 440 * min(100vw, var(--project-max-width))), 39px);
-  line-height: 1.15;
-}
-
-.statemesent-image {
-  left: calc(80 / 440 * 100%);
-  top: calc(210 / 772 * 100%);
-  width: calc(600 / 440 * 100%);
-  max-height: calc(760 / 772 * 100%);
-  object-fit: contain;
-}
-
-.runway-outline {
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  object-fit: contain;
+  body.eternal-bonds-page main > section {
+    scroll-snap-align:none !important;
+    scroll-snap-stop:normal;
+  }
 }
