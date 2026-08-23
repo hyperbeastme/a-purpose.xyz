@@ -349,21 +349,21 @@ main {
 
 /* Editorial:xact 440 x 772 composition measured from editorial-nds.pdf. */
 
+
 .eternal-editorial {
   aspect-ratio: 440 / 772;
-  height: auto;
   margin: 0 auto;
-  padding: 0;
+  padding: 64px;
   position: relative;
   overflow: hidden;
 }
 
 .eternal-editorial-layout {
+  aspect-ratio: 440 / 772;
   position: absolute;
   left: 0;
-  top: calc(80 / 772 * 100%);
+  top: calc(64 / 772 * 100%);
   width: 100%;
-  height: calc(772 / 772 * 100%);
 }
 
 .editorial-disclaimer {
