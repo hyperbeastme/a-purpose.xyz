@@ -583,6 +583,12 @@ main {
   width: 100%;
 }
 
+.eternal-runway img {
+  position: absolute;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
 .eternal-runway-layout {
   position: absolute;
   left: calc(79.5 / 440 * 100%);
