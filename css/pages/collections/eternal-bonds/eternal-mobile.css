@@ -56,15 +56,6 @@ main {
 }
 
 /* Shared 440 x 772 composition */
-.section {
-  width: 100%;
-  max-width: var(--project-max-width);
-  aspect-ratio: 440 / 772;
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
-  overflow: hidden;
-}
 
 .eternal-opening h2,
 .eternal-moodboard h2,
@@ -84,11 +75,11 @@ main {
 /* Opening statement */
 
 .eternal-opening {
+  aspect-ratio: 440 / 772;
+  margin: 0 auto;
+  padding: 40px;
   position: relative;
-  left: calc(80 / 440 * 100%);
-  top: calc(140 / 772 * 100%);
-  width: calc(370 / 440 * 100%);
-  margin: 0;
+  overflow: hidden;
 }
 
 .eternal-statement {
