@@ -727,7 +727,7 @@ main { width:100%; max-width:var(--project-max-width); margin:0 auto; }
 
 /* Align Editorial metadata to the right edge of the rightmost photo column. */
 .eternal-editorial-layout .editorial-disclaimer {
-  position:absolute;
+  position:absolute !important;
   left:auto;
   right:calc(238.73 / 1680 * 100%);
   width:calc(235.4443 / 1680 * 100%);
