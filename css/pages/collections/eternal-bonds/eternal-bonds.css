@@ -147,51 +147,74 @@ body {
 
 /* SKETCHES */
 
-.eternal-sketch {
-  width:1680px;
-  height:960px;
-  margin:0 auto;
-  padding:80px;
-  position:relative;
-  overflow:hidden;
+.eternal-sketches {
+  aspect-ratio: 1680 / 960;
+  margin: 0 auto;
+  padding: 40px;
+  position: relative;
+  overflow: hidden;
 }
 
-.eternal-sketch h2 {
-  font-family:"futura-pt-condensed", sans-serif;
-  font-style:italic;
-  position:absolute;
-  left: calc(24 / 1680 * 100%);
-  top: calc(13 / 960 * 100%);
-  z-index:20;
-  margin:0;
-  font-size:44px;
-  font-weight:300;
-  letter-spacing:0;
-  line-height:1;
+.eternal-sketches-canvas {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  width: 100%;
+  height: 960px;
 }
 
-.eternal-sketch-layout {
-  position:absolute;
-  left:0;
-  top:80px;
-  width:100%;
-  height:960px;
+.eternal-sketches-canvas img{
+  height:auto;
+  mix-blend-mode:multiply;
+  position: absolute;
 }
 
-.eternal-sketch-layout img{
-  position:absolute;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  padding-left:80px;
-  padding-right: 80px;
-  height: auto;
+.sketches-01 {
+  left: calc(1061.0002 / 1680 * 100%);
+  top: calc(516.0357 / 960 * 100%);
+  width: calc(529.7347 / 1680 * 100%);
 }
 
-.sketches-01{
-  left:calc(297.7541 / 1680 * 100%);
-  top:calc(103.3396 / 960 * 100%);
-  width:calc(1084.4918 / 1680 * 100%);
+.sketches-02 {
+  left: calc(1120.4593 / 1680 * 100%);
+  top: calc(2.4464 / 960 * 100%);
+  width: calc(479.5407 / 1680 * 100%);
+}
+
+.sketches-03 {
+  left: calc(797.7654 / 1680 * 100%);
+  top: calc(71.4686 / 960 * 100%);
+  width: calc(350.7525 / 1680 * 100%);
+}
+
+.sketches-04 {
+  left: calc(447.4605 / 1680 * 100%);
+  top: calc(8.4237 / 960 * 100%);
+  width: calc(353.1467 / 1680 * 100%);
+}
+
+.sketches-05 {
+  left: calc(464.0593 / 1680 * 100%);
+  top: calc(498.8902 / 960 * 100%);
+  width: calc(326.9984 / 1680 * 100%);
+}
+
+.sketches-06 {
+  left: calc(767.7653 / 1680 * 100%);
+  top: calc(407.4167 / 960 * 100%);
+  width: calc(326.9984 / 1680 * 100%);
+}
+
+.sketches-07 {
+  left: calc(105.6545 / 1680 * 100%);
+  top: calc(35.7592 / 960 * 100%);
+  width: calc(326.9984 / 1680 * 100%);
+}
+
+.sketches-08 {
+  left: calc(102.2265 / 1680 * 100%);
+  top: calc(503.6774 / 960 * 100%);
+  width: calc(361.8328 / 1680 * 100%);
 }
 
 /* PROCESS */
