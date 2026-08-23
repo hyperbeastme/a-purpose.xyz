@@ -121,7 +121,8 @@ main {
 
 /* Mood board and process use the desktop 440 x 772 inner canvas. */
 
-.moodboard-canvas {
+.eternal-moodboard-canvas {
+  aspect-ratio: 440 / 772;
   position: absolute;
   left: 0;
   top: calc(64 / 772 * 100%);
@@ -188,8 +189,7 @@ main {
 /* SKETCHES */
 
 .eternal-sketches {
-  width: 440px;
-  height: 772px;
+  aspect-ratio: 440 / 772;
   margin: 0 auto;
   padding: 40px;
   position: relative;
@@ -221,6 +221,7 @@ main {
 .eternal-sketch-canvas img{
     height:auto;
     mix-blend-mode:multiply;
+    position: absolute;
 }
 
 .sketches-01 {
