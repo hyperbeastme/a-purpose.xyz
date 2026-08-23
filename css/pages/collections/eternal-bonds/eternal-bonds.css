@@ -540,7 +540,7 @@ body {
   line-height:1;
 }
 
-.eternal-runway {
+.eternal-runway-layout {
   position:absolute;
   left:0;
   top:40px;
@@ -548,7 +548,7 @@ body {
   height:960px;
 }
 
-.eternal-runway img{
+.eternal-runway-layout img{
   position: absolute;
   height: auto;
   margin: 0;
