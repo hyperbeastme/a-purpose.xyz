@@ -12,20 +12,20 @@
 
 .about-page .footer {
   width:100%;
-  max-width:1440px;
+  max-width:1680px;
 }
 
 
 .about-page-main {
   width:100%;
-  max-width:1440px;
+  max-width:1680px;
   margin:0 auto;
 }
 
 .about-page-intro {
   box-sizing:border-box;
   width:100%;
-  max-width:1440px;
+  max-width:1680px;
   min-height:944px;
   margin:0 auto;
   padding:120px 80px 100px;
@@ -123,7 +123,7 @@
 /* FOOTER */
 
 .footer {
-  width:1440px;
+  width:1680px;
   height:450px;
   margin:125px auto 0;
   padding:45px 80px 35px;
@@ -147,7 +147,7 @@
 }
 
 .project-photography-credit {
-  width:1440px;
+  width:1680px;
   max-width:100%;
   margin:0 auto;
   padding:24px 80px 0;
