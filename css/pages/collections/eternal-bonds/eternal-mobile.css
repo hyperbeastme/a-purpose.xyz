@@ -796,3 +796,28 @@ body {
     scroll-snap-stop:normal;
   }
 }
+
+
+/* Align Editorial metadata to the right edge of the rightmost photo column. */
+.eternal-editorial-layout .editorial-disclaimer {
+  position:absolute;
+  left:calc(314.847 / 440 * 100%);
+  right:auto;
+  width:calc(113.4814 / 440 * 100%);
+  height:auto;
+}
+
+.eternal-editorial .project-photography-credit {
+  position:absolute;
+  left:auto;
+  right:calc(11.6716 / 440 * 100%);
+  top:auto;
+  bottom:20px;
+  width:max-content;
+  max-width:none;
+  margin:0;
+  padding:0;
+  text-align:right;
+  white-space:nowrap;
+  z-index:30;
+}
