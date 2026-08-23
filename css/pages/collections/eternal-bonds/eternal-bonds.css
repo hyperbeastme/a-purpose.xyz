@@ -150,7 +150,7 @@ body {
 .eternal-sketches {
   aspect-ratio: 1680 / 960;
   margin: 0 auto;
-  padding: 40px;
+  padding: 25px;
   position: relative;
   overflow: hidden;
 }
@@ -223,7 +223,7 @@ body {
   width:1680px;
   height:960px;
   margin:0 auto;
-  padding:80px;
+  padding:25px;
   position:relative;
   overflow:hidden;
 }
@@ -497,7 +497,7 @@ body {
   width:1680px;
   height:960px;
   margin:0 auto;
-  padding:0 80px;
+  padding:25px;
   position:relative;
   overflow:hidden;
 }
@@ -607,7 +607,7 @@ body {
   width:1680px;
   height:475px;
   margin:0 auto;
-  padding:80px;
+  padding:25px;
   display:flex;
   flex-direction:column;
   justify-content:center;
@@ -658,12 +658,15 @@ body {
   width:1680px;
   max-width:100%;
   margin:0 auto;
-  padding:24px 80px 0;
   color:#888;
   font-size:20px;
   font-weight:300;
   line-height:1.2;
   text-align:right;
+  position: absolute;
+  left: calc(1208.255 / 1680 * 100%);
+  top: calc(916.147 / 960 * 100%);
+
 }
 
 .project-photography-credit a,
