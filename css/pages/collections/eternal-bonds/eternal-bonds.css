@@ -366,7 +366,7 @@ body {
 .eternal-editorial-layout {
   position:absolute;
   left:0;
-  top:calc(80 / 960 * 100%);
+  top:calc(0 / 960 * 100%);
   width:100%;
   height:calc(960 / 960 * 100%);
   margin:0;
@@ -489,6 +489,18 @@ body {
   left:calc(1272.0133 / 1680 * 100%);
 }
 
+.project-photography-credit {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: auto;
+  bottom: 20px;
+  width: 100%;
+  margin: 0;
+  padding: 0 80px;
+  text-align: right;
+  z-index: 30;
+}
 
 /* RUNWAY */
 
@@ -728,59 +740,4 @@ body {
   text-decoration: none;
 }
 
-
-/* Current Eternal Bonds markup and responsive desktop repair. */
-.eternal-opening,
-.eternal-moodboard,
-.eternal-process,
-.eternal-runway,
-.eternal-next-project,
-.footer {
-  width:100%;
-  max-width:1680px;
-}
-
-.eternal-opening { aspect-ratio:1680 / 880; min-height:0; }
-.eternal-moodboard { aspect-ratio:1680 / 960; height:auto; }
-.eternal-process { aspect-ratio:1680 / 960; height:auto; }
-.eternal-runway { aspect-ratio:1680 / 960; height:auto; }
-.eternal-next-project { height:auto; min-height:475px; }
-
-.eternal-sketches {
-  width:100%;
-  max-width:1680px;
-  aspect-ratio:1680 / 960;
-  margin:0 auto;
-  position:relative;
-  overflow:hidden;
-}
-
-.eternal-sketches h2 {
-  position:absolute;
-  left:calc(24 / 1680 * 100%);
-  top:calc(13 / 960 * 100%);
-  z-index:30;
-  margin:0;
-  font-family:"futura-pt-condensed", sans-serif;
-  font-style:italic;
-  font-size:44px;
-  font-weight:300;
-  line-height:1;
-}
-
-.eternal-sketches-canvas {
-  position:absolute;
-  left:0;
-  top:calc(80 / 960 * 100%);
-  width:100%;
-  height:calc(960 / 960 * 100%);
-}
-
-.eternal-sketches-canvas img {
-  position:absolute;
-  display:block;
-  height:auto;
-  margin:0;
-  mix-blend-mode:multiply;
-}
 
