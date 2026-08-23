@@ -584,17 +584,9 @@ main {
 }
 
 .eternal-runway img {
-  position: absolute;
-  padding-left: 80px;
-  padding-right: 80px;
-}
-
-.eternal-runway-layout {
-  position: absolute;
-  left: calc(79.5 / 440 * 100%);
-  top: calc(56.5033 / 772 * 100%);
-  width: calc(440 / 440 * 100%);
-  height: calc(772 / 772 * 100%);
+  position:absolute;
+  height:auto;
+  margin:0;
 }
 
 .runway-01 {
