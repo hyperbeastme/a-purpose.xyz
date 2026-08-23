@@ -364,7 +364,6 @@ main {
 .eternal-editorial {
   aspect-ratio: 440 / 772;
   margin: 0 auto;
-  padding: 64px;
   position: relative;
   overflow: hidden;
 }
@@ -373,7 +372,7 @@ main {
   aspect-ratio: 440 / 772;
   position: absolute;
   left: 0;
-  top: calc(64 / 772 * 100%);
+  top: calc(0 / 772 * 100%);
   width: 100%;
 }
 
