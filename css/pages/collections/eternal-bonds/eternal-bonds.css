@@ -677,7 +677,7 @@ body {
 }
 
 .eternal-runway + .eternal-next-project {
-  margin-top: calc(10 / 960 * 100vh);
+  margin-top: calc(25 / 960 * 100vh);
 }
 
 .eternal-next-project + .footer {
