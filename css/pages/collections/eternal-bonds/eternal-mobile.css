@@ -113,7 +113,7 @@ main {
   white-space: nowrap;
 }
 
-.statemesent-image {
+.statement-image {
   position: absolute;
   left: calc(130.3 / 440 * 100%);
   top: calc(228.53 / 772 * 100%);
@@ -275,7 +275,7 @@ main {
 
 /* PROCESS */
 
-.sketches {
+.eternal-process {
   width: 1680px;
   height: 772px;
   margin: 0 auto;
@@ -284,7 +284,7 @@ main {
   overflow: hidden;
 }
 
-.sketches h2 {
+.eternal-process h2 {
   font-family: "futura-pt-condensed", sans-serif;
   font-style: italic;
   position: absolute;
@@ -298,7 +298,7 @@ main {
   line-height: 1;
 }
 
-.sketches-layout {
+.editorial-details {
   position: absolute;
   left: 0;
   top: 80px;
@@ -306,7 +306,7 @@ main {
   height: 772px;
 }
 
-.sketches-layout img {
+.eternal-details img {
   position: absolute;
   display: flex;
   align-items: center;
@@ -396,7 +396,7 @@ main {
 
 /* Editorial:xact 440 x 772 composition measured from editorial-nds.pdf. */
 
-.editoresial {
+.editorial {
   width: 100%;
   max-width: 440px;
   aspect-ratio: 440 / 772;
@@ -407,7 +407,7 @@ main {
   overflow: hidden;
 }
 
-.editoresial {
+.editorial {
   position: absolute;
   left: calc(24 /440 * 100%);
   top: calc(13 / 772 * 100%);
@@ -420,7 +420,7 @@ main {
   line-height: 1;
 }
 
-.editoresial-yout {
+.editorial-yout {
   position: absolute;
   left: 0;
   top: calc(80 / 772 * 100%);
@@ -428,7 +428,7 @@ main {
   height: calc(772 / 772 * 100%);
 }
 
-.editoresial-layout img {
+.editorial-layout img {
   position: absolute;
   display: block;
   max-width: none;
