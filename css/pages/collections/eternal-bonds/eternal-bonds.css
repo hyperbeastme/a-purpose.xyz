@@ -554,6 +554,7 @@ body {
   left: calc(798.5276 / 1680 * 100%);
   top: calc(442.4321 / 960 * 100%);
   width: calc(335.8606 / 1680 * 100%);
+  z-index: under;
 }
 
 .runway-08 {
