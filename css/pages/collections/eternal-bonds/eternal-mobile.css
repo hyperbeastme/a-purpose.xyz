@@ -110,7 +110,6 @@ main {
   left: calc(74.1413 / 440 * 100%);
   top: calc(20.016 / 772 * 100%);
   width: calc(291.7175 / 440 * 100%);
-  height: auto;
 }
 
 /* Mood board and process use the desktop 440 x 772 inner canvas. */
@@ -709,7 +708,7 @@ main {
 }
 
 /* Next project and footer */
-.next-pesroject {
+.next-project {
   width: 100%;
   min-height: 360px;
   padding: 48px var(--page-margin);
@@ -719,13 +718,13 @@ main {
   align-items: flex-end;
 }
 
-.next-pesroject p {
+.next-project p {
   margin: 0 0 12px;
   font-size: 22px;
   opacity: .5;
 }
 
-.next-pesroject a {
+.next-project a {
   font-size: clamp(54px, 7vw, 70px);
   line-height: 1;
 }
