@@ -553,9 +553,9 @@ main { width:100%; max-width:var(--project-max-width); margin:0 auto; }
 
 .runway-outline {
   position: absolute;
-  left: calc(0 / 1680 * 100%);
-  top: calc(0 / 960 * 100%);
-  width: calc(0 / 1680 * 100%);
+  left: calc(550 / 440 * 100%);
+  top: calc(990 / 772 * 100%);
+  width: calc(1 / 440 * 100%);
   opacity:0;
 }
 
