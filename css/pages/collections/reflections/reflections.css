@@ -705,31 +705,31 @@ main {
    PAGE SPACING
    ========================================================= */
 
-.eternal-opening + .eternal-moodboard {
+.reflections-opening + .reflections-mood {
   margin-top: calc(100 / 880 * 100vh);
 }
 
-.eternal-moodboard + .eternal-sketches {
+.reflections-moodboard + .reflections-sketch {
   margin-top: calc(100 / 960 * 100vh);
 }
 
-.eternal-sketches + .eternal-process {
+.reflections-sketch + .reflections-process {
   margin-top: calc(100 / 960 * 100vh);
 }
 
-.eternal-process + .eternal-editorial {
+.reflections-process + .reflections-catalog {
   margin-top: calc(100 / 960 * 100vh);
 }
 
-.eternal-editorial + .eternal-runway {
+.reflections-catalog + .reflections-editorial {
   margin-top: calc(100 / 960 * 100vh);
 }
 
-.eternal-runway + .eternal-next-project {
+.eternal-editorial + .reflections-next-project {
   margin-top: calc(50 / 960 * 100vh);
 }
 
-.eternal-next-project + .footer {
+.reflections-next-project + .footer {
   margin-top: calc(0 / 960 * 100vh);
 }
 
