@@ -82,6 +82,7 @@ main {
 }
 
 /* Opening statement */
+
 .eternal-opening {
   position: absolute;
   left: calc(80 / 440 * 100%);
@@ -232,7 +233,7 @@ main {
   height: 772px;
 }
 
-.eternal-sketch-canvas img{
+.eternal-sketches-canvas img{
     height:auto;
     mix-blend-mode:multiply;
     position: absolute;
@@ -409,7 +410,7 @@ main {
 
 /* Editorial:xact 440 x 772 composition measured from editorial-nds.pdf. */
 
-.editorial {
+.eternal-editorial {
   width: 100%;
   max-width: 440px;
   aspect-ratio: 440 / 772;
@@ -420,7 +421,7 @@ main {
   overflow: hidden;
 }
 
-.editorial h2{
+.eternal-editorial h2{
   position: absolute;
   left: calc(24 /440 * 100%);
   top: calc(13 / 772 * 100%);
@@ -433,7 +434,7 @@ main {
   line-height: 1;
 }
 
-.editorial-yout {
+.eternal-editorial-layout {
   position: absolute;
   left: 0;
   top: calc(80 / 772 * 100%);
