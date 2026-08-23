@@ -660,16 +660,6 @@ body {
   z-index: 0;
 }
 
-.eternal-runway-layout .runway-01,
-.eternal-runway-layout .runway-02,
-.eternal-runway-layout .runway-03,
-.eternal-runway-layout .runway-04,
-.eternal-runway-layout .runway-05,
-.eternal-runway-layout .runway-06,
-.eternal-runway-layout .runway-08 {
-  z-index: 1;
-}
-
 .runway-outline {
   position: absolute;
   left: calc(234.584 / 1680 * 100%);
