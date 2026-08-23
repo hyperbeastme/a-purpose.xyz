@@ -113,6 +113,7 @@ main {
 }
 
 /* Mood board and process use the desktop 440 x 772 inner canvas. */
+
 .eternal-moodboard {
   aspect-ratio: 440 / 772;
   margin: 0 auto;
