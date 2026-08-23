@@ -37,10 +37,6 @@ body {
   font-family: "futura-pt-condensed", sans-serif;
 }
 
-img {
-  display: block;
-}
-
 a,
 a:visited,
 a:hover,
@@ -98,11 +94,6 @@ main {
   margin-bottom: 0;
 }
 
-.eternal-statement span {
-  display: block;
-  white-space: nowrap;
-}
-
 .statement-image {
   position: absolute;
   left: calc(74.1413 / 440 * 100%);
@@ -126,14 +117,6 @@ main {
   left: 0;
   top: calc(64 / 772 * 100%);
   width: 100%;
-}
-
-.moodboard-canvas img,
-.details img {
-  position: absolute;
-  display: block;
-  height: auto;
-  margin: 0;
 }
 
 .eternal-moodboard h2 {
@@ -439,13 +422,6 @@ main {
   height: calc(772 / 772 * 100%);
 }
 
-.editorial-layout img {
-  position: absolute;
-  display: block;
-  max-width: none;
-  height: auto;
-}
-
 .editorial-disclaimer {
   left: calc(314.8556 / 440 * 100%);
   top: calc(60 / 772 * 100%);
@@ -663,13 +639,6 @@ main {
   top: calc(56.5033 / 772 * 100%);
   width: calc(440 / 440 * 100%);
   height: calc(772 / 772 * 100%);
-}
-
-.eternal-runway-layout img {
-  position: absolute;
-  display: block;
-  max-width: none;
-  height: auto;
 }
 
 .runway-01 {
