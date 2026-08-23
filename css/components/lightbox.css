@@ -111,50 +111,6 @@ body.lightbox-open {
   top: calc(55 / 1110 * 100%);
 }
 
-.eternal-sketch {
-  aspect-ratio: 1440 / 1174;
-}
-
-.eternal-sketch-layout {
-  left: 50%;
-  top: calc(150 / 1174 * 100%);
-  height: calc(794 / 1174 * 100%);
-  transform: translateX(-50%);
-}
-
-.eternal-moodboard-canvas,
-.eternal-details,
-.eternal-process-layout {
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.eternal-film {
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.eternal-editorial {
-  aspect-ratio: 1680 / 1110;
-}
-
-.eternal-editorial h2 {
-  left: calc(24 / 1680 * 100%);
-  top: calc(55 / 1110 * 100%);
-}
-
-.eternal-editorial-layout {
-  left: 50%;
-  top: calc(150 / 1110 * 100%);
-  height: calc(960 / 1110 * 100%);
-  transform: translateX(-50%);
-}
-
-.eternal-runway-layout {
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 .reflections-canvas {
   left: 50%;
   transform: translateX(-50%);
@@ -167,7 +123,7 @@ body.lightbox-open {
 .catelier-process > h2,
 .catelier-museum > h2,
 .eternal-moodboard > h2,
-.eternal-sketch > h2,
+.eternal-sketches > h2,
 .eternal-process > h2,
 .eternal-filmstrip > h2,
 .eternal-editorial > h2,
