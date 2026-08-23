@@ -116,7 +116,7 @@ main {
 .eternal-moodboard {
   aspect-ratio: 440 / 772;
   margin: 0 auto;
-  padding: 0px;
+  padding: 64px;
   position: relative;
   overflow: hidden;
 }
