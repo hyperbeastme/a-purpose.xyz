@@ -78,13 +78,24 @@ main {
   overflow: hidden;
 }
 
-.eternal-statement {
-  font-size: clamp(8px, calc(34.6931 / 440 * 100vw), 34.6931px);
-  font-weight: 200;
-  font-style: italic;
-  width: calc(299.3664 / 487.5 * 100%);
-  line-height: 1.18;
+.eternal-statement text {
+  font-size:16px;
+  font-weight:400;
+  font-style:oblique;
+  line-height:1.28;
+  text-align:center;
 }
+
+.eternal-statement {
+  position:absolute;
+  margin:0;
+  text-align:left;
+  left:calc(156 / 440 * 100%);
+  top:calc(271.1198 / 732 * 100%);
+  width:calc(296.7041 / 440 * 100%);
+}
+
+
 
 .eternal-statement p {
   margin: 0 0 1.125em;
