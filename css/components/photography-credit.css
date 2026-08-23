@@ -7,8 +7,8 @@
 */
 
 .catelier-page {
-  --photo-credit-left: 0px;
-  --photo-credit-top: 0px;
+  --photo-credit-left:1208.255px;
+  --photo-credit-top: 916.147px;
   --photo-credit-max-width: 1680px;
   --photo-credit-margin-top: 0px;
   --photo-credit-margin-bottom: 0px;
@@ -24,7 +24,7 @@
 .eternal-bonds-page {
   --photo-credit-left: 0px;
   --photo-credit-top: 0px;
-  --photo-credit-max-width: 1440px;
+  --photo-credit-max-width: 1680px;
   --photo-credit-margin-top: 0px;
   --photo-credit-margin-bottom: 0px;
   --photo-credit-padding-top: 24px;

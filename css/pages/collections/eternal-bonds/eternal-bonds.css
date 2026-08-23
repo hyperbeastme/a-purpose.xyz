@@ -664,9 +664,6 @@ body {
   line-height:1.2;
   text-align:right;
   position: absolute;
-  left: calc(1208.255 / 1680 * 100%);
-  top: calc(916.147 / 960 * 100%);
-
 }
 
 .project-photography-credit a,
