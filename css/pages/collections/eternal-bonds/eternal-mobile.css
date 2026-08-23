@@ -149,7 +149,7 @@ main {
   font-family: "futura-pt-condensed", sans-serif;
   font-style: italic;
   position: absolute;
-  left: calc(24 / 1680 * 100%);
+  left: calc(24 / 440 * 100%);
   top: calc(13 / 772 * 100%);
   z-index: 20;
   margin: 0;
@@ -297,8 +297,7 @@ main {
 /* PROCESS */
 
 .eternal-process {
-  width: 1680px;
-  height: 772px;
+  aspect-ratio: 440 / 772;
   margin: 0 auto;
   padding: 80px;
   position: relative;
@@ -309,7 +308,7 @@ main {
   font-family: "futura-pt-condensed", sans-serif;
   font-style: italic;
   position: absolute;
-  left: calc(24 / 1680 * 100%);
+  left: calc(24 / 440 * 100%);
   top: calc(13 / 772 * 100%);
   z-index: 20;
   margin: 0;
@@ -656,17 +655,18 @@ main {
 }
 
 /* Runway: desktop 440 x 772 section and 440 x 772 inner layout */
-.runways {
+
+.eternal-runway {
   position: relative;
   aspect-ratio: 440 / 772;
 }
 
-.runways h2 {
+.eternal-runway h2 {
   left: calc(24 / 440 * 100%);
   top: calc(13 / 772 * 100%);
 }
 
-.runways-layout {
+.eternal-runway-layout {
   position: absolute;
   left: calc(79.5 / 440 * 100%);
   top: calc(56.5033 / 772 * 100%);
@@ -674,7 +674,7 @@ main {
   height: calc(772 / 772 * 100%);
 }
 
-.runways-layout img {
+.eternal-runway-layout img {
   position: absolute;
   display: block;
   max-width: none;
