@@ -250,7 +250,6 @@ main {
 .eternal-process {
   aspect-ratio: 440 / 772;
   margin: 0 auto;
-  padding: 80px;
   position: relative;
   overflow: hidden;
 }
@@ -265,8 +264,9 @@ main {
 
 .eternal-details img {
   position: absolute;
-  padding-left: 80px;
-  padding-right: 80px;
+  display: block;
+  height: auto;
+  padding: 0;
 }
 
 .process-01 {
