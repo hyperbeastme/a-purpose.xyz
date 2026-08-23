@@ -568,8 +568,19 @@ main {
 /* Runway: desktop 440 x 772 section and 440 x 772 inner layout */
 
 .eternal-runway {
-  position: relative;
   aspect-ratio: 440 / 772;
+  margin: 0 auto;
+  padding: 64px;
+  position: relative;
+  overflow: hidden;
+}
+
+.eternal-runway-layout {
+  aspect-ratio: 440 / 772;
+  position: absolute;
+  left: 0;
+  top: calc(64 / 772 * 100%);
+  width: 100%;
 }
 
 .eternal-runway-layout {
