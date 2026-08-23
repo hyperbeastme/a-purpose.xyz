@@ -658,11 +658,10 @@ main {
 
 .runway-outline {
   position:absolute;
-  left:0;
-  top:0;
-  width:100%;
-  height:100%;
-  opacity:1;
+  left: calc(500 / 440 * 100%);
+  top: calc(900/ 772 * 100%);
+  width: calc(0 / 440 * 100%);
+  opacity:0;
   object-fit:contain;
   pointer-events:none;
 }
