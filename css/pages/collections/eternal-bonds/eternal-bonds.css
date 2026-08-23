@@ -317,7 +317,7 @@ body {
 .eternal-editorial {
   width:100%;
   max-width:1680px;
-  aspect-ratio:1680 / 1040;
+  aspect-ratio:1680 / 960;
   height:auto;
   margin:0 auto;
   padding:0;
