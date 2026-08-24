@@ -512,7 +512,7 @@ main {
   overflow: hidden;
 }
 
-.reflections-catalog-layout {
+.reflections-lookbook {
   aspect-ratio: 440 / 772;
   position: absolute;
   left: 0;
@@ -520,7 +520,7 @@ main {
   width: 100%;
 }
 
-.reflections-catalog-layout img {
+.reflections-lookbook img {
   position:absolute;
   max-width:none;
   height:auto;
@@ -567,7 +567,7 @@ main {
   width: 100%;
 }
 
-.reflections-editorial img {
+.reflections-editorial-layout img {
   position:absolute;
   height:auto;
   margin:0;
