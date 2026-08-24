@@ -725,7 +725,7 @@ main {
   margin-top: calc(100 / 960 * 100vh);
 }
 
-.eternal-editorial + .reflections-next-project {
+.reflections-editorial + .reflections-next-project {
   margin-top: calc(50 / 960 * 100vh);
 }
 
