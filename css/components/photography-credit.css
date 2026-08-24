@@ -109,3 +109,76 @@
     --photo-credit-font-size: 16px;
   }
 }
+
+/* =========================================================
+   COLLECTION SECTION CREDIT
+   One positioning system for every collection composition.
+   Each section only defines its right-edge alignment value.
+   ========================================================= */
+
+.project-photography-credit.collection-section-credit {
+  position:absolute;
+  left:auto;
+  right:var(--collection-credit-right, 20px);
+  top:auto;
+  bottom:var(--collection-credit-bottom, 20px);
+  width:max-content;
+  max-width:none;
+  margin:0;
+  padding:0;
+  text-align:right;
+  white-space:nowrap;
+  z-index:30;
+}
+
+/* Desktop composition alignments */
+.reflections-catalog {
+  --collection-credit-right:calc(111.701 / 1680 * 100%);
+}
+
+.reflections-editorial {
+  --collection-credit-right:calc(143.139 / 1680 * 100%);
+}
+
+.catelier-museum {
+  --collection-credit-right:calc(139.203 / 1680 * 100%);
+}
+
+.eternal-editorial {
+  --collection-credit-right:calc(280.356 / 1680 * 100%);
+}
+
+@media (min-width:768px) and (max-width:1199px) {
+  .reflections-catalog {
+    --collection-credit-right:calc(111.701 / 1680 * 100%);
+  }
+
+  .reflections-editorial {
+    --collection-credit-right:calc(143.139 / 1680 * 100%);
+  }
+
+  .catelier-museum {
+    --collection-credit-right:calc(139.203 / 1680 * 100%);
+  }
+
+  .eternal-editorial {
+    --collection-credit-right:calc(238.73 / 1680 * 100%);
+  }
+}
+
+@media (max-width:767px),
+       (orientation:landscape) and (max-height:500px) {
+  .reflections-catalog,
+  .reflections-editorial {
+    --collection-credit-right:calc(11 / 440 * 100%);
+  }
+
+  .catelier-museum {
+    --collection-credit-right:calc(139.203 / 1680 * 100%);
+  }
+
+  .eternal-editorial {
+    --collection-credit-right:calc(11.6716 / 440 * 100%);
+  }
+}
+
