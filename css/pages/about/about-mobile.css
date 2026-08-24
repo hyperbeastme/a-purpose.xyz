@@ -13,7 +13,7 @@
   width:100%;
   max-width:440px;
   margin:0 auto;
-  padding-top:var(--header-height);
+  padding:var(--header-height) 0 0;
 }
 
 .about-page .about-page-intro {
@@ -30,6 +30,7 @@
 
 .about-page .about-page-portrait {
   width:calc(218.2675 / 440 * 100%);
+  height:calc(345.3502 / 732 * 100%);
   margin:0;
   position:absolute;
   top:calc(-11.3503 / 732 * 100%);
@@ -40,9 +41,9 @@
   display:block;
   width:100%;
   max-width:none;
-  height:auto;
+  height:100%;
   position:static;
-  object-fit:contain;
+  object-fit:cover;
 }
 
 .about-page .about-page-copy {
@@ -97,7 +98,7 @@
   grid-template-columns:calc(56.466 / 297.807 * 100%) calc(120.992 / 297.807 * 100%) calc(94.349 / 297.807 * 100%);
   column-gap:calc(13 / 297.807 * 100%);
   position:absolute;
-  top:calc(303.387 / 732 * 100%);
+  top:min(303.387px, calc(303.387 / 440 * 100vw));
   left:calc(-14.3786 / 283.429 * 100%);
 }
 
