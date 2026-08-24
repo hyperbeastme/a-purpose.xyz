@@ -43,7 +43,7 @@
   max-width:none;
   height:100%;
   position:static;
-  object-fit:cover;
+  object-fit:fill;
 }
 
 .about-page .about-page-copy {
