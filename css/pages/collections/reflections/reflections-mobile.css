@@ -102,18 +102,7 @@ main {
   overflow:hidden;
   scroll-snap-align:start;
   scroll-snap-stop:normal;
-  scroll-margin-top:calc(var(--header-height) - min(18.1818vw, 80px));
-}
-
-.reflections-section h2 {
-  position:absolute;
-  left:calc(24 / 440 * 100%);
-  top:calc(80 / 772 * 100%);
-  z-index:20;
-  margin:0;
-  font-size:clamp(12px, calc(44 / 440 * 100vw), 44px);
-  font-weight:300;
-  line-height:1;
+  scroll-margin-top:var(--header-height);
 }
 
 /* Mood board, sketches, process, and catalog use a heading band
@@ -574,71 +563,71 @@ main {
 }
 
 .reflections-editorial-01 {
-  left:calc(91.4141 / 440 * 100%);
-  top:calc(585.2083 / 772 * 100%);
-  width:calc(97.8611 / 440 * 100%);
+  left:calc(38.7445 / 440 * 100%);
+  top:calc(267.7635 / 772 * 100%);
+  width:calc(66.9832 / 440 * 100%);
 }
 .reflections-editorial-02 {
-  left:calc(293.3369 / 440 * 100%);
-  top:calc(63.7485 / 772 * 100%);
-  width:calc(99.2863 / 440 * 100%);
+  left:calc(243.9087 / 440 * 100%);
+  top:calc(131.0331 / 772 * 100%);
+  width:calc(89.4583 / 440 * 100%);
 }
 .reflections-editorial-03 {
-  left:calc(306.4994 / 440 * 100%);
-  top:calc(231.8288 / 772 * 100%);
+  left:calc(245.0404 / 440 * 100%);
+  top:calc(286.6519 / 772 * 100%);
   width:calc(74.3921 / 440 * 100%);
 }
 .reflections-editorial-04 {
-  left:calc(306.4994 / 440 * 100%);
-  top:calc(363.7745 / 772 * 100%);
-  width:calc(107.7889 / 440 * 100%);
+  left:calc(327.0687 / 440 * 100%);
+  top:calc(283.9605 / 772 * 100%);
+  width:calc(97.1192 / 440 * 100%);
 }
 .reflections-editorial-05 {
-  left:calc(158.2709 / 440 * 100%);
-  top:calc(28.098 / 772 * 100%);
-  width:calc(120.0659 / 440 * 100%);
+  left:calc(120.7277 / 440 * 100%);
+  top:calc(98.9115 / 772 * 100%);
+  width:calc(108.181 / 440 * 100%);
   z-index:1;
 }
 .reflections-editorial-06 {
-  left:calc(47.3886 / 440 * 100%);
-  top:calc(48.1357 / 772 * 100%);
-  width:calc(95.8823 / 440 * 100%);
+  left:calc(19.3365 / 440 * 100%);
+  top:calc(116.9657 / 772 * 100%);
+  width:calc(133.5542 / 440 * 100%);
 }
 .reflections-editorial-07 {
-  left:calc(306.4994 / 440 * 100%);
-  top:calc(543.1976 / 772 * 100%);
-  width:calc(122.1152 / 440 * 100%);
+  left:calc(326.5027 / 440 * 100%);
+  top:calc(444.6393 / 772 * 100%);
+  width:calc(97.1192 / 440 * 100%);
 }
 .reflections-editorial-08 {
-  left:calc(183.7105 / 440 * 100%);
-  top:calc(231.8288 / 772 * 100%);
-  width:calc(107.7889 / 440 * 100%);
+  left:calc(120.7277 / 440 * 100%);
+  top:calc(462.9294 / 772 * 100%);
+  width:calc(108.7468 / 440 * 100%);
 }
 .reflections-editorial-09 {
-  left:calc(183.7105 / 440 * 100%);
-  top:calc(408.525 / 772 * 100%);
-  width:calc(107.7889 / 440 * 100%);
+  left:calc(244.4745 / 440 * 100%);
+  top:calc(407.0215 / 772 * 100%);
+  width:calc(67.0283 / 440 * 100%);
 }
 .reflections-editorial-10 {
-  left:calc(204.2752 / 440 * 100%);
-  top:calc(585.2083 / 772 * 100%);
-  width:calc(87.2241 / 440 * 100%);
+  left:calc(348.367 / 440 * 100%);
+  top:calc(145.4158 / 772 * 100%);
+  width:calc(78.5901 / 440 * 100%);
 }
 .reflections-editorial-11 {
-  left:calc(65.8433 / 440 * 100%);
-  top:calc(408.5121 / 772 * 100%);
-  width:calc(102.8672 / 440 * 100%);
+  left:calc(13.0429 / 440 * 100%);
+  top:calc(383.2383 / 772 * 100%);
+  width:calc(92.6847 / 440 * 100%);
 }
 .reflections-editorial-12 {
-  left:calc(47.3886 / 440 * 100%);
-  top:calc(211.5293 / 772 * 100%);
-  width:calc(121.3219 / 440 * 100%);
+  left:calc(120.7277 / 440 * 100%);
+  top:calc(283.9604 / 772 * 100%);
+  width:calc(109.3126 / 440 * 100%);
 }
 
 .reflections-outline-mobile {
-  left:calc(143.2709 / 440 * 100%);
-  top:calc(28.098 / 772 * 100%);
-  width:calc(150.066 / 440 * 100%);
+  left:calc(0 / 440 * 100%);
+  top:calc(0 / 772 * 100%);
+  width:calc(0 / 440 * 100%);
   z-index:2;
 }
 
