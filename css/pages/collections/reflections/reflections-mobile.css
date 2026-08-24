@@ -249,7 +249,7 @@ main {
   aspect-ratio: 440 / 772;
   position: absolute;
   left: 0;
-  top: calc(64 / 772 * 100%);
+  top: calc(25 / 772 * 100%);
   width: 100%;
 }
 
@@ -313,17 +313,17 @@ main {
 .reflections-sketches {
   aspect-ratio: 440 / 772;
   margin: 0 auto;
-  padding: 40px;
+  padding: 64px;
   position: relative;
   overflow: hidden;
 }
 
 .reflections-sketch-canvas {
+  aspect-ratio: 440 / 772;
   position: absolute;
   left: 0;
-  top: 64px;
+  top: calc(25 / 772 * 100%);
   width: 100%;
-  height: 772px;
 }
 
 .reflections-sketch-canvas img{
@@ -411,6 +411,7 @@ main {
 .reflections-process {
   aspect-ratio: 440 / 772;
   margin: 0 auto;
+  padding: 64px;
   position: relative;
   overflow: hidden;
 }
@@ -419,7 +420,7 @@ main {
   aspect-ratio: 440 / 772;
   position: absolute;
   left: 0;
-  top: calc(64 / 772 * 100%);
+  top: calc(25 / 772 * 100%);
   width: 100%;
 }
 
@@ -506,6 +507,7 @@ main {
 .reflections-catalog {
   aspect-ratio: 440 / 772;
   margin: 0 auto;
+  padding: 64px;
   position: relative;
   overflow: hidden;
 }
@@ -514,7 +516,7 @@ main {
   aspect-ratio: 440 / 772;
   position: absolute;
   left: 0;
-  top: calc(0 / 772 * 100%);
+  top: calc(25 / 772 * 100%);
   width: 100%;
 }
 
@@ -561,7 +563,7 @@ main {
   aspect-ratio: 440 / 772;
   position: absolute;
   left: 0;
-  top: calc(0 / 772 * 100%);
+  top: calc(25 / 772 * 100%);
   width: 100%;
 }
 
