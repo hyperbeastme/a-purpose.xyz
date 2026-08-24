@@ -1,145 +1,126 @@
-/* =========================================================
-   PART 1
-   VARIABLES, RESET, MAIN, HEADER AND MOBILE MENU
-
-   Illustrator artboard: 440 × 956px
-   Side margins: 22px
-   Content width: 420px
-   ========================================================= */
-
-
-/* =========================================================
-   VARIABLES
-   ========================================================= */
+/* ABOUT PAGE - mobile composition from about.ai (440 x 732) */
 
 :root {
-  --artboard-width: 440;
-  --artboard-height: 956;
-
-  --mobile-margin: 2.5%;
-  --mobile-content-width: calc(100% - (var(--mobile-margin) * 2));
-
-  --header-height: 80px;
-
-  --black: #000;
-  --white: #fff;
-  --gray: #888;
-  --green: #006837;
+  --mobile-page-width:440px;
+  --mobile-margin:2.5%;
+  --header-height:64px;
+  --black:#000;
+  --white:#fff;
+  --gray:#888;
 }
 
-
-/* =========================================================
-   RESET
-   ========================================================= */
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+.about-page .about-page-main {
+  width:100%;
+  max-width:440px;
+  margin:0 auto;
+  padding-top:var(--header-height);
 }
 
-html,
-body {
-  width: 100%;
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
+.about-page .about-page-intro {
+  width:100%;
+  max-width:440px;
+  aspect-ratio:440 / 732;
+  min-height:0;
+  margin:0 auto;
+  padding:0;
+  display:block;
+  position:relative;
+  overflow:hidden;
 }
 
-html {
-  scroll-behavior: smooth;
+.about-page .about-page-portrait {
+  width:calc(218.2675 / 440 * 100%);
+  margin:0;
+  position:absolute;
+  top:calc(-11.3503 / 732 * 100%);
+  left:calc(110.8662 / 440 * 100%);
 }
 
-body {
-  overflow-x: hidden;
-
-  background: var(--white);
-  color: var(--black);
-
-  font-family: "futura-pt-condensed", sans-serif;
+.about-page .about-page-portrait img {
+  display:block;
+  width:100%;
+  max-width:none;
+  height:auto;
+  position:static;
+  object-fit:contain;
 }
 
-img {
-  display: block;
-}input,
-textarea,
-select {
-  font: inherit;
+.about-page .about-page-copy {
+  width:calc(283.429 / 440 * 100%);
+  max-width:none;
+  margin:0;
+  position:absolute;
+  top:calc(350.427 / 732 * 100%);
+  left:calc(85.4746 / 440 * 100%);
 }
 
-a,
-a:visited,
-a:hover,
-a:active {
-  color: inherit;
-  text-decoration: none;
+.about-page .about-page-copy h1 {
+  margin:0;
+  font-size:min(31.2914px, calc(31.2914 / 440 * 100vw));
+  font-weight:400;
+  line-height:.95;
+  letter-spacing:min(-.549px, calc(-.549 / 440 * 100vw));
 }
 
-
-/* =========================================================
-   MAIN
-   ========================================================= */
-
-main {
-  width: 100%;
-  margin: 0;
-
-  /* Prevents content from sitting beneath the fixed header */
-  padding: var(--header-height) 0 0;
+.about-page .about-page-eyebrow {
+  margin:0 0 min(17px, calc(17 / 440 * 100vw));
+  color:var(--gray);
+  font-size:min(9.8815px, calc(9.8815 / 440 * 100vw));
+  font-weight:400;
+  line-height:1;
+  text-transform:lowercase;
 }
 
+.about-page .about-page-bio {
+  width:100%;
+  font-size:min(14px, calc(14 / 440 * 100vw));
+  font-weight:400;
+  font-style:italic;
+  line-height:1.32;
+  letter-spacing:min(-.11px, calc(-.11 / 440 * 100vw));
+}
 
-/* =========================================================
-   MOBILE HEADER
-   ========================================================= */
+.about-page .about-page-bio p {
+  margin:0;
+}
 
+.about-page .about-page-bio p + p {
+  margin-top:min(14px, calc(14 / 440 * 100vw));
+}
 
-/* =========================================================
-   HEADER LEFT
-   ========================================================= */
+.about-page .about-page-details {
+  width:calc(297.807 / 283.429 * 100%);
+  margin:0;
+  padding-top:min(11.167px, calc(11.167 / 440 * 100vw));
+  border-top:min(.75px, calc(.75 / 440 * 100vw)) solid #aaa;
+  display:grid;
+  grid-template-columns:calc(56.466 / 297.807 * 100%) calc(120.992 / 297.807 * 100%) calc(94.349 / 297.807 * 100%);
+  column-gap:calc(13 / 297.807 * 100%);
+  position:absolute;
+  top:calc(303.387 / 732 * 100%);
+  left:calc(-14.3786 / 283.429 * 100%);
+}
 
+.about-page .about-page-details span {
+  display:block;
+  margin-bottom:min(3.723px, calc(3.723 / 440 * 100vw));
+  color:var(--gray);
+  font-size:min(8.3758px, calc(8.3758 / 440 * 100vw));
+  font-weight:400;
+  line-height:1;
+}
 
-/* =========================================================
-   HEADER CENTER
-   ========================================================= */
+.about-page .about-page-details p {
+  margin:0;
+  font-size:min(9.3065px, calc(9.3065 / 440 * 100vw));
+  font-weight:400;
+  line-height:1.2;
+}
 
-
-/* =========================================================
-   DESKTOP NAVIGATION
-   Hidden in mobile.css
-   ========================================================= */
-
-
-/* =========================================================
-   HAMBURGER BUTTON
-   ========================================================= */
-
-
-/* =========================================================
-   HAMBURGER OPEN STATE
-   Changes the three lines into an X
-   ========================================================= */
-
-
-/* =========================================================
-   MOBILE DROPDOWN MENU
-   ========================================================= */
-
-
-/* =========================================================
-   HEADER LINKS
-   ========================================================= */
-
-
-/* =========================================================
-   ACCESSIBILITY
-   ========================================================= */
-
-/* =========================================================
-   PART 2
-   SHARED ARTBOARDS, LANDING AND ETERNAL BONDS
-
-   Illustrator artboard: 440 × 956px
-
-   Landing and existing Eternal Bonds values are preserved.
-   ========================================================= */
+.about-page .about-page-details a,
+.about-page .about-page-details a:visited,
+.about-page .about-page-details a:hover,
+.about-page .about-page-details a:active {
+  color:var(--black);
+  text-decoration:none;
+}
