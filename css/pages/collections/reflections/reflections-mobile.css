@@ -51,6 +51,27 @@ a:active {
   text-decoration:none;
 }
 
+/* Shared 440 x 772 composition */
+
+.reflections-opening h2,
+.reflections-moodboard h2,
+.reflections-sketches h2,
+.reflections-process h2,
+.reflections-catalog h2,
+.reflections-editorial h2 {
+  font-family: "futura-pt-condensed", sans-serif;
+  font-style: italic;
+  position: absolute;
+  left: calc(24 / 440 * 100%);
+  top: calc(13 / 772 * 100%);
+  z-index: 20;
+  margin: 0;
+  font-size: 44px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
 /* HEADER */
 
 /* REFLECTIONS PAGE */
