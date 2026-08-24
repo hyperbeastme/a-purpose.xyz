@@ -223,7 +223,7 @@ main {
   position:absolute;
   margin:0;
   left:calc(40.3545 / 440 * 100%);
-  top:calc(641.3402 / 732 * 100%);
+  top:calc(600 / 732 * 100%);
   width:calc(296.7041 / 440 * 100%);
 }
 
