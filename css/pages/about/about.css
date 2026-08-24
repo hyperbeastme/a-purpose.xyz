@@ -16,6 +16,7 @@
 }
 
 .about-page-main {
+  align-self: center;
   width:100%;
   max-width:1680px;
   margin:0 auto;
