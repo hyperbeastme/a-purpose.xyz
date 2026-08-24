@@ -421,6 +421,45 @@ main {
 
 /* PROCESS */
 
+.reflections-process{
+  width:100%;
+  max-width:440px;
+  height:960px;
+  margin:0 auto;
+  margin-top:100px;
+  padding:40px;
+  position:relative;
+  overflow:hidden;
+}
+
+.reflections-process h2 {
+  font-family:"futura-pt-condensed", sans-serif;
+  font-style:italic;
+  position:absolute;
+  left: calc(24 / 440 * 100%);
+  top: calc(13 / 956 * 100%);
+  z-index:20;
+  margin:0;
+  font-size:44px;
+  font-weight:300;
+  letter-spacing:0;
+  line-height:1;
+}
+
+.reflections-details {
+  position:absolute;
+  left:0;
+  top:40px;
+  width:100%;
+  height:960px;
+}
+
+.reflections-details-canvas img{
+  position:absolute;
+  height:auto;
+  margin:0;
+}
+
 .reflections-process-01 {
   left:calc(143.0389 / 440 * 100%);
   top:calc(569.2181 / 956 * 100%);
@@ -494,6 +533,45 @@ main {
 
 /* CATALOG */
 
+.reflections-catalog{
+  width:100%;
+  max-width:440px;
+  height:960px;
+  margin:0 auto;
+  margin-top:100px;
+  padding:40px;
+  position:relative;
+  overflow:hidden;
+}
+
+.reflections-catalog h2 {
+  font-family:"futura-pt-condensed", sans-serif;
+  font-style:italic;
+  position:absolute;
+  left: calc(24 / 440 * 100%);
+  top: calc(13 / 956 * 100%);
+  z-index:20;
+  margin:0;
+  font-size:44px;
+  font-weight:300;
+  letter-spacing:0;
+  line-height:1;
+}
+
+.reflections-lookbook {
+  position:absolute;
+  left:0;
+  top:40px;
+  width:100%;
+  height:960px;
+}
+
+.reflections-lookbook img{
+  position:absolute;
+  height:auto;
+  margin:0;
+}
+
 .reflections-catalog-01 {
   left:calc(11 / 440 * 100%);
   top:calc(100.2777 / 956 * 100%);
@@ -518,40 +596,41 @@ main {
 /* EDITORIAL
    Dedicated section and layout, matching the working Eternal Bonds architecture. */
 
-.reflections-editorial {
-  position:relative;
+.reflections-editorial{
   width:100%;
-  max-width:var(--project-max-width);
-  aspect-ratio: 440 / 956;
-  height:auto;
+  max-width:440px;
+  height:960px;
   margin:0 auto;
-  padding:0;
+  margin-top:100px;
+  padding:40px;
+  position:relative;
   overflow:hidden;
 }
 
 .reflections-editorial h2 {
+  font-family:"futura-pt-condensed", sans-serif;
+  font-style:italic;
   position:absolute;
-  left:calc(24 / 440 * 100%);
-  top:calc(80 / 956 * 100%);
+  left: calc(24 / 440 * 100%);
+  top: calc(13 / 956 * 100%);
   z-index:20;
   margin:0;
-  font-size:clamp(12px, calc(44 / 440 * 100vw), 44px);
+  font-size:44px;
   font-weight:300;
+  letter-spacing:0;
   line-height:1;
 }
 
 .reflections-editorial-layout {
   position:absolute;
   left:0;
-  top:calc(150 / 956 * 100%);
+  top:40px;
   width:100%;
-  height:calc(956 / 956 * 100%);
+  height:960px;
 }
 
-.reflections-editorial-layout img {
+.reflections-editorial-layout img{
   position:absolute;
-  display:block;
-  max-width:none;
   height:auto;
   margin:0;
 }
@@ -674,31 +753,31 @@ main {
    PAGE SPACING
    ========================================================= */
 
-.eternal-opening + .eternal-moodboard {
+.reflections-opening + .reflections-mood {
   margin-top: calc(100 / 880 * 100vh);
 }
 
-.eternal-moodboard + .eternal-sketches {
+.reflections-mood + .reflections-sketch {
   margin-top: calc(100 / 960 * 100vh);
 }
 
-.eternal-sketches + .eternal-process {
+.reflections-sketch + .reflections-process {
   margin-top: calc(100 / 960 * 100vh);
 }
 
-.eternal-process + .eternal-editorial {
+.reflections-process + .reflections-catalog {
   margin-top: calc(100 / 960 * 100vh);
 }
 
-.eternal-editorial + .eternal-runway {
+.reflections-catalog + .reflections-editorial {
   margin-top: calc(100 / 960 * 100vh);
 }
 
-.eternal-runway + .eternal-next-project {
+.reflections-editorial + .reflections-next-project {
   margin-top: calc(50 / 960 * 100vh);
 }
 
-.eternal-next-project + .footer {
+.reflections-next-project + .footer {
   margin-top: calc(0 / 960 * 100vh);
 }
 
