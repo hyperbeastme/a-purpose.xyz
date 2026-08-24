@@ -318,7 +318,7 @@ main {
   overflow: hidden;
 }
 
-.reflections-sketches-canvas {
+.reflections-sketch-canvas {
   position: absolute;
   left: 0;
   top: 64px;
@@ -326,7 +326,7 @@ main {
   height: 772px;
 }
 
-.reflections-sketches-canvas img{
+.reflections-sketch-canvas img{
   height:auto;
   mix-blend-mode:multiply;
   position: absolute;
@@ -595,7 +595,7 @@ main {
   left:calc(158.2709 / 440 * 100%);
   top:calc(28.098 / 772 * 100%);
   width:calc(120.0659 / 440 * 100%);
-  z-index: below;
+  z-index:1;
 }
 .reflections-editorial-06 {
   left:calc(47.3886 / 440 * 100%);
@@ -637,14 +637,14 @@ main {
   left:calc(143.2709 / 440 * 100%);
   top:calc(28.098 / 772 * 100%);
   width:calc(150.066 / 440 * 100%);
-  z-index: top;
+  z-index:2;
 }
 
 .reflections-outline {
   left:calc(0 / 440 * 100%);
   top:calc(0 / 772 * 100%);
   width:calc(0 / 440 * 100%);
-  z-index: top;
+  z-index:2;
 }
 
 /* NEXT PROJECT */
@@ -689,11 +689,11 @@ main {
    PAGE SPACING
    ========================================================= */
 
-.reflections-opening + .reflections-mood {
+.reflections-opening-body + .reflections-moodboard {
   margin-top: calc(100 / 880 * 100vh);
 }
 
-.reflections-mood + .reflections-sketch {
+.reflections-moodboard + .reflections-sketch {
   margin-top: calc(100 / 960 * 100vh);
 }
 
