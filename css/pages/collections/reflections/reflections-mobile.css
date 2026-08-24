@@ -126,7 +126,7 @@ main {
 .reflections-canvas {
   position:absolute;
   left:0;
-  top:calc(150 / 772 * 100%);
+  top:calc(64 / 772 * 100%);
   width:100%;
   height:calc(772 / 772 * 100%);
 }
@@ -195,7 +195,7 @@ main {
   position:absolute;
   margin:0;
   text-align:left;
-  left:calc(156 / 440 * 100%);
+  left:calc(135 / 440 * 100%);
   top:calc(271.1198 / 732 * 100%);
   width:calc(296.7041 / 440 * 100%);
 }
