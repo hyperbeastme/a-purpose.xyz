@@ -554,7 +554,7 @@ main {
 .reflections-editorial {
   aspect-ratio: 440 / 772;
   margin: 0 auto;
-  padding: 64px;
+  padding: 0px;
   position: relative;
   overflow: hidden;
 }
