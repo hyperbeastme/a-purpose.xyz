@@ -586,3 +586,80 @@ main {
     --project-max-width:1194px;
   }
 }
+
+/* Current opening-board markup compatibility.
+   Keeps the existing mobile composition proportions at tablet scale. */
+.reflections-opening-body {
+  position:relative;
+  width:100%;
+  max-width:812px;
+  aspect-ratio:440 / 732;
+  height:auto;
+  margin:0 auto;
+  overflow:hidden;
+  font-size:clamp(20px, 2.6vw, 27px);
+  font-weight:400;
+  font-style:italic;
+  line-height:1.28;
+  text-align:center;
+}
+
+.reflections-opening-body .reflections-statement,
+.reflections-opening-body .reflections-opening {
+  position:absolute;
+  inset:0;
+}
+
+.reflections-opening-body .reflections-statement p,
+.reflections-opening-body .reflections-question-03 p {
+  margin:0;
+}
+
+.reflections-opening-body .reflections-question-01 {
+  position:absolute;
+  left:calc(156 / 440 * 100%);
+  top:calc(271.1198 / 732 * 100%);
+  width:calc(296.7041 / 440 * 100%);
+  text-align:left;
+}
+
+.reflections-opening-body .reflections-question-02 {
+  position:absolute;
+  right:calc(39.333 / 440 * 100%);
+  top:calc(316.1033 / 732 * 100%);
+  width:calc(111.8245 / 440 * 100%);
+  text-align:right;
+  white-space:nowrap;
+}
+
+.reflections-opening-body .reflections-statement-01 {
+  position:absolute;
+  left:calc(40.3545 / 440 * 100%);
+  top:calc(353.5647 / 732 * 100%);
+  width:calc(296.7041 / 440 * 100%);
+  text-align:left;
+}
+
+.reflections-opening-body .reflections-question-03 {
+  position:absolute;
+  left:calc(40.3545 / 440 * 100%);
+  top:calc(641.3402 / 732 * 100%);
+  width:calc(296.7041 / 440 * 100%);
+}
+
+.reflections-opening-body .reflections-question-03 p:nth-child(1),
+.reflections-opening-body .reflections-question-03 p:nth-child(3) {
+  text-align:left;
+}
+
+.reflections-opening-body .reflections-question-03 p:nth-child(2) {
+  text-align:right;
+}
+
+.reflections-opening-body .reflections-opening-image {
+  position:absolute;
+  left:calc(40.3545 / 440 * 100%);
+  top:calc(12.0888 / 732 * 100%);
+  width:calc(360.3125 / 440 * 100%);
+  height:auto;
+}
