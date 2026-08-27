@@ -25,10 +25,12 @@ main {
 
 /* HEADER */
 
-/* =========================================================
-   CATELIER PROJECT
-   Every section is an independent Illustrator artboard.
-   ========================================================= */
+/* 
+=========================================================
+CATELIER PROJECT
+Every section is an independent Illustrator artboard.
+========================================================= 
+*/
 
 .catelier-page {
   width:100%;
@@ -38,10 +40,12 @@ main {
   color:black;
 }
 
-/* =========================================================
-   OPENING
-   Artboard: 1600 x 880
-   ========================================================= */
+/* 
+=========================================================
+OPENING
+Artboard: 1600 x 880
+========================================================= 
+*/
 
 .catelier-opening {
   width:1600px;
@@ -52,216 +56,6 @@ main {
 }
 
 .catelier-opening img {
-  position:absolute;
-  display:block;
-  max-width:none;
-  height:auto;
-  margin:0;
-}
-
-/* =========================================================
-   MOOD BOARD
-   Artboard: 1600 x 960
-   ========================================================= */
-
-.catelier-mood {
-  position: relative;
-  width: 100%;
-  max-width: 1680px;
-  aspect-ratio: 1680 / 960;
-  margin: 0 auto;
-}
-
-.catelier-mood > h2 {
-  position:absolute;
-  left:calc(24 / 1600 * 100%);
-  top:calc(13 / 960 * 100%);
-  z-index:20;
-  margin:0;
-  font-family:"futura-pt-condensed", sans-serif;
-  font-size:44px;
-  font-weight:300;
-  line-height:1;
-}
-
-.catelier-moodboard {
-  position:absolute;
-  left:0;
-  top:calc(0 / 960 * 100%);
-  width:100%;
-  height:calc(880 / 960 * 100%);
-  overflow:hidden;
-}
-
-.catelier-moodboard img {
-  position:absolute;
-  display:block;
-  max-width:none;
-  height:auto;
-  margin:0;
-}
-
-/* =========================================================
-   SKETCHES
-   Artboard: 1600 x 960
-   ========================================================= */
-
-.catelier-sketches {
-  width:1600px;
-  height:960px;
-  margin:0 auto;
-  position:relative;
-  overflow:hidden;
-}
-
-.catelier-sketches > h2 {
-  position:absolute;
-  left:calc(24 / 1600 * 100%);
-  top:calc(13 / 960 * 100%);
-  z-index:20;
-  margin:0;
-  font-family:"futura-pt-condensed", sans-serif;
-  font-size:44px;
-  font-weight:300;
-  line-height:1;
-}
-
-.catelier-sketch {
-  position:absolute;
-  left:0;
-  top:calc(25 / 960 * 100%);
-  width:100%;
-  height:calc(880 / 960 * 100%);
-  overflow:hidden;
-}
-
-.catelier-sketch img {
-  position:absolute;
-  display:block;
-  max-width:none;
-  height:auto;
-  margin:0;
-}
-
-/* =========================================================
-   SAMPLES
-   Artboard: 1600 x 960
-   ========================================================= */
-
-.catelier-samples {
-  width:1600px;
-  height:960px;
-  margin:0 auto;
-  position:relative;
-  overflow:hidden;
-}
-
-.catelier-samples > h2 {
-  position:absolute;
-  left:calc(24 / 1600 * 100%);
-  top:calc(13 / 960 * 100%);
-  z-index:20;
-  margin:0;
-  font-family:"futura-pt-condensed", sans-serif;
-  font-size:44px;
-  font-weight:300;
-  line-height:1;
-}
-
-.catelier-samples > div {
-  position:absolute;
-  left:0;
-  top:calc(25 / 960 * 100%);
-  width:100%;
-  height:calc(880 / 960 * 100%);
-  overflow:hidden;
-}
-
-.catelier-samples img {
-  position:absolute;
-  display:block;
-  max-width:none;
-  height:auto;
-  margin:0;
-}
-
-/* =========================================================
-   PROCESS
-   Artboard: 1600 x 960
-   ========================================================= */
-
-.catelier-process {
-  width:1600px;
-  height:960px;
-  margin:0 auto;
-  position:relative;
-  overflow:hidden;
-}
-
-.catelier-process > h2 {
-  position:absolute;
-  left:calc(24 / 1600 * 100%);
-  top:calc(25 / 960 * 100%);
-  z-index:20;
-  margin:0;
-  font-family:"futura-pt-condensed", sans-serif;
-  font-size:44px;
-  font-weight:300;
-  line-height:1;
-}
-
-.catelier-process > div {
-  position:absolute;
-  left:0;
-  top:calc(25 / 960 * 100%);
-  width:100%;
-  height:calc(880 / 960 * 100%);
-  overflow:hidden;
-}
-
-.catelier-process img {
-  position:absolute;
-  display:block;
-  max-width:none;
-  height:auto;
-  margin:0;
-}
-
-/* =========================================================
-   MUSEUM
-   Artboard: 1680 x 960
-   ========================================================= */
-
-.catelier-museum {
-  width:1680px;
-  height:960px;
-  margin:0 auto;
-  position:relative;
-  overflow:hidden;
-}
-
-.catelier-museum > h2 {
-  position:absolute;
-  left:calc(24 / 1680 * 100%);
-  top:calc(25 / 960 * 100%);
-  z-index:20;
-  margin:0;
-  font-family:"futura-pt-condensed", sans-serif;
-  font-size:44px;
-  font-weight:300;
-  line-height:1;
-}
-
-.catelier-museum > div {
-  position:absolute;
-  left:0;
-  top:calc(25 / 960 * 100%);
-  width:100%;
-  height:calc(880 / 960 * 100%);
-  overflow:hidden;
-}
-
-.catelier-museum img {
   position:absolute;
   display:block;
   max-width:none;
@@ -300,11 +94,49 @@ main {
   position: absolute;
 }
 
-/*
-=================
-MOOD
-=================
+/* 
+=========================================================
+MOOD BOARD
+Artboard: 1600 x 960
+========================================================= 
 */
+
+.catelier-mood {
+  width:1680px;
+  height:960px;
+  margin:0 auto;
+  padding:25px;
+  position:relative;
+  overflow:hidden;
+}
+
+.catelier-mood h2 {
+  font-family:"futura-pt-condensed", sans-serif;
+  font-style:italic;
+  position:absolute;
+  left: calc(24 / 1680 * 100%);
+  top: calc(13 / 960 * 100%);
+  z-index:20;
+  margin:0;
+  font-size:44px;
+  font-weight:300;
+  letter-spacing:0;
+  line-height:1;
+}
+
+.catelier-moodboard-canvas {
+  position:absolute;
+  left:0;
+  top:25px;
+  width:100%;
+  height:960px;
+}
+
+.catelier-moodboard-canvas img{
+  position: absolute;
+  height: auto;
+  margin: 0;
+}
 
 .catelier-mood-01 {
   position:absolute;
@@ -378,11 +210,49 @@ MOOD
    z-index: 1004;
 }
 
-/*
-=================
-SKETCH
-=================
+/* 
+=========================================================
+SKETCHES
+Artboard: 1600 x 960
+========================================================= 
 */
+
+.catelier-sketches {
+  width:1680px;
+  height:960px;
+  margin:0 auto;
+  padding:25px;
+  position:relative;
+  overflow:hidden;
+}
+
+.catelier-sketches h2 {
+  font-family:"futura-pt-condensed", sans-serif;
+  font-style:italic;
+  position:absolute;
+  left: calc(24 / 1680 * 100%);
+  top: calc(13 / 960 * 100%);
+  z-index:20;
+  margin:0;
+  font-size:44px;
+  font-weight:300;
+  letter-spacing:0;
+  line-height:1;
+}
+
+.catelier-sketch-canvas {
+  position:absolute;
+  left:0;
+  top:25px;
+  width:100%;
+  height:960px;
+}
+
+.catelier-sketch-canvas img{
+  position: absolute;
+  height: auto;
+  margin: 0;
+}
 
 .catelier-sketch-01 {
   position:absolute;
@@ -421,11 +291,47 @@ SKETCH
   width:calc(156.6104 / 1600 * 100%);
 }
 
-/*
-=================
-SAMPLES
-=================
-*/
+/* =========================================================
+   SAMPLES
+   Artboard: 1600 x 960
+   ========================================================= */
+
+.catelier-samples {
+  width:1680px;
+  height:960px;
+  margin:0 auto;
+  padding:25px;
+  position:relative;
+  overflow:hidden;
+}
+
+.catelier-samples h2 {
+  font-family:"futura-pt-condensed", sans-serif;
+  font-style:italic;
+  position:absolute;
+  left: calc(24 / 1680 * 100%);
+  top: calc(13 / 960 * 100%);
+  z-index:20;
+  margin:0;
+  font-size:44px;
+  font-weight:300;
+  letter-spacing:0;
+  line-height:1;
+}
+
+.catelier-sample-canvas {
+  position:absolute;
+  left:0;
+  top:25px;
+  width:100%;
+  height:960px;
+}
+
+.catelier-sample-canvas img{
+  position: absolute;
+  height: auto;
+  margin: 0;
+}
 
 .catelier-sample-01 {
   position:absolute;
@@ -468,12 +374,47 @@ SAMPLES
   top:calc(483.569 / 960 * 100%);
   width:calc(253.1809 / 1600 * 100%);
 }
+/* =========================================================
+   PROCESS
+   Artboard: 1600 x 960
+   ========================================================= */
 
-/*
-=================
-PROCESS
-=================
-*/
+.catelier-process {
+  width:1680px;
+  height:960px;
+  margin:0 auto;
+  padding:25px;
+  position:relative;
+  overflow:hidden;
+}
+
+.catelier-process h2 {
+  font-family:"futura-pt-condensed", sans-serif;
+  font-style:italic;
+  position:absolute;
+  left: calc(24 / 1680 * 100%);
+  top: calc(13 / 960 * 100%);
+  z-index:20;
+  margin:0;
+  font-size:44px;
+  font-weight:300;
+  letter-spacing:0;
+  line-height:1;
+}
+
+.catelier-process-canvas {
+  position:absolute;
+  left:0;
+  top:25px;
+  width:100%;
+  height:960px;
+}
+
+.catelier-process-canvas img{
+  position: absolute;
+  height: auto;
+  margin: 0;
+}
 
 .catelier-process-01 {
   position:absolute;
@@ -552,76 +493,112 @@ PROCESS
   width:calc(267.1933 / 1600 * 100%);
 }
 
-/*
-=================
-MUSEUM
-=================
-*/
+/* =========================================================
+   MUSEUM
+   Artboard: 1680 x 960
+   ========================================================= */
 
-.catelier-museum-01 {
-  position:absolute;
-  left:calc(840.8641 / 1680 * 100%);
-  top:calc(395.1194 / 960 * 100%);
-  width:calc(132.2904 / 1680 * 100%);
-  transform: rotate(90deg)
-}
+  .catelier-museum {
+    width:1680px;
+    height:960px;
+    margin:0 auto;
+    padding:25px;
+    position:relative;
+    overflow:hidden;
+  }
 
-.catelier-museum-02 {
-  position:absolute;
-  left:calc(582.477 / 1680 * 100%);
-  top:calc(534.8545 / 960 * 100%);
-  width:calc(202.5394 / 1680 * 100%);
-  transform: rotate(90deg)
-}
+  .catelier-museum h2 {
+    font-family:"futura-pt-condensed", sans-serif;
+    font-style:italic;
+    position:absolute;
+    left: calc(24 / 1680 * 100%);
+    top: calc(13 / 960 * 100%);
+    z-index:20;
+    margin:0;
+    font-size:44px;
+    font-weight:300;
+    letter-spacing:0;
+    line-height:1;
+  }
 
-.catelier-museum-03 {
-  position:absolute;
-  left:calc(1031.176 / 1680 * 100%);
-  top:calc(478.7309 / 960 * 100%);
-  width:calc(234.2372 / 1680 * 100%);
-}
+  .catelier-museum-canvas {
+    position:absolute;
+    left:0;
+    top:25px;
+    width:100%;
+    height:960px;
+  }
 
-.catelier-museum-04 {
-  position:absolute;
-  left:calc(1031.1759 / 1680 * 100%);
-  top:calc(135.4166 / 960 * 100%);
-  width:calc(440.4426 / 1680 * 100%);
-}
+  .catelier-museum-canvas img{
+    position: absolute;
+    height: auto;
+    margin: 0;
+  }
 
-.catelier-museum-05 {
-  position:absolute;
-  left:calc(139.203 / 1680 * 100%);
-  top:calc(178.6564 / 960 * 100%);
-  width:calc(367.6968 / 1680 * 100%);
-}
+  .catelier-museum-01 {
+    position:absolute;
+    left:calc(840.8641 / 1680 * 100%);
+    top:calc(395.1194 / 960 * 100%);
+    width:calc(132.2904 / 1680 * 100%);
+    transform: rotate(90deg)
+  }
 
-.catelier-museum-06 {
-  position:absolute;
-  left:calc(807.8425 / 1680 * 100%);
-  top:calc(105.7934 / 960 * 100%);
-  width:calc(198.3334 / 1680 * 100%);
-}
+  .catelier-museum-02 {
+    position:absolute;
+    left:calc(582.477 / 1680 * 100%);
+    top:calc(534.8545 / 960 * 100%);
+    width:calc(202.5394 / 1680 * 100%);
+    transform: rotate(90deg)
+  }
 
-.catelier-museum-07 {
-  position:absolute;
-  left:calc(860.5931 / 1680 * 100%);
-  top:calc(585.4306 / 960 * 100%);
-  width:calc(145.5829 / 1680 * 100%);
-}
+  .catelier-museum-03 {
+    position:absolute;
+    left:calc(1031.176 / 1680 * 100%);
+    top:calc(478.7309 / 960 * 100%);
+    width:calc(234.2372 / 1680 * 100%);
+  }
 
-.catelier-museum-08 {
-  position:absolute;
-  left:calc(531.8997 / 1680 * 100%);
-  top:calc(184.215 / 960 * 100%);
-  width:calc(250.9427 / 1680 * 100%);
-}
+  .catelier-museum-04 {
+    position:absolute;
+    left:calc(1031.1759 / 1680 * 100%);
+    top:calc(135.4166 / 960 * 100%);
+    width:calc(440.4426 / 1680 * 100%);
+  }
 
-.catelier-museum-09 {
-  position:absolute;
-  left:calc(1290.4132 / 1680 * 100%);
-  top:calc(478.7309 / 960 * 100%);
-  width:calc(250.3838 / 1680 * 100%);
-}
+  .catelier-museum-05 {
+    position:absolute;
+    left:calc(139.203 / 1680 * 100%);
+    top:calc(178.6564 / 960 * 100%);
+    width:calc(367.6968 / 1680 * 100%);
+  }
+
+  .catelier-museum-06 {
+    position:absolute;
+    left:calc(807.8425 / 1680 * 100%);
+    top:calc(105.7934 / 960 * 100%);
+    width:calc(198.3334 / 1680 * 100%);
+  }
+
+  .catelier-museum-07 {
+    position:absolute;
+    left:calc(860.5931 / 1680 * 100%);
+    top:calc(585.4306 / 960 * 100%);
+    width:calc(145.5829 / 1680 * 100%);
+  }
+
+  .catelier-museum-08 {
+    position:absolute;
+    left:calc(531.8997 / 1680 * 100%);
+    top:calc(184.215 / 960 * 100%);
+    width:calc(250.9427 / 1680 * 100%);
+  }
+
+  .catelier-museum-09 {
+    position:absolute;
+    left:calc(1290.4132 / 1680 * 100%);
+    top:calc(478.7309 / 960 * 100%);
+    width:calc(250.3838 / 1680 * 100%);
+  }
 
 .project-photography-credit {
   position:static;
