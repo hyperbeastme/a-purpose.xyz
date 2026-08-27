@@ -442,44 +442,44 @@ SAMPLES
 
 .catelier-sample-01 {
   position:absolute;
-  left:calc(237.6498 / 440 * 100%);
-  top:calc(69.9213 / 772 * 100%);
-  width:calc(212.8129 / 440 * 100%);
+  left:calc(35.875 / 440 * 100%);
+  top:calc(89.9403 / 772 * 100%);
+  width:calc(123.4184 / 440 * 100%);
 }
 
 .catelier-sample-02 {
   position:absolute;
-  left:calc(494.5332 / 440 * 100%);
-  top:calc(69.9213 / 772 * 100%);
-  width:calc(212.8129 / 440 * 100%);
+  left:calc(173.7919 / 440 * 100%);
+  top:calc(89.9403 / 772 * 100%);
+  width:calc(123.4184 / 440 * 100%);
 }
 
 .catelier-sample-03 {
   position:absolute;
-  left:calc(751.4556 / 440 * 100%);
-  top:calc(69.9213 / 772 * 100%);
-  width:calc(359.2673 / 440 * 100%);
+  left:calc(311.7088 / 440 * 100%);
+  top:calc(126.9344 / 772 * 100%);
+  width:calc(110.4396 / 440 * 100%);
 }
 
 .catelier-sample-04 {
   position:absolute;
-  left:calc(1154.8325 / 440 * 100%);
-  top:calc(73.009 / 772 * 100%);
-  width:calc(238.0539 / 440 * 100%);
+  left:calc(311.7088 / 440 * 100%);
+  top:calc(338.2823/ 772 * 100%);
+  width:calc(110.4396 / 440 * 100%);
 }
 
 .catelier-sample-05 {
   position:absolute;
-  left:calc(207.1137 / 440 * 100%);
-  top:calc(481.4782 / 772 * 100%);
-  width:calc(201.7469 / 440 * 100%);
+  left:calc(18.8816 / 440 * 100%);
+  top:calc(323.8493 / 772 * 100%);
+  width:calc(117.0008 / 440 * 100%);
 }
 
 .catelier-sample-06 {
   position:absolute;
-  left:calc(454.1652 / 440 * 100%);
-  top:calc(483.569 / 772 * 100%);
-  width:calc(253.1809 / 440 * 100%);
+  left:calc(150.3809 / 440 * 100%);
+  top:calc(323.8493 / 772 * 100%);
+  width:calc(146.8294 / 440 * 100%);
 }
 
 /*
