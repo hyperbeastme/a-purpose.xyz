@@ -160,7 +160,7 @@ main {
   width:100%;
   max-width:var(--catelier-max-width);
   min-height:0;
-  aspect-ratio:1600 / 880;
+  aspect-ratio:440 / 880;
   margin:0 auto;
   position:relative;
   overflow:hidden;
@@ -170,7 +170,7 @@ main {
   width:100%;
   max-width:var(--catelier-max-width);
   min-height:0;
-  aspect-ratio:1600 / 960;
+  aspect-ratio:440 / 772;
   margin:0 auto;
   position:relative;
   overflow:hidden;
@@ -180,7 +180,7 @@ main {
   width:100%;
   max-width:var(--catelier-max-width);
   min-height:0;
-  aspect-ratio:1600 / 960;
+  aspect-ratio:440 / 772;
   margin:0 auto;
   position:relative;
   overflow:hidden;
@@ -190,7 +190,7 @@ main {
   width:100%;
   max-width:var(--catelier-max-width);
   min-height:0;
-  aspect-ratio:1600 / 960;
+  aspect-ratio:440 / 772;
   margin:0 auto;
   position:relative;
   overflow:hidden;
@@ -200,7 +200,7 @@ main {
   width:100%;
   max-width:var(--catelier-max-width);
   min-height:0;
-  aspect-ratio:1600 / 960;
+  aspect-ratio:440 / 772;
   margin:0 auto;
   position:relative;
   overflow:hidden;
@@ -210,26 +210,28 @@ main {
   width:100%;
   max-width:var(--catelier-museum-max-width);
   min-height:0;
-  aspect-ratio:1680 / 960;
+  aspect-ratio:1680 / 772;
   margin:0 auto;
   position:relative;
   overflow:hidden;
 }
 
-.catelier-mood > h2,
-.catelier-sketches > h2,
-.catelier-samples > h2,
-.catelier-process > h2,
-.catelier-museum > h2 {
-  position: absolute;
-  left:calc(24 / 1600 * 100%);
-  top:calc(40 / 960 * 100%);
-  z-index: 2;
-  margin: 0;
-
+.catelier-opening h2,
+.catelier-mood h2,
+.catelier-sketches h2,
+.catelier-samples h2,
+.catelier-process h2,
+.catelier-museum h2 {
   font-family: "futura-pt-condensed", sans-serif;
-  font-size:calc(44 / 1600 * min(100vw,var(--catelier-max-width)));
+  font-style: italic;
+  position: absolute;
+  left: calc(24 / 440 * 100%);
+  top: calc(13 / 772 * 100%);
+  z-index: 20;
+  margin: 0;
+  font-size: 44px;
   font-weight: 300;
+  letter-spacing: 0;
   line-height: 1;
 }
 
@@ -240,7 +242,7 @@ main {
 .catelier-museum > div {
   position:absolute;
   inset:0;
-  transform:translateY(calc(50 / 1600 * min(100vw,var(--catelier-max-width))));
+  transform:translateY(calc(50 / 440 * min(100vw,var(--catelier-max-width))));
 }
 
 .catelier-moodboard img,
@@ -257,14 +259,14 @@ main {
 .catelier-statement {
   display:block;
   position:absolute;
-  left:calc(278.3462 / 1600 * 100%);
-  top:calc(118.8672 / 880 * 100%);
-  width:calc(505.6616 / 1600 * 100%);
+  left:calc(47.1097 / 440 * 100%);
+  top:calc(258.0941/ 732 * 100%);
+  width:calc(345.7805 / 440 * 100%);
 }
 
 .catelier-opening-statement {
   margin:0;
-  font-size:calc(35 / 1600 * min(100vw,var(--catelier-max-width)));
+  font-size:calc(18 / 440 * min(100vw,var(--catelier-max-width)));
   font-weight:200;
   font-style:italic;
   line-height:1.18;
@@ -272,16 +274,16 @@ main {
 
 .catelier-opening-statement-02 {
   margin:0;
-  font-size:calc(35 / 1600 * min(100vw,var(--catelier-max-width)));
+  font-size:calc(18 / 440 * min(100vw,var(--catelier-max-width)));
   font-weight:200;
   font-style:italic;
   line-height:1.18;
 }
 
 .catelier-statement-image {
-  left:calc(884.0078 / 1600 * 100%);
-  top:calc(95.6228 / 880 * 100%);
-  width:calc(437.646 / 1600 * 100%);
+  left:calc(147.6922 / 440 * 100%);
+  top:calc(17.5461 / 732 * 100%);
+  width:calc(144.6157 / 440 * 100%);
   max-height:100%;
   position: absolute;
 }
@@ -292,75 +294,106 @@ MOOD
 =================
 */
 
+.catelier-mood {
+  aspect-ratio: 440 / 772;
+  margin: 0 auto;
+  padding: 64px;
+  position: relative;
+  overflow: hidden;
+}
+
+.catelier-moodboard-canvas {
+  aspect-ratio: 440 / 772;
+  position: absolute;
+  left: 0;
+  top: calc(25 / 772 * 100%);
+  width: 100%;
+}
+
+.catelier-moodboard-canvas img{
+  height:auto;
+  mix-blend-mode:multiply;
+  position: absolute;
+}
+
 .catelier-mood-01 {
   position:absolute;
-  left:calc(1246.4805 / 1600 * 100%);
-  top:calc(581.1813 / 960 * 100%);
-  width:calc(190.2828 / 1600 * 100%);
+  left:calc(294.6228 / 440 * 100%);
+  top:calc(418.2931 / 772 * 100%);
+  width:calc(89.0067 / 440 * 100%);
    z-index: 1003;
 }
 
 .catelier-mood-02 {
   position:absolute;
-  left:calc(1066.7109 / 1600 * 100%);
-  top:calc(581.1813 / 960 * 100%);
-  width:calc(151.1328 / 1600 * 100%);
+  left:calc(21.9285 / 440 * 100%);
+  top:calc(251.1944 / 772 * 100%);
+  width:calc(70.6939 / 440 * 100%);
    z-index: 1003;
 }
 
 .catelier-mood-03 {
   position:absolute;
-  left:calc(775.2681 / 1600 * 100%);
-  top:calc(478.1727 / 960 * 100%);
-  width:calc(262.8061 / 1600 * 100%);
+  left:calc(295.1413 / 440 * 100%);
+  top:calc(244.8995 / 772 * 100%);
+  width:calc(122.9302 / 440 * 100%);
    z-index: 1003;
 }
 
 .catelier-mood-04 {
   position:absolute;
-  left:calc(556.0071 / 1600 * 100%);
-  top:calc(92.6902 / 960 * 100%);
-  width:calc(190.6242 / 1600 * 100%);
+  left:calc(192.5798 / 440 * 100%);
+  top:calc(64.5862 / 772 * 100%);
+  width:calc(89.1664 / 440 * 100%);
    z-index: 1003;
 }
 
 .catelier-mood-05 {
   position:absolute;
-  left:calc(242.0904 / 1600 * 100%);
-  top:calc(55 / 960 * 100%);
-  width:calc(285.2799 / 1600 * 100%);
+  left:calc(45.7422 / 440 * 100%);
+  top:calc(46.9562 / 772 * 100%);
+  width:calc(133.4425 / 440 * 100%);
    z-index: 1003;
 }
 
 .catelier-mood-06 {
   position:absolute;
-  left:calc(366.6182 / 1600 * 100%);
-  top:calc(334.98 / 960 * 100%);
-  width:calc(380.0131 / 1600 * 100%);
+  left:calc(103.9913 / 440 * 100%);
+  top:calc(177.7549 / 772 * 100%);
+  width:calc(177.9196 / 440 * 100%);
    z-index: 1002;
 }
 
 .catelier-mood-07 {
   position:absolute;
-  left:calc(991.9703 / 1600 * 100%);
-  top:calc(34.9841 / 960 * 100%);
-  width:calc(420.4122 / 1600 * 100%);
+  left:calc(80.8587 / 440 * 100%);
+  top:calc(457.6179 / 772 * 100%);
+  width:calc(196.652 / 440 * 100%);
    z-index: 1003;
 }
 
 .catelier-mood-08 {
   position:absolute;
-  left:calc(775.2681 / 1600 * 100%);
-  top:calc(191.8831 / 960 * 100%);
-  width:calc(188.0655 / 1600 * 100%);
+  left:calc(295.1413 / 440 * 100%);
+  top:calc(110.9846 / 772 * 100%);
+  width:calc(87.9695 / 440 * 100%);
    z-index: 1003;
 }
 
 .catelier-mood-outline {
   position:absolute;
-  left:calc(242.0904 / 1600 * 100%);
-  top:calc(55 / 960 * 100%);
-  width:calc(1195.8192 / 1600 * 100%);
+  left:calc(0.0904 / 440 * 100%);
+  top:calc(0 / 772 * 100%);
+  width:calc(1195.0 / 440 * 100%);
+   z-index: 1004;
+  pointer-events:none;
+}
+
+.catelier-mood-outline-mobile {
+  position:absolute;
+  left:calc(45.7422 / 440 * 100%);
+  top:calc(46.9562 / 772 * 100%);
+  width:calc(249.3992 / 440 * 100%);
    z-index: 1004;
   pointer-events:none;
 }
@@ -371,41 +404,64 @@ SKETCH
 =================
 */
 
+.catelier-sketches {
+  aspect-ratio: 440 / 772;
+  margin: 0 auto;
+  padding: 64px;
+  position: relative;
+  overflow: hidden;
+}
+
+.catelier-sketch-canvas {
+  aspect-ratio: 440 / 772;
+  position: absolute;
+  left: 0;
+  top: calc(25 / 772 * 100%);
+  width: 100%;
+}
+
+.catelier-sketch-canvas img{
+  height:auto;
+  mix-blend-mode:multiply;
+  position: absolute;
+}
+
+
 .catelier-sketch-01 {
   position:absolute;
-  left:calc(1204.2286 / 1600 * 100%);
-  top:calc(236.4244 / 960 * 100%);
-  width:calc(191.5939 / 1600 * 100%);
+  left:calc(203.8697 / 440 * 100%);
+  top:calc(373.8602 / 772 * 100%);
+  width:calc(110.0451 / 440 * 100%);
 }
 .catelier-sketch-02 {
   position:absolute;
-  left:calc(783.1428 / 1600 * 100%);
-  top:calc(254.5426 / 960 * 100%);
-  width:calc(159.5294 / 1600 * 100%);
+  left:calc(307.8703 / 440 * 100%);
+  top:calc(191.9822 / 772 * 100%);
+  width:calc(110.0451 / 440 * 100%);
 }
 .catelier-sketch-03 {
   position:absolute;
-  left:calc(972.3427 / 1600 * 100%);
-  top:calc(254.063 / 960 * 100%);
-  width:calc(151.2246 / 1600 * 100%);
+  left:calc(211.264 / 440 * 100%);
+  top:calc(81.6541 / 772 * 100%);
+  width:calc(110.0451 / 440 * 100%);
 }
 .catelier-sketch-04 {
   position:absolute;
-  left:calc(579.4909 / 1600 * 100%);
-  top:calc(253.404 / 960 * 100%);
-  width:calc(173.9814 / 1600 * 100%);
+  left:calc(112.8386 / 440 * 100%);
+  top:calc(210.4332/ 772 * 100%);
+  width:calc(110.0451 / 440 * 100%);
 }
 .catelier-sketch-05 {
   position:absolute;
-  left:calc(390.4584 / 1600 * 100%);
-  top:calc(253.404 / 960 * 100%);
-  width:calc(159.362 / 1600 * 100%);
+  left:calc(38.819 / 440 * 100%);
+  top:calc(59.4203 / 772 * 100%);
+  width:calc(110.0451 / 440 * 100%);
 }
 .catelier-sketch-06 {
   position:absolute;
-  left:calc(204.1774 / 1600 * 100%);
-  top:calc(252.3628 / 960 * 100%);
-  width:calc(156.6104 / 1600 * 100%);
+  left:calc(11 / 440 * 100%);
+  top:calc(373.8602 / 772 * 100%);
+  width:calc(110.0451 / 440 * 100%);
 }
 
 /*
@@ -414,46 +470,70 @@ SAMPLES
 =================
 */
 
+
+.catelier-samples {
+  aspect-ratio: 440 / 772;
+  margin: 0 auto;
+  padding: 64px;
+  position: relative;
+  overflow: hidden;
+}
+
+.catelier-sample-canvas {
+  aspect-ratio: 440 / 772;
+  position: absolute;
+  left: 0;
+  top: calc(25 / 772 * 100%);
+  width: 100%;
+}
+
+.catelier-sample-canvas img{
+  height:auto;
+  mix-blend-mode:multiply;
+  position: absolute;
+}
+
+
 .catelier-sample-01 {
   position:absolute;
-  left:calc(237.6498 / 1600 * 100%);
-  top:calc(69.9213 / 960 * 100%);
-  width:calc(212.8129 / 1600 * 100%);
+  left:calc(237.6498 / 440 * 100%);
+  top:calc(69.9213 / 772 * 100%);
+  width:calc(212.8129 / 440 * 100%);
 }
 
 .catelier-sample-02 {
   position:absolute;
-  left:calc(494.5332 / 1600 * 100%);
-  top:calc(69.9213 / 960 * 100%);
-  width:calc(212.8129 / 1600 * 100%);
+  left:calc(494.5332 / 440 * 100%);
+  top:calc(69.9213 / 772 * 100%);
+  width:calc(212.8129 / 440 * 100%);
 }
 
 .catelier-sample-03 {
   position:absolute;
-  left:calc(751.4556 / 1600 * 100%);
-  top:calc(69.9213 / 960 * 100%);
-  width:calc(359.2673 / 1600 * 100%);
+  left:calc(751.4556 / 440 * 100%);
+  top:calc(69.9213 / 772 * 100%);
+  width:calc(359.2673 / 440 * 100%);
 }
 
 .catelier-sample-04 {
   position:absolute;
-  left:calc(1154.8325 / 1600 * 100%);
-  top:calc(73.009 / 960 * 100%);
-  width:calc(238.0539 / 1600 * 100%);
+  left:calc(1154.8325 / 440 * 100%);
+  top:calc(73.009 / 772 * 100%);
+  width:calc(238.0539 / 440 * 100%);
 }
 
 .catelier-sample-05 {
   position:absolute;
-  left:calc(207.1137 / 1600 * 100%);
-  top:calc(481.4782 / 960 * 100%);
-  width:calc(201.7469 / 1600 * 100%);
+  left:calc(207.1137 / 440 * 100%);
+  top:calc(481.4782 / 772 * 100%);
+  width:calc(201.7469 / 440 * 100%);
 }
 
 .catelier-sample-06 {
   position:absolute;
-  left:calc(454.1652 / 1600 * 100%);
-  top:calc(483.569 / 960 * 100%);
-  width:calc(253.1809 / 1600 * 100%);
+  left:calc(454.1652 / 440 * 100%);
+  top:calc(483.569 / 772 * 100%);
+  width:calc(253.1809 / 440 * 100%);
 }
 
 /*
@@ -462,81 +542,103 @@ PROCESS
 =================
 */
 
+.catelier-process {
+  aspect-ratio: 440 / 772;
+  margin: 0 auto;
+  padding: 64px;
+  position: relative;
+  overflow: hidden;
+}
+
+.catelier-process-canvas {
+  aspect-ratio: 440 / 772;
+  position: absolute;
+  left: 0;
+  top: calc(25 / 772 * 100%);
+  width: 100%;
+}
+
+.catelier-process-canvas img{
+  height:auto;
+  mix-blend-mode:multiply;
+  position: absolute;
+}
+
 .catelier-process-01 {
   position:absolute;
-  left:calc(1262.2524 / 1600 * 100%);
-  top:calc(174.1117 / 960 * 100%);
-  width:calc(237.7317 / 1600 * 100%);
+  left:calc(1262.2524 / 440 * 100%);
+  top:calc(174.1117 / 772 * 100%);
+  width:calc(237.7317 / 440 * 100%);
 }
 
 .catelier-process-02 {
   position:absolute;
-  left:calc(1044.1539 / 1600 * 100%);
-  top:calc(545.4123 / 960 * 100%);
-  width:calc(191.9667 / 1600 * 100%);
+  left:calc(1044.1539 / 440 * 100%);
+  top:calc(545.4123 / 772 * 100%);
+  width:calc(191.9667 / 440 * 100%);
 }
 
 .catelier-process-03 {
   position:absolute;
-  left:calc(750.8288 / 1600 * 100%);
-  top:calc(104.6927 / 960 * 100%);
-  width:calc(267.1933 / 1600 * 100%);
+  left:calc(750.8288 / 440 * 100%);
+  top:calc(104.6927 / 772 * 100%);
+  width:calc(267.1933 / 440 * 100%);
 }
 
 .catelier-process-04 {
   position:absolute;
-  left:calc(1262.2524 / 1600 * 100%);
-  top:calc(467.9468 / 960 * 100%);
-  width:calc(237.7317 / 1600 * 100%);
+  left:calc(1262.2524 / 440 * 100%);
+  top:calc(467.9468 / 772 * 100%);
+  width:calc(237.7317 / 440 * 100%);
 }
 
 .catelier-process-05 {
   position:absolute;
-  left:calc(750.8288 / 1600 * 100%);
-  top:calc(312.5267 / 960 * 100%);
-  width:calc(267.1933 / 1600 * 100%);
+  left:calc(750.8288 / 440 * 100%);
+  top:calc(312.5267 / 772 * 100%);
+  width:calc(267.1933 / 440 * 100%);
 }
 
 .catelier-process-06 {
   position:absolute;
-  left:calc(1044.1539 / 1600 * 100%);
-  top:calc(178.0064 / 960 * 100%);
-  width:calc(191.9667 / 1600 * 100%);
+  left:calc(1044.1539 / 440 * 100%);
+  top:calc(178.0064 / 772 * 100%);
+  width:calc(191.9667 / 440 * 100%);
 }
 
 .catelier-process-07 {
   position:absolute;
-  left:calc(477.3161 / 1600 * 100%);
-  top:calc(132.4775 / 960 * 100%);
-  width:calc(247.3809 / 1600 * 100%);
+  left:calc(477.3161 / 440 * 100%);
+  top:calc(132.4775 / 772 * 100%);
+  width:calc(247.3809 / 440 * 100%);
 }
 
 .catelier-process-08 {
   position:absolute;
-  left:calc(180.7195 / 1600 * 100%);
-  top:calc(564.1538 / 960 * 100%);
-  width:calc(270.4648 / 1600 * 100%);
+  left:calc(180.7195 / 440 * 100%);
+  top:calc(564.1538 / 772 * 100%);
+  width:calc(270.4648 / 440 * 100%);
 }
 
 .catelier-process-09 {
   position:absolute;
-  left:calc(477.3161 / 1600 * 100%);
-  top:calc(492.4269 / 960 * 100%);
-  width:calc(247.3809 / 1600 * 100%);
+  left:calc(477.3161 / 440 * 100%);
+  top:calc(492.4269 / 772 * 100%);
+  width:calc(247.3809 / 440 * 100%);
 }
 
 .catelier-process-10 {
   position:absolute;
-  left:calc(180.0158 / 1600 * 100%);
-  top:calc(111.7457 / 960 * 100%);
-  width:calc(271.1685 / 1600 * 100%);
+  left:calc(180.0158 / 440 * 100%);
+  top:calc(111.7457 / 772 * 100%);
+  width:calc(271.1685 / 440 * 100%);
 }
 
 .catelier-process-11 {
   position:absolute;
-  left:calc(750.8288 / 1600 * 100%);
-  top:calc(509.9889 / 960 * 100%);
-  width:calc(267.1933 / 1600 * 100%);
+  left:calc(750.8288 / 440 * 100%);
+  top:calc(509.9889 / 772 * 100%);
+  width:calc(267.1933 / 440 * 100%);
 }
 
 /*
@@ -545,10 +647,32 @@ MUSEUM
 =================
 */
 
+.catelier-museum {
+  aspect-ratio: 440 / 772;
+  margin: 0 auto;
+  padding: 64px;
+  position: relative;
+  overflow: hidden;
+}
+
+.catelier-museum-canvas {
+  aspect-ratio: 440 / 772;
+  position: absolute;
+  left: 0;
+  top: calc(25 / 772 * 100%);
+  width: 100%;
+}
+
+.catelier-museum-canvas img{
+  height:auto;
+  mix-blend-mode:multiply;
+  position: absolute;
+}
+
 .catelier-museum-01 {
   position:absolute;
   left:calc(840.8641 / 1680 * 100%);
-  top:calc(395.1194 / 960 * 100%);
+  top:calc(395.1194 / 772 * 100%);
   width:calc(132.2904 / 1680 * 100%);
   transform: rotate(90deg)
 }
@@ -556,7 +680,7 @@ MUSEUM
 .catelier-museum-02 {
   position:absolute;
   left:calc(582.477 / 1680 * 100%);
-  top:calc(534.8545 / 960 * 100%);
+  top:calc(534.8545 / 772 * 100%);
   width:calc(202.5394 / 1680 * 100%);
   transform: rotate(90deg)
 }
@@ -564,49 +688,49 @@ MUSEUM
 .catelier-museum-03 {
   position:absolute;
   left:calc(1031.176 / 1680 * 100%);
-  top:calc(478.7309 / 960 * 100%);
+  top:calc(478.7309 / 772 * 100%);
   width:calc(234.2372 / 1680 * 100%);
 }
 
 .catelier-museum-04 {
   position:absolute;
   left:calc(1031.1759 / 1680 * 100%);
-  top:calc(135.4166 / 960 * 100%);
+  top:calc(135.4166 / 772 * 100%);
   width:calc(440.4426 / 1680 * 100%);
 }
 
 .catelier-museum-05 {
   position:absolute;
   left:calc(139.203 / 1680 * 100%);
-  top:calc(178.6564 / 960 * 100%);
+  top:calc(178.6564 / 772 * 100%);
   width:calc(367.6968 / 1680 * 100%);
 }
 
 .catelier-museum-06 {
   position:absolute;
   left:calc(807.8425 / 1680 * 100%);
-  top:calc(105.7934 / 960 * 100%);
+  top:calc(105.7934 / 772 * 100%);
   width:calc(198.3334 / 1680 * 100%);
 }
 
 .catelier-museum-07 {
   position:absolute;
   left:calc(860.5931 / 1680 * 100%);
-  top:calc(585.4306 / 960 * 100%);
+  top:calc(585.4306 / 772 * 100%);
   width:calc(145.5829 / 1680 * 100%);
 }
 
 .catelier-museum-08 {
   position:absolute;
   left:calc(531.8997 / 1680 * 100%);
-  top:calc(184.215 / 960 * 100%);
+  top:calc(184.215 / 772 * 100%);
   width:calc(250.9427 / 1680 * 100%);
 }
 
 .catelier-museum-09 {
   position:absolute;
   left:calc(1290.4132 / 1680 * 100%);
-  top:calc(478.7309 / 960 * 100%);
+  top:calc(478.7309 / 772 * 100%);
   width:calc(250.3838 / 1680 * 100%);
 }
 
@@ -873,7 +997,7 @@ MUSEUM
 
 
 /* CATELIER PORTRAIT OPENING
-   Preserve the 1600 x 880 composition and scale it with the viewport. */
+   Preserve the 440 x 880 composition and scale it with the viewport. */
 @media (orientation: portrait) {
   body {
     text-size-adjust:none;
@@ -884,7 +1008,7 @@ MUSEUM
     width:100%;
     max-width:var(--catelier-max-width);
     min-height:0;
-    aspect-ratio:1600 / 880;
+    aspect-ratio:440 / 880;
     padding:0;
     display:block;
     position:relative;
@@ -893,15 +1017,15 @@ MUSEUM
 
   .catelier-statement {
     position:absolute;
-    left:calc(80 / 1600 * 100%);
+    left:calc(80 / 440 * 100%);
     top:calc(82 / 880 * 100%);
-    width:calc(880 / 1600 * 100%);
+    width:calc(880 / 440 * 100%);
   }
 
   .catelier-opening-statement,
   .catelier-opening-statement-02 {
     margin:0;
-    font-size:clamp(12px, calc(39 / 1600 * min(100vw, var(--catelier-max-width))), 39px);
+    font-size:clamp(12px, calc(39 / 440 * min(100vw, var(--catelier-max-width))), 39px);
     line-height:1.15;
   }
 
@@ -917,9 +1041,9 @@ MUSEUM
 
   .catelier-statement-image {
     position:absolute;
-    left:calc(1040 / 1600 * 100%);
+    left:calc(1040 / 440 * 100%);
     top:calc(105 / 880 * 100%);
-    width:calc(470 / 1600 * 100%);
+    width:calc(470 / 440 * 100%);
     max-height:calc(700 / 880 * 100%);
     margin:0;
     object-fit:contain;
