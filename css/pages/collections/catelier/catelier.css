@@ -127,7 +127,7 @@ Artboard: 1600 x 960
 .catelier-moodboard-canvas {
   position:absolute;
   left:0;
-  top:25px;
+  top:0px;
   width:100%;
   height:960px;
 }
@@ -243,7 +243,7 @@ Artboard: 1600 x 960
 .catelier-sketch-canvas {
   position:absolute;
   left:0;
-  top:25px;
+  top:0px;
   width:100%;
   height:960px;
 }
@@ -322,7 +322,7 @@ Artboard: 1600 x 960
 .catelier-sample-canvas {
   position:absolute;
   left:0;
-  top:25px;
+  top:0px;
   width:100%;
   height:960px;
 }
@@ -405,7 +405,7 @@ Artboard: 1600 x 960
 .catelier-process-canvas {
   position:absolute;
   left:0;
-  top:25px;
+  top:0px;
   width:100%;
   height:960px;
 }
@@ -524,7 +524,7 @@ Artboard: 1600 x 960
   .catelier-museum-canvas {
     position:absolute;
     left:0;
-    top:25px;
+    top:0px;
     width:100%;
     height:960px;
   }
