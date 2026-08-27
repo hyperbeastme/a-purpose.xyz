@@ -101,44 +101,6 @@ main {
    ========================================================= */
 
 
-/* =========================================================
-   HAMBURGER OPEN STATE
-   Changes the three lines into an X
-   ========================================================= */
-
-
-/* =========================================================
-   MOBILE DROPDOWN MENU
-   ========================================================= */
-
-
-/* =========================================================
-   HEADER LINKS
-   ========================================================= */
-
-
-/* =========================================================
-   ACCESSIBILITY
-   ========================================================= */
-
-/* =========================================================
-   PART 2
-   SHARED ARTBOARDS, LANDING AND ETERNAL BONDS
-
-   Illustrator artboard: 440 × 956px
-
-   Landing and existing Eternal Bonds values are preserved.
-   ========================================================= */
-
-
-/* =========================================================
-   CATELIER PROJECT: desktop composition scaled responsively
-   ========================================================= */
-
-:root {
-  --catelier-museum-max-width:var(--catelier-max-width);
-}
-
 /* CATELIER PROJECT: independent Illustrator section artboards */
 
 .catelier-opening{
@@ -201,7 +163,6 @@ main {
   overflow:hidden;
 }
 
-.catelier-opening h2,
 .catelier-mood h2,
 .catelier-sketches h2,
 .catelier-samples h2,
