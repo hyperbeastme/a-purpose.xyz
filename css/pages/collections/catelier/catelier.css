@@ -210,6 +210,14 @@ Artboard: 1600 x 960
    z-index: 1004;
 }
 
+.catelier-mood-outline-mobile {
+  position:absolute;
+  left:calc(0 / 1680 * 100%);
+  top:calc(0 / 960 * 100%);
+  width:calc(0 / 1680 * 100%);
+   z-index: 1004;
+}
+
 /* 
 =========================================================
 SKETCHES
