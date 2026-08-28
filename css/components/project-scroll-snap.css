@@ -10,8 +10,13 @@ main > section {
   scroll-snap-stop:always;
 }
 
-.catelier-page main > section {
+.catelier-page main > section:not(.catelier-next-project) {
   scroll-snap-align:start;
+}
+
+.catelier-page main > .catelier-next-project {
+  scroll-snap-align:none;
+  scroll-snap-stop:normal;
 }
 
 @media screen and (max-width:767px),
