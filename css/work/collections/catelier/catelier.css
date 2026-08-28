@@ -5,7 +5,7 @@
   --section-height:960px;
   --opening-height:850px;
   --canvas-top:calc(0 / 960 * 100%);
-  --canvas-height:calc(960 / 960 * 100%);
+  --canvas-height:960px;
   --black:#000;
   --white:#fff;
   --gray:#888;
