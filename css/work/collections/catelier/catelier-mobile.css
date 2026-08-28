@@ -147,7 +147,7 @@ main {
   width:100%;
   max-width:var(--catelier-museum-max-width);
   min-height:0;
-  aspect-ratio:1680 / 772;
+  aspect-ratio:440 / 772;
   margin:0 auto;
   position:relative;
   overflow:hidden;
@@ -606,74 +606,74 @@ MUSEUM
 
 .catelier-museum-01 {
   position:absolute;
-  left:calc(329.0213 / 1680 * 100%);
+  left:calc(329.0213 / 440 * 100%);
   top:calc(88.283 / 772 * 100%);
-  width:calc(95.7421 / 1680 * 100%);
+  width:calc(95.7421 / 440 * 100%);
   transform: rotate(90deg)
 }
 
 .catelier-museum-02 {
   position:absolute;
-  left:calc(199.7471 / 1680 * 100%);
+  left:calc(199.7471 / 440 * 100%);
   top:calc(595.7999 / 772 * 100%);
-  width:calc(113.987 / 1680 * 100%);
+  width:calc(113.987 / 440 * 100%);
   transform: rotate(90deg)
 }
 
 .catelier-museum-03 {
   position:absolute;
-  left:calc(13.9204 / 1680 * 100%);
+  left:calc(13.9204 / 440 * 100%);
   top:calc(398.2392 / 772 * 100%);
-  width:calc(175.5492 / 1680 * 100%);
+  width:calc(175.5492 / 440 * 100%);
 }
 
 .catelier-museum-04 {
   position:absolute;
-  left:calc(199.4697 / 1680 * 100%);
+  left:calc(199.4697 / 440 * 100%);
   top:calc(473.4272 / 772 * 100%);
-  width:calc(155.487 / 1680 * 100%);
+  width:calc(155.487 / 440 * 100%);
 }
 
 .catelier-museum-05 {
   position:absolute;
-  left:calc(13.9204 / 1680 * 100%);
+  left:calc(13.9204 / 440 * 100%);
   top:calc(102.6427 / 772 * 100%);
-  width:calc(175.5492 / 1680 * 100%);
+  width:calc(175.5492 / 440 * 100%);
 }
 
 .catelier-museum-06 {
   position:absolute;
-  left:calc(329.0213 / 1680 * 100%);
+  left:calc(329.0213 / 440 * 100%);
   top:calc(317.9147 / 772 * 100%);
-  width:calc(97.0583 / 1680 * 100%);
+  width:calc(97.0583 / 440 * 100%);
 }
 
 .catelier-museum-07 {
   position:absolute;
-  left:calc(199.7471 / 1680 * 100%);
+  left:calc(199.7471 / 440 * 100%);
   top:calc(283.788 / 772 * 100%);
-  width:calc(119.8074 / 1680 * 100%);
+  width:calc(119.8074 / 440 * 100%);
 }
 
 .catelier-museum-08 {
   position:absolute;
-  left:calc(199.7471 / 1680 * 100%);
+  left:calc(199.7471 / 440 * 100%);
   top:calc(94.1717 / 772 * 100%);
-  width:calc(119.8074 / 1680 * 100%);
+  width:calc(119.8074 / 440 * 100%);
 }
 
 .catelier-museum-09 {
   position:absolute;
-  left:calc(199.4697 / 1680 * 100%);
+  left:calc(199.4697 / 440 * 100%);
   top:calc(473.4272 / 772 * 100%);
-  width:calc(155.487 / 1680 * 100%);
+  width:calc(155.487 / 440 * 100%);
 }
 
 .project-photography-credit {
   position:static;
   display:block;
   clear:both;
-  width:1680px;
+  width:440px;
   max-width:100%;
   margin:0 auto;
   padding:24px 80px 0;
