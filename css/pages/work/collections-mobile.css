@@ -34,19 +34,21 @@ body {
   overflow:hidden;
 }
 
-.collection-directory-link {
+.collection-directory > a {
   position:absolute;
   display:block;
   text-decoration:none;
+  will-change:transform;
 }
 
-.collection-directory-link img {
+.collection-directory > a img {
   display:block;
   width:100%;
   height:auto;
+  pointer-events:none;
 }
 
-.collection-deternal {
+.collection-eternal {
   left:41px;
   top:350px;
   width:191px;
