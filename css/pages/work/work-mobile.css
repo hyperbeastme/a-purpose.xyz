@@ -49,6 +49,8 @@ body {
   line-height:1;
   text-align:center;
   text-decoration:none;
+  background:var(--white);
+  transition:background-color 240ms ease, color 240ms ease;
 }
 
 .work-directory-link:visited,
@@ -58,8 +60,14 @@ body {
   text-decoration:none;
 }
 
+.work-directory-link:hover,
 .work-directory-link:focus-visible {
-  outline:2px solid currentColor;
+  background:var(--black);
+  color:var(--white);
+}
+
+.work-directory-link:focus-visible {
+  outline:2px solid var(--white);
   outline-offset:-12px;
 }
 
