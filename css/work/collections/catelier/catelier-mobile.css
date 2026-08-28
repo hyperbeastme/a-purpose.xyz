@@ -202,7 +202,7 @@ main {
 
 .catelier-opening-statement {
   margin:0;
-  font-size:calc(18 / 440 * min(100vw,var(--catelier-max-width)));
+  font-size:calc(25 / 440 * min(100vw,var(--catelier-max-width)));
   font-weight:200;
   font-style:italic;
   line-height:1.18;
@@ -210,7 +210,7 @@ main {
 
 .catelier-opening-statement-02 {
   margin:0;
-  font-size:calc(18 / 440 * min(100vw,var(--catelier-max-width)));
+  font-size:calc(25 / 440 * min(100vw,var(--catelier-max-width)));
   font-weight:200;
   font-style:italic;
   line-height:1.18;
@@ -219,7 +219,7 @@ main {
 .catelier-statement-image {
   left:calc(147.6922 / 440 * 100%);
   top:calc(17.5461 / 732 * 100%);
-  width:calc(144.6157 / 440 * 100%);
+  width:calc(156.8055 / 440 * 100%);
   max-height:100%;
   position: absolute;
 }
