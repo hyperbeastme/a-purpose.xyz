@@ -10,6 +10,10 @@ main > section {
   scroll-snap-stop:always;
 }
 
+.catelier-page main > section {
+  scroll-snap-align:start;
+}
+
 @media screen and (max-width:767px),
        screen and (orientation:landscape) and (max-height:500px) {
   html {
