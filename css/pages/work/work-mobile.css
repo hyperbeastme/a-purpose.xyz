@@ -1,0 +1,135 @@
+* {
+  box-sizing:border-box;
+}
+
+:root {
+  --black:#000;
+  --white:#fff;
+  --header-height:64px;
+}
+
+html,
+body {
+  margin:0;
+  min-height:100%;
+}
+
+body {
+  background:var(--white);
+  color:var(--black);
+  font-family:"futura-pt-condensed", sans-serif;
+}
+
+.work-directory-page {
+  padding-top:var(--header-height);
+}
+
+.work-directory {
+  width:100%;
+  height:auto;
+  margin:0 auto;
+  padding:20px;
+  display:grid;
+  grid-template-columns:1fr;
+  gap:20px;
+}
+
+.work-directory-link {
+  position:static;
+  width:100%;
+  height:auto;
+  aspect-ratio:1;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:var(--black);
+  font-size:clamp(42px, 14vw, 64px);
+  font-style:italic;
+  font-weight:400;
+  line-height:1;
+  text-align:center;
+  text-decoration:none;
+}
+
+.work-directory-link:visited,
+.work-directory-link:hover,
+.work-directory-link:active {
+  color:var(--black);
+  text-decoration:none;
+}
+
+.work-directory-link:focus-visible {
+  outline:2px solid currentColor;
+  outline-offset:-12px;
+}
+
+.footer {
+  width:100%;
+  min-height:360px;
+  margin:0 auto;
+  padding:48px var(--page-margin, 20px) 28px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-end;
+  gap:42px;
+  color:var(--gray, #777);
+}
+
+.footer::before {
+  display:none;
+}
+
+.footer-main {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:center;
+  gap:16px;
+}
+
+.footer-divider {
+  width:1px;
+  height:28px;
+  background:currentColor;
+}
+
+.footer-social,
+.footer-social img {
+  width:28px;
+  height:28px;
+}
+
+.footer-name,
+.footer-email {
+  font-size:22px;
+  white-space:nowrap;
+}
+
+.footer-copyright {
+  margin:0;
+  font-size:20px;
+}
+
+.image-lightbox[hidden] {
+  display:none;
+}
+
+.image-lightbox {
+  position:fixed;
+  inset:0;
+  z-index:10000;
+  padding:24px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:rgb(255 255 255 / 96%);
+}
+
+.image-lightbox-image {
+  width:auto;
+  height:auto;
+  max-width:calc(100vw - 48px);
+  max-height:calc(100vh - 48px);
+  object-fit:contain;
+}
