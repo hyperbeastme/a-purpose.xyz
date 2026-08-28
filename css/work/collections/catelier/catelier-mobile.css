@@ -197,7 +197,6 @@ main {
   position:absolute;
   left:calc(81.6359 / 440 * 100%);
   top:calc(275.138 / 732 * 100%);
-  width:calc(345.7805 / 440 * 100%);
 }
 
 .catelier-opening-statement {
