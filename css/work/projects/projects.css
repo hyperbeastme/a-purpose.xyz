@@ -54,21 +54,6 @@ a.project-index-link::before {
   top:calc(62.5918 / 1650 * 100%);
   font-size:61px;
 }
-.project-index-eternal {
-  left:calc(821.1372  / 1680 * 100%);
-  top:calc(234.689 / 1650 * 100%);
-  font-size:61px;
-}
-.project-index-catelier {
-  left:calc(1337.7998  / 1680 * 100%);
-  top:calc(406.7861 / 1650 * 100%);
-  font-size:61px;
-}
-.project-index-reflections {
-  left:calc(132.2554  / 1680 * 100%);
-  top:calc(578.8833 / 1650 * 100%);
-  font-size:61px;
-}
 .project-index-free-cutting {
   left:calc(304.4756  / 1680 * 100%);
   top:calc(750.9805 / 1650 * 100%);
