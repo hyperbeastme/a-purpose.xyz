@@ -1,6 +1,6 @@
 (() => {
   const board = document.querySelector(".collection-directory");
-  const links = Array.from(document.querySelectorAll(".collection-directory-link"));
+  const links = board ? Array.from(board.querySelectorAll(":scope > a")) : [];
 
   if (!board || links.length === 0 || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     return;
@@ -21,15 +21,19 @@
     paused:false
   }));
 
-  const setPaused = (item, paused) => {
-    item.paused = paused;
-  };
-
   items.forEach((item) => {
-    item.link.addEventListener("pointerenter", () => setPaused(item, true));
-    item.link.addEventListener("pointerleave", () => setPaused(item, false));
-    item.link.addEventListener("focusin", () => setPaused(item, true));
-    item.link.addEventListener("focusout", () => setPaused(item, false));
+    item.link.addEventListener("pointerenter", () => {
+      item.paused = true;
+    });
+    item.link.addEventListener("pointerleave", () => {
+      item.paused = false;
+    });
+    item.link.addEventListener("focusin", () => {
+      item.paused = true;
+    });
+    item.link.addEventListener("focusout", () => {
+      item.paused = false;
+    });
   });
 
   let previousTime = performance.now();
@@ -37,7 +41,6 @@
   const animate = (time) => {
     const elapsed = Math.min(time - previousTime, 32);
     previousTime = time;
-
     const boardRect = board.getBoundingClientRect();
 
     items.forEach((item) => {
