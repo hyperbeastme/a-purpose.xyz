@@ -162,7 +162,6 @@ Artboard: 1600 x 960
   position: absolute;
   height: auto;
   margin: 0;
-  mix-blend-mode: multiply;
 }
 
 .catelier-mood-01 {
@@ -287,6 +286,7 @@ Artboard: 1600 x 960
   position: absolute;
   height: auto;
   margin: 0;
+  mix-blend-mode: multiply;
 }
 
 .catelier-sketch-01 {
