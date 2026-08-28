@@ -952,9 +952,9 @@ MUSEUM
 
   .catelier-statement {
     position:absolute;
-    left:calc(80 / 440 * 100%);
-    top:calc(82 / 880 * 100%);
-    width:calc(880 / 440 * 100%);
+    left:calc(81.6359 / 440 * 100%);
+    top:calc(275.138 / 880 * 100%);
+    width:calc(345.7805 / 440 * 100%);
   }
 
   .catelier-opening-statement,
@@ -976,10 +976,10 @@ MUSEUM
 
   .catelier-statement-image {
     position:absolute;
-    left:calc(1040 / 440 * 100%);
-    top:calc(105 / 880 * 100%);
-    width:calc(470 / 440 * 100%);
-    max-height:calc(700 / 880 * 100%);
+    left:calc(147.6922 / 440 * 100%);
+    top:calc(17.5461 / 880 * 100%);
+    width:calc(144.6157 / 440 * 100%);
+    max-height:100%;
     margin:0;
     object-fit:contain;
   }
