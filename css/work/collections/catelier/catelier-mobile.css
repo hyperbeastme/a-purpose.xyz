@@ -198,6 +198,7 @@ main {
   font-style:oblique;
   line-height:1.28;
   position:absolute;
+  display:block;
   margin:0;
   left:calc(63.118 / 440 * 100%);
   top:calc(272.6977 / 732 * 100%);
