@@ -1,17 +1,6 @@
-/* =========================================================
-   PART 1
-   VARIABLES, RESET, MAIN, HEADER AND MOBILE MENU
-
-   Illustrator artboard: 440 × 956px
-   Side margins: 22px
-   Content width: 420px
-   ========================================================= */
-
-
-/* =========================================================
-   VARIABLES
-   ========================================================= */
-
+/* Catelier responsive project layout.
+   Composition controls follow the same section/canvas structure as Eternal Bonds.
+   Mobile artboard maximum: 440px. */
 
 :root {
   --project-max-width:440px;
@@ -61,6 +50,7 @@ a:active {
   color:inherit;
   text-decoration:none;
 }
+
 
 /* =========================================================
    MAIN
