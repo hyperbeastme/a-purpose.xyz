@@ -5,7 +5,8 @@ html {
   scroll-snap-type:y mandatory;
 }
 
-main > section {
+main > section,
+main.coming-soon {
   scroll-snap-align:top;
   scroll-snap-stop:always;
 }
@@ -18,7 +19,8 @@ main > section {
     scroll-padding-top:var(--header-height);
   }
 
-  main > section[class] {
+  main > section[class],
+  main.coming-soon {
     scroll-snap-align:start;
     scroll-snap-stop:always;
     scroll-margin-top:0;
