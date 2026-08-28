@@ -30,9 +30,9 @@ body {
 
 .work-directory-link {
   position:absolute;
-  top:40px;
-  width:800px;
-  height:800px;
+  top:0;
+  width:840px;
+  height:880px;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -83,11 +83,11 @@ body {
 }
 
 .work-directory-link:first-child {
-  left:80px;
+  left:0;
 }
 
 .work-directory-link:last-child {
-  left:880px;
+  left:840px;
 }
 
 .work-directory-link:visited,
@@ -139,7 +139,7 @@ body {
 @media screen and (max-width:1679px) and (min-height:501px) {
   .work-directory {
     width:100%;
-    padding:0 4.7619%;
+    padding:0;
     display:grid;
     grid-template-columns:repeat(2, minmax(0, 1fr));
     align-items:center;
@@ -148,9 +148,11 @@ body {
   .work-directory-link,
   .work-directory-link:first-child,
   .work-directory-link:last-child {
-    position:static;
+    position:relative;
+    top:auto;
+    left:auto;
     width:100%;
-    height:auto;
-    aspect-ratio:1;
+    height:880px;
+    aspect-ratio:auto;
   }
 }
