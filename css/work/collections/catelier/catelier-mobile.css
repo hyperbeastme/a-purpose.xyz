@@ -746,67 +746,7 @@ MUSEUM
   max-width:var(--catelier-max-width)
 }
 
-.footer {
-  min-height:300px;
-  height:auto;
-  margin:80px auto 0;
-  padding:45px clamp(20px,5vw,80px) 35px;
-  position:relative;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:flex-end;
-  gap:50px
-}
 
-.footer::before {
-  content:"";
-  position:absolute;
-  top:0;left:clamp(20px,5vw,80px);
-  right:clamp(20px,5vw,80px);
-  border-top:1px solid rgba(0,0,0,.18)
-}
-
-.footer-main {
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  gap:18px;
-  flex-wrap:wrap
-}
-
-.footer-divider {
-  display:block;
-  width:2px;
-  height:40px;
-  background:#888
-}
-
-.footer-social img {
-  display:block;
-  width:32px;
-  height:32px;
-  filter:brightness(0) invert(75%)
-}
-
-.footer-copyright {
-  margin:0;
-  color:#888;
-  font-size:22px
-}
-
-.footer a,
-.footer a:visited,
-.footer a:hover,
-.footer a:active {
-  color:#888;
-  text-decoration:none
-}
-
-.footer-main .footer-name,.footer-main .footer-email {
-  font-size:18px;
-  white-space:nowrap
-}
 
 .project-photography-credit {
   margin:0 auto;
@@ -862,69 +802,6 @@ MUSEUM
   max-width:var(--catelier-max-width)
 }
 
-.footer {
-  min-height:300px;
-  height:auto;
-  margin:80px auto 0;
-  padding:45px clamp(20px,5vw,80px) 35px;
-  position:relative;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:flex-end;
-  gap:50px
-}
-
-.footer::before {
-  content:"";
-  position:absolute;
-  top:0;
-  left:clamp(20px,5vw,80px);
-  right:clamp(20px,5vw,80px);
-  border-top:1px solid rgba(0,0,0,.18)
-}
-
-.footer-main {
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  gap:18px;
-  flex-wrap:wrap
-}
-
-.footer-divider {
-  display:block;
-  width:2px;
-  height:40px;
-  background:#888
-}
-
-.footer-social img {
-  display:block;
-  width:32px;
-  height:32px;
-  filter:brightness(0) invert(75%)
-}
-
-.footer-copyright {
-  margin:0;
-  color:#888;
-  font-size:22px
-}
-
-.footer a,
-.footer a:visited,
-.footer a:hover,
-.footer a:active {
-  color:#888;
-  text-decoration:none
-}
-
-.footer-main .footer-name,
-.footer-main .footer-email {
-  font-size:18px;
-  white-space:nowrap
-}
 
 .project-photography-credit {
   margin:0 auto;
@@ -933,6 +810,64 @@ MUSEUM
   text-align:right
 }
 
+/*
+===================
+FOOTER
+===================
+*/
+
+.footer {
+  width:100%;
+  min-height:360px;
+  margin:0 auto;
+  padding:48px var(--page-margin) 28px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-end;
+  gap:42px;
+  color:var(--gray);
+}
+
+.footer::before { display:none; }
+
+.footer-main {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:center;
+  gap:16px;
+}
+
+.footer-divider { width:1px; height:28px; background:currentColor; }
+.footer-social,
+.footer-social img { width:28px; height:28px; }
+.footer-name,
+.footer-email { font-size:22px; white-space:nowrap; }
+.footer-copyright { margin:0; font-size:20px; }
+
+/* LIGHTBOX */
+
+.image-lightbox[hidden] { display:none; }
+
+.image-lightbox {
+  position:fixed;
+  inset:0;
+  z-index:10000;
+  padding:24px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:rgb(255 255 255 / 96%);
+}
+
+.image-lightbox-image {
+  width:auto;
+  height:auto;
+  max-width:calc(100vw - 48px);
+  max-height:calc(100vh - 48px);
+  object-fit:contain;
+}
 
 @media (orientation:landscape) and (max-height:500px) {
   :root { --catelier-max-width:832px; }
