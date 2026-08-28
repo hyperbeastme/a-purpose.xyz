@@ -828,7 +828,7 @@ MUSEUM
   width:100%;max-width:var(--catelier-max-width);
   min-height:clamp(260px,33vw,475px);
   margin:0 auto;
-  padding:calc(80 / 1440 * 100%);
+  padding:calc(80 / 1680 * 100%);
   display:flex;
   flex-direction:column;
   justify-content:center;
