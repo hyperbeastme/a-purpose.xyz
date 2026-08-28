@@ -958,9 +958,15 @@ MUSEUM
 
   .catelier-statement {
     position:absolute;
-    left:calc(81.6359 / 440 * 100%);
-    top:calc(275.138 / 880 * 100%);
-    width:calc(345.7805 / 440 * 100%);
+    left:calc(57.5 / 440 * 100%);
+    top:calc(266.2549 / 880 * 100%);
+    width:calc(325 / 440 * 100%);
+    height:calc(440 / 880 * 100%);
+    padding:
+      calc(6.4423 / 440 * min(100vw, var(--catelier-max-width)))
+      calc(4.4373 / 440 * min(100vw, var(--catelier-max-width)))
+      0;
+    text-align:center;
   }
 
   .catelier-opening-statement,
