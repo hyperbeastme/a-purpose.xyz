@@ -399,14 +399,14 @@ Artboard: 1600 x 960
 .catelier-sample-05 {
   position:absolute;
   left:calc(272.1574 / 1600 * 100%);
-  top:calc(507.9889 / 960 * 100%);
+  top:calc(517.9889 / 960 * 100%);
   width:calc(239.9401 / 1600 * 100%);
 }
 
 .catelier-sample-06 {
   position:absolute;
   left:calc(534.8 / 1600 * 100%);
-  top:calc(507.9889 / 960 * 100%);
+  top:calc(517.9889 / 960 * 100%);
   width:calc(229.9139 / 1600 * 100%);
 }
 /* =========================================================
