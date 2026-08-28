@@ -329,7 +329,7 @@ MOOD
   left:calc(45.7422 / 440 * 100%);
   top:calc(46.9562 / 772 * 100%);
   width:calc(249.3992 / 440 * 100%);
-   z-index: 1004;
+  z-index: 1001;
   pointer-events:none;
 }
 
