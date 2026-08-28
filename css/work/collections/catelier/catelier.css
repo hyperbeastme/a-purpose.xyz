@@ -91,9 +91,9 @@ Artboard: 1600 x 880
 
 .catelier-statement {
   position:absolute;
-  left:calc(278.3462 / 1600 * 100%);
+  left:calc(278.3462 / 1680 * 100%);
   top:calc(118.8672 / 880 * 100%);
-  width:calc(505.6616 / 1600 * 100%);
+  width:calc(505.6616 / 1680 * 100%);
 }
 
 .catelier-opening-statement {
@@ -103,9 +103,9 @@ Artboard: 1600 x 880
   font-style:italic;
   line-height:1.18;
   text-indent:4px;
-  left:calc(318.3462 / 1600 * 100%);
+  left:calc(318.3462 / 1680 * 100%);
   top:calc(97.6683 / 880 * 100%);
-  width:calc(505.6616 / 1600 * 100%);
+  width:calc(505.6616 / 1680 * 100%);
 }
 
 .catelier-opening-statement-02 {
@@ -115,15 +115,15 @@ Artboard: 1600 x 880
   font-style:italic;
   line-height:1.18;
   text-indent:4px;
-  left:calc(318.3462  / 1600 * 100%);
+  left:calc(318.3462  / 1680 * 100%);
   top:calc(505.5745/ 880 * 100%);
-  width:calc(505.6616 / 1600 * 100%);
+  width:calc(505.6616 / 1680 * 100%);
 }
 
 .catelier-statement-image {
-  left:calc(884.0078 / 1600 * 100%);
+  left:calc(884.0078 / 1680 * 100%);
   top:calc(95.6228 / 880 * 100%);
-  width:calc(437.646 / 1600 * 100%);
+  width:calc(437.646 / 1680 * 100%);
   max-height:880px;
   position: absolute;
 }
@@ -131,7 +131,7 @@ Artboard: 1600 x 880
 /* 
 =========================================================
 MOOD BOARD
-Artboard: 1600 x 960
+Artboard: 1680 x 960
 ========================================================= 
 */
 
@@ -255,7 +255,7 @@ Artboard: 1600 x 960
 /* 
 =========================================================
 SKETCHES
-Artboard: 1600 x 960
+Artboard: 1680 x 960
 ========================================================= 
 */
 
@@ -299,44 +299,44 @@ Artboard: 1600 x 960
 
 .catelier-sketch-01 {
   position:absolute;
-  left:calc(1206.8451 / 1600 * 100%);
+  left:calc(1206.8451 / 1680 * 100%);
   top:calc(194.6546 / 960 * 100%);
-  width:calc(266.0381 / 1600 * 100%);
+  width:calc(266.0381 / 1680 * 100%);
 }
 .catelier-sketch-02 {
   position:absolute;
-  left:calc(770.08 / 1600 * 100%);
+  left:calc(770.08 / 1680 * 100%);
   top:calc(207.6653 / 960 * 100%);
-  width:calc(266.0382 / 1600 * 100%);
+  width:calc(266.0382 / 1680 * 100%);
 }
 .catelier-sketch-03 {
   position:absolute;
-  left:calc(377.1203 / 1600 * 100%);
+  left:calc(377.1203 / 1680 * 100%);
   top:calc(210.4133 / 960 * 100%);
-  width:calc(266.0382 / 1600 * 100%);
+  width:calc(266.0382 / 1680 * 100%);
 }
 .catelier-sketch-04 {
   position:absolute;
-  left:calc(953.9351 / 1600 * 100%);
+  left:calc(953.9351 / 1680 * 100%);
   top:calc(207.6653 / 960 * 100%);
-  width:calc(266.0382 / 1600 * 100%);
+  width:calc(266.0382 / 1680 * 100%);
 }
 .catelier-sketch-05 {
   position:absolute;
-  left:calc(572.4617 / 1600 * 100%);
+  left:calc(572.4617 / 1680 * 100%);
   top:calc(207.6653 / 960 * 100%);
-  width:calc(266.0381 / 1600 * 100%);
+  width:calc(266.0381 / 1680 * 100%);
 }
 .catelier-sketch-06 {
   position:absolute;
-  left:calc(192.7668 / 1600 * 100%);
+  left:calc(192.7668 / 1680 * 100%);
   top:calc(207.6653 / 960 * 100%);
-  width:calc(266.0381 / 1600 * 100%);
+  width:calc(266.0381 / 1680 * 100%);
 }
 
 /* =========================================================
    SAMPLES
-   Artboard: 1600 x 960
+   Artboard: 1680 x 960
    ========================================================= */
 
 .catelier-samples {
@@ -378,48 +378,48 @@ Artboard: 1600 x 960
 
 .catelier-sample-01 {
   position:absolute;
-  left:calc(355.5001 / 1600 * 100%);
+  left:calc(355.5001 / 1680 * 100%);
   top:calc(141.7208 / 960 * 100%);
-  width:calc(193.2557 / 1600 * 100%);
+  width:calc(193.2557 / 1680 * 100%);
 }
 
 .catelier-sample-02 {
   position:absolute;
-  left:calc(571.4583 / 1600 * 100%);
+  left:calc(571.4583 / 1680 * 100%);
   top:calc(141.7208 / 960 * 100%);
-  width:calc(193.2557 / 1600 * 100%);
+  width:calc(193.2557 / 1680 * 100%);
 }
 
 .catelier-sample-03 {
   position:absolute;
-  left:calc(787.4164 / 1600 * 100%);
+  left:calc(787.4164 / 1680 * 100%);
   top:calc(141.7208 / 960 * 100%);
-  width:calc(326.2511 / 1600 * 100%);
+  width:calc(326.2511 / 1680 * 100%);
 }
 
 .catelier-sample-04 {
   position:absolute;
-  left:calc(1136.3701 / 1600 * 100%);
+  left:calc(1136.3701 / 1680 * 100%);
   top:calc(214.5807 / 960 * 100%);
-  width:calc(330.4051 / 1600 * 100%);
+  width:calc(330.4051 / 1680 * 100%);
 }
 
 .catelier-sample-05 {
   position:absolute;
-  left:calc(272.1574 / 1600 * 100%);
+  left:calc(272.1574 / 1680 * 100%);
   top:calc(507.9889 / 960 * 100%);
-  width:calc(239.9401 / 1600 * 100%);
+  width:calc(239.9401 / 1680 * 100%);
 }
 
 .catelier-sample-06 {
   position:absolute;
-  left:calc(534.8 / 1600 * 100%);
+  left:calc(534.8 / 1680 * 100%);
   top:calc(507.9889 / 960 * 100%);
-  width:calc(229.9139 / 1600 * 100%);
+  width:calc(229.9139 / 1680 * 100%);
 }
 /* =========================================================
    PROCESS
-   Artboard: 1600 x 960
+   Artboard: 1680 x 960
    ========================================================= */
 
 .catelier-process {
@@ -461,79 +461,79 @@ Artboard: 1600 x 960
 
 .catelier-process-01 {
   position:absolute;
-  left:calc(1259.9888 / 1600 * 100%);
+  left:calc(1259.9888 / 1680 * 100%);
   top:calc(174.1117 / 960 * 100%);
-  width:calc(237.7317 / 1600 * 100%);
+  width:calc(237.7317 / 1680 * 100%);
 }
 
 .catelier-process-02 {
   position:absolute;
-  left:calc(1043.0222 / 1600 * 100%);
+  left:calc(1043.0222 / 1680 * 100%);
   top:calc(544.2805 / 960 * 100%);
-  width:calc(191.9667 / 1600 * 100%);
+  width:calc(191.9667 / 1680 * 100%);
 }
 
 .catelier-process-03 {
   position:absolute;
-  left:calc(750.8288 / 1600 * 100%);
+  left:calc(750.8288 / 1680 * 100%);
   top:calc(105.8245 / 960 * 100%);
-  width:calc(267.1933 / 1600 * 100%);
+  width:calc(267.1933 / 1680 * 100%);
 }
 
 .catelier-process-04 {
   position:absolute;
-  left:calc(1259.9888 / 1600 * 100%);
+  left:calc(1259.9888 / 1680 * 100%);
   top:calc(466.815 / 960 * 100%);
-  width:calc(237.7317 / 1600 * 100%);
+  width:calc(237.7317 / 1680 * 100%);
 }
 
 .catelier-process-05 {
   position:absolute;
-  left:calc(750.8288 / 1600 * 100%);
+  left:calc(750.8288 / 1680 * 100%);
   top:calc(312.5267/ 960 * 100%);
-  width:calc(267.1933 / 1600 * 100%);
+  width:calc(267.1933 / 1680 * 100%);
 }
 
 .catelier-process-06 {
   position:absolute;
-  left:calc(1043.0222 / 1600 * 100%);
+  left:calc(1043.0222 / 1680 * 100%);
   top:calc(178.0064 / 960 * 100%);
-  width:calc(191.9667 / 1600 * 100%);
+  width:calc(191.9667 / 1680 * 100%);
 }
 
 .catelier-process-07 {
   position:absolute;
-  left:calc(478.4479 / 1600 * 100%);
+  left:calc(478.4479 / 1680 * 100%);
   top:calc(132.4775 / 960 * 100%);
-  width:calc(247.3809 / 1600 * 100%);
+  width:calc(247.3809 / 1680 * 100%);
 }
 
 .catelier-process-08 {
   position:absolute;
-  left:calc(182.9831 / 1600 * 100%);
+  left:calc(182.9831 / 1680 * 100%);
   top:calc(563.022 / 960 * 100%);
-  width:calc(270.4648 / 1600 * 100%);
+  width:calc(270.4648 / 1680 * 100%);
 }
 
 .catelier-process-09 {
   position:absolute;
-  left:calc(478.4479 / 1600 * 100%);
+  left:calc(478.4479 / 1680 * 100%);
   top:calc(491.2951 / 960 * 100%);
-  width:calc(247.3809 / 1600 * 100%);
+  width:calc(247.3809 / 1680 * 100%);
 }
 
 .catelier-process-10 {
   position:absolute;
-  left:calc(182.2794 / 1600 * 100%);
+  left:calc(182.2794 / 1680 * 100%);
   top:calc(111.7457 / 960 * 100%);
-  width:calc(271.1685 / 1600 * 100%);
+  width:calc(271.1685 / 1680 * 100%);
 }
 
 .catelier-process-11 {
   position:absolute;
-  left:calc(750.8288 / 1600 * 100%);
+  left:calc(750.8288 / 1680 * 100%);
   top:calc(508.8571 / 960 * 100%);
-  width:calc(267.1933 / 1600 * 100%);
+  width:calc(267.1933 / 1680 * 100%);
 }
 
 /* =========================================================
@@ -688,16 +688,6 @@ Artboard: 1600 x 960
   font-size:70px;
   line-height:1;
   text-decoration:none;
-}
-
-/* Shared section-title inset from the 1680 x 960 artboards. */
-.catelier-mood h2,
-.catelier-sketches h2,
-.catelier-samples h2,
-.catelier-process h2,
-.catelier-museum h2 {
-  left:calc(60 / 1680 * 100%);
-  top:32px;
 }
 
 /* =========================================================
