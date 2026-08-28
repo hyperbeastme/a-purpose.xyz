@@ -1,3 +1,16 @@
+:root {
+  --project-max-width:1680px;
+  --header-height:80px;
+  --page-margin:80px;
+  --section-height:930px;
+  --opening-height:850px;
+  --canvas-top:calc(118.8246 / 930 * 100%);
+  --canvas-height:calc(960 / 930 * 100%);
+  --black:#000;
+  --white:#fff;
+  --gray:#888;
+}
+
 *,
 *::before,
 *::after {
@@ -9,18 +22,31 @@ body {
   width:100%;
   max-width:100%;
   margin:0;
-  overflow-x:hidden;
+  padding:0;
 }
 
 html {
-  scroll-behavior: smooth;
+  overflow-x:hidden;
+  scroll-behavior:smooth;
 }
 
-body,
-main {
-  background:white;
-  padding:0;
+body {
+  overflow-x:clip;
+  background:var(--white);
+  color:var(--black);
   font-family:"futura-pt-condensed", sans-serif;
+}
+
+img {
+  display:block;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color:inherit;
+  text-decoration:none;
 }
 
 /* HEADER */
