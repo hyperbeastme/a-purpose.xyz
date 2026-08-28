@@ -109,7 +109,7 @@
   line-height:1;
 }
 
-.about-page .about-page-details p {
+.about-page-details p {
   margin:0;
   font-size:min(9.3065px, calc(9.3065 / 440 * 100vw));
   font-weight:400;
