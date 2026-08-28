@@ -26,19 +26,19 @@ body {
 
 .work-directory {
   width:100%;
-  height:1464px;
+  height:calc(100svh - var(--header-height));
   margin:0 auto;
   padding:0;
   display:grid;
   grid-template-columns:1fr;
-  grid-template-rows:repeat(2, 732px);
+  grid-template-rows:calc(50svh - var(--header-height)) 50svh;
   gap:0;
 }
 
 .work-directory-link {
   position:relative;
   width:100%;
-  height:732px;
+  height:100%;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -58,6 +58,10 @@ body {
 .work-directory-link span {
   position:relative;
   z-index:3;
+}
+
+.work-directory-link:first-child span {
+  transform:translateY(calc(var(--header-height) / -2));
 }
 
 .work-directory-link::before {
