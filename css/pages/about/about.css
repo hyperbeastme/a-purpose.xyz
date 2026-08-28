@@ -8,6 +8,12 @@
   --gray:#aaa;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing:border-box;
+}
+
 body.about-page {
   width:100%;
   max-width:100%;
@@ -116,7 +122,7 @@ body.about-page .about-details {
   column-gap:calc(29.738 / 517.469 * 100%);
   position:absolute;
   left:0;
-  top:calc(625.7457 / 880 * 100%);
+  top:min(37.2468vw, 625.7457px);
 }
 
 body.about-page .about-details span {
