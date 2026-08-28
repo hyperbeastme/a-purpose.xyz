@@ -2,9 +2,9 @@
   --project-max-width:1680px;
   --header-height:80px;
   --page-margin:80px;
-  --section-height:930px;
+  --section-height:960px;
   --opening-height:850px;
-  --canvas-top:calc(118.8246 / 930 * 100%);
+  --canvas-top:calc(0 / 960 * 100%);
   --canvas-height:calc(960 / 930 * 100%);
   --black:#000;
   --white:#fff;
