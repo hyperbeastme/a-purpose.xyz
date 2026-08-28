@@ -1,4 +1,4 @@
-/* ABOUT PAGE - mobile composition from about.ai (440 x 732) */
+/* ABOUT PAGE - mobile composition from about-mobile.pdf (440 x 732) */
 
 :root {
   --mobile-page-width:440px;
@@ -6,21 +6,32 @@
   --header-height:64px;
   --black:#000;
   --white:#fff;
-  --gray:#888;
+  --gray:#aaa;
 }
 
-.about-main {
+body.about-page {
+  width:100%;
+  max-width:100%;
+  min-height:100%;
+  margin:0;
+  padding:0;
+  position:static;
+  overflow-x:hidden;
+}
+
+body.about-page .about-page-main {
   width:100%;
   max-width:440px;
+  min-height:0;
   margin:0 auto;
   padding:var(--header-height) 0 0;
 }
 
-.about-intro {
+body.about-page .about-intro {
   width:100%;
   max-width:440px;
-  aspect-ratio:440 / 732;
   min-height:0;
+  aspect-ratio:440 / 732;
   margin:0 auto;
   padding:0;
   display:block;
@@ -28,98 +39,107 @@
   overflow:hidden;
 }
 
-.about-portrait {
+body.about-page .about-portrait {
   width:calc(218.2675 / 440 * 100%);
   margin:0;
   position:absolute;
-  top:calc(42.7516 / 732 * 100%);
   left:calc(110.8662 / 440 * 100%);
+  top:calc(42.7516 / 732 * 100%);
 }
 
-.about-portrait img {
+body.about-page .about-portrait img {
   display:block;
   width:100%;
   max-width:none;
+  height:auto;
   position:static;
   object-fit:fill;
 }
 
-.about-page{
+body.about-page .about-intro > .about-page {
   width:calc(283.429 / 440 * 100%);
   max-width:none;
   margin:0;
+  padding:0;
   position:absolute;
-  top:calc(350.427 / 732 * 100%);
   left:calc(85.4746 / 440 * 100%);
+  top:calc(350.427 / 732 * 100%);
 }
 
-.about-page h1 {
+body.about-page .about-intro > .about-page h1 {
   margin:0;
-  font-size:min(31.2914px, calc(31.2914 / 440 * 100vw));
+  font-size:min(7.1117vw, 31.2914px);
   font-weight:400;
   line-height:.95;
-  letter-spacing:min(-.549px, calc(-.549 / 440 * 100vw));
+  letter-spacing:-.549px;
 }
 
-.about-name-eyebrow {
-  margin:0 0 min(17px, calc(17 / 440 * 100vw));
+body.about-page .about-name-eyebrow {
+  margin:0 0 min(3.8636vw, 17px);
   color:var(--gray);
-  font-size:min(9.8815px, calc(9.8815 / 440 * 100vw));
+  font-size:min(2.2458vw, 9.8815px);
   font-weight:400;
   line-height:1;
   text-transform:lowercase;
 }
 
-.about-bio {
+body.about-page .about-bio {
   width:100%;
-  font-size:min(14px, calc(14 / 440 * 100vw));
+  font-size:min(3.1818vw, 14px);
   font-weight:400;
   font-style:italic;
   line-height:1.32;
-  letter-spacing:min(-.11px, calc(-.11 / 440 * 100vw));
+  letter-spacing:-.11px;
 }
 
-.about-bio p {
+body.about-page .about-bio p {
   margin:0;
 }
 
-.about-bio p + p {
-  margin-top:min(14px, calc(14 / 440 * 100vw));
+body.about-page .about-bio p + p {
+  margin-top:min(3.1818vw, 14px);
 }
 
-.about-details {
+body.about-page .about-details {
   width:calc(297.807 / 283.429 * 100%);
   margin:0;
-  padding-top:min(11.167px, calc(11.167 / 440 * 100vw));
-  border-top:min(.75px, calc(.75 / 440 * 100vw)) solid #aaa;
+  padding-top:min(2.5379vw, 11.167px);
+  border-top:min(.1705vw, .75px) solid #aaa;
   display:grid;
-  grid-template-columns:calc(56.466 / 297.807 * 100%) calc(120.992 / 297.807 * 100%) calc(94.349 / 297.807 * 100%);
+  grid-template-columns:
+    calc(56.466 / 297.807 * 100%)
+    calc(120.992 / 297.807 * 100%)
+    calc(94.349 / 297.807 * 100%);
   column-gap:calc(13 / 297.807 * 100%);
   position:absolute;
-  top:min(303.387px, calc(303.387 / 440 * 100vw));
   left:calc(-14.3786 / 283.429 * 100%);
+  top:min(68.9516vw, 303.387px);
 }
 
-.about-details span {
+body.about-page .about-details span {
   display:block;
-  margin-bottom:min(3.723px, calc(3.723 / 440 * 100vw));
+  margin-bottom:min(.8461vw, 3.723px);
   color:var(--gray);
-  font-size:min(8.3758px, calc(8.3758 / 440 * 100vw));
+  font-size:min(1.9036vw, 8.3758px);
   font-weight:400;
   line-height:1;
 }
 
-.about-page-details p {
+body.about-page .about-details p {
   margin:0;
-  font-size:min(9.3065px, calc(9.3065 / 440 * 100vw));
+  font-size:min(2.1151vw, 9.3065px);
   font-weight:400;
   line-height:1.2;
 }
 
-.about-page .about-page-details a,
-.about-page .about-page-details a:visited,
-.about-page .about-page-details a:hover,
-.about-page .about-page-details a:active {
+body.about-page .about-details a,
+body.about-page .about-details a:visited,
+body.about-page .about-details a:hover,
+body.about-page .about-details a:active {
   color:var(--black);
   text-decoration:none;
+}
+
+body.about-page > .footer {
+  display:none;
 }
