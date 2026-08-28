@@ -965,13 +965,15 @@ MUSEUM
 
   .catelier-opening-statement,
   .catelier-opening-statement-02 {
+    position:static;
+    width:100%;
     margin:0;
-    font-size:clamp(12px, calc(39 / 440 * min(100vw, var(--catelier-max-width))), 39px);
+    font-size:calc(21 / 440 * min(100vw, var(--catelier-max-width)));
     line-height:1.15;
   }
 
   .catelier-opening-statement-02 {
-    margin-top:calc(32 / 880 * 100%);
+    margin-top:calc(32 / 440 * min(100vw, var(--catelier-max-width)));
   }
 
   .catelier-opening-statement span,
