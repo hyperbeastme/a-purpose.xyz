@@ -238,7 +238,7 @@ main {
 /* SKETCHES
    Inner-canvas coordinate system: 1680 x 960. */
 
-.reflections-sketch {
+.reflections-sketches {
   width:1680px;
   height:960px;
   margin:0 auto;
@@ -247,7 +247,7 @@ main {
   overflow:hidden;
 }
 
-.reflections-sketch h2 {
+.reflections-sketches h2 {
   font-family:"futura-pt-condensed", sans-serif;
   font-style:italic;
   position:absolute;
@@ -709,11 +709,11 @@ main {
   margin-top: calc(100 / 880 * 100vh);
 }
 
-.reflections-moodboard + .reflections-sketch {
+.reflections-moodboard + .reflections-sketches {
   margin-top: calc(100 / 960 * 100vh);
 }
 
-.reflections-sketch + .reflections-process {
+.reflections-sketches + .reflections-process {
   margin-top: calc(100 / 960 * 100vh);
 }
 
