@@ -962,10 +962,7 @@ MUSEUM
     top:calc(266.2549 / 880 * 100%);
     width:calc(325 / 440 * 100%);
     height:calc(440 / 880 * 100%);
-    padding:
-      calc(6.4423 / 440 * min(100vw, var(--catelier-max-width)))
-      calc(4.4373 / 440 * min(100vw, var(--catelier-max-width)))
-      0;
+    padding:1.982246% 1.365323% 0;
     text-align:center;
   }
 
@@ -979,7 +976,7 @@ MUSEUM
   }
 
   .catelier-opening-statement-02 {
-    margin-top:calc(32 / 440 * min(100vw, var(--catelier-max-width)));
+    margin-top:9.846154%;
   }
 
   .catelier-opening-statement span,
