@@ -609,8 +609,7 @@ MUSEUM
   left:calc(329.0213 / 440 * 100%);
   top:calc(88.283 / 772 * 100%);
   width:calc(95.7421 / 440 * 100%);
-  transform:rotate(90deg) translateY(-100%);
-  transform-origin:top left;
+  transform:rotate(90deg);
 }
 
 .catelier-museum-02 {
@@ -618,8 +617,7 @@ MUSEUM
   left:calc(199.7471 / 440 * 100%);
   top:calc(595.7999 / 772 * 100%);
   width:calc(113.987 / 440 * 100%);
-  transform:rotate(90deg) translateY(-100%);
-  transform-origin:top left;
+  transform:rotate(90deg);
 }
 
 .catelier-museum-03 {
