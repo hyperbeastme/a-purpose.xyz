@@ -46,19 +46,19 @@ body {
   height:auto;
 }
 
-.collection-directory-link:nth-child(1) {
+.collection-deternal {
   left:41px;
   top:350px;
   width:191px;
 }
 
-.collection-directory-link:nth-child(2) {
+.collection-reflections {
   left:78px;
   top:190px;
   width:326px;
 }
 
-.collection-directory-link:nth-child(3) {
+.collection-catelier {
   left:276px;
   top:435px;
   width:150px;
