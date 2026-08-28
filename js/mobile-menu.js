@@ -1,6 +1,6 @@
 (() => {
   const mobileQuery = window.matchMedia(
-    "(max-width: 767px), (orientation: landscape) and (max-height: 500px)"
+    "(max-width: 1199px), (orientation: landscape) and (max-height: 500px)"
   );
 
   const setupHeader = (header, index) => {
