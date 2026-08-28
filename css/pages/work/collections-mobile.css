@@ -49,21 +49,21 @@ body {
 }
 
 .collection-eternal {
-  left:41px;
-  top:350px;
-  width:191px;
+  left:calc(22.807 / 440 * 100%);
+  top:calc(311.7549 / 772 * 100%);
+  width:calc(210.9434 / 440 * 100%);
 }
 
 .collection-reflections {
-  left:78px;
-  top:190px;
-  width:326px;
+  left:calc(58.6086 / 440 * 100%);
+  top:calc(175.245 / 772 * 100%);
+  width:calc(318.9975 / 440 * 100%);
 }
 
 .collection-catelier {
-  left:276px;
-  top:435px;
-  width:150px;
+  left:calc(280.6789 / 440 * 100%);
+  top:calc(440.0606 / 772 * 100%);
+  width:calc(133.5626 / 440 * 100%);
 }
 
 .collection-directory-page .footer {
