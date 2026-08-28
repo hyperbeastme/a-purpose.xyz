@@ -329,7 +329,7 @@ MOOD
   left:calc(45.7422 / 440 * 100%);
   top:calc(46.9562 / 772 * 100%);
   width:calc(249.3992 / 440 * 100%);
-  z-index: 1001;
+  z-index:1005;
   pointer-events:none;
 }
 
@@ -609,7 +609,8 @@ MUSEUM
   left:calc(329.0213 / 440 * 100%);
   top:calc(88.283 / 772 * 100%);
   width:calc(95.7421 / 440 * 100%);
-  transform: rotate(90deg)
+  transform:rotate(90deg) translateY(-100%);
+  transform-origin:top left;
 }
 
 .catelier-museum-02 {
@@ -617,7 +618,8 @@ MUSEUM
   left:calc(199.7471 / 440 * 100%);
   top:calc(595.7999 / 772 * 100%);
   width:calc(113.987 / 440 * 100%);
-  transform: rotate(90deg)
+  transform:rotate(90deg) translateY(-100%);
+  transform-origin:top left;
 }
 
 .catelier-museum-03 {
