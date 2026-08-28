@@ -25,16 +25,14 @@ body {
   max-width:100%;
   height:880px;
   margin:0 auto;
-  display:grid;
-  grid-template-columns:repeat(2, minmax(0, 800px));
-  column-gap:80px;
-  align-items:center;
+  position:relative;
 }
 
 .work-directory-link {
-  width:100%;
-  max-width:800px;
-  aspect-ratio:1;
+  position:absolute;
+  top:40px;
+  width:800px;
+  height:800px;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -45,6 +43,14 @@ body {
   line-height:1;
   text-align:center;
   text-decoration:none;
+}
+
+.work-directory-link:first-child {
+  left:80px;
+}
+
+.work-directory-link:last-child {
+  left:880px;
 }
 
 .work-directory-link:visited,
@@ -66,8 +72,19 @@ body {
 @media screen and (min-width:768px) and (max-width:1679px) and (min-height:501px) {
   .work-directory {
     width:100%;
+    padding:0 4.7619%;
+    display:grid;
     grid-template-columns:repeat(2, minmax(0, 1fr));
-    column-gap:clamp(24px, 4.7619vw, 80px);
+    align-items:center;
+  }
+
+  .work-directory-link,
+  .work-directory-link:first-child,
+  .work-directory-link:last-child {
+    position:static;
+    width:100%;
+    height:auto;
+    aspect-ratio:1;
   }
 }
 
@@ -82,12 +99,18 @@ body {
     width:100%;
     height:auto;
     padding:20px;
+    display:grid;
     grid-template-columns:1fr;
     gap:20px;
   }
 
-  .work-directory-link {
-    max-width:none;
+  .work-directory-link,
+  .work-directory-link:first-child,
+  .work-directory-link:last-child {
+    position:static;
+    width:100%;
+    height:auto;
+    aspect-ratio:1;
     font-size:clamp(42px, 14vw, 64px);
   }
 }
