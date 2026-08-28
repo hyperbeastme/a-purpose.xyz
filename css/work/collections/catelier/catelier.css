@@ -690,6 +690,16 @@ Artboard: 1600 x 960
   text-decoration:none;
 }
 
+/* Shared section-title inset from the 1680 x 960 artboards. */
+.catelier-mood h2,
+.catelier-sketches h2,
+.catelier-samples h2,
+.catelier-process h2,
+.catelier-museum h2 {
+  left:calc(60 / 1680 * 100%);
+  top:32px;
+}
+
 /* =========================================================
    PAGE SPACING
    ========================================================= */
