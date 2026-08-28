@@ -33,8 +33,8 @@ body {
   position:absolute;
   display:inline-block;
   color:var(--black);
-  font-size:clamp(54px, 4.05vw, 68px);
-  font-style:italic;
+  font-size:clamp(54px, 3.8095vw, 64px);
+  font-style:normal;
   font-weight:400;
   line-height:1;
   text-decoration:none;
@@ -49,18 +49,18 @@ body {
 }
 
 .collection-directory-link:nth-child(1) {
-  left:9%;
-  top:20%;
+  left:calc(185 / 1680 * 100%);
+  top:calc(405 / 880 * 100%);
 }
 
 .collection-directory-link:nth-child(2) {
-  left:38%;
-  top:55%;
+  left:calc(595 / 1680 * 100%);
+  top:calc(205 / 880 * 100%);
 }
 
 .collection-directory-link:nth-child(3) {
-  right:10%;
-  top:28%;
+  left:calc(1320 / 1680 * 100%);
+  top:calc(600 / 880 * 100%);
 }
 
 .collection-directory-page .footer {
