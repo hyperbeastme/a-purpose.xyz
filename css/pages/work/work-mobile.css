@@ -26,19 +26,20 @@ body {
 
 .work-directory {
   width:100%;
-  height:auto;
+  height:669px;
   margin:0 auto;
   padding:0;
   display:grid;
   grid-template-columns:1fr;
+  grid-template-rows:302px 367px;
   gap:0;
 }
 
 .work-directory-link {
   position:relative;
   width:100%;
-  height:auto;
-  aspect-ratio:1;
+  height:100%;
+  aspect-ratio:auto;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -60,6 +61,10 @@ body {
   z-index:3;
 }
 
+.work-directory-link:first-child span {
+  transform:translateY(-35px);
+}
+
 .work-directory-link::before {
   content:"";
   position:absolute;
@@ -69,7 +74,7 @@ body {
   left:0;
   height:106%;
   background:var(--black);
-  transform:translateY(102%);
+  transform:translateY(110%);
   transition:transform 760ms cubic-bezier(.22, .72, .2, 1);
 }
 
@@ -78,7 +83,7 @@ body {
   position:absolute;
   z-index:2;
   left:-15%;
-  bottom:-19%;
+  bottom:-22%;
   width:130%;
   height:20%;
   background:var(--black);
