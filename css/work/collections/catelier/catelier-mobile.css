@@ -983,7 +983,7 @@ MUSEUM
 
   .catelier-opening-statement span,
   .catelier-opening-statement-02 span {
-    display:block;
+    display:inline;
     white-space:normal;
   }
 
