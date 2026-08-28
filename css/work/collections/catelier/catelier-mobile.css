@@ -317,7 +317,7 @@ MOOD
 
 .catelier-mood-outline {
   position:absolute;
-  left:calc(0.0904 / 440 * 100%);
+  left:calc(0 / 440 * 100%);
   top:calc(0 / 772 * 100%);
   width:calc(0 / 440 * 100%);
    z-index: 1004;
