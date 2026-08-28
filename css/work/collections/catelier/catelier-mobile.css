@@ -199,7 +199,6 @@ main {
   line-height:1.28;
   position:absolute;
   margin:0;
-  text-align:left;
   left:calc(63.118 / 440 * 100%);
   top:calc(272.6977 / 732 * 100%);
   width:calc(316.127 / 440 * 100%);
@@ -209,7 +208,6 @@ main {
 .catelier-opening-statement {
   position:absolute;
   margin:0;
-  text-align:left;
   right:calc(63.118  / 440 * 100%);
   top:calc(272.6977/ 732 * 100%);
   width:calc(316.127 / 440 * 100%);
@@ -218,7 +216,6 @@ main {
 .catelier-opening-statement-02 {
   position:absolute;
   margin:0;
-  text-align:left;
   left:calc(63.118 / 440 * 100%);
   top:calc(531.0107 / 732 * 100%);
   width:calc(316.127 / 440 * 100%);
