@@ -682,6 +682,39 @@ Artboard: 1600 x 960
   text-decoration:none;
 }
 
+/* =========================================================
+   PAGE SPACING
+   ========================================================= */
+
+.catelier-opening + .catelier-mood {
+  margin-top: calc(100 / 880 * 100vh);
+}
+
+.catelier-mood+ .catelier-sketches {
+  margin-top: calc(100 / 960 * 100vh);
+}
+
+.catelier-sketches + .catelier-samples {
+  margin-top: calc(100 / 960 * 100vh);
+}
+
+.catelier-samples + .catelier-process {
+  margin-top: calc(100 / 960 * 100vh);
+}
+
+.catelier-process + .catelier-museum {
+  margin-top: calc(100 / 960 * 100vh);
+}
+
+.catelier-museum + .catelier-next-project {
+  margin-top: calc(50 / 960 * 100vh);
+}
+
+.catelier-next-project + .footer {
+  margin-top: calc(0 / 960 * 100vh);
+}
+
+
 /*
 =================
 FOOTER
