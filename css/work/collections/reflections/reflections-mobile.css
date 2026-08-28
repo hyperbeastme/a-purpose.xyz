@@ -684,11 +684,11 @@ main {
   margin-top: calc(100 / 880 * 100vh);
 }
 
-.reflections-moodboard + .reflections-sketch {
+.reflections-moodboard + .reflections-sketches {
   margin-top: calc(100 / 960 * 100vh);
 }
 
-.reflections-sketch + .reflections-process {
+.reflections-sketches + .reflections-process {
   margin-top: calc(100 / 960 * 100vh);
 }
 
