@@ -1,6 +1,6 @@
 (() => {
-  const container = document.querySelector(".projects-index");
-  const links = Array.from(document.querySelectorAll(".project-index-link"));
+  const container = document.querySelector("[data-roaming-container]");
+  const links = Array.from(document.querySelectorAll("[data-roaming-link]"));
 
   if (!container || links.length === 0) return;
 
