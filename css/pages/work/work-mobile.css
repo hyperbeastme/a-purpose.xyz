@@ -28,14 +28,14 @@ body {
   width:100%;
   height:auto;
   margin:0 auto;
-  padding:20px;
+  padding:0;
   display:grid;
   grid-template-columns:1fr;
-  gap:20px;
+  gap:0;
 }
 
 .work-directory-link {
-  position:static;
+  position:relative;
   width:100%;
   height:auto;
   aspect-ratio:1;
