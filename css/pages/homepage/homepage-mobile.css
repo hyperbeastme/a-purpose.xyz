@@ -202,7 +202,7 @@ main {
   margin: 0;
 }
 
-@media (orientation: portrait) and (max-height: 836px) {
+@media (orientation: portrait) {
 /* =========================================================
    LANDING
    Existing values preserved
