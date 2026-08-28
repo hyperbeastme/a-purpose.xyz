@@ -606,17 +606,17 @@ MUSEUM
 
 .catelier-museum-01 {
   position:absolute;
-  left:calc(329.0213 / 440 * 100%);
-  top:calc(88.283 / 772 * 100%);
-  width:calc(95.7421 / 440 * 100%);
+  left:calc(344.9619 / 440 * 100%);
+  top:calc(72.3427 / 772 * 100%);
+  width:calc(63.8609 / 440 * 100%);
   transform:rotate(90deg);
 }
 
 .catelier-museum-02 {
   position:absolute;
-  left:calc(199.7471 / 440 * 100%);
-  top:calc(595.7999 / 772 * 100%);
-  width:calc(113.987 / 440 * 100%);
+  left:calc(218.7305 / 440 * 100%);
+  top:calc(576.8168 / 772 * 100%);
+  width:calc(76.0202 / 440 * 100%);
   transform:rotate(90deg);
 }
 
