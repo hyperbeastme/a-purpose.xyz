@@ -69,7 +69,7 @@ body {
   margin-top:0;
 }
 
-@media screen and (min-width:768px) and (max-width:1679px) and (min-height:501px) {
+@media screen and (max-width:1679px) and (min-height:501px) {
   .work-directory {
     width:100%;
     padding:0 4.7619%;
@@ -85,88 +85,5 @@ body {
     width:100%;
     height:auto;
     aspect-ratio:1;
-  }
-  
-}
-
-@media screen and (max-width:767px),
-       screen and (orientation:portrait),
-       screen and (orientation:landscape) and (max-height:500px) {
-  .work-directory-page {
-    padding-top:var(--header-height, 64px);
-  }
-
-  .work-directory {
-    width:100%;
-    height:auto;
-    padding:20px;
-    display:grid;
-    grid-template-columns:1fr;
-    gap:20px;
-  }
-
-  .work-directory-link,
-  .work-directory-link:first-child,
-  .work-directory-link:last-child {
-    position:static;
-    width:100%;
-    height:auto;
-    aspect-ratio:1;
-    font-size:clamp(42px, 14vw, 64px);
-  }
-
-    /* FOOTER */
-
-  .footer {
-    width:100%;
-    min-height:360px;
-    margin:0 auto;
-    padding:48px var(--page-margin) 28px;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:flex-end;
-    gap:42px;
-    color:var(--gray);
-  }
-
-  .footer::before { display:none; }
-
-  .footer-main {
-    display:flex;
-    flex-wrap:wrap;
-    align-items:center;
-    justify-content:center;
-    gap:16px;
-  }
-
-  .footer-divider { width:1px; height:28px; background:currentColor; }
-  .footer-social,
-  .footer-social img { width:28px; height:28px; }
-  .footer-name,
-  .footer-email { font-size:22px; white-space:nowrap; }
-  .footer-copyright { margin:0; font-size:20px; }
-
-  /* LIGHTBOX */
-
-  .image-lightbox[hidden] { display:none; }
-
-  .image-lightbox {
-    position:fixed;
-    inset:0;
-    z-index:10000;
-    padding:24px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    background:rgb(255 255 255 / 96%);
-  }
-
-  .image-lightbox-image {
-    width:auto;
-    height:auto;
-    max-width:calc(100vw - 48px);
-    max-height:calc(100vh - 48px);
-    object-fit:contain;
   }
 }
