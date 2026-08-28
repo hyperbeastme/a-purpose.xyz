@@ -9,14 +9,14 @@
   --gray:#888;
 }
 
-.about-page .about-page-main {
+.about-main {
   width:100%;
   max-width:440px;
   margin:0 auto;
   padding:var(--header-height) 0 0;
 }
 
-.about-page .about-page-intro {
+.about-intro {
   width:100%;
   max-width:440px;
   aspect-ratio:440 / 732;
@@ -28,7 +28,7 @@
   overflow:hidden;
 }
 
-.about-page .about-page-portrait {
+.about-portrait {
   width:calc(218.2675 / 440 * 100%);
   margin:0;
   position:absolute;
@@ -36,7 +36,7 @@
   left:calc(110.8662 / 440 * 100%);
 }
 
-.about-page .about-page-portrait img {
+.about-portrait img {
   display:block;
   width:100%;
   max-width:none;
@@ -44,7 +44,7 @@
   object-fit:fill;
 }
 
-.about-page .about-page-copy {
+.about-page{
   width:calc(283.429 / 440 * 100%);
   max-width:none;
   margin:0;
@@ -53,7 +53,7 @@
   left:calc(85.4746 / 440 * 100%);
 }
 
-.about-page .about-page-copy h1 {
+.about-page h1 {
   margin:0;
   font-size:min(31.2914px, calc(31.2914 / 440 * 100vw));
   font-weight:400;
@@ -61,7 +61,7 @@
   letter-spacing:min(-.549px, calc(-.549 / 440 * 100vw));
 }
 
-.about-page .about-page-eyebrow {
+.about-name-eyebrow {
   margin:0 0 min(17px, calc(17 / 440 * 100vw));
   color:var(--gray);
   font-size:min(9.8815px, calc(9.8815 / 440 * 100vw));
@@ -70,7 +70,7 @@
   text-transform:lowercase;
 }
 
-.about-page .about-page-bio {
+.about-bio {
   width:100%;
   font-size:min(14px, calc(14 / 440 * 100vw));
   font-weight:400;
@@ -79,15 +79,15 @@
   letter-spacing:min(-.11px, calc(-.11 / 440 * 100vw));
 }
 
-.about-page .about-page-bio p {
+.about-bio p {
   margin:0;
 }
 
-.about-page .about-page-bio p + p {
+.about-bio p + p {
   margin-top:min(14px, calc(14 / 440 * 100vw));
 }
 
-.about-page .about-page-details {
+.about-details {
   width:calc(297.807 / 283.429 * 100%);
   margin:0;
   padding-top:min(11.167px, calc(11.167 / 440 * 100vw));
@@ -100,7 +100,7 @@
   left:calc(-14.3786 / 283.429 * 100%);
 }
 
-.about-page .about-page-details span {
+.about-details span {
   display:block;
   margin-bottom:min(3.723px, calc(3.723 / 440 * 100vw));
   color:var(--gray);
