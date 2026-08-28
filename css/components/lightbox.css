@@ -61,56 +61,6 @@ body.lightbox-open {
   overflow: hidden;
 }
 
-/* Shared project-section contract.
-   Every gallery reserves a 150-unit heading band, and every artwork canvas
-   begins below it. Page-specific artwork coordinates remain unchanged. */
-.catelier-mood,
-.catelier-sketches,
-.catelier-samples,
-.catelier-process {
-  aspect-ratio: 1600 / 1110;
-  min-height: 0;
-}
-
-.catelier-museum {
-  aspect-ratio: 1680 / 1110;
-  min-height: 0;
-}
-
-.catelier-mood > div,
-.catelier-sketches > div,
-.catelier-samples > div,
-.catelier-process > div {
-  inset: auto;
-  left: 50%;
-  top: calc(150 / 1110 * 100%);
-  width: 100%;
-  height: calc(960 / 1110 * 100%);
-  transform: translateX(-50%);
-}
-
-.catelier-museum > div {
-  inset: auto;
-  left: 50%;
-  top: calc(150 / 1110 * 100%);
-  width: 100%;
-  height: calc(960 / 1110 * 100%);
-  transform: translateX(-50%);
-}
-
-.catelier-mood > h2,
-.catelier-sketches > h2,
-.catelier-samples > h2,
-.catelier-process > h2 {
-  left: calc(24 / 1600 * 100%);
-  top: calc(55 / 1110 * 100%);
-}
-
-.catelier-museum > h2 {
-  left: calc(24 / 1680 * 100%);
-  top: calc(55 / 1110 * 100%);
-}
-
 .reflections-canvas {
   left: 50%;
   transform: translateX(-50%);
