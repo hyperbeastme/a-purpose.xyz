@@ -99,18 +99,6 @@ body.printmaking-page main {
   height:100%;
 }
 
-.relief-etching-layout img,
-.layout img,
-.brand-printing-layout img,
-.personal-layout img,
-.production-layout img {
-  position:absolute;
-  display:block;
-  max-width:none;
-  height:auto;
-  margin:0;
-}
-
 .relief-etching p,
 .general-print p,
 .brand-printing p,
@@ -159,9 +147,11 @@ body.printmaking-page main {
 }
 
 .etching-layout img{
-  position: absolute;
-  height: auto;
-  margin: 0;
+  position:absolute;
+  display:block;
+  max-width:none;
+  height:auto;
+  margin:0;
 }
 
 .etching-01 {
@@ -255,9 +245,11 @@ body.printmaking-page main {
 }
 
 .general-layout img{
-  position: absolute;
-  height: auto;
-  margin: 0;
+  position:absolute;
+  display:block;
+  max-width:none;
+  height:auto;
+  margin:0;
 }
 
 .general-01 {
@@ -379,9 +371,11 @@ body.printmaking-page main {
 }
 
 .brand-printing-layout img{
-  position: absolute;
-  height: auto;
-  margin: 0;
+  position:absolute;
+  display:block;
+  max-width:none;
+  height:auto;
+  margin:0;
 }
 
 .branding-01 {
@@ -453,9 +447,11 @@ body.printmaking-page main {
 }
 
 .personal-layout img{
-  position: absolute;
-  height: auto;
-  margin: 0;
+  position:absolute;
+  display:block;
+  max-width:none;
+  height:auto;
+  margin:0;
 }
 
 .personal-01 {
@@ -557,9 +553,11 @@ body.printmaking-page main {
 }
 
 .production-layout img{
-  position: absolute;
-  height: auto;
-  margin: 0;
+  position:absolute;
+  display:block;
+  max-width:none;
+  height:auto;
+  margin:0;
 }
 
 .production-01 {
@@ -650,7 +648,7 @@ body.printmaking-page main {
   .next-project p {
     font-size:16px;
   }
-  
+
   .next-project a {
     font-size:42px;
   }
