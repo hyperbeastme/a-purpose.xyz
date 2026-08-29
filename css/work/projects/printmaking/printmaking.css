@@ -126,6 +126,7 @@ body.printmaking-page main {
 }
 
 /* Linoleum (Relief) / Intaglio (Etching) — 1680 × 960 artboard */
+.layout
 .etching-01 {
   left:calc(823.2351 / 1680 * 100%);
   top:calc(518.265 / 960 * 100%);
