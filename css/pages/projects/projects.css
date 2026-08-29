@@ -1,0 +1,7 @@
+*, *::before, *::after { box-sizing: border-box; }
+html, body { width: 100%; max-width: 100%; margin: 0; overflow-x: hidden; }
+body.coming-soon-page { min-height: 100vh; background: #fff; color: #000; font-family: "futura-pt-condensed", sans-serif; }
+.coming-soon { width: min(1680px, 100%); min-height: 880px; margin: 0 auto; padding: 80px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+.coming-soon h1 { margin: 0 0 24px; font-size: clamp(48px, 6vw, 96px); font-weight: 500; line-height: 1; }
+.coming-soon p { margin: 0 0 30px; font-size: 24px; line-height: 1.2; }
+.coming-soon-back { color: #000; font-size: 22px; }
