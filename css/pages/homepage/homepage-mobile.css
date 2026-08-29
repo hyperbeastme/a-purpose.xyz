@@ -904,7 +904,7 @@ aspect-ratio: 440 / 732;
 
 .end-of-preview {
   left: calc(157.6132 / 440 * 100%);
-  bottom: calc(0 / 836 * 100%);
+  top: calc(811 / 836 * 100%);
   width: calc(103.0957 / 440 * 100%);
 }
 
