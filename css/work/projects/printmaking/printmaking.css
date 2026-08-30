@@ -39,8 +39,8 @@ body {
 
 .print-statement {
   position:absolute;
-  left:calc(276.25 / 1680 * 100%);
-  top:calc(115 / 880 * 100%);
+  left:calc(220.5235 / 1680 * 100%);
+  top:calc(110.2 / 880 * 100%);
   width:calc(487.5 / 1680 * 100%);
 }
 
@@ -53,9 +53,9 @@ body {
 }
 
 .print-opening-01 {
-  left:calc(863.75 / 1680 * 100%);
-  top:calc(195 / 880 * 100%);
-  width:calc(540 / 1680 * 100%);
+  left:calc(856.6734 / 1680 * 100%);
+  top:calc(110.2 / 880 * 100%);
+  width:calc(502.7102 / 1680 * 100%);
   position: absolute;
 }
 
