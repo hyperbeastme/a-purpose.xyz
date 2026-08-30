@@ -128,55 +128,93 @@ body.print-page main {
 }
 
 /* Linoleum (Relief) / Intaglio (Etching) — 1680 × 960 artboard */
+.relief-etching {
+  width:1680px;
+  height:960px;
+  margin:0 auto;
+  padding:0px;
+  position:relative;
+  overflow:hidden;
+}
+
+.relief-etching h2 {
+  font-family:"futura-pt-condensed", sans-serif;
+  font-style:italic;
+  position:absolute;
+  left: calc(24 / 1680 * 100%);
+  top: calc(13 / 960 * 100%);
+  z-index:20;
+  margin:0;
+  font-size:44px;
+  font-weight:300;
+  letter-spacing:0;
+  line-height:1;
+}
+
+.etching-layout {
+  position:absolute;
+  left:0;
+  top:0px;
+  width:100%;
+  height:960px;
+}
+
+.etching-layout img{
+  position: absolute;
+  height: auto;
+  margin: 0;
+}
+
 .etching-01 {
-  left:calc(805.4 / 1680 * 100%);
-  top:calc(518.3 / 960 * 100%);
-  width:calc(432.9 / 1680 * 100%);
+  left:calc(823.2351 / 1680 * 100%);
+  top:calc(518.265 / 960 * 100%);
+  width:calc(363.8443 / 1680 * 100%);
 }
 .relief-01 {
-  left:calc(286.3 / 1680 * 100%);
-  top:calc(250.5 / 960 * 100%);
-  width:calc(303 / 1680 * 100%);
+  left:calc(286.3044 / 1680 * 100%);
+  top:calc(250.5047 / 960 * 100%);
+  width:calc(302.9998 / 1680 * 100%);
 }
 .relief-02 {
-  left:calc(120.1 / 1680 * 100%);
-  top:calc(518.3 / 960 * 100%);
-  width:calc(307.2 / 1680 * 100%);
+  left:calc(120.1042 / 1680 * 100%);
+  top:calc(518.2653 / 960 * 100%);
+  width:calc(307.2156 / 1680 * 100%);
 }
 .relief-03 {
-  left:calc(457.3 / 1680 * 100%);
-  top:calc(518.3 / 960 * 100%);
-  width:calc(298.2 / 1680 * 100%);
+  left:calc(457.3198 / 1680 * 100%);
+  top:calc(518.2653 / 960 * 100%);
+  width:calc(298.1846 / 1680 * 100%);
 }
 .relief-04 {
-  left:calc(687 / 1680 * 100%);
-  top:calc(223.2 / 960 * 100%);
-  width:calc(262.6 / 1680 * 100%);
+  left:calc(687.0267 / 1680 * 100%);
+  top:calc(223.1971 / 960 * 100%);
+  width:calc(262.5721 / 1680 * 100%);
 }
 .relief-05 {
-  left:calc(1308.1 / 1680 * 100%);
-  top:calc(223.2 / 960 * 100%);
-  width:calc(251.8 / 1680 * 100%);
+  left:calc(979.5988 / 1680 * 100%);
+  top:calc(223.1971 / 960 * 100%);
+  width:calc(298.5432 / 1680 * 100%);
 }
 .relief-06 {
-  left:calc(979.6 / 1680 * 100%);
-  top:calc(223.2 / 960 * 100%);
-  width:calc(298.5 / 1680 * 100%);
+  left:calc(1308.142 / 1680 * 100%);
+  top:calc(223.1971 / 960 * 100%);
+  width:calc(251.7538 / 1680 * 100%);
 }
 .caption-relief {
-  left:calc(283 / 1680 * 100%);
-  top:calc(780 / 960 * 100%);
+  left:calc(284.1284 / 1680 * 100%);
+  top:calc(774.0479 / 960 * 100%);
 }
 .caption-study {
-  left:calc(1070 / 1680 * 100%);
-  top:calc(485 / 960 * 100%);
+  left:calc(1071.2783 / 1680 * 100%);
+  top:calc(478.9795 / 960 * 100%);
 }
 .caption-etching {
-  left:calc(930 / 1680 * 100%);
-  top:calc(780 / 960 * 100%);
+  left:calc(930.2344 / 1680 * 100%);
+  top:calc(774.0469 / 960 * 100%);
 }
 
 /* Screen Printing — 1680 × 960 artboard */
+
 .general-01 {
   left:calc(939.6 / 1680 * 100%);
   top:calc(131.2 / 960 * 100%);
