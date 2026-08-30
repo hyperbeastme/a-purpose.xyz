@@ -1,95 +1,51 @@
 :root {
-  --project-max-width:1680px;
-  --header-height:80px;
-  --page-margin:80px;
-  --section-height:960px;
-  --opening-height:880px;
-  --canvas-top:calc(0 / 960 * 100%);
-  --canvas-height:960px;
-  --black:#000;
-  --white:#fff;
-  --gray:#888;
+  --print-mobile-width: 440;
+  --print-mobile-section-height: 772;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 html,
 body {
-  width:100%;
-  max-width:100%;
-  margin:0;
-  padding:0;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-html {
-  overflow-x:hidden;
-  scroll-behavior:smooth;
+body.print-page {
+  background: #fff;
+  color: #000;
+  font-family: "futura-pt-condensed", sans-serif;
 }
 
-body {
-  overflow-x:clip;
-  background:var(--white);
-  color:var(--black);
-  font-family:"futura-pt-condensed", sans-serif;
+body.print-page main {
+  width: 100%;
+  max-width: none;
 }
 
-img {
-  display:block;
-}
-
-a,
-a:visited,
-a:hover,
-a:active {
-  color:inherit;
-  text-decoration:none;
-}
-
-.print-page {
-  width:100%;
-  margin:0;
-  overflow:hidden;
-  background:white;
-  color:black;
+.print-opening,
+.relief-etching,
+.general-print,
+.brand-printing,
+.personal,
+.production {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
 }
 
 .print-opening {
-  width:100%;
-  max-width:1680px;
-  aspect-ratio:1680 / 880;
-  height:auto;
-  margin:0 auto;
-  position:relative;
-  overflow:hidden;
-}
-
-.print-opening {
-  position:absolute;
-  left:calc(220 / 1680 * 100%);
-  top:calc(108 / 880 * 100%);
-  width:calc(557 / 1680 * 100%);
-  font-size:clamp(8px, calc(23 / 1680 * 100vw), 23px);
-  font-weight:500;
-  line-height:1.34;
-}
-
-.print-statement p {
-  margin:0 0 calc(35 / 880 * 100%);
-}
-
-.print-opening-01 {
-  position:absolute;
-  display:block;
-  max-width:none;
-  left:calc(856.6734 / 1680 * 100%);
-  top:calc(110.2 / 880 * 100%);
-  width:calc(502.7102 / 1680 * 100%);
-  height:auto;
-  object-fit:contain;
+  aspect-ratio: 440 / 732;
 }
 
 .relief-etching,
@@ -97,13 +53,31 @@ a:active {
 .brand-printing,
 .personal,
 .production {
-  width:100%;
-  max-width:1680px;
-  aspect-ratio:1680 / 960;
-  height:auto;
-  margin:0 auto;
-  position:relative;
-  overflow:hidden;
+  aspect-ratio: 440 / 772;
+}
+
+.print-statement,
+.etching-layout,
+.general-layout,
+.brand-layout,
+.personal-layout,
+.production-layout {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.print-opening img,
+.etching-layout img,
+.general-layout img,
+.brand-layout img,
+.personal-layout img,
+.production-layout img {
+  position: absolute;
+  display: block;
+  max-width: none;
+  margin: 0;
 }
 
 .relief-etching h2,
@@ -111,41 +85,7 @@ a:active {
 .brand-printing h2,
 .personal h2,
 .production h2 {
-  font-family:"futura-pt-condensed", sans-serif;
-  font-style:italic;
-  position:absolute;
-  left:calc(25 / 1680 * 100%);
-  top:calc(13 / 960 * 100%);
-  z-index:20;
-  margin:0;
-  font-size:clamp(16px, calc(54 / 1680 * 100vw), 54px);
-  font-weight:500;
-  letter-spacing:0;
-  line-height:1;
-}
-
-.relief-etching-layout,
-.general-print-layout,
-.brand-printing-layout,
-.personal-layout,
-.production-layout {
-  position:absolute;
-  left:0;
-  top:0;
-  width:100%;
-  height:100%;
-}
-
-.relief-etching-layout img,
-.general-print-layout img,
-.brand-printing-layout img,
-.personal-layout img,
-.production-layout img {
-  position:absolute;
-  display:block;
-  max-width:none;
-  height:auto;
-  margin:0;
+  display: none;
 }
 
 .relief-etching p,
@@ -153,348 +93,424 @@ a:active {
 .brand-printing p,
 .personal p,
 .production p {
-  position:absolute;
-  z-index:20;
-  margin:0;
-  font-size:clamp(7px, calc(17 / 1680 * 100vw), 17px);
-  font-style:italic;
-  font-weight:500;
-  line-height:1;
+  position: absolute;
+  z-index: 20;
+  margin: 0;
+  font-size: calc(12 / 440 * 100vw);
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1;
+  white-space: nowrap;
 }
 
-/* Linoleum (Relief) / Intaglio (Etching) — 1680 × 960 artboard */
+/* opening.svg — white artboard: x 0, y 34.695, width 440, height 732 */
+.print-opening-01 {
+  left: calc(124.105 / 440 * 100%);
+  top: calc(32.373 / 732 * 100%);
+  width: calc(191.789 / 440 * 100%);
+  height: calc(268.505 / 732 * 100%);
+  object-fit: cover;
+}
+
+.print-statement {
+  inset: auto;
+  left: calc(89.222 / 440 * 100%);
+  right: calc(89.222 / 440 * 100%);
+  top: calc(325.692 / 732 * 100%);
+  width: auto;
+  height: auto;
+  font-size: calc(12 / 440 * 100vw);
+  font-weight: 400;
+  line-height: calc(17.63 / 12);
+}
+
+.print-statement p {
+  margin: 0 0 calc(20.498 / 440 * 100vw);
+}
+
+.print-statement p:last-child {
+  margin-bottom: 0;
+}
+
+.print-statement span {
+  display: block;
+}
+
+/* relief.svg — viewBox 0 0 440 772 */
+.relief-01,
+.relief-02,
+.relief-03,
+.relief-04,
 .etching-01 {
-  left:calc(805.4 / 1680 * 100%);
-  top:calc(518.3 / 960 * 100%);
-  width:calc(432.9 / 1680 * 100%);
+  display: none;
 }
-.relief-01 {
-  left:calc(286.3 / 1680 * 100%);
-  top:calc(250.5 / 960 * 100%);
-  width:calc(303 / 1680 * 100%);
-}
-.relief-02 {
-  left:calc(120.1 / 1680 * 100%);
-  top:calc(518.3 / 960 * 100%);
-  width:calc(307.2 / 1680 * 100%);
-}
-.relief-03 {
-  left:calc(457.3 / 1680 * 100%);
-  top:calc(518.3 / 960 * 100%);
-  width:calc(298.2 / 1680 * 100%);
-}
-.relief-04 {
-  left:calc(687 / 1680 * 100%);
-  top:calc(223.2 / 960 * 100%);
-  width:calc(262.6 / 1680 * 100%);
-}
+
 .relief-05 {
-  left:calc(1308.1 / 1680 * 100%);
-  top:calc(223.2 / 960 * 100%);
-  width:calc(251.8 / 1680 * 100%);
+  left: calc(19.198 / 440 * 100%);
+  top: calc(256.113 / 772 * 100%);
+  width: calc(139 / 440 * 100%);
+  height: calc(110.7 / 772 * 100%);
+  object-fit: fill;
 }
+
 .relief-06 {
-  left:calc(979.6 / 1680 * 100%);
-  top:calc(223.2 / 960 * 100%);
-  width:calc(298.5 / 1680 * 100%);
-}
-.relief-etching-caption-relief {
-  left:calc(283 / 1680 * 100%);
-  top:calc(780 / 960 * 100%);
-}
-.relief-etching-caption-study {
-  left:calc(1070 / 1680 * 100%);
-  top:calc(485 / 960 * 100%);
-}
-.relief-etching-caption-etching {
-  left:calc(930 / 1680 * 100%);
-  top:calc(780 / 960 * 100%);
+  left: calc(302.615 / 440 * 100%);
+  top: calc(256.113 / 772 * 100%);
+  width: calc(117.914 / 440 * 100%);
+  height: calc(111.36 / 772 * 100%);
+  object-fit: fill;
 }
 
-/* Screen Printing — 1680 × 960 artboard */
-.general-01 {
-  left:calc(939.6 / 1680 * 100%);
-  top:calc(131.2 / 960 * 100%);
-  width:calc(255.6 / 1680 * 100%);
+.caption-relief {
+  left: calc(131.777 / 440 * 100%);
+  top: calc(217.588 / 772 * 100%);
 }
-.general-02 {
-  left:calc(1270.2 / 1680 * 100%);
-  top:calc(131.2 / 960 * 100%);
-  width:calc(116.8 / 1680 * 100%);
+
+.caption-study {
+  left: calc(198.47 / 440 * 100%);
+  top: calc(380.057 / 772 * 100%);
 }
-.general-03 {
-  left:calc(1270.2 / 1680 * 100%);
-  top:calc(316.2 / 960 * 100%);
-  width:calc(116.8 / 1680 * 100%);
+
+.caption-etching {
+  left: calc(185.766 / 440 * 100%);
+  top: calc(529.722 / 772 * 100%);
 }
-.general-04 {
-  left:calc(1416.3 / 1680 * 100%);
-  top:calc(316.2 / 960 * 100%);
-  width:calc(116.8 / 1680 * 100%);
-}
-.general-05 {
-  left:calc(1416.3 / 1680 * 100%);
-  top:calc(131.2 / 960 * 100%);
-  width:calc(116.8 / 1680 * 100%);
-}
-.general-06 {
-  left:calc(672.9 / 1680 * 100%);
-  top:calc(131.2 / 960 * 100%);
-  width:calc(191.7 / 1680 * 100%);
-}
-.general-07 {
-  left:calc(146.9 / 1680 * 100%);
-  top:calc(132 / 960 * 100%);
-  width:calc(496 / 1680 * 100%);
-}
-.general-08 {
-  left:calc(189.7 / 1680 * 100%);
-  top:calc(552 / 960 * 100%);
-  width:calc(255.6 / 1680 * 100%);
-}
-.general-09 {
-  left:calc(515.3 / 1680 * 100%);
-  top:calc(552 / 960 * 100%);
-  width:calc(263.3 / 1680 * 100%);
-}
-.general-10 {
-  left:calc(1333.8 / 1680 * 100%);
-  top:calc(552 / 960 * 100%);
-  width:calc(155.7 / 1680 * 100%);
-}
+
+/* general.svg — viewBox 0 0 440 772 */
+.general-02,
+.general-03,
 .general-11 {
-  left:calc(1333.1 / 1680 * 100%);
-  top:calc(737.7 / 960 * 100%);
-  width:calc(157.2 / 1680 * 100%);
+  display: none;
 }
+
+.general-01 {
+  left: calc(12.515 / 440 * 100%);
+  top: calc(59.825 / 772 * 100%);
+  width: calc(205.082 / 440 * 100%);
+  height: calc(140.548 / 772 * 100%);
+  object-fit: fill;
+}
+
+.general-04 {
+  left: calc(364.673 / 440 * 100%);
+  top: calc(234.739 / 772 * 100%);
+  width: calc(57.456 / 440 * 100%);
+  height: calc(76.608 / 772 * 100%);
+  object-fit: fill;
+}
+
+.general-05 {
+  left: calc(296.867 / 440 * 100%);
+  top: calc(234.81 / 772 * 100%);
+  width: calc(57.456 / 440 * 100%);
+  height: calc(76.608 / 772 * 100%);
+  object-fit: fill;
+}
+
+.general-06 {
+  left: calc(296.867 / 440 * 100%);
+  top: calc(321.706 / 772 * 100%);
+  width: calc(57.456 / 440 * 100%);
+  height: calc(76.608 / 772 * 100%);
+  object-fit: fill;
+}
+
+.general-07 {
+  left: calc(364.697 / 440 * 100%);
+  top: calc(321.674 / 772 * 100%);
+  width: calc(57.456 / 440 * 100%);
+  height: calc(76.608 / 772 * 100%);
+  object-fit: fill;
+}
+
+.general-08 {
+  left: calc(157.883 / 440 * 100%);
+  top: calc(234.778 / 772 * 100%);
+  width: calc(123.984 / 440 * 100%);
+  height: calc(165.312 / 772 * 100%);
+  object-fit: fill;
+}
+
+.general-09 {
+  left: calc(16.715 / 440 * 100%);
+  top: calc(234.778 / 772 * 100%);
+  width: calc(127.5 / 440 * 100%);
+  height: calc(165 / 772 * 100%);
+  object-fit: fill;
+}
+
+.general-10 {
+  left: calc(21.545 / 440 * 100%);
+  top: calc(443.407 / 772 * 100%);
+  width: calc(282.24 / 440 * 100%);
+  height: calc(211.68 / 772 * 100%);
+  object-fit: fill;
+}
+
 .general-12 {
-  left:calc(848.7 / 1680 * 100%);
-  top:calc(552 / 960 * 100%);
-  width:calc(454.4 / 1680 * 100%);
-}
-.general-print-caption-optical {
-  left:calc(367 / 1680 * 100%);
-  top:calc(487 / 960 * 100%);
-}
-.general-print-caption-repeat {
-  left:calc(1020 / 1680 * 100%);
-  top:calc(487 / 960 * 100%);
-}
-.general-print-caption-cmyk {
-  left:calc(1310 / 1680 * 100%);
-  top:calc(487 / 960 * 100%);
-}
-.general-print-caption-shirt {
-  left:calc(244 / 1680 * 100%);
-  top:calc(905 / 960 * 100%);
-}
-.general-print-caption-zine {
-  left:calc(633 / 1680 * 100%);
-  top:calc(905 / 960 * 100%);
-}
-.general-print-caption-virgil {
-  left:calc(1024 / 1680 * 100%);
-  top:calc(905 / 960 * 100%);
+  left: calc(316.129 / 440 * 100%);
+  top: calc(555.412 / 772 * 100%);
+  width: calc(102.969 / 440 * 100%);
+  height: calc(101.592 / 772 * 100%);
+  object-fit: fill;
 }
 
-/* Brand Printing — 1680 × 960 artboard */
+.caption-repeat {
+  left: calc(344.98 / 440 * 100%);
+  top: calc(212.554 / 772 * 100%);
+}
+
+.caption-optical {
+  left: calc(68.494 / 440 * 100%);
+  top: calc(212.554 / 772 * 100%);
+}
+
+.caption-virgil {
+  left: calc(128.515 / 440 * 100%);
+  top: calc(668.696 / 772 * 100%);
+}
+
+.caption-cmyk {
+  left: calc(305.734 / 440 * 100%);
+  top: calc(410.64 / 772 * 100%);
+}
+
+.caption-shirt {
+  left: calc(175.836 / 440 * 100%);
+  top: calc(410.64 / 772 * 100%);
+}
+
+.caption-zine {
+  left: calc(73.808 / 440 * 100%);
+  top: calc(411.704 / 772 * 100%);
+}
+
+/* branding.svg — white artboard: x 0, y 56.392, width 440, height 772 */
 .branding-01 {
-  left:calc(317.7 / 1680 * 100%);
-  top:calc(497.2 / 960 * 100%);
-  width:calc(504 / 1680 * 100%);
+  left: calc(16.028 / 440 * 100%);
+  top: calc(61.817 / 772 * 100%);
+  width: calc(259.156 / 440 * 100%);
+  height: calc(179.581 / 772 * 100%);
+  object-fit: cover;
 }
+
 .branding-02 {
-  left:calc(858.3 / 1680 * 100%);
-  top:calc(497.2 / 960 * 100%);
-  width:calc(504 / 1680 * 100%);
+  left: calc(16.028 / 440 * 100%);
+  top: calc(256.112 / 772 * 100%);
+  width: calc(102.06 / 440 * 100%);
+  height: calc(181.44 / 772 * 100%);
+  object-fit: fill;
 }
+
 .branding-03 {
-  left:calc(264.6 / 1680 * 100%);
-  top:calc(-82.2 / 960 * 100%);
-  width:calc(453.4 / 1680 * 100%);
+  left: calc(132.412 / 440 * 100%);
+  top: calc(256.112 / 772 * 100%);
+  width: calc(102.06 / 440 * 100%);
+  height: calc(181.44 / 772 * 100%);
+  object-fit: fill;
 }
+
 .branding-04 {
-  left:calc(754.6 / 1680 * 100%);
-  top:calc(124.7 / 960 * 100%);
-  width:calc(176.7 / 1680 * 100%);
+  left: calc(290.183 / 440 * 100%);
+  top: calc(61.817 / 772 * 100%);
+  width: calc(133.789 / 440 * 100%);
+  height: calc(179.581 / 772 * 100%);
+  object-fit: cover;
 }
+
 .branding-05 {
-  left:calc(968 / 1680 * 100%);
-  top:calc(124.7 / 960 * 100%);
-  width:calc(176.7 / 1680 * 100%);
+  left: calc(248.704 / 440 * 100%);
+  top: calc(402.495 / 772 * 100%);
+  width: calc(173.376 / 440 * 100%);
+  height: calc(130.032 / 772 * 100%);
+  object-fit: fill;
 }
+
 .branding-06 {
-  left:calc(1139.3 / 1680 * 100%);
-  top:calc(24.6 / 960 * 100%);
-  width:calc(343.1 / 1680 * 100%);
-}
-.brand-printing-caption {
-  left:calc(696 / 1680 * 100%);
-  top:calc(905 / 960 * 100%);
+  left: calc(248.796 / 440 * 100%);
+  top: calc(256.112 / 772 * 100%);
+  width: calc(173.376 / 440 * 100%);
+  height: calc(130.032 / 772 * 100%);
+  object-fit: fill;
 }
 
-/* Singular / Personal Work — 1680 × 960 artboard */
+.caption-branding {
+  left: calc(126.379 / 440 * 100%);
+  top: calc(582.392 / 772 * 100%);
+}
+
+/* personal.svg — white artboard: x 0, y 0, width 440, height 772 */
 .personal-01 {
-  left:calc(836.6 / 1680 * 100%);
-  top:calc(537 / 960 * 100%);
-  width:calc(351.6 / 1680 * 100%);
+  left: calc(18.699 / 440 * 100%);
+  top: calc(67.682 / 772 * 100%);
+  width: calc(104.249 / 440 * 100%);
+  height: calc(143.256 / 772 * 100%);
+  object-fit: cover;
 }
+
 .personal-02 {
-  left:calc(261.7 / 1680 * 100%);
-  top:calc(537 / 960 * 100%);
-  width:calc(249.1 / 1680 * 100%);
+  left: calc(135.471 / 440 * 100%);
+  top: calc(67.682 / 772 * 100%);
+  width: calc(102.201 / 440 * 100%);
+  height: calc(143.256 / 772 * 100%);
+  object-fit: cover;
 }
+
 .personal-03 {
-  left:calc(540.8 / 1680 * 100%);
-  top:calc(537 / 960 * 100%);
-  width:calc(299.2 / 1680 * 100%);
+  left: calc(282.358 / 440 * 100%);
+  top: calc(264.755 / 772 * 100%);
+  width: calc(117.958 / 440 * 100%);
+  height: calc(158.431 / 772 * 100%);
+  object-fit: cover;
 }
+
 .personal-04 {
-  left:calc(-18.5 / 1680 * 100%);
-  top:calc(899.1 / 960 * 100%);
-  width:calc(759.9 / 1680 * 100%);
+  left: calc(248.34 / 440 * 100%);
+  top: calc(67.682 / 772 * 100%);
+  width: calc(172.071 / 440 * 100%);
+  height: calc(143.256 / 772 * 100%);
+  object-fit: cover;
 }
+
 .personal-05 {
-  left:calc(1055.7 / 1680 * 100%);
-  top:calc(924.3 / 960 * 100%);
-  width:calc(428 / 1680 * 100%);
+  left: calc(29.852 / 440 * 100%);
+  top: calc(477.292 / 772 * 100%);
+  width: calc(105.042 / 440 * 100%);
+  height: calc(155.855 / 772 * 100%);
+  object-fit: cover;
 }
+
 .personal-06 {
-  left:calc(772.1 / 1680 * 100%);
-  top:calc(115.1 / 960 * 100%);
-  width:calc(252.4 / 1680 * 100%);
+  left: calc(148.613 / 440 * 100%);
+  top: calc(477.292 / 772 * 100%);
+  width: calc(136.831 / 440 * 100%);
+  height: calc(155.855 / 772 * 100%);
+  object-fit: cover;
 }
+
 .personal-07 {
-  left:calc(216.2 / 1680 * 100%);
-  top:calc(115.1 / 960 * 100%);
-  width:calc(249.7 / 1680 * 100%);
+  left: calc(18.699 / 440 * 100%);
+  top: calc(264.755 / 772 * 100%);
+  width: calc(124.132 / 440 * 100%);
+  height: calc(158.431 / 772 * 100%);
+  object-fit: cover;
 }
+
 .personal-08 {
-  left:calc(495.9 / 1680 * 100%);
-  top:calc(115.1 / 960 * 100%);
-  width:calc(244.8 / 1680 * 100%);
-}
-.personal-08-detail {
-  left:calc(956.1 / 1680 * 100%);
-  top:calc(100.3 / 960 * 100%);
-  width:calc(610.9 / 1680 * 100%);
-}
-.personal-caption-indigo {
-  left:calc(414 / 1680 * 100%);
-  top:calc(486 / 960 * 100%);
+  left: calc(156.6666666667 / 440 * 100%);
+  top: calc(291.1333333333 / 772 * 100%);
+  width: calc(112.7333333333 / 440 * 100%);
+  height: calc(105.6666666667 / 772 * 100%);
+  object-fit: contain;
 }
 
-.personal-caption-top-influence {
-  left:calc(801 / 1680 * 100%);
-  top:calc(486 / 960 * 100%);
+.caption-valentine {
+  left: calc(104.077 / 440 * 100%);
+  top: calc(435.512 / 772 * 100%);
 }
 
-.personal-caption-yardage {
-  left:calc(1161 / 1680 * 100%);
-  top:calc(486 / 960 * 100%);
+.caption-top-influence {
+  left: calc(281.218 / 440 * 100%);
+  top: calc(435.512 / 772 * 100%);
 }
 
-.personal-caption-technicians {
-  left:calc(454 / 1680 * 100%);
-  top:calc(905 / 960 * 100%);
+.caption-indigo {
+  left: calc(87.321 / 440 * 100%);
+  top: calc(223.264 / 772 * 100%);
 }
 
-.personal-caption-valentine {
-  left:calc(1075 / 1680 * 100%);
-  top:calc(905 / 960 * 100%);
+.caption-yardage {
+  left: calc(274.256 / 440 * 100%);
+  top: calc(223.264 / 772 * 100%);
 }
 
-/* Production Printing — 1680 × 960 artboard */
-.production-01 {
-  left:calc(859.1 / 1680 * 100%);
-  top:calc(135.6 / 960 * 100%);
-  width:calc(166.7 / 1680 * 100%);
+.caption-technicians {
+  left: calc(106.104 / 440 * 100%);
+  top: calc(645.474 / 772 * 100%);
 }
-.production-02 {
-  left:calc(-18.5 / 1680 * 100%);
-  top:calc(-80.9 / 960 * 100%);
-  width:calc(759.9 / 1680 * 100%);
-}
-.production-03 {
-  left:calc(622.1 / 1680 * 100%);
-  top:calc(464.7 / 960 * 100%);
-  width:calc(230.2 / 1680 * 100%);
-}
-.production-04 {
-  left:calc(622.1 / 1680 * 100%);
-  top:calc(63.9 / 960 * 100%);
-  width:calc(206.9 / 1680 * 100%);
-}
-.production-05 {
-  left:calc(882.4 / 1680 * 100%);
-  top:calc(408.6 / 960 * 100%);
-  width:calc(261.7 / 1680 * 100%);
-}
-.production-06 {
-  left:calc(1055.7 / 1680 * 100%);
-  top:calc(-55.7 / 960 * 100%);
-  width:calc(428 / 1680 * 100%);
-}
+
+/* production.svg — white artboard: x 193.193, y 55.515, width 440, height 772 */
 .production-colorway {
-  left:calc(1167.2 / 1680 * 100%);
-  top:calc(215.8 / 960 * 100%);
-  width:calc(404.9 / 1680 * 100%);
+  left: calc(20.98 / 440 * 100%);
+  top: calc(60.64 / 772 * 100%);
+  width: calc(399.203 / 440 * 100%);
+  height: calc(214.021 / 772 * 100%);
+  object-fit: cover;
 }
-.production-caption {
-  left:calc(762 / 1680 * 100%);
-  top:calc(905 / 960 * 100%);
+
+.production-01 {
+  left: calc(277.642 / 440 * 100%);
+  top: calc(441.477 / 772 * 100%);
+  width: calc(142.811 / 440 * 100%);
+  height: calc(147.056 / 772 * 100%);
+  object-fit: cover;
+}
+
+.production-02 {
+  left: calc(221.884 / 440 * 100%);
+  top: calc(289.662 / 772 * 100%);
+  width: calc(197.407 / 440 * 100%);
+  height: calc(136.644 / 772 * 100%);
+  object-fit: cover;
+}
+
+.production-03 {
+  left: calc(141.915 / 440 * 100%);
+  top: calc(441.306 / 772 * 100%);
+  width: calc(120.726 / 440 * 100%);
+  height: calc(188.755 / 772 * 100%);
+  object-fit: cover;
+}
+
+.production-04 {
+  left: calc(20.71 / 440 * 100%);
+  top: calc(441.306 / 772 * 100%);
+  width: calc(106.572 / 440 * 100%);
+  height: calc(189.406 / 772 * 100%);
+  object-fit: fill;
+}
+
+.production-05 {
+  left: calc(19.548 / 440 * 100%);
+  top: calc(289.662 / 772 * 100%);
+  width: calc(95.452 / 440 * 100%);
+  height: calc(136.644 / 772 * 100%);
+  object-fit: cover;
+}
+
+.production-06 {
+  left: calc(129.999 / 440 * 100%);
+  top: calc(289.662 / 772 * 100%);
+  width: calc(77.04 / 440 * 100%);
+  height: calc(136.92 / 772 * 100%);
+  object-fit: fill;
+}
+
+.caption-production {
+  left: calc(171.766 / 440 * 100%);
+  top: calc(654.314 / 772 * 100%);
 }
 
 .next-project {
-  width:100%;
-  max-width:1680px;
-  min-height:475px;
-  margin:0 auto;
-  padding:80px;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:flex-end;
+  width: 100%;
+  min-height: 240px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .next-project p {
-  margin:0 0 15px;
-  font-size:22px;
-  opacity:.5;
-}
-.next-project a {
-  color:#000;
-  font-size:clamp(42px, 4.2vw, 70px);
-  line-height:1;
-  text-decoration:none;
+  margin: 0 0 15px;
+  font-size: 16px;
+  opacity: .5;
 }
 
-@media screen and (max-width:767px), screen and (orientation:portrait), screen and (orientation:landscape) and (max-height:500px) {
-  .opening-copy {
-    font-size:calc(23 / 1680 * 100vw);
-  }
-  .relief-etching h2,
-  .general-print h2,
-  .brand-printing h2,
-  .personal h2,
-  .production h2 {
-    font-size:calc(54 / 1680 * 100vw);
-  }
-  .relief-etching p,
-  .general-print p,
-  .brand-printing p,
-  .personal p,
-  .production p {
-    font-size:calc(17 / 1680 * 100vw);
-  }
-  .next-project {
-    min-height:240px;
-    padding:20px;
-  }
-  .next-project p {
-    font-size:16px;
-  }
-  .next-project a {
-    font-size:42px;
-  }
+.next-project a {
+  color: #000;
+  font-size: 42px;
+  line-height: 1;
+  text-decoration: none;
 }
