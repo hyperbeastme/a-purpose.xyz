@@ -84,8 +84,8 @@ body.printmaking-page main {
   line-height:1;
 }
 
-.relief-etching-layout,
-.general-print-layout,
+.etching-layout,
+.general-layout,
 .brand-printing-layout,
 .personal-layout,
 .production-layout {
@@ -96,8 +96,8 @@ body.printmaking-page main {
   height:100%;
 }
 
-.relief-etching-layout img,
-.general-print-layout img,
+.etching-layout img,
+.general-layout img,
 .brand-printing-layout img,
 .personal-layout img,
 .production-layout img {
@@ -158,15 +158,15 @@ body.printmaking-page main {
   top:calc(223.2 / 960 * 100%);
   width:calc(298.5 / 1680 * 100%);
 }
-.relief-etching-caption-relief {
+.caption-relief {
   left:calc(283 / 1680 * 100%);
   top:calc(780 / 960 * 100%);
 }
-.relief-etching-caption-study {
+.caption-study {
   left:calc(1070 / 1680 * 100%);
   top:calc(485 / 960 * 100%);
 }
-.relief-etching-caption-etching {
+.caption-etching {
   left:calc(930 / 1680 * 100%);
   top:calc(780 / 960 * 100%);
 }
@@ -232,27 +232,27 @@ body.printmaking-page main {
   top:calc(552 / 960 * 100%);
   width:calc(454.4 / 1680 * 100%);
 }
-.general-print-caption-optical {
+.caption-optical {
   left:calc(367 / 1680 * 100%);
   top:calc(487 / 960 * 100%);
 }
-.general-print-caption-repeat {
+.caption-repeat {
   left:calc(1020 / 1680 * 100%);
   top:calc(487 / 960 * 100%);
 }
-.general-print-caption-cmyk {
+.caption-cmyk {
   left:calc(1310 / 1680 * 100%);
   top:calc(487 / 960 * 100%);
 }
-.general-print-caption-shirt {
+.caption-shirt {
   left:calc(244 / 1680 * 100%);
   top:calc(905 / 960 * 100%);
 }
-.general-print-caption-zine {
+.caption-zine {
   left:calc(633 / 1680 * 100%);
   top:calc(905 / 960 * 100%);
 }
-.general-print-caption-virgil {
+.caption-virgil {
   left:calc(1024 / 1680 * 100%);
   top:calc(905 / 960 * 100%);
 }
@@ -288,78 +288,69 @@ body.printmaking-page main {
   top:calc(24.6 / 960 * 100%);
   width:calc(343.1 / 1680 * 100%);
 }
-.brand-printing-caption {
+.caption-branding {
   left:calc(696 / 1680 * 100%);
   top:calc(905 / 960 * 100%);
 }
 
 /* Singular / Personal Work — 1680 × 960 artboard */
 .personal-01 {
-  left:calc(836.6 / 1680 * 100%);
-  top:calc(537 / 960 * 100%);
-  width:calc(351.6 / 1680 * 100%);
+  left:calc(216.176 / 1680 * 100%);
+  top:calc(115.067 / 960 * 100%);
+  width:calc(249.48 / 1680 * 100%);
 }
 .personal-02 {
-  left:calc(261.7 / 1680 * 100%);
-  top:calc(537 / 960 * 100%);
-  width:calc(249.1 / 1680 * 100%);
+  left:calc(495.906 / 1680 * 100%);
+  top:calc(115.067 / 960 * 100%);
+  width:calc(244.944 / 1680 * 100%);
 }
 .personal-03 {
-  left:calc(540.8 / 1680 * 100%);
-  top:calc(537 / 960 * 100%);
-  width:calc(299.2 / 1680 * 100%);
+  left:calc(772.119 / 1680 * 100%);
+  top:calc(115.067 / 960 * 100%);
+  width:calc(251.748 / 1680 * 100%);
 }
 .personal-04 {
-  left:calc(-18.5 / 1680 * 100%);
-  top:calc(899.1 / 960 * 100%);
-  width:calc(759.9 / 1680 * 100%);
+  left:calc(956.135 / 1680 * 100%);
+  top:calc(100.258 / 960 * 100%);
+  width:calc(612.864 / 1680 * 100%);
 }
 .personal-05 {
-  left:calc(1055.7 / 1680 * 100%);
-  top:calc(924.3 / 960 * 100%);
-  width:calc(428 / 1680 * 100%);
+  left:calc(261.663 / 1680 * 100%);
+  top:calc(536.953 / 960 * 100%);
+  width:calc(249.48 / 1680 * 100%);
 }
 .personal-06 {
-  left:calc(772.1 / 1680 * 100%);
-  top:calc(115.1 / 960 * 100%);
-  width:calc(252.4 / 1680 * 100%);
+  left:calc(540.797 / 1680 * 100%);
+  top:calc(536.953 / 960 * 100%);
+  width:calc(299.244 / 1680 * 100%);
 }
 .personal-07 {
-  left:calc(216.2 / 1680 * 100%);
-  top:calc(115.1 / 960 * 100%);
-  width:calc(249.7 / 1680 * 100%);
+  left:calc(836.628 / 1680 * 100%);
+  top:calc(536.953 / 960 * 100%);
+  width:calc(351.6 / 1680 * 100%);
 }
 .personal-08 {
-  left:calc(495.9 / 1680 * 100%);
-  top:calc(115.1 / 960 * 100%);
-  width:calc(244.8 / 1680 * 100%);
+  left:calc(1164 / 1680 * 100%);
+  top:calc(590 / 960 * 100%);
+  width:calc(255 / 1680 * 100%);
 }
-.personal-08-detail {
-  left:calc(956.1 / 1680 * 100%);
-  top:calc(100.3 / 960 * 100%);
-  width:calc(610.9 / 1680 * 100%);
-}
-.personal-caption-indigo {
+.caption-indigo {
   left:calc(414 / 1680 * 100%);
   top:calc(486 / 960 * 100%);
 }
-
-.personal-caption-top-influence {
+.caption-top-influence {
   left:calc(801 / 1680 * 100%);
   top:calc(486 / 960 * 100%);
 }
-
-.personal-caption-yardage {
+.caption-yardage {
   left:calc(1161 / 1680 * 100%);
   top:calc(486 / 960 * 100%);
 }
-
-.personal-caption-technicians {
+.caption-technicians {
   left:calc(454 / 1680 * 100%);
   top:calc(905 / 960 * 100%);
 }
-
-.personal-caption-valentine {
+.caption-valentine {
   left:calc(1075 / 1680 * 100%);
   top:calc(905 / 960 * 100%);
 }
@@ -400,7 +391,7 @@ body.printmaking-page main {
   top:calc(215.8 / 960 * 100%);
   width:calc(404.9 / 1680 * 100%);
 }
-.production-caption {
+.caption-production {
   left:calc(762 / 1680 * 100%);
   top:calc(905 / 960 * 100%);
 }
