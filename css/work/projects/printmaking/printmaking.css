@@ -52,7 +52,6 @@ body.printmaking-page main {
   top:calc(110.2 / 880 * 100%);
   width:calc(502.7102 / 1680 * 100%);
   height:auto;
-  object-fit:contain;
 }
 
 .relief-etching,
