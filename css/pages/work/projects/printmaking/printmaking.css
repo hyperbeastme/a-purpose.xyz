@@ -103,7 +103,7 @@ Artboard: 1680 x 960
   margin: 0;
 }
 
-.etching p{
+.relief-etching p{
   position: absolute;
   height: auto;
   margin: 0;
@@ -202,7 +202,7 @@ Artboard: 1680 x 960
   margin: 0;
 }
 
-.general p{
+.general-print p{
   position: absolute;
   height: auto;
   margin: 0;
@@ -390,6 +390,7 @@ PERSONAL
 Artboard: 1680 x 960
 ========================================================= 
 */
+
 .personal {
   width:1680px;
   height:960px;
