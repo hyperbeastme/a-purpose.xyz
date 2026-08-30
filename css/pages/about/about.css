@@ -49,7 +49,6 @@ body.about-page .about-intro {
 
 body.about-page .about-portrait {
   width:calc(404.2725 / 1680 * 100%);
-  height:calc(639.6537 / 880 * 100%);
   margin:0;
   position:absolute;
   left:calc(298.2744 / 1680 * 100%);
