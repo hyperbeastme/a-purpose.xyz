@@ -45,9 +45,9 @@ body.print-page main {
   position:absolute;
   display:block;
   max-width:none;
-  left:calc(824.33 / 1680 * 100%);
+  left:calc(856.6734 / 1680 * 100%);
   top:calc(110.2 / 880 * 100%);
-  width:calc(567 / 1680 * 100%);
+  width:calc(502.7102 / 1680 * 100%);
   height:auto;
   object-fit:contain;
 }
