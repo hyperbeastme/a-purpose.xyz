@@ -107,6 +107,7 @@ Artboard: 1680 x 960
   position: absolute;
   height: auto;
   margin: 0;
+  font-weight:300;
 }
 
 .etching-01 {
@@ -206,6 +207,7 @@ Artboard: 1680 x 960
   position: absolute;
   height: auto;
   margin: 0;
+  font-weight:300;
 }
 
 .general-01 {
@@ -433,6 +435,7 @@ Artboard: 1680 x 960
   position: absolute;
   height: auto;
   margin: 0;
+  font-weight:300;
 }
 
 .personal-01 {
