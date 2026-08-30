@@ -23,6 +23,12 @@ body {
 }
 
 /* PRINT PAGE */
+.print-page {
+  background:white;
+  color:black;
+  font-family:"futura-pt-condensed", sans-serif;
+}
+
 
 .print-opening {
   width:1680px;
@@ -51,7 +57,6 @@ body {
   left:calc(863.75 / 1680 * 100%);
   top:calc(195 / 880 * 100%);
   width:calc(540 / 1680 * 100%);
-  max-height:880px;
   position: absolute;
 }
 
