@@ -31,8 +31,7 @@ body.print-page main {
   margin:0;
   font-size:35px;
   font-weight:400;
-  font-style:italic;
-  line-height:1.20;
+  line-height:1.18;
   left:calc(220.5235 / 1680 * 100%);
   top:calc(110.2 / 880 * 100%);
   width:calc(559.3975 / 1680 * 100%);
