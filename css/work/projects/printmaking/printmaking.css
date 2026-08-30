@@ -26,7 +26,7 @@ body.printmaking-page main {
   overflow:hidden;
 }
 
-.opening-copy {
+.opening-statement {
   position:absolute;
   left:calc(270.5699 / 1680 * 100%);
   top:calc(168.6566 / 880 * 100%);
@@ -38,10 +38,6 @@ body.printmaking-page main {
   font-size: 28px;      /* try 26–28px */
   line-height: 1.32;    /* tighter than what you have now */
   letter-spacing: -0.2px;
-}
-
-.opening-copy p {
-  margin:0 0 calc(35 / 880 * 100%);
 }
 
 .opening-01 {
