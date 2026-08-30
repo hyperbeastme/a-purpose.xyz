@@ -38,7 +38,11 @@ body.print-page main {
 }
 
 .print-statement p {
-  margin:0 0 calc(35 / 880 * 100%);
+  margin:0 0 clamp(0px, calc(35 / 1680 * 100vw), 35px);
+}
+
+.print-statement span {
+  display:block;
 }
 
 .print-opening-01 {
