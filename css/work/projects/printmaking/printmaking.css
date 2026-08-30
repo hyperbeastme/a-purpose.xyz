@@ -31,8 +31,7 @@ body {
 
 
 .print-opening {
-  width:1680px;
-  min-height:880px;
+  aspect-ratio: 1680 / 880;
   margin:0 auto;
   position:relative;
   overflow:hidden;
