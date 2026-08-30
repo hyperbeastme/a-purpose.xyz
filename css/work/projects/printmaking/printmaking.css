@@ -4,8 +4,8 @@
   --page-margin:80px;
   --section-height:960px;
   --opening-height:880px;
-  --canvas-top:calc(0 / 960 * 100%);
-  --canvas-height:960px;
+  --layout-top:calc(0 / 960 * 100%);
+  --layout-height:960px;
   --black:#000;
   --white:#fff;
   --gray:#888;
@@ -50,6 +50,7 @@ a:active {
 }
 
 /* PRINT PAGE */
+
 .print-page {
   background:white;
   color:black;
