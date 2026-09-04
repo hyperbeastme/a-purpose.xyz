@@ -141,6 +141,41 @@ main { width: 100%; }
 .nascar-next-project p { margin: 0 0 15px; font-size: 22px; opacity: .5; }
 .nascar-next-project a { color: #000; font-size: clamp(42px, 4.2vw, 70px); line-height: 1; text-decoration: none; }
 
+
+.footer {
+  width:90%;
+  margin:0 auto;
+  padding:60px 0 35px;
+  border-top:1px solid rgb(0 0 0 / 18%);
+  text-align:center;
+}
+
+.footer-main {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:center;
+  gap:18px;
+}
+
+.footer-divider {
+  width:1px;
+  height:28px;
+  background:#888;
+}
+
+.footer-social img {
+  width:25px;
+  height:25px;
+}
+
+.footer-copyright {
+  margin:38px 0 0;
+  color:#888;
+  font-size:16px;
+}
+
+
 @media screen and (max-width: 767px), screen and (orientation: portrait), screen and (orientation: landscape) and (max-height: 500px) {
   .nascar-opening-copy { font-size: calc(22 / 1680 * 100vw); }
   .nascar-rendered-views h2, .nascar-editorial h2 { font-size: calc(44 / 1680 * 100vw); }
