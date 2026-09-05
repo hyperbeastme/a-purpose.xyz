@@ -19,6 +19,15 @@
   box-sizing: border-box;
 }
 
+/* Disable scroll snapping everywhere on mobile. */
+html,
+body,
+* {
+  scroll-snap-type: none !important;
+  scroll-snap-align: none !important;
+  scroll-snap-stop: normal !important;
+}
+
 html,
 body {
   width: 100%;
